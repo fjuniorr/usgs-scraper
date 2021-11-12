@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1636754957000,
+    "generated": 1636756097000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "55 km SSW of Atiquipa, Peru",
+        "time": 1636749693920,
+        "updated": 1636755108040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ftnk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ftnk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000ftnk",
+        "ids": ",us7000ftnk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.527,
+        "rms": 0.92,
+        "gap": 147,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 55 km SSW of Atiquipa, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.5431,
+          -16.2625,
+          27.49
+        ]
+      },
+      "id": "us7000ftnk"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -92,42 +132,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "61 km SSW of Nikolski, Alaska",
-        "time": 1636739589913,
-        "updated": 1636753623713,
+        "mag": 3.4,
+        "place": "63 km SW of Nikolski, Alaska",
+        "time": 1636739588895,
+        "updated": 1636755310040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021eiw9g42",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021eiw9g42.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ftp2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ftp2.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "021eiw9g42",
-        "ids": ",ak021eiw9g42,",
-        "sources": ",ak,",
+        "sig": 178,
+        "net": "us",
+        "code": "7000ftp2",
+        "ids": ",ak021eiw9g42,us7000ftp2,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": null,
-        "rms": 0.51,
-        "gap": null,
+        "dmin": 1.033,
+        "rms": 0.52,
+        "gap": 211,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 61 km SSW of Nikolski, Alaska"
+        "title": "M 3.4 - 63 km SW of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -169.3009,
-          52.4591,
-          26.1
+          -169.5093,
+          52.5286,
+          22.36
         ]
       },
-      "id": "ak021eiw9g42"
+      "id": "us7000ftp2"
     },
     {
       "type": "Feature",
@@ -573,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "eastern Turkey",
+        "place": "22 km NE of Sincik, Turkey",
         "time": 1636708755537,
         "updated": 1636729079641,
         "tz": null,
@@ -597,7 +637,7 @@
         "gap": 75,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.8 - eastern Turkey"
+        "title": "M 4.8 - 22 km NE of Sincik, Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "61 km ESE of Xunchang, China",
+        "place": "Sichuan-Guizhou border region, China",
         "time": 1636681856264,
         "updated": 1636682823040,
         "tz": null,
@@ -1317,7 +1357,7 @@
         "gap": 30,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 61 km ESE of Xunchang, China"
+        "title": "M 4.7 - Sichuan-Guizhou border region, China"
       },
       "geometry": {
         "type": "Point",
