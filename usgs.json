@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1636825955000,
+    "generated": 1636827001000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -128,6 +128,46 @@
         ]
       },
       "id": "us7000ftue"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "99 km WSW of San Juan del Sur, Nicaragua",
+        "time": 1636819433488,
+        "updated": 1636826693040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ftuc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ftuc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000ftuc",
+        "ids": ",us7000ftuc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.198,
+        "rms": 0.58,
+        "gap": 115,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 99 km WSW of San Juan del Sur, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7028,
+          10.8808,
+          10
+        ]
+      },
+      "id": "us7000ftuc"
     },
     {
       "type": "Feature",
@@ -293,9 +333,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "24 km NNE of Marble Bar, Australia",
-        "time": 1636808753954,
-        "updated": 1636825765836,
+        "place": "Western Australia",
+        "time": 1636808753955,
+        "updated": 1636825998450,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fttj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fttj.geojson",
@@ -312,18 +352,18 @@
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
-        "dmin": 0.218,
-        "rms": 0.94,
-        "gap": 36,
+        "dmin": 0.582,
+        "rms": 0.89,
+        "gap": 46,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - 24 km NNE of Marble Bar, Australia"
+        "title": "M 5.3 - Western Australia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.8557,
-          -20.9732,
+          119.8556,
+          -20.9875,
           10
         ]
       },
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Oaxaca, Mexico",
+        "place": "3 km SSW of El Carrizal, Mexico",
         "time": 1636807112238,
         "updated": 1636819410654,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 139,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Oaxaca, Mexico"
+        "title": "M 4.8 - 3 km SSW of El Carrizal, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "41 km NW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1636798692899,
         "updated": 1636799343040,
         "tz": null,
@@ -597,7 +637,7 @@
         "gap": 64,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 41 km NW of Toyah, Texas"
+        "title": "M 2.7 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "Nevada",
+        "place": "32 km SE of Mina, Nevada",
         "time": 1636788528902,
         "updated": 1636789895040,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 49.56,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Nevada"
+        "title": "M 2.8 - 32 km SE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -1248,46 +1288,6 @@
         ]
       },
       "id": "pr2021316013"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "63 km SW of Nikolski, Alaska",
-        "time": 1636739588895,
-        "updated": 1636755310040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ftp2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ftp2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "us",
-        "code": "7000ftp2",
-        "ids": ",ak021eiw9g42,us7000ftp2,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.033,
-        "rms": 0.52,
-        "gap": 211,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 63 km SW of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -169.5093,
-          52.5286,
-          22.36
-        ]
-      },
-      "id": "us7000ftp2"
     }
   ],
   "bbox": [
