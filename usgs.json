@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1636902591000,
+    "generated": 1636903813000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
     {
@@ -88,6 +88,46 @@
         ]
       },
       "id": "ak021em58j16"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "35 km N of Bandar Abbas, Iran",
+        "time": 1636897500979,
+        "updated": 1636903443040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fu2a",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fu2a.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000fu2a",
+        "ids": ",us7000fu2a,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.553,
+        "rms": 0.72,
+        "gap": 79,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 35 km N of Bandar Abbas, Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.2354,
+          27.5088,
+          10
+        ]
+      },
+      "id": "us7000fu2a"
     },
     {
       "type": "Feature",
@@ -253,19 +293,19 @@
       "type": "Feature",
       "properties": {
         "mag": 6.3,
-        "place": "southern Iran",
+        "place": "64 km NNW of Bandar Abbas, Iran",
         "time": 1636891718970,
-        "updated": 1636902250617,
+        "updated": 1636903759069,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fu12",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fu12.geojson",
-        "felt": 117,
+        "felt": 124,
         "cdi": 9.1,
         "mmi": 7.673,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 756,
+        "sig": 763,
         "net": "us",
         "code": "7000fu12",
         "ids": ",us7000fu12,",
@@ -277,7 +317,7 @@
         "gap": 52,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 6.3 - southern Iran"
+        "title": "M 6.3 - 64 km NNW of Bandar Abbas, Iran"
       },
       "geometry": {
         "type": "Point",
@@ -295,17 +335,17 @@
         "mag": 6,
         "place": "62 km NNW of Bandar Abbas, Iran",
         "time": 1636891623212,
-        "updated": 1636901147376,
+        "updated": 1636903144925,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fu0x",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fu0x.geojson",
-        "felt": 36,
+        "felt": 37,
         "cdi": 8.6,
         "mmi": 7.48,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 681,
+        "sig": 682,
         "net": "us",
         "code": "7000fu0x",
         "ids": ",us7000fu0x,",
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "75 km W of Wana, Pakistan",
+        "place": "central Afghanistan",
         "time": 1636839724757,
         "updated": 1636840990040,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 75 km W of Wana, Pakistan"
+        "title": "M 4.7 - central Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "southern Iran",
+        "place": "55 km SW of Dārāb, Iran",
         "time": 1636836741380,
         "updated": 1636894244429,
         "tz": null,
@@ -1077,7 +1117,7 @@
         "gap": 57,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - southern Iran"
+        "title": "M 4.6 - 55 km SW of Dārāb, Iran"
       },
       "geometry": {
         "type": "Point",
