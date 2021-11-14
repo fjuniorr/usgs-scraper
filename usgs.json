@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1636854184000,
+    "generated": 1636856269000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "Nevada",
+        "time": 1636855014166,
+        "updated": 1636855778040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ftxm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ftxm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000ftxm",
+        "ids": ",us7000ftxm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.252,
+        "rms": 0.43,
+        "gap": 50,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.738,
+          38.4253,
+          5
+        ]
+      },
+      "id": "us7000ftxm"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1448,46 +1488,6 @@
         ]
       },
       "id": "us7000ftr1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.62,
-        "place": "3 km S of Pāhala, Hawaii",
-        "time": 1636767950260,
-        "updated": 1636771116960,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72793907",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72793907.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "hv",
-        "code": "72793907",
-        "ids": ",hv72793907,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 80,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 3 km S of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.473833333333,
-          19.1753333333333,
-          35.28
-        ]
-      },
-      "id": "hv72793907"
     }
   ],
   "bbox": [
