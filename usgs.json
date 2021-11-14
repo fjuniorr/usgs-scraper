@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1636890207000,
+    "generated": 1636890753000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.17,
         "place": "5 km SW of Stella, Puerto Rico",
         "time": 1636887417290,
-        "updated": 1636888713663,
+        "updated": 1636890461375,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021318002",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021318002.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "2021318002",
         "ids": ",pr2021318002,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 12,
         "dmin": 0.2529,
         "rms": 0.2,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "pr2021318002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "3 km ENE of Pāhala, Hawaii",
+        "time": 1636883870488,
+        "updated": 1636890616040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fu0f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fu0f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "us",
+        "code": "7000fu0f",
+        "ids": ",us7000fu0f,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.059,
+        "rms": 0.26,
+        "gap": 144,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 3 km ENE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.4455,
+          19.2178,
+          38.54
+        ]
+      },
+      "id": "us7000fu0f"
     },
     {
       "type": "Feature",
