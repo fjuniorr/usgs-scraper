@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1636913429000,
+    "generated": 1636914869000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 37
   },
   "features": [
     {
@@ -175,12 +175,12 @@
         "mag": 3.1,
         "place": "45km SW of Primo Tapia, B.C., MX",
         "time": 1636906030020,
-        "updated": 1636909157040,
+        "updated": 1636914453249,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40096736",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40096736.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -190,7 +190,7 @@
         "code": "40096736",
         "ids": ",ci40096736,us7000fu2r,",
         "sources": ",ci,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 22,
         "dmin": 0.4864,
         "rms": 0.14,
@@ -575,17 +575,17 @@
         "mag": 6.3,
         "place": "southern Iran",
         "time": 1636891718970,
-        "updated": 1636912926650,
+        "updated": 1636914348786,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fu12",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fu12.geojson",
-        "felt": 151,
+        "felt": 152,
         "cdi": 8.7,
         "mmi": 7.673,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 781,
+        "sig": 782,
         "net": "us",
         "code": "7000fu12",
         "ids": ",us7000fu12,",
@@ -1488,93 +1488,13 @@
         ]
       },
       "id": "us7000ftvn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.39,
-        "place": "Puerto Rico region",
-        "time": 1636828446130,
-        "updated": 1636837697040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021317004",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021317004.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 177,
-        "net": "pr",
-        "code": "2021317004",
-        "ids": ",us7000ftvh,pr2021317004,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.5819,
-        "rms": 0.31,
-        "gap": 287,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - Puerto Rico region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.3191,
-          18.8883,
-          15
-        ]
-      },
-      "id": "pr2021317004"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "76 km ENE of Luganville, Vanuatu",
-        "time": 1636827932837,
-        "updated": 1636841079040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ftvi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ftvi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000ftvi",
-        "ids": ",us7000ftvi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.631,
-        "rms": 0.57,
-        "gap": 141,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 76 km ENE of Luganville, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.8378,
-          -15.2908,
-          164.92
-        ]
-      },
-      "id": "us7000ftvi"
     }
   ],
   "bbox": [
     -179.7721,
     -60.1048,
     1.6,
-    167.8378,
+    141.4516,
     60.0102,
     510.66
   ]
