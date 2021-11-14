@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1636924163000,
+    "generated": 1636925088000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -95,7 +95,7 @@
         "mag": 2.9,
         "place": "21 km NW of Gabbs, Nevada",
         "time": 1636918605849,
-        "updated": 1636918889566,
+        "updated": 1636924507040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00828061",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00828061.geojson",
@@ -108,8 +108,8 @@
         "sig": 129,
         "net": "nn",
         "code": "00828061",
-        "ids": ",nn00828061,",
-        "sources": ",nn,",
+        "ids": ",us7000fu3l,nn00828061,",
+        "sources": ",us,nn,",
         "types": ",origin,phase-data,",
         "nst": 36,
         "dmin": 0.571,
