@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1636968677000,
+    "generated": 1636969467000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,12 +15,12 @@
         "mag": 3.32,
         "place": "7km NW of Parkfield, CA",
         "time": 1636968509460,
-        "updated": 1636968667654,
+        "updated": 1636969319526,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73652930",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73652930.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "73652930",
         "ids": ",nc73652930,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 57,
         "dmin": 0.0137,
         "rms": 0.08,
@@ -55,7 +55,7 @@
         "mag": 4.4,
         "place": "149 km SSW of Akhiok, Alaska",
         "time": 1636967954422,
-        "updated": 1636968605390,
+        "updated": 1636969008040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021enpwpl8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021enpwpl8.geojson",
@@ -68,9 +68,9 @@
         "sig": 298,
         "net": "ak",
         "code": "021enpwpl8",
-        "ids": ",ak021enpwpl8,",
-        "sources": ",ak,",
-        "types": ",losspager,origin,shakemap,",
+        "ids": ",ak021enpwpl8,us7000fu8x,",
+        "sources": ",ak,us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.63,
@@ -493,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "58 km NNW of Bandar Abbas, Iran",
+        "place": "southern Iran",
         "time": 1636944823776,
         "updated": 1636946728040,
         "tz": null,
@@ -517,7 +517,7 @@
         "gap": 146,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 58 km NNW of Bandar Abbas, Iran"
+        "title": "M 4.2 - southern Iran"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "56 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1636909097429,
         "updated": 1636911681040,
         "tz": null,
@@ -1157,7 +1157,7 @@
         "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 56 km S of Whites City, New Mexico"
+        "title": "M 2.7 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1653,13 +1653,13 @@
       "type": "Feature",
       "properties": {
         "mag": 6.3,
-        "place": "southern Iran",
+        "place": "64 km NNW of Bandar Abbas, Iran",
         "time": 1636891718970,
-        "updated": 1636960779478,
+        "updated": 1636969248525,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fu12",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fu12.geojson",
-        "felt": 165,
+        "felt": 166,
         "cdi": 8.7,
         "mmi": 7.673,
         "alert": "yellow",
@@ -1677,7 +1677,7 @@
         "gap": 52,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 6.3 - southern Iran"
+        "title": "M 6.3 - 64 km NNW of Bandar Abbas, Iran"
       },
       "geometry": {
         "type": "Point",
