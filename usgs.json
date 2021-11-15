@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637013187000,
+    "generated": 1637014156000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -373,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "63 km NNW of Bandar Abbas, Iran",
+        "place": "southern Iran",
         "time": 1636983371487,
         "updated": 1636992226787,
         "tz": null,
@@ -397,7 +397,7 @@
         "gap": 60,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - 63 km NNW of Bandar Abbas, Iran"
+        "title": "M 5.2 - southern Iran"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "southern Iran",
+        "place": "58 km NNW of Bandar Abbas, Iran",
         "time": 1636944823776,
         "updated": 1636946728040,
         "tz": null,
@@ -1157,7 +1157,7 @@
         "gap": 146,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - southern Iran"
+        "title": "M 4.2 - 58 km NNW of Bandar Abbas, Iran"
       },
       "geometry": {
         "type": "Point",
@@ -1408,46 +1408,6 @@
         ]
       },
       "id": "hv72795917"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "South Indian Ocean",
-        "time": 1636927134385,
-        "updated": 1636928074040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fu43",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fu43.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "7000fu43",
-        "ids": ",us7000fu43,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 8.906,
-        "rms": 0.44,
-        "gap": 84,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - South Indian Ocean"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          51.2125,
-          -37.5306,
-          10
-        ]
-      },
-      "id": "us7000fu43"
     }
   ],
   "bbox": [
