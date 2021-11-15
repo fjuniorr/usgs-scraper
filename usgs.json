@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1636996916000,
+    "generated": 1636998074000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.73000002,
+        "place": "4 km S of Pāhala, Hawaii",
+        "time": 1636997782820,
+        "updated": 1636997975520,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72796917",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72796917.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 115,
+        "net": "hv",
+        "code": "72796917",
+        "ids": ",hv72796917,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": null,
+        "rms": 0.129999995,
+        "gap": 103,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 4 km S of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.474838256836,
+          19.1626663208008,
+          34.060001373291
+        ]
+      },
+      "id": "hv72796917"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -455,17 +495,17 @@
         "mag": 3.32,
         "place": "7km NW of Parkfield, CA",
         "time": 1636968509460,
-        "updated": 1636995672312,
+        "updated": 1636997913980,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73652930",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73652930.geojson",
-        "felt": 14,
-        "cdi": 3.1,
+        "felt": 16,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 174,
+        "sig": 175,
         "net": "nc",
         "code": "73652930",
         "ids": ",nc73652930,us7000fu96,",
@@ -1488,46 +1528,6 @@
         ]
       },
       "id": "hv72795762"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "6 km WSW of La Parguera, Puerto Rico",
-        "time": 1636911349950,
-        "updated": 1636912210400,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021318004",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021318004.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "pr",
-        "code": "2021318004",
-        "ids": ",pr2021318004,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.0524,
-        "rms": 0.09,
-        "gap": 275,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km WSW of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1006,
-          17.9548,
-          10
-        ]
-      },
-      "id": "pr2021318004"
     }
   ],
   "bbox": [
