@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1636970014000,
+    "generated": 1636971045000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 5.6,
+        "place": "southern East Pacific Rise",
+        "time": 1636968987049,
+        "updated": 1636970339469,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fu9c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fu9c.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 482,
+        "net": "us",
+        "code": "7000fu9c",
+        "ids": ",us7000fu9c,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 7.948,
+        "rms": 0.46,
+        "gap": 87,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.6 - southern East Pacific Rise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2633,
+          -34.9769,
+          10
+        ]
+      },
+      "id": "us7000fu9c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.32,
         "place": "7km NW of Parkfield, CA",
         "time": 1636968509460,
-        "updated": 1636969930249,
+        "updated": 1636970172273,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73652930",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73652930.geojson",
@@ -1808,46 +1848,6 @@
         ]
       },
       "id": "pr2021318002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "3 km ENE of Pāhala, Hawaii",
-        "time": 1636883870488,
-        "updated": 1636905636033,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fu0f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fu0f.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "7000fu0f",
-        "ids": ",us7000fu0f,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.059,
-        "rms": 0.26,
-        "gap": 144,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 3 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.4455,
-          19.2178,
-          38.54
-        ]
-      },
-      "id": "us7000fu0f"
     }
   ],
   "bbox": [
