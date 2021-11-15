@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1636983792000,
+    "generated": 1636984400000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "65 km NNW of Bandar Abbas, Iran",
+        "time": 1636983371538,
+        "updated": 1636984281040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fuaz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fuaz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000fuaz",
+        "ids": ",us7000fuaz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.773,
+        "rms": 0.68,
+        "gap": 64,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 65 km NNW of Bandar Abbas, Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.014,
+          27.7245,
+          10
+        ]
+      },
+      "id": "us7000fuaz"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "southern Iran",
+        "place": "58 km NNW of Bandar Abbas, Iran",
         "time": 1636944823776,
         "updated": 1636946728040,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": 146,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - southern Iran"
+        "title": "M 4.2 - 58 km NNW of Bandar Abbas, Iran"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "western Texas",
+        "place": "56 km S of Whites City, New Mexico",
         "time": 1636909097429,
         "updated": 1636911681040,
         "tz": null,
@@ -1317,7 +1357,7 @@
         "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - western Texas"
+        "title": "M 2.7 - 56 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1608,46 +1648,6 @@
         ]
       },
       "id": "ak021em58j16"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "35 km N of Bandar Abbas, Iran",
-        "time": 1636897500979,
-        "updated": 1636903443040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fu2a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fu2a.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000fu2a",
-        "ids": ",us7000fu2a,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.553,
-        "rms": 0.72,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 35 km N of Bandar Abbas, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.2354,
-          27.5088,
-          10
-        ]
-      },
-      "id": "us7000fu2a"
     }
   ],
   "bbox": [
