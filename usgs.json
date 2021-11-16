@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637022835000,
+    "generated": 1637026821000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "5 km S of Quinton, Oklahoma",
+        "time": 1637026608621,
+        "updated": 1637026714836,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2021wkyr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2021wkyr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "ok",
+        "code": "2021wkyr",
+        "ids": ",ok2021wkyr,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.1449823081,
+        "rms": 0.5555963446,
+        "gap": 204.9741783,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 5 km S of Quinton, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37830353,
+          35.07743454,
+          5
+        ]
+      },
+      "id": "ok2021wkyr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53999996,
+        "place": "5 km S of Pāhala, Hawaii",
+        "time": 1637022938140,
+        "updated": 1637023269910,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72797392",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72797392.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "hv",
+        "code": "72797392",
+        "ids": ",hv72797392,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": null,
+        "rms": 0.129999995,
+        "gap": 160,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 5 km S of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.477661132812,
+          19.1494998931885,
+          33.5900001525879
+        ]
+      },
+      "id": "hv72797392"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,22 +135,22 @@
         "mag": 3.3,
         "place": "24 km NW of Susitna, Alaska",
         "time": 1637021361277,
-        "updated": 1637022052496,
+        "updated": 1637025508538,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021ep8111j",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021ep8111j.geojson",
         "felt": 3,
         "cdi": 2.2,
-        "mmi": 3.482,
+        "mmi": 3.569,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 168,
         "net": "ak",
         "code": "021ep8111j",
-        "ids": ",ak021ep8111j,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,shakemap,",
+        "ids": ",ak021ep8111j,us7000fuft,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.89,
@@ -1488,130 +1568,10 @@
         ]
       },
       "id": "us7000fu5f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "237 km WSW of Adak, Alaska",
-        "time": 1636939199081,
-        "updated": 1636999601785,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021enl5fqa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021enl5fqa.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "021enl5fqa",
-        "ids": ",ak021enl5fqa,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.65,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 237 km WSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.7589,
-          51.0162,
-          10.9
-        ]
-      },
-      "id": "ak021enl5fqa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "91 km NNW of San Antonio de los Cobres, Argentina",
-        "time": 1636938338797,
-        "updated": 1636940414040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fu5a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fu5a.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000fu5a",
-        "ids": ",us7000fu5a,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.438,
-        "rms": 0.85,
-        "gap": 99,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 91 km NNW of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7227,
-          -23.4777,
-          207.25
-        ]
-      },
-      "id": "us7000fu5a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "11 km NW of Lebu, Chile",
-        "time": 1636938215435,
-        "updated": 1636942847526,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fu58",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fu58.geojson",
-        "felt": 2,
-        "cdi": 5.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 313,
-        "net": "us",
-        "code": "7000fu58",
-        "ids": ",us7000fu58,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.918,
-        "rms": 0.84,
-        "gap": 119,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.5 - 11 km NW of Lebu, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.7579,
-          -37.5479,
-          15.56
-        ]
-      },
-      "id": "us7000fu58"
     }
   ],
   "bbox": [
-    -179.7589,
+    -158.6607,
     -43.1,
     0.8,
     142.2425,
