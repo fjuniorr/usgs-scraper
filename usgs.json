@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637079103000,
+    "generated": 1637080995000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "112 km SW of Jiquilillo, Nicaragua",
+        "time": 1637078334294,
+        "updated": 1637080011040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fuke",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fuke.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000fuke",
+        "ids": ",us7000fuke,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.332,
+        "rms": 0.55,
+        "gap": 179,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 112 km SW of Jiquilillo, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2362,
+          12.0876,
+          10
+        ]
+      },
+      "id": "us7000fuke"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -172,42 +212,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.6,
-        "place": "57 km NE of Kobuk, Alaska",
-        "time": 1637060932172,
-        "updated": 1637077882040,
+        "mag": 3.5,
+        "place": "54 km NNE of Kobuk, Alaska",
+        "time": 1637060932154,
+        "updated": 1637080846070,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fujd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fujd.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021epeknom",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021epeknom.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 199,
-        "net": "us",
-        "code": "7000fujd",
-        "ids": ",us7000fujd,",
-        "sources": ",us,",
+        "sig": 188,
+        "net": "ak",
+        "code": "021epeknom",
+        "ids": ",us7000fujd,ak021epeknom,",
+        "sources": ",us,ak,",
         "types": ",moment-tensor,origin,phase-data,",
         "nst": null,
-        "dmin": 0.33,
-        "rms": 0.53,
-        "gap": 40,
+        "dmin": null,
+        "rms": 0.66,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 57 km NE of Kobuk, Alaska"
+        "title": "M 3.5 - 54 km NNE of Kobuk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.1393,
-          67.3354,
-          10
+          -156.235,
+          67.3286,
+          5
         ]
       },
-      "id": "us7000fujd"
+      "id": "ak021epeknom"
     },
     {
       "type": "Feature",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.63,
-        "place": "4 km SSE of La Parguera, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1637049752960,
         "updated": 1637051167665,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 235,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 4 km SSE of La Parguera, Puerto Rico"
+        "title": "M 2.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "Scotland, United Kingdom",
+        "place": "17 km WNW of Lochgilphead, United Kingdom",
         "time": 1637027044357,
         "updated": 1637078950549,
         "tz": null,
@@ -1077,7 +1117,7 @@
         "gap": 224,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - Scotland, United Kingdom"
+        "title": "M 3.1 - 17 km WNW of Lochgilphead, United Kingdom"
       },
       "geometry": {
         "type": "Point",
@@ -1528,86 +1568,6 @@
         ]
       },
       "id": "us7000fudm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "56 km NNW of Bandar Abbas, Iran",
-        "time": 1636994563266,
-        "updated": 1636996372747,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fubv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fubv.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000fubv",
-        "ids": ",us7000fubv,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 2.702,
-        "rms": 0.42,
-        "gap": 62,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 56 km NNW of Bandar Abbas, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.0556,
-          27.6557,
-          10
-        ]
-      },
-      "id": "us7000fubv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "155 km SSE of Pondaguitan, Philippines",
-        "time": 1636993071938,
-        "updated": 1636995103040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fubu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fubu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000fubu",
-        "ids": ",us7000fubu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.306,
-        "rms": 0.89,
-        "gap": 116,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 155 km SSE of Pondaguitan, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.8503,
-          5.128,
-          62.85
-        ]
-      },
-      "id": "us7000fubu"
     }
   ],
   "bbox": [
@@ -1615,7 +1575,7 @@
     -58.69,
     0,
     153.3757,
-    67.3354,
+    67.3286,
     560.7
   ]
 }
