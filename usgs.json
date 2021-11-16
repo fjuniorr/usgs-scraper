@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637038625000,
+    "generated": 1637039655000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 36
   },
   "features": [
     {
@@ -1448,46 +1448,6 @@
         ]
       },
       "id": "us7000fu7i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "24 km E of Akhiok, Alaska",
-        "time": 1636952413697,
-        "updated": 1636955635975,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021ennewm1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021ennewm1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "021ennewm1",
-        "ids": ",us7000fu6w,ak021ennewm1,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.58,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 24 km E of Akhiok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.7752,
-          56.9433,
-          36.1
-        ]
-      },
-      "id": "ak021ennewm1"
     }
   ],
   "bbox": [
