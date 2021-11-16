@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637066898000,
+    "generated": 1637068174000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -13,9 +13,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "22 km ESE of Fox River, Alaska",
-        "time": 1637066567772,
-        "updated": 1637066847014,
+        "place": "23 km ESE of Fox River, Alaska",
+        "time": 1637066567704,
+        "updated": 1637067268223,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021epfdd1w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021epfdd1w.geojson",
@@ -37,14 +37,14 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 22 km ESE of Fox River, Alaska"
+        "title": "M 2.7 - 23 km ESE of Fox River, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.6193,
-          59.7589,
-          36.5
+          -150.6017,
+          59.7494,
+          36.4
         ]
       },
       "id": "ak021epfdd1w"
@@ -255,11 +255,11 @@
         "mag": 3.6,
         "place": "15 km NNW of Midland, Texas",
         "time": 1637051807447,
-        "updated": 1637066790109,
+        "updated": 1637067600911,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021wlmn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021wlmn.geojson",
-        "felt": 17,
+        "felt": 19,
         "cdi": 3.6,
         "mmi": 3.77,
         "alert": null,
@@ -855,17 +855,17 @@
         "mag": 3.1,
         "place": "Scotland, United Kingdom",
         "time": 1637027044357,
-        "updated": 1637065146202,
+        "updated": 1637067365191,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fugg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fugg.geojson",
-        "felt": 74,
+        "felt": 78,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 180,
+        "sig": 181,
         "net": "us",
         "code": "7000fugg",
         "ids": ",us7000fugg,",
