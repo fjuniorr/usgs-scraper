@@ -1,65 +1,25 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637131919000,
+    "generated": 1637132955000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52999997,
-        "place": "6 km E of Pāhala, Hawaii",
-        "time": 1637131586540,
-        "updated": 1637131786920,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72799232",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72799232.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "hv",
-        "code": "72799232",
-        "ids": ",hv72799232,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": null,
-        "rms": 0.119999997,
-        "gap": 152,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.415664672852,
-          19.2115001678467,
-          33.1100006103516
-        ]
-      },
-      "id": "hv72799232"
-    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5,
         "place": "74 km ENE of Dazhong, China",
         "time": 1637128469979,
-        "updated": 1637131470861,
+        "updated": 1637132412038,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000furn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000furn.geojson",
-        "felt": 11,
+        "felt": 12,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
