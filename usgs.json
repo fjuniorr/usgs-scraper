@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637268228000,
+    "generated": 1637268776000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -175,17 +175,17 @@
         "mag": 5.8,
         "place": "45 km S of Puerto San José, Guatemala",
         "time": 1637254618539,
-        "updated": 1637268122344,
+        "updated": 1637268720167,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fv5p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fv5p.geojson",
-        "felt": 37,
+        "felt": 39,
         "cdi": 4.8,
         "mmi": 4.66,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 535,
+        "sig": 536,
         "net": "us",
         "code": "7000fv5p",
         "ids": ",us7000fv5p,",
@@ -293,9 +293,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "39 km WSW of Clear, Alaska, Alaska",
-        "time": 1637245592990,
-        "updated": 1637266288516,
+        "place": "40 km WSW of Clear, Alaska, Alaska",
+        "time": 1637245592897,
+        "updated": 1637268519088,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021esrjgo4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021esrjgo4.geojson",
@@ -313,18 +313,18 @@
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.7,
+        "rms": 0.61,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 39 km WSW of Clear, Alaska, Alaska"
+        "title": "M 2.9 - 40 km WSW of Clear, Alaska, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.9619,
-          64.1522,
-          16.3
+          -149.9679,
+          64.1432,
+          16.6
         ]
       },
       "id": "ak021esrjgo4"
@@ -775,12 +775,12 @@
         "mag": 2.87,
         "place": "22km SSW of Santa Barbara, CA",
         "time": 1637222868020,
-        "updated": 1637267020063,
+        "updated": 1637268273126,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci37367812",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci37367812.geojson",
-        "felt": 9,
-        "cdi": 3.1,
+        "felt": 10,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1255,11 +1255,11 @@
         "mag": 4,
         "place": "7 km S of Williamsville, Missouri",
         "time": 1637203983820,
-        "updated": 1637268182299,
+        "updated": 1637268495154,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60363582",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60363582.geojson",
-        "felt": 4845,
+        "felt": 4846,
         "cdi": 5.4,
         "mmi": 4.772,
         "alert": "green",
@@ -1735,7 +1735,7 @@
     -31.2325,
     1.69,
     176.3307,
-    64.1522,
+    64.1432,
     569.91
   ]
 }
