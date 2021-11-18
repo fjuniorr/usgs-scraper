@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637244551000,
+    "generated": 1637245492000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 37
   },
   "features": [
     {
@@ -215,11 +215,11 @@
         "mag": 2.49,
         "place": "17km SSW of Santa Barbara, CA",
         "time": 1637222862190,
-        "updated": 1637241715707,
+        "updated": 1637245191503,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40100632",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40100632.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -533,19 +533,19 @@
       "type": "Feature",
       "properties": {
         "mag": 2.53,
-        "place": "southeastern Missouri",
+        "place": "10 km S of Williamsville, Missouri",
         "time": 1637206800260,
-        "updated": 1637244534694,
+        "updated": 1637245176038,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60363597",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60363597.geojson",
-        "felt": 14,
+        "felt": 18,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 105,
+        "sig": 107,
         "net": "nm",
         "code": "60363597",
         "ids": ",nm60363597,",
@@ -557,7 +557,7 @@
         "gap": 137,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - southeastern Missouri"
+        "title": "M 2.5 - 10 km S of Williamsville, Missouri"
       },
       "geometry": {
         "type": "Point",
@@ -695,11 +695,11 @@
         "mag": 4,
         "place": "8 km SSE of Williamsville, Missouri",
         "time": 1637203983980,
-        "updated": 1637244517621,
+        "updated": 1637245426254,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60363582",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60363582.geojson",
-        "felt": 4452,
+        "felt": 4470,
         "cdi": 5.4,
         "mmi": 4.853,
         "alert": "green",
@@ -1295,11 +1295,11 @@
         "mag": 3.86,
         "place": "1km NE of San Ramon, CA",
         "time": 1637178223550,
-        "updated": 1637242290721,
+        "updated": 1637245473483,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73654060",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73654060.geojson",
-        "felt": 4660,
+        "felt": 4661,
         "cdi": 4.2,
         "mmi": 4.558,
         "alert": null,
@@ -1488,46 +1488,6 @@
         ]
       },
       "id": "pr2021321004"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "255 km W of Hihifo, Tonga",
-        "time": 1637158925670,
-        "updated": 1637159915040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fuuf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fuuf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000fuuf",
-        "ids": ",us7000fuuf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.639,
-        "rms": 0.51,
-        "gap": 110,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 255 km W of Hihifo, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -176.1766,
-          -16.1737,
-          367.35
-        ]
-      },
-      "id": "us7000fuuf"
     }
   ],
   "bbox": [
