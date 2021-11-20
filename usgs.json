@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637377933000,
+    "generated": 1637379060000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "14 km SSE of Golfo de Santa Clara, Mexico",
+        "time": 1637377422194,
+        "updated": 1637378023040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fvmx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fvmx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "7000fvmx",
+        "ids": ",us7000fvmx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.645,
+        "rms": 0.64,
+        "gap": 124,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 14 km SSE of Golfo de Santa Clara, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.4262,
+          31.5729,
+          10
+        ]
+      },
+      "id": "us7000fvmx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -375,17 +415,17 @@
         "mag": 5.4,
         "place": "62 km ESE of Jovellar, Philippines",
         "time": 1637352833297,
-        "updated": 1637377034593,
+        "updated": 1637378856744,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fvjz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fvjz.geojson",
-        "felt": 9,
+        "felt": 11,
         "cdi": 4.1,
         "mmi": 4.196,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 452,
+        "sig": 453,
         "net": "us",
         "code": "7000fvjz",
         "ids": ",us7000fvjz,",
@@ -455,11 +495,11 @@
         "mag": 5.6,
         "place": "120 km SSE of Isangel, Vanuatu",
         "time": 1637350376346,
-        "updated": 1637374619834,
+        "updated": 1637378909422,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fvjp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fvjp.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.4,
         "mmi": 4.203,
         "alert": "green",
@@ -775,17 +815,17 @@
         "mag": 5.1,
         "place": "24 km NW of Karayazı, Turkey",
         "time": 1637325654052,
-        "updated": 1637374260346,
+        "updated": 1637379036877,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fvfl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fvfl.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 401,
+        "sig": 402,
         "net": "us",
         "code": "7000fvfl",
         "ids": ",us7000fvfl,",
@@ -1328,46 +1368,6 @@
         ]
       },
       "id": "tx2021wqqn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.42,
-        "place": "59 km NW of San Antonio, Puerto Rico",
-        "time": 1637292087050,
-        "updated": 1637298595136,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021323001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021323001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 180,
-        "net": "pr",
-        "code": "2021323001",
-        "ids": ",pr2021323001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.5572,
-        "rms": 0.58,
-        "gap": 207,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 59 km NW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.5095,
-          18.8571,
-          109
-        ]
-      },
-      "id": "pr2021323001"
     }
   ],
   "bbox": [
