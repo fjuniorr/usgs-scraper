@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637449770000,
+    "generated": 1637450817000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -55,11 +55,11 @@
         "mag": 4.6,
         "place": "10 km SSW of Lomas de Sargentillo, Ecuador",
         "time": 1637446000844,
-        "updated": 1637448873893,
+        "updated": 1637450452756,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fvu1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fvu1.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
