@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637418837000,
+    "generated": 1637419384000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9000001,
+        "place": "8 km E of Pāhala, Hawaii",
+        "time": 1637419106840,
+        "updated": 1637419288270,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72804792",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72804792.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "hv",
+        "code": "72804792",
+        "ids": ",hv72804792,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": null,
+        "rms": 0.129999995,
+        "gap": 155,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 8 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.398330688477,
+          19.2108325958252,
+          32.2599983215332
+        ]
+      },
+      "id": "hv72804792"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,11 +295,11 @@
         "mag": 2.53478336334229,
         "place": "8 km N of Anacortes, Washington",
         "time": 1637399490250,
-        "updated": 1637402967482,
+        "updated": 1637419351582,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61790392",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61790392.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 3,
         "mmi": null,
         "alert": null,
