@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637489537000,
+    "generated": 1637490753000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "63 km ESE of Lovelock, Nevada",
+        "time": 1637489522332,
+        "updated": 1637489760397,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00828578",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00828578.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "nn",
+        "code": "00828578",
+        "ids": ",nn00828578,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 1.045,
+        "rms": 0.3522,
+        "gap": 148.41,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 63 km ESE of Lovelock, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7483,
+          40.0569,
+          14.8
+        ]
+      },
+      "id": "nn00828578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "57 km S of Whites City, New Mexico",
+        "time": 1637488413379,
+        "updated": 1637490336040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fvx9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fvx9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "7000fvx9",
+        "ids": ",us7000fvx9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.101,
+        "rms": 0.3,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 57 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.382,
+          31.6576,
+          7.11
+        ]
+      },
+      "id": "us7000fvx9"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.5,
         "place": "53 km W of Venetie, Alaska",
         "time": 1637487294893,
-        "updated": 1637487993974,
+        "updated": 1637489977040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021exn832k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021exn832k.geojson",
@@ -28,9 +108,9 @@
         "sig": 96,
         "net": "ak",
         "code": "021exn832k",
-        "ids": ",ak021exn832k,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",us7000fvx7,ak021exn832k,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.97,
@@ -173,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "55 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1637473905202,
         "updated": 1637475069040,
         "tz": null,
@@ -197,7 +277,7 @@
         "gap": 74,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 55 km S of Whites City, New Mexico"
+        "title": "M 2.8 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "49 km ESE of Jovellar, Philippines",
+        "place": "Mindanao, Philippines",
         "time": 1637418929489,
         "updated": 1637429485040,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 93,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 49 km ESE of Jovellar, Philippines"
+        "title": "M 4.2 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1168,46 +1248,6 @@
         ]
       },
       "id": "us7000fvq5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "7 km SSE of Pāhala, Hawaii",
-        "time": 1637403959840,
-        "updated": 1637404290600,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72804467",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72804467.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "hv",
-        "code": "72804467",
-        "ids": ",hv72804467,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": null,
-        "rms": 0.109999999,
-        "gap": 255,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 7 km SSE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.461837768555,
-          19.1391658782959,
-          34.5900001525879
-        ]
-      },
-      "id": "hv72804467"
     }
   ],
   "bbox": [
