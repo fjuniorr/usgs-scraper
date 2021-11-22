@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637558907000,
+    "generated": 1637559435000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "52 km SSE of Denali National Park, Alaska",
+        "time": 1637558877880,
+        "updated": 1637559426191,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021ez8c7rt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021ez8c7rt.geojson",
+        "felt": 5,
+        "cdi": 4.3,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 274,
+        "net": "ak",
+        "code": "021ez8c7rt",
+        "ids": ",ak021ez8c7rt,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.09,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.2 - 52 km SSE of Denali National Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.4627,
+          63.0842,
+          0.1
+        ]
+      },
+      "id": "ak021ez8c7rt"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1333,7 +1373,7 @@
   "bbox": [
     -178.5272,
     -59.5612,
-    0.432746172,
+    0.1,
     175.3562,
     67.0438,
     520
