@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637603543000,
+    "generated": 1637604701000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -575,12 +575,12 @@
         "mag": 4.5,
         "place": "4 km NNE of Puerto Plata, Dominican Republic",
         "time": 1637566967534,
-        "updated": 1637601886753,
+        "updated": 1637604331548,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fw4z",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fw4z.geojson",
-        "felt": 24,
-        "cdi": 5.6,
+        "felt": 25,
+        "cdi": 5.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -655,12 +655,12 @@
         "mag": 2.6,
         "place": "14 km SW of Stockton, Kansas",
         "time": 1637566262879,
-        "updated": 1637574835040,
+        "updated": 1637603794055,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fw4w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fw4w.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -670,7 +670,7 @@
         "code": "7000fw4w",
         "ids": ",us7000fw4w,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.606,
         "rms": 0.59,
@@ -1052,6 +1052,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.05,
+        "place": "97km ESE of Maneadero, B.C., MX",
+        "time": 1637548373080,
+        "updated": 1637604638236,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39866791",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39866791.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 143,
+        "net": "ci",
+        "code": "39866791",
+        "ids": ",ci39866791,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 7,
+        "dmin": 0.129,
+        "rms": 0.09,
+        "gap": 184,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 97km ESE of Maneadero, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.6496667,
+          31.3326667,
+          18.12
+        ]
+      },
+      "id": "ci39866791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
         "place": "273 km NE of Lospalos, Timor Leste",
         "time": 1637546476170,
@@ -1368,46 +1408,6 @@
         ]
       },
       "id": "us7000fw18"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.26,
-        "place": "6 km ENE of Pāhala, Hawaii",
-        "time": 1637517617260,
-        "updated": 1637527833266,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72806527",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72806527.geojson",
-        "felt": 11,
-        "cdi": 2.3,
-        "mmi": 3.96,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 166,
-        "net": "hv",
-        "code": "72806527",
-        "ids": ",hv72806527,us7000fw05,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 49,
-        "dmin": null,
-        "rms": 0.150000006,
-        "gap": 128,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 6 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.421493530273,
-          19.234167098999,
-          32.9500007629395
-        ]
-      },
-      "id": "hv72806527"
     }
   ],
   "bbox": [
