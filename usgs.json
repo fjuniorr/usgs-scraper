@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637585413000,
+    "generated": 1637587053000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 32
   },
   "features": [
     {
@@ -295,17 +295,17 @@
         "mag": 4.5,
         "place": "4 km NNE of Puerto Plata, Dominican Republic",
         "time": 1637566967534,
-        "updated": 1637584473946,
+        "updated": 1637586948284,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fw4z",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fw4z.geojson",
-        "felt": 13,
+        "felt": 16,
         "cdi": 5.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 319,
+        "sig": 320,
         "net": "us",
         "code": "7000fw4z",
         "ids": ",us7000fw4z,",
@@ -1288,86 +1288,6 @@
         ]
       },
       "id": "pr2021325005"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.68,
-        "place": "13 km SSE of Guánica, Puerto Rico",
-        "time": 1637500625590,
-        "updated": 1637501713471,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021325004",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021325004.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "pr",
-        "code": "2021325004",
-        "ids": ",pr2021325004,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1215,
-        "rms": 0.09,
-        "gap": 251,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 13 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8696,
-          17.854,
-          14
-        ]
-      },
-      "id": "pr2021325004"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "35 km NNW of Toyah, Texas",
-        "time": 1637499693360,
-        "updated": 1637504608040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fvyp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fvyp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "7000fvyp",
-        "ids": ",us7000fvyp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.24,
-        "rms": 0.66,
-        "gap": 54,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 35 km NNW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.9522,
-          31.6001,
-          5
-        ]
-      },
-      "id": "us7000fvyp"
     }
   ],
   "bbox": [
