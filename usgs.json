@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637606160000,
+    "generated": 1637607012000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -735,7 +735,7 @@
         "mag": 3.7,
         "place": "22 km NE of Nikolski, Alaska",
         "time": 1637564742377,
-        "updated": 1637583108040,
+        "updated": 1637606625527,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fw4p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fw4p.geojson",
@@ -748,8 +748,8 @@
         "sig": 211,
         "net": "us",
         "code": "7000fw4p",
-        "ids": ",us7000fw4p,ak021ez9ec4r,",
-        "sources": ",us,ak,",
+        "ids": ",ak021ez9ec4r,us7000fw4p,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 0.179,
