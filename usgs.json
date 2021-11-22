@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637614388000,
+    "generated": 1637615284000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "15 km ENE of Karluk, Alaska",
+        "time": 1637614951462,
+        "updated": 1637615156833,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021ezhpqju",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021ezhpqju.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "021ezhpqju",
+        "ids": ",ak021ezhpqju,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.51,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 15 km ENE of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.2093,
+          57.6223,
+          35.8
+        ]
+      },
+      "id": "ak021ezhpqju"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -93,9 +133,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "250 km E of Levuka, Fiji",
-        "time": 1637601033623,
-        "updated": 1637602251040,
+        "place": "253 km E of Levuka, Fiji",
+        "time": 1637601033482,
+        "updated": 1637614905040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fw8x",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fw8x.geojson",
@@ -112,19 +152,19 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 3.472,
-        "rms": 1.14,
-        "gap": 85,
+        "dmin": 3.5,
+        "rms": 0.86,
+        "gap": 79,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 250 km E of Levuka, Fiji"
+        "title": "M 4.8 - 253 km E of Levuka, Fiji"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -178.3194,
-          -18.1039,
-          568.48
+          -178.2932,
+          -18.1393,
+          565.76
         ]
       },
       "id": "us7000fw8x"
@@ -1015,11 +1055,11 @@
         "mag": 2.97,
         "place": "11km SE of Lone Pine, CA",
         "time": 1637555544000,
-        "updated": 1637601279959,
+        "updated": 1637615069197,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39866855",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39866855.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 2.5,
         "mmi": null,
         "alert": null,
@@ -1093,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Fiji region",
+        "place": "229 km E of Levuka, Fiji",
         "time": 1637549117415,
         "updated": 1637551246040,
         "tz": null,
@@ -1117,7 +1157,7 @@
         "gap": 58,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Fiji region"
+        "title": "M 4.6 - 229 km E of Levuka, Fiji"
       },
       "geometry": {
         "type": "Point",
