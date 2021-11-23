@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637653556000,
+    "generated": 1637654063000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,13 +15,13 @@
         "mag": 4.1,
         "place": "252 km SE of Chiniak, Alaska",
         "time": 1637651849438,
-        "updated": 1637653394304,
+        "updated": 1637653509787,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fwe1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fwe1.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 0,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -30,7 +30,7 @@
         "code": "7000fwe1",
         "ids": ",ak021f0x08c3,us7000fwe1,",
         "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 2.506,
         "rms": 0.56,
@@ -95,11 +95,11 @@
         "mag": 4.9,
         "place": "44 km WSW of Jaqué, Panama",
         "time": 1637651247633,
-        "updated": 1637653476065,
+        "updated": 1637653792173,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fwe2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fwe2.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "57 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1637631113407,
         "updated": 1637632825040,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 64,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 57 km S of Whites City, New Mexico"
+        "title": "M 2.7 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "25 km ENE of Mina, Nevada",
+        "place": "Nevada",
         "time": 1637615645220,
         "updated": 1637635029441,
         "tz": null,
@@ -997,7 +997,7 @@
         "gap": 37.53,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 25 km ENE of Mina, Nevada"
+        "title": "M 3.2 - Nevada"
       },
       "geometry": {
         "type": "Point",
