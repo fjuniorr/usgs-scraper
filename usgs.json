@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637728922000,
+    "generated": 1637729853000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "105 km W of La Libertad, Mexico",
+        "time": 1637728641149,
+        "updated": 1637729824040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fwmd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fwmd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000fwmd",
+        "ids": ",us7000fwmd,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.461,
+        "rms": 1.08,
+        "gap": 157,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 105 km W of La Libertad, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.7879,
+          29.8971,
+          10
+        ]
+      },
+      "id": "us7000fwmd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "270 km WNW of Lautoka, Fiji",
+        "time": 1637728142226,
+        "updated": 1637729386337,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fwm8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fwm8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000fwm8",
+        "ids": ",us7000fwm8,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 3.012,
+        "rms": 0.96,
+        "gap": 55,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 270 km WNW of Lautoka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.1156,
+          -16.6458,
+          10
+        ]
+      },
+      "id": "us7000fwm8"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -53,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "58 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1637727154490,
         "updated": 1637727809040,
         "tz": null,
@@ -77,7 +157,7 @@
         "gap": 66,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 58 km S of Whites City, New Mexico"
+        "title": "M 2.6 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "92 km SSE of Nikolski, Alaska",
+        "place": "Fox Islands, Aleutian Islands, Alaska",
         "time": 1637693596084,
         "updated": 1637695915040,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": 226,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.7 - 92 km SSE of Nikolski, Alaska"
+        "title": "M 3.7 - Fox Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "southern Idaho",
+        "place": "19 km WSW of Stanley, Idaho",
         "time": 1637670771880,
         "updated": 1637722866819,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 42,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.0 - southern Idaho"
+        "title": "M 4.0 - 19 km WSW of Stanley, Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "100 km W of La Libertad, Mexico",
+        "place": "Gulf of California",
         "time": 1637667019873,
         "updated": 1637678798419,
         "tz": null,
@@ -1317,7 +1397,7 @@
         "gap": 152,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 100 km W of La Libertad, Mexico"
+        "title": "M 4.3 - Gulf of California"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "40 km SE of Kamaishi, Japan",
+        "place": "near the east coast of Honshu, Japan",
         "time": 1637660924370,
         "updated": 1637662022040,
         "tz": null,
@@ -1397,7 +1477,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 40 km SE of Kamaishi, Japan"
+        "title": "M 4.8 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.21,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "3 km S of Pāhala, Hawaii",
         "time": 1637659119960,
         "updated": 1637718166076,
         "tz": null,
@@ -1437,7 +1517,7 @@
         "gap": 89,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - Island of Hawaii, Hawaii"
+        "title": "M 3.2 - 3 km S of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1928,46 +2008,6 @@
         ]
       },
       "id": "ak021f0vtzbu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.78,
-        "place": "5 km S of Magas Arriba, Puerto Rico",
-        "time": 1637643427790,
-        "updated": 1637644210501,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021327003",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021327003.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 119,
-        "net": "pr",
-        "code": "2021327003",
-        "ids": ",pr2021327003,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.1103,
-        "rms": 0.16,
-        "gap": 161,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 5 km S of Magas Arriba, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.769,
-          17.97,
-          11
-        ]
-      },
-      "id": "pr2021327003"
     }
   ],
   "bbox": [
