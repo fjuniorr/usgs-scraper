@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637762070000,
+    "generated": 1637762923000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -652,10 +652,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.57,
-        "place": "1 km SW of Quinton, Oklahoma",
-        "time": 1637731816273,
-        "updated": 1637747329168,
+        "mag": 3.28,
+        "place": "3 km SSW of Quinton, Oklahoma",
+        "time": 1637731815189,
+        "updated": 1637762706669,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2021wzwk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2021wzwk.geojson",
@@ -663,28 +663,28 @@
         "cdi": 4.1,
         "mmi": 4.342,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 200,
+        "sig": 169,
         "net": "ok",
         "code": "2021wzwk",
         "ids": ",ok2021wzwk,us7000fwmk,",
         "sources": ",ok,us,",
         "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 66,
-        "dmin": 0.1129185259,
-        "rms": 0.8669879392,
-        "gap": 81.86845398,
+        "nst": 75,
+        "dmin": 0,
+        "rms": 0.18,
+        "gap": 69,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 1 km SW of Quinton, Oklahoma"
+        "title": "M 3.3 - 3 km SSW of Quinton, Oklahoma"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.37958527,
-          35.11617661,
-          5
+          -95.38983333,
+          35.09983333,
+          7.56
         ]
       },
       "id": "ok2021wzwk"
