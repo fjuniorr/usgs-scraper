@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637791759000,
+    "generated": 1637792858000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "62 km WNW of Talcahuano, Chile",
+        "time": 1637791388903,
+        "updated": 1637792495040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fww8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fww8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000fww8",
+        "ids": ",us7000fww8,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.515,
+        "rms": 0.68,
+        "gap": 111,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.3 - 62 km WNW of Talcahuano, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7435,
+          -36.4863,
+          11.95
+        ]
+      },
+      "id": "us7000fww8"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.57,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "7 km E of Pāhala, Hawaii",
         "time": 1637770124910,
         "updated": 1637790411840,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": 147,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Island of Hawaii, Hawaii"
+        "title": "M 2.6 - 7 km E of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.68,
-        "place": "3 km SW of Quinton, Oklahoma",
+        "place": "Oklahoma",
         "time": 1637748997890,
         "updated": 1637769895061,
         "tz": null,
@@ -757,7 +797,7 @@
         "gap": 68,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 3 km SW of Quinton, Oklahoma"
+        "title": "M 2.7 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Baja California, Mexico",
+        "place": "105 km W of La Libertad, Mexico",
         "time": 1637728641149,
         "updated": 1637770837960,
         "tz": null,
@@ -1237,7 +1277,7 @@
         "gap": 157,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Baja California, Mexico"
+        "title": "M 4.9 - 105 km W of La Libertad, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1652,7 +1692,7 @@
   ],
   "bbox": [
     -176.5777,
-    -36.1899,
+    -36.4863,
     4.89,
     175.2363,
     61.6721,
