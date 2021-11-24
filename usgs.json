@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637770900000,
+    "generated": 1637773090000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "off the coast of Oregon",
+        "time": 1637770499486,
+        "updated": 1637771262040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fws6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fws6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "us",
+        "code": "7000fws6",
+        "ids": ",us7000fws6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.467,
+        "rms": 0.81,
+        "gap": 211,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -130.1138,
+          44.3769,
+          10
+        ]
+      },
+      "id": "us7000fws6"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1528,46 +1568,6 @@
         ]
       },
       "id": "us7000fwi5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "5 km NE of Seoni, India",
-        "time": 1637685118599,
-        "updated": 1637719012976,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fwgt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fwgt.geojson",
-        "felt": 7,
-        "cdi": 4.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 301,
-        "net": "us",
-        "code": "7000fwgt",
-        "ids": ",us7000fwgt,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 4.054,
-        "rms": 0.62,
-        "gap": 100,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 5 km NE of Seoni, India"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.1609,
-          31.2743,
-          10
-        ]
-      },
-      "id": "us7000fwgt"
     }
   ],
   "bbox": [
