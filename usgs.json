@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637752995000,
+    "generated": 1637753586000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 48
   },
   "features": [
     {
@@ -135,17 +135,17 @@
         "mag": 5.2,
         "place": "73 km SW of Yonakuni, Japan",
         "time": 1637747718096,
-        "updated": 1637749938166,
+        "updated": 1637753583167,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fwp2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fwp2.geojson",
-        "felt": 2,
-        "cdi": 2.2,
+        "felt": 4,
+        "cdi": 2.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 417,
         "net": "us",
         "code": "7000fwp2",
         "ids": ",us7000fwp2,",
@@ -1928,46 +1928,6 @@
         ]
       },
       "id": "us7000fwf9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "100 km W of La Libertad, Mexico",
-        "time": 1637667019873,
-        "updated": 1637678798419,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fwf0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fwf0.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 285,
-        "net": "us",
-        "code": "7000fwf0",
-        "ids": ",us7000fwf0,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.372,
-        "rms": 0.55,
-        "gap": 152,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 100 km W of La Libertad, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.7177,
-          30.0705,
-          10
-        ]
-      },
-      "id": "us7000fwf0"
     }
   ],
   "bbox": [
