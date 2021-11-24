@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637789081000,
+    "generated": 1637789678000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -412,10 +412,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.47,
+        "mag": 2.45,
         "place": "3 km NNW of Volcano, Hawaii",
-        "time": 1637765785830,
-        "updated": 1637783772310,
+        "time": 1637765785790,
+        "updated": 1637789147020,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72810142",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72810142.geojson",
@@ -425,13 +425,13 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 94,
+        "sig": 92,
         "net": "hv",
         "code": "72810142",
         "ids": ",hv72810142,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 50,
+        "nst": 53,
         "dmin": null,
         "rms": 0.12,
         "gap": 49,
@@ -442,9 +442,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.2485,
-          19.475,
-          27.26
+          -155.247,
+          19.4728333333333,
+          27.8
         ]
       },
       "id": "hv72810142"
