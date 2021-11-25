@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637877136000,
+    "generated": 1637878171000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.85,
+        "place": "17km WSW of Toms Place, CA",
+        "time": 1637877430780,
+        "updated": 1637877653580,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73657750",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73657750.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 125,
+        "net": "nc",
+        "code": "73657750",
+        "ids": ",nc73657750,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 25,
+        "dmin": 0.09365,
+        "rms": 0.05,
+        "gap": 74,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 17km WSW of Toms Place, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.8529968,
+          37.4981651,
+          4.36
+        ]
+      },
+      "id": "nc73657750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Kermadec Islands region",
+        "time": 1637876559032,
+        "updated": 1637878109040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx3l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx3l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000fx3l",
+        "ids": ",us7000fx3l,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.142,
+        "rms": 1.15,
+        "gap": 97,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.1856,
+          -29.5558,
+          345.25
+        ]
+      },
+      "id": "us7000fx3l"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1328,90 +1408,10 @@
         ]
       },
       "id": "ak021f2tlsun"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "62 km WNW of Talcahuano, Chile",
-        "time": 1637791388903,
-        "updated": 1637792495040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fww8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fww8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000fww8",
-        "ids": ",us7000fww8,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.515,
-        "rms": 0.68,
-        "gap": 111,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.3 - 62 km WNW of Talcahuano, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.7435,
-          -36.4863,
-          11.95
-        ]
-      },
-      "id": "us7000fww8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "47 km SW of Illapel, Chile",
-        "time": 1637790818020,
-        "updated": 1637794439569,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fww2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fww2.geojson",
-        "felt": 1,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 272,
-        "net": "us",
-        "code": "7000fww2",
-        "ids": ",us7000fww2,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.471,
-        "rms": 0.5,
-        "gap": 169,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 47 km SW of Illapel, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.517,
-          -31.9422,
-          42.13
-        ]
-      },
-      "id": "us7000fww2"
     }
   ],
   "bbox": [
-    -178.3796,
+    -179.1856,
     -58.0025,
     0.51,
     175.1081,
