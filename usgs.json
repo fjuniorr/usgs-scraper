@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637817368000,
+    "generated": 1637818152000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.88,
+        "place": "4 km S of Guánica, Puerto Rico",
+        "time": 1637816207970,
+        "updated": 1637817894874,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021329004",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021329004.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 128,
+        "net": "pr",
+        "code": "2021329004",
+        "ids": ",pr2021329004,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.0541,
+        "rms": 0.19,
+        "gap": 192,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 4 km S of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9036,
+          17.9268,
+          11
+        ]
+      },
+      "id": "pr2021329004"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.57,
-        "place": "7 km E of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1637770124910,
         "updated": 1637795987040,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 147,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 7 km E of Pāhala, Hawaii"
+        "title": "M 2.6 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.68,
-        "place": "Oklahoma",
+        "place": "3 km SW of Quinton, Oklahoma",
         "time": 1637748997890,
         "updated": 1637769895061,
         "tz": null,
@@ -1357,7 +1397,7 @@
         "gap": 68,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Oklahoma"
+        "title": "M 2.7 - 3 km SW of Quinton, Oklahoma"
       },
       "geometry": {
         "type": "Point",
