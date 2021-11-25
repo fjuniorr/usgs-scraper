@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637818152000,
+    "generated": 1637818647000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 45
   },
   "features": [
     {
@@ -973,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.57,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "7 km E of Pāhala, Hawaii",
         "time": 1637770124910,
         "updated": 1637795987040,
         "tz": null,
@@ -997,7 +997,7 @@
         "gap": 147,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Island of Hawaii, Hawaii"
+        "title": "M 2.6 - 7 km E of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.68,
-        "place": "3 km SW of Quinton, Oklahoma",
+        "place": "Oklahoma",
         "time": 1637748997890,
         "updated": 1637769895061,
         "tz": null,
@@ -1397,7 +1397,7 @@
         "gap": 68,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 3 km SW of Quinton, Oklahoma"
+        "title": "M 2.7 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -1808,46 +1808,6 @@
         ]
       },
       "id": "us7000fwmq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.28,
-        "place": "3 km SSW of Quinton, Oklahoma",
-        "time": 1637731815189,
-        "updated": 1637762919459,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2021wzwk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2021wzwk.geojson",
-        "felt": 9,
-        "cdi": 4.1,
-        "mmi": 3.91,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 169,
-        "net": "ok",
-        "code": "2021wzwk",
-        "ids": ",ok2021wzwk,us7000fwmk,",
-        "sources": ",ok,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 75,
-        "dmin": 0,
-        "rms": 0.18,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 3 km SSW of Quinton, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.38983333,
-          35.09983333,
-          7.56
-        ]
-      },
-      "id": "ok2021wzwk"
     }
   ],
   "bbox": [
