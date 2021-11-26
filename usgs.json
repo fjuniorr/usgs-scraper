@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637950272000,
+    "generated": 1637951760000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.66,
+        "place": "17km WSW of Toms Place, CA",
+        "time": 1637951272100,
+        "updated": 1637951457230,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73658195",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73658195.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 109,
+        "net": "nc",
+        "code": "73658195",
+        "ids": ",nc73658195,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 19,
+        "dmin": 0.09388,
+        "rms": 0.04,
+        "gap": 74,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 17km WSW of Toms Place, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.8553314,
+          37.498333,
+          4.18
+        ]
+      },
+      "id": "nc73658195"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1015,17 +1055,17 @@
         "mag": 6.2,
         "place": "19 km SW of Falam, Myanmar",
         "time": 1637883941750,
-        "updated": 1637946911621,
+        "updated": 1637951363353,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx45",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx45.geojson",
-        "felt": 281,
+        "felt": 283,
         "cdi": 7.5,
         "mmi": 6.3,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 802,
+        "sig": 804,
         "net": "us",
         "code": "7000fx45",
         "ids": ",us7000fx45,",
