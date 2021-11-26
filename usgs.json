@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637963610000,
+    "generated": 1637964568000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "43 km WNW of Anchor Point, Alaska",
+        "time": 1637963823635,
+        "updated": 1637964521114,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021f646uml",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021f646uml.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "021f646uml",
+        "ids": ",ak021f646uml,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.61,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 43 km WNW of Anchor Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.539,
+          59.9454,
+          90.2
+        ]
+      },
+      "id": "ak021f646uml"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,7 +295,7 @@
         "mag": 2.77,
         "place": "17km WSW of Toms Place, CA",
         "time": 1637951272100,
-        "updated": 1637962092333,
+        "updated": 1637964250664,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73658195",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73658195.geojson",
@@ -1448,46 +1488,6 @@
         ]
       },
       "id": "us7000fx3w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.85,
-        "place": "17km WSW of Toms Place, CA",
-        "time": 1637877430780,
-        "updated": 1637905793404,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73657750",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73657750.geojson",
-        "felt": 2,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 126,
-        "net": "nc",
-        "code": "73657750",
-        "ids": ",nc73657750,us7000fx3n,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.09365,
-        "rms": 0.05,
-        "gap": 74,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 17km WSW of Toms Place, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.8529968,
-          37.4981651,
-          4.36
-        ]
-      },
-      "id": "nc73657750"
     }
   ],
   "bbox": [
