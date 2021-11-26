@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637901761000,
+    "generated": 1637902696000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 30
   },
   "features": [
     {
@@ -172,42 +172,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "6 km SSE of Salvaleón de Higüey, Dominican Republic",
-        "time": 1637895626506,
-        "updated": 1637895998040,
+        "mag": 3.96,
+        "place": "11 km W of Salvaleón de Higüey, Dominican Republic",
+        "time": 1637895625280,
+        "updated": 1637902237773,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx5a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx5a.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021330001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021330001.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "7000fx5a",
-        "ids": ",us7000fx5a,",
-        "sources": ",us,",
+        "sig": 241,
+        "net": "pr",
+        "code": "2021330001",
+        "ids": ",us7000fx5a,pr2021330001,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.294,
-        "rms": 0.6,
-        "gap": 170,
-        "magType": "ml",
+        "nst": 15,
+        "dmin": 0.447,
+        "rms": 0.22,
+        "gap": 173,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 6 km SSE of Salvaleón de Higüey, Dominican Republic"
+        "title": "M 4.0 - 11 km W of Salvaleón de Higüey, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.6879,
-          18.5597,
-          110.58
+          -68.8171,
+          18.614,
+          113
         ]
       },
-      "id": "us7000fx5a"
+      "id": "pr2021330001"
     },
     {
       "type": "Feature",
@@ -295,17 +295,17 @@
         "mag": 6.1,
         "place": "19 km NNW of Hakha, Myanmar",
         "time": 1637883940636,
-        "updated": 1637901565768,
+        "updated": 1637902499505,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx45",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx45.geojson",
-        "felt": 231,
+        "felt": 236,
         "cdi": 7.5,
         "mmi": 6.491,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 746,
+        "sig": 749,
         "net": "us",
         "code": "7000fx45",
         "ids": ",us7000fx45,",
@@ -1208,46 +1208,6 @@
         ]
       },
       "id": "us7000fwyy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.88,
-        "place": "4 km S of Guánica, Puerto Rico",
-        "time": 1637816207970,
-        "updated": 1637817894874,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021329004",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021329004.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "pr",
-        "code": "2021329004",
-        "ids": ",pr2021329004,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.0541,
-        "rms": 0.19,
-        "gap": 192,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 4 km S of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9036,
-          17.9268,
-          11
-        ]
-      },
-      "id": "pr2021329004"
     }
   ],
   "bbox": [
