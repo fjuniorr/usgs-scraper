@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637933461000,
+    "generated": 1637934148000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "55 km NW of Toyah, Texas",
+        "time": 1637933085651,
+        "updated": 1637933892753,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021xedc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021xedc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.347,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "tx",
+        "code": "2021xedc",
+        "ids": ",us7000fx84,tx2021xedc,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 15,
+        "dmin": 0.1737016617,
+        "rms": 0.3,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 55 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.2640914,
+          31.60362908,
+          6.414355469
+        ]
+      },
+      "id": "tx2021xedc"
+    },
     {
       "type": "Feature",
       "properties": {
