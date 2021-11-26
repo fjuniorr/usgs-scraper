@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637967188000,
+    "generated": 1637968167000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -375,7 +375,7 @@
         "mag": 2.77,
         "place": "17km WSW of Toms Place, CA",
         "time": 1637951272100,
-        "updated": 1637964250664,
+        "updated": 1637968033561,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73658195",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73658195.geojson",
@@ -932,10 +932,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.86999989,
-        "place": "8 km E of Pāhala, Hawaii",
-        "time": 1637917961050,
-        "updated": 1637918144090,
+        "mag": 3.16,
+        "place": "9 km E of Pāhala, Hawaii",
+        "time": 1637917960670,
+        "updated": 1637967749100,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72812152",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72812152.geojson",
@@ -943,28 +943,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 127,
+        "sig": 154,
         "net": "hv",
         "code": "72812152",
         "ids": ",hv72812152,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 20,
+        "nst": 29,
         "dmin": null,
-        "rms": 0.230000004,
-        "gap": 159,
+        "rms": 0.21,
+        "gap": 178,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 8 km E of Pāhala, Hawaii"
+        "title": "M 3.2 - 9 km E of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.397506713867,
-          19.1989994049072,
-          41.5800018310547
+          -155.385666666667,
+          19.189,
+          44.87
         ]
       },
       "id": "hv72812152"
