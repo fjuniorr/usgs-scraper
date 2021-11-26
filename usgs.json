@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637928950000,
+    "generated": 1637930923000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "15 km ENE of Valdivia, Colombia",
+        "time": 1637928728789,
+        "updated": 1637929778067,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx7u",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx7u.geojson",
+        "felt": 1,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 285,
+        "net": "us",
+        "code": "7000fx7u",
+        "ids": ",us7000fx7u,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.179,
+        "rms": 0.56,
+        "gap": 89,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 15 km ENE of Valdivia, Colombia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2675,
+          7.3494,
+          64.94
+        ]
+      },
+      "id": "us7000fx7u"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 2.5,
         "place": "116 km NNE of Ambler, Alaska",
         "time": 1637927160408,
-        "updated": 1637927743904,
+        "updated": 1637929407479,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021f5y65kg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021f5y65kg.geojson",
@@ -735,17 +775,17 @@
         "mag": 6.2,
         "place": "19 km SW of Falam, Myanmar",
         "time": 1637883941750,
-        "updated": 1637928367317,
+        "updated": 1637930172948,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx45",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx45.geojson",
-        "felt": 274,
+        "felt": 276,
         "cdi": 7.5,
         "mmi": 6.3,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 797,
+        "sig": 798,
         "net": "us",
         "code": "7000fx45",
         "ids": ",us7000fx45,",
