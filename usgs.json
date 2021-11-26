@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637958626000,
+    "generated": 1637959415000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -94,8 +94,8 @@
       "properties": {
         "mag": 4.7,
         "place": "Reykjanes Ridge",
-        "time": 1637954980797,
-        "updated": 1637958472040,
+        "time": 1637954980808,
+        "updated": 1637958657040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxbp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxbp.geojson",
@@ -112,8 +112,8 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 8.905,
-        "rms": 0.51,
+        "dmin": 8.904,
+        "rms": 0.53,
         "gap": 71,
         "magType": "mb",
         "type": "earthquake",
@@ -122,8 +122,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -35.0508,
-          54.2029,
+          -35.059,
+          54.2008,
           10
         ]
       },
@@ -332,6 +332,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4,
+        "place": "Banda Sea",
+        "time": 1637940639418,
+        "updated": 1637959340040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx8p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx8p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000fx8p",
+        "ids": ",us7000fx8p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.197,
+        "rms": 0.88,
+        "gap": 93,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - Banda Sea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.4141,
+          -4.4787,
+          411.32
+        ]
+      },
+      "id": "us7000fx8p"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.59,
         "place": "6 km SSW of Pāhala, Hawaii",
         "time": 1637934446390,
@@ -413,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "western Texas",
+        "place": "55 km NW of Toyah, Texas",
         "time": 1637933085651,
         "updated": 1637940516170,
         "tz": null,
@@ -437,7 +477,7 @@
         "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - western Texas"
+        "title": "M 3.4 - 55 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "12 km N of Cepitá, Colombia",
+        "place": "northern Colombia",
         "time": 1637896830295,
         "updated": 1637897684040,
         "tz": null,
@@ -1077,7 +1117,7 @@
         "gap": 35,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 12 km N of Cepitá, Colombia"
+        "title": "M 4.4 - northern Colombia"
       },
       "geometry": {
         "type": "Point",
@@ -1255,7 +1295,7 @@
         "mag": 6.2,
         "place": "19 km SW of Falam, Myanmar",
         "time": 1637883941750,
-        "updated": 1637951363353,
+        "updated": 1637958801232,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx45",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx45.geojson",
@@ -1448,46 +1488,6 @@
         ]
       },
       "id": "ci39870359"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "109 km W of La Libertad, Mexico",
-        "time": 1637872935147,
-        "updated": 1637875337040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx39",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx39.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000fx39",
-        "ids": ",us7000fx39,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.476,
-        "rms": 0.67,
-        "gap": 199,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 109 km W of La Libertad, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.8255,
-          29.8519,
-          10
-        ]
-      },
-      "id": "us7000fx39"
     }
   ],
   "bbox": [
