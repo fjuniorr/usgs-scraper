@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637902696000,
+    "generated": 1637903725000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -93,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "northern Colombia",
+        "place": "12 km N of Cepitá, Colombia",
         "time": 1637896830295,
         "updated": 1637897684040,
         "tz": null,
@@ -117,7 +117,7 @@
         "gap": 35,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - northern Colombia"
+        "title": "M 4.4 - 12 km N of Cepitá, Colombia"
       },
       "geometry": {
         "type": "Point",
@@ -295,17 +295,17 @@
         "mag": 6.1,
         "place": "19 km NNW of Hakha, Myanmar",
         "time": 1637883940636,
-        "updated": 1637902499505,
+        "updated": 1637903527762,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx45",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx45.geojson",
-        "felt": 236,
+        "felt": 239,
         "cdi": 7.5,
         "mmi": 6.491,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 749,
+        "sig": 752,
         "net": "us",
         "code": "7000fx45",
         "ids": ",us7000fx45,",
