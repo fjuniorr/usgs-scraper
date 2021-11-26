@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637913226000,
+    "generated": 1637914311000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Fiji region",
+        "time": 1637912202397,
+        "updated": 1637913327040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx6k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx6k.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000fx6k",
+        "ids": ",us7000fx6k,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.317,
+        "rms": 0.65,
+        "gap": 72,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.5494,
+          -18.8404,
+          598.01
+        ]
+      },
+      "id": "us7000fx6k"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -415,17 +455,17 @@
         "mag": 6.2,
         "place": "19 km SW of Falam, Myanmar",
         "time": 1637883941750,
-        "updated": 1637913197396,
+        "updated": 1637914037179,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx45",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx45.geojson",
-        "felt": 254,
+        "felt": 255,
         "cdi": 7.5,
         "mmi": 6.3,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 782,
+        "sig": 783,
         "net": "us",
         "code": "7000fx45",
         "ids": ",us7000fx45,",
@@ -1248,46 +1288,6 @@
         ]
       },
       "id": "nc73657510"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.68,
-        "place": "2 km SE of La Parguera, Puerto Rico",
-        "time": 1637827808360,
-        "updated": 1637830412580,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021329007",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021329007.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "pr",
-        "code": "2021329007",
-        "ids": ",pr2021329007,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.0172,
-        "rms": 0.13,
-        "gap": 204,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 2 km SE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0298,
-          17.96,
-          6
-        ]
-      },
-      "id": "pr2021329007"
     }
   ],
   "bbox": [
