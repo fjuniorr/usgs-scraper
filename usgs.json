@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637896281000,
+    "generated": 1637897478000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.32999992,
+        "place": "8 km E of Pāhala, Hawaii",
+        "time": 1637895939110,
+        "updated": 1637896885040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72811887",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72811887.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 171,
+        "net": "hv",
+        "code": "72811887",
+        "ids": ",us7000fx5b,hv72811887,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 157,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 8 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.401992797852,
+          19.2061672210693,
+          32.7900009155273
+        ]
+      },
+      "id": "hv72811887"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 6.1,
         "place": "19 km NNW of Hakha, Myanmar",
         "time": 1637883940636,
-        "updated": 1637896095863,
+        "updated": 1637897474303,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx45",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx45.geojson",
-        "felt": 209,
+        "felt": 218,
         "cdi": 7.5,
         "mmi": 6.491,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 729,
+        "sig": 736,
         "net": "us",
         "code": "7000fx45",
         "ids": ",us7000fx45,",
@@ -1168,51 +1208,11 @@
         ]
       },
       "id": "pr2021329002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "South Sandwich Islands region",
-        "time": 1637810668593,
-        "updated": 1637812868040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fwxn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fwxn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000fwxn",
-        "ids": ",us7000fwxn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 7.071,
-        "rms": 0.84,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -25.7264,
-          -58.0025,
-          70.33
-        ]
-      },
-      "id": "us7000fwxn"
     }
   ],
   "bbox": [
     -179.1856,
-    -58.0025,
+    -29.5558,
     3,
     175.1081,
     61.2354,
