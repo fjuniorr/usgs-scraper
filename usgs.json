@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637912764000,
+    "generated": 1637913226000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "Puerto Rico region",
+        "time": 1637912004900,
+        "updated": 1637912874924,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021330004",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021330004.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "pr",
+        "code": "2021330004",
+        "ids": ",pr2021330004,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.0501,
+        "rms": 0.16,
+        "gap": 191,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - Puerto Rico region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9016,
+          17.9303,
+          11
+        ]
+      },
+      "id": "pr2021330004"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -375,17 +415,17 @@
         "mag": 6.2,
         "place": "19 km SW of Falam, Myanmar",
         "time": 1637883941750,
-        "updated": 1637912731903,
+        "updated": 1637913197396,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx45",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx45.geojson",
-        "felt": 253,
+        "felt": 254,
         "cdi": 7.5,
         "mmi": 6.3,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 781,
+        "sig": 782,
         "net": "us",
         "code": "7000fx45",
         "ids": ",us7000fx45,",
