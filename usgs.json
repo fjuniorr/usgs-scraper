@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638033264000,
+    "generated": 1638034520000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.27,
+        "place": "32 km NNE of Punta Cana, Dominican Republic",
+        "time": 1638032608990,
+        "updated": 1638033703477,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021331005",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021331005.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 165,
+        "net": "pr",
+        "code": "2021331005",
+        "ids": ",pr2021331005,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 1.4325,
+        "rms": 0.49,
+        "gap": 198,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 32 km NNE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2695,
+          18.8471,
+          101
+        ]
+      },
+      "id": "pr2021331005"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.62,
         "place": "4 km SW of Pāhala, Hawaii",
         "time": 1638028871430,
-        "updated": 1638029225556,
+        "updated": 1638033726040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72813692",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72813692.geojson",
@@ -28,8 +68,8 @@
         "sig": 106,
         "net": "hv",
         "code": "72813692",
-        "ids": ",hv72813692,",
-        "sources": ",hv,",
+        "ids": ",hv72813692,us7000fxi7,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 51,
         "dmin": null,
@@ -95,7 +135,7 @@
         "mag": 2.57,
         "place": "9km ESE of Big Bear City, CA",
         "time": 1638022350150,
-        "updated": 1638032709502,
+        "updated": 1638033274040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39871631",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39871631.geojson",
@@ -108,8 +148,8 @@
         "sig": 103,
         "net": "ci",
         "code": "39871631",
-        "ids": ",ci39871631,",
-        "sources": ",ci,",
+        "ids": ",ci39871631,us7000fxhr,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 84,
         "dmin": 0.1341,
@@ -532,10 +572,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.1,
+        "mag": 4.02,
         "place": "111km W of Trinidad, CA",
         "time": 1637998526130,
-        "updated": 1638028827274,
+        "updated": 1638034405013,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73658540",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73658540.geojson",
@@ -545,19 +585,19 @@
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 259,
+        "sig": 249,
         "net": "nc",
         "code": "73658540",
         "ids": ",nc73658540,us7000fxfz,",
         "sources": ",nc,us,",
-        "types": ",dyfi,losspager,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 83,
         "dmin": 1.066,
         "rms": 0.29,
         "gap": 252,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.1 - 111km W of Trinidad, CA"
+        "title": "M 4.0 - 111km W of Trinidad, CA"
       },
       "geometry": {
         "type": "Point",
@@ -688,6 +728,46 @@
         ]
       },
       "id": "us7000fxev"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "11 km WNW of Beaver, Oregon",
+        "time": 1637990326790,
+        "updated": 1638034199400,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61800711",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61800711.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "uw",
+        "code": "61800711",
+        "ids": ",uw61800711,",
+        "sources": ",uw,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.1006,
+        "rms": 0.22,
+        "gap": 170,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 11 km WNW of Beaver, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.965333333333,
+          45.306,
+          14.97
+        ]
+      },
+      "id": "uw61800711"
     },
     {
       "type": "Feature",
