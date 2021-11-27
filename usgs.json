@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638044897000,
+    "generated": 1638049966000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,15 +12,95 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.51999998,
+        "place": "2 km SSE of Pāhala, Hawaii",
+        "time": 1638047274260,
+        "updated": 1638047605210,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72814027",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72814027.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "hv",
+        "code": "72814027",
+        "ids": ",hv72814027,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": null,
+        "rms": 0.109999999,
+        "gap": 148,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km SSE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.465835571289,
+          19.183500289917,
+          36.8800010681152
+        ]
+      },
+      "id": "hv72814027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "60 km S of Popondetta, Papua New Guinea",
+        "time": 1638045399554,
+        "updated": 1638049072457,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxjx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxjx.geojson",
+        "felt": 3,
+        "cdi": 5.3,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 434,
+        "net": "us",
+        "code": "7000fxjx",
+        "ids": ",us7000fxjx,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 6.448,
+        "rms": 1.06,
+        "gap": 18,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - 60 km S of Popondetta, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.1673,
+          -9.3079,
+          10
+        ]
+      },
+      "id": "us7000fxjx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.4,
         "place": "91 km SSE of Panguna, Papua New Guinea",
         "time": 1638038889058,
-        "updated": 1638041345274,
+        "updated": 1638049281667,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxj5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxj5.geojson",
-        "felt": 0,
-        "cdi": 1,
+        "felt": 2,
+        "cdi": 2.7,
         "mmi": 4.72,
         "alert": "green",
         "status": "reviewed",
@@ -335,11 +415,11 @@
         "mag": 2.57,
         "place": "9km ESE of Big Bear City, CA",
         "time": 1638022350150,
-        "updated": 1638033274040,
+        "updated": 1638045978292,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39871631",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39871631.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.76,
-        "place": "Puerto Rico region",
+        "place": "16 km SSE of Guánica, Puerto Rico",
         "time": 1638011025070,
         "updated": 1638015645534,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 257,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - Puerto Rico region"
+        "title": "M 2.8 - 16 km SSE of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1608,86 +1688,6 @@
         ]
       },
       "id": "ak021f646uml"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "33 km E of Chazuta, Peru",
-        "time": 1637963315449,
-        "updated": 1638025986459,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxc8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxc8.geojson",
-        "felt": 1,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 401,
-        "net": "us",
-        "code": "7000fxc8",
-        "ids": ",us7000fxc8,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 3.297,
-        "rms": 0.7,
-        "gap": 67,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 33 km E of Chazuta, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.8385,
-          -6.6254,
-          109.67
-        ]
-      },
-      "id": "us7000fxc8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.75,
-        "place": "4 km SE of Indios, Puerto Rico",
-        "time": 1637960887570,
-        "updated": 1637962745449,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021330011",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021330011.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "pr",
-        "code": "2021330011",
-        "ids": ",pr2021330011,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.091,
-        "rms": 0.14,
-        "gap": 162,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 4 km SE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7883,
-          17.9706,
-          18
-        ]
-      },
-      "id": "pr2021330011"
     }
   ],
   "bbox": [
