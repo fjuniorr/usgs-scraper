@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638069136000,
+    "generated": 1638070298000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 51
+    "count": 53
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.69,
+        "place": "1 km ESE of Pāhala, Hawaii",
+        "time": 1638069176800,
+        "updated": 1638070174082,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72814362",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72814362.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 111,
+        "net": "hv",
+        "code": "72814362",
+        "ids": ",hv72814362,us7000fxm4,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 51,
+        "dmin": null,
+        "rms": 0.109999999,
+        "gap": 102,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 1 km ESE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.46516418457,
+          19.1981658935547,
+          36.0299987792969
+        ]
+      },
+      "id": "hv72814362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "3 km SE of La Parguera, Puerto Rico",
+        "time": 1638069005476,
+        "updated": 1638069932348,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxm3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxm3.geojson",
+        "felt": 2,
+        "cdi": 5.5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 122,
+        "net": "us",
+        "code": "7000fxm3",
+        "ids": ",us7000fxm3,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.024,
+        "rms": 0.37,
+        "gap": 204,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 3 km SE of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0228,
+          17.9551,
+          20.49
+        ]
+      },
+      "id": "us7000fxm3"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.7,
         "place": "18 km S of La Parguera, Puerto Rico",
         "time": 1638068235428,
-        "updated": 1638069127028,
+        "updated": 1638070188771,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxm1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxm1.geojson",
-        "felt": 3,
+        "felt": 7,
         "cdi": 4.1,
-        "mmi": null,
+        "mmi": 2.75,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 212,
+        "sig": 213,
         "net": "us",
         "code": "7000fxm1",
         "ids": ",us7000fxm1,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 0.156,
         "rms": 0.81,
@@ -95,17 +175,17 @@
         "mag": 3.7,
         "place": "4 km SE of La Parguera, Puerto Rico",
         "time": 1638067583349,
-        "updated": 1638068951845,
+        "updated": 1638070203603,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxlx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxlx.geojson",
-        "felt": 6,
-        "cdi": 4.2,
+        "felt": 11,
+        "cdi": 6,
         "mmi": 3.282,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 213,
+        "sig": 217,
         "net": "us",
         "code": "7000fxlx",
         "ids": ",us7000fxlx,",
@@ -213,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "6 km SSW of Venetie, Alaska",
+        "place": "northern Alaska",
         "time": 1638063587483,
         "updated": 1638066089040,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - 6 km SSW of Venetie, Alaska"
+        "title": "M 3.7 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "place": "90 km NNE of Adak, Alaska",
         "time": 1638057085158,
         "updated": 1638059422906,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Andreanof Islands, Aleutian Islands, Alaska"
+        "title": "M 3.0 - 90 km NNE of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.76,
-        "place": "16 km SSE of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1638011025070,
         "updated": 1638015645534,
         "tz": null,
@@ -1437,7 +1517,7 @@
         "gap": 257,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 16 km SSE of Guánica, Puerto Rico"
+        "title": "M 2.8 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
