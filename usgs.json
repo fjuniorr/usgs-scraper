@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638132448000,
+    "generated": 1638132908000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -775,7 +775,7 @@
         "mag": 7.5,
         "place": "42 km NNW of Barranca, Peru",
         "time": 1638096733239,
-        "updated": 1638127938308,
+        "updated": 1638132631048,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxq2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxq2.geojson",
