@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638081448000,
+    "generated": 1638082276000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 50
+    "count": 51
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "21 km WSW of Venetie, Alaska",
-        "time": 1638081039974,
-        "updated": 1638081408213,
+        "mag": 2.9,
+        "place": "12 km W of Venetie, Alaska",
+        "time": 1638081036161,
+        "updated": 1638081839874,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021f966bs2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021f966bs2.geojson",
@@ -25,7 +25,7 @@
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 129,
         "net": "ak",
         "code": "021f966bs2",
         "ids": ",ak021f966bs2,",
@@ -33,18 +33,18 @@
         "types": ",origin,",
         "nst": null,
         "dmin": null,
-        "rms": 0.78,
+        "rms": 0.74,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 21 km WSW of Venetie, Alaska"
+        "title": "M 2.9 - 12 km W of Venetie, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.8826,
-          66.9562,
-          76.8
+          -146.7062,
+          67.0253,
+          4.5
         ]
       },
       "id": "ak021f966bs2"
@@ -55,12 +55,12 @@
         "mag": 3.2,
         "place": "56 km SSE of Whites City, New Mexico",
         "time": 1638079150556,
-        "updated": 1638080113300,
+        "updated": 1638081767246,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021xhfj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021xhfj.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -68,9 +68,9 @@
         "sig": 158,
         "net": "tx",
         "code": "2021xhfj",
-        "ids": ",us7000fxmy,tx2021xhfj,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2021xhfj,us7000fxmy,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 17,
         "dmin": 0.1108347508,
         "rms": 0.2,
@@ -135,17 +135,17 @@
         "mag": 2.58,
         "place": "12km N of Tecate, B.C., MX",
         "time": 1638078308330,
-        "updated": 1638078885002,
+        "updated": 1638081781627,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39872567",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39872567.geojson",
-        "felt": 1,
-        "cdi": 3.1,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 103,
+        "sig": 102,
         "net": "ci",
         "code": "39872567",
         "ids": ",ci39872567,",
@@ -208,6 +208,46 @@
         ]
       },
       "id": "ci39872559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "59 km ENE of San Vicente, Mexico",
+        "time": 1638078260388,
+        "updated": 1638081956206,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxmt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxmt.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": 4.227,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "us",
+        "code": "7000fxmt",
+        "ids": ",us7000fxmt,ci39872551,",
+        "sources": ",us,ci,",
+        "types": ",dyfi,origin,phase-data,scitech-link,shakemap,",
+        "nst": null,
+        "dmin": 0.15,
+        "rms": 0.67,
+        "gap": 110,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 59 km ENE of San Vicente, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.6439,
+          31.4828,
+          18.66
+        ]
+      },
+      "id": "us7000fxmt"
     },
     {
       "type": "Feature",
