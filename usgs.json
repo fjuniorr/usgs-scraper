@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638075436000,
+    "generated": 1638076390000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 50
+    "count": 49
   },
   "features": [
     {
@@ -95,13 +95,13 @@
         "mag": 3.46,
         "place": "4 km E of La Parguera, Puerto Rico",
         "time": 1638068238080,
-        "updated": 1638074400342,
+        "updated": 1638075554755,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021332003",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021332003.geojson",
         "felt": 9,
         "cdi": 3.3,
-        "mmi": 2.774,
+        "mmi": 3.074,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1968,46 +1968,6 @@
         ]
       },
       "id": "us7000fxep"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6099999,
-        "place": "1 km S of Pāhala, Hawaii",
-        "time": 1637989492490,
-        "updated": 1637996117040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72813147",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72813147.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "hv",
-        "code": "72813147",
-        "ids": ",us7000fxem,hv72813147,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": null,
-        "rms": 0.100000001,
-        "gap": 85,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 1 km S of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.475326538086,
-          19.1863327026367,
-          34.7099990844727
-        ]
-      },
-      "id": "hv72813147"
     }
   ],
   "bbox": [
