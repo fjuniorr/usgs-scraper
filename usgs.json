@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638127376000,
+    "generated": 1638128025000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 55
+    "count": 54
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "49 km NNE of Ouzinkie, Alaska",
+        "time": 1638127492585,
+        "updated": 1638127876200,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021f9dvpo2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021f9dvpo2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "021f9dvpo2",
+        "ids": ",ak021f9dvpo2,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.46,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 49 km NNE of Ouzinkie, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.2625,
+          58.347,
+          52.7
+        ]
+      },
+      "id": "ak021f9dvpo2"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -535,13 +575,13 @@
         "mag": 7.5,
         "place": "42 km NNW of Barranca, Peru",
         "time": 1638096733239,
-        "updated": 1638126258805,
+        "updated": 1638127610829,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxq2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxq2.geojson",
-        "felt": 242,
+        "felt": 243,
         "cdi": 8.6,
-        "mmi": 7.856,
+        "mmi": 7.855,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 1,
@@ -2128,91 +2168,11 @@
         ]
       },
       "id": "us7000fxjk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "38 km WSW of Carahue, Chile",
-        "time": 1638041516679,
-        "updated": 1638056279040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxjr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxjr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000fxjr",
-        "ids": ",us7000fxjr,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.016,
-        "rms": 0.82,
-        "gap": 139,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.4 - 38 km WSW of Carahue, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.5544,
-          -38.8677,
-          20.43
-        ]
-      },
-      "id": "us7000fxjr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "38 km WSW of Carahue, Chile",
-        "time": 1638041339319,
-        "updated": 1638057618828,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxji",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxji.geojson",
-        "felt": 3,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 327,
-        "net": "us",
-        "code": "7000fxji",
-        "ids": ",us7000fxji,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.063,
-        "rms": 0.58,
-        "gap": 139,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.6 - 38 km WSW of Carahue, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.5757,
-          -38.8213,
-          27.37
-        ]
-      },
-      "id": "us7000fxji"
     }
   ],
   "bbox": [
     -178.2631,
-    -38.8677,
+    -38.8416,
     4.5,
     148.1673,
     85.4413,
