@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638126618000,
+    "generated": 1638127376000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 54
+    "count": 55
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.12,
+        "place": "55 km W of Puerto Real, Puerto Rico",
+        "time": 1638125709950,
+        "updated": 1638127257743,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021332018",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021332018.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 150,
+        "net": "pr",
+        "code": "2021332018",
+        "ids": ",pr2021332018,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.4202,
+        "rms": 0.31,
+        "gap": 183,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 55 km W of Puerto Real, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7085,
+          18.0323,
+          5
+        ]
+      },
+      "id": "pr2021332018"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -510,7 +550,7 @@
         "code": "7000fxq2",
         "ids": ",pt21332000,at00r3a3j1,us7000fxq2,",
         "sources": ",pt,at,us,",
-        "types": ",dyfi,general-text,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,general-text,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 4.962,
         "rms": 0.61,
