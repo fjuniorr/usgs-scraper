@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638076390000,
+    "generated": 1638077236000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 46
   },
   "features": [
     {
@@ -293,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "6 km SSW of Venetie, Alaska",
+        "place": "northern Alaska",
         "time": 1638063587483,
         "updated": 1638066089040,
         "tz": null,
@@ -317,7 +317,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - 6 km SSW of Venetie, Alaska"
+        "title": "M 3.7 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "place": "90 km NNE of Adak, Alaska",
         "time": 1638057085158,
         "updated": 1638059422906,
         "tz": null,
@@ -557,7 +557,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Andreanof Islands, Aleutian Islands, Alaska"
+        "title": "M 3.0 - 90 km NNE of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1493,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.76,
-        "place": "16 km SSE of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1638011025070,
         "updated": 1638015645534,
         "tz": null,
@@ -1517,7 +1517,7 @@
         "gap": 257,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 16 km SSE of Guánica, Puerto Rico"
+        "title": "M 2.8 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1848,126 +1848,6 @@
         ]
       },
       "id": "us7000fxf8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "95 km W of San Antonio de los Cobres, Argentina",
-        "time": 1637990715848,
-        "updated": 1637991799040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxev",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxev.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000fxev",
-        "ids": ",us7000fxev,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.588,
-        "rms": 0.65,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 95 km W of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2565,
-          -24.3024,
-          179.59
-        ]
-      },
-      "id": "us7000fxev"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "11 km WNW of Beaver, Oregon",
-        "time": 1637990326790,
-        "updated": 1638034199400,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61800711",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61800711.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "uw",
-        "code": "61800711",
-        "ids": ",uw61800711,",
-        "sources": ",uw,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.1006,
-        "rms": 0.22,
-        "gap": 170,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 11 km WNW of Beaver, Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.965333333333,
-          45.306,
-          14.97
-        ]
-      },
-      "id": "uw61800711"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "108 km SSE of Ierápetra, Greece",
-        "time": 1637990050831,
-        "updated": 1637996415040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxep",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxep.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000fxep",
-        "ids": ",us7000fxep,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.651,
-        "rms": 0.58,
-        "gap": 116,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 108 km SSE of Ierápetra, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.1749,
-          34.1054,
-          21
-        ]
-      },
-      "id": "us7000fxep"
     }
   ],
   "bbox": [
