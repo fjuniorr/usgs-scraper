@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638211000000,
+    "generated": 1638211788000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
     {
@@ -14,8 +14,8 @@
       "properties": {
         "mag": 3,
         "place": "39 km SSE of Cantwell, Alaska",
-        "time": 1638210740958,
-        "updated": 1638210984652,
+        "time": 1638210741020,
+        "updated": 1638211476521,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fb0v9tv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fb0v9tv.geojson",
@@ -33,7 +33,7 @@
         "types": ",origin,",
         "nst": null,
         "dmin": null,
-        "rms": 0.64,
+        "rms": 0.69,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
@@ -42,12 +42,52 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.5462,
-          63.0863,
-          61.2
+          -148.5457,
+          63.0831,
+          58.7
         ]
       },
       "id": "ak021fb0v9tv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "south of the Kermadec Islands",
+        "time": 1638210212834,
+        "updated": 1638211306939,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g7p3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g7p3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "6000g7p3",
+        "ids": ",us6000g7p3,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 4.227,
+        "rms": 1.1,
+        "gap": 167,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - south of the Kermadec Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.7468,
+          -33.4996,
+          10
+        ]
+      },
+      "id": "us6000g7p3"
     },
     {
       "type": "Feature",
@@ -735,17 +775,17 @@
         "mag": 3.28,
         "place": "18 km ESE of Naalehu, Hawaii",
         "time": 1638168446040,
-        "updated": 1638208508294,
+        "updated": 1638211088594,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72816147",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72816147.geojson",
-        "felt": 16,
+        "felt": 17,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 170,
+        "sig": 171,
         "net": "hv",
         "code": "72816147",
         "ids": ",hv72816147,us7000fxwg,",
@@ -1571,11 +1611,11 @@
     }
   ],
   "bbox": [
-    -155.43133544922,
+    -177.7468,
     -58.589,
     4.563378906,
     179.8367,
-    63.0863,
+    63.0831,
     540.86
   ]
 }
