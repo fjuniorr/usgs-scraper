@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638202922000,
+    "generated": 1638205148000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "58 km S of Whites City, New Mexico",
+        "time": 1638203639753,
+        "updated": 1638204914040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fy03",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fy03.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000fy03",
+        "ids": ",us7000fy03,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.175,
+        "rms": 0.38,
+        "gap": 64,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 58 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.2963,
+          31.6503,
+          5
+        ]
+      },
+      "id": "us7000fy03"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,11 +255,11 @@
         "mag": 6.3,
         "place": "Izu Islands, Japan region",
         "time": 1638189643618,
-        "updated": 1638201160040,
+        "updated": 1638203289994,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxyq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxyq.geojson",
-        "felt": 49,
+        "felt": 50,
         "cdi": 4.1,
         "mmi": 2.875,
         "alert": "green",
@@ -535,11 +575,11 @@
         "mag": 3.28,
         "place": "18 km ESE of Naalehu, Hawaii",
         "time": 1638168446040,
-        "updated": 1638181852040,
+        "updated": 1638203959845,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72816147",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72816147.geojson",
-        "felt": 14,
+        "felt": 15,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -1255,7 +1295,7 @@
         "mag": 2.6,
         "place": "14 km SW of Stanley, Idaho",
         "time": 1638128555803,
-        "updated": 1638180554755,
+        "updated": 1638203546820,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxt4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxt4.geojson",
@@ -1268,8 +1308,8 @@
         "sig": 105,
         "net": "us",
         "code": "7000fxt4",
-        "ids": ",us7000fxt4,",
-        "sources": ",us,",
+        "ids": ",us7000fxt4,mb80531974,",
+        "sources": ",us,mb,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.729,
@@ -1413,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "near the north coast of Papua, Indonesia",
+        "place": "25 km W of Abepura, Indonesia",
         "time": 1638120450721,
         "updated": 1638151272881,
         "tz": null,
@@ -1437,7 +1477,7 @@
         "gap": 59,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - near the north coast of Papua, Indonesia"
+        "title": "M 4.5 - 25 km W of Abepura, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1528,46 +1568,6 @@
         ]
       },
       "id": "us7000fxsb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.28,
-        "place": "61 km SE of Punta Cana, Dominican Republic",
-        "time": 1638117566640,
-        "updated": 1638119992768,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021332016",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021332016.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 166,
-        "net": "pr",
-        "code": "2021332016",
-        "ids": ",pr2021332016,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.5014,
-        "rms": 0.42,
-        "gap": 174,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 61 km SE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.033,
-          18.1533,
-          80
-        ]
-      },
-      "id": "pr2021332016"
     }
   ],
   "bbox": [
