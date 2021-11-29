@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638172028000,
+    "generated": 1638172481000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 44
   },
   "features": [
     {
@@ -1768,46 +1768,6 @@
         ]
       },
       "id": "us7000fxnu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "8 km SE of Miches, Dominican Republic",
-        "time": 1638085818405,
-        "updated": 1638088242040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxnq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxnq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "7000fxnq",
-        "ids": ",us7000fxnq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.711,
-        "rms": 0.45,
-        "gap": 176,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 8 km SE of Miches, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.9991,
-          18.9199,
-          8.05
-        ]
-      },
-      "id": "us7000fxnq"
     }
   ],
   "bbox": [
