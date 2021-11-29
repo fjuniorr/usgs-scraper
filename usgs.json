@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638159150000,
+    "generated": 1638160968000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 48
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.69,
+        "place": "21km W of Petrolia, CA",
+        "time": 1638160608700,
+        "updated": 1638160874260,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73659375",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73659375.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 111,
+        "net": "nc",
+        "code": "73659375",
+        "ids": ",nc73659375,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.1895,
+        "rms": 0.13,
+        "gap": 247,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 21km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.529335,
+          40.293499,
+          17.34
+        ]
+      },
+      "id": "nc73659375"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -935,17 +975,17 @@
         "mag": 3.54,
         "place": "1 km SSE of Pāhala, Hawaii",
         "time": 1638114393990,
-        "updated": 1638123610223,
+        "updated": 1638159493465,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72815092",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72815092.geojson",
-        "felt": 28,
+        "felt": 29,
         "cdi": 3.1,
         "mmi": 4.132,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 201,
+        "sig": 202,
         "net": "hv",
         "code": "72815092",
         "ids": ",hv72815092,us7000fxru,",
@@ -1695,7 +1735,7 @@
         "mag": 5.1,
         "place": "28 km W of Callao, Peru",
         "time": 1638081150995,
-        "updated": 1638151458718,
+        "updated": 1638159742605,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxna",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxna.geojson",
