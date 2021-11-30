@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638277952000,
+    "generated": 1638278624000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -333,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "New Ireland region, Papua New Guinea",
+        "place": "113 km S of Kavieng, Papua New Guinea",
         "time": 1638269537579,
         "updated": 1638273852040,
         "tz": null,
@@ -357,7 +357,7 @@
         "gap": 88,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - New Ireland region, Papua New Guinea"
+        "title": "M 5.0 - 113 km S of Kavieng, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -408,6 +408,46 @@
         ]
       },
       "id": "us6000g7v8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "37 km W of Agios Kirykos, Greece",
+        "time": 1638268344224,
+        "updated": 1638277981040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g7uy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g7uy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000g7uy",
+        "ids": ",us6000g7uy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.672,
+        "rms": 0.79,
+        "gap": 75,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 37 km W of Agios Kirykos, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.865,
+          37.6103,
+          10
+        ]
+      },
+      "id": "us6000g7uy"
     },
     {
       "type": "Feature",
@@ -735,11 +775,11 @@
         "mag": 2.51,
         "place": "1km W of Kensington, CA",
         "time": 1638243027420,
-        "updated": 1638277241097,
+        "updated": 1638278334265,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73659805",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73659805.geojson",
-        "felt": 926,
+        "felt": 927,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1968,46 +2008,6 @@
         ]
       },
       "id": "us7000fxzi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "15 km NNW of Cawker City, Kansas",
-        "time": 1638192023034,
-        "updated": 1638196442040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxz1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxz1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "7000fxz1",
-        "ids": ",us7000fxz1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.225,
-        "rms": 0.94,
-        "gap": 48,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 2.5 - 15 km NNW of Cawker City, Kansas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.5016,
-          39.6388,
-          5
-        ]
-      },
-      "id": "us7000fxz1"
     }
   ],
   "bbox": [
