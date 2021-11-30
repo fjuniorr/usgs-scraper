@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638303049000,
+    "generated": 1638304282000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -175,7 +175,7 @@
         "mag": 3.29,
         "place": "1 km W of Tallaboa, Puerto Rico",
         "time": 1638294739760,
-        "updated": 1638300287144,
+        "updated": 1638303950040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021334005",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021334005.geojson",
@@ -188,8 +188,8 @@
         "sig": 167,
         "net": "pr",
         "code": "2021334005",
-        "ids": ",pr2021334005,",
-        "sources": ",pr,",
+        "ids": ",pr2021334005,us6000g7yz,",
+        "sources": ",pr,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 25,
         "dmin": 0.1359,
@@ -255,7 +255,7 @@
         "mag": 3.3,
         "place": "60 km ENE of Susitna North, Alaska",
         "time": 1638293459844,
-        "updated": 1638294840717,
+        "updated": 1638303234040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fcnsuak",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fcnsuak.geojson",
@@ -268,9 +268,9 @@
         "sig": 168,
         "net": "ak",
         "code": "021fcnsuak",
-        "ids": ",ak021fcnsuak,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,",
+        "ids": ",ak021fcnsuak,us6000g7xe,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.61,
@@ -1053,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "New Ireland region, Papua New Guinea",
+        "place": "113 km S of Kavieng, Papua New Guinea",
         "time": 1638269537579,
         "updated": 1638273852040,
         "tz": null,
@@ -1077,7 +1077,7 @@
         "gap": 88,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - New Ireland region, Papua New Guinea"
+        "title": "M 5.0 - 113 km S of Kavieng, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
