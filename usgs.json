@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638278624000,
+    "generated": 1638279233000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -375,11 +375,11 @@
         "mag": 6,
         "place": "112 km SSE of Kavieng, Papua New Guinea",
         "time": 1638268578221,
-        "updated": 1638276113480,
+        "updated": 1638279041917,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g7v8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g7v8.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 5.2,
         "mmi": 4.511,
         "alert": "green",
