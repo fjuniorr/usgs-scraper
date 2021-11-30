@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638256105000,
+    "generated": 1638256860000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "Izu Islands, Japan region",
+        "time": 1638255212685,
+        "updated": 1638256664032,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g7tw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g7tw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "6000g7tw",
+        "ids": ",us6000g7tw,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 2.939,
+        "rms": 0.66,
+        "gap": 54,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.4773,
+          31.2289,
+          7.86
+        ]
+      },
+      "id": "us6000g7tw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,11 +175,11 @@
         "mag": 2.51,
         "place": "1km W of Kensington, CA",
         "time": 1638243027420,
-        "updated": 1638255893446,
+        "updated": 1638256684484,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73659805",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73659805.geojson",
-        "felt": 914,
+        "felt": 915,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1693,7 +1733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Colombia",
+        "place": "11 km N of Lejanías, Colombia",
         "time": 1638172417806,
         "updated": 1638174484040,
         "tz": null,
@@ -1717,7 +1757,7 @@
         "gap": 67,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Colombia"
+        "title": "M 4.4 - 11 km N of Lejanías, Colombia"
       },
       "geometry": {
         "type": "Point",
