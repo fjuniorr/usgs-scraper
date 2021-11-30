@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638253851000,
+    "generated": 1638254636000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 44
   },
   "features": [
     {
@@ -135,17 +135,17 @@
         "mag": 2.51,
         "place": "1km W of Kensington, CA",
         "time": 1638243027420,
-        "updated": 1638253501895,
+        "updated": 1638254624942,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73659805",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73659805.geojson",
-        "felt": 907,
-        "cdi": 3.7,
+        "felt": 909,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 433,
+        "sig": 406,
         "net": "nc",
         "code": "73659805",
         "ids": ",nc73659805,",
@@ -1292,10 +1292,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.98,
-        "place": "7 km E of Pāhala, Hawaii",
-        "time": 1638195145200,
-        "updated": 1638214098300,
+        "mag": 2.64,
+        "place": "8 km E of Pāhala, Hawaii",
+        "time": 1638195145190,
+        "updated": 1638254325870,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72816502",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72816502.geojson",
@@ -1305,26 +1305,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 137,
+        "sig": 107,
         "net": "hv",
         "code": "72816502",
         "ids": ",us7000fxzm,hv72816502,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 51,
+        "nst": 55,
         "dmin": null,
-        "rms": 0.11,
-        "gap": 152,
-        "magType": "md",
+        "rms": 0.12,
+        "gap": 157,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 7 km E of Pāhala, Hawaii"
+        "title": "M 2.6 - 8 km E of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.405,
-          19.2106666666667,
-          32.6
+          -155.402166666667,
+          19.206,
+          32.76
         ]
       },
       "id": "hv72816502"
@@ -1768,94 +1768,14 @@
         ]
       },
       "id": "hv72816147"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "79 km SSW of Puerto Peñasco, Mexico",
-        "time": 1638167824382,
-        "updated": 1638179398040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxwa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxwa.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000fxwa",
-        "ids": ",us7000fxwa,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.965,
-        "rms": 0.91,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 79 km SSW of Puerto Peñasco, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.7254,
-          30.6222,
-          10
-        ]
-      },
-      "id": "us7000fxwa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "south of the Fiji Islands",
-        "time": 1638167546127,
-        "updated": 1638169366040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxw8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxw8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000fxw8",
-        "ids": ",us7000fxw8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 5.502,
-        "rms": 0.63,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          179.8367,
-          -24.1169,
-          540.86
-        ]
-      },
-      "id": "us7000fxw8"
     }
   ],
   "bbox": [
     -179.3205,
     -58.8481,
     4.46,
-    179.8367,
+    169.113,
     65.5297,
-    540.86
+    381.62
   ]
 }
