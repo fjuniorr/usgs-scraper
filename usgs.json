@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638384689000,
+    "generated": 1638385659000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 45
   },
   "features": [
     {
@@ -95,17 +95,17 @@
         "mag": 5,
         "place": "4 km W of Tsukuba, Japan",
         "time": 1638377918264,
-        "updated": 1638384561565,
+        "updated": 1638385521271,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g88v",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g88v.geojson",
-        "felt": 179,
+        "felt": 184,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 465,
+        "sig": 467,
         "net": "us",
         "code": "6000g88v",
         "ids": ",us6000g88v,",
@@ -1808,46 +1808,6 @@
         ]
       },
       "id": "us6000g7ze"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "3 km SW of Guánica, Puerto Rico",
-        "time": 1638299065810,
-        "updated": 1638301423564,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021334006",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021334006.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "pr",
-        "code": "2021334006",
-        "ids": ",pr2021334006,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.0565,
-        "rms": 0.11,
-        "gap": 211,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 3 km SW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9306,
-          17.9516,
-          5
-        ]
-      },
-      "id": "pr2021334006"
     }
   ],
   "bbox": [
