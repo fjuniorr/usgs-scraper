@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638380376000,
+    "generated": 1638381189000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,20 +12,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 5.3,
+        "place": "70 km W of Kirakira, Solomon Islands",
+        "time": 1638379383252,
+        "updated": 1638380393040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g88z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g88z.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "6000g88z",
+        "ids": ",us6000g88z,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.601,
+        "rms": 0.71,
+        "gap": 40,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - 70 km W of Kirakira, Solomon Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          161.2876,
+          -10.3512,
+          53.44
+        ]
+      },
+      "id": "us6000g88z"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "4 km W of Tsukuba, Japan",
         "time": 1638377918264,
-        "updated": 1638380152810,
+        "updated": 1638381061026,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g88v",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g88v.geojson",
-        "felt": 48,
+        "felt": 103,
         "cdi": 5.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 410,
+        "sig": 439,
         "net": "us",
         "code": "6000g88v",
         "ids": ",us6000g88v,",
@@ -815,11 +855,11 @@
         "mag": 5.1,
         "place": "22 km SW of Cañete, Chile",
         "time": 1638333564603,
-        "updated": 1638363523190,
+        "updated": 1638380583738,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g836.geojson",
-        "felt": 17,
+        "felt": 18,
         "cdi": 5,
         "mmi": null,
         "alert": null,
@@ -1928,53 +1968,13 @@
         ]
       },
       "id": "us6000g7yx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.29,
-        "place": "1 km W of Tallaboa, Puerto Rico",
-        "time": 1638294739760,
-        "updated": 1638330291752,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021334005",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021334005.geojson",
-        "felt": 3,
-        "cdi": 2.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 167,
-        "net": "pr",
-        "code": "2021334005",
-        "ids": ",pr2021334005,us6000g7yz,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.1359,
-        "rms": 0.21,
-        "gap": 144,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 1 km W of Tallaboa, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7335,
-          17.9951,
-          11
-        ]
-      },
-      "id": "pr2021334005"
     }
   ],
   "bbox": [
     -176.8696,
     -37.9287,
     -1.0199999809265,
-    142.5861,
+    161.2876,
     67.6747,
     545
   ]
