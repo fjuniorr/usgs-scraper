@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638455151000,
+    "generated": 1638455739000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 24
+    "count": 23
   },
   "features": [
     {
@@ -333,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.26,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "22 km ENE of Honaunau-Napoopoo, Hawaii",
         "time": 1638410612960,
         "updated": 1638417923631,
         "tz": null,
@@ -357,7 +357,7 @@
         "gap": 46,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - Island of Hawaii, Hawaii"
+        "title": "M 3.3 - 22 km ENE of Honaunau-Napoopoo, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.91,
-        "place": "Puerto Rico region",
+        "place": "3 km S of Magas Arriba, Puerto Rico",
         "time": 1638396482280,
         "updated": 1638402946695,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 166,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - Puerto Rico region"
+        "title": "M 2.9 - 3 km S of Magas Arriba, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -815,11 +815,11 @@
         "mag": 5,
         "place": "4 km W of Tsukuba, Japan",
         "time": 1638377918264,
-        "updated": 1638454734592,
+        "updated": 1638455340498,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g88v",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g88v.geojson",
-        "felt": 204,
+        "felt": 205,
         "cdi": 5.3,
         "mmi": null,
         "alert": null,
@@ -853,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.49,
-        "place": "Hawaii region, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1638375106590,
         "updated": 1638394372990,
         "tz": null,
@@ -877,7 +877,7 @@
         "gap": 165,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Hawaii region, Hawaii"
+        "title": "M 2.5 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -928,46 +928,6 @@
         ]
       },
       "id": "ak021fea3xrq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "15 km NNE of Hanawa, Japan",
-        "time": 1638369096768,
-        "updated": 1638377143040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g874",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g874.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000g874",
-        "ids": ",us6000g874,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.499,
-        "rms": 1.59,
-        "gap": 126,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 15 km NNE of Hanawa, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.86,
-          40.314,
-          7.72
-        ]
-      },
-      "id": "us6000g874"
     }
   ],
   "bbox": [
