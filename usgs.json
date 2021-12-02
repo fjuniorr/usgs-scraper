@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638402759000,
+    "generated": 1638405246000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "10km S of Tres Pinos, CA",
+        "time": 1638404864280,
+        "updated": 1638405045710,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73658581",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73658581.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "nc",
+        "code": "73658581",
+        "ids": ",nc73658581,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 29,
+        "dmin": 0.06277,
+        "rms": 0.11,
+        "gap": 115,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 10km S of Tres Pinos, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3371658,
+          36.7044983,
+          3.35
+        ]
+      },
+      "id": "nc73658581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.91,
+        "place": "Puerto Rico region",
+        "time": 1638396482280,
+        "updated": 1638402946695,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021335004",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021335004.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 130,
+        "net": "pr",
+        "code": "2021335004",
+        "ids": ",pr2021335004,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.1152,
+        "rms": 0.23,
+        "gap": 166,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - Puerto Rico region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.765,
+          17.9903,
+          14
+        ]
+      },
+      "id": "pr2021335004"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -173,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.49,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1638375106590,
         "updated": 1638394372990,
         "tz": null,
@@ -197,7 +277,7 @@
         "gap": 165,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Island of Hawaii, Hawaii"
+        "title": "M 2.5 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "97 km WNW of San Antonio de los Cobres, Argentina",
+        "place": "Chile-Argentina border region",
         "time": 1638340208488,
         "updated": 1638360377040,
         "tz": null,
@@ -797,7 +877,7 @@
         "gap": 92,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 97 km WNW of San Antonio de los Cobres, Argentina"
+        "title": "M 4.1 - Chile-Argentina border region"
       },
       "geometry": {
         "type": "Point",
