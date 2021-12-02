@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638465412000,
+    "generated": 1638466659000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 21
+    "count": 20
   },
   "features": [
     {
@@ -295,7 +295,7 @@
         "mag": 3,
         "place": "65 km SSW of Whites City, New Mexico",
         "time": 1638418568714,
-        "updated": 1638459287797,
+        "updated": 1638466355469,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8ck",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g8ck.geojson",
@@ -808,46 +808,6 @@
         ]
       },
       "id": "us6000g895"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "66 km W of Kirakira, Solomon Islands",
-        "time": 1638379381894,
-        "updated": 1638385776040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g88z",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g88z.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "6000g88z",
-        "ids": ",us6000g88z,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.635,
-        "rms": 0.94,
-        "gap": 18,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 66 km W of Kirakira, Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          161.3168,
-          -10.3692,
-          40.06
-        ]
-      },
-      "id": "us6000g88z"
     }
   ],
   "bbox": [
