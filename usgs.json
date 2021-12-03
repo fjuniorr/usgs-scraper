@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638553156000,
+    "generated": 1638553756000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -13,7 +13,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.47,
-        "place": "2 km N of Guaymate, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1638541084150,
         "updated": 1638551270040,
         "tz": null,
@@ -37,7 +37,7 @@
         "gap": 141,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - 2 km N of Guaymate, Dominican Republic"
+        "title": "M 3.5 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -255,21 +255,21 @@
         "mag": 4.8,
         "place": "Rat Islands, Aleutian Islands, Alaska",
         "time": 1638527345623,
-        "updated": 1638528487040,
+        "updated": 1638553376183,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8p6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g8p6.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.158,
+        "mmi": 3.12,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 354,
         "net": "us",
         "code": "6000g8p6",
-        "ids": ",us6000g8p6,ak021fhi8j23,",
-        "sources": ",us,ak,",
+        "ids": ",ak021fhi8j23,us6000g8p6,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 0.274,
