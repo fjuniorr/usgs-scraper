@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638503130000,
+    "generated": 1638503591000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -695,11 +695,11 @@
         "mag": 4.5,
         "place": "8 km SSE of Ōtsuki, Japan",
         "time": 1638465479327,
-        "updated": 1638491222242,
+        "updated": 1638503580048,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8kf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g8kf.geojson",
-        "felt": 33,
+        "felt": 34,
         "cdi": 4,
         "mmi": null,
         "alert": null,
