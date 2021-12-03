@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638501150000,
+    "generated": 1638502313000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "68 km ENE of Port-Olry, Vanuatu",
+        "time": 1638498303593,
+        "updated": 1638501388040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8lu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g8lu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000g8lu",
+        "ids": ",us6000g8lu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.839,
+        "rms": 0.85,
+        "gap": 164,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 68 km ENE of Port-Olry, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.605,
+          -14.6983,
+          132.65
+        ]
+      },
+      "id": "us6000g8lu"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,11 +215,11 @@
         "mag": 5.2,
         "place": "8 km SW of Gobō, Japan",
         "time": 1638491307805,
-        "updated": 1638500749237,
+        "updated": 1638501706505,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8lb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g8lb.geojson",
-        "felt": 30,
+        "felt": 31,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
