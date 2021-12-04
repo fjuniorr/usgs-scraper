@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638630562000,
+    "generated": 1638632077000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,39 +12,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.8,
+        "mag": 5.9,
         "place": "South Sandwich Islands region",
-        "time": 1638628032487,
-        "updated": 1638629494004,
+        "time": 1638628029948,
+        "updated": 1638631935898,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g90r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g90r.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 4.56,
+        "mmi": 3.817,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 518,
+        "sig": 536,
         "net": "us",
         "code": "6000g90r",
         "ids": ",us6000g90r,",
         "sources": ",us,",
         "types": ",losspager,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 7.113,
-        "rms": 0.72,
-        "gap": 192,
+        "dmin": 7.149,
+        "rms": 1.38,
+        "gap": 86,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.8 - South Sandwich Islands region"
+        "title": "M 5.9 - South Sandwich Islands region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -27.7428,
-          -59.5378,
-          29.98
+          -27.9922,
+          -59.7148,
+          10
         ]
       },
       "id": "us6000g90r"
@@ -93,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "16 km NW of Vrontádos, Greece",
+        "place": "Near the coast of western Turkey",
         "time": 1638622869631,
         "updated": 1638623959040,
         "tz": null,
@@ -117,7 +117,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 16 km NW of Vrontádos, Greece"
+        "title": "M 4.2 - Near the coast of western Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "western Texas",
+        "place": "51 km NW of Toyah, Texas",
         "time": 1638596059915,
         "updated": 1638597295259,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 127,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - western Texas"
+        "title": "M 3.2 - 51 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1412,7 +1412,7 @@
   ],
   "bbox": [
     -155.70317077637,
-    -59.5378,
+    -59.7148,
     0.62999999523163,
     171.7883,
     58.8862,
