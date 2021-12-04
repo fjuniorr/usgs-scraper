@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638652112000,
+    "generated": 1638653143000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
@@ -335,7 +335,7 @@
         "mag": 2.9,
         "place": "62 km S of Kokhanok, Alaska",
         "time": 1638626481581,
-        "updated": 1638627079982,
+        "updated": 1638652782040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fj7zms2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fj7zms2.geojson",
@@ -348,9 +348,9 @@
         "sig": 129,
         "net": "ak",
         "code": "021fj7zms2",
-        "ids": ",ak021fj7zms2,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",us6000g90n,ak021fj7zms2,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.92,
@@ -373,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "16 km NW of Vrontádos, Greece",
+        "place": "Near the coast of western Turkey",
         "time": 1638622869631,
         "updated": 1638623959040,
         "tz": null,
@@ -397,7 +397,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 16 km NW of Vrontádos, Greece"
+        "title": "M 4.2 - Near the coast of western Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "western Texas",
+        "place": "51 km NW of Toyah, Texas",
         "time": 1638596059915,
         "updated": 1638597295259,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 127,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - western Texas"
+        "title": "M 3.2 - 51 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1608,46 +1608,6 @@
         ]
       },
       "id": "us6000g8v4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Carlsberg Ridge",
-        "time": 1638566174055,
-        "updated": 1638570772040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8uz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g8uz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000g8uz",
-        "ids": ",us6000g8uz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 14.078,
-        "rms": 0.64,
-        "gap": 58,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Carlsberg Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.0855,
-          9.9611,
-          10
-        ]
-      },
-      "id": "us6000g8uz"
     }
   ],
   "bbox": [
