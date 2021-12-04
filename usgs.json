@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638616057000,
+    "generated": 1638616992000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.77,
+        "place": "7km NE of Imperial, CA",
+        "time": 1638616617990,
+        "updated": 1638616969701,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39878623",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39878623.geojson",
+        "felt": 1,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 118,
+        "net": "ci",
+        "code": "39878623",
+        "ids": ",ci39878623,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.04313,
+        "rms": 0.3,
+        "gap": 51,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 7km NE of Imperial, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.5115,
+          32.8893333,
+          9.81
+        ]
+      },
+      "id": "ci39878623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "2 km NNE of Assaria, Kansas",
+        "time": 1638613946246,
+        "updated": 1638616291040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g902",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g902.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000g902",
+        "ids": ",us6000g902,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.717,
+        "rms": 0.33,
+        "gap": 148,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km NNE of Assaria, Kansas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5874,
+          38.7037,
+          5
+        ]
+      },
+      "id": "us6000g902"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,11 +215,11 @@
         "mag": 3.48,
         "place": "6km ENE of Puebla, B.C., MX",
         "time": 1638609601920,
-        "updated": 1638615903811,
+        "updated": 1638616681018,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39878511",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39878511.geojson",
-        "felt": 23,
+        "felt": 24,
         "cdi": 4.6,
         "mmi": 2.993,
         "alert": null,
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "51 km NW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1638596059915,
         "updated": 1638597295259,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 127,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 51 km NW of Toyah, Texas"
+        "title": "M 3.2 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.47,
-        "place": "Mona Passage",
+        "place": "2 km N of Guaymate, Dominican Republic",
         "time": 1638541084150,
         "updated": 1638551270040,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 141,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - Mona Passage"
+        "title": "M 3.5 - 2 km N of Guaymate, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
