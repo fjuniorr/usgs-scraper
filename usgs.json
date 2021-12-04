@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638595791000,
+    "generated": 1638596571000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 28
   },
   "features": [
     {
@@ -48,6 +48,46 @@
         ]
       },
       "id": "us6000g8xt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.22,
+        "place": "89 km WNW of Sandy Ground Village, Anguilla",
+        "time": 1638590091520,
+        "updated": 1638596252226,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021338000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021338000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 274,
+        "net": "pr",
+        "code": "2021338000",
+        "ids": ",pr2021338000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 1.4877,
+        "rms": 0.68,
+        "gap": 341,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 4.2 - 89 km WNW of Sandy Ground Village, Anguilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8245,
+          18.6036,
+          184
+        ]
+      },
+      "id": "pr2021338000"
     },
     {
       "type": "Feature",
@@ -573,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.47,
-        "place": "2 km N of Guaymate, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1638541084150,
         "updated": 1638551270040,
         "tz": null,
@@ -597,7 +637,7 @@
         "gap": 141,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - 2 km N of Guaymate, Dominican Republic"
+        "title": "M 3.5 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -695,11 +735,11 @@
         "mag": 2.75,
         "place": "2 km W of Pyatt, Arkansas",
         "time": 1638532473590,
-        "updated": 1638594822579,
+        "updated": 1638596264783,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60364832",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60364832.geojson",
-        "felt": 132,
+        "felt": 133,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -1048,6 +1088,46 @@
         ]
       },
       "id": "us6000g8nd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "148 km SSW of Corinto, Nicaragua",
+        "time": 1638517294712,
+        "updated": 1638596340040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8na",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g8na.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000g8na",
+        "ids": ",us6000g8na,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.589,
+        "rms": 0.58,
+        "gap": 202,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 148 km SSW of Corinto, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9081,
+          11.3566,
+          10
+        ]
+      },
+      "id": "us6000g8na"
     }
   ],
   "bbox": [
