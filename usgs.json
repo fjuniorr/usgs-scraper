@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638597183000,
+    "generated": 1638598274000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,42 +12,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "50 km NW of Toyah, Texas",
-        "time": 1638596059551,
-        "updated": 1638596683040,
+        "mag": 3.2,
+        "place": "51 km NW of Toyah, Texas",
+        "time": 1638596059915,
+        "updated": 1638597295259,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8y9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g8y9.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021xsdn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021xsdn.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "6000g8y9",
-        "ids": ",us6000g8y9,",
-        "sources": ",us,",
+        "sig": 158,
+        "net": "tx",
+        "code": "2021xsdn",
+        "ids": ",us6000g8y9,tx2021xsdn,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.249,
-        "rms": 0.41,
-        "gap": 119,
+        "nst": 35,
+        "dmin": 0.1571709828,
+        "rms": 0.3,
+        "gap": 127,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 50 km NW of Toyah, Texas"
+        "title": "M 3.2 - 51 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.2239,
-          31.5867,
-          5
+          -104.222367,
+          31.59856459,
+          7.10847168
         ]
       },
-      "id": "us6000g8y9"
+      "id": "tx2021xsdn"
     },
     {
       "type": "Feature",
@@ -95,22 +95,22 @@
         "mag": 4.22,
         "place": "89 km WNW of Sandy Ground Village, Anguilla",
         "time": 1638590091520,
-        "updated": 1638596252226,
+        "updated": 1638598041822,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021338000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021338000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 3,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 274,
+        "sig": 275,
         "net": "pr",
         "code": "2021338000",
         "ids": ",pr2021338000,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 15,
         "dmin": 1.4877,
         "rms": 0.68,
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.47,
-        "place": "2 km N of Guaymate, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1638541084150,
         "updated": 1638551270040,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 141,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - 2 km N of Guaymate, Dominican Republic"
+        "title": "M 3.5 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
