@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638656970000,
+    "generated": 1638657760000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
@@ -493,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "16 km NW of Vrontádos, Greece",
+        "place": "Near the coast of western Turkey",
         "time": 1638622869631,
         "updated": 1638623959040,
         "tz": null,
@@ -517,7 +517,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 16 km NW of Vrontádos, Greece"
+        "title": "M 4.2 - Near the coast of western Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "western Texas",
+        "place": "51 km NW of Toyah, Texas",
         "time": 1638596059915,
         "updated": 1638597295259,
         "tz": null,
@@ -1157,7 +1157,7 @@
         "gap": 127,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - western Texas"
+        "title": "M 3.2 - 51 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1608,46 +1608,6 @@
         ]
       },
       "id": "tx2021xrsi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "4 km ESE of Maria Antonia, Puerto Rico",
-        "time": 1638571277310,
-        "updated": 1638572682156,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021337010",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021337010.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "pr",
-        "code": "2021337010",
-        "ids": ",pr2021337010,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.0287,
-        "rms": 0.1,
-        "gap": 201,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km ESE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8526,
-          17.9643,
-          14
-        ]
-      },
-      "id": "pr2021337010"
     }
   ],
   "bbox": [
