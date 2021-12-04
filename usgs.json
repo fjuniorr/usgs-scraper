@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638628987000,
+    "generated": 1638629602000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.8,
+        "place": "South Sandwich Islands region",
+        "time": 1638628032487,
+        "updated": 1638629494004,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g90r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g90r.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.56,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 518,
+        "net": "us",
+        "code": "6000g90r",
+        "ids": ",us6000g90r,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 7.113,
+        "rms": 0.72,
+        "gap": 192,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.8 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.7428,
+          -59.5378,
+          29.98
+        ]
+      },
+      "id": "us6000g90r"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1372,7 +1412,7 @@
   ],
   "bbox": [
     -155.70317077637,
-    -22.8562,
+    -59.5378,
     0.62999999523163,
     171.7883,
     58.8862,
