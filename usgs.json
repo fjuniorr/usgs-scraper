@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638615239000,
+    "generated": 1638616057000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 33
   },
   "features": [
     {
@@ -135,17 +135,17 @@
         "mag": 3.48,
         "place": "6km ENE of Puebla, B.C., MX",
         "time": 1638609601920,
-        "updated": 1638613332085,
+        "updated": 1638615903811,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39878511",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39878511.geojson",
-        "felt": 22,
+        "felt": 23,
         "cdi": 4.6,
         "mmi": 2.993,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 196,
+        "sig": 197,
         "net": "ci",
         "code": "39878511",
         "ids": ",ci39878511,us6000g8zm,",
@@ -1328,46 +1328,6 @@
         ]
       },
       "id": "us6000g8pn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.75,
-        "place": "4 km ENE of La Parguera, Puerto Rico",
-        "time": 1638529386970,
-        "updated": 1638530856199,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021337007",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021337007.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "pr",
-        "code": "2021337007",
-        "ids": ",pr2021337007,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.04,
-        "rms": 0.12,
-        "gap": 149,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 4 km ENE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.008,
-          17.9865,
-          12
-        ]
-      },
-      "id": "pr2021337007"
     }
   ],
   "bbox": [
