@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638617598000,
+    "generated": 1638618203000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.77999997,
+        "place": "9 km ESE of Waikoloa, Hawaii",
+        "time": 1638617642760,
+        "updated": 1638617973380,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72822802",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72822802.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 119,
+        "net": "hv",
+        "code": "72822802",
+        "ids": ",hv72822802,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 119,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 9 km ESE of Waikoloa, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.703170776367,
+          19.9088325500488,
+          32.2599983215332
+        ]
+      },
+      "id": "hv72822802"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "western Texas",
+        "place": "51 km NW of Toyah, Texas",
         "time": 1638596059915,
         "updated": 1638597295259,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 127,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - western Texas"
+        "title": "M 3.2 - 51 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.47,
-        "place": "2 km N of Guaymate, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1638541084150,
         "updated": 1638551270040,
         "tz": null,
@@ -1237,7 +1277,7 @@
         "gap": 141,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - 2 km N of Guaymate, Dominican Republic"
+        "title": "M 3.5 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -1368,50 +1408,10 @@
         ]
       },
       "id": "nm60364832"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "94 km WSW of Paracas, Peru",
-        "time": 1638531485491,
-        "updated": 1638534525040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8pn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g8pn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000g8pn",
-        "ids": ",us6000g8pn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.236,
-        "rms": 0.65,
-        "gap": 151,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 94 km WSW of Paracas, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.0557,
-          -14.2281,
-          15.02
-        ]
-      },
-      "id": "us6000g8pn"
     }
   ],
   "bbox": [
-    -155.49566650391,
+    -155.70317077637,
     -22.8562,
     0.62999999523163,
     171.7883,
