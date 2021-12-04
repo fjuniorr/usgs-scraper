@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638586210000,
+    "generated": 1638587369000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 24
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.91,
+        "place": "8 km E of Pāhala, Hawaii",
+        "time": 1638586926330,
+        "updated": 1638587330863,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72822217",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72822217.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 130,
+        "net": "hv",
+        "code": "72822217",
+        "ids": ",hv72822217,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 51,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 152,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 8 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.400329589844,
+          19.2136669158936,
+          33.6199989318848
+        ]
+      },
+      "id": "hv72822217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.87,
+        "place": "11 km ENE of Pāhala, Hawaii",
+        "time": 1638586909430,
+        "updated": 1638587240280,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72822212",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72822212.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 127,
+        "net": "hv",
+        "code": "72822212",
+        "ids": ",hv72822212,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": null,
+        "rms": 0.25,
+        "gap": 246,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 11 km ENE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.390335083008,
+          19.2569999694824,
+          0.629999995231628
+        ]
+      },
+      "id": "hv72822212"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.47,
-        "place": "2 km N of Guaymate, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1638541084150,
         "updated": 1638551270040,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 141,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - 2 km N of Guaymate, Dominican Republic"
+        "title": "M 3.5 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -495,17 +575,17 @@
         "mag": 2.75,
         "place": "2 km W of Pyatt, Arkansas",
         "time": 1638532473590,
-        "updated": 1638586024451,
+        "updated": 1638586343118,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60364832",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60364832.geojson",
-        "felt": 132,
+        "felt": 131,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 167,
+        "sig": 166,
         "net": "nm",
         "code": "60364832",
         "ids": ",nm60364832,us6000g8pq,",
@@ -973,7 +1053,7 @@
   "bbox": [
     -179.9901,
     -60.4583,
-    3,
+    0.62999999523163,
     178.2468,
     52.1424,
     598.43
