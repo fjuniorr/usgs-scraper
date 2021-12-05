@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638682949000,
+    "generated": 1638683550000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "54 km NW of Rampart, Alaska",
+        "time": 1638682860109,
+        "updated": 1638683310925,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fkqelsz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fkqelsz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "021fkqelsz",
+        "ids": ",ak021fkqelsz,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.64,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 54 km NW of Rampart, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.9323,
+          65.8815,
+          2.8
+        ]
+      },
+      "id": "ak021fkqelsz"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1775,7 +1815,7 @@
     -59.7143,
     2.48,
     179.5679,
-    58.8862,
+    65.8815,
     217.91
   ]
 }
