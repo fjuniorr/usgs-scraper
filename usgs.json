@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638740596000,
+    "generated": 1638741145000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "86 km ESE of Gorontalo, Indonesia",
+        "time": 1638740010500,
+        "updated": 1638740822040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9c0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9c0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000g9c0",
+        "ids": ",us6000g9c0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.563,
+        "rms": 0.95,
+        "gap": 72,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 86 km ESE of Gorontalo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.7536,
+          0.1838,
+          113.14
+        ]
+      },
+      "id": "us6000g9c0"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.02,
         "place": "28 km N of Winthrop, Washington",
         "time": 1638739261090,
-        "updated": 1638740447455,
+        "updated": 1638741054063,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61803056",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61803056.geojson",
-        "felt": 5,
-        "cdi": 3.4,
+        "felt": 10,
+        "cdi": 3.6,
         "mmi": 3.31,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 142,
+        "sig": 144,
         "net": "uw",
         "code": "61803056",
         "ids": ",uw61803056,",
