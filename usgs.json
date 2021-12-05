@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638747774000,
+    "generated": 1638748381000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 55
+    "count": 53
   },
   "features": [
     {
@@ -175,11 +175,11 @@
         "mag": 4.9,
         "place": "21 km SSE of Erciş, Turkey",
         "time": 1638740807989,
-        "updated": 1638743644110,
+        "updated": 1638748318098,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9c1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9c1.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 5,
         "mmi": null,
         "alert": null,
@@ -2128,86 +2128,6 @@
         ]
       },
       "id": "us6000g946"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "119 km W of La Libertad, Mexico",
-        "time": 1638661877488,
-        "updated": 1638680827040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g945",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g945.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "6000g945",
-        "ids": ",us6000g945,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.465,
-        "rms": 0.73,
-        "gap": 166,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 119 km W of La Libertad, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.9213,
-          29.8072,
-          10
-        ]
-      },
-      "id": "us6000g945"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6,
-        "place": "259 km N of Tobelo, Indonesia",
-        "time": 1638661677708,
-        "updated": 1638674051040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g944",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g944.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.516,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 554,
-        "net": "us",
-        "code": "6000g944",
-        "ids": ",us6000g944,",
-        "sources": ",us,",
-        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 3.363,
-        "rms": 0.96,
-        "gap": 25,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.0 - 259 km N of Tobelo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.1359,
-          4.0681,
-          174.26
-        ]
-      },
-      "id": "us6000g944"
     }
   ],
   "bbox": [
