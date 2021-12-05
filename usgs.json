@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638745824000,
+    "generated": 1638747046000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 55
+    "count": 54
   },
   "features": [
     {
@@ -53,7 +53,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.99,
-        "place": "Puerto Rico region",
+        "place": "4 km WSW of Guánica, Puerto Rico",
         "time": 1638741164730,
         "updated": 1638743502369,
         "tz": null,
@@ -77,7 +77,7 @@
         "gap": 209,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
+        "title": "M 3.0 - 4 km WSW of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -215,11 +215,11 @@
         "mag": 3.02,
         "place": "28 km N of Winthrop, Washington",
         "time": 1638739261090,
-        "updated": 1638745804379,
+        "updated": 1638746517471,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61803056",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61803056.geojson",
-        "felt": 18,
+        "felt": 19,
         "cdi": 3.6,
         "mmi": 2.79,
         "alert": null,
@@ -413,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Afghanistan-Tajikistan-Pakistan region",
+        "place": "13 km W of Ashkāsham, Afghanistan",
         "time": 1638726134239,
         "updated": 1638741211040,
         "tz": null,
@@ -437,7 +437,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Afghanistan-Tajikistan-Pakistan region"
+        "title": "M 4.3 - 13 km W of Ashkāsham, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "28 km E of Pedro Bay, Alaska",
+        "place": "Southern Alaska",
         "time": 1638725233428,
         "updated": 1638741744040,
         "tz": null,
@@ -597,7 +597,7 @@
         "gap": 125,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 28 km E of Pedro Bay, Alaska"
+        "title": "M 2.5 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "eastern New Guinea region, Papua New Guinea",
+        "place": "13 km WSW of Madang, Papua New Guinea",
         "time": 1638697410737,
         "updated": 1638699913040,
         "tz": null,
@@ -1117,7 +1117,7 @@
         "gap": 66,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - eastern New Guinea region, Papua New Guinea"
+        "title": "M 4.7 - 13 km WSW of Madang, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -2168,46 +2168,6 @@
         ]
       },
       "id": "us6000g944"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "35 km SE of Mina, Nevada",
-        "time": 1638659871283,
-        "updated": 1638660116219,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00829345",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00829345.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "nn",
-        "code": "00829345",
-        "ids": ",nn00829345,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.045,
-        "rms": 0.2427,
-        "gap": 58.51,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 35 km SE of Mina, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8147,
-          38.1693,
-          10.2
-        ]
-      },
-      "id": "nn00829345"
     }
   ],
   "bbox": [
