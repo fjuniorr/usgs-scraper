@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638739427000,
+    "generated": 1638740111000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.58999991,
+        "place": "28 km N of Winthrop, Washington",
+        "time": 1638739261950,
+        "updated": 1638739862752,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61803056",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61803056.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "uw",
+        "code": "61803056",
+        "ids": ",uw61803056,",
+        "sources": ",uw,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 86,
+        "dmin": null,
+        "rms": 0.930000007,
+        "gap": 82,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 28 km N of Winthrop, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.25333404541,
+          48.7273330688477,
+          -1.0900000333786
+        ]
+      },
+      "id": "uw61803056"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1933,7 +1973,7 @@
   "bbox": [
     -173.8997,
     -59.9218,
-    -0.89,
+    -1.0900000333786,
     145.6763,
     66.9268,
     174.26
