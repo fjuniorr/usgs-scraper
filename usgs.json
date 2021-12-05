@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638741145000,
+    "generated": 1638742120000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 50
+    "count": 51
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 3.02,
         "place": "28 km N of Winthrop, Washington",
         "time": 1638739261090,
-        "updated": 1638741054063,
+        "updated": 1638742042900,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61803056",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61803056.geojson",
-        "felt": 10,
+        "felt": 14,
         "cdi": 3.6,
-        "mmi": 3.31,
+        "mmi": 2.79,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 144,
+        "sig": 145,
         "net": "uw",
         "code": "61803056",
         "ids": ",uw61803056,",
@@ -135,7 +135,7 @@
         "mag": 2.48,
         "place": "7 km ENE of Pāhala, Hawaii",
         "time": 1638729752970,
-        "updated": 1638730083250,
+        "updated": 1638741392040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72824102",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72824102.geojson",
@@ -148,8 +148,8 @@
         "sig": 95,
         "net": "hv",
         "code": "72824102",
-        "ids": ",hv72824102,",
-        "sources": ",hv,",
+        "ids": ",us6000g9bd,hv72824102,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 40,
         "dmin": null,
@@ -248,6 +248,46 @@
         ]
       },
       "id": "us6000g9b7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Afghanistan-Tajikistan-Pakistan region",
+        "time": 1638726134239,
+        "updated": 1638741211040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9b6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9b6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000g9b6",
+        "ids": ",us6000g9b6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.785,
+        "rms": 0.89,
+        "gap": 75,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Afghanistan-Tajikistan-Pakistan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.379,
+          36.6745,
+          178.05
+        ]
+      },
+      "id": "us6000g9b6"
     },
     {
       "type": "Feature",
@@ -368,6 +408,46 @@
         ]
       },
       "id": "ak021fkxh2lg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "28 km E of Pedro Bay, Alaska",
+        "time": 1638725233428,
+        "updated": 1638741744040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9aw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9aw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000g9aw",
+        "ids": ",us6000g9aw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.301,
+        "rms": 0.55,
+        "gap": 125,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 28 km E of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.6037,
+          59.8213,
+          138.51
+        ]
+      },
+      "id": "us6000g9aw"
     },
     {
       "type": "Feature",
@@ -1968,46 +2048,6 @@
         ]
       },
       "id": "nn00829345"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "100 km W of La Libertad, Mexico",
-        "time": 1638655043201,
-        "updated": 1638678460040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g935",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g935.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000g935",
-        "ids": ",us6000g935,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.464,
-        "rms": 0.91,
-        "gap": 155,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 100 km W of La Libertad, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.7309,
-          29.9346,
-          10
-        ]
-      },
-      "id": "us6000g935"
     }
   ],
   "bbox": [
@@ -2016,6 +2056,6 @@
     -0.89,
     145.6763,
     66.9268,
-    174.26
+    178.05
   ]
 }
