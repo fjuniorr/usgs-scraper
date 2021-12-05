@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638676410000,
+    "generated": 1638677550000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -95,17 +95,17 @@
         "mag": 2.56,
         "place": "4km N of San Leandro, CA",
         "time": 1638670108720,
-        "updated": 1638676145485,
+        "updated": 1638677279120,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73659836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73659836.geojson",
-        "felt": 127,
+        "felt": 130,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 144,
+        "sig": 145,
         "net": "nc",
         "code": "73659836",
         "ids": ",nc73659836,",
@@ -448,6 +448,46 @@
         ]
       },
       "id": "nn00829345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "98 km N of Naze, Japan",
+        "time": 1638648861439,
+        "updated": 1638677479040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g92l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g92l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000g92l",
+        "ids": ",us6000g92l,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.399,
+        "rms": 0.77,
+        "gap": 91,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 98 km N of Naze, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.485,
+          29.2527,
+          10
+        ]
+      },
+      "id": "us6000g92l"
     },
     {
       "type": "Feature",
@@ -1688,46 +1728,6 @@
         ]
       },
       "id": "us6000g8xt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.22,
-        "place": "89 km WNW of Sandy Ground Village, Anguilla",
-        "time": 1638590091520,
-        "updated": 1638600287116,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021338000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021338000.geojson",
-        "felt": 5,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 275,
-        "net": "pr",
-        "code": "2021338000",
-        "ids": ",pr2021338000,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 15,
-        "dmin": 1.4877,
-        "rms": 0.68,
-        "gap": 341,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.2 - 89 km WNW of Sandy Ground Village, Anguilla"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.8245,
-          18.6036,
-          184
-        ]
-      },
-      "id": "pr2021338000"
     }
   ],
   "bbox": [
