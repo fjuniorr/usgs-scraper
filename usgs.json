@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638703383000,
+    "generated": 1638703989000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 48
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3,
+        "place": "124 km S of McCarthy, Alaska",
+        "time": 1638703639763,
+        "updated": 1638703891804,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fktw8wr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fktw8wr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "021fktw8wr",
+        "ids": ",ak021fktw8wr,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.83,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 124 km S of McCarthy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.1824,
+          60.3242,
+          1
+        ]
+      },
+      "id": "ak021fktw8wr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.6,
         "place": "23 km WSW of Venetie, Alaska",
-        "time": 1638702749913,
-        "updated": 1638703129497,
+        "time": 1638702749884,
+        "updated": 1638703791321,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fktt1yn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fktt1yn.geojson",
@@ -42,8 +82,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.9032,
-          66.9266,
+          -146.9029,
+          66.9268,
           1.6
         ]
       },
@@ -55,17 +95,17 @@
         "mag": 2.7,
         "place": "5km SSW of Redlands, CA",
         "time": 1638702633770,
-        "updated": 1638703268530,
+        "updated": 1638703849144,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39879567",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39879567.geojson",
-        "felt": 10,
-        "cdi": 3.4,
+        "felt": 16,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 116,
+        "sig": 118,
         "net": "ci",
         "code": "39879567",
         "ids": ",ci39879567,",
@@ -133,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "13 km WSW of Madang, Papua New Guinea",
+        "place": "eastern New Guinea region, Papua New Guinea",
         "time": 1638697410737,
         "updated": 1638699913040,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": 66,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 13 km WSW of Madang, Papua New Guinea"
+        "title": "M 4.7 - eastern New Guinea region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1773,7 +1813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "16 km NW of Vrontádos, Greece",
+        "place": "Near the coast of western Turkey",
         "time": 1638622869631,
         "updated": 1638623959040,
         "tz": null,
@@ -1797,7 +1837,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 16 km NW of Vrontádos, Greece"
+        "title": "M 4.2 - Near the coast of western Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -1895,7 +1935,7 @@
     -59.7143,
     -0.89,
     179.5679,
-    66.9266,
+    66.9268,
     217.91
   ]
 }
