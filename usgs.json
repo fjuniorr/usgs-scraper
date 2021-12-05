@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638702489000,
+    "generated": 1638703383000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "23 km WSW of Venetie, Alaska",
+        "time": 1638702749913,
+        "updated": 1638703129497,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fktt1yn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fktt1yn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "021fktt1yn",
+        "ids": ",ak021fktt1yn,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.97,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 23 km WSW of Venetie, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.9032,
+          66.9266,
+          1.6
+        ]
+      },
+      "id": "ak021fktt1yn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "5km SSW of Redlands, CA",
+        "time": 1638702633770,
+        "updated": 1638703268530,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39879567",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39879567.geojson",
+        "felt": 10,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "ci",
+        "code": "39879567",
+        "ids": ",ci39879567,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 114,
+        "dmin": 0.07536,
+        "rms": 0.21,
+        "gap": 14,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 5km SSW of Redlands, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2128333,
+          34.0151667,
+          10.64
+        ]
+      },
+      "id": "ci39879567"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -53,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "eastern New Guinea region, Papua New Guinea",
+        "place": "13 km WSW of Madang, Papua New Guinea",
         "time": 1638697410737,
         "updated": 1638699913040,
         "tz": null,
@@ -77,7 +157,7 @@
         "gap": 66,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - eastern New Guinea region, Papua New Guinea"
+        "title": "M 4.7 - 13 km WSW of Madang, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -295,7 +375,7 @@
         "mag": 2.53,
         "place": "1km WNW of The Geysers, CA",
         "time": 1638695274650,
-        "updated": 1638700631284,
+        "updated": 1638702970501,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73659976",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73659976.geojson",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Near the coast of Coquimbo, Chile",
+        "place": "48 km WNW of Coquimbo, Chile",
         "time": 1638691317540,
         "updated": 1638692201040,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 122,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Near the coast of Coquimbo, Chile"
+        "title": "M 4.4 - 48 km WNW of Coquimbo, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -695,17 +775,17 @@
         "mag": 2.56,
         "place": "4km N of San Leandro, CA",
         "time": 1638670108720,
-        "updated": 1638697505563,
+        "updated": 1638703148251,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73659836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73659836.geojson",
-        "felt": 138,
+        "felt": 139,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 153,
+        "sig": 154,
         "net": "nc",
         "code": "73659836",
         "ids": ",nc73659836,",
@@ -1693,7 +1773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Near the coast of western Turkey",
+        "place": "16 km NW of Vrontádos, Greece",
         "time": 1638622869631,
         "updated": 1638623959040,
         "tz": null,
@@ -1717,7 +1797,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Near the coast of western Turkey"
+        "title": "M 4.2 - 16 km NW of Vrontádos, Greece"
       },
       "geometry": {
         "type": "Point",
@@ -1808,46 +1888,6 @@
         ]
       },
       "id": "hv72822802"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.77,
-        "place": "7km NE of Imperial, CA",
-        "time": 1638616617990,
-        "updated": 1638667730660,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39878623",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39878623.geojson",
-        "felt": 3,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 119,
-        "net": "ci",
-        "code": "39878623",
-        "ids": ",ci39878623,us6000g907,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 33,
-        "dmin": 0.04313,
-        "rms": 0.3,
-        "gap": 51,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 7km NE of Imperial, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.5115,
-          32.8893333,
-          9.81
-        ]
-      },
-      "id": "ci39878623"
     }
   ],
   "bbox": [
@@ -1855,7 +1895,7 @@
     -59.7143,
     -0.89,
     179.5679,
-    65.8871,
+    66.9266,
     217.91
   ]
 }
