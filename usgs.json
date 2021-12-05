@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638744916000,
+    "generated": 1638745824000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -53,7 +53,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.99,
-        "place": "4 km WSW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1638741164730,
         "updated": 1638743502369,
         "tz": null,
@@ -77,7 +77,7 @@
         "gap": 209,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 4 km WSW of Guánica, Puerto Rico"
+        "title": "M 3.0 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -215,17 +215,17 @@
         "mag": 3.02,
         "place": "28 km N of Winthrop, Washington",
         "time": 1638739261090,
-        "updated": 1638743335101,
+        "updated": 1638745804379,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61803056",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61803056.geojson",
-        "felt": 16,
+        "felt": 18,
         "cdi": 3.6,
         "mmi": 2.79,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 146,
+        "sig": 147,
         "net": "uw",
         "code": "61803056",
         "ids": ",uw61803056,",
@@ -413,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "13 km W of Ashkāsham, Afghanistan",
+        "place": "Afghanistan-Tajikistan-Pakistan region",
         "time": 1638726134239,
         "updated": 1638741211040,
         "tz": null,
@@ -437,7 +437,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 13 km W of Ashkāsham, Afghanistan"
+        "title": "M 4.3 - Afghanistan-Tajikistan-Pakistan region"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "13 km WSW of Madang, Papua New Guinea",
+        "place": "eastern New Guinea region, Papua New Guinea",
         "time": 1638697410737,
         "updated": 1638699913040,
         "tz": null,
@@ -1117,7 +1117,7 @@
         "gap": 66,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 13 km WSW of Madang, Papua New Guinea"
+        "title": "M 4.7 - eastern New Guinea region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
