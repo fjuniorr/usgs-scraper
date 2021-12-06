@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638792976000,
+    "generated": 1638795057000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 43
   },
   "features": [
     {
@@ -14,13 +14,13 @@
       "properties": {
         "mag": 2.8,
         "place": "3 km S of Houston, Alaska",
-        "time": 1638792735295,
-        "updated": 1638792908142,
+        "time": 1638792735272,
+        "updated": 1638794346081,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fmhxszj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fmhxszj.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,10 +30,10 @@
         "code": "021fmhxszj",
         "ids": ",ak021fmhxszj,",
         "sources": ",ak,",
-        "types": ",origin,",
+        "types": ",dyfi,origin,",
         "nst": null,
         "dmin": null,
-        "rms": 0.74,
+        "rms": 0.7,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.817,
-          61.5996,
-          19.4
+          -149.8195,
+          61.6006,
+          19.3
         ]
       },
       "id": "ak021fmhxszj"
@@ -54,8 +54,8 @@
       "properties": {
         "mag": 2.5,
         "place": "9 km ESE of Happy Valley, Alaska",
-        "time": 1638792328143,
-        "updated": 1638792807727,
+        "time": 1638792328145,
+        "updated": 1638793139006,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fmhwbvt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fmhwbvt.geojson",
@@ -73,7 +73,7 @@
         "types": ",origin,",
         "nst": null,
         "dmin": null,
-        "rms": 0.74,
+        "rms": 0.73,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
@@ -82,9 +82,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.5627,
-          59.9233,
-          39.7
+          -151.5612,
+          59.9226,
+          39.6
         ]
       },
       "id": "ak021fmhwbvt"
@@ -613,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Kepulauan Barat Daya, Indonesia",
+        "place": "129 km NNE of Lospalos, Timor Leste",
         "time": 1638759776426,
         "updated": 1638762879040,
         "tz": null,
@@ -637,7 +637,7 @@
         "gap": 84,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Kepulauan Barat Daya, Indonesia"
+        "title": "M 4.4 - 129 km NNE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "21 km SSW of Dompu, Indonesia",
+        "place": "Sumbawa region, Indonesia",
         "time": 1638758394140,
         "updated": 1638760743040,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 21 km SSW of Dompu, Indonesia"
+        "title": "M 4.4 - Sumbawa region, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "Puerto Rico region",
+        "place": "1 km SE of Indios, Puerto Rico",
         "time": 1638749808020,
         "updated": 1638750978424,
         "tz": null,
@@ -917,7 +917,7 @@
         "gap": 174,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - Puerto Rico region"
+        "title": "M 2.9 - 1 km SE of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.99,
-        "place": "Puerto Rico region",
+        "place": "4 km WSW of Guánica, Puerto Rico",
         "time": 1638741164730,
         "updated": 1638748442174,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 209,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
+        "title": "M 3.0 - 4 km WSW of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Afghanistan-Tajikistan-Pakistan region",
+        "place": "13 km W of Ashkāsham, Afghanistan",
         "time": 1638726134239,
         "updated": 1638741211040,
         "tz": null,
@@ -1397,7 +1397,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Afghanistan-Tajikistan-Pakistan region"
+        "title": "M 4.3 - 13 km W of Ashkāsham, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "28 km E of Pedro Bay, Alaska",
+        "place": "Southern Alaska",
         "time": 1638725233428,
         "updated": 1638741744040,
         "tz": null,
@@ -1557,7 +1557,7 @@
         "gap": 125,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 28 km E of Pedro Bay, Alaska"
+        "title": "M 2.5 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1728,86 +1728,6 @@
         ]
       },
       "id": "us6000g99z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "20 km ENE of Pedro Bay, Alaska",
-        "time": 1638708235062,
-        "updated": 1638709368040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fkul6kh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fkul6kh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.184,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "021fkul6kh",
-        "ids": ",us6000g99u,ak021fkul6kh,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.89,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 20 km ENE of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.7443,
-          59.8264,
-          129.9
-        ]
-      },
-      "id": "ak021fkul6kh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "31 km SE of Mina, Nevada",
-        "time": 1638707409431,
-        "updated": 1638707676045,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00829388",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00829388.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "nn",
-        "code": "00829388",
-        "ids": ",nn00829388,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.016,
-        "rms": 0.2761,
-        "gap": 72.18,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 31 km SE of Mina, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8906,
-          38.1664,
-          12.9
-        ]
-      },
-      "id": "nn00829388"
     }
   ],
   "bbox": [
