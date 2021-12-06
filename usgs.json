@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638800753000,
+    "generated": 1638801390000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 4.7,
         "place": "33 km ENE of Yilan, Taiwan",
         "time": 1638795951998,
-        "updated": 1638800581040,
+        "updated": 1638800945926,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9gg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9gg.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +70,7 @@
         "code": "6000g9gg",
         "ids": ",us6000g9gg,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.532,
         "rms": 0.55,
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Kepulauan Barat Daya, Indonesia",
+        "place": "129 km NNE of Lospalos, Timor Leste",
         "time": 1638759776426,
         "updated": 1638762879040,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 84,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Kepulauan Barat Daya, Indonesia"
+        "title": "M 4.4 - 129 km NNE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "21 km SSW of Dompu, Indonesia",
+        "place": "Sumbawa region, Indonesia",
         "time": 1638758394140,
         "updated": 1638760743040,
         "tz": null,
@@ -797,7 +797,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 21 km SSW of Dompu, Indonesia"
+        "title": "M 4.4 - Sumbawa region, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "Puerto Rico region",
+        "place": "1 km SE of Indios, Puerto Rico",
         "time": 1638749808020,
         "updated": 1638750978424,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 174,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - Puerto Rico region"
+        "title": "M 2.9 - 1 km SE of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.99,
-        "place": "Puerto Rico region",
+        "place": "4 km WSW of Guánica, Puerto Rico",
         "time": 1638741164730,
         "updated": 1638748442174,
         "tz": null,
@@ -1157,7 +1157,7 @@
         "gap": 209,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
+        "title": "M 3.0 - 4 km WSW of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1493,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Afghanistan-Tajikistan-Pakistan region",
+        "place": "13 km W of Ashkāsham, Afghanistan",
         "time": 1638726134239,
         "updated": 1638741211040,
         "tz": null,
@@ -1517,7 +1517,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Afghanistan-Tajikistan-Pakistan region"
+        "title": "M 4.3 - 13 km W of Ashkāsham, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "28 km E of Pedro Bay, Alaska",
+        "place": "Southern Alaska",
         "time": 1638725233428,
         "updated": 1638741744040,
         "tz": null,
@@ -1677,7 +1677,7 @@
         "gap": 125,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 28 km E of Pedro Bay, Alaska"
+        "title": "M 2.5 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1688,46 +1688,6 @@
         ]
       },
       "id": "us6000g9aw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "1 km S of Pāhala, Hawaii",
-        "time": 1638714667670,
-        "updated": 1638714998540,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72823927",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72823927.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "hv",
-        "code": "72823927",
-        "ids": ",hv72823927,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": null,
-        "rms": 0.109999999,
-        "gap": 81,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 1 km S of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.480163574219,
-          19.1905002593994,
-          32.2299995422363
-        ]
-      },
-      "id": "hv72823927"
     }
   ],
   "bbox": [
