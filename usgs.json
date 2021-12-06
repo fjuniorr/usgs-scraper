@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638784444000,
+    "generated": 1638785474000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -1815,11 +1815,11 @@
         "mag": 2.7,
         "place": "5km SSW of Redlands, CA",
         "time": 1638702633770,
-        "updated": 1638778922306,
+        "updated": 1638785038064,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39879567",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39879567.geojson",
-        "felt": 28,
+        "felt": 29,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
