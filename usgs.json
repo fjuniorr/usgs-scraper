@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638783959000,
+    "generated": 1638784444000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -453,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "129 km NNE of Lospalos, Timor Leste",
+        "place": "Kepulauan Barat Daya, Indonesia",
         "time": 1638759776426,
         "updated": 1638762879040,
         "tz": null,
@@ -477,7 +477,7 @@
         "gap": 84,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 129 km NNE of Lospalos, Timor Leste"
+        "title": "M 4.4 - Kepulauan Barat Daya, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Sumbawa region, Indonesia",
+        "place": "21 km SSW of Dompu, Indonesia",
         "time": 1638758394140,
         "updated": 1638760743040,
         "tz": null,
@@ -517,7 +517,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Sumbawa region, Indonesia"
+        "title": "M 4.4 - 21 km SSW of Dompu, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "1 km SE of Indios, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1638749808020,
         "updated": 1638750978424,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 174,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 1 km SE of Indios, Puerto Rico"
+        "title": "M 2.9 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.99,
-        "place": "4 km WSW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1638741164730,
         "updated": 1638748442174,
         "tz": null,
@@ -877,7 +877,7 @@
         "gap": 209,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 4 km WSW of Guánica, Puerto Rico"
+        "title": "M 3.0 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "13 km W of Ashkāsham, Afghanistan",
+        "place": "Afghanistan-Tajikistan-Pakistan region",
         "time": 1638726134239,
         "updated": 1638741211040,
         "tz": null,
@@ -1237,7 +1237,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 13 km W of Ashkāsham, Afghanistan"
+        "title": "M 4.3 - Afghanistan-Tajikistan-Pakistan region"
       },
       "geometry": {
         "type": "Point",
