@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638829839000,
+    "generated": 1638830610000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.1,
-        "place": "151 km ESE of Chignik, Alaska",
-        "time": 1638829250936,
-        "updated": 1638829762320,
+        "mag": 4,
+        "place": "165 km ESE of Chignik, Alaska",
+        "time": 1638829249846,
+        "updated": 1638830086937,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fmnxxcp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fmnxxcp.geojson",
@@ -23,28 +23,28 @@
         "cdi": null,
         "mmi": 2.921,
         "alert": "green",
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 259,
+        "sig": 246,
         "net": "ak",
         "code": "021fmnxxcp",
         "ids": ",ak021fmnxxcp,",
         "sources": ",ak,",
-        "types": ",losspager,origin,shakemap,",
+        "types": ",losspager,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.57,
+        "rms": 0.49,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.1 - 151 km ESE of Chignik, Alaska"
+        "title": "M 4.0 - 165 km ESE of Chignik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.1366,
-          55.8037,
-          51.3
+          -155.9557,
+          55.7208,
+          33.4
         ]
       },
       "id": "ak021fmnxxcp"
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.53999996,
-        "place": "Hawaii region, Hawaii",
+        "place": "45 km ESE of Naalehu, Hawaii",
         "time": 1638820022670,
         "updated": 1638826639040,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 268,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Hawaii region, Hawaii"
+        "title": "M 2.5 - 45 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "129 km NNE of Lospalos, Timor Leste",
+        "place": "Kepulauan Barat Daya, Indonesia",
         "time": 1638759776426,
         "updated": 1638762879040,
         "tz": null,
@@ -1397,7 +1397,7 @@
         "gap": 84,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 129 km NNE of Lospalos, Timor Leste"
+        "title": "M 4.4 - Kepulauan Barat Daya, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Sumbawa region, Indonesia",
+        "place": "21 km SSW of Dompu, Indonesia",
         "time": 1638758394140,
         "updated": 1638760743040,
         "tz": null,
@@ -1437,7 +1437,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Sumbawa region, Indonesia"
+        "title": "M 4.4 - 21 km SSW of Dompu, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "1 km SE of Indios, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1638749808020,
         "updated": 1638750978424,
         "tz": null,
@@ -1677,7 +1677,7 @@
         "gap": 174,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 1 km SE of Indios, Puerto Rico"
+        "title": "M 2.9 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
