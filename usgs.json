@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638826636000,
+    "generated": 1638827133000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -95,7 +95,7 @@
         "mag": 2.53999996,
         "place": "45 km ESE of Naalehu, Hawaii",
         "time": 1638820022670,
-        "updated": 1638820212660,
+        "updated": 1638826639040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72824627",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72824627.geojson",
@@ -108,8 +108,8 @@
         "sig": 99,
         "net": "hv",
         "code": "72824627",
-        "ids": ",hv72824627,",
-        "sources": ",hv,",
+        "ids": ",us6000g9ji,hv72824627,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 18,
         "dmin": null,
