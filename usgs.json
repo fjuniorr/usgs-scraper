@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638831174000,
+    "generated": 1638832187000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "south of Africa",
+        "time": 1638830155403,
+        "updated": 1638831419040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9t5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9t5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "6000g9t5",
+        "ids": ",us6000g9t5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 15.593,
+        "rms": 0.9,
+        "gap": 52,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - south of Africa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4202,
+          -48.4165,
+          10
+        ]
+      },
+      "id": "us6000g9t5"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -213,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.53999996,
-        "place": "Hawaii region, Hawaii",
+        "place": "45 km ESE of Naalehu, Hawaii",
         "time": 1638820022670,
         "updated": 1638826639040,
         "tz": null,
@@ -237,7 +277,7 @@
         "gap": 268,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Hawaii region, Hawaii"
+        "title": "M 2.5 - 45 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "129 km NNE of Lospalos, Timor Leste",
+        "place": "Kepulauan Barat Daya, Indonesia",
         "time": 1638759776426,
         "updated": 1638762879040,
         "tz": null,
@@ -1397,7 +1437,7 @@
         "gap": 84,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 129 km NNE of Lospalos, Timor Leste"
+        "title": "M 4.4 - Kepulauan Barat Daya, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Sumbawa region, Indonesia",
+        "place": "21 km SSW of Dompu, Indonesia",
         "time": 1638758394140,
         "updated": 1638760743040,
         "tz": null,
@@ -1437,7 +1477,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Sumbawa region, Indonesia"
+        "title": "M 4.4 - 21 km SSW of Dompu, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "1 km SE of Indios, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1638749808020,
         "updated": 1638750978424,
         "tz": null,
@@ -1677,7 +1717,7 @@
         "gap": 174,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 1 km SE of Indios, Puerto Rico"
+        "title": "M 2.9 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
