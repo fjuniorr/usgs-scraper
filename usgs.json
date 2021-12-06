@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638783195000,
+    "generated": 1638783959000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 47
   },
   "features": [
     {
@@ -48,6 +48,46 @@
         ]
       },
       "id": "hv72824347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "154 km SSE of Perryville, Alaska",
+        "time": 1638778540561,
+        "updated": 1638783951040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9f8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9f8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000g9f8",
+        "ids": ",us6000g9f8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.037,
+        "rms": 0.76,
+        "gap": 165,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 154 km SSE of Perryville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.8046,
+          54.7481,
+          10
+        ]
+      },
+      "id": "us6000g9f8"
     },
     {
       "type": "Feature",
@@ -1333,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Southern Alaska",
+        "place": "28 km E of Pedro Bay, Alaska",
         "time": 1638725233428,
         "updated": 1638741744040,
         "tz": null,
@@ -1357,7 +1397,7 @@
         "gap": 125,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Southern Alaska"
+        "title": "M 2.5 - 28 km E of Pedro Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1848,93 +1888,13 @@
         ]
       },
       "id": "nn00829381"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "13 km WSW of Madang, Papua New Guinea",
-        "time": 1638697410737,
-        "updated": 1638699913040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g98v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g98v.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000g98v",
-        "ids": ",us6000g98v,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 6.553,
-        "rms": 0.71,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 13 km WSW of Madang, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.6763,
-          -5.269,
-          92.17
-        ]
-      },
-      "id": "us6000g98v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "210 km SW of Yakutat, Alaska",
-        "time": 1638697220377,
-        "updated": 1638699452040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g98n",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g98n.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000g98n",
-        "ids": ",us6000g98n,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.85,
-        "rms": 0.32,
-        "gap": 190,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 210 km SW of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -142.5463,
-          58.3387,
-          10
-        ]
-      },
-      "id": "us6000g98n"
     }
   ],
   "bbox": [
     -178.5541,
     -59.9218,
     1,
-    145.6763,
+    142.8768,
     66.9268,
     547.38
   ]
