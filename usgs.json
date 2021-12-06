@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638811630000,
+    "generated": 1638812118000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 50
+    "count": 48
   },
   "features": [
     {
@@ -532,6 +532,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.7,
+        "place": "48 km ESE of King Salmon, Alaska",
+        "time": 1638784301588,
+        "updated": 1638812034608,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fmge3tq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fmge3tq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "021fmge3tq",
+        "ids": ",ak021fmge3tq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.79,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 48 km ESE of King Salmon, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.8496,
+          58.5739,
+          150.6
+        ]
+      },
+      "id": "ak021fmge3tq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.52999997,
         "place": "5 km S of Pāhala, Hawaii",
         "time": 1638781499160,
@@ -1053,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Kepulauan Barat Daya, Indonesia",
+        "place": "129 km NNE of Lospalos, Timor Leste",
         "time": 1638759776426,
         "updated": 1638762879040,
         "tz": null,
@@ -1077,7 +1117,7 @@
         "gap": 84,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Kepulauan Barat Daya, Indonesia"
+        "title": "M 4.4 - 129 km NNE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "21 km SSW of Dompu, Indonesia",
+        "place": "Sumbawa region, Indonesia",
         "time": 1638758394140,
         "updated": 1638760743040,
         "tz": null,
@@ -1117,7 +1157,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 21 km SSW of Dompu, Indonesia"
+        "title": "M 4.4 - Sumbawa region, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "Puerto Rico region",
+        "place": "1 km SE of Indios, Puerto Rico",
         "time": 1638749808020,
         "updated": 1638750978424,
         "tz": null,
@@ -1357,7 +1397,7 @@
         "gap": 174,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - Puerto Rico region"
+        "title": "M 2.9 - 1 km SE of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.99,
-        "place": "Puerto Rico region",
+        "place": "4 km WSW of Guánica, Puerto Rico",
         "time": 1638741164730,
         "updated": 1638748442174,
         "tz": null,
@@ -1477,7 +1517,7 @@
         "gap": 209,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
+        "title": "M 3.0 - 4 km WSW of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1813,7 +1853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Afghanistan-Tajikistan-Pakistan region",
+        "place": "13 km W of Ashkāsham, Afghanistan",
         "time": 1638726134239,
         "updated": 1638741211040,
         "tz": null,
@@ -1837,7 +1877,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Afghanistan-Tajikistan-Pakistan region"
+        "title": "M 4.3 - 13 km W of Ashkāsham, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -1888,126 +1928,6 @@
         ]
       },
       "id": "us6000g9b3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "57 km S of Whites City, New Mexico",
-        "time": 1638725641720,
-        "updated": 1638728331040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9b2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9b2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000g9b2",
-        "ids": ",us6000g9b2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.102,
-        "rms": 0.38,
-        "gap": 62,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 2.5 - 57 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.3808,
-          31.6586,
-          5
-        ]
-      },
-      "id": "us6000g9b2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "69 km SW of Delta Junction, Alaska",
-        "time": 1638725305825,
-        "updated": 1638742405040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fkxh2lg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fkxh2lg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "021fkxh2lg",
-        "ids": ",us6000g9ay,ak021fkxh2lg,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.98,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 69 km SW of Delta Junction, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.8078,
-          63.6329,
-          5.1
-        ]
-      },
-      "id": "ak021fkxh2lg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "28 km E of Pedro Bay, Alaska",
-        "time": 1638725233428,
-        "updated": 1638741744040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9aw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9aw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000g9aw",
-        "ids": ",us6000g9aw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.301,
-        "rms": 0.55,
-        "gap": 125,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 28 km E of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.6037,
-          59.8213,
-          138.51
-        ]
-      },
-      "id": "us6000g9aw"
     }
   ],
   "bbox": [
@@ -2015,7 +1935,7 @@
     -59.8917,
     -3.39,
     142.0386,
-    63.6329,
+    62.9135,
     547.38
   ]
 }
