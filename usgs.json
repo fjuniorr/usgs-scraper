@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638762870000,
+    "generated": 1638764011000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "129 km NNE of Lospalos, Timor Leste",
+        "time": 1638759776426,
+        "updated": 1638762879040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9dv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9dv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000g9dv",
+        "ids": ",us6000g9dv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.799,
+        "rms": 0.86,
+        "gap": 84,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 129 km NNE of Lospalos, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.5,
+          -7.4648,
+          10
+        ]
+      },
+      "id": "us6000g9dv"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1928,46 +1968,6 @@
         ]
       },
       "id": "ak021fkqelsz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "3 km SSW of Guánica, Puerto Rico",
-        "time": 1638677183470,
-        "updated": 1638678097533,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021339001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021339001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "pr",
-        "code": "2021339001",
-        "ids": ",pr2021339001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.0585,
-        "rms": 0.09,
-        "gap": 214,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 3 km SSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9268,
-          17.9411,
-          10
-        ]
-      },
-      "id": "pr2021339001"
     }
   ],
   "bbox": [
