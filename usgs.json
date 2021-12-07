@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638837432000,
+    "generated": 1638841617000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "95 km SW of Jiquilillo, Nicaragua",
+        "time": 1638837358300,
+        "updated": 1638839045040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9we",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9we.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000g9we",
+        "ids": ",us6000g9we,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.189,
+        "rms": 0.71,
+        "gap": 170,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 95 km SW of Jiquilillo, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1266,
+          12.1962,
+          35
+        ]
+      },
+      "id": "us6000g9we"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -335,11 +375,11 @@
         "mag": 2.55,
         "place": "14km NE of Ridgecrest, CA",
         "time": 1638812704840,
-        "updated": 1638815874042,
+        "updated": 1638838083936,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39880583",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39880583.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -415,12 +455,12 @@
         "mag": 2.56,
         "place": "19 km N of Pāhala, Hawaii",
         "time": 1638803592220,
-        "updated": 1638808894040,
+        "updated": 1638838196802,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72824497",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72824497.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -428,9 +468,9 @@
         "sig": 101,
         "net": "hv",
         "code": "72824497",
-        "ids": ",us6000g9ha,hv72824497,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
+        "ids": ",hv72824497,us6000g9ha,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 39,
         "dmin": null,
         "rms": 0.170000002,
@@ -735,11 +775,11 @@
         "mag": 2.8,
         "place": "3 km S of Houston, Alaska",
         "time": 1638792735272,
-        "updated": 1638794346081,
+        "updated": 1638838117863,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fmhxszj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fmhxszj.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -1568,94 +1608,14 @@
         ]
       },
       "id": "us6000g9dj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "225 km E of Levuka, Fiji",
-        "time": 1638752800656,
-        "updated": 1638754278040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9da",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9da.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000g9da",
-        "ids": ",us6000g9da,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.264,
-        "rms": 0.91,
-        "gap": 115,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 225 km E of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.5541,
-          -18.2247,
-          547.38
-        ]
-      },
-      "id": "us6000g9da"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "Mid-Indian Ridge",
-        "time": 1638752141371,
-        "updated": 1638820571388,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9d9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9d9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "6000g9d9",
-        "ids": ",us6000g9d9,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 10.428,
-        "rms": 0.64,
-        "gap": 47,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - Mid-Indian Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          73.9785,
-          -27.7856,
-          10
-        ]
-      },
-      "id": "us6000g9d9"
     }
   ],
   "bbox": [
-    -178.5541,
+    -177.1521,
     -58.9397,
     -3.39,
     142.0386,
     62.9135,
-    547.38
+    152.1
   ]
 }
