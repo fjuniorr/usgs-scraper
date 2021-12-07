@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638867078000,
+    "generated": 1638868290000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 38
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.61,
         "place": "3 km SSE of Pāhala, Hawaii",
         "time": 1638866616600,
-        "updated": 1638866947670,
+        "updated": 1638867124265,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72824992",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72824992.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "72824992",
         "ids": ",hv72824992,",
         "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 42,
         "dmin": null,
         "rms": 0.129999995,
@@ -1528,46 +1528,6 @@
         ]
       },
       "id": "ak021fmge3tq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52999997,
-        "place": "5 km S of Pāhala, Hawaii",
-        "time": 1638781499160,
-        "updated": 1638781694150,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72824347",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72824347.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "hv",
-        "code": "72824347",
-        "ids": ",hv72824347,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": null,
-        "rms": 0.119999997,
-        "gap": 137,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km S of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.474838256836,
-          19.1555004119873,
-          34.6199989318848
-        ]
-      },
-      "id": "hv72824347"
     }
   ],
   "bbox": [
