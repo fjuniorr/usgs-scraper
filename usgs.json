@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638905605000,
+    "generated": 1638906152000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -52,39 +52,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.1,
-        "place": "41 km ENE of Iwaki, Japan",
-        "time": 1638898165190,
-        "updated": 1638901324356,
+        "mag": 4.9,
+        "place": "40 km ENE of Iwaki, Japan",
+        "time": 1638898164697,
+        "updated": 1638906130815,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga4u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga4u.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 403,
+        "sig": 372,
         "net": "us",
         "code": "6000ga4u",
         "ids": ",us6000ga4u,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
-        "dmin": 2.577,
-        "rms": 0.98,
-        "gap": 76,
-        "magType": "mb",
+        "dmin": 2.566,
+        "rms": 0.86,
+        "gap": 84,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - 41 km ENE of Iwaki, Japan"
+        "title": "M 4.9 - 40 km ENE of Iwaki, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.326,
-          37.1562,
-          10.55
+          141.3168,
+          37.1547,
+          8.41
         ]
       },
       "id": "us6000ga4u"
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "127 km NE of Maumere, Indonesia",
+        "place": "Banda Sea",
         "time": 1638894387256,
         "updated": 1638900580040,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 32,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 127 km NE of Maumere, Indonesia"
+        "title": "M 5.2 - Banda Sea"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "Solomon Islands",
+        "place": "110 km WNW of Kirakira, Solomon Islands",
         "time": 1638872880447,
         "updated": 1638900294040,
         "tz": null,
@@ -637,7 +637,7 @@
         "gap": 25,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - Solomon Islands"
+        "title": "M 5.4 - 110 km WNW of Kirakira, Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.65,
-        "place": "Puerto Rico region",
+        "place": "4 km WSW of Liborio Negron Torres, Puerto Rico",
         "time": 1638864261440,
         "updated": 1638865430689,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 104,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Puerto Rico region"
+        "title": "M 2.7 - 4 km WSW of Liborio Negron Torres, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "5 km WNW of Lucien, Oklahoma",
+        "place": "Oklahoma",
         "time": 1638854032555,
         "updated": 1638881109715,
         "tz": null,
@@ -1277,7 +1277,7 @@
         "gap": 39,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 5 km WNW of Lucien, Oklahoma"
+        "title": "M 2.9 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "78 km ESE of Kitaibaraki, Japan",
+        "place": "near the east coast of Honshu, Japan",
         "time": 1638839433548,
         "updated": 1638853931040,
         "tz": null,
@@ -1477,7 +1477,7 @@
         "gap": 133,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 78 km ESE of Kitaibaraki, Japan"
+        "title": "M 4.6 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1813,7 +1813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.53999996,
-        "place": "Hawaii region, Hawaii",
+        "place": "45 km ESE of Naalehu, Hawaii",
         "time": 1638820022670,
         "updated": 1638826639040,
         "tz": null,
@@ -1837,7 +1837,7 @@
         "gap": 268,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Hawaii region, Hawaii"
+        "title": "M 2.5 - 45 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
