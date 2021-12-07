@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638899592000,
+    "generated": 1638900740000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 45
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 5.1,
         "place": "41 km ENE of Iwaki, Japan",
         "time": 1638898165190,
-        "updated": 1638899510611,
+        "updated": 1638900494660,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga4u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga4u.geojson",
-        "felt": 2,
-        "cdi": 3.1,
+        "felt": 7,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 401,
+        "sig": 403,
         "net": "us",
         "code": "6000ga4u",
         "ids": ",us6000ga4u,",
@@ -55,22 +55,22 @@
         "mag": 5.3,
         "place": "30 km S of Güiria, Venezuela",
         "time": 1638897356224,
-        "updated": 1638898532040,
+        "updated": 1638900669845,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga4p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga4p.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 432,
+        "sig": 433,
         "net": "us",
         "code": "6000ga4p",
         "ids": ",us6000ga4p,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 1.937,
         "rms": 1.02,
@@ -173,9 +173,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "125 km NE of Maumere, Indonesia",
-        "time": 1638894387263,
-        "updated": 1638895337040,
+        "place": "Banda Sea",
+        "time": 1638894387256,
+        "updated": 1638900580040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga40",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga40.geojson",
@@ -192,19 +192,19 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 1.115,
-        "rms": 1.01,
-        "gap": 35,
+        "dmin": 1.139,
+        "rms": 0.96,
+        "gap": 32,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 125 km NE of Maumere, Indonesia"
+        "title": "M 5.2 - Banda Sea"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          123.0778,
-          -7.8871,
-          271.3
+          123.0964,
+          -7.8717,
+          270.03
         ]
       },
       "id": "us6000ga40"
@@ -255,13 +255,13 @@
         "mag": 5.8,
         "place": "South Sandwich Islands region",
         "time": 1638892554241,
-        "updated": 1638899363126,
+        "updated": 1638899970302,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga3a",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga3a.geojson",
         "felt": 1,
         "cdi": 8.1,
-        "mmi": 3.722,
+        "mmi": 3.724,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -333,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.23,
-        "place": "Puerto Rico",
+        "place": "6 km WSW of La Parguera, Puerto Rico",
         "time": 1638890134120,
         "updated": 1638895455040,
         "tz": null,
@@ -357,7 +357,7 @@
         "gap": 224,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Puerto Rico"
+        "title": "M 3.2 - 6 km WSW of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -573,9 +573,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "Solomon Islands",
+        "place": "110 km WNW of Kirakira, Solomon Islands",
         "time": 1638872880447,
-        "updated": 1638880276358,
+        "updated": 1638900294040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga0c",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga0c.geojson",
@@ -590,14 +590,14 @@
         "code": "6000ga0c",
         "ids": ",us6000ga0c,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 1.199,
         "rms": 0.64,
         "gap": 25,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - Solomon Islands"
+        "title": "M 5.4 - 110 km WNW of Kirakira, Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -695,7 +695,7 @@
         "mag": 5.6,
         "place": "83 km WSW of Arica, Chile",
         "time": 1638869978454,
-        "updated": 1638898155019,
+        "updated": 1638899993040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9zp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9zp.geojson",
@@ -710,7 +710,7 @@
         "code": "6000g9zp",
         "ids": ",us6000g9zp,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 0.739,
         "rms": 1.36,
@@ -728,6 +728,46 @@
         ]
       },
       "id": "us6000g9zp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "30 km SSE of Mina, Nevada",
+        "time": 1638869420017,
+        "updated": 1638899652653,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00829495",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00829495.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "nn",
+        "code": "00829495",
+        "ids": ",nn00829495,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.009,
+        "rms": 0.1532,
+        "gap": 76.26,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 30 km SSE of Mina, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9697,
+          38.1425,
+          10.9
+        ]
+      },
+      "id": "nn00829495"
     },
     {
       "type": "Feature",
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.5,
-        "place": "northern Alaska",
+        "place": "66 km S of Shungnak, Alaska",
         "time": 1638865269590,
         "updated": 1638865997288,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - northern Alaska"
+        "title": "M 3.5 - 66 km S of Shungnak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.65,
-        "place": "Puerto Rico region",
+        "place": "4 km WSW of Liborio Negron Torres, Puerto Rico",
         "time": 1638864261440,
         "updated": 1638865430689,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 104,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Puerto Rico region"
+        "title": "M 2.7 - 4 km WSW of Liborio Negron Torres, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "5 km WNW of Lucien, Oklahoma",
+        "place": "Oklahoma",
         "time": 1638854032555,
         "updated": 1638881109715,
         "tz": null,
@@ -1197,7 +1237,7 @@
         "gap": 39,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 5 km WNW of Lucien, Oklahoma"
+        "title": "M 2.9 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "78 km ESE of Kitaibaraki, Japan",
+        "place": "near the east coast of Honshu, Japan",
         "time": 1638839433548,
         "updated": 1638853931040,
         "tz": null,
@@ -1397,7 +1437,7 @@
         "gap": 133,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 78 km ESE of Kitaibaraki, Japan"
+        "title": "M 4.6 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1733,7 +1773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.53999996,
-        "place": "Hawaii region, Hawaii",
+        "place": "45 km ESE of Naalehu, Hawaii",
         "time": 1638820022670,
         "updated": 1638826639040,
         "tz": null,
@@ -1757,7 +1797,7 @@
         "gap": 268,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Hawaii region, Hawaii"
+        "title": "M 2.5 - 45 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
