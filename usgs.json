@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638869622000,
+    "generated": 1638870410000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.65,
-        "place": "4 km WSW of Liborio Negron Torres, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1638864261440,
         "updated": 1638865430689,
         "tz": null,
@@ -157,7 +157,7 @@
         "gap": 104,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 4 km WSW of Liborio Negron Torres, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "Oklahoma",
+        "place": "5 km WNW of Lucien, Oklahoma",
         "time": 1638854032555,
         "updated": 1638858298040,
         "tz": null,
@@ -397,7 +397,7 @@
         "gap": 39,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Oklahoma"
+        "title": "M 2.9 - 5 km WNW of Lucien, Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "near the east coast of Honshu, Japan",
+        "place": "78 km ESE of Kitaibaraki, Japan",
         "time": 1638839433548,
         "updated": 1638853931040,
         "tz": null,
@@ -597,7 +597,7 @@
         "gap": 133,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - near the east coast of Honshu, Japan"
+        "title": "M 4.6 - 78 km ESE of Kitaibaraki, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.53999996,
-        "place": "45 km ESE of Naalehu, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1638820022670,
         "updated": 1638826639040,
         "tz": null,
@@ -957,7 +957,7 @@
         "gap": 268,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 45 km ESE of Naalehu, Hawaii"
+        "title": "M 2.5 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
