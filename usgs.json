@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638912342000,
+    "generated": 1638913071000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "47 km ENE of Pedro Bay, Alaska",
+        "time": 1638912409955,
+        "updated": 1638912994615,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021foax4ln",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021foax4ln.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "021foax4ln",
+        "ids": ",ak021foax4ln,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.43,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 47 km ENE of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.2817,
+          59.8727,
+          124.9
+        ]
+      },
+      "id": "ak021foax4ln"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,11 +95,11 @@
         "mag": 3.03,
         "place": "16km SSE of San Clemente Is. (NW tip), CA",
         "time": 1638910943390,
-        "updated": 1638911506375,
+        "updated": 1638912712795,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39881895",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39881895.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 1,
         "mmi": null,
         "alert": null,
@@ -1328,6 +1368,46 @@
         ]
       },
       "id": "nc73660696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.55,
+        "place": "14 km S of Fern Forest, Hawaii",
+        "time": 1638859208620,
+        "updated": 1638912805120,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72824937",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72824937.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 100,
+        "net": "hv",
+        "code": "72824937",
+        "ids": ",hv72824937,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": null,
+        "rms": 0.11,
+        "gap": 127,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 14 km S of Fern Forest, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.1245,
+          19.3378333333333,
+          6.8
+        ]
+      },
+      "id": "hv72824937"
     },
     {
       "type": "Feature",
