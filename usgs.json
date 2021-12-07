@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638911309000,
+    "generated": 1638912342000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.94,
+        "place": "20km W of Petrolia, CA",
+        "time": 1638911202170,
+        "updated": 1638912195795,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73661031",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73661031.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 133,
+        "net": "nc",
+        "code": "73661031",
+        "ids": ",nc73661031,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 14,
+        "dmin": 0.1811,
+        "rms": 0.08,
+        "gap": 270,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 20km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.520668,
+          40.3100014,
+          12.04
+        ]
+      },
+      "id": "nc73661031"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.03,
         "place": "16km SSE of San Clemente Is. (NW tip), CA",
         "time": 1638910943390,
-        "updated": 1638911179373,
+        "updated": 1638911506375,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39881895",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39881895.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +70,7 @@
         "code": "39881895",
         "ids": ",ci39881895,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 5,
         "dmin": 0.9997,
         "rms": 0.21,
