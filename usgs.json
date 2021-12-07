@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638906759000,
+    "generated": 1638907852000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "13 km SW of Güiria, Venezuela",
+        "time": 1638906230011,
+        "updated": 1638907640040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga6a",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga6a.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000ga6a",
+        "ids": ",us6000ga6a,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.778,
+        "rms": 1.63,
+        "gap": 34,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 13 km SW of Güiria, Venezuela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.3843,
+          10.4944,
+          10
+        ]
+      },
+      "id": "us6000ga6a"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -53,19 +93,19 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "40 km ENE of Iwaki, Japan",
+        "place": "near the east coast of Honshu, Japan",
         "time": 1638898164697,
-        "updated": 1638906130815,
+        "updated": 1638907583624,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga4u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga4u.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 372,
+        "sig": 373,
         "net": "us",
         "code": "6000ga4u",
         "ids": ",us6000ga4u,",
@@ -77,7 +117,7 @@
         "gap": 84,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 40 km ENE of Iwaki, Japan"
+        "title": "M 4.9 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -95,11 +135,11 @@
         "mag": 5.3,
         "place": "30 km S of Güiria, Venezuela",
         "time": 1638897356224,
-        "updated": 1638906396293,
+        "updated": 1638907348388,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga4p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga4p.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -213,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Banda Sea",
+        "place": "127 km NE of Maumere, Indonesia",
         "time": 1638894387256,
         "updated": 1638900580040,
         "tz": null,
@@ -237,7 +277,7 @@
         "gap": 32,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - Banda Sea"
+        "title": "M 5.2 - 127 km NE of Maumere, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -295,7 +335,7 @@
         "mag": 5.8,
         "place": "South Sandwich Islands region",
         "time": 1638892554241,
-        "updated": 1638899970302,
+        "updated": 1638907654040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga3a",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga3a.geojson",
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.23,
-        "place": "6 km WSW of La Parguera, Puerto Rico",
+        "place": "Puerto Rico",
         "time": 1638890134120,
         "updated": 1638895455040,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": 224,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 6 km WSW of La Parguera, Puerto Rico"
+        "title": "M 3.2 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "110 km WNW of Kirakira, Solomon Islands",
+        "place": "Solomon Islands",
         "time": 1638872880447,
         "updated": 1638900294040,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 25,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - 110 km WNW of Kirakira, Solomon Islands"
+        "title": "M 5.4 - Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.5,
-        "place": "66 km S of Shungnak, Alaska",
+        "place": "northern Alaska",
         "time": 1638865269590,
         "updated": 1638865997288,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 66 km S of Shungnak, Alaska"
+        "title": "M 3.5 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.65,
-        "place": "4 km WSW of Liborio Negron Torres, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1638864261440,
         "updated": 1638865430689,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 104,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 4 km WSW of Liborio Negron Torres, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "Oklahoma",
+        "place": "5 km WNW of Lucien, Oklahoma",
         "time": 1638854032555,
         "updated": 1638881109715,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 39,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Oklahoma"
+        "title": "M 2.9 - 5 km WNW of Lucien, Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "near the east coast of Honshu, Japan",
+        "place": "78 km ESE of Kitaibaraki, Japan",
         "time": 1638839433548,
         "updated": 1638853931040,
         "tz": null,
@@ -1477,7 +1517,7 @@
         "gap": 133,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - near the east coast of Honshu, Japan"
+        "title": "M 4.6 - 78 km ESE of Kitaibaraki, Japan"
       },
       "geometry": {
         "type": "Point",
