@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638916361000,
+    "generated": 1638917088000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -55,11 +55,11 @@
         "mag": 5.5,
         "place": "off the coast of Oregon",
         "time": 1638912616896,
-        "updated": 1638916224933,
+        "updated": 1638916902253,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga8i",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga8i.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 2.2,
         "mmi": 0,
         "alert": "green",
@@ -415,11 +415,11 @@
         "mag": 4.9,
         "place": "40 km ENE of Iwaki, Japan",
         "time": 1638898164697,
-        "updated": 1638907901769,
+        "updated": 1638916540887,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga4u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga4u.geojson",
-        "felt": 11,
+        "felt": 12,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1455,11 +1455,11 @@
         "mag": 3.12,
         "place": "17km E of Shoshone, CA",
         "time": 1638861082480,
-        "updated": 1638896293374,
+        "updated": 1638916777792,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39881343",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39881343.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -1732,6 +1732,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 5.3,
+        "place": "Mid-Indian Ridge",
+        "time": 1638846877427,
+        "updated": 1638916820040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9za",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9za.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "6000g9za",
+        "ids": ",us6000g9za,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.926,
+        "rms": 0.8,
+        "gap": 65,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - Mid-Indian Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2034,
+          -38.5771,
+          10
+        ]
+      },
+      "id": "us6000g9za"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.7,
         "place": "56 km S of Whites City, New Mexico",
         "time": 1638845843262,
@@ -1968,46 +2008,6 @@
         ]
       },
       "id": "us6000g9w4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "south of Africa",
-        "time": 1638830155403,
-        "updated": 1638831419040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9t5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9t5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "6000g9t5",
-        "ids": ",us6000g9t5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 15.593,
-        "rms": 0.9,
-        "gap": 52,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - south of Africa"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          31.4202,
-          -48.4165,
-          10
-        ]
-      },
-      "id": "us6000g9t5"
     }
   ],
   "bbox": [
