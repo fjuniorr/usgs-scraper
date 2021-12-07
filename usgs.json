@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638834789000,
+    "generated": 1638837432000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "82 km NW of Pangai, Tonga",
+        "time": 1638835991706,
+        "updated": 1638837339040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9w4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9w4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000g9w4",
+        "ids": ",us6000g9w4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.812,
+        "rms": 0.96,
+        "gap": 89,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 82 km NW of Pangai, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.812,
+          -19.2078,
+          152.1
+        ]
+      },
+      "id": "us6000g9w4"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.53999996,
-        "place": "Hawaii region, Hawaii",
+        "place": "45 km ESE of Naalehu, Hawaii",
         "time": 1638820022670,
         "updated": 1638826639040,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": 268,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Hawaii region, Hawaii"
+        "title": "M 2.5 - 45 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "129 km NNE of Lospalos, Timor Leste",
+        "place": "Kepulauan Barat Daya, Indonesia",
         "time": 1638759776426,
         "updated": 1638762879040,
         "tz": null,
@@ -1437,7 +1477,7 @@
         "gap": 84,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 129 km NNE of Lospalos, Timor Leste"
+        "title": "M 4.4 - Kepulauan Barat Daya, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Sumbawa region, Indonesia",
+        "place": "21 km SSW of Dompu, Indonesia",
         "time": 1638758394140,
         "updated": 1638760743040,
         "tz": null,
@@ -1477,7 +1517,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Sumbawa region, Indonesia"
+        "title": "M 4.4 - 21 km SSW of Dompu, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1608,126 +1648,6 @@
         ]
       },
       "id": "us6000g9d9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "72 km NW of Mogok, Myanmar",
-        "time": 1638750339991,
-        "updated": 1638751569040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9d4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9d4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000g9d4",
-        "ids": ",us6000g9d4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.796,
-        "rms": 0.84,
-        "gap": 46,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 72 km NW of Mogok, Myanmar"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          96.0743,
-          23.4328,
-          10
-        ]
-      },
-      "id": "us6000g9d4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "10 km NW of San Pedro Huamelula, Mexico",
-        "time": 1638750007052,
-        "updated": 1638797518736,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9d3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9d3.geojson",
-        "felt": 28,
-        "cdi": 5.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 415,
-        "net": "us",
-        "code": "6000g9d3",
-        "ids": ",us6000g9d3,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 3.074,
-        "rms": 0.69,
-        "gap": 62,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 10 km NW of San Pedro Huamelula, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.741,
-          16.0958,
-          33.16
-        ]
-      },
-      "id": "us6000g9d3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "1 km SE of Indios, Puerto Rico",
-        "time": 1638749808020,
-        "updated": 1638750978424,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021340000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021340000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "pr",
-        "code": "2021340000",
-        "ids": ",pr2021340000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.0709,
-        "rms": 0.08,
-        "gap": 174,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 1 km SE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8085,
-          17.981,
-          16
-        ]
-      },
-      "id": "pr2021340000"
     }
   ],
   "bbox": [
