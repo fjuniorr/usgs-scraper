@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638873441000,
+    "generated": 1638874168000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "110 km WNW of Kirakira, Solomon Islands",
+        "time": 1638872880447,
+        "updated": 1638874057040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga0c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga0c.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "6000ga0c",
+        "ids": ",us6000ga0c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.199,
+        "rms": 0.64,
+        "gap": 25,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 110 km WNW of Kirakira, Solomon Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          161.0433,
+          -9.9634,
+          170.33
+        ]
+      },
+      "id": "us6000ga0c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.59,
+        "place": "63 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1638871682760,
+        "updated": 1638873724673,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021341003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021341003.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 198,
+        "net": "pr",
+        "code": "2021341003",
+        "ids": ",pr2021341003,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.7132,
+        "rms": 0.33,
+        "gap": 313,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 63 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.9021,
+          18.9108,
+          7
+        ]
+      },
+      "id": "pr2021341003"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -173,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.5,
-        "place": "northern Alaska",
+        "place": "66 km S of Shungnak, Alaska",
         "time": 1638865269590,
         "updated": 1638865997288,
         "tz": null,
@@ -197,7 +277,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - northern Alaska"
+        "title": "M 3.5 - 66 km S of Shungnak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.65,
-        "place": "Puerto Rico region",
+        "place": "4 km WSW of Liborio Negron Torres, Puerto Rico",
         "time": 1638864261440,
         "updated": 1638865430689,
         "tz": null,
@@ -277,7 +357,7 @@
         "gap": 104,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Puerto Rico region"
+        "title": "M 2.7 - 4 km WSW of Liborio Negron Torres, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "5 km WNW of Lucien, Oklahoma",
+        "place": "Oklahoma",
         "time": 1638854032555,
         "updated": 1638858298040,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 39,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 5 km WNW of Lucien, Oklahoma"
+        "title": "M 2.9 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "78 km ESE of Kitaibaraki, Japan",
+        "place": "near the east coast of Honshu, Japan",
         "time": 1638839433548,
         "updated": 1638853931040,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 133,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 78 km ESE of Kitaibaraki, Japan"
+        "title": "M 4.6 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.53999996,
-        "place": "Hawaii region, Hawaii",
+        "place": "45 km ESE of Naalehu, Hawaii",
         "time": 1638820022670,
         "updated": 1638826639040,
         "tz": null,
@@ -1077,7 +1157,7 @@
         "gap": 268,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Hawaii region, Hawaii"
+        "title": "M 2.5 - 45 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
