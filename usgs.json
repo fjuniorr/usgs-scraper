@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638896118000,
+    "generated": 1638897634000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "49 km SSW of Port-Vila, Vanuatu",
+        "time": 1638895894814,
+        "updated": 1638897555040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga4b",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga4b.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000ga4b",
+        "ids": ",us6000ga4b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.769,
+        "rms": 0.88,
+        "gap": 74,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.9 - 49 km SSW of Port-Vila, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.0583,
+          -18.1077,
+          35
+        ]
+      },
+      "id": "us6000ga4b"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -128,6 +168,46 @@
         ]
       },
       "id": "us6000ga3a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "108 km W of Murghob, Tajikistan",
+        "time": 1638890550156,
+        "updated": 1638896264040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga31",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga31.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000ga31",
+        "ids": ",us6000ga31,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.527,
+        "rms": 0.47,
+        "gap": 84,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 108 km W of Murghob, Tajikistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.7331,
+          38.1366,
+          118.98
+        ]
+      },
+      "id": "us6000ga31"
     },
     {
       "type": "Feature",
@@ -815,7 +895,7 @@
         "mag": 3.12,
         "place": "17km E of Shoshone, CA",
         "time": 1638861082480,
-        "updated": 1638894352278,
+        "updated": 1638896293374,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39881343",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39881343.geojson",
