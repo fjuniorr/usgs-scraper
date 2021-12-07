@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638852256000,
+    "generated": 1638853140000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 38
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.8,
         "place": "23 km NNE of Karluk, Alaska",
         "time": 1638851581656,
-        "updated": 1638852199164,
+        "updated": 1638852329554,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fo0u5lk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fo0u5lk.geojson",
@@ -95,7 +95,7 @@
         "mag": 5.5,
         "place": "Mid-Indian Ridge",
         "time": 1638845044735,
-        "updated": 1638847979133,
+        "updated": 1638852453325,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9y1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9y1.geojson",
@@ -1528,46 +1528,6 @@
         ]
       },
       "id": "us6000g9ec"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53999996,
-        "place": "8 km E of Pāhala, Hawaii",
-        "time": 1638766449070,
-        "updated": 1638769794040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72824262",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72824262.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "hv",
-        "code": "72824262",
-        "ids": ",us6000g9eb,hv72824262,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": null,
-        "rms": 0.0900000036,
-        "gap": 171,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 8 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.39616394043,
-          19.2094993591309,
-          32.3300018310547
-        ]
-      },
-      "id": "hv72824262"
     }
   ],
   "bbox": [
