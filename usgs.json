@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638854414000,
+    "generated": 1638855322000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -55,7 +55,7 @@
         "mag": 3.7,
         "place": "56 km S of Whites City, New Mexico",
         "time": 1638845843262,
-        "updated": 1638853203184,
+        "updated": 1638855180040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021xxkx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021xxkx.geojson",
@@ -94,14 +94,14 @@
       "properties": {
         "mag": 5.5,
         "place": "Mid-Indian Ridge",
-        "time": 1638845044735,
-        "updated": 1638852453325,
+        "time": 1638845044880,
+        "updated": 1638855072193,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9y1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9y1.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.82,
+        "mmi": 3.828,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -112,9 +112,9 @@
         "sources": ",us,",
         "types": ",losspager,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 0.914,
-        "rms": 0.95,
-        "gap": 107,
+        "dmin": 0.916,
+        "rms": 0.64,
+        "gap": 54,
         "magType": "mww",
         "type": "earthquake",
         "title": "M 5.5 - Mid-Indian Ridge"
@@ -122,8 +122,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          78.3213,
-          -38.4942,
+          78.2341,
+          -38.5497,
           10
         ]
       },
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "78 km ESE of Kitaibaraki, Japan",
+        "place": "near the east coast of Honshu, Japan",
         "time": 1638839433548,
         "updated": 1638853931040,
         "tz": null,
@@ -197,7 +197,7 @@
         "gap": 133,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 78 km ESE of Kitaibaraki, Japan"
+        "title": "M 4.6 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.53999996,
-        "place": "Hawaii region, Hawaii",
+        "place": "45 km ESE of Naalehu, Hawaii",
         "time": 1638820022670,
         "updated": 1638826639040,
         "tz": null,
@@ -557,7 +557,7 @@
         "gap": 268,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Hawaii region, Hawaii"
+        "title": "M 2.5 - 45 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
