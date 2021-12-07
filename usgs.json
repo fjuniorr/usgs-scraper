@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638861001000,
+    "generated": 1638862228000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "19 km E of Shoshone, California",
+        "time": 1638861081966,
+        "updated": 1638861379141,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00829476",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00829476.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "nn",
+        "code": "00829476",
+        "ids": ",nn00829476,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.193,
+        "rms": 0.2442,
+        "gap": 114.52,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 19 km E of Shoshone, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.0595,
+          35.9814,
+          6.3
+        ]
+      },
+      "id": "nn00829476"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.66,
         "place": "96km W of Petrolia, CA",
         "time": 1638860707860,
-        "updated": 1638860803934,
+        "updated": 1638861074345,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73660696",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73660696.geojson",
@@ -30,7 +70,7 @@
         "code": "73660696",
         "ids": ",nc73660696,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 23,
         "dmin": 0.9834,
         "rms": 0.31,
