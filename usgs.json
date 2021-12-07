@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638855807000,
+    "generated": 1638856399000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "119 km NW of Koliganek, Alaska",
-        "time": 1638855390052,
-        "updated": 1638855766042,
+        "mag": 3.2,
+        "place": "121 km S of Chuathbaluk, Alaska",
+        "time": 1638855389393,
+        "updated": 1638856177019,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fo1gah4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fo1gah4.geojson",
@@ -25,7 +25,7 @@
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 148,
+        "sig": 158,
         "net": "ak",
         "code": "021fo1gah4",
         "ids": ",ak021fo1gah4,",
@@ -33,18 +33,18 @@
         "types": ",origin,",
         "nst": null,
         "dmin": null,
-        "rms": 0.85,
+        "rms": 0.42,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 119 km NW of Koliganek, Alaska"
+        "title": "M 3.2 - 121 km S of Chuathbaluk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -158.7356,
-          60.5167,
-          5
+          -159.0095,
+          60.4918,
+          7.7
         ]
       },
       "id": "ak021fo1gah4"
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "near the east coast of Honshu, Japan",
+        "place": "78 km ESE of Kitaibaraki, Japan",
         "time": 1638839433548,
         "updated": 1638853931040,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 133,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - near the east coast of Honshu, Japan"
+        "title": "M 4.6 - 78 km ESE of Kitaibaraki, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.53999996,
-        "place": "45 km ESE of Naalehu, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1638820022670,
         "updated": 1638826639040,
         "tz": null,
@@ -597,7 +597,7 @@
         "gap": 268,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 45 km ESE of Naalehu, Hawaii"
+        "title": "M 2.5 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
