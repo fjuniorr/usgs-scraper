@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639001370000,
+    "generated": 1639002750000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 96
+    "count": 99
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "22 km WNW of Clam Gulch, Alaska",
+        "time": 1639001880932,
+        "updated": 1639002683701,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fpz0360",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fpz0360.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "021fpz0360",
+        "ids": ",ak021fpz0360,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.61,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 22 km WNW of Clam Gulch, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.7715,
+          60.3145,
+          61.3
+        ]
+      },
+      "id": "ak021fpz0360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "off the coast of Oregon",
+        "time": 1639001538085,
+        "updated": 1639002736184,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ganp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ganp.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000ganp",
+        "ids": ",ak021fpyzqgr,us6000ganp,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 2.791,
+        "rms": 1.43,
+        "gap": 203,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.2548,
+          44.112,
+          10
+        ]
+      },
+      "id": "us6000ganp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +135,12 @@
         "mag": 4.5,
         "place": "off the coast of Oregon",
         "time": 1638998381728,
-        "updated": 1638999998040,
+        "updated": 1639001400791,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gand",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gand.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +150,7 @@
         "code": "6000gand",
         "ids": ",us6000gand,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 1.866,
         "rms": 1.39,
@@ -295,7 +375,7 @@
         "mag": 2.9,
         "place": "53 km NNE of Kobuk, Alaska",
         "time": 1638993174833,
-        "updated": 1638994034064,
+        "updated": 1639002448040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fpxf6v8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fpxf6v8.geojson",
@@ -308,9 +388,9 @@
         "sig": 129,
         "net": "ak",
         "code": "021fpxf6v8",
-        "ids": ",ak021fpxf6v8,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",us6000gama,ak021fpxf6v8,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.6,
@@ -408,6 +488,46 @@
         ]
       },
       "id": "us6000galy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "289 km W of Tual, Indonesia",
+        "time": 1638990712404,
+        "updated": 1639001503040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000galr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000galr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000galr",
+        "ids": ",us6000galr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.285,
+        "rms": 0.51,
+        "gap": 116,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 289 km W of Tual, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.1636,
+          -5.9817,
+          177.13
+        ]
+      },
+      "id": "us6000galr"
     },
     {
       "type": "Feature",
@@ -1015,17 +1135,17 @@
         "mag": 4.3,
         "place": "5 km SSW of Gypsum, Kansas",
         "time": 1638971128473,
-        "updated": 1639000743155,
+        "updated": 1639001631495,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaga",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaga.geojson",
-        "felt": 672,
+        "felt": 673,
         "cdi": 5.4,
         "mmi": 5.731,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 647,
+        "sig": 648,
         "net": "us",
         "code": "6000gaga",
         "ids": ",us6000gaga,",
@@ -1455,7 +1575,7 @@
         "mag": 3.62,
         "place": "7km S of Lytle Creek, CA",
         "time": 1638959284820,
-        "updated": 1639001297243,
+        "updated": 1639002313548,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39882375",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39882375.geojson",
@@ -2412,10 +2532,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.84,
-        "place": "42 km SE of Pāhala, Hawaii",
-        "time": 1638940684030,
-        "updated": 1638975920040,
+        "mag": 2.81,
+        "place": "43 km SE of Pāhala, Hawaii",
+        "time": 1638940683800,
+        "updated": 1639001658540,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72825752",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72825752.geojson",
@@ -2423,28 +2543,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 124,
+        "sig": 121,
         "net": "hv",
         "code": "72825752",
         "ids": ",us6000gacq,hv72825752,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 37,
+        "nst": 44,
         "dmin": null,
-        "rms": 0.170000002,
-        "gap": 250,
+        "rms": 0.13,
+        "gap": 252,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 42 km SE of Pāhala, Hawaii"
+        "title": "M 2.8 - 43 km SE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.187164306641,
-          18.9333324432373,
-          10.039999961853
+          -155.185166666667,
+          18.9236666666667,
+          9.06
         ]
       },
       "id": "hv72825752"
@@ -3132,32 +3252,32 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.58,
+        "mag": 4.02,
         "place": "112km W of Petrolia, CA",
         "time": 1638932680410,
-        "updated": 1638977518253,
+        "updated": 1639001764788,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73661141",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73661141.geojson",
         "felt": 1,
         "cdi": 1,
-        "mmi": 1.248,
-        "alert": null,
+        "mmi": 1.557,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 197,
+        "sig": 249,
         "net": "nc",
         "code": "73661141",
         "ids": ",nc73661141,us6000gabl,",
         "sources": ",nc,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 74,
         "dmin": 0.972,
         "rms": 0.26,
         "gap": 247,
-        "magType": "ml",
+        "magType": "mw",
         "type": "earthquake",
-        "title": "M 3.6 - 112km W of Petrolia, CA"
+        "title": "M 4.0 - 112km W of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
@@ -3248,6 +3368,46 @@
         ]
       },
       "id": "tx2021xzfr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.99,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1638930884760,
+        "updated": 1639001413530,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91439191",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91439191.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "av",
+        "code": "91439191",
+        "ids": ",av91439191,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": null,
+        "rms": 0.28,
+        "gap": 315,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.298,
+          52.0026666666667,
+          1.95
+        ]
+      },
+      "id": "av91439191"
     },
     {
       "type": "Feature",
@@ -3808,53 +3968,13 @@
         ]
       },
       "id": "us6000ga9f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "off the coast of Oregon",
-        "time": 1638915371686,
-        "updated": 1638922132040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga92",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga92.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "us",
-        "code": "6000ga92",
-        "ids": ",us6000ga92,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.48,
-        "rms": 0.75,
-        "gap": 241,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.4007,
-          44.3587,
-          10
-        ]
-      },
-      "id": "us6000ga92"
     }
   ],
   "bbox": [
     -178.5352,
     -59.731,
-    2.8,
-    141.6215,
+    1.95,
+    178.298,
     69.5763,
     575.07
   ]
