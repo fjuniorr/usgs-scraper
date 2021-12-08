@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638978561000,
+    "generated": 1638979096000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 90
+    "count": 89
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
+        "mag": 5.3,
         "place": "off the coast of Oregon",
-        "time": 1638977900000,
-        "updated": 1638978216748,
+        "time": 1638977900142,
+        "updated": 1638979053040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00r3szfw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00r3szfw.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gah8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gah8.geojson",
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "REVIEWED",
+        "status": "reviewed",
         "tsunami": 1,
-        "sig": 416,
-        "net": "at",
-        "code": "00r3szfw",
-        "ids": ",at00r3szfw,",
-        "sources": ",at,",
-        "types": ",impact-link,origin,",
-        "nst": 96,
-        "dmin": 1.605289,
-        "rms": 1.4,
-        "gap": 208.79998329600133,
-        "magType": "Mi",
+        "sig": 432,
+        "net": "us",
+        "code": "6000gah8",
+        "ids": ",at00r3szfw,us6000gah8,",
+        "sources": ",at,us,",
+        "types": ",dyfi,impact-link,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.57,
+        "rms": 0.72,
+        "gap": 169,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - off the coast of Oregon"
+        "title": "M 5.3 - off the coast of Oregon"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -129.627,
-          44.215,
-          13
+          -129.4876,
+          44.2598,
+          10
         ]
       },
-      "id": "at00r3szfw"
+      "id": "us6000gah8"
     },
     {
       "type": "Feature",
@@ -55,7 +55,7 @@
         "mag": 4.7,
         "place": "off the coast of Oregon",
         "time": 1638975902912,
-        "updated": 1638978124940,
+        "updated": 1638978918040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gagw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gagw.geojson",
@@ -70,7 +70,7 @@
         "code": "6000gagw",
         "ids": ",us6000gagw,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 1.803,
         "rms": 0.55,
@@ -255,17 +255,17 @@
         "mag": 4.3,
         "place": "5 km SSW of Gypsum, Kansas",
         "time": 1638971128473,
-        "updated": 1638978501083,
+        "updated": 1638978797693,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaga",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaga.geojson",
-        "felt": 511,
+        "felt": 518,
         "cdi": 5.4,
         "mmi": 5.731,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 560,
+        "sig": 564,
         "net": "us",
         "code": "6000gaga",
         "ids": ",us6000gaga,",
@@ -575,7 +575,7 @@
         "mag": 4.7,
         "place": "off the coast of Oregon",
         "time": 1638962981553,
-        "updated": 1638964015040,
+        "updated": 1638979082040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gafs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gafs.geojson",
@@ -590,7 +590,7 @@
         "code": "6000gafs",
         "ids": ",us6000gafs,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 1.515,
         "rms": 0.83,
@@ -695,17 +695,17 @@
         "mag": 3.62,
         "place": "7km S of Lytle Creek, CA",
         "time": 1638959284820,
-        "updated": 1638978412486,
+        "updated": 1638979043412,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39882375",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39882375.geojson",
-        "felt": 869,
+        "felt": 871,
         "cdi": 3.8,
         "mmi": 3.99,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 532,
+        "sig": 533,
         "net": "ci",
         "code": "39882375",
         "ids": ",ci39882375,us6000gafd,",
@@ -3333,7 +3333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "near the east coast of Honshu, Japan",
+        "place": "40 km ENE of Iwaki, Japan",
         "time": 1638898164697,
         "updated": 1638974366136,
         "tz": null,
@@ -3357,7 +3357,7 @@
         "gap": 84,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - near the east coast of Honshu, Japan"
+        "title": "M 4.9 - 40 km ENE of Iwaki, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -3372,10 +3372,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.3,
-        "place": "30 km S of Güiria, Venezuela",
-        "time": 1638897356224,
-        "updated": 1638932867970,
+        "mag": 5.1,
+        "place": "19 km S of Güiria, Venezuela",
+        "time": 1638897356590,
+        "updated": 1638978892614,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga4p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga4p.geojson",
@@ -3385,26 +3385,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 436,
+        "sig": 404,
         "net": "us",
         "code": "6000ga4p",
         "ids": ",us6000ga4p,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
-        "dmin": 1.937,
-        "rms": 1.02,
-        "gap": 30,
-        "magType": "mb",
+        "dmin": 1.842,
+        "rms": 0.73,
+        "gap": 24,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - 30 km S of Güiria, Venezuela"
+        "title": "M 5.1 - 19 km S of Güiria, Venezuela"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -62.3266,
-          10.2996,
-          8.8
+          -62.3284,
+          10.4026,
+          10
         ]
       },
       "id": "us6000ga4p"
@@ -3493,7 +3493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "127 km NE of Maumere, Indonesia",
+        "place": "Banda Sea",
         "time": 1638894387256,
         "updated": 1638900580040,
         "tz": null,
@@ -3517,7 +3517,7 @@
         "gap": 32,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 127 km NE of Maumere, Indonesia"
+        "title": "M 5.2 - Banda Sea"
       },
       "geometry": {
         "type": "Point",
@@ -3568,46 +3568,6 @@
         ]
       },
       "id": "nc73660911"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.8,
-        "place": "South Sandwich Islands region",
-        "time": 1638892554241,
-        "updated": 1638943348200,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga3a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga3a.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.724,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 518,
-        "net": "us",
-        "code": "6000ga3a",
-        "ids": ",us6000ga3a,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 6.809,
-        "rms": 0.9,
-        "gap": 56,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.8 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -25.8245,
-          -57.5054,
-          33.4
-        ]
-      },
-      "id": "us6000ga3a"
     }
   ],
   "bbox": [
