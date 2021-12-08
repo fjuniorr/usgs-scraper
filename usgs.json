@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638963767000,
+    "generated": 1638964374000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 81
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "off the coast of Oregon",
+        "time": 1638962981553,
+        "updated": 1638964015040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gafs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gafs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000gafs",
+        "ids": ",us6000gafs,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.515,
+        "rms": 0.83,
+        "gap": 195,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.4371,
+          44.3193,
+          10
+        ]
+      },
+      "id": "us6000gafs"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,17 +135,17 @@
         "mag": 3.62,
         "place": "6km S of Lytle Creek, CA",
         "time": 1638959284830,
-        "updated": 1638963461058,
+        "updated": 1638964094725,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39882375",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39882375.geojson",
-        "felt": 751,
+        "felt": 754,
         "cdi": 3.8,
         "mmi": 4.031,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 487,
+        "sig": 488,
         "net": "ci",
         "code": "39882375",
         "ids": ",ci39882375,us6000gafd,",
@@ -2693,7 +2733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "40 km ENE of Iwaki, Japan",
+        "place": "near the east coast of Honshu, Japan",
         "time": 1638898164697,
         "updated": 1638949454610,
         "tz": null,
@@ -2717,7 +2757,7 @@
         "gap": 84,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 40 km ENE of Iwaki, Japan"
+        "title": "M 4.9 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -2853,7 +2893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Banda Sea",
+        "place": "127 km NE of Maumere, Indonesia",
         "time": 1638894387256,
         "updated": 1638900580040,
         "tz": null,
@@ -2877,7 +2917,7 @@
         "gap": 32,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - Banda Sea"
+        "title": "M 5.2 - 127 km NE of Maumere, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -3208,46 +3248,6 @@
         ]
       },
       "id": "us6000ga2d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "59 km WSW of Arica, Chile",
-        "time": 1638877592438,
-        "updated": 1638879187040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga1x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga1x.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000ga1x",
-        "ids": ",us6000ga1x,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.457,
-        "rms": 0.94,
-        "gap": 152,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.3 - 59 km WSW of Arica, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.8003,
-          -18.7105,
-          35
-        ]
-      },
-      "id": "us6000ga1x"
     }
   ],
   "bbox": [
