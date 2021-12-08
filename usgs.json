@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638931847000,
+    "generated": 1638932980000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,42 +12,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "53 km SSW of Whites City, New Mexico",
-        "time": 1638930933848,
-        "updated": 1638931731040,
+        "mag": 3.86,
+        "place": "76km W of Petrolia, CA",
+        "time": 1638932683360,
+        "updated": 1638932823891,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gabh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gabh.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73661141",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73661141.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 229,
+        "net": "nc",
+        "code": "73661141",
+        "ids": ",nc73661141,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 65,
+        "dmin": 0.6589,
+        "rms": 0.41,
+        "gap": 260,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - 76km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.18367,
+          40.3463326,
+          5.9
+        ]
+      },
+      "id": "nc73661141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "51 km SSW of Whites City, New Mexico",
+        "time": 1638930934416,
+        "updated": 1638932087742,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021xzfr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021xzfr.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "6000gabh",
-        "ids": ",us6000gabh,",
-        "sources": ",us,",
+        "sig": 121,
+        "net": "tx",
+        "code": "2021xzfr",
+        "ids": ",us6000gabh,tx2021xzfr,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.061,
-        "rms": 0.74,
-        "gap": 64,
+        "nst": 31,
+        "dmin": 0.02794464875,
+        "rms": 0.3,
+        "gap": 89,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 53 km SSW of Whites City, New Mexico"
+        "title": "M 2.8 - 51 km SSW of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.5485,
-          31.7148,
-          5
+          -104.5254505,
+          31.72671883,
+          6.799975586
         ]
       },
-      "id": "us6000gabh"
+      "id": "tx2021xzfr"
     },
     {
       "type": "Feature",
@@ -212,10 +252,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.59,
+        "mag": 2.57,
         "place": "9 km ENE of Pāhala, Hawaii",
-        "time": 1638926774590,
-        "updated": 1638931301040,
+        "time": 1638926774480,
+        "updated": 1638932946820,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72825597",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72825597.geojson",
@@ -223,18 +263,18 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 103,
+        "sig": 102,
         "net": "hv",
         "code": "72825597",
         "ids": ",us6000gaaj,hv72825597,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 44,
+        "nst": 49,
         "dmin": null,
-        "rms": 0.119999997,
-        "gap": 149,
+        "rms": 0.13,
+        "gap": 152,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.6 - 9 km ENE of Pāhala, Hawaii"
@@ -242,9 +282,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.389831542969,
-          19.2255001068115,
-          31.6200008392334
+          -155.387333333333,
+          19.2226666666667,
+          32.98
         ]
       },
       "id": "hv72825597"
@@ -975,17 +1015,17 @@
         "mag": 5.3,
         "place": "30 km S of Güiria, Venezuela",
         "time": 1638897356224,
-        "updated": 1638930642370,
+        "updated": 1638932867970,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga4p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga4p.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 435,
+        "sig": 436,
         "net": "us",
         "code": "6000ga4p",
         "ids": ",us6000ga4p,",
@@ -2288,46 +2328,6 @@
         ]
       },
       "id": "us6000g9za"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "56 km S of Whites City, New Mexico",
-        "time": 1638845843262,
-        "updated": 1638891665040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021xxkx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021xxkx.geojson",
-        "felt": 3,
-        "cdi": 4.1,
-        "mmi": 4.4,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 212,
-        "net": "tx",
-        "code": "2021xxkx",
-        "ids": ",tx2021xxkx,us6000g9y2,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 36,
-        "dmin": 0.08043279898,
-        "rms": 0.2,
-        "gap": 85,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - 56 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.4064319,
-          31.66964514,
-          6.388647461
-        ]
-      },
-      "id": "tx2021xxkx"
     }
   ],
   "bbox": [
