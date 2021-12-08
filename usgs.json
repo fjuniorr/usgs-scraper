@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638980758000,
+    "generated": 1638982808000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 89
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "51 km S of Whites City, New Mexico",
+        "time": 1638980650287,
+        "updated": 1638982804320,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yaha",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yaha.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "tx",
+        "code": "2021yaha",
+        "ids": ",tx2021yaha,us6000gais,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.1828210285,
+        "rms": 0.2,
+        "gap": 72,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 51 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.2741399,
+          31.72168941,
+          7.288427734
+        ]
+      },
+      "id": "tx2021yaha"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "off the coast of Oregon",
+        "time": 1638979358830,
+        "updated": 1638981871040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaik",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaik.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000gaik",
+        "ids": ",us6000gaik,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.566,
+        "rms": 0.78,
+        "gap": 203,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.6677,
+          44.2549,
+          10
+        ]
+      },
+      "id": "us6000gaik"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,17 +335,17 @@
         "mag": 4.3,
         "place": "5 km SSW of Gypsum, Kansas",
         "time": 1638971128473,
-        "updated": 1638980666709,
+        "updated": 1638982548943,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaga",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaga.geojson",
-        "felt": 545,
+        "felt": 563,
         "cdi": 5.4,
         "mmi": 5.731,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 579,
+        "sig": 588,
         "net": "us",
         "code": "6000gaga",
         "ids": ",us6000gaga,",
@@ -455,13 +535,13 @@
         "mag": 3.6,
         "place": "23 km SSW of Petersville, Alaska",
         "time": 1638965200679,
-        "updated": 1638980418647,
+        "updated": 1638980622666,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fpsz9ip",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fpsz9ip.geojson",
         "felt": 0,
         "cdi": 1,
-        "mmi": 2.6,
+        "mmi": 2.616,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -695,17 +775,17 @@
         "mag": 3.62,
         "place": "7km S of Lytle Creek, CA",
         "time": 1638959284820,
-        "updated": 1638980601746,
+        "updated": 1638982529277,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39882375",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39882375.geojson",
-        "felt": 881,
+        "felt": 892,
         "cdi": 3.8,
         "mmi": 3.99,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 536,
+        "sig": 541,
         "net": "ci",
         "code": "39882375",
         "ids": ",ci39882375,us6000gafd,",
@@ -1455,7 +1535,7 @@
         "mag": 5.1,
         "place": "off the coast of Oregon",
         "time": 1638942667152,
-        "updated": 1638977476040,
+        "updated": 1638980797147,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gad4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gad4.geojson",
@@ -1470,7 +1550,7 @@
         "code": "6000gad4",
         "ids": ",us6000gad4,",
         "sources": ",us,",
-        "types": ",dyfi,moment-tensor,oaf,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 1.657,
         "rms": 0.74,
@@ -2655,7 +2735,7 @@
         "mag": 5.8,
         "place": "off the coast of Oregon",
         "time": 1638926465668,
-        "updated": 1638977351896,
+        "updated": 1638981459780,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaag",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaag.geojson",
@@ -2775,7 +2855,7 @@
         "mag": 5.8,
         "place": "off the coast of Oregon",
         "time": 1638923798804,
-        "updated": 1638973487006,
+        "updated": 1638981413801,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga9w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga9w.geojson",
@@ -3373,7 +3453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "40 km ENE of Iwaki, Japan",
+        "place": "near the east coast of Honshu, Japan",
         "time": 1638898164697,
         "updated": 1638974366136,
         "tz": null,
@@ -3397,7 +3477,7 @@
         "gap": 84,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 40 km ENE of Iwaki, Japan"
+        "title": "M 4.9 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -3488,93 +3568,13 @@
         ]
       },
       "id": "us6000ga4f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "52 km SW of Port-Vila, Vanuatu",
-        "time": 1638895894941,
-        "updated": 1638900958040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga4b",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga4b.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000ga4b",
-        "ids": ",us6000ga4b,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.775,
-        "rms": 0.96,
-        "gap": 74,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.9 - 52 km SW of Port-Vila, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          168.0253,
-          -18.1238,
-          35
-        ]
-      },
-      "id": "us6000ga4b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "Banda Sea",
-        "time": 1638894387256,
-        "updated": 1638900580040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga40",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga40.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000ga40",
-        "ids": ",us6000ga40,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.139,
-        "rms": 0.96,
-        "gap": 32,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - Banda Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.0964,
-          -7.8717,
-          270.03
-        ]
-      },
-      "id": "us6000ga40"
     }
   ],
   "bbox": [
     -178.5352,
     -59.731,
     3,
-    168.0253,
+    153.5238,
     69.5763,
     575.07
   ]
