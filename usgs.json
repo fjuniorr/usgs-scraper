@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638951392000,
+    "generated": 1638952641000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 80
+    "count": 78
   },
   "features": [
     {
@@ -135,17 +135,17 @@
         "mag": 5.1,
         "place": "61 km ENE of Namie, Japan",
         "time": 1638948138756,
-        "updated": 1638950659538,
+        "updated": 1638952310355,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gae5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gae5.geojson",
-        "felt": 11,
+        "felt": 14,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 404,
+        "sig": 405,
         "net": "us",
         "code": "6000gae5",
         "ids": ",us6000gae5,",
@@ -175,7 +175,7 @@
         "mag": 5.5,
         "place": "off the coast of Oregon",
         "time": 1638947908360,
-        "updated": 1638950312624,
+        "updated": 1638952272970,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gae3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gae3.geojson",
@@ -1175,7 +1175,7 @@
         "mag": 3.58,
         "place": "112km W of Petrolia, CA",
         "time": 1638932680410,
-        "updated": 1638947771385,
+        "updated": 1638952272258,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73661141",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73661141.geojson",
@@ -3128,92 +3128,12 @@
         ]
       },
       "id": "hv72824992"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "66 km S of Shungnak, Alaska",
-        "time": 1638865269590,
-        "updated": 1638865997288,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fo35c0q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fo35c0q.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.122,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "ak",
-        "code": "021fo35c0q",
-        "ids": ",ak021fo35c0q,",
-        "sources": ",ak,",
-        "types": ",origin,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.73,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 66 km S of Shungnak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.9195,
-          66.3002,
-          0.1
-        ]
-      },
-      "id": "ak021fo35c0q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "23 km NW of Stanley, Idaho",
-        "time": 1638865161800,
-        "updated": 1638889564690,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80532834",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80532834.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "mb",
-        "code": "80532834",
-        "ids": ",mb80532834,",
-        "sources": ",mb,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.945,
-        "rms": 0.25,
-        "gap": 82,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 23 km NW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.1763333,
-          44.3473333,
-          9.44
-        ]
-      },
-      "id": "mb80532834"
     }
   ],
   "bbox": [
     -176.3582,
     -59.731,
-    0.1,
+    5.745947266,
     175.912,
     69.5763,
     270.03
