@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638976287000,
+    "generated": 1638977705000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 90
+    "count": 89
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "off the coast of Oregon",
+        "time": 1638975902912,
+        "updated": 1638976707040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gagw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gagw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000gagw",
+        "ids": ",us6000gagw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.803,
+        "rms": 0.55,
+        "gap": 200,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.9085,
+          44.1153,
+          10
+        ]
+      },
+      "id": "us6000gagw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,17 +215,17 @@
         "mag": 4.3,
         "place": "5 km SSW of Gypsum, Kansas",
         "time": 1638971128473,
-        "updated": 1638976003955,
+        "updated": 1638977573118,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaga",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaga.geojson",
-        "felt": 466,
+        "felt": 499,
         "cdi": 5.4,
         "mmi": 5.731,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 536,
+        "sig": 554,
         "net": "us",
         "code": "6000gaga",
         "ids": ",us6000gaga,",
@@ -613,38 +653,38 @@
       "type": "Feature",
       "properties": {
         "mag": 3.62,
-        "place": "6km S of Lytle Creek, CA",
-        "time": 1638959284830,
-        "updated": 1638976068991,
+        "place": "7km S of Lytle Creek, CA",
+        "time": 1638959284820,
+        "updated": 1638977560792,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39882375",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39882375.geojson",
-        "felt": 843,
+        "felt": 862,
         "cdi": 3.8,
-        "mmi": 4.031,
+        "mmi": 3.97,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 522,
+        "sig": 529,
         "net": "ci",
         "code": "39882375",
         "ids": ",ci39882375,us6000gafd,",
         "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 114,
-        "dmin": 0.03597,
-        "rms": 0.24,
-        "gap": 22,
+        "nst": 189,
+        "dmin": 0.03902,
+        "rms": 0.25,
+        "gap": 16,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 3.6 - 6km S of Lytle Creek, CA"
+        "title": "M 3.6 - 7km S of Lytle Creek, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.5056686,
-          34.2034988,
-          4.87
+          -117.5068333,
+          34.2005,
+          4.98
         ]
       },
       "id": "ci39882375"
@@ -655,7 +695,7 @@
         "mag": 5.1,
         "place": "off the coast of Oregon",
         "time": 1638958470681,
-        "updated": 1638962350809,
+        "updated": 1638977667040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gafa",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gafa.geojson",
@@ -670,7 +710,7 @@
         "code": "6000gafa",
         "ids": ",us6000gafa,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 1.563,
         "rms": 1.28,
@@ -1375,7 +1415,7 @@
         "mag": 5.1,
         "place": "off the coast of Oregon",
         "time": 1638942667152,
-        "updated": 1638964881378,
+        "updated": 1638977476040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gad4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gad4.geojson",
@@ -1390,7 +1430,7 @@
         "code": "6000gad4",
         "ids": ",us6000gad4,",
         "sources": ",us,",
-        "types": ",dyfi,oaf,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,oaf,origin,phase-data,",
         "nst": null,
         "dmin": 1.657,
         "rms": 0.74,
@@ -1455,7 +1495,7 @@
         "mag": 5.5,
         "place": "off the coast of Oregon",
         "time": 1638942224574,
-        "updated": 1638970641040,
+        "updated": 1638977275040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gadh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gadh.geojson",
@@ -1535,7 +1575,7 @@
         "mag": 5.3,
         "place": "off the coast of Oregon",
         "time": 1638941626862,
-        "updated": 1638944029840,
+        "updated": 1638976929040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gacv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gacv.geojson",
@@ -1550,7 +1590,7 @@
         "code": "6000gacv",
         "ids": ",us6000gacv,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 1.32,
         "rms": 1.24,
@@ -1894,8 +1934,8 @@
       "properties": {
         "mag": 3.2,
         "place": "55 km S of Whites City, New Mexico",
-        "time": 1638936661520,
-        "updated": 1638937796567,
+        "time": 1638936661470,
+        "updated": 1638977406843,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021xziu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021xziu.geojson",
@@ -1911,10 +1951,10 @@
         "ids": ",us6000gac6,tx2021xziu,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.08181134163,
+        "nst": 20,
+        "dmin": 0.07927721494,
         "rms": 0.2,
-        "gap": 84,
+        "gap": 54,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.2 - 55 km S of Whites City, New Mexico"
@@ -1922,9 +1962,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.4054304,
-          31.6779244,
-          6.799975586
+          -104.408389,
+          31.67767519,
+          7.596923828000001
         ]
       },
       "id": "tx2021xziu"
@@ -2175,7 +2215,7 @@
         "mag": 3.58,
         "place": "112km W of Petrolia, CA",
         "time": 1638932680410,
-        "updated": 1638956710465,
+        "updated": 1638977518253,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73661141",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73661141.geojson",
@@ -2535,11 +2575,11 @@
         "mag": 5.8,
         "place": "off the coast of Oregon",
         "time": 1638926465668,
-        "updated": 1638970271661,
+        "updated": 1638977351896,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaag",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaag.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 2.2,
         "mmi": 0,
         "alert": "green",
@@ -3528,86 +3568,6 @@
         ]
       },
       "id": "us6000ga3a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "108 km W of Murghob, Tajikistan",
-        "time": 1638890550156,
-        "updated": 1638896264040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ga31",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ga31.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000ga31",
-        "ids": ",us6000ga31,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.527,
-        "rms": 0.47,
-        "gap": 84,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 108 km W of Murghob, Tajikistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          72.7331,
-          38.1366,
-          118.98
-        ]
-      },
-      "id": "us6000ga31"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.23,
-        "place": "6 km WSW of La Parguera, Puerto Rico",
-        "time": 1638890134120,
-        "updated": 1638895455040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021341004",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021341004.geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 161,
-        "net": "pr",
-        "code": "2021341004",
-        "ids": ",pr2021341004,us6000ga2t,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.05,
-        "rms": 0.12,
-        "gap": 224,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 6 km WSW of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1018,
-          17.957,
-          9
-        ]
-      },
-      "id": "pr2021341004"
     }
   ],
   "bbox": [
