@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638954976000,
+    "generated": 1638955941000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 78
+    "count": 77
   },
   "features": [
     {
@@ -215,7 +215,7 @@
         "mag": 5.5,
         "place": "off the coast of Oregon",
         "time": 1638947908360,
-        "updated": 1638952272970,
+        "updated": 1638955339471,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gae3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gae3.geojson",
@@ -3088,46 +3088,6 @@
         ]
       },
       "id": "us6000g9zp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "30 km SSE of Mina, Nevada",
-        "time": 1638869420017,
-        "updated": 1638931012901,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00829495",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00829495.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "nn",
-        "code": "00829495",
-        "ids": ",nn00829495,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.009,
-        "rms": 0.1532,
-        "gap": 76.26,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 30 km SSE of Mina, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.9697,
-          38.1425,
-          10.9
-        ]
-      },
-      "id": "nn00829495"
     }
   ],
   "bbox": [
