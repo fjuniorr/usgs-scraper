@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638999845000,
+    "generated": 1639000350000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 94
+    "count": 96
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "138 km ESE of McCarthy, Alaska",
+        "time": 1638999761198,
+        "updated": 1639000318253,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fpyjvuf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fpyjvuf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "021fpyjvuf",
+        "ids": ",ak021fpyjvuf,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.47,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 138 km ESE of McCarthy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -140.4065,
+          61.1609,
+          2.8
+        ]
+      },
+      "id": "ak021fpyjvuf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "off the coast of Oregon",
+        "time": 1638998381728,
+        "updated": 1638999998040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gand",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gand.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000gand",
+        "ids": ",us6000gand,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.866,
+        "rms": 1.39,
+        "gap": 219,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.7929,
+          44.078,
+          10
+        ]
+      },
+      "id": "us6000gand"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -494,8 +574,8 @@
       "properties": {
         "mag": 3.8,
         "place": "25 km ENE of Malir Cantonment, Pakistan",
-        "time": 1638983762619,
-        "updated": 1638999182609,
+        "time": 1638983762594,
+        "updated": 1639000015024,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gan6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gan6.geojson",
@@ -512,7 +592,7 @@
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
-        "dmin": 9.591,
+        "dmin": 9.594,
         "rms": 0.72,
         "gap": 187,
         "magType": "mb",
@@ -522,8 +602,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.4439,
-          25.0176,
+          67.4461,
+          25.0144,
           10
         ]
       },
@@ -895,17 +975,17 @@
         "mag": 4.3,
         "place": "5 km SSW of Gypsum, Kansas",
         "time": 1638971128473,
-        "updated": 1638999212091,
+        "updated": 1639000213144,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaga",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaga.geojson",
-        "felt": 668,
+        "felt": 671,
         "cdi": 5.4,
         "mmi": 5.731,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 645,
+        "sig": 647,
         "net": "us",
         "code": "6000gaga",
         "ids": ",us6000gaga,",
@@ -1335,17 +1415,17 @@
         "mag": 3.62,
         "place": "7km S of Lytle Creek, CA",
         "time": 1638959284820,
-        "updated": 1638999634461,
+        "updated": 1639000279725,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39882375",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39882375.geojson",
-        "felt": 955,
+        "felt": 958,
         "cdi": 3.8,
         "mmi": 3.99,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 565,
+        "sig": 566,
         "net": "ci",
         "code": "39882375",
         "ids": ",ci39882375,us6000gafd,",
@@ -3773,7 +3853,7 @@
   "bbox": [
     -178.5352,
     -59.731,
-    3,
+    2.8,
     141.6215,
     69.5763,
     575.07
