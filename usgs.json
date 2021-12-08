@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638946415000,
+    "generated": 1638947416000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 76
+    "count": 77
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "off the coast of Oregon",
+        "time": 1638945988015,
+        "updated": 1638947139040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gady",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gady.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000gady",
+        "ids": ",us6000gady,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.561,
+        "rms": 0.83,
+        "gap": 195,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.2183,
+          44.303,
+          10
+        ]
+      },
+      "id": "us6000gady"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "off the coast of Oregon",
+        "time": 1638944949681,
+        "updated": 1638946636040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gadn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gadn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000gadn",
+        "ids": ",us6000gadn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.616,
+        "rms": 1.05,
+        "gap": 197,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.8561,
+          44.4988,
+          10
+        ]
+      },
+      "id": "us6000gadn"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -815,7 +895,7 @@
         "mag": 3.58,
         "place": "112km W of Petrolia, CA",
         "time": 1638932680410,
-        "updated": 1638946181266,
+        "updated": 1638947230297,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73661141",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73661141.geojson",
@@ -3008,46 +3088,6 @@
         ]
       },
       "id": "ci39881343"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.66,
-        "place": "96km W of Petrolia, CA",
-        "time": 1638860707860,
-        "updated": 1638871031000,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73660696",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73660696.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "nc",
-        "code": "73660696",
-        "ids": ",nc73660696,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.9834,
-        "rms": 0.31,
-        "gap": 249,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 96km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -125.4085007,
-          40.4466667,
-          4.1
-        ]
-      },
-      "id": "nc73660696"
     }
   ],
   "bbox": [
