@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638941442000,
+    "generated": 1638942175000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "hv72825752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "off the coast of Oregon",
+        "time": 1638940524974,
+        "updated": 1638941865833,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gacn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gacn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "6000gacn",
+        "ids": ",us6000gacn,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 1.474,
+        "rms": 0.71,
+        "gap": 169,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.3794,
+          44.3674,
+          10
+        ]
+      },
+      "id": "us6000gacn"
     },
     {
       "type": "Feature",
@@ -895,11 +935,11 @@
         "mag": 5.8,
         "place": "off the coast of Oregon",
         "time": 1638926465668,
-        "updated": 1638935566926,
+        "updated": 1638942039799,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaag",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaag.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 2.2,
         "mmi": 0,
         "alert": "green",
@@ -1613,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "40 km ENE of Iwaki, Japan",
+        "place": "near the east coast of Honshu, Japan",
         "time": 1638898164697,
         "updated": 1638936889245,
         "tz": null,
@@ -1637,7 +1677,7 @@
         "gap": 84,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 40 km ENE of Iwaki, Japan"
+        "title": "M 4.9 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1773,7 +1813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Banda Sea",
+        "place": "127 km NE of Maumere, Indonesia",
         "time": 1638894387256,
         "updated": 1638900580040,
         "tz": null,
@@ -1797,7 +1837,7 @@
         "gap": 32,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - Banda Sea"
+        "title": "M 5.2 - 127 km NE of Maumere, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -2173,7 +2213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "110 km WNW of Kirakira, Solomon Islands",
+        "place": "Solomon Islands",
         "time": 1638872880447,
         "updated": 1638900294040,
         "tz": null,
@@ -2197,7 +2237,7 @@
         "gap": 25,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - 110 km WNW of Kirakira, Solomon Islands"
+        "title": "M 5.4 - Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -2613,7 +2653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.65,
-        "place": "4 km WSW of Liborio Negron Torres, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1638864261440,
         "updated": 1638865430689,
         "tz": null,
@@ -2637,7 +2677,7 @@
         "gap": 104,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 4 km WSW of Liborio Negron Torres, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -2773,7 +2813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.55,
-        "place": "14 km S of Fern Forest, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1638859208620,
         "updated": 1638912805120,
         "tz": null,
@@ -2797,7 +2837,7 @@
         "gap": 127,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 14 km S of Fern Forest, Hawaii"
+        "title": "M 2.6 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -2848,46 +2888,6 @@
         ]
       },
       "id": "nc73660671"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "121 km S of Chuathbaluk, Alaska",
-        "time": 1638855389393,
-        "updated": 1638856177019,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fo1gah4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fo1gah4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "021fo1gah4",
-        "ids": ",ak021fo1gah4,",
-        "sources": ",ak,",
-        "types": ",origin,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.42,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 121 km S of Chuathbaluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -159.0095,
-          60.4918,
-          7.7
-        ]
-      },
-      "id": "ak021fo1gah4"
     }
   ],
   "bbox": [
