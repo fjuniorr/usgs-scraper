@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638932980000,
+    "generated": 1638934340000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 58
+    "count": 59
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.86,
-        "place": "76km W of Petrolia, CA",
-        "time": 1638932683360,
-        "updated": 1638932823891,
+        "mag": 2.59,
+        "place": "7 km E of Pāhala, Hawaii",
+        "time": 1638933664170,
+        "updated": 1638933995170,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73661141",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73661141.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72825682",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72825682.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
+        "sig": 103,
+        "net": "hv",
+        "code": "72825682",
+        "ids": ",hv72825682,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": null,
+        "rms": 0.129999995,
+        "gap": 153,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 7 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.403167724609,
+          19.2098331451416,
+          32
+        ]
+      },
+      "id": "hv72825682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.86,
+        "place": "76km W of Petrolia, CA",
+        "time": 1638932683360,
+        "updated": 1638934332040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73661141",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73661141.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": 1.248,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
         "sig": 229,
         "net": "nc",
         "code": "73661141",
-        "ids": ",nc73661141,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "ids": ",nc73661141,us6000gabl,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 65,
         "dmin": 0.6589,
         "rms": 0.41,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "nc73661141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "off the coast of Oregon",
+        "time": 1638932099787,
+        "updated": 1638933121040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gabj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gabj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000gabj",
+        "ids": ",us6000gabj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.494,
+        "rms": 0.59,
+        "gap": 230,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.4235,
+          44.3419,
+          10
+        ]
+      },
+      "id": "us6000gabj"
     },
     {
       "type": "Feature",
@@ -295,7 +375,7 @@
         "mag": 5.8,
         "place": "off the coast of Oregon",
         "time": 1638926465668,
-        "updated": 1638931730600,
+        "updated": 1638934280989,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaag",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaag.geojson",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "near the east coast of Honshu, Japan",
+        "place": "40 km ENE of Iwaki, Japan",
         "time": 1638898164697,
         "updated": 1638916540887,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 84,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - near the east coast of Honshu, Japan"
+        "title": "M 4.9 - 40 km ENE of Iwaki, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "127 km NE of Maumere, Indonesia",
+        "place": "Banda Sea",
         "time": 1638894387256,
         "updated": 1638900580040,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 32,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 127 km NE of Maumere, Indonesia"
+        "title": "M 5.2 - Banda Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "Solomon Islands",
+        "place": "110 km WNW of Kirakira, Solomon Islands",
         "time": 1638872880447,
         "updated": 1638900294040,
         "tz": null,
@@ -1557,7 +1637,7 @@
         "gap": 25,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - Solomon Islands"
+        "title": "M 5.4 - 110 km WNW of Kirakira, Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1933,7 +2013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.65,
-        "place": "Puerto Rico region",
+        "place": "4 km WSW of Liborio Negron Torres, Puerto Rico",
         "time": 1638864261440,
         "updated": 1638865430689,
         "tz": null,
@@ -1957,7 +2037,7 @@
         "gap": 104,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Puerto Rico region"
+        "title": "M 2.7 - 4 km WSW of Liborio Negron Torres, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -2093,7 +2173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.55,
-        "place": "Hawaii region, Hawaii",
+        "place": "14 km S of Fern Forest, Hawaii",
         "time": 1638859208620,
         "updated": 1638912805120,
         "tz": null,
@@ -2117,7 +2197,7 @@
         "gap": 127,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Hawaii region, Hawaii"
+        "title": "M 2.6 - 14 km S of Fern Forest, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -2213,7 +2293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "5 km WNW of Lucien, Oklahoma",
+        "place": "Oklahoma",
         "time": 1638854032555,
         "updated": 1638915586715,
         "tz": null,
@@ -2237,7 +2317,7 @@
         "gap": 39,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 5 km WNW of Lucien, Oklahoma"
+        "title": "M 2.9 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -2288,46 +2368,6 @@
         ]
       },
       "id": "ak021fo0u5lk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "Mid-Indian Ridge",
-        "time": 1638846877427,
-        "updated": 1638916820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9za",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9za.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "6000g9za",
-        "ids": ",us6000g9za,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.926,
-        "rms": 0.8,
-        "gap": 65,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - Mid-Indian Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          78.2034,
-          -38.5771,
-          10
-        ]
-      },
-      "id": "us6000g9za"
     }
   ],
   "bbox": [
