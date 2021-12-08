@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638962675000,
+    "generated": 1638963208000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -55,17 +55,17 @@
         "mag": 3.62,
         "place": "6km S of Lytle Creek, CA",
         "time": 1638959284830,
-        "updated": 1638962519603,
+        "updated": 1638963148563,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39882375",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39882375.geojson",
-        "felt": 733,
+        "felt": 748,
         "cdi": 3.8,
-        "mmi": 3.81,
+        "mmi": 4.031,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 480,
+        "sig": 486,
         "net": "ci",
         "code": "39882375",
         "ids": ",ci39882375,us6000gafd,",
@@ -2653,7 +2653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "40 km ENE of Iwaki, Japan",
+        "place": "near the east coast of Honshu, Japan",
         "time": 1638898164697,
         "updated": 1638949454610,
         "tz": null,
@@ -2677,7 +2677,7 @@
         "gap": 84,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 40 km ENE of Iwaki, Japan"
+        "title": "M 4.9 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -2813,7 +2813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Banda Sea",
+        "place": "127 km NE of Maumere, Indonesia",
         "time": 1638894387256,
         "updated": 1638900580040,
         "tz": null,
@@ -2837,7 +2837,7 @@
         "gap": 32,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - Banda Sea"
+        "title": "M 5.2 - 127 km NE of Maumere, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -2973,7 +2973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.23,
-        "place": "6 km WSW of La Parguera, Puerto Rico",
+        "place": "Puerto Rico",
         "time": 1638890134120,
         "updated": 1638895455040,
         "tz": null,
@@ -2997,7 +2997,7 @@
         "gap": 224,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 6 km WSW of La Parguera, Puerto Rico"
+        "title": "M 3.2 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
