@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638999384000,
+    "generated": 1638999845000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 94
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "off the coast of Oregon",
+        "time": 1638997386601,
+        "updated": 1638999742040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gan9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gan9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000gan9",
+        "ids": ",us6000gan9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.736,
+        "rms": 0.88,
+        "gap": 228,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.3471,
+          44.106,
+          10
+        ]
+      },
+      "id": "us6000gan9"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -368,46 +408,6 @@
         ]
       },
       "id": "hv72826437"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.19,
-        "place": "8 km S of Pāhala, Hawaii",
-        "time": 1638988680680,
-        "updated": 1638989011210,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72826432",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72826432.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 157,
-        "net": "hv",
-        "code": "72826432",
-        "ids": ",hv72826432,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": null,
-        "rms": 0.270000011,
-        "gap": 182,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 8 km S of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.466339111328,
-          19.1271667480469,
-          28.7999992370605
-        ]
-      },
-      "id": "hv72826432"
     },
     {
       "type": "Feature",
@@ -1335,17 +1335,17 @@
         "mag": 3.62,
         "place": "7km S of Lytle Creek, CA",
         "time": 1638959284820,
-        "updated": 1638999325333,
+        "updated": 1638999634461,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39882375",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39882375.geojson",
-        "felt": 954,
+        "felt": 955,
         "cdi": 3.8,
         "mmi": 3.99,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 564,
+        "sig": 565,
         "net": "ci",
         "code": "39882375",
         "ids": ",ci39882375,us6000gafd,",
