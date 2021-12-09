@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639025943000,
+    "generated": 1639027151000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 87
+    "count": 84
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.79,
         "place": "14km SE of Petrolia, CA",
         "time": 1639024114080,
-        "updated": 1639024211639,
+        "updated": 1639026791065,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73661611",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73661611.geojson",
@@ -30,7 +30,7 @@
         "code": "73661611",
         "ids": ",nc73661611,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 15,
         "dmin": 0.01297,
         "rms": 0.09,
@@ -93,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Central Alaska",
+        "place": "56 km SSE of Denali National Park, Alaska",
         "time": 1639022353888,
         "updated": 1639023037113,
         "tz": null,
@@ -117,7 +117,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Central Alaska"
+        "title": "M 2.7 - 56 km SSE of Denali National Park, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -375,7 +375,7 @@
         "mag": 2.67,
         "place": "18km NW of San Simeon, CA",
         "time": 1639011891920,
-        "updated": 1639024391818,
+        "updated": 1639026010987,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73661561",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73661561.geojson",
@@ -975,7 +975,7 @@
         "mag": 3.1,
         "place": "5 km WSW of Gypsum, Kansas",
         "time": 1638995142908,
-        "updated": 1639021737900,
+        "updated": 1639026660046,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gamp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gamp.geojson",
@@ -1935,17 +1935,17 @@
         "mag": 4.3,
         "place": "5 km SSW of Gypsum, Kansas",
         "time": 1638971128473,
-        "updated": 1639025766433,
+        "updated": 1639026903256,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaga",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaga.geojson",
-        "felt": 729,
+        "felt": 731,
         "cdi": 5.4,
         "mmi": 5.731,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 678,
+        "sig": 679,
         "net": "us",
         "code": "6000gaga",
         "ids": ",us6000gaga,",
@@ -2135,13 +2135,13 @@
         "mag": 3.6,
         "place": "23 km SSW of Petersville, Alaska",
         "time": 1638965200679,
-        "updated": 1638980622666,
+        "updated": 1638980418647,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fpsz9ip",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fpsz9ip.geojson",
         "felt": 0,
         "cdi": 1,
-        "mmi": 2.616,
+        "mmi": 2.6,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -3368,126 +3368,6 @@
         ]
       },
       "id": "us6000gacv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.81,
-        "place": "43 km SE of Pāhala, Hawaii",
-        "time": 1638940683800,
-        "updated": 1639001658540,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72825752",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72825752.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "hv",
-        "code": "72825752",
-        "ids": ",us6000gacq,hv72825752,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": null,
-        "rms": 0.13,
-        "gap": 252,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 43 km SE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.185166666667,
-          18.9236666666667,
-          9.06
-        ]
-      },
-      "id": "hv72825752"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "off the coast of Oregon",
-        "time": 1638940524974,
-        "updated": 1638990209368,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gacn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gacn.geojson",
-        "felt": 3,
-        "cdi": 2,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 466,
-        "net": "us",
-        "code": "6000gacn",
-        "ids": ",us6000gacn,",
-        "sources": ",us,",
-        "types": ",dyfi,general-text,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 1.474,
-        "rms": 0.71,
-        "gap": 169,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.3794,
-          44.3674,
-          10
-        ]
-      },
-      "id": "us6000gacn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "162 km S of Nikolski, Alaska",
-        "time": 1638940075942,
-        "updated": 1638979775686,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fpotmdb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fpotmdb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "021fpotmdb",
-        "ids": ",ak021fpotmdb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.65,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 162 km S of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -168.529,
-          51.4959,
-          31.5
-        ]
-      },
-      "id": "ak021fpotmdb"
     }
   ],
   "bbox": [
