@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639027825000,
+    "generated": 1639028581000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 85
+    "count": 84
   },
   "features": [
     {
@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Central Alaska",
+        "place": "56 km SSE of Denali National Park, Alaska",
         "time": 1639022353888,
         "updated": 1639023037113,
         "tz": null,
@@ -157,7 +157,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Central Alaska"
+        "title": "M 2.7 - 56 km SSE of Denali National Park, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -215,17 +215,17 @@
         "mag": 6,
         "place": "119 km N of Naze, Japan",
         "time": 1639015509547,
-        "updated": 1639027316790,
+        "updated": 1639028460299,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaq5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaq5.geojson",
-        "felt": 8,
-        "cdi": 6.9,
+        "felt": 9,
+        "cdi": 6.7,
         "mmi": 5.607,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 559,
+        "sig": 560,
         "net": "us",
         "code": "6000gaq5",
         "ids": ",us6000gaq5,",
@@ -2175,13 +2175,13 @@
         "mag": 3.6,
         "place": "23 km SSW of Petersville, Alaska",
         "time": 1638965200679,
-        "updated": 1638980622666,
+        "updated": 1638980418647,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fpsz9ip",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fpsz9ip.geojson",
         "felt": 0,
         "cdi": 1,
-        "mmi": 2.616,
+        "mmi": 2.6,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -3368,46 +3368,6 @@
         ]
       },
       "id": "us6000gacx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "off the coast of Oregon",
-        "time": 1638941626862,
-        "updated": 1638990481744,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gacv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gacv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "6000gacv",
-        "ids": ",us6000gacv,",
-        "sources": ",us,",
-        "types": ",general-text,moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.32,
-        "rms": 1.24,
-        "gap": 168,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.5548,
-          44.5065,
-          10
-        ]
-      },
-      "id": "us6000gacv"
     }
   ],
   "bbox": [
