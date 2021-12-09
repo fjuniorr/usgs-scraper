@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639090021000,
+    "generated": 1639090535000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -134,8 +134,8 @@
       "properties": {
         "mag": 5.2,
         "place": "off the coast of Oregon",
-        "time": 1639084135589,
-        "updated": 1639088808040,
+        "time": 1639084135180,
+        "updated": 1639090087956,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaza",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaza.geojson",
@@ -152,9 +152,9 @@
         "sources": ",us,at,",
         "types": ",dyfi,impact-link,moment-tensor,oaf,origin,phase-data,",
         "nst": null,
-        "dmin": 1.672,
-        "rms": 0.9,
-        "gap": 95,
+        "dmin": 1.663,
+        "rms": 0.79,
+        "gap": 91,
         "magType": "mww",
         "type": "earthquake",
         "title": "M 5.2 - off the coast of Oregon"
@@ -162,8 +162,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -129.6243,
-          44.1492,
+          -129.6214,
+          44.1589,
           10
         ]
       },
