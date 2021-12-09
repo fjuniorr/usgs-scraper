@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639031892000,
+    "generated": 1639032781000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 78
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.44,
+        "place": "8km SE of Carpinteria, CA",
+        "time": 1639031894010,
+        "updated": 1639032728309,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39883351",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39883351.geojson",
+        "felt": 95,
+        "cdi": 3.4,
+        "mmi": 3.24,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 214,
+        "net": "ci",
+        "code": "39883351",
+        "ids": ",ci39883351,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 101,
+        "dmin": 0.07446,
+        "rms": 0.37,
+        "gap": 79,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 8km SE of Carpinteria, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4595032,
+          34.3409996,
+          9.68
+        ]
+      },
+      "id": "ci39883351"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "nc73661631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "off the coast of Oregon",
+        "time": 1639028169815,
+        "updated": 1639031922040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gar7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gar7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000gar7",
+        "ids": ",us6000gar7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.01,
+        "rms": 0.9,
+        "gap": 191,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.2752,
+          44.098,
+          10
+        ]
+      },
+      "id": "us6000gar7"
     },
     {
       "type": "Feature",
@@ -2215,13 +2295,13 @@
         "mag": 3.6,
         "place": "23 km SSW of Petersville, Alaska",
         "time": 1638965200679,
-        "updated": 1638980622666,
+        "updated": 1638980418647,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fpsz9ip",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fpsz9ip.geojson",
         "felt": 0,
         "cdi": 1,
-        "mmi": 2.616,
+        "mmi": 2.6,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -2455,17 +2535,17 @@
         "mag": 3.62,
         "place": "7km S of Lytle Creek, CA",
         "time": 1638959284820,
-        "updated": 1639031644515,
+        "updated": 1639032321577,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39882375",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39882375.geojson",
-        "felt": 986,
+        "felt": 987,
         "cdi": 3.8,
         "mmi": 3.99,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 576,
+        "sig": 577,
         "net": "ci",
         "code": "39882375",
         "ids": ",ci39882375,us6000gafd,",
@@ -3048,86 +3128,6 @@
         ]
       },
       "id": "us6000gae2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "off the coast of Oregon",
-        "time": 1638945988015,
-        "updated": 1638947139040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gady",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gady.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000gady",
-        "ids": ",us6000gady,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.561,
-        "rms": 0.83,
-        "gap": 195,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.2183,
-          44.303,
-          10
-        ]
-      },
-      "id": "us6000gady"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "Tennessee-North Carolina border region",
-        "time": 1638945875000,
-        "updated": 1639027792705,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60365472",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60365472.geojson",
-        "felt": 21,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 103,
-        "net": "se",
-        "code": "60365472",
-        "ids": ",se60365472,",
-        "sources": ",se,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.1137,
-        "rms": 0.2,
-        "gap": 37,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - Tennessee-North Carolina border region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.8845,
-          35.841,
-          9.05
-        ]
-      },
-      "id": "se60365472"
     }
   ],
   "bbox": [
