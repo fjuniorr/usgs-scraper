@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639029161000,
+    "generated": 1639030312000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 80
+    "count": 81
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "42km W of Petrolia, CA",
+        "time": 1639029633220,
+        "updated": 1639030031553,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73661631",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73661631.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "nc",
+        "code": "73661631",
+        "ids": ",nc73661631,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 32,
+        "dmin": 0.3505,
+        "rms": 0.14,
+        "gap": 243,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 42km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.7791672,
+          40.3796654,
+          14.78
+        ]
+      },
+      "id": "nc73661631"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -133,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "56 km SSE of Denali National Park, Alaska",
+        "place": "Central Alaska",
         "time": 1639022353888,
         "updated": 1639023037113,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 56 km SSE of Denali National Park, Alaska"
+        "title": "M 2.7 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -215,11 +255,11 @@
         "mag": 6,
         "place": "119 km N of Naze, Japan",
         "time": 1639015509547,
-        "updated": 1639028872317,
+        "updated": 1639030200141,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaq5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaq5.geojson",
-        "felt": 10,
+        "felt": 11,
         "cdi": 6.7,
         "mmi": 5.607,
         "alert": "green",
@@ -1415,11 +1455,11 @@
         "mag": 3.8,
         "place": "25 km ENE of Malir Cantonment, Pakistan",
         "time": 1638983762594,
-        "updated": 1639017309920,
+        "updated": 1639029589399,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gan6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gan6.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -2415,17 +2455,17 @@
         "mag": 3.62,
         "place": "7km S of Lytle Creek, CA",
         "time": 1638959284820,
-        "updated": 1639028994698,
+        "updated": 1639030005904,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39882375",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39882375.geojson",
-        "felt": 980,
+        "felt": 983,
         "cdi": 3.8,
         "mmi": 3.99,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 574,
+        "sig": 575,
         "net": "ci",
         "code": "39882375",
         "ids": ",ci39882375,us6000gafd,",
