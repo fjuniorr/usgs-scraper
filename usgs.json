@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639075920000,
+    "generated": 1639076881000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 66
+    "count": 65
   },
   "features": [
     {
@@ -295,7 +295,7 @@
         "mag": 4.6,
         "place": "off the coast of Oregon",
         "time": 1639062334811,
-        "updated": 1639063286040,
+        "updated": 1639076474040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaut",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaut.geojson",
@@ -310,7 +310,7 @@
         "code": "6000gaut",
         "ids": ",us6000gaut,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 3.727,
         "rms": 1.03,
@@ -375,7 +375,7 @@
         "mag": 4.6,
         "place": "off the coast of Oregon",
         "time": 1639061597346,
-        "updated": 1639062401040,
+        "updated": 1639076798040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaun",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaun.geojson",
@@ -390,7 +390,7 @@
         "code": "6000gaun",
         "ids": ",us6000gaun,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 3.813,
         "rms": 0.67,
@@ -1255,11 +1255,11 @@
         "mag": 3.49,
         "place": "11km SE of Carpinteria, CA",
         "time": 1639031893660,
-        "updated": 1639075434527,
+        "updated": 1639076853494,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39883351",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39883351.geojson",
-        "felt": 199,
+        "felt": 200,
         "cdi": 3.4,
         "mmi": 3.614,
         "alert": null,
@@ -2608,46 +2608,6 @@
         ]
       },
       "id": "us6000galr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "158 km NE of Maumere, Indonesia",
-        "time": 1638990053614,
-        "updated": 1638996854040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gall",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gall.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000gall",
-        "ids": ",us6000gall,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.415,
-        "rms": 1.04,
-        "gap": 31,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 158 km NE of Maumere, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.3736,
-          -7.77,
-          252.42
-        ]
-      },
-      "id": "us6000gall"
     }
   ],
   "bbox": [
