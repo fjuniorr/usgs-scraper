@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639079574000,
+    "generated": 1639080671000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 64
+    "count": 63
   },
   "features": [
     {
@@ -455,12 +455,12 @@
         "mag": 4.6,
         "place": "off the coast of Oregon",
         "time": 1639061597346,
-        "updated": 1639076798040,
+        "updated": 1639079980460,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaun",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaun.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -470,7 +470,7 @@
         "code": "6000gaun",
         "ids": ",us6000gaun,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 3.813,
         "rms": 0.67,
@@ -2528,46 +2528,6 @@
         ]
       },
       "id": "us6000gamp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "53 km NNE of Kobuk, Alaska",
-        "time": 1638993174833,
-        "updated": 1639002448040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fpxf6v8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fpxf6v8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "021fpxf6v8",
-        "ids": ",us6000gama,ak021fpxf6v8,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.6,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 53 km NNE of Kobuk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.3418,
-          67.3363,
-          4.5
-        ]
-      },
-      "id": "ak021fpxf6v8"
     }
   ],
   "bbox": [
@@ -2575,7 +2535,7 @@
     -57.3852,
     -0.34,
     178.4297,
-    67.3363,
+    66.3392,
     281.72
   ]
 }
