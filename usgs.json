@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639016461000,
+    "generated": 1639018186000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 100
+    "count": 99
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.9,
+        "place": "115 km N of Naze, Japan",
+        "time": 1639015507876,
+        "updated": 1639017740478,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaq5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaq5.geojson",
+        "felt": 3,
+        "cdi": 6.9,
+        "mmi": 4,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 538,
+        "net": "us",
+        "code": "6000gaq5",
+        "ids": ",us6000gaq5,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,",
+        "nst": null,
+        "dmin": 2.283,
+        "rms": 0.65,
+        "gap": 83,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.9 - 115 km N of Naze, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.4006,
+          29.4071,
+          10
+        ]
+      },
+      "id": "us6000gaq5"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -775,11 +815,11 @@
         "mag": 3.1,
         "place": "5 km WSW of Gypsum, Kansas",
         "time": 1638995142908,
-        "updated": 1639009024164,
+        "updated": 1639017585486,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gamp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gamp.geojson",
-        "felt": 17,
+        "felt": 18,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -1175,7 +1215,7 @@
         "mag": 3.8,
         "place": "25 km ENE of Malir Cantonment, Pakistan",
         "time": 1638983762594,
-        "updated": 1639014123468,
+        "updated": 1639017309920,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gan6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gan6.geojson",
@@ -1735,17 +1775,17 @@
         "mag": 4.3,
         "place": "5 km SSW of Gypsum, Kansas",
         "time": 1638971128473,
-        "updated": 1639016303933,
+        "updated": 1639017780296,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaga",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaga.geojson",
-        "felt": 715,
+        "felt": 721,
         "cdi": 5.4,
         "mmi": 5.731,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 671,
+        "sig": 674,
         "net": "us",
         "code": "6000gaga",
         "ids": ",us6000gaga,",
@@ -2175,11 +2215,11 @@
         "mag": 3.62,
         "place": "7km S of Lytle Creek, CA",
         "time": 1638959284820,
-        "updated": 1639012793872,
+        "updated": 1639018028167,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39882375",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39882375.geojson",
-        "felt": 974,
+        "felt": 975,
         "cdi": 3.8,
         "mmi": 3.99,
         "alert": null,
@@ -3928,93 +3968,13 @@
         ]
       },
       "id": "us6000gabj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "52 km SSW of Whites City, New Mexico",
-        "time": 1638930934246,
-        "updated": 1638977984648,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021xzfr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021xzfr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "tx",
-        "code": "2021xzfr",
-        "ids": ",us6000gabh,tx2021xzfr,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.03451211699,
-        "rms": 0.2,
-        "gap": 84,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 52 km SSW of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.5408028,
-          31.72683291,
-          7.031347656
-        ]
-      },
-      "id": "tx2021xzfr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.99,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1638930884760,
-        "updated": 1639001413530,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91439191",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91439191.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "av",
-        "code": "91439191",
-        "ids": ",av91439191,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": null,
-        "rms": 0.28,
-        "gap": 315,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.298,
-          52.0026666666667,
-          1.95
-        ]
-      },
-      "id": "av91439191"
     }
   ],
   "bbox": [
     -178.5352,
     -57.3852,
     -0.34,
-    178.298,
+    141.6215,
     67.3363,
     575.07
   ]
