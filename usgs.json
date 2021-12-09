@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639057993000,
+    "generated": 1639058967000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 69
+    "count": 68
   },
   "features": [
     {
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ak021frha1in"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "off the coast of Oregon",
+        "time": 1639056661499,
+        "updated": 1639058581040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gau1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gau1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "us",
+        "code": "6000gau1",
+        "ids": ",us6000gau1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.085,
+        "rms": 0.8,
+        "gap": 258,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.6917,
+          43.9144,
+          10
+        ]
+      },
+      "id": "us6000gau1"
     },
     {
       "type": "Feature",
@@ -655,17 +695,17 @@
         "mag": 3.44,
         "place": "8km SE of Carpinteria, CA",
         "time": 1639031894010,
-        "updated": 1639057896519,
+        "updated": 1639058557356,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39883351",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39883351.geojson",
-        "felt": 166,
+        "felt": 167,
         "cdi": 3.4,
         "mmi": 3.606,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 238,
+        "sig": 239,
         "net": "ci",
         "code": "39883351",
         "ids": ",ci39883351,us6000garg,",
@@ -2215,11 +2255,11 @@
         "mag": 3.8,
         "place": "25 km ENE of Malir Cantonment, Pakistan",
         "time": 1638983762594,
-        "updated": 1639037977149,
+        "updated": 1639058739429,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gan6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gan6.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -2688,86 +2728,6 @@
         ]
       },
       "id": "us6000gagn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.89,
-        "place": "42 km SE of Pāhala, Hawaii",
-        "time": 1638972497720,
-        "updated": 1639000386500,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72826142",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72826142.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "hv",
-        "code": "72826142",
-        "ids": ",hv72826142,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": null,
-        "rms": 0.15,
-        "gap": 254,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 42 km SE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.193166666667,
-          18.9281666666667,
-          7.24
-        ]
-      },
-      "id": "hv72826142"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "off the coast of Oregon",
-        "time": 1638971860700,
-        "updated": 1638972785040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gage",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gage.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000gage",
-        "ids": ",us6000gage,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.834,
-        "rms": 0.54,
-        "gap": 213,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.8283,
-          43.9866,
-          10
-        ]
-      },
-      "id": "us6000gage"
     }
   ],
   "bbox": [
