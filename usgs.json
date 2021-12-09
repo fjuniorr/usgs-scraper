@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639083190000,
+    "generated": 1639084143000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 60
+    "count": 59
   },
   "features": [
     {
@@ -1335,17 +1335,17 @@
         "mag": 3.49,
         "place": "11km SE of Carpinteria, CA",
         "time": 1639031893660,
-        "updated": 1639081873581,
+        "updated": 1639083663360,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39883351",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39883351.geojson",
-        "felt": 202,
+        "felt": 204,
         "cdi": 3.4,
         "mmi": 3.614,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 256,
+        "sig": 257,
         "net": "ci",
         "code": "39883351",
         "ids": ",ci39883351,us6000garg,",
@@ -2368,46 +2368,6 @@
         ]
       },
       "id": "us6000gan3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "off the coast of Oregon",
-        "time": 1638997386601,
-        "updated": 1638999742040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gan9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gan9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000gan9",
-        "ids": ",us6000gan9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.736,
-        "rms": 0.88,
-        "gap": 228,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.3471,
-          44.106,
-          10
-        ]
-      },
-      "id": "us6000gan9"
     }
   ],
   "bbox": [
