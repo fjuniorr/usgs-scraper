@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639057507000,
+    "generated": 1639057993000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 69
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "5 km S of Trapper Creek, Alaska",
+        "time": 1639056861563,
+        "updated": 1639057611483,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021frha1in",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021frha1in.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "021frha1in",
+        "ids": ",ak021frha1in,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.92,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 5 km S of Trapper Creek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.2462,
+          62.2696,
+          249.9
+        ]
+      },
+      "id": "ak021frha1in"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -615,11 +655,11 @@
         "mag": 3.44,
         "place": "8km SE of Carpinteria, CA",
         "time": 1639031894010,
-        "updated": 1639054851749,
+        "updated": 1639057896519,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39883351",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39883351.geojson",
-        "felt": 165,
+        "felt": 166,
         "cdi": 3.4,
         "mmi": 3.606,
         "alert": null,
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Central Alaska",
+        "place": "56 km SSE of Denali National Park, Alaska",
         "time": 1639022353888,
         "updated": 1639023037113,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Central Alaska"
+        "title": "M 2.7 - 56 km SSE of Denali National Park, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2728,46 +2768,6 @@
         ]
       },
       "id": "us6000gage"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "5 km SSW of Gypsum, Kansas",
-        "time": 1638971128473,
-        "updated": 1639057356764,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaga",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaga.geojson",
-        "felt": 745,
-        "cdi": 5.4,
-        "mmi": 5.731,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 687,
-        "net": "us",
-        "code": "6000gaga",
-        "ids": ",us6000gaga,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 0.735,
-        "rms": 0.46,
-        "gap": 68,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.3 - 5 km SSW of Gypsum, Kansas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.4462,
-          38.6552,
-          3
-        ]
-      },
-      "id": "us6000gaga"
     }
   ],
   "bbox": [
