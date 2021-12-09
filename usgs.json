@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639078974000,
+    "generated": 1639079574000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 65
+    "count": 64
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.5,
         "place": "Rat Islands, Aleutian Islands, Alaska",
         "time": 1639077536851,
-        "updated": 1639078684850,
+        "updated": 1639078930545,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021frkr989",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021frkr989.geojson",
@@ -1613,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Central Alaska",
+        "place": "56 km SSE of Denali National Park, Alaska",
         "time": 1639022353888,
         "updated": 1639023037113,
         "tz": null,
@@ -1637,7 +1637,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Central Alaska"
+        "title": "M 2.7 - 56 km SSE of Denali National Park, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2568,46 +2568,6 @@
         ]
       },
       "id": "ak021fpxf6v8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "off the coast of Oregon",
-        "time": 1638992931592,
-        "updated": 1639000851453,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gam6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gam6.geojson",
-        "felt": 3,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000gam6",
-        "ids": ",us6000gam6,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.757,
-        "rms": 1.27,
-        "gap": 203,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -128.9364,
-          44.1574,
-          10
-        ]
-      },
-      "id": "us6000gam6"
     }
   ],
   "bbox": [
