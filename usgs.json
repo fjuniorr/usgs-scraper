@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639049616000,
+    "generated": 1639050162000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -613,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Central Alaska",
+        "place": "56 km SSE of Denali National Park, Alaska",
         "time": 1639022353888,
         "updated": 1639023037113,
         "tz": null,
@@ -637,7 +637,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Central Alaska"
+        "title": "M 2.7 - 56 km SSE of Denali National Park, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2655,13 +2655,13 @@
         "mag": 3.6,
         "place": "23 km SSW of Petersville, Alaska",
         "time": 1638965200679,
-        "updated": 1638980622666,
+        "updated": 1638980418647,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fpsz9ip",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fpsz9ip.geojson",
         "felt": 0,
         "cdi": 1,
-        "mmi": 2.616,
+        "mmi": 2.6,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
