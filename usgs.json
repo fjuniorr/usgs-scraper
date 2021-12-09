@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639042333000,
+    "generated": 1639043121000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 77
+    "count": 76
   },
   "features": [
     {
@@ -375,11 +375,11 @@
         "mag": 4.5,
         "place": "13 km S of Hukay, Philippines",
         "time": 1639028571494,
-        "updated": 1639042061519,
+        "updated": 1639042723827,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gard",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gard.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -3048,46 +3048,6 @@
         ]
       },
       "id": "us6000gaf7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "off the coast of Oregon",
-        "time": 1638956100322,
-        "updated": 1638960361040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaf3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaf3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "6000gaf3",
-        "ids": ",us6000gaf3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.501,
-        "rms": 0.96,
-        "gap": 217,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.5614,
-          44.3234,
-          10
-        ]
-      },
-      "id": "us6000gaf3"
     }
   ],
   "bbox": [
