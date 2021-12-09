@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639014202000,
+    "generated": 1639016461000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,166 @@
     "count": 100
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "off the coast of Oregon",
+        "time": 1639014516437,
+        "updated": 1639015211040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaq3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaq3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000gaq3",
+        "ids": ",us6000gaq3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.648,
+        "rms": 0.81,
+        "gap": 200,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.1711,
+          44.2208,
+          10
+        ]
+      },
+      "id": "us6000gaq3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "94 km NW of Yakutat, Alaska",
+        "time": 1639014075425,
+        "updated": 1639014840040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fra6akf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fra6akf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "021fra6akf",
+        "ids": ",us6000gaq0,ak021fra6akf,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.91,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 94 km NW of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -140.67,
+          60.2456,
+          0.3
+        ]
+      },
+      "id": "ak021fra6akf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "1 km SSW of Indios, Puerto Rico",
+        "time": 1639014022690,
+        "updated": 1639015561304,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021343001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021343001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "pr",
+        "code": "2021343001",
+        "ids": ",pr2021343001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.0566,
+        "rms": 0.11,
+        "gap": 186,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 1 km SSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8235,
+          17.9851,
+          17
+        ]
+      },
+      "id": "pr2021343001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "0 km WSW of Indios, Puerto Rico",
+        "time": 1639013394820,
+        "updated": 1639014493287,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021343000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021343000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "pr",
+        "code": "2021343000",
+        "ids": ",pr2021343000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.0545,
+        "rms": 0.12,
+        "gap": 141,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 0 km WSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8275,
+          17.9925,
+          16
+        ]
+      },
+      "id": "pr2021343000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,11 +375,11 @@
         "mag": 5.3,
         "place": "off the coast of Oregon",
         "time": 1639002129354,
-        "updated": 1639007818110,
+        "updated": 1639015560364,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ganu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ganu.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -1575,17 +1735,17 @@
         "mag": 4.3,
         "place": "5 km SSW of Gypsum, Kansas",
         "time": 1638971128473,
-        "updated": 1639014177285,
+        "updated": 1639016303933,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaga",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaga.geojson",
-        "felt": 709,
+        "felt": 715,
         "cdi": 5.4,
         "mmi": 5.731,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 667,
+        "sig": 671,
         "net": "us",
         "code": "6000gaga",
         "ids": ",us6000gaga,",
@@ -1775,13 +1935,13 @@
         "mag": 3.6,
         "place": "23 km SSW of Petersville, Alaska",
         "time": 1638965200679,
-        "updated": 1638980622666,
+        "updated": 1638980418647,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fpsz9ip",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fpsz9ip.geojson",
         "felt": 0,
         "cdi": 1,
-        "mmi": 2.616,
+        "mmi": 2.6,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -3654,8 +3814,8 @@
       "properties": {
         "mag": 4.2,
         "place": "off the coast of Oregon",
-        "time": 1638933292232,
-        "updated": 1638934733040,
+        "time": 1638933293503,
+        "updated": 1639015608040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gabp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gabp.geojson",
@@ -3672,9 +3832,9 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 3.719,
-        "rms": 1.26,
-        "gap": 212,
+        "dmin": 1.58,
+        "rms": 0.65,
+        "gap": 207,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.2 - off the coast of Oregon"
@@ -3682,8 +3842,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -129.1461,
-          44.3202,
+          -129.0108,
+          44.3253,
           10
         ]
       },
@@ -3848,166 +4008,6 @@
         ]
       },
       "id": "av91439191"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "off the coast of Oregon",
-        "time": 1638929739565,
-        "updated": 1638930817040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaba",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaba.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000gaba",
-        "ids": ",us6000gaba,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.459,
-        "rms": 0.71,
-        "gap": 209,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.2639,
-          44.3998,
-          10
-        ]
-      },
-      "id": "us6000gaba"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "off the coast of Oregon",
-        "time": 1638928507000,
-        "updated": 1638929566040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaav",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaav.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000gaav",
-        "ids": ",us6000gaav,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.328,
-        "rms": 1.04,
-        "gap": 217,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.6147,
-          44.4944,
-          10
-        ]
-      },
-      "id": "us6000gaav"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "64 km SSW of Kaktovik, Alaska",
-        "time": 1638928057877,
-        "updated": 1638935060040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaaz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaaz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000gaaz",
-        "ids": ",us6000gaaz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.155,
-        "rms": 0.44,
-        "gap": 109,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 64 km SSW of Kaktovik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -144.1306,
-          69.5763,
-          14.91
-        ]
-      },
-      "id": "us6000gaaz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "off the coast of Oregon",
-        "time": 1638928029811,
-        "updated": 1638938891040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaas",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaas.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 234,
-        "net": "us",
-        "code": "6000gaas",
-        "ids": ",us6000gaas,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.483,
-        "rms": 1.18,
-        "gap": 240,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.9 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.6769,
-          44.337,
-          10
-        ]
-      },
-      "id": "us6000gaas"
     }
   ],
   "bbox": [
@@ -4015,7 +4015,7 @@
     -57.3852,
     -0.34,
     178.298,
-    69.5763,
+    67.3363,
     575.07
   ]
 }
