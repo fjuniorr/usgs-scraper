@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639041301000,
+    "generated": 1639042333000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 76
+    "count": 77
   },
   "features": [
     {
@@ -48,6 +48,46 @@
         ]
       },
       "id": "hv72827077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Izu Islands, Japan region",
+        "time": 1639040269606,
+        "updated": 1639041975040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gasn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gasn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000gasn",
+        "ids": ",us6000gasn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.284,
+        "rms": 0.46,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5909,
+          31.0854,
+          10
+        ]
+      },
+      "id": "us6000gasn"
     },
     {
       "type": "Feature",
@@ -335,11 +375,11 @@
         "mag": 4.5,
         "place": "13 km S of Hukay, Philippines",
         "time": 1639028571494,
-        "updated": 1639034248194,
+        "updated": 1639042061519,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gard",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gard.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Central Alaska",
+        "place": "56 km SSE of Denali National Park, Alaska",
         "time": 1639022353888,
         "updated": 1639023037113,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Central Alaska"
+        "title": "M 2.7 - 56 km SSE of Denali National Park, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2575,13 +2615,13 @@
         "mag": 3.6,
         "place": "23 km SSW of Petersville, Alaska",
         "time": 1638965200679,
-        "updated": 1638980622666,
+        "updated": 1638980418647,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fpsz9ip",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fpsz9ip.geojson",
         "felt": 0,
         "cdi": 1,
-        "mmi": 2.616,
+        "mmi": 2.6,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -3054,7 +3094,7 @@
     -178.3587,
     -57.3852,
     -0.34,
-    142.4581,
+    142.5909,
     67.3363,
     515.61
   ]
