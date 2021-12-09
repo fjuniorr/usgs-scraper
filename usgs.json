@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639081952000,
+    "generated": 1639082648000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,42 +12,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.5,
+        "mag": 4.3,
         "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1639077536851,
-        "updated": 1639078930545,
+        "time": 1639077535961,
+        "updated": 1639082040040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021frkr989",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021frkr989.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gayq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gayq.geojson",
         "felt": null,
         "cdi": null,
         "mmi": 3.079,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 188,
-        "net": "ak",
-        "code": "021frkr989",
-        "ids": ",ak021frkr989,",
-        "sources": ",ak,",
+        "sig": 284,
+        "net": "us",
+        "code": "6000gayq",
+        "ids": ",ak021frkr989,us6000gayq,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": null,
-        "rms": 0.25,
-        "gap": null,
-        "magType": "ml",
+        "dmin": 0.201,
+        "rms": 0.87,
+        "gap": 167,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.5 - Rat Islands, Aleutian Islands, Alaska"
+        "title": "M 4.3 - Rat Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          178.4297,
-          51.9791,
-          4.2
+          178.2622,
+          51.819,
+          10
         ]
       },
-      "id": "ak021frkr989"
+      "id": "us6000gayq"
     },
     {
       "type": "Feature",
@@ -1695,17 +1695,17 @@
         "mag": 6,
         "place": "119 km N of Naze, Japan",
         "time": 1639015509547,
-        "updated": 1639077447040,
+        "updated": 1639082260739,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaq5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaq5.geojson",
-        "felt": 12,
+        "felt": 13,
         "cdi": 6.7,
         "mmi": 5.607,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 562,
+        "sig": 563,
         "net": "us",
         "code": "6000gaq5",
         "ids": ",us6000gaq5,",
@@ -2494,7 +2494,7 @@
     -166.837,
     -57.3852,
     -0.34,
-    178.4297,
+    178.2622,
     66.3392,
     281.72
   ]
