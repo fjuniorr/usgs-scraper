@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639034946000,
+    "generated": 1639035525000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 78
+    "count": 75
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 2.56,
         "place": "4km NNE of Heber, CA",
         "time": 1639034711890,
-        "updated": 1639034937494,
+        "updated": 1639035362600,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39883407",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39883407.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 4,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 101,
+        "sig": 102,
         "net": "ci",
         "code": "39883407",
         "ids": ",ci39883407,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 28,
         "dmin": 0.06977,
         "rms": 0.31,
@@ -95,17 +95,17 @@
         "mag": 3.44,
         "place": "8km SE of Carpinteria, CA",
         "time": 1639031894010,
-        "updated": 1639034652685,
+        "updated": 1639035301481,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39883351",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39883351.geojson",
-        "felt": 148,
+        "felt": 156,
         "cdi": 3.4,
         "mmi": 3.71,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 232,
+        "sig": 235,
         "net": "ci",
         "code": "39883351",
         "ids": ",ci39883351,us6000garg,",
@@ -135,7 +135,7 @@
         "mag": 2.5,
         "place": "42km W of Petrolia, CA",
         "time": 1639029633220,
-        "updated": 1639031714854,
+        "updated": 1639035071073,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73661631",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73661631.geojson",
@@ -373,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "56 km SSE of Denali National Park, Alaska",
+        "place": "Central Alaska",
         "time": 1639022353888,
         "updated": 1639023037113,
         "tz": null,
@@ -397,7 +397,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 56 km SSE of Denali National Park, Alaska"
+        "title": "M 2.7 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2415,13 +2415,13 @@
         "mag": 3.6,
         "place": "23 km SSW of Petersville, Alaska",
         "time": 1638965200679,
-        "updated": 1638980418647,
+        "updated": 1638980622666,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fpsz9ip",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fpsz9ip.geojson",
         "felt": 0,
         "cdi": 1,
-        "mmi": 2.6,
+        "mmi": 2.616,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -3008,126 +3008,6 @@
         ]
       },
       "id": "us6000gaeg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "off the coast of Oregon",
-        "time": 1638949017950,
-        "updated": 1638951381040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gae9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gae9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000gae9",
-        "ids": ",us6000gae9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.473,
-        "rms": 0.79,
-        "gap": 201,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.3751,
-          44.369,
-          10
-        ]
-      },
-      "id": "us6000gae9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "98 km SW of La Esperanza (El Zapotal), Mexico",
-        "time": 1638948947081,
-        "updated": 1638950530040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaea",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaea.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000gaea",
-        "ids": ",us6000gaea,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.164,
-        "rms": 1.07,
-        "gap": 149,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 98 km SW of La Esperanza (El Zapotal), Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.7184,
-          14.7359,
-          35
-        ]
-      },
-      "id": "us6000gaea"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "off the coast of Oregon",
-        "time": 1638948646463,
-        "updated": 1638949681040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gae6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gae6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "6000gae6",
-        "ids": ",us6000gae6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.553,
-        "rms": 0.55,
-        "gap": 216,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.3854,
-          44.2868,
-          10
-        ]
-      },
-      "id": "us6000gae6"
     }
   ],
   "bbox": [
