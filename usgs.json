@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639025013000,
+    "generated": 1639025943000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 92
+    "count": 87
   },
   "features": [
     {
@@ -1935,7 +1935,7 @@
         "mag": 4.3,
         "place": "5 km SSW of Gypsum, Kansas",
         "time": 1638971128473,
-        "updated": 1639024915859,
+        "updated": 1639025766433,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaga",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaga.geojson",
@@ -3488,206 +3488,6 @@
         ]
       },
       "id": "ak021fpotmdb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "off the coast of Oregon",
-        "time": 1638939256108,
-        "updated": 1638940300040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gacj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gacj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000gacj",
-        "ids": ",us6000gacj,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.012,
-        "rms": 0.82,
-        "gap": 212,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.4075,
-          44.5228,
-          10
-        ]
-      },
-      "id": "us6000gacj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "31 km SW of Coyanosa, Texas",
-        "time": 1638939251383,
-        "updated": 1638984335006,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021xzkh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021xzkh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2021xzkh",
-        "ids": ",tx2021xzkh,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.06376673927,
-        "rms": 0.3,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 31 km SW of Coyanosa, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.3206475,
-          31.05772283,
-          5.514575195
-        ]
-      },
-      "id": "tx2021xzkh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "off the coast of Oregon",
-        "time": 1638939192659,
-        "updated": 1638941177040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaci",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaci.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "6000gaci",
-        "ids": ",us6000gaci,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.442,
-        "rms": 0.88,
-        "gap": 212,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.4973,
-          44.3877,
-          10
-        ]
-      },
-      "id": "us6000gaci"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "31 km SW of Coyanosa, Texas",
-        "time": 1638938986228,
-        "updated": 1638977700618,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021xzkc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021xzkc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "tx",
-        "code": "2021xzkc",
-        "ids": ",us6000gach,tx2021xzkc,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.0761635888,
-        "rms": 0.2,
-        "gap": 74,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 31 km SW of Coyanosa, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.3078296,
-          31.05126412,
-          5.308911133
-        ]
-      },
-      "id": "tx2021xzkc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "17 km S of Guánica, Puerto Rico",
-        "time": 1638938785880,
-        "updated": 1638954699797,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021342000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021342000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "pr",
-        "code": "2021342000",
-        "ids": ",pr2021342000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.1654,
-        "rms": 0.21,
-        "gap": 237,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 17 km S of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9045,
-          17.8116,
-          10
-        ]
-      },
-      "id": "pr2021342000"
     }
   ],
   "bbox": [
