@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639049009000,
+    "generated": 1639049616000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 70
+    "count": 69
   },
   "features": [
     {
@@ -613,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "56 km SSE of Denali National Park, Alaska",
+        "place": "Central Alaska",
         "time": 1639022353888,
         "updated": 1639023037113,
         "tz": null,
@@ -637,7 +637,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 56 km SSE of Denali National Park, Alaska"
+        "title": "M 2.7 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2455,17 +2455,17 @@
         "mag": 4.3,
         "place": "5 km SSW of Gypsum, Kansas",
         "time": 1638971128473,
-        "updated": 1639047045968,
+        "updated": 1639049327361,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaga",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaga.geojson",
-        "felt": 738,
+        "felt": 740,
         "cdi": 5.4,
         "mmi": 5.731,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 683,
+        "sig": 684,
         "net": "us",
         "code": "6000gaga",
         "ids": ",us6000gaga,",
@@ -2768,46 +2768,6 @@
         ]
       },
       "id": "pr2021342001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "off the coast of Oregon",
-        "time": 1638962981553,
-        "updated": 1638979082040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gafs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gafs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000gafs",
-        "ids": ",us6000gafs,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.515,
-        "rms": 0.83,
-        "gap": 195,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.4371,
-          44.3193,
-          10
-        ]
-      },
-      "id": "us6000gafs"
     }
   ],
   "bbox": [
