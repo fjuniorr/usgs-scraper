@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639069219000,
+    "generated": 1639071115000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 69
+    "count": 68
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "161 km SSW of Kokopo, Papua New Guinea",
+        "time": 1639068374419,
+        "updated": 1639071078040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gawz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gawz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000gawz",
+        "ids": ",us6000gawz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.581,
+        "rms": 0.85,
+        "gap": 87,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 161 km SSW of Kokopo, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.911,
+          -5.7629,
+          10
+        ]
+      },
+      "id": "us6000gawz"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "tx2021yccs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "off the coast of Oregon",
+        "time": 1639066783755,
+        "updated": 1639069515040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaw5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaw5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000gaw5",
+        "ids": ",us6000gaw5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.93,
+        "rms": 0.83,
+        "gap": 176,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.4763,
+          43.9096,
+          10
+        ]
+      },
+      "id": "us6000gaw5"
     },
     {
       "type": "Feature",
@@ -1175,17 +1255,17 @@
         "mag": 3.49,
         "place": "11km SE of Carpinteria, CA",
         "time": 1639031893660,
-        "updated": 1639068593517,
+        "updated": 1639070387778,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39883351",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39883351.geojson",
-        "felt": 191,
+        "felt": 193,
         "cdi": 3.4,
         "mmi": 3.614,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 252,
+        "sig": 253,
         "net": "ci",
         "code": "39883351",
         "ids": ",ci39883351,us6000garg,",
@@ -1453,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Central Alaska",
+        "place": "56 km SSE of Denali National Park, Alaska",
         "time": 1639022353888,
         "updated": 1639023037113,
         "tz": null,
@@ -1477,7 +1557,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Central Alaska"
+        "title": "M 2.7 - 56 km SSE of Denali National Park, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2648,126 +2728,6 @@
         ]
       },
       "id": "hv72826437"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52,
-        "place": "7 km E of Pāhala, Hawaii",
-        "time": 1638984423250,
-        "updated": 1639006837100,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72826327",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72826327.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "hv",
-        "code": "72826327",
-        "ids": ",us6000gal0,hv72826327,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 153,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 7 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.406,
-          19.2083333333333,
-          33.31
-        ]
-      },
-      "id": "hv72826327"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "60 km NNW of Eagle, Alaska",
-        "time": 1638983997894,
-        "updated": 1638995703040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fpw198t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fpw198t.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "021fpw198t",
-        "ids": ",us6000gakx,ak021fpw198t,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.09,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 60 km NNW of Eagle, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -141.5356,
-          65.3099,
-          8.8
-        ]
-      },
-      "id": "ak021fpw198t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "25 km ENE of Malir Cantonment, Pakistan",
-        "time": 1638983762594,
-        "updated": 1639058739429,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gan6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gan6.geojson",
-        "felt": 10,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 226,
-        "net": "us",
-        "code": "6000gan6",
-        "ids": ",us6000gan6,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 9.594,
-        "rms": 0.72,
-        "gap": 187,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.8 - 25 km ENE of Malir Cantonment, Pakistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          67.4461,
-          25.0144,
-          10
-        ]
-      },
-      "id": "us6000gan6"
     }
   ],
   "bbox": [
