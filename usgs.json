@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639093401000,
+    "generated": 1639093950000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 60
+    "count": 59
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
+        "mag": 5.4,
         "place": "off the coast of Oregon",
-        "time": 1639092733000,
-        "updated": 1639093141470,
+        "time": 1639092736759,
+        "updated": 1639093863040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00r3vg1p",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00r3vg1p.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb13",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb13.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "REVIEWED",
+        "status": "reviewed",
         "tsunami": 1,
-        "sig": 416,
-        "net": "at",
-        "code": "00r3vg1p",
-        "ids": ",at00r3vg1p,",
-        "sources": ",at,",
-        "types": ",impact-link,origin,",
-        "nst": 96,
-        "dmin": 1.625951,
-        "rms": 4,
-        "gap": 190.79998473600122,
-        "magType": "Mi",
+        "sig": 449,
+        "net": "us",
+        "code": "6000gb13",
+        "ids": ",at00r3vg1p,us6000gb13,",
+        "sources": ",at,us,",
+        "types": ",impact-link,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.707,
+        "rms": 0.9,
+        "gap": 160,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - off the coast of Oregon"
+        "title": "M 5.4 - off the coast of Oregon"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -129.422,
-          44.208,
-          11
+          -129.4774,
+          44.1229,
+          10
         ]
       },
-      "id": "at00r3vg1p"
+      "id": "us6000gb13"
     },
     {
       "type": "Feature",
@@ -2368,46 +2368,6 @@
         ]
       },
       "id": "us6000gapk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "116 km NNE of Bima, Indonesia",
-        "time": 1639007085639,
-        "updated": 1639007856040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gap9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gap9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000gap9",
-        "ids": ",us6000gap9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.572,
-        "rms": 0.81,
-        "gap": 69,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 116 km NNE of Bima, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          119.2649,
-          -7.5569,
-          281.72
-        ]
-      },
-      "id": "us6000gap9"
     }
   ],
   "bbox": [
@@ -2416,6 +2376,6 @@
     -0.34,
     178.2622,
     66.3392,
-    281.72
+    249.9
   ]
 }
