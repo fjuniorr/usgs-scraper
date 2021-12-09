@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639067203000,
+    "generated": 1639069219000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 71
+    "count": 69
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "54 km S of Whites City, New Mexico",
+        "time": 1639067440353,
+        "updated": 1639068900924,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yccs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yccs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "tx",
+        "code": "2021yccs",
+        "ids": ",us6000gaw0,tx2021yccs,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.02357176258,
+        "rms": 0.1,
+        "gap": 70,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 54 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.2811704,
+          31.69062777,
+          6.851391602
+        ]
+      },
+      "id": "tx2021yccs"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1135,17 +1175,17 @@
         "mag": 3.49,
         "place": "11km SE of Carpinteria, CA",
         "time": 1639031893660,
-        "updated": 1639066779114,
+        "updated": 1639068593517,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39883351",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39883351.geojson",
-        "felt": 187,
+        "felt": 191,
         "cdi": 3.4,
         "mmi": 3.614,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 251,
+        "sig": 252,
         "net": "ci",
         "code": "39883351",
         "ids": ",ci39883351,us6000garg,",
@@ -1413,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "56 km SSE of Denali National Park, Alaska",
+        "place": "Central Alaska",
         "time": 1639022353888,
         "updated": 1639023037113,
         "tz": null,
@@ -1437,7 +1477,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 56 km SSE of Denali National Park, Alaska"
+        "title": "M 2.7 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2295,11 +2335,11 @@
         "mag": 3.1,
         "place": "5 km WSW of Gypsum, Kansas",
         "time": 1638995142908,
-        "updated": 1639062609277,
+        "updated": 1639067815531,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gamp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gamp.geojson",
-        "felt": 26,
+        "felt": 27,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -2728,126 +2768,6 @@
         ]
       },
       "id": "us6000gan6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "off the coast of Oregon",
-        "time": 1638982122384,
-        "updated": 1639011312040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gapb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gapb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 222,
-        "net": "us",
-        "code": "6000gapb",
-        "ids": ",us6000gapb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.966,
-        "rms": 1.25,
-        "gap": 217,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.8 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -128.6537,
-          44.01,
-          10
-        ]
-      },
-      "id": "us6000gapb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "off the coast of Oregon",
-        "time": 1638982080528,
-        "updated": 1639008052040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaku",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaku.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 234,
-        "net": "us",
-        "code": "6000gaku",
-        "ids": ",us6000gaku,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.721,
-        "rms": 1.81,
-        "gap": 215,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.9 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.7813,
-          44.0985,
-          10
-        ]
-      },
-      "id": "us6000gaku"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "98 km S of Hovd, Mongolia",
-        "time": 1638981995670,
-        "updated": 1638983488040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaj0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaj0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000gaj0",
-        "ids": ",us6000gaj0,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 5.096,
-        "rms": 1.04,
-        "gap": 55,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 98 km S of Hovd, Mongolia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          101.9369,
-          43.8019,
-          10
-        ]
-      },
-      "id": "us6000gaj0"
     }
   ],
   "bbox": [
