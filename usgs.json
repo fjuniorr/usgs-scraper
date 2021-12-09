@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639036022000,
+    "generated": 1639036507000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 75
+    "count": 74
   },
   "features": [
     {
@@ -95,11 +95,11 @@
         "mag": 3.44,
         "place": "8km SE of Carpinteria, CA",
         "time": 1639031894010,
-        "updated": 1639035930905,
+        "updated": 1639036238875,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39883351",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39883351.geojson",
-        "felt": 158,
+        "felt": 159,
         "cdi": 3.4,
         "mmi": 3.606,
         "alert": null,
@@ -373,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Central Alaska",
+        "place": "56 km SSE of Denali National Park, Alaska",
         "time": 1639022353888,
         "updated": 1639023037113,
         "tz": null,
@@ -397,7 +397,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Central Alaska"
+        "title": "M 2.7 - 56 km SSE of Denali National Park, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2415,13 +2415,13 @@
         "mag": 3.6,
         "place": "23 km SSW of Petersville, Alaska",
         "time": 1638965200679,
-        "updated": 1638980622666,
+        "updated": 1638980418647,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fpsz9ip",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fpsz9ip.geojson",
         "felt": 0,
         "cdi": 1,
-        "mmi": 2.616,
+        "mmi": 2.6,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -2968,46 +2968,6 @@
         ]
       },
       "id": "us6000gaex"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "16 km NW of Préveza, Greece",
-        "time": 1638949790424,
-        "updated": 1638954764040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaeg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaeg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000gaeg",
-        "ids": ",us6000gaeg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.954,
-        "rms": 1.25,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 16 km NW of Préveza, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.6039,
-          39.0464,
-          10
-        ]
-      },
-      "id": "us6000gaeg"
     }
   ],
   "bbox": [
