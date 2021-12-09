@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639085786000,
+    "generated": 1639086273000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 58
+    "count": 57
   },
   "features": [
     {
@@ -2288,46 +2288,6 @@
         ]
       },
       "id": "us6000ganp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "138 km ESE of McCarthy, Alaska",
-        "time": 1638999761198,
-        "updated": 1639000318253,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fpyjvuf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fpyjvuf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "021fpyjvuf",
-        "ids": ",ak021fpyjvuf,",
-        "sources": ",ak,",
-        "types": ",origin,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.47,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 138 km ESE of McCarthy, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -140.4065,
-          61.1609,
-          2.8
-        ]
-      },
-      "id": "ak021fpyjvuf"
     }
   ],
   "bbox": [
