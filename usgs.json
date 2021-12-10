@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639137181000,
+    "generated": 1639138571000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 67
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "Kuril Islands",
+        "time": 1639137328493,
+        "updated": 1639138508040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb54",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb54.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000gb54",
+        "ids": ",us6000gb54,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.548,
+        "rms": 0.66,
+        "gap": 117,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.3176,
+          47.2005,
+          35
+        ]
+      },
+      "id": "us6000gb54"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -2648,46 +2688,6 @@
         ]
       },
       "id": "us6000gats"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "off the coast of Oregon",
-        "time": 1639051548731,
-        "updated": 1639053604040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gatn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gatn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "6000gatn",
-        "ids": ",us6000gatn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.996,
-        "rms": 0.54,
-        "gap": 275,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.5611,
-          44.091,
-          10
-        ]
-      },
-      "id": "us6000gatn"
     }
   ],
   "bbox": [
