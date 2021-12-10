@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639147038000,
+    "generated": 1639147513000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -55,17 +55,17 @@
         "mag": 4.4,
         "place": "21 km E of The Valley, Anguilla",
         "time": 1639141137946,
-        "updated": 1639146408529,
+        "updated": 1639147418091,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb59",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb59.geojson",
-        "felt": 23,
+        "felt": 24,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 308,
+        "sig": 309,
         "net": "us",
         "code": "6000gb59",
         "ids": ",us6000gb59,",
@@ -453,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "Puerto Rico region",
+        "place": "1 km W of Indios, Puerto Rico",
         "time": 1639125552100,
         "updated": 1639126831419,
         "tz": null,
@@ -477,7 +477,7 @@
         "gap": 152,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 1 km W of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "102 km SW of Rabaul, Papua New Guinea",
+        "place": "New Britain region, Papua New Guinea",
         "time": 1639112483096,
         "updated": 1639116042040,
         "tz": null,
@@ -717,7 +717,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 102 km SW of Rabaul, Papua New Guinea"
+        "title": "M 4.5 - New Britain region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
