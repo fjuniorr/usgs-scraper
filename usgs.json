@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639176747000,
+    "generated": 1639177788000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 48
   },
   "features": [
     {
@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "southern Peru",
+        "place": "16 km ESE of Locumba, Peru",
         "time": 1639162773525,
         "updated": 1639173657040,
         "tz": null,
@@ -157,7 +157,7 @@
         "gap": 140,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - southern Peru"
+        "title": "M 4.6 - 16 km ESE of Locumba, Peru"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.63,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "2 km S of Pāhala, Hawaii",
         "time": 1639154089460,
         "updated": 1639175381560,
         "tz": null,
@@ -397,7 +397,7 @@
         "gap": 78,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Island of Hawaii, Hawaii"
+        "title": "M 2.6 - 2 km S of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -415,11 +415,11 @@
         "mag": 2.55,
         "place": "8km SW of Calistoga, CA",
         "time": 1639153044420,
-        "updated": 1639175631518,
+        "updated": 1639177047932,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73662196",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73662196.geojson",
-        "felt": 23,
+        "felt": 24,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -893,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "1 km W of Indios, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639125552100,
         "updated": 1639126831419,
         "tz": null,
@@ -917,7 +917,7 @@
         "gap": 152,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 1 km W of Indios, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "New Britain region, Papua New Guinea",
+        "place": "102 km SW of Rabaul, Papua New Guinea",
         "time": 1639112483096,
         "updated": 1639116042040,
         "tz": null,
@@ -1197,7 +1197,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - New Britain region, Papua New Guinea"
+        "title": "M 4.5 - 102 km SW of Rabaul, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1928,46 +1928,6 @@
         ]
       },
       "id": "us6000gb0x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "112 km SSE of Kencong, Indonesia",
-        "time": 1639091258262,
-        "updated": 1639092612040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb0v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb0v.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000gb0v",
-        "ids": ",us6000gb0v,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.984,
-        "rms": 0.7,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 112 km SSE of Kencong, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          113.5812,
-          -9.2815,
-          63.78
-        ]
-      },
-      "id": "us6000gb0v"
     }
   ],
   "bbox": [
