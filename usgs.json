@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639144411000,
+    "generated": 1639145384000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 64
+    "count": 65
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.3,
+        "mag": 5.2,
         "place": "Kermadec Islands region",
-        "time": 1639142875045,
-        "updated": 1639144108040,
+        "time": 1639142875647,
+        "updated": 1639144898040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb6d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb6d.geojson",
@@ -25,26 +25,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 432,
+        "sig": 416,
         "net": "us",
         "code": "6000gb6d",
         "ids": ",us6000gb6d,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 6.676,
-        "rms": 1.19,
-        "gap": 86,
+        "dmin": 6.675,
+        "rms": 1.25,
+        "gap": 58,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - Kermadec Islands region"
+        "title": "M 5.2 - Kermadec Islands region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -178.1056,
-          -31.5621,
-          27.71
+          -178.1433,
+          -31.5487,
+          30.3
         ]
       },
       "id": "us6000gb6d"
@@ -55,17 +55,17 @@
         "mag": 4.4,
         "place": "21 km E of The Valley, Anguilla",
         "time": 1639141137946,
-        "updated": 1639144403244,
+        "updated": 1639144708816,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb59",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb59.geojson",
-        "felt": 20,
+        "felt": 22,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 307,
+        "sig": 308,
         "net": "us",
         "code": "6000gb59",
         "ids": ",us6000gb59,",
@@ -128,6 +128,46 @@
         ]
       },
       "id": "nc73662121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "7 km S of Williamsville, Missouri",
+        "time": 1639138419100,
+        "updated": 1639145120550,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60365602",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60365602.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "nm",
+        "code": "60365602",
+        "ids": ",nm60365602,",
+        "sources": ",nm,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.1607,
+        "rms": 0.23,
+        "gap": 134,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 7 km S of Williamsville, Missouri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5533333,
+          36.9051667,
+          13.66
+        ]
+      },
+      "id": "nm60365602"
     },
     {
       "type": "Feature",
@@ -1015,7 +1055,7 @@
         "mag": 4.19,
         "place": "1 km W of Indios, Puerto Rico",
         "time": 1639099534040,
-        "updated": 1639144383986,
+        "updated": 1639145125209,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021344001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021344001.geojson",
@@ -2571,7 +2611,7 @@
     }
   ],
   "bbox": [
-    -178.1056,
+    -178.1433,
     -58.0962,
     -3.17,
     179.6245,
