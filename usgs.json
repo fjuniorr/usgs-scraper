@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639147513000,
+    "generated": 1639147981000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 64
+    "count": 63
   },
   "features": [
     {
@@ -2528,46 +2528,6 @@
         ]
       },
       "id": "us6000gaun"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52,
-        "place": "45 km SE of Naalehu, Hawaii",
-        "time": 1639061304920,
-        "updated": 1639081825350,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72827287",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72827287.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "hv",
-        "code": "72827287",
-        "ids": ",hv72827287,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": null,
-        "rms": 0.11,
-        "gap": 266,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 45 km SE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.2365,
-          18.823,
-          9.2
-        ]
-      },
-      "id": "hv72827287"
     }
   ],
   "bbox": [
