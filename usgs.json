@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639153417000,
+    "generated": 1639155496000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 57
+    "count": 55
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "1 km SSE of Pāhala, Hawaii",
+        "time": 1639154089650,
+        "updated": 1639154792040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72828607",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72828607.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "72828607",
+        "ids": ",us6000gb81,hv72828607,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": null,
+        "rms": 0.100000001,
+        "gap": 90,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 1 km SSE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.473495483398,
+          19.1940002441406,
+          30.8999996185303
+        ]
+      },
+      "id": "hv72828607"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.55,
         "place": "8km SW of Calistoga, CA",
         "time": 1639153044420,
-        "updated": 1639153255680,
+        "updated": 1639154810028,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73662196",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73662196.geojson",
-        "felt": 1,
-        "cdi": 3.1,
+        "felt": 15,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 100,
+        "sig": 106,
         "net": "nc",
         "code": "73662196",
         "ids": ",nc73662196,",
@@ -48,46 +88,6 @@
         ]
       },
       "id": "nc73662196"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "43 km WNW of Cantwell, Alaska",
-        "time": 1639150461442,
-        "updated": 1639151111606,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021ft6081x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021ft6081x.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "021ft6081x",
-        "ids": ",ak021ft6081x,",
-        "sources": ",ak,",
-        "types": ",origin,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.68,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 43 km WNW of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.7409,
-          63.5534,
-          28.5
-        ]
-      },
-      "id": "ak021ft6081x"
     },
     {
       "type": "Feature",
@@ -612,6 +612,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.7,
+        "place": "119 km E of Chignik, Alaska",
+        "time": 1639117265286,
+        "updated": 1639153556998,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021ft0kjok",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021ft0kjok.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "021ft0kjok",
+        "ids": ",ak021ft0kjok,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.7,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 119 km E of Chignik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.4802,
+          56.3126,
+          46.9
+        ]
+      },
+      "id": "ak021ft0kjok"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.2,
         "place": "267 km S of Ambon, Indonesia",
         "time": 1639115662069,
@@ -688,46 +728,6 @@
         ]
       },
       "id": "us6000gb33"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "22 km SSE of Dry Creek, Alaska",
-        "time": 1639113761470,
-        "updated": 1639114010883,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fszzcqc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fszzcqc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "021fszzcqc",
-        "ids": ",ak021fszzcqc,",
-        "sources": ",ak,",
-        "types": ",origin,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.61,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 22 km SSE of Dry Creek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -144.5177,
-          63.4586,
-          6.6
-        ]
-      },
-      "id": "ak021fszzcqc"
     },
     {
       "type": "Feature",
@@ -2208,86 +2208,6 @@
         ]
       },
       "id": "us6000gaxs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "161 km SSW of Kokopo, Papua New Guinea",
-        "time": 1639068374419,
-        "updated": 1639071078040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gawz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gawz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000gawz",
-        "ids": ",us6000gawz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.581,
-        "rms": 0.85,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 161 km SSW of Kokopo, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.911,
-          -5.7629,
-          10
-        ]
-      },
-      "id": "us6000gawz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "54 km S of Whites City, New Mexico",
-        "time": 1639067440353,
-        "updated": 1639068900924,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yccs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yccs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "tx",
-        "code": "2021yccs",
-        "ids": ",us6000gaw0,tx2021yccs,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.02357176258,
-        "rms": 0.1,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 54 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.2811704,
-          31.69062777,
-          6.851391602
-        ]
-      },
-      "id": "tx2021yccs"
     }
   ],
   "bbox": [
@@ -2295,7 +2215,7 @@
     -58.0962,
     -3.17,
     179.6245,
-    63.5534,
+    56.3126,
     364.5
   ]
 }
