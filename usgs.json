@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639112281000,
+    "generated": 1639113444000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 64
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "off the coast of Oregon",
+        "time": 1639111016941,
+        "updated": 1639113054040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb2y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb2y.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000gb2y",
+        "ids": ",us6000gb2y,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.58,
+        "rms": 0.9,
+        "gap": 112,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.9424,
+          44.2461,
+          10
+        ]
+      },
+      "id": "us6000gb2y"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,12 +135,12 @@
         "mag": 2.7,
         "place": "53 km SSW of Whites City, New Mexico",
         "time": 1639108619112,
-        "updated": 1639110694205,
+        "updated": 1639112327986,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yczk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yczk.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -108,9 +148,9 @@
         "sig": 112,
         "net": "tx",
         "code": "2021yczk",
-        "ids": ",us6000gb2i,tx2021yczk,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2021yczk,us6000gb2i,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 25,
         "dmin": 0.05199133136,
         "rms": 0.3,
@@ -175,7 +215,7 @@
         "mag": 2.92,
         "place": "3km ENE of Prattville, CA",
         "time": 1639103986540,
-        "updated": 1639105527266,
+        "updated": 1639113011555,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73662016",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73662016.geojson",
@@ -2375,17 +2415,17 @@
         "mag": 3.49,
         "place": "11km SE of Carpinteria, CA",
         "time": 1639031893660,
-        "updated": 1639106760199,
+        "updated": 1639113049916,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39883351",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39883351.geojson",
-        "felt": 209,
+        "felt": 210,
         "cdi": 3.4,
         "mmi": 3.614,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 258,
+        "sig": 259,
         "net": "ci",
         "code": "39883351",
         "ids": ",ci39883351,us6000garg,",
@@ -2528,46 +2568,6 @@
         ]
       },
       "id": "us6000gar7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "off the coast of Oregon",
-        "time": 1639026760412,
-        "updated": 1639027700040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gar6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gar6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000gar6",
-        "ids": ",us6000gar6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.587,
-        "rms": 0.55,
-        "gap": 201,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.3674,
-          44.2547,
-          10
-        ]
-      },
-      "id": "us6000gar6"
     }
   ],
   "bbox": [
