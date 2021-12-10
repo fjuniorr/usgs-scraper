@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639113444000,
+    "generated": 1639114175000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 64
+    "count": 65
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "22 km SSE of Dry Creek, Alaska",
+        "time": 1639113761470,
+        "updated": 1639114010883,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fszzcqc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fszzcqc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "021fszzcqc",
+        "ids": ",ak021fszzcqc,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.61,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 22 km SSE of Dry Creek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.5177,
+          63.4586,
+          6.6
+        ]
+      },
+      "id": "ak021fszzcqc"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,7 +215,7 @@
         "mag": 2.92,
         "place": "6km WNW of Walker, CA",
         "time": 1639106331010,
-        "updated": 1639109741590,
+        "updated": 1639113851633,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73662026",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73662026.geojson",
@@ -295,7 +335,7 @@
         "mag": 2.49,
         "place": "2km ENE of Prattville, CA",
         "time": 1639100979420,
-        "updated": 1639112111481,
+        "updated": 1639113910667,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73661991",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73661991.geojson",
