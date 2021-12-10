@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639155496000,
+    "generated": 1639157076000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 55
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "off the coast of Oregon",
+        "time": 1639155346391,
+        "updated": 1639156544040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb8y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb8y.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000gb8y",
+        "ids": ",us6000gb8y,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.646,
+        "rms": 1.24,
+        "gap": 234,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.3394,
+          44.1976,
+          10
+        ]
+      },
+      "id": "us6000gb8y"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,11 +175,11 @@
         "mag": 4.4,
         "place": "21 km E of The Valley, Anguilla",
         "time": 1639141137946,
-        "updated": 1639147418091,
+        "updated": 1639156300905,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb59",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb59.geojson",
-        "felt": 24,
+        "felt": 25,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
@@ -215,11 +255,11 @@
         "mag": 2.49,
         "place": "7 km S of Williamsville, Missouri",
         "time": 1639138419100,
-        "updated": 1639153043070,
+        "updated": 1639157027616,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60365602",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60365602.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "Puerto Rico region",
+        "place": "1 km W of Indios, Puerto Rico",
         "time": 1639125552100,
         "updated": 1639126831419,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 152,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 1 km W of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "102 km SW of Rabaul, Papua New Guinea",
+        "place": "New Britain region, Papua New Guinea",
         "time": 1639112483096,
         "updated": 1639116042040,
         "tz": null,
@@ -797,7 +837,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 102 km SW of Rabaul, Papua New Guinea"
+        "title": "M 4.5 - New Britain region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -975,7 +1015,7 @@
         "mag": 2.92,
         "place": "6km WNW of Walker, CA",
         "time": 1639106331010,
-        "updated": 1639115769853,
+        "updated": 1639156340397,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73662026",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73662026.geojson",
@@ -1015,7 +1055,7 @@
         "mag": 2.92,
         "place": "3km ENE of Prattville, CA",
         "time": 1639103986540,
-        "updated": 1639146758191,
+        "updated": 1639156719111,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73662016",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73662016.geojson",
@@ -1028,8 +1068,8 @@
         "sig": 134,
         "net": "nc",
         "code": "73662016",
-        "ids": ",nc73662016,",
-        "sources": ",nc,",
+        "ids": ",nc73662016,nn00829753,",
+        "sources": ",nc,nn,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 29,
         "dmin": 0.3094,
@@ -2168,46 +2208,6 @@
         ]
       },
       "id": "us6000gayq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Pagan region, Northern Mariana Islands",
-        "time": 1639069540484,
-        "updated": 1639078763040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaxs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaxs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000gaxs",
-        "ids": ",us6000gaxs,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.965,
-        "rms": 1.11,
-        "gap": 113,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Pagan region, Northern Mariana Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.6719,
-          18.5226,
-          229.34
-        ]
-      },
-      "id": "us6000gaxs"
     }
   ],
   "bbox": [
