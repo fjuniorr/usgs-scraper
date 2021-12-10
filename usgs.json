@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639172118000,
+    "generated": 1639172605000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 56
+    "count": 54
   },
   "features": [
     {
@@ -773,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "1 km W of Indios, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639125552100,
         "updated": 1639126831419,
         "tz": null,
@@ -797,7 +797,7 @@
         "gap": 152,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 1 km W of Indios, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "New Britain region, Papua New Guinea",
+        "place": "102 km SW of Rabaul, Papua New Guinea",
         "time": 1639112483096,
         "updated": 1639116042040,
         "tz": null,
@@ -1077,7 +1077,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - New Britain region, Papua New Guinea"
+        "title": "M 4.5 - 102 km SW of Rabaul, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -2168,86 +2168,6 @@
         ]
       },
       "id": "av91440761"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "71 km NE of Santa Rosa, Peru",
-        "time": 1639086040245,
-        "updated": 1639088682040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gazw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gazw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000gazw",
-        "ids": ",us6000gazw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.783,
-        "rms": 0.85,
-        "gap": 90,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 71 km NE of Santa Rosa, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.5194,
-          -10.3801,
-          118.11
-        ]
-      },
-      "id": "us6000gazw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "4 km SW of Rudna, Poland",
-        "time": 1639085852907,
-        "updated": 1639094523596,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gazr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gazr.geojson",
-        "felt": 7,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 249,
-        "net": "us",
-        "code": "6000gazr",
-        "ids": ",us6000gazr,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.13,
-        "rms": 1.05,
-        "gap": 36,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 4 km SW of Rudna, Poland"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.22,
-          51.4771,
-          8.78
-        ]
-      },
-      "id": "us6000gazr"
     }
   ],
   "bbox": [
