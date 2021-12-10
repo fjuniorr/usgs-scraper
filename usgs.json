@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639173154000,
+    "generated": 1639174189000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 54
+    "count": 53
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "103 km W of San Antonio de los Cobres, Argentina",
+        "time": 1639171284589,
+        "updated": 1639173925040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbav",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbav.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000gbav",
+        "ids": ",us6000gbav,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.386,
+        "rms": 0.89,
+        "gap": 94,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 103 km W of San Antonio de los Cobres, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.3316,
+          -24.1057,
+          194.36
+        ]
+      },
+      "id": "us6000gbav"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us6000gb9w"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "16 km ESE of Locumba, Peru",
+        "time": 1639162773525,
+        "updated": 1639173657040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb9f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb9f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000gb9f",
+        "ids": ",us6000gb9f,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.741,
+        "rms": 0.7,
+        "gap": 140,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 16 km ESE of Locumba, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6266,
+          -17.6772,
+          98.77
+        ]
+      },
+      "id": "us6000gb9f"
     },
     {
       "type": "Feature",
@@ -295,11 +375,11 @@
         "mag": 2.55,
         "place": "8km SW of Calistoga, CA",
         "time": 1639153044420,
-        "updated": 1639168199305,
+        "updated": 1639173462030,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73662196",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73662196.geojson",
-        "felt": 21,
+        "felt": 22,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -375,7 +455,7 @@
         "mag": 4.4,
         "place": "21 km E of The Valley, Anguilla",
         "time": 1639141137946,
-        "updated": 1639156300905,
+        "updated": 1639173570381,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb59",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb59.geojson",
@@ -455,17 +535,17 @@
         "mag": 2.49,
         "place": "7 km S of Williamsville, Missouri",
         "time": 1639138419100,
-        "updated": 1639157027616,
+        "updated": 1639173395762,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60365602",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60365602.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 97,
         "net": "nm",
         "code": "60365602",
         "ids": ",nm60365602,",
@@ -773,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "1 km W of Indios, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639125552100,
         "updated": 1639126831419,
         "tz": null,
@@ -797,7 +877,7 @@
         "gap": 152,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 1 km W of Indios, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "New Britain region, Papua New Guinea",
+        "place": "102 km SW of Rabaul, Papua New Guinea",
         "time": 1639112483096,
         "updated": 1639116042040,
         "tz": null,
@@ -1077,7 +1157,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - New Britain region, Papua New Guinea"
+        "title": "M 4.5 - 102 km SW of Rabaul, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -2048,132 +2128,12 @@
         ]
       },
       "id": "av91440801"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.15,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1639087593740,
-        "updated": 1639121686510,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91045638",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91045638.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 153,
-        "net": "av",
-        "code": "91045638",
-        "ids": ",av91045638,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": null,
-        "rms": 0.11,
-        "gap": 308,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.418333333333,
-          52.0761666666667,
-          -3.17
-        ]
-      },
-      "id": "av91045638"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "34 km NW of Stanley, Idaho",
-        "time": 1639086987671,
-        "updated": 1639157799680,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gazv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gazv.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000gazv",
-        "ids": ",us6000gazv,mb80533209,",
-        "sources": ",us,mb,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.84,
-        "rms": 0.93,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 34 km NW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.2142,
-          44.4603,
-          10
-        ]
-      },
-      "id": "us6000gazv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.44,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1639086923770,
-        "updated": 1639119255820,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91440761",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91440761.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 182,
-        "net": "av",
-        "code": "91440761",
-        "ids": ",av91440761,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": null,
-        "rms": 0.15,
-        "gap": 316,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.2435,
-          51.9741666666667,
-          2.43
-        ]
-      },
-      "id": "av91440761"
     }
   ],
   "bbox": [
     -178.1433,
     -58.0962,
-    -3.17,
+    -1.92,
     179.6245,
     59.8857,
     364.5
