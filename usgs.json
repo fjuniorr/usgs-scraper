@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639140579000,
+    "generated": 1639141921000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 66
+    "count": 67
   },
   "features": [
     {
@@ -288,6 +288,46 @@
         ]
       },
       "id": "pr2021344005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "34 km N of Chuquitira, Peru",
+        "time": 1639127352560,
+        "updated": 1639140682040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb4c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb4c.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000gb4c",
+        "ids": ",us6000gb4c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.835,
+        "rms": 0.89,
+        "gap": 142,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 34 km N of Chuquitira, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.0786,
+          -16.9774,
+          176.29
+        ]
+      },
+      "id": "us6000gb4c"
     },
     {
       "type": "Feature",
@@ -895,17 +935,17 @@
         "mag": 4.19,
         "place": "1 km W of Indios, Puerto Rico",
         "time": 1639099534040,
-        "updated": 1639136114723,
+        "updated": 1639141721078,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021344001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021344001.geojson",
-        "felt": 66,
+        "felt": 67,
         "cdi": 5.3,
         "mmi": 3.685,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 305,
+        "sig": 306,
         "net": "pr",
         "code": "2021344001",
         "ids": ",us6000gb1h,pr2021344001,",
