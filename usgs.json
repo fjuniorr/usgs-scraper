@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639179059000,
+    "generated": 1639179850000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 45
   },
   "features": [
     {
@@ -1808,46 +1808,6 @@
         ]
       },
       "id": "us6000gb1a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "off the coast of Oregon",
-        "time": 1639092736759,
-        "updated": 1639103565454,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb13",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb13.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 449,
-        "net": "us",
-        "code": "6000gb13",
-        "ids": ",at00r3vg1p,us6000gb13,",
-        "sources": ",at,us,",
-        "types": ",impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 1.707,
-        "rms": 0.9,
-        "gap": 160,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.4774,
-          44.1229,
-          10
-        ]
-      },
-      "id": "us6000gb13"
     }
   ],
   "bbox": [
