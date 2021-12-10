@@ -1,19 +1,19 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639129526000,
+    "generated": 1639130012000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 68
+    "count": 67
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "1 km W of Indios, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639125552100,
         "updated": 1639126831419,
         "tz": null,
@@ -37,7 +37,7 @@
         "gap": 152,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 1 km W of Indios, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "New Britain region, Papua New Guinea",
+        "place": "102 km SW of Rabaul, Papua New Guinea",
         "time": 1639112483096,
         "updated": 1639116042040,
         "tz": null,
@@ -277,7 +277,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - New Britain region, Papua New Guinea"
+        "title": "M 4.5 - 102 km SW of Rabaul, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -2373,7 +2373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "23 km ENE of Santa Monica, Philippines",
+        "place": "Philippine Islands region",
         "time": 1639053902383,
         "updated": 1639055533040,
         "tz": null,
@@ -2397,7 +2397,7 @@
         "gap": 96,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 23 km ENE of Santa Monica, Philippines"
+        "title": "M 4.9 - Philippine Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -2495,7 +2495,7 @@
         "mag": 2.65,
         "place": "8 km E of Pāhala, Hawaii",
         "time": 1639050606420,
-        "updated": 1639084860020,
+        "updated": 1639129575040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72827132",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72827132.geojson",
@@ -2508,8 +2508,8 @@
         "sig": 108,
         "net": "hv",
         "code": "72827132",
-        "ids": ",hv72827132,",
-        "sources": ",hv,",
+        "ids": ",us6000gatm,hv72827132,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 50,
         "dmin": null,
@@ -2688,46 +2688,6 @@
         ]
       },
       "id": "us6000gatd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "off the coast of Oregon",
-        "time": 1639043595127,
-        "updated": 1639128224040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gasz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gasz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "us",
-        "code": "6000gasz",
-        "ids": ",us6000gasz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.999,
-        "rms": 1,
-        "gap": 293,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.5659,
-          44.0694,
-          10
-        ]
-      },
-      "id": "us6000gasz"
     }
   ],
   "bbox": [
