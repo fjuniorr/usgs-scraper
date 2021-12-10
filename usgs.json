@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639164024000,
+    "generated": 1639164778000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 57
+    "count": 55
   },
   "features": [
     {
@@ -1094,8 +1094,8 @@
       "properties": {
         "mag": 2.7,
         "place": "53 km SSW of Whites City, New Mexico",
-        "time": 1639108619112,
-        "updated": 1639112327986,
+        "time": 1639108618957,
+        "updated": 1639164766280,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yczk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yczk.geojson",
@@ -1111,8 +1111,8 @@
         "ids": ",tx2021yczk,us6000gb2i,",
         "sources": ",tx,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.05199133136,
+        "nst": 18,
+        "dmin": 0.0493991969,
         "rms": 0.3,
         "gap": 80,
         "magType": "ml",
@@ -1122,9 +1122,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.5562991,
-          31.71522439,
-          6.362939453
+          -104.5563384,
+          31.71890084,
+          6.671435547
         ]
       },
       "id": "tx2021yczk"
@@ -2208,86 +2208,6 @@
         ]
       },
       "id": "av91045453"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.03,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1639077855540,
-        "updated": 1639104399950,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91045388",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91045388.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 141,
-        "net": "av",
-        "code": "91045388",
-        "ids": ",av91045388,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": null,
-        "rms": 0.21,
-        "gap": 334,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.309333333333,
-          52.0115,
-          -1.45
-        ]
-      },
-      "id": "av91045388"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.87,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1639077841280,
-        "updated": 1639101864400,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91440581",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91440581.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 127,
-        "net": "av",
-        "code": "91440581",
-        "ids": ",av91440581,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": null,
-        "rms": 0.18,
-        "gap": 315,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.314666666667,
-          52.012,
-          1.64
-        ]
-      },
-      "id": "av91440581"
     }
   ],
   "bbox": [
