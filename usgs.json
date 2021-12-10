@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639108449000,
+    "generated": 1639109540000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,20 +12,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.9,
+        "place": "55 km SSW of Whites City, New Mexico",
+        "time": 1639108618847,
+        "updated": 1639109431040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb2i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb2i.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "6000gb2i",
+        "ids": ",us6000gb2i,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.093,
+        "rms": 0.66,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 55 km SSW of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.599,
+          31.71,
+          5
+        ]
+      },
+      "id": "us6000gb2i"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.92,
         "place": "6km WNW of Walker, CA",
         "time": 1639106331010,
-        "updated": 1639107554051,
+        "updated": 1639109217350,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73662026",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73662026.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 131,
+        "sig": 132,
         "net": "nc",
         "code": "73662026",
         "ids": ",nc73662026,nn00829755,",
@@ -808,6 +848,46 @@
         ]
       },
       "id": "us6000gaza"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1639079699080,
+        "updated": 1639109172480,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91045453",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91045453.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "av",
+        "code": "91045453",
+        "ids": ",av91045453,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": null,
+        "rms": 0.22,
+        "gap": 340,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.3235,
+          51.992,
+          5.13
+        ]
+      },
+      "id": "av91045453"
     },
     {
       "type": "Feature",
@@ -2448,86 +2528,6 @@
         ]
       },
       "id": "nc73661611"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "off the coast of Oregon",
-        "time": 1639023058250,
-        "updated": 1639024634040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gar1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gar1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000gar1",
-        "ids": ",us6000gar1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.593,
-        "rms": 0.9,
-        "gap": 199,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.0012,
-          44.2369,
-          10
-        ]
-      },
-      "id": "us6000gar1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "56 km SSE of Denali National Park, Alaska",
-        "time": 1639022353888,
-        "updated": 1639023037113,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021frbh0hx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021frbh0hx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "021frbh0hx",
-        "ids": ",ak021frbh0hx,",
-        "sources": ",ak,",
-        "types": ",origin,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.08,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 56 km SSE of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.4768,
-          63.0491,
-          0
-        ]
-      },
-      "id": "ak021frbh0hx"
     }
   ],
   "bbox": [
