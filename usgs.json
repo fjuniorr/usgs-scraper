@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639121341000,
+    "generated": 1639121881000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 67
+    "count": 68
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "68 km SSE of Atka, Alaska",
+        "time": 1639120368343,
+        "updated": 1639121499040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb3s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb3s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000gb3s",
+        "ids": ",us6000gb3s,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.622,
+        "rms": 0.74,
+        "gap": 190,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 68 km SSE of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.933,
+          51.6016,
+          40.15
+        ]
+      },
+      "id": "us6000gb3s"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "New Britain region, Papua New Guinea",
+        "place": "102 km SW of Rabaul, Papua New Guinea",
         "time": 1639112483096,
         "updated": 1639116042040,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - New Britain region, Papua New Guinea"
+        "title": "M 4.5 - 102 km SW of Rabaul, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1008,6 +1048,46 @@
         ]
       },
       "id": "pr2021343004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.15,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1639087593740,
+        "updated": 1639121686510,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91045638",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91045638.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 153,
+        "net": "av",
+        "code": "91045638",
+        "ids": ",av91045638,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": null,
+        "rms": 0.11,
+        "gap": 308,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.418333333333,
+          52.0761666666667,
+          -3.17
+        ]
+      },
+      "id": "av91045638"
     },
     {
       "type": "Feature",
@@ -2648,52 +2728,12 @@
         ]
       },
       "id": "us6000gas4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "off the coast of Oregon",
-        "time": 1639035192848,
-        "updated": 1639037525040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000garv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000garv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 222,
-        "net": "us",
-        "code": "6000garv",
-        "ids": ",us6000garv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.819,
-        "rms": 0.58,
-        "gap": 239,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.8 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.8384,
-          44.0025,
-          10
-        ]
-      },
-      "id": "us6000garv"
     }
   ],
   "bbox": [
-    -157.4663,
+    -173.933,
     -56.1394,
-    -1.92,
+    -3.17,
     179.6245,
     66.3392,
     364.5
