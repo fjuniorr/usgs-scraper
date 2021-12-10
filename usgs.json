@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639120189000,
+    "generated": 1639121341000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 68
+    "count": 67
   },
   "features": [
     {
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "102 km SW of Rabaul, Papua New Guinea",
+        "place": "New Britain region, Papua New Guinea",
         "time": 1639112483096,
         "updated": 1639116042040,
         "tz": null,
@@ -197,7 +197,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 102 km SW of Rabaul, Papua New Guinea"
+        "title": "M 4.5 - New Britain region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -2688,46 +2688,6 @@
         ]
       },
       "id": "us6000garv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.58,
-        "place": "3km NNE of Heber, CA",
-        "time": 1639034711700,
-        "updated": 1639074873240,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39883407",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39883407.geojson",
-        "felt": 10,
-        "cdi": 3.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "ci",
-        "code": "39883407",
-        "ids": ",ci39883407,us6000garl,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 42,
-        "dmin": 0.07003,
-        "rms": 0.27,
-        "gap": 85,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 3km NNE of Heber, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.5158333,
-          32.7593333,
-          13.73
-        ]
-      },
-      "id": "ci39883407"
     }
   ],
   "bbox": [
