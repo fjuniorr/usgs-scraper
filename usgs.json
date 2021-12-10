@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639141921000,
+    "generated": 1639143255000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 67
+    "count": 65
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "21 km E of The Valley, Anguilla",
+        "time": 1639141137946,
+        "updated": 1639143101682,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb59",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb59.geojson",
+        "felt": 15,
+        "cdi": 4.5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 305,
+        "net": "us",
+        "code": "6000gb59",
+        "ids": ",us6000gb59,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.24,
+        "rms": 0.6,
+        "gap": 120,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 21 km E of The Valley, Anguilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.8627,
+          18.1811,
+          54.55
+        ]
+      },
+      "id": "us6000gb59"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.53,
         "place": "19km WNW of Petrolia, CA",
         "time": 1639139154490,
-        "updated": 1639140491307,
+        "updated": 1639142110450,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73662121",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73662121.geojson",
@@ -935,11 +975,11 @@
         "mag": 4.19,
         "place": "1 km W of Indios, Puerto Rico",
         "time": 1639099534040,
-        "updated": 1639141721078,
+        "updated": 1639142985678,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021344001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021344001.geojson",
-        "felt": 67,
+        "felt": 68,
         "cdi": 5.3,
         "mmi": 3.685,
         "alert": "green",
@@ -2568,126 +2608,6 @@
         ]
       },
       "id": "ak021frha1in"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "off the coast of Oregon",
-        "time": 1639056661499,
-        "updated": 1639058581040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gau1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gau1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "us",
-        "code": "6000gau1",
-        "ids": ",us6000gau1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.085,
-        "rms": 0.8,
-        "gap": 258,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.6917,
-          43.9144,
-          10
-        ]
-      },
-      "id": "us6000gau1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "140 km S of Kokopo, Papua New Guinea",
-        "time": 1639056170684,
-        "updated": 1639064664040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gau4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gau4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000gau4",
-        "ids": ",us6000gau4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.422,
-        "rms": 0.98,
-        "gap": 167,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 140 km S of Kokopo, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.3537,
-          -5.6104,
-          42.94
-        ]
-      },
-      "id": "us6000gau4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "217 km W of Bandon, Oregon",
-        "time": 1639055667174,
-        "updated": 1639057376040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gatz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gatz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "us",
-        "code": "6000gatz",
-        "ids": ",us6000gatz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.2,
-        "rms": 0.94,
-        "gap": 268,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 217 km W of Bandon, Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -127.0466,
-          43.4352,
-          10
-        ]
-      },
-      "id": "us6000gatz"
     }
   ],
   "bbox": [
