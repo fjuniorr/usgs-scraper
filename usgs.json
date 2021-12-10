@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639122859000,
+    "generated": 1639123928000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -1048,6 +1048,86 @@
         ]
       },
       "id": "pr2021343004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.98,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1639088159430,
+        "updated": 1639123457470,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91045668",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91045668.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 137,
+        "net": "av",
+        "code": "91045668",
+        "ids": ",av91045668,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": null,
+        "rms": 0.09,
+        "gap": 313,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.377666666667,
+          52.0441666666667,
+          2.82
+        ]
+      },
+      "id": "av91045668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.07,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1639088159300,
+        "updated": 1639123139070,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91440801",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91440801.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 145,
+        "net": "av",
+        "code": "91440801",
+        "ids": ",av91440801,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": null,
+        "rms": 0.18,
+        "gap": 339,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.325833333333,
+          51.9975,
+          4.46
+        ]
+      },
+      "id": "av91440801"
     },
     {
       "type": "Feature",
@@ -2648,86 +2728,6 @@
         ]
       },
       "id": "us6000gasb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Izu Islands, Japan region",
-        "time": 1639037439045,
-        "updated": 1639040643040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gas9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gas9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000gas9",
-        "ids": ",us6000gas9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 6.176,
-        "rms": 0.56,
-        "gap": 139,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.4581,
-          31.1278,
-          10
-        ]
-      },
-      "id": "us6000gas9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "262 km W of Depoe Bay, Oregon",
-        "time": 1639036575498,
-        "updated": 1639117960040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gas4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gas4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "6000gas4",
-        "ids": ",us6000gas4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.42,
-        "rms": 0.41,
-        "gap": 203,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.7 - 262 km W of Depoe Bay, Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -127.3782,
-          44.6871,
-          10
-        ]
-      },
-      "id": "us6000gas4"
     }
   ],
   "bbox": [
