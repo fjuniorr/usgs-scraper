@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639114967000,
+    "generated": 1639115574000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 65
+    "count": 66
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "off the coast of Oregon",
+        "time": 1639114001648,
+        "updated": 1639115189040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb33",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb33.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000gb33",
+        "ids": ",us6000gb33,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.774,
+        "rms": 0.66,
+        "gap": 222,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.6749,
+          44.0458,
+          10
+        ]
+      },
+      "id": "us6000gb33"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak021fszzcqc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "South Sandwich Islands region",
+        "time": 1639112615996,
+        "updated": 1639115400040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb34",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb34.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000gb34",
+        "ids": ",us6000gb34,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.343,
+        "rms": 0.4,
+        "gap": 70,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.739,
+          -56.1394,
+          100.48
+        ]
+      },
+      "id": "us6000gb34"
     },
     {
       "type": "Feature",
@@ -1933,7 +2013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Philippine Islands region",
+        "place": "23 km ENE of Santa Monica, Philippines",
         "time": 1639053902383,
         "updated": 1639055533040,
         "tz": null,
@@ -1957,7 +2037,7 @@
         "gap": 96,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Philippine Islands region"
+        "title": "M 4.9 - 23 km ENE of Santa Monica, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -2568,51 +2648,11 @@
         ]
       },
       "id": "nc73661631"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "13 km S of Hukay, Philippines",
-        "time": 1639028571494,
-        "updated": 1639042723827,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gard",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gard.geojson",
-        "felt": 3,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000gard",
-        "ids": ",us6000gard,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 8.769,
-        "rms": 0.48,
-        "gap": 59,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 13 km S of Hukay, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.7228,
-          13.7229,
-          174.04
-        ]
-      },
-      "id": "us6000gard"
     }
   ],
   "bbox": [
     -157.4663,
-    -41.7461,
+    -56.1394,
     -1.92,
     179.6245,
     66.3392,
