@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639128700000,
+    "generated": 1639129526000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -13,7 +13,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "Puerto Rico region",
+        "place": "1 km W of Indios, Puerto Rico",
         "time": 1639125552100,
         "updated": 1639126831419,
         "tz": null,
@@ -37,7 +37,7 @@
         "gap": 152,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 1 km W of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "102 km SW of Rabaul, Papua New Guinea",
+        "place": "New Britain region, Papua New Guinea",
         "time": 1639112483096,
         "updated": 1639116042040,
         "tz": null,
@@ -277,7 +277,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 102 km SW of Rabaul, Papua New Guinea"
+        "title": "M 4.5 - New Britain region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1332,46 +1332,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.76,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1639086715330,
-        "updated": 1639117755880,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91440756",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91440756.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 117,
-        "net": "av",
-        "code": "91440756",
-        "ids": ",av91440756,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": null,
-        "rms": 0.09,
-        "gap": 350,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.275666666667,
-          51.9893333333333,
-          3.24
-        ]
-      },
-      "id": "av91440756"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 4.3,
         "place": "71 km NE of Santa Rosa, Peru",
         "time": 1639086040245,
@@ -2413,7 +2373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Philippine Islands region",
+        "place": "23 km ENE of Santa Monica, Philippines",
         "time": 1639053902383,
         "updated": 1639055533040,
         "tz": null,
@@ -2437,7 +2397,7 @@
         "gap": 96,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Philippine Islands region"
+        "title": "M 4.9 - 23 km ENE of Santa Monica, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -2648,6 +2608,46 @@
         ]
       },
       "id": "us6000gati"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "off the coast of Oregon",
+        "time": 1639049311021,
+        "updated": 1639129307040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gath",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gath.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "us",
+        "code": "6000gath",
+        "ids": ",us6000gath,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.922,
+        "rms": 0.71,
+        "gap": 278,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.4607,
+          44.0534,
+          10
+        ]
+      },
+      "id": "us6000gath"
     },
     {
       "type": "Feature",
