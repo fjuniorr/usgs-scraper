@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639241541000,
+    "generated": 1639242916000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 46
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 5.6,
         "place": "246 km NE of Lospalos, Timor Leste",
         "time": 1639236585824,
-        "updated": 1639237993471,
+        "updated": 1639241621405,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbfn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbfn.geojson",
@@ -55,17 +55,17 @@
         "mag": 5.7,
         "place": "39 km N of La Serena, Chile",
         "time": 1639234459582,
-        "updated": 1639240182450,
+        "updated": 1639241889273,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbfe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbfe.geojson",
-        "felt": 34,
+        "felt": 35,
         "cdi": 5.4,
         "mmi": 4.943,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 518,
+        "sig": 519,
         "net": "us",
         "code": "6000gbfe",
         "ids": ",us6000gbfe,",
@@ -333,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Kansas",
+        "place": "5 km WSW of Gypsum, Kansas",
         "time": 1639218500150,
         "updated": 1639226197162,
         "tz": null,
@@ -357,7 +357,7 @@
         "gap": 145,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.0 - Kansas"
+        "title": "M 3.0 - 5 km WSW of Gypsum, Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "Gulf of Alaska",
+        "place": "249 km ESE of Chiniak, Alaska",
         "time": 1639205255832,
         "updated": 1639205856040,
         "tz": null,
@@ -717,7 +717,7 @@
         "gap": 180,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.8 - Gulf of Alaska"
+        "title": "M 3.8 - 249 km ESE of Chiniak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1132,122 +1132,122 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
+        "mag": 3.3,
         "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1639166378340,
-        "updated": 1639212754470,
+        "time": 1639166376850,
+        "updated": 1639242612040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91045923",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91045923.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbdy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbdy.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
-        "net": "av",
-        "code": "91045923",
-        "ids": ",av91045923,",
-        "sources": ",av,",
+        "sig": 168,
+        "net": "us",
+        "code": "6000gbdy",
+        "ids": ",av91045923,us6000gbdy,",
+        "sources": ",av,us,",
         "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": null,
-        "rms": 0.13,
-        "gap": 323,
+        "nst": null,
+        "dmin": 0.201,
+        "rms": 0.4,
+        "gap": 177,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Rat Islands, Aleutian Islands, Alaska"
+        "title": "M 3.3 - Rat Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          178.363833333333,
-          52.049,
-          -3.11
+          178.1991,
+          52.0191,
+          10
         ]
       },
-      "id": "av91045923"
+      "id": "us6000gbdy"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.75,
+        "mag": 3.5,
         "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1639165681430,
-        "updated": 1639211420460,
+        "time": 1639165679290,
+        "updated": 1639242362040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91045893",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91045893.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbdt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbdt.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 116,
-        "net": "av",
-        "code": "91045893",
-        "ids": ",av91045893,",
-        "sources": ",av,",
+        "sig": 188,
+        "net": "us",
+        "code": "6000gbdt",
+        "ids": ",av91045893,us6000gbdt,",
+        "sources": ",av,us,",
         "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 345,
+        "nst": null,
+        "dmin": 0.151,
+        "rms": 0.69,
+        "gap": 161,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Rat Islands, Aleutian Islands, Alaska"
+        "title": "M 3.5 - Rat Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          178.411833333333,
-          52.0548333333333,
-          5.49
+          178.3254,
+          52.066,
+          19
         ]
       },
-      "id": "av91045893"
+      "id": "us6000gbdt"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.92,
+        "mag": 3.4,
         "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1639165649400,
-        "updated": 1639211294770,
+        "time": 1639165648501,
+        "updated": 1639241671040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91045888",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91045888.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbds",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbds.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 131,
-        "net": "av",
-        "code": "91045888",
-        "ids": ",av91045888,",
-        "sources": ",av,",
+        "sig": 178,
+        "net": "us",
+        "code": "6000gbds",
+        "ids": ",av91045888,us6000gbds,",
+        "sources": ",av,us,",
         "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": null,
-        "rms": 0.27,
-        "gap": 336,
+        "nst": null,
+        "dmin": 0.182,
+        "rms": 0.42,
+        "gap": 163,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Rat Islands, Aleutian Islands, Alaska"
+        "title": "M 3.4 - Rat Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          178.297333333333,
-          52.0043333333333,
-          2.09
+          178.2539,
+          52.0551,
+          10
         ]
       },
-      "id": "av91045888"
+      "id": "us6000gbds"
     },
     {
       "type": "Feature",
@@ -1693,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "16 km ESE of Locumba, Peru",
+        "place": "southern Peru",
         "time": 1639162773525,
         "updated": 1639173657040,
         "tz": null,
@@ -1717,7 +1717,7 @@
         "gap": 140,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 16 km ESE of Locumba, Peru"
+        "title": "M 4.6 - southern Peru"
       },
       "geometry": {
         "type": "Point",
@@ -1848,93 +1848,13 @@
         ]
       },
       "id": "us6000gb96"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "146 km SE of Pondaguitan, Philippines",
-        "time": 1639156151287,
-        "updated": 1639160830040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb97",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb97.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000gb97",
-        "ids": ",us6000gb97,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.488,
-        "rms": 0.81,
-        "gap": 108,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 146 km SE of Pondaguitan, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.9262,
-          5.2688,
-          70.94
-        ]
-      },
-      "id": "us6000gb97"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "off the coast of Oregon",
-        "time": 1639155346391,
-        "updated": 1639156544040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb8y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb8y.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000gb8y",
-        "ids": ",us6000gb8y,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.646,
-        "rms": 1.24,
-        "gap": 234,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.3394,
-          44.1976,
-          10
-        ]
-      },
-      "id": "us6000gb8y"
     }
   ],
   "bbox": [
     -153.1276,
     -58.9906,
-    -3.11,
-    178.41183333333,
+    0,
+    178.41066666667,
     65.5079,
     194.36
   ]
