@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639262356000,
+    "generated": 1639262841000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "53 km SSW of Whites City, New Mexico",
+        "time": 1639261638310,
+        "updated": 1639262642991,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbic",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbic.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.433,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000gbic",
+        "ids": ",us6000gbic,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.041,
+        "rms": 0.44,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.1 - 53 km SSW of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.5233,
+          31.7059,
+          7.34
+        ]
+      },
+      "id": "us6000gbic"
+    },
     {
       "type": "Feature",
       "properties": {
