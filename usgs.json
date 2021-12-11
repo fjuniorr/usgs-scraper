@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639229359000,
+    "generated": 1639230001000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "60 km S of Whites City, New Mexico",
+        "time": 1639229331808,
+        "updated": 1639229781040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbez",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbez.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "6000gbez",
+        "ids": ",us6000gbez,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.143,
+        "rms": 0.6,
+        "gap": 54,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 60 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3369,
+          31.6353,
+          5
+        ]
+      },
+      "id": "us6000gbez"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -133,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Kansas",
+        "place": "5 km WSW of Gypsum, Kansas",
         "time": 1639218500150,
         "updated": 1639226197162,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": 145,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.0 - Kansas"
+        "title": "M 3.0 - 5 km WSW of Gypsum, Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "Gulf of Alaska",
+        "place": "249 km ESE of Chiniak, Alaska",
         "time": 1639205255832,
         "updated": 1639205856040,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 180,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.8 - Gulf of Alaska"
+        "title": "M 3.8 - 249 km ESE of Chiniak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "16 km ESE of Locumba, Peru",
+        "place": "southern Peru",
         "time": 1639162773525,
         "updated": 1639173657040,
         "tz": null,
@@ -1397,7 +1437,7 @@
         "gap": 140,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 16 km ESE of Locumba, Peru"
+        "title": "M 4.6 - southern Peru"
       },
       "geometry": {
         "type": "Point",
@@ -1613,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.63,
-        "place": "2 km S of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1639154089460,
         "updated": 1639175381560,
         "tz": null,
@@ -1637,7 +1677,7 @@
         "gap": 78,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 2 km S of Pāhala, Hawaii"
+        "title": "M 2.6 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
