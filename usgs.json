@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639249943000,
+    "generated": 1639250641000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49000001,
+        "place": "2 km SW of Pāhala, Hawaii",
+        "time": 1639250128000,
+        "updated": 1639250324470,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72829597",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72829597.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "72829597",
+        "ids": ",hv72829597,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 76,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km SW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.494338989258,
+          19.1841659545898,
+          34.8800010681152
+        ]
+      },
+      "id": "hv72829597"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 5.7,
         "place": "39 km N of La Serena, Chile",
         "time": 1639234459582,
-        "updated": 1639245271907,
+        "updated": 1639250450408,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbfe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbfe.geojson",
-        "felt": 36,
+        "felt": 38,
         "cdi": 5.4,
         "mmi": 4.943,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 519,
+        "sig": 520,
         "net": "us",
         "code": "6000gbfe",
         "ids": ",us6000gbfe,",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "5 km WSW of Gypsum, Kansas",
+        "place": "Kansas",
         "time": 1639218500150,
         "updated": 1639226197162,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 145,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.0 - 5 km WSW of Gypsum, Kansas"
+        "title": "M 3.0 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "249 km ESE of Chiniak, Alaska",
+        "place": "Gulf of Alaska",
         "time": 1639205255832,
         "updated": 1639205856040,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": 180,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.8 - 249 km ESE of Chiniak, Alaska"
+        "title": "M 3.8 - Gulf of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1608,166 +1648,6 @@
         ]
       },
       "id": "us6000gbdc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1639164201880,
-        "updated": 1639205362960,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91441296",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91441296.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "av",
-        "code": "91441296",
-        "ids": ",av91441296,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": null,
-        "rms": 0.08,
-        "gap": 316,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.392666666667,
-          52.0605,
-          0.04
-        ]
-      },
-      "id": "av91441296"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.62,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1639163981730,
-        "updated": 1639190599530,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91045788",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91045788.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "av",
-        "code": "91045788",
-        "ids": ",av91045788,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": null,
-        "rms": 0.05,
-        "gap": 348,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.372333333333,
-          52.0331666666667,
-          5.98
-        ]
-      },
-      "id": "av91045788"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1639163884982,
-        "updated": 1639236867040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbem",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbem.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "us",
-        "code": "6000gbem",
-        "ids": ",av91441286,us6000gbem,",
-        "sources": ",av,us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.121,
-        "rms": 0.18,
-        "gap": 183,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.3186,
-          51.9738,
-          10
-        ]
-      },
-      "id": "us6000gbem"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1639163763063,
-        "updated": 1639236676040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbc5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbc5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "6000gbc5",
-        "ids": ",av91441281,us6000gbc5,",
-        "sources": ",av,us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.171,
-        "rms": 0.98,
-        "gap": 186,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.2384,
-          51.9764,
-          11.92
-        ]
-      },
-      "id": "us6000gbc5"
     }
   ],
   "bbox": [
