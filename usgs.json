@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639201990000,
+    "generated": 1639203105000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 32
   },
   "features": [
     {
@@ -413,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "southern Peru",
+        "place": "16 km ESE of Locumba, Peru",
         "time": 1639162773525,
         "updated": 1639173657040,
         "tz": null,
@@ -437,7 +437,7 @@
         "gap": 140,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - southern Peru"
+        "title": "M 4.6 - 16 km ESE of Locumba, Peru"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.63,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "2 km S of Pāhala, Hawaii",
         "time": 1639154089460,
         "updated": 1639175381560,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 78,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Island of Hawaii, Hawaii"
+        "title": "M 2.6 - 2 km S of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -855,7 +855,7 @@
         "mag": 2.49,
         "place": "7 km S of Williamsville, Missouri",
         "time": 1639138419100,
-        "updated": 1639173395762,
+        "updated": 1639203061040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60365602",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60365602.geojson",
@@ -868,8 +868,8 @@
         "sig": 97,
         "net": "nm",
         "code": "60365602",
-        "ids": ",nm60365602,",
-        "sources": ",nm,",
+        "ids": ",nm60365602,us6000gb6k,",
+        "sources": ",nm,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 17,
         "dmin": 0.1607,
@@ -1173,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "1 km W of Indios, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639125552100,
         "updated": 1639126831419,
         "tz": null,
@@ -1197,7 +1197,7 @@
         "gap": 152,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 1 km W of Indios, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1288,86 +1288,6 @@
         ]
       },
       "id": "ak021ft0kjok"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "51 km SSW of Whites City, New Mexico",
-        "time": 1639116579619,
-        "updated": 1639167356839,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yddt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yddt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2021yddt",
-        "ids": ",tx2021yddt,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.04409841036,
-        "rms": 0.3,
-        "gap": 86,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 51 km SSW of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.5619021,
-          31.73540319,
-          6.877099609
-        ]
-      },
-      "id": "tx2021yddt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "267 km S of Ambon, Indonesia",
-        "time": 1639115662069,
-        "updated": 1639117357040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb3d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb3d.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000gb3d",
-        "ids": ",us6000gb3d,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.751,
-        "rms": 0.43,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 267 km S of Ambon, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.0155,
-          -6.1112,
-          364.5
-        ]
-      },
-      "id": "us6000gb3d"
     }
   ],
   "bbox": [
@@ -1376,6 +1296,6 @@
     -1.19,
     178.37233333333,
     65.5079,
-    364.5
+    194.36
   ]
 }
