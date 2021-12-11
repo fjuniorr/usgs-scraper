@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639209272000,
+    "generated": 1639210280000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -95,7 +95,7 @@
         "mag": 3.19,
         "place": "5 km SSE of Ponce, Puerto Rico",
         "time": 1639200477000,
-        "updated": 1639205106633,
+        "updated": 1639209886040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021345002",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021345002.geojson",
@@ -108,8 +108,8 @@
         "sig": 157,
         "net": "pr",
         "code": "2021345002",
-        "ids": ",pr2021345002,",
-        "sources": ",pr,",
+        "ids": ",us6000gbcy,pr2021345002,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 25,
         "dmin": 0.0776,
