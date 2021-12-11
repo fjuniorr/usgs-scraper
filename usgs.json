@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639239457000,
+    "generated": 1639241541000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 48
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 5.7,
         "place": "39 km N of La Serena, Chile",
         "time": 1639234459582,
-        "updated": 1639239298549,
+        "updated": 1639240182450,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbfe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbfe.geojson",
-        "felt": 32,
+        "felt": 34,
         "cdi": 5.4,
         "mmi": 4.943,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 517,
+        "sig": 518,
         "net": "us",
         "code": "6000gbfe",
         "ids": ",us6000gbfe,",
@@ -88,6 +88,46 @@
         ]
       },
       "id": "us6000gbfe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "57 km S of Whites City, New Mexico",
+        "time": 1639233686042,
+        "updated": 1639239507040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbfb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbfb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000gbfb",
+        "ids": ",us6000gbfb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.113,
+        "rms": 0.16,
+        "gap": 61,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.5 - 57 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3688,
+          31.6578,
+          5
+        ]
+      },
+      "id": "us6000gbfb"
     },
     {
       "type": "Feature",
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "5 km WSW of Gypsum, Kansas",
+        "place": "Kansas",
         "time": 1639218500150,
         "updated": 1639226197162,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 145,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.0 - 5 km WSW of Gypsum, Kansas"
+        "title": "M 3.0 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "249 km ESE of Chiniak, Alaska",
+        "place": "Gulf of Alaska",
         "time": 1639205255832,
         "updated": 1639205856040,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": 180,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.8 - 249 km ESE of Chiniak, Alaska"
+        "title": "M 3.8 - Gulf of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1292,42 +1332,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.17,
+        "mag": 3.6,
         "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1639165433950,
-        "updated": 1639211113810,
+        "time": 1639165432680,
+        "updated": 1639240465040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91441331",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91441331.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbdp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbdp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 155,
-        "net": "av",
-        "code": "91441331",
-        "ids": ",av91441331,",
-        "sources": ",av,",
+        "sig": 199,
+        "net": "us",
+        "code": "6000gbdp",
+        "ids": ",av91441331,us6000gbdp,",
+        "sources": ",av,us,",
         "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": null,
-        "rms": 0.08,
-        "gap": 347,
+        "nst": null,
+        "dmin": 0.188,
+        "rms": 0.47,
+        "gap": 195,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - Rat Islands, Aleutian Islands, Alaska"
+        "title": "M 3.6 - Rat Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          178.323166666667,
-          51.9738333333333,
-          9.81
+          178.2065,
+          51.9486,
+          10
         ]
       },
-      "id": "av91441331"
+      "id": "us6000gbdp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1639165101335,
+        "updated": 1639239504040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbdl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbdl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "6000gbdl",
+        "ids": ",av91045878,us6000gbdl,",
+        "sources": ",av,us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.249,
+        "rms": 0.46,
+        "gap": 154,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.2085,
+          52.1314,
+          10
+        ]
+      },
+      "id": "us6000gbdl"
     },
     {
       "type": "Feature",
@@ -1613,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "southern Peru",
+        "place": "16 km ESE of Locumba, Peru",
         "time": 1639162773525,
         "updated": 1639173657040,
         "tz": null,
@@ -1637,7 +1717,7 @@
         "gap": 140,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - southern Peru"
+        "title": "M 4.6 - 16 km ESE of Locumba, Peru"
       },
       "geometry": {
         "type": "Point",
@@ -1848,50 +1928,10 @@
         ]
       },
       "id": "us6000gb8y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.63,
-        "place": "Island of Hawaii, Hawaii",
-        "time": 1639154089460,
-        "updated": 1639175381560,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72828607",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72828607.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "hv",
-        "code": "72828607",
-        "ids": ",us6000gb81,hv72828607,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": null,
-        "rms": 0.11,
-        "gap": 78,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - Island of Hawaii, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.4775,
-          19.1806666666667,
-          32.37
-        ]
-      },
-      "id": "hv72828607"
     }
   ],
   "bbox": [
-    -155.4775,
+    -153.1276,
     -58.9906,
     -3.11,
     178.41183333333,
