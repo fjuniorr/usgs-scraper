@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639344248000,
+    "generated": 1639344916000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 58
+    "count": 57
   },
   "features": [
     {
@@ -295,17 +295,17 @@
         "mag": 3.02,
         "place": "3 km NE of Manchester, Ohio",
         "time": 1639331575910,
-        "updated": 1639343982418,
+        "updated": 1639344902215,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60140143",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60140143.geojson",
-        "felt": 243,
+        "felt": 254,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 233,
+        "sig": 237,
         "net": "se",
         "code": "60140143",
         "ids": ",us6000gbpp,se60140143,",
@@ -373,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.53,
-        "place": "Mona Passage",
+        "place": "32 km NW of Rincón, Puerto Rico",
         "time": 1639329735660,
         "updated": 1639339006241,
         "tz": null,
@@ -397,7 +397,7 @@
         "gap": 185,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - Mona Passage"
+        "title": "M 3.5 - 32 km NW of Rincón, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "58 km N of Chickaloon, Alaska",
+        "place": "Central Alaska",
         "time": 1639329489935,
         "updated": 1639334536040,
         "tz": null,
@@ -437,7 +437,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 58 km N of Chickaloon, Alaska"
+        "title": "M 3.0 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "25 km SE of Susitna North, Alaska",
+        "place": "Central Alaska",
         "time": 1639291154543,
         "updated": 1639292065040,
         "tz": null,
@@ -1397,7 +1397,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 25 km SE of Susitna North, Alaska"
+        "title": "M 2.5 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.07,
-        "place": "Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639285376290,
         "updated": 1639314867366,
         "tz": null,
@@ -1437,7 +1437,7 @@
         "gap": 100,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - Puerto Rico"
+        "title": "M 3.1 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "71 km SSE of Kuril’sk, Russia",
+        "place": "Kuril Islands",
         "time": 1639281373366,
         "updated": 1639282517040,
         "tz": null,
@@ -1477,7 +1477,7 @@
         "gap": 123,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 71 km SSE of Kuril’sk, Russia"
+        "title": "M 4.7 - Kuril Islands"
       },
       "geometry": {
         "type": "Point",
@@ -2288,46 +2288,6 @@
         ]
       },
       "id": "us6000gbhz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "62 km E of Nemuro, Japan",
-        "time": 1639258454562,
-        "updated": 1639259492040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbhs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbhs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000gbhs",
-        "ids": ",us6000gbhs,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.672,
-        "rms": 0.92,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 62 km E of Nemuro, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.3403,
-          43.2929,
-          58.03
-        ]
-      },
-      "id": "us6000gbhs"
     }
   ],
   "bbox": [
