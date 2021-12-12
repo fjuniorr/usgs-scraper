@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639299278000,
+    "generated": 1639300190000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 53
+    "count": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "South Sandwich Islands region",
+        "time": 1639298802391,
+        "updated": 1639299952040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gblm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gblm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000gblm",
+        "ids": ",us6000gblm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 7.781,
+        "rms": 0.51,
+        "gap": 96,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.8042,
+          -59.4012,
+          35
+        ]
+      },
+      "id": "us6000gblm"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -2008,131 +2048,11 @@
         ]
       },
       "id": "pr2021345007"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52,
-        "place": "2 km SSE of Guánica, Puerto Rico",
-        "time": 1639213467200,
-        "updated": 1639216322371,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021345006",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021345006.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "pr",
-        "code": "2021345006",
-        "ids": ",pr2021345006,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.0282,
-        "rms": 0.07,
-        "gap": 207,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 2 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8951,
-          17.9518,
-          12
-        ]
-      },
-      "id": "pr2021345006"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "56 km S of Whites City, New Mexico",
-        "time": 1639213410379,
-        "updated": 1639215004136,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yfez",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yfez.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "tx",
-        "code": "2021yfez",
-        "ids": ",us6000gbe2,tx2021yfez,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.08775870723,
-        "rms": 0.2,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 56 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.3676444,
-          31.66621688,
-          6.954223633
-        ]
-      },
-      "id": "tx2021yfez"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.18,
-        "place": "1 km ESE of Guánica, Puerto Rico",
-        "time": 1639213263340,
-        "updated": 1639215150040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021345004",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021345004.geojson",
-        "felt": 1,
-        "cdi": 5.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 156,
-        "net": "pr",
-        "code": "2021345004",
-        "ids": ",pr2021345004,us6000gbe1,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.021,
-        "rms": 0.09,
-        "gap": 183,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 1 km ESE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8983,
-          17.9663,
-          9
-        ]
-      },
-      "id": "pr2021345004"
     }
   ],
   "bbox": [
     -178.5137,
-    -56.1026,
+    -59.4012,
     1.5,
     178.327,
     64.7273,
