@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639341813000,
+    "generated": 1639342380000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 57
+    "count": 58
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.67,
+        "place": "3 km SSW of Guánica, Puerto Rico",
+        "time": 1639341159070,
+        "updated": 1639342052220,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021346009",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021346009.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "pr",
+        "code": "2021346009",
+        "ids": ",pr2021346009,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.0485,
+        "rms": 0.14,
+        "gap": 184,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 3 km SSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9171,
+          17.9448,
+          13
+        ]
+      },
+      "id": "pr2021346009"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,17 +215,17 @@
         "mag": 3.02,
         "place": "3 km NE of Manchester, Ohio",
         "time": 1639331575910,
-        "updated": 1639341509179,
+        "updated": 1639342126379,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60140143",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60140143.geojson",
-        "felt": 205,
+        "felt": 211,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 218,
+        "sig": 220,
         "net": "se",
         "code": "60140143",
         "ids": ",us6000gbpp,se60140143,",
