@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639350641000,
+    "generated": 1639351812000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 57
+    "count": 58
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "1 km SSE of Pāhala, Hawaii",
+        "time": 1639350794780,
+        "updated": 1639351499040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72831037",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72831037.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "hv",
+        "code": "72831037",
+        "ids": ",us6000gbr7,hv72831037,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": null,
+        "rms": 0.100000001,
+        "gap": 90,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 1 km SSE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.47233581543,
+          19.1878337860107,
+          35.5999984741211
+        ]
+      },
+      "id": "hv72831037"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -495,17 +535,17 @@
         "mag": 3.02,
         "place": "3 km NE of Manchester, Ohio",
         "time": 1639331575910,
-        "updated": 1639350348677,
+        "updated": 1639351581197,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60140143",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60140143.geojson",
-        "felt": 283,
+        "felt": 291,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 248,
+        "sig": 251,
         "net": "se",
         "code": "60140143",
         "ids": ",us6000gbpp,se60140143,",
@@ -573,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.53,
-        "place": "32 km NW of Rincón, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1639329735660,
         "updated": 1639339006241,
         "tz": null,
@@ -597,7 +637,7 @@
         "gap": 185,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - 32 km NW of Rincón, Puerto Rico"
+        "title": "M 3.5 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Central Alaska",
+        "place": "58 km N of Chickaloon, Alaska",
         "time": 1639329489935,
         "updated": 1639334536040,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Central Alaska"
+        "title": "M 3.0 - 58 km N of Chickaloon, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Central Alaska",
+        "place": "25 km SE of Susitna North, Alaska",
         "time": 1639291154543,
         "updated": 1639292065040,
         "tz": null,
@@ -1597,7 +1637,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Central Alaska"
+        "title": "M 2.5 - 25 km SE of Susitna North, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1613,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.07,
-        "place": "Puerto Rico region",
+        "place": "Puerto Rico",
         "time": 1639285376290,
         "updated": 1639314867366,
         "tz": null,
@@ -1637,7 +1677,7 @@
         "gap": 100,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - Puerto Rico region"
+        "title": "M 3.1 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Kuril Islands",
+        "place": "71 km SSE of Kuril’sk, Russia",
         "time": 1639281373366,
         "updated": 1639282517040,
         "tz": null,
@@ -1677,7 +1717,7 @@
         "gap": 123,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Kuril Islands"
+        "title": "M 4.7 - 71 km SSE of Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
