@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639349727000,
+    "generated": 1639350641000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 56
+    "count": 57
   },
   "features": [
     {
@@ -48,6 +48,46 @@
         ]
       },
       "id": "us6000gbqz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "151 km ESE of Hirara, Japan",
+        "time": 1639348245388,
+        "updated": 1639349994040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbqy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbqy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000gbqy",
+        "ids": ",us6000gbqy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.035,
+        "rms": 0.7,
+        "gap": 93,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.8 - 151 km ESE of Hirara, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6338,
+          24.1748,
+          10
+        ]
+      },
+      "id": "us6000gbqy"
     },
     {
       "type": "Feature",
@@ -455,17 +495,17 @@
         "mag": 3.02,
         "place": "3 km NE of Manchester, Ohio",
         "time": 1639331575910,
-        "updated": 1639349271815,
+        "updated": 1639350348677,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60140143",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60140143.geojson",
-        "felt": 280,
+        "felt": 283,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 247,
+        "sig": 248,
         "net": "se",
         "code": "60140143",
         "ids": ",us6000gbpp,se60140143,",
