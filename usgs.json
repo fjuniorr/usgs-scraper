@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639308134000,
+    "generated": 1639308775000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -373,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "25 km SE of Susitna North, Alaska",
+        "place": "Central Alaska",
         "time": 1639291154543,
         "updated": 1639292065040,
         "tz": null,
@@ -397,7 +397,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 25 km SE of Susitna North, Alaska"
+        "title": "M 2.5 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.07,
-        "place": "Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639285376290,
         "updated": 1639286346106,
         "tz": null,
@@ -437,7 +437,7 @@
         "gap": 100,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - Puerto Rico"
+        "title": "M 3.1 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "71 km SSE of Kuril’sk, Russia",
+        "place": "Kuril Islands",
         "time": 1639281373366,
         "updated": 1639282517040,
         "tz": null,
@@ -477,7 +477,7 @@
         "gap": 123,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 71 km SSE of Kuril’sk, Russia"
+        "title": "M 4.7 - Kuril Islands"
       },
       "geometry": {
         "type": "Point",
@@ -855,7 +855,7 @@
         "mag": 3.8,
         "place": "6 km WSW of Gypsum, Kansas",
         "time": 1639274964161,
-        "updated": 1639292084810,
+        "updated": 1639308279214,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbjb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbjb.geojson",
@@ -1533,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.49000001,
-        "place": "Hawaii region, Hawaii",
+        "place": "2 km SW of Pāhala, Hawaii",
         "time": 1639250128000,
         "updated": 1639250324470,
         "tz": null,
@@ -1557,7 +1557,7 @@
         "gap": 76,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Hawaii region, Hawaii"
+        "title": "M 2.5 - 2 km SW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
