@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639303849000,
+    "generated": 1639305222000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 53
+    "count": 50
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "106 km SSE of Chignik, Alaska",
-        "time": 1639302929967,
-        "updated": 1639303801319,
+        "mag": 4.7,
+        "place": "110 km SSE of Chignik, Alaska",
+        "time": 1639302929489,
+        "updated": 1639304232422,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fwdmtpb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fwdmtpb.geojson",
@@ -23,28 +23,28 @@
         "cdi": null,
         "mmi": 3.123,
         "alert": "green",
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 340,
         "net": "ak",
         "code": "021fwdmtpb",
-        "ids": ",ak021fwdmtpb,",
-        "sources": ",ak,",
-        "types": ",losspager,origin,shakemap,",
+        "ids": ",ak021fwdmtpb,us6000gbm5,",
+        "sources": ",ak,us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.95,
+        "rms": 0.59,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.8 - 106 km SSE of Chignik, Alaska"
+        "title": "M 4.7 - 110 km SSE of Chignik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -157.5186,
-          55.4789,
-          21
+          -157.5165,
+          55.434,
+          6.1
         ]
       },
       "id": "ak021fwdmtpb"
@@ -2008,126 +2008,6 @@
         ]
       },
       "id": "us6000gbes"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "27 km WNW of Four Mile Road, Alaska",
-        "time": 1639218659751,
-        "updated": 1639221345040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fuqjmgx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fuqjmgx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "021fuqjmgx",
-        "ids": ",us6000gbel,ak021fuqjmgx,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.67,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 27 km WNW of Four Mile Road, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.612,
-          64.7273,
-          14.5
-        ]
-      },
-      "id": "ak021fuqjmgx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "56 km S of Whites City, New Mexico",
-        "time": 1639218642177,
-        "updated": 1639220305040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yfhw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yfhw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "tx",
-        "code": "2021yfhw",
-        "ids": ",us6000gbek,tx2021yfhw,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.08808919859,
-        "rms": 0.2,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 56 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.3682186,
-          31.67034963,
-          6.851391602
-        ]
-      },
-      "id": "tx2021yfhw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "5 km WSW of Gypsum, Kansas",
-        "time": 1639218500150,
-        "updated": 1639226197162,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbej",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbej.geojson",
-        "felt": 5,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 141,
-        "net": "us",
-        "code": "6000gbej",
-        "ids": ",us6000gbej,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.746,
-        "rms": 0.24,
-        "gap": 145,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 3.0 - 5 km WSW of Gypsum, Kansas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.4933,
-          38.6948,
-          2.68
-        ]
-      },
-      "id": "us6000gbej"
     }
   ],
   "bbox": [
@@ -2135,7 +2015,7 @@
     -60.6915,
     1.5,
     178.327,
-    64.7273,
+    62.021,
     588.05
   ]
 }
