@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639439041000,
+    "generated": 1639439588000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 30
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.1,
-        "place": "58 km WNW of The Bottom, Bonaire, Saint Eustatius and Saba ",
-        "time": 1639437958735,
-        "updated": 1639438939040,
+        "mag": 4.44,
+        "place": "59 km WNW of The Bottom, Bonaire, Saint Eustatius and Saba ",
+        "time": 1639437959600,
+        "updated": 1639439451570,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc1a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc1a.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021347002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021347002.geojson",
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000gc1a",
-        "ids": ",us6000gc1a,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.537,
-        "rms": 0.48,
-        "gap": 139,
-        "magType": "mb",
+        "sig": 303,
+        "net": "pr",
+        "code": "2021347002",
+        "ids": ",us6000gc1a,pr2021347002,",
+        "sources": ",us,pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.7297,
+        "rms": 0.77,
+        "gap": 151,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.1 - 58 km WNW of The Bottom, Bonaire, Saint Eustatius and Saba "
+        "title": "M 4.4 - 59 km WNW of The Bottom, Bonaire, Saint Eustatius and Saba "
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.7172,
-          17.9125,
-          150.78
+          -63.7676,
+          17.822,
+          143
         ]
       },
-      "id": "us6000gc1a"
+      "id": "pr2021347002"
     },
     {
       "type": "Feature",
@@ -55,7 +55,7 @@
         "mag": 5.4,
         "place": "southeast of Easter Island",
         "time": 1639431898418,
-        "updated": 1639433183220,
+        "updated": 1639439289413,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc0k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc0k.geojson",
@@ -1208,46 +1208,6 @@
         ]
       },
       "id": "us6000gbrl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Sea of Okhotsk",
-        "time": 1639353002660,
-        "updated": 1639354406040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbrg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbrg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000gbrg",
-        "ids": ",us6000gbrg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.753,
-        "rms": 0.64,
-        "gap": 105,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Sea of Okhotsk"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.1339,
-          53.3164,
-          528.96
-        ]
-      },
-      "id": "us6000gbrg"
     }
   ],
   "bbox": [
