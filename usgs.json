@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639395758000,
+    "generated": 1639396365000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -1615,11 +1615,11 @@
         "mag": 3,
         "place": "13 km WNW of Susitna, Alaska",
         "time": 1639313230037,
-        "updated": 1639379492403,
+        "updated": 1639396109603,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fwfddhb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fwfddhb.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 3.1,
         "mmi": 1.918,
         "alert": null,
