@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639438252000,
+    "generated": 1639439041000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "58 km WNW of The Bottom, Bonaire, Saint Eustatius and Saba ",
+        "time": 1639437958735,
+        "updated": 1639438939040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc1a",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc1a.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000gc1a",
+        "ids": ",us6000gc1a,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.537,
+        "rms": 0.48,
+        "gap": 139,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 58 km WNW of The Bottom, Bonaire, Saint Eustatius and Saba "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7172,
+          17.9125,
+          150.78
+        ]
+      },
+      "id": "us6000gc1a"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -815,17 +855,17 @@
         "mag": 5.7,
         "place": "5 km S of El Pacayal, Mexico",
         "time": 1639378988583,
-        "updated": 1639422756040,
+        "updated": 1639438659532,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbt6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbt6.geojson",
-        "felt": 14,
+        "felt": 15,
         "cdi": 6.1,
         "mmi": 3.633,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 508,
+        "sig": 509,
         "net": "us",
         "code": "6000gbt6",
         "ids": ",us6000gbt6,",
