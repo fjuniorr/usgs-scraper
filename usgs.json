@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639362039000,
+    "generated": 1639363812000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 54
+    "count": 52
   },
   "features": [
     {
@@ -214,8 +214,8 @@
       "properties": {
         "mag": 4.8,
         "place": "151 km ESE of Hirara, Japan",
-        "time": 1639348245388,
-        "updated": 1639349994040,
+        "time": 1639348244817,
+        "updated": 1639362221040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbqy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbqy.geojson",
@@ -232,8 +232,8 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 3.035,
-        "rms": 0.7,
+        "dmin": 3.034,
+        "rms": 0.86,
         "gap": 93,
         "magType": "mww",
         "type": "earthquake",
@@ -242,8 +242,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          126.6338,
-          24.1748,
+          126.6343,
+          24.1762,
           10
         ]
       },
@@ -655,17 +655,17 @@
         "mag": 3.02,
         "place": "3 km NE of Manchester, Ohio",
         "time": 1639331575910,
-        "updated": 1639361974458,
+        "updated": 1639363497678,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60140143",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60140143.geojson",
-        "felt": 324,
+        "felt": 328,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 263,
+        "sig": 265,
         "net": "se",
         "code": "60140143",
         "ids": ",us6000gbpp,se60140143,",
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.53,
-        "place": "Mona Passage",
+        "place": "32 km NW of Rincón, Puerto Rico",
         "time": 1639329735660,
         "updated": 1639339006241,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 185,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - Mona Passage"
+        "title": "M 3.5 - 32 km NW of Rincón, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "58 km N of Chickaloon, Alaska",
+        "place": "Central Alaska",
         "time": 1639329489935,
         "updated": 1639334536040,
         "tz": null,
@@ -797,7 +797,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 58 km N of Chickaloon, Alaska"
+        "title": "M 3.0 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1733,7 +1733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "25 km SE of Susitna North, Alaska",
+        "place": "Central Alaska",
         "time": 1639291154543,
         "updated": 1639292065040,
         "tz": null,
@@ -1757,7 +1757,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 25 km SE of Susitna North, Alaska"
+        "title": "M 2.5 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1773,7 +1773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.07,
-        "place": "Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639285376290,
         "updated": 1639314867366,
         "tz": null,
@@ -1797,7 +1797,7 @@
         "gap": 100,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - Puerto Rico"
+        "title": "M 3.1 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1813,7 +1813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "71 km SSE of Kuril’sk, Russia",
+        "place": "Kuril Islands",
         "time": 1639281373366,
         "updated": 1639282517040,
         "tz": null,
@@ -1837,7 +1837,7 @@
         "gap": 123,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 71 km SSE of Kuril’sk, Russia"
+        "title": "M 4.7 - Kuril Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1895,17 +1895,17 @@
         "mag": 4.9,
         "place": "3 km NNE of Sakai, Japan",
         "time": 1639279858815,
-        "updated": 1639358277922,
+        "updated": 1639362171693,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbk2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbk2.geojson",
-        "felt": 296,
+        "felt": 297,
         "cdi": 5.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 529,
+        "sig": 530,
         "net": "us",
         "code": "6000gbk2",
         "ids": ",us6000gbk2,",
@@ -2088,86 +2088,6 @@
         ]
       },
       "id": "hv72829987"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "199 km N of Likisá, Timor Leste",
-        "time": 1639276649629,
-        "updated": 1639277891040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbjm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbjm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000gbjm",
-        "ids": ",us6000gbjm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.079,
-        "rms": 0.85,
-        "gap": 85,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 199 km N of Likisá, Timor Leste"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.166,
-          -6.7881,
-          535.91
-        ]
-      },
-      "id": "us6000gbjm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.58999991,
-        "place": "4 km SSW of Pāhala, Hawaii",
-        "time": 1639275667640,
-        "updated": 1639276682040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72829967",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72829967.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 103,
-        "net": "hv",
-        "code": "72829967",
-        "ids": ",us6000gbji,hv72829967,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": null,
-        "rms": 0.129999995,
-        "gap": 115,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 4 km SSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.487503051758,
-          19.1613330841064,
-          35.5800018310547
-        ]
-      },
-      "id": "hv72829967"
     }
   ],
   "bbox": [
