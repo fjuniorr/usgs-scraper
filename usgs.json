@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639374436000,
+    "generated": 1639374885000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -895,11 +895,11 @@
         "mag": 3.02,
         "place": "3 km NE of Manchester, Ohio",
         "time": 1639331575910,
-        "updated": 1639372417241,
+        "updated": 1639374879525,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60140143",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60140143.geojson",
-        "felt": 363,
+        "felt": 364,
         "cdi": 5,
         "mmi": null,
         "alert": null,
