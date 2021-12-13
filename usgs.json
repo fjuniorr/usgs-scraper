@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639418189000,
+    "generated": 1639419467000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -535,11 +535,11 @@
         "mag": 5.7,
         "place": "5 km S of El Pacayal, Mexico",
         "time": 1639378988583,
-        "updated": 1639415742524,
+        "updated": 1639418364661,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbt6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbt6.geojson",
-        "felt": 13,
+        "felt": 14,
         "cdi": 6.1,
         "mmi": 3.633,
         "alert": "green",
