@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639371520000,
+    "generated": 1639372615000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 51
+    "count": 50
   },
   "features": [
     {
@@ -895,17 +895,17 @@
         "mag": 3.02,
         "place": "3 km NE of Manchester, Ohio",
         "time": 1639331575910,
-        "updated": 1639371460375,
+        "updated": 1639372417241,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60140143",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60140143.geojson",
-        "felt": 356,
+        "felt": 363,
         "cdi": 5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 318,
+        "sig": 322,
         "net": "se",
         "code": "60140143",
         "ids": ",us6000gbpp,se60140143,",
@@ -973,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.53,
-        "place": "Mona Passage",
+        "place": "32 km NW of Rincón, Puerto Rico",
         "time": 1639329735660,
         "updated": 1639339006241,
         "tz": null,
@@ -997,7 +997,7 @@
         "gap": 185,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - Mona Passage"
+        "title": "M 3.5 - 32 km NW of Rincón, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "58 km N of Chickaloon, Alaska",
+        "place": "Central Alaska",
         "time": 1639329489935,
         "updated": 1639334536040,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 58 km N of Chickaloon, Alaska"
+        "title": "M 3.0 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1973,7 +1973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "25 km SE of Susitna North, Alaska",
+        "place": "Central Alaska",
         "time": 1639291154543,
         "updated": 1639292065040,
         "tz": null,
@@ -1997,7 +1997,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 25 km SE of Susitna North, Alaska"
+        "title": "M 2.5 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2008,46 +2008,6 @@
         ]
       },
       "id": "ak021fwbr2l6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.07,
-        "place": "Puerto Rico",
-        "time": 1639285376290,
-        "updated": 1639314867366,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021346004",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021346004.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 145,
-        "net": "pr",
-        "code": "2021346004",
-        "ids": ",pr2021346004,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.0286,
-        "rms": 0.16,
-        "gap": 100,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.871,
-          18.0025,
-          14
-        ]
-      },
-      "id": "pr2021346004"
     }
   ],
   "bbox": [
