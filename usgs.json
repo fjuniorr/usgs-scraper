@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639502547000,
+    "generated": 1639503469000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.55999994,
+        "place": "1 km SSW of Pāhala, Hawaii",
+        "time": 1639503221410,
+        "updated": 1639503412590,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72833402",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72833402.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 101,
+        "net": "hv",
+        "code": "72833402",
+        "ids": ",hv72833402,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 74,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 1 km SSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.485168457031,
+          19.1891670227051,
+          32.4300003051758
+        ]
+      },
+      "id": "hv72833402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.74,
+        "place": "4 km S of Indios, Puerto Rico",
+        "time": 1639501635570,
+        "updated": 1639502730315,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021348002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021348002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "pr",
+        "code": "2021348002",
+        "ids": ",pr2021348002,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.0565,
+        "rms": 0.16,
+        "gap": 171,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 4 km S of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8263,
+          17.9553,
+          12
+        ]
+      },
+      "id": "pr2021348002"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -334,8 +414,8 @@
       "properties": {
         "mag": 2.9,
         "place": "35 km SE of Mina, Nevada",
-        "time": 1639475899277,
-        "updated": 1639501423322,
+        "time": 1639475899278,
+        "updated": 1639502730100,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00829910",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00829910.geojson",
@@ -351,10 +431,10 @@
         "ids": ",nn00829910,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 21,
+        "nst": 20,
         "dmin": 0.045,
-        "rms": 0.1813,
-        "gap": 113.4,
+        "rms": 0.1837,
+        "gap": 113.42,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.9 - 35 km SE of Mina, Nevada"
@@ -362,8 +442,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.8157,
-          38.1734,
+          -117.8156,
+          38.1735,
           8.7
         ]
       },
@@ -1168,6 +1248,46 @@
         ]
       },
       "id": "ak021fy7kmln"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.52,
+        "place": "34 km S of False Pass, Alaska",
+        "time": 1639423965980,
+        "updated": 1639502830270,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91443926",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91443926.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "av",
+        "code": "91443926",
+        "ids": ",av91443926,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": null,
+        "rms": 0.17,
+        "gap": 212,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 34 km S of False Pass, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.308833333333,
+          54.5525,
+          9.57
+        ]
+      },
+      "id": "av91443926"
     },
     {
       "type": "Feature",
