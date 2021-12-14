@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639507826000,
+    "generated": 1639508858000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 37
   },
   "features": [
     {
@@ -48,6 +48,86 @@
         ]
       },
       "id": "us6000gc71"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.54,
+        "place": "15 km WNW of Stanley, Idaho",
+        "time": 1639503061420,
+        "updated": 1639508498690,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80533564",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80533564.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "mb",
+        "code": "80533564",
+        "ids": ",mb80533564,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.77,
+        "rms": 0.14,
+        "gap": 123,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 15 km WNW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1048333,
+          44.2956667,
+          18.35
+        ]
+      },
+      "id": "mb80533564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.82,
+        "place": "16 km WNW of Stanley, Idaho",
+        "time": 1639502713560,
+        "updated": 1639508494650,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80533554",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80533554.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 122,
+        "net": "mb",
+        "code": "80533554",
+        "ids": ",mb80533554,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 1.009,
+        "rms": 0.15,
+        "gap": 123,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 16 km WNW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.12,
+          44.297,
+          18.46
+        ]
+      },
+      "id": "mb80533554"
     },
     {
       "type": "Feature",
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "197 km SE of Perryville, Alaska",
+        "place": "south of Alaska",
         "time": 1639456638717,
         "updated": 1639457917686,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 197 km SE of Perryville, Alaska"
+        "title": "M 3.2 - south of Alaska"
       },
       "geometry": {
         "type": "Point",
