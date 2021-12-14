@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639484171000,
+    "generated": 1639486171000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 29
   },
   "features": [
     {
@@ -14,8 +14,8 @@
       "properties": {
         "mag": 2.5,
         "place": "26 km W of Clam Gulch, Alaska",
-        "time": 1639483973648,
-        "updated": 1639484135353,
+        "time": 1639483973616,
+        "updated": 1639484596805,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fzq8ntk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fzq8ntk.geojson",
@@ -33,7 +33,7 @@
         "types": ",origin,",
         "nst": null,
         "dmin": null,
-        "rms": 0.51,
+        "rms": 0.54,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.8631,
-          60.2727,
-          77
+          -151.8686,
+          60.2771,
+          77.5
         ]
       },
       "id": "ak021fzq8ntk"
@@ -293,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "south of Alaska",
+        "place": "197 km SE of Perryville, Alaska",
         "time": 1639456638717,
         "updated": 1639457917686,
         "tz": null,
@@ -317,7 +317,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - south of Alaska"
+        "title": "M 3.2 - 197 km SE of Perryville, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1168,46 +1168,6 @@
         ]
       },
       "id": "tx2021yjee"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "57 km SSW of Shungnak, Alaska",
-        "time": 1639397803447,
-        "updated": 1639398623617,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fy2q5by",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fy2q5by.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "021fy2q5by",
-        "ids": ",us6000gbv9,ak021fy2q5by,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.73,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 57 km SSW of Shungnak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.4822,
-          66.3924,
-          24.6
-        ]
-      },
-      "id": "ak021fy2q5by"
     }
   ],
   "bbox": [
@@ -1215,7 +1175,7 @@
     -58.7304,
     -1.3600000143051,
     142.2602,
-    66.3924,
+    62.0349,
     553.68
   ]
 }
