@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639452676000,
+    "generated": 1639453506000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,42 +12,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 7.6,
-        "place": "95 km N of Maumere, Indonesia",
-        "time": 1639452026000,
-        "updated": 1639452603709,
+        "mag": 7.3,
+        "place": "112 km N of Maumere, Indonesia",
+        "time": 1639452024377,
+        "updated": 1639453410247,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt21348000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt21348000.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc2a",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc2a.geojson",
+        "felt": 7,
+        "cdi": 9.1,
         "mmi": null,
         "alert": null,
-        "status": "REVIEWED",
+        "status": "reviewed",
         "tsunami": 1,
-        "sig": 889,
-        "net": "pt",
-        "code": "21348000",
-        "ids": ",pt21348000,",
-        "sources": ",pt,",
-        "types": ",impact-link,origin,",
-        "nst": 17,
-        "dmin": null,
-        "rms": null,
-        "gap": 75.59999395200049,
-        "magType": "Mi",
+        "sig": 826,
+        "net": "us",
+        "code": "6000gc2a",
+        "ids": ",pt21348000,at00r435a2,us6000gc2a,",
+        "sources": ",pt,at,us,",
+        "types": ",dyfi,impact-link,moment-tensor,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.026,
+        "rms": 0.88,
+        "gap": 68,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 7.6 - 95 km N of Maumere, Indonesia"
+        "title": "M 7.3 - 112 km N of Maumere, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          122.313,
-          -7.758,
-          75.9
+          122.2,
+          -7.6033,
+          18.45
         ]
       },
-      "id": "pt21348000"
+      "id": "us6000gc2a"
     },
     {
       "type": "Feature",
