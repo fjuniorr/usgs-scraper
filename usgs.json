@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639464664000,
+    "generated": 1639465809000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "24 km SSE of Ejido Doctor Alberto Oviedo Mota (El Indiviso), Mexico",
+        "time": 1639463773153,
+        "updated": 1639465010789,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc44",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc44.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.05,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "6000gc44",
+        "ids": ",us6000gc44,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.689,
+        "rms": 0.76,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 24 km SSE of Ejido Doctor Alberto Oviedo Mota (El Indiviso), Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.931,
+          31.8053,
+          10
+        ]
+      },
+      "id": "us6000gc44"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1208,46 +1248,6 @@
         ]
       },
       "id": "tx2021yits"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.7,
-        "place": "5 km S of El Pacayal, Mexico",
-        "time": 1639378988583,
-        "updated": 1639447672394,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbt6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbt6.geojson",
-        "felt": 15,
-        "cdi": 6.1,
-        "mmi": 3.633,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 509,
-        "net": "us",
-        "code": "6000gbt6",
-        "ids": ",us6000gbt6,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 0.731,
-        "rms": 0.74,
-        "gap": 82,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.7 - 5 km S of El Pacayal, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.0435,
-          15.5517,
-          180.1
-        ]
-      },
-      "id": "us6000gbt6"
     }
   ],
   "bbox": [
