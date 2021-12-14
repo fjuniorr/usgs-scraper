@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639510983000,
+    "generated": 1639511591000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -132,42 +132,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.54,
-        "place": "15 km WNW of Stanley, Idaho",
-        "time": 1639503061420,
-        "updated": 1639508498690,
+        "mag": 2.6,
+        "place": "18 km WNW of Stanley, Idaho",
+        "time": 1639503058910,
+        "updated": 1639511577040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80533564",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80533564.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc8q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc8q.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 99,
-        "net": "mb",
-        "code": "80533564",
-        "ids": ",mb80533564,",
-        "sources": ",mb,",
+        "sig": 104,
+        "net": "us",
+        "code": "6000gc8q",
+        "ids": ",mb80533564,us6000gc8q,",
+        "sources": ",mb,us,",
         "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.77,
-        "rms": 0.14,
-        "gap": 123,
+        "nst": null,
+        "dmin": 0.815,
+        "rms": 1.2,
+        "gap": 94,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 15 km WNW of Stanley, Idaho"
+        "title": "M 2.6 - 18 km WNW of Stanley, Idaho"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.1048333,
-          44.2956667,
-          18.35
+          -115.162,
+          44.2633,
+          20.21
         ]
       },
-      "id": "mb80533564"
+      "id": "us6000gc8q"
     },
     {
       "type": "Feature",
