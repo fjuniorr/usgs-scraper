@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639471080000,
+    "generated": 1639471690000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -55,7 +55,7 @@
         "mag": 3.8,
         "place": "24 km SSE of Ejido Doctor Alberto Oviedo Mota (El Indiviso), Mexico",
         "time": 1639463773153,
-        "updated": 1639468267430,
+        "updated": 1639471094848,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc44",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc44.geojson",
