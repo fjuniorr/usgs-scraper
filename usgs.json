@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639491930000,
+    "generated": 1639492537000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.01,
+        "place": "28 km SSE of Punta Cana, Dominican Republic",
+        "time": 1639490965780,
+        "updated": 1639492393178,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021348001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021348001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "pr",
+        "code": "2021348001",
+        "ids": ",pr2021348001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.184,
+        "rms": 0.14,
+        "gap": 165,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 28 km SSE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2986,
+          18.3496,
+          79
+        ]
+      },
+      "id": "pr2021348001"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -415,17 +455,17 @@
         "mag": 5.5,
         "place": "89 km W of Vallenar, Chile",
         "time": 1639455835031,
-        "updated": 1639483662618,
+        "updated": 1639492447827,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc3k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc3k.geojson",
-        "felt": 4,
+        "felt": 8,
         "cdi": 3.8,
         "mmi": 4.174,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 467,
+        "sig": 468,
         "net": "us",
         "code": "6000gc3k",
         "ids": ",us6000gc3k,",
@@ -448,6 +488,46 @@
         ]
       },
       "id": "us6000gc3k"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "12 km N of Koosharem, Utah",
+        "time": 1639454824880,
+        "updated": 1639492182650,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60471807",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60471807.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "uu",
+        "code": "60471807",
+        "ids": ",uu60471807,",
+        "sources": ",uu,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.2715,
+        "rms": 0.28,
+        "gap": 130,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 12 km N of Koosharem, Utah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.903,
+          38.626,
+          3.69
+        ]
+      },
+      "id": "uu60471807"
     },
     {
       "type": "Feature",
