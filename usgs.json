@@ -1,19 +1,19 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639516020000,
+    "generated": 1639516936000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Philippine Islands region",
+        "place": "123 km ESE of Pondaguitan, Philippines",
         "time": 1639507296123,
         "updated": 1639508860040,
         "tz": null,
@@ -37,7 +37,7 @@
         "gap": 95,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - Philippine Islands region"
+        "title": "M 5.0 - 123 km ESE of Pondaguitan, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -55,12 +55,12 @@
         "mag": 3.1,
         "place": "20 km NW of Stanley, Idaho",
         "time": 1639504510885,
-        "updated": 1639513439040,
+        "updated": 1639516237737,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc8a",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc8a.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -68,9 +68,9 @@
         "sig": 148,
         "net": "us",
         "code": "6000gc8a",
-        "ids": ",mb80533569,us6000gc8a,",
-        "sources": ",mb,us,",
-        "types": ",origin,phase-data,",
+        "ids": ",us6000gc8a,mb80533569,",
+        "sources": ",us,mb,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.969,
         "rms": 0.77,
@@ -295,12 +295,12 @@
         "mag": 3.2,
         "place": "14 km WNW of Stanley, Idaho",
         "time": 1639500548605,
-        "updated": 1639509489040,
+        "updated": 1639516356258,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc6q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc6q.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -308,9 +308,9 @@
         "sig": 158,
         "net": "us",
         "code": "6000gc6q",
-        "ids": ",mb80533534,us6000gc6q,",
-        "sources": ",mb,us,",
-        "types": ",origin,phase-data,",
+        "ids": ",us6000gc6q,mb80533534,",
+        "sources": ",us,mb,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.982,
         "rms": 0.65,
@@ -973,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "197 km SE of Perryville, Alaska",
+        "place": "south of Alaska",
         "time": 1639456638717,
         "updated": 1639457917686,
         "tz": null,
@@ -997,7 +997,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 197 km SE of Perryville, Alaska"
+        "title": "M 3.2 - south of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1408,46 +1408,6 @@
         ]
       },
       "id": "us6000gc0k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "163 km NNE of Palu, Indonesia",
-        "time": 1639430046413,
-        "updated": 1639434093040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc07",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc07.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000gc07",
-        "ids": ",us6000gc07,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.745,
-        "rms": 1.05,
-        "gap": 82,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 163 km NNE of Palu, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.5764,
-          0.3895,
-          70.57
-        ]
-      },
-      "id": "us6000gc07"
     }
   ],
   "bbox": [
