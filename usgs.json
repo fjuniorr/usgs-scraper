@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639476664000,
+    "generated": 1639478057000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -55,7 +55,7 @@
         "mag": 5.5,
         "place": "110 km N of Maumere, Indonesia",
         "time": 1639470691350,
-        "updated": 1639472039622,
+        "updated": 1639477982690,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc4q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc4q.geojson",
@@ -1252,42 +1252,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "210 km E of Levuka, Fiji",
-        "time": 1639391423974,
-        "updated": 1639397076040,
+        "mag": 4.1,
+        "place": "129 km SSE of San Pedro de Atacama, Chile",
+        "time": 1639393014732,
+        "updated": 1639478039040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbup",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbup.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbuu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbuu.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
+        "sig": 259,
         "net": "us",
-        "code": "6000gbup",
-        "ids": ",us6000gbup,",
+        "code": "6000gbuu",
+        "ids": ",us6000gbuu,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 3.076,
-        "rms": 1.05,
-        "gap": 111,
+        "dmin": 1.12,
+        "rms": 0.31,
+        "gap": 118,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 210 km E of Levuka, Fiji"
+        "title": "M 4.1 - 129 km SSE of San Pedro de Atacama, Chile"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -178.7192,
-          -17.7549,
-          541.49
+          -67.7236,
+          -23.9967,
+          251.93
         ]
       },
-      "id": "us6000gbup"
+      "id": "us6000gbuu"
     }
   ],
   "bbox": [
