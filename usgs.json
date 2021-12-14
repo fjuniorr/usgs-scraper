@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639493569000,
+    "generated": 1639494600000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 27
   },
   "features": [
     {
@@ -332,56 +332,16 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.47000003,
-        "place": "43 km NE of Marblemount, Washington",
-        "time": 1639469756030,
-        "updated": 1639469922000,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61806246",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61806246.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "uw",
-        "code": "61806246",
-        "ids": ",uw61806246,",
-        "sources": ",uw,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": null,
-        "rms": 0.639999986,
-        "gap": 81,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 43 km NE of Marblemount, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.987503051758,
-          48.7723350524902,
-          -1.36000001430511
-        ]
-      },
-      "id": "uw61806246"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 3.9,
         "place": "55km S of Estacion Coahuila, B.C., MX",
         "time": 1639463775330,
-        "updated": 1639492862643,
+        "updated": 1639493556275,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39886887",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39886887.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 4.392,
+        "mmi": 4.444,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1133,7 +1093,7 @@
   "bbox": [
     -179.5895,
     -37.1222,
-    -1.3600000143051,
+    3.69,
     142.2602,
     69.1808,
     553.68
