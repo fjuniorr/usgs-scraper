@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639493023000,
+    "generated": 1639493569000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 28
   },
   "features": [
     {
@@ -48,6 +48,46 @@
         ]
       },
       "id": "pr2021348001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "111 km SSW of Kaktovik, Alaska",
+        "time": 1639490148932,
+        "updated": 1639493490040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc5z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc5z.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000gc5z",
+        "ids": ",us6000gc5z,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.524,
+        "rms": 0.35,
+        "gap": 150,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 111 km SSW of Kaktovik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.4868,
+          69.1808,
+          10
+        ]
+      },
+      "id": "us6000gc5z"
     },
     {
       "type": "Feature",
@@ -1095,7 +1135,7 @@
     -37.1222,
     -1.3600000143051,
     142.2602,
-    60.2771,
+    69.1808,
     553.68
   ]
 }
