@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639524667000,
+    "generated": 1639525456000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -1372,6 +1372,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.62,
+        "place": "23 km S of Waikoloa, Hawaii",
+        "time": 1639456586450,
+        "updated": 1639525130040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72832962",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72832962.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "hv",
+        "code": "72832962",
+        "ids": ",hv72832962,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": null,
+        "rms": 0.29,
+        "gap": 117,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 23 km S of Waikoloa, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.753833333333,
+          19.7331666666667,
+          10.18
+        ]
+      },
+      "id": "hv72832962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.5,
         "place": "89 km W of Vallenar, Chile",
         "time": 1639455835031,
@@ -1648,46 +1688,6 @@
         ]
       },
       "id": "ak021fzj188o"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "56 km SW of Puerto El Triunfo, El Salvador",
-        "time": 1639438828501,
-        "updated": 1639440844040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc1b",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc1b.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000gc1b",
-        "ids": ",us6000gc1b,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.789,
-        "rms": 1.21,
-        "gap": 124,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 56 km SW of Puerto El Triunfo, El Salvador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.8833,
-          12.895,
-          60.06
-        ]
-      },
-      "id": "us6000gc1b"
     }
   ],
   "bbox": [
