@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639564470000,
+    "generated": 1639565129000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 50
+    "count": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1639563888028,
+        "updated": 1639564825040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcdd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcdd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.257,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000gcdd",
+        "ids": ",us6000gcdd,ak021g1cnprs,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.196,
+        "rms": 0.83,
+        "gap": 168,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.2662,
+          52.0107,
+          128.77
+        ]
+      },
+      "id": "us6000gcdd"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4,
         "place": "2 km SSW of Gypsum, Kansas",
         "time": 1639562301667,
-        "updated": 1639564286338,
+        "updated": 1639564898196,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcd6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcd6.geojson",
-        "felt": 40,
-        "cdi": 3.7,
+        "felt": 52,
+        "cdi": 4.1,
         "mmi": 5.69,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 261,
+        "sig": 267,
         "net": "us",
         "code": "6000gcd6",
         "ids": ",us6000gcd6,",
