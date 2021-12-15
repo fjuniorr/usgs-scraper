@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639552214000,
+    "generated": 1639553368000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -93,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "75 km WNW of San Antonio de los Cobres, Argentina",
+        "place": "Chile-Argentina border region",
         "time": 1639544616518,
         "updated": 1639548592040,
         "tz": null,
@@ -117,7 +117,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 75 km WNW of San Antonio de los Cobres, Argentina"
+        "title": "M 4.2 - Chile-Argentina border region"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Philippine Islands region",
+        "place": "123 km ESE of Pondaguitan, Philippines",
         "time": 1639507296123,
         "updated": 1639508860040,
         "tz": null,
@@ -1157,7 +1157,7 @@
         "gap": 95,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - Philippine Islands region"
+        "title": "M 5.0 - 123 km ESE of Pondaguitan, Philippines"
       },
       "geometry": {
         "type": "Point",
