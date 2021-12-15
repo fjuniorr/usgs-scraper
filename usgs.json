@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639590123000,
+    "generated": 1639590737000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 51
+    "count": 50
   },
   "features": [
     {
@@ -92,10 +92,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.51,
-        "place": "47 km ESE of Naalehu, Hawaii",
-        "time": 1639584655010,
-        "updated": 1639584986890,
+        "mag": 2.95,
+        "place": "46 km ESE of Naalehu, Hawaii",
+        "time": 1639584655260,
+        "updated": 1639590310430,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72834547",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72834547.geojson",
@@ -103,28 +103,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 97,
+        "sig": 134,
         "net": "hv",
         "code": "72834547",
         "ids": ",hv72834547,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 38,
+        "nst": 47,
         "dmin": null,
-        "rms": 0.219999999,
-        "gap": 268,
-        "magType": "ml",
+        "rms": 0.14,
+        "gap": 265,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 47 km ESE of Naalehu, Hawaii"
+        "title": "M 3.0 - 46 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.195663452148,
-          18.8348331451416,
-          9.31999969482422
+          -155.204166666667,
+          18.8388333333333,
+          8.74
         ]
       },
       "id": "hv72834547"
@@ -535,11 +535,11 @@
         "mag": 4,
         "place": "2 km SSW of Gypsum, Kansas",
         "time": 1639562301667,
-        "updated": 1639589950253,
+        "updated": 1639590266642,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcd6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcd6.geojson",
-        "felt": 109,
+        "felt": 110,
         "cdi": 4.1,
         "mmi": 4.697,
         "alert": "green",
@@ -2008,46 +2008,6 @@
         ]
       },
       "id": "us6000gc8a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "off the coast of Oregon",
-        "time": 1639503845586,
-        "updated": 1639570216017,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc71",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc71.geojson",
-        "felt": 16,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 264,
-        "net": "us",
-        "code": "6000gc71",
-        "ids": ",us6000gc71,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.78,
-        "rms": 0.96,
-        "gap": 201,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.334,
-          44.0625,
-          10
-        ]
-      },
-      "id": "us6000gc71"
     }
   ],
   "bbox": [
