@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639525996000,
+    "generated": 1639528524000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "52 km S of Ivanof Bay, Alaska",
+        "time": 1639524379199,
+        "updated": 1639526563040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gca9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gca9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.949,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "us",
+        "code": "6000gca9",
+        "ids": ",us6000gca9,ak021fzwvd3m,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.5,
+        "rms": 0.85,
+        "gap": 128,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.7 - 52 km S of Ivanof Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.6128,
+          55.4356,
+          46.89
+        ]
+      },
+      "id": "us6000gca9"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +135,7 @@
         "mag": 4.7,
         "place": "126 km WSW of Corral, Chile",
         "time": 1639519952173,
-        "updated": 1639524269040,
+        "updated": 1639525722040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc9t",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc9t.geojson",
@@ -110,7 +150,7 @@
         "code": "6000gc9t",
         "ids": ",us6000gc9t,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 1.544,
         "rms": 0.97,
@@ -255,17 +295,17 @@
         "mag": 4.4,
         "place": "off the coast of Oregon",
         "time": 1639518994759,
-        "updated": 1639524248438,
+        "updated": 1639528129912,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc9n",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc9n.geojson",
-        "felt": 17,
+        "felt": 25,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 304,
+        "sig": 307,
         "net": "us",
         "code": "6000gc9n",
         "ids": ",us6000gc9n,",
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "123 km ESE of Pondaguitan, Philippines",
+        "place": "Philippine Islands region",
         "time": 1639507296123,
         "updated": 1639508860040,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": 95,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 123 km ESE of Pondaguitan, Philippines"
+        "title": "M 5.0 - Philippine Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -1215,17 +1255,17 @@
         "mag": 4.6,
         "place": "52 km SW of Gaigeturi, South Korea",
         "time": 1639469956200,
-        "updated": 1639517023747,
+        "updated": 1639528456768,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc4p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc4p.geojson",
-        "felt": 9,
-        "cdi": 4.1,
+        "felt": 12,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 329,
+        "sig": 331,
         "net": "us",
         "code": "6000gc4p",
         "ids": ",us6000gc4p,",
@@ -1333,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "south of Alaska",
+        "place": "197 km SE of Perryville, Alaska",
         "time": 1639456638717,
         "updated": 1639457917686,
         "tz": null,
@@ -1357,7 +1397,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - south of Alaska"
+        "title": "M 3.2 - 197 km SE of Perryville, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1415,17 +1455,17 @@
         "mag": 5.5,
         "place": "89 km W of Vallenar, Chile",
         "time": 1639455835031,
-        "updated": 1639500102551,
+        "updated": 1639527517871,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc3k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc3k.geojson",
-        "felt": 21,
+        "felt": 22,
         "cdi": 3.8,
         "mmi": 4.174,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 473,
+        "sig": 474,
         "net": "us",
         "code": "6000gc3k",
         "ids": ",us6000gc3k,",
@@ -1532,20 +1572,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 5.8,
+        "place": "111 km N of Maumere, Indonesia",
+        "time": 1639452328146,
+        "updated": 1639527284014,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcaj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcaj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.07,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 518,
+        "net": "us",
+        "code": "6000gcaj",
+        "ids": ",us6000gcaj,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 1.017,
+        "rms": 0.91,
+        "gap": 78,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.8 - 111 km N of Maumere, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.2478,
+          -7.6114,
+          10
+        ]
+      },
+      "id": "us6000gcaj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 7.3,
         "place": "112 km N of Maumere, Indonesia",
         "time": 1639452024377,
-        "updated": 1639507468040,
+        "updated": 1639527539174,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc2a",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc2a.geojson",
-        "felt": 29,
+        "felt": 30,
         "cdi": 9.1,
         "mmi": 5.849,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 846,
+        "sig": 847,
         "net": "us",
         "code": "6000gc2a",
         "ids": ",pt21348000,at00r435a2,us6000gc2a,",
@@ -1648,46 +1728,6 @@
         ]
       },
       "id": "us6000gc1y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "140 km SSE of Perryville, Alaska",
-        "time": 1639440133291,
-        "updated": 1639442855439,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fzj188o",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fzj188o.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.845,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "ak",
-        "code": "021fzj188o",
-        "ids": ",ak021fzj188o,us6000gc1f,",
-        "sources": ",ak,us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.61,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.3 - 140 km SSE of Perryville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.9358,
-          54.8586,
-          10
-        ]
-      },
-      "id": "ak021fzj188o"
     }
   ],
   "bbox": [
