@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639563075000,
+    "generated": 1639564470000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "2 km SSW of Gypsum, Kansas",
+        "time": 1639562301667,
+        "updated": 1639564286338,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcd6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcd6.geojson",
+        "felt": 40,
+        "cdi": 3.7,
+        "mmi": 5.69,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 261,
+        "net": "us",
+        "code": "6000gcd6",
+        "ids": ",us6000gcd6,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.758,
+        "rms": 0.56,
+        "gap": 61,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.0 - 2 km SSW of Gypsum, Kansas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4441,
+          38.6822,
+          3
+        ]
+      },
+      "id": "us6000gcd6"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,22 +95,22 @@
         "mag": 5,
         "place": "58 km NE of Masjed Soleymān, Iran",
         "time": 1639556470221,
-        "updated": 1639557592040,
+        "updated": 1639564064427,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gccv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gccv.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 4.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 386,
         "net": "us",
         "code": "6000gccv",
         "ids": ",us6000gccv,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 4.321,
         "rms": 1.1,
@@ -1095,7 +1135,7 @@
         "mag": 2.5,
         "place": "6 km SSW of Gypsum, Kansas",
         "time": 1639519349520,
-        "updated": 1639562999644,
+        "updated": 1639563420575,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc9q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc9q.geojson",
@@ -1968,46 +2008,6 @@
         ]
       },
       "id": "ak021fzq8ntk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.74,
-        "place": "33 km S of False Pass, Alaska",
-        "time": 1639477326050,
-        "updated": 1639556702670,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91046358",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91046358.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "av",
-        "code": "91046358",
-        "ids": ",av91046358,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 281,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 33 km S of False Pass, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -163.337833333333,
-          54.56,
-          9.02
-        ]
-      },
-      "id": "av91046358"
     }
   ],
   "bbox": [
