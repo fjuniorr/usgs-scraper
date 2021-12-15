@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639536584000,
+    "generated": 1639537825000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -693,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Philippine Islands region",
+        "place": "123 km ESE of Pondaguitan, Philippines",
         "time": 1639507296123,
         "updated": 1639508860040,
         "tz": null,
@@ -717,7 +717,7 @@
         "gap": 95,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - Philippine Islands region"
+        "title": "M 5.0 - 123 km ESE of Pondaguitan, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "197 km SE of Perryville, Alaska",
+        "place": "south of Alaska",
         "time": 1639456638717,
         "updated": 1639457917686,
         "tz": null,
@@ -1677,7 +1677,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 197 km SE of Perryville, Alaska"
+        "title": "M 3.2 - south of Alaska"
       },
       "geometry": {
         "type": "Point",
