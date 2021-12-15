@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639537825000,
+    "generated": 1639539099000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "81 km W of Vallenar, Chile",
+        "time": 1639537530812,
+        "updated": 1639538907040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcbl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcbl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "us",
+        "code": "6000gcbl",
+        "ids": ",us6000gcbl,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.627,
+        "rms": 0.77,
+        "gap": 172,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 3.7 - 81 km W of Vallenar, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5916,
+          -28.6373,
+          37.18
+        ]
+      },
+      "id": "us6000gcbl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Izu Islands, Japan region",
+        "time": 1639536780442,
+        "updated": 1639537964040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcbk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcbk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000gcbk",
+        "ids": ",us6000gcbk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.62,
+        "rms": 0.86,
+        "gap": 124,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.2559,
+          31.5012,
+          10
+        ]
+      },
+      "id": "us6000gcbk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "18 km NW of Stanley, Idaho",
+        "time": 1639536420405,
+        "updated": 1639538531040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcbi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcbi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000gcbi",
+        "ids": ",us6000gcbi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.991,
+        "rms": 1.05,
+        "gap": 47,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 18 km NW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1223,
+          44.3193,
+          10
+        ]
+      },
+      "id": "us6000gcbi"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,7 +375,7 @@
         "mag": 2.62,
         "place": "8km W of Cobb, CA",
         "time": 1639528538590,
-        "updated": 1639530853223,
+        "updated": 1639539070786,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73663731",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73663731.geojson",
@@ -575,11 +695,11 @@
         "mag": 4.4,
         "place": "off the coast of Oregon",
         "time": 1639518994759,
-        "updated": 1639536039248,
+        "updated": 1639538983299,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc9n",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc9n.geojson",
-        "felt": 34,
+        "felt": 35,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -693,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "123 km ESE of Pondaguitan, Philippines",
+        "place": "Philippine Islands region",
         "time": 1639507296123,
         "updated": 1639508860040,
         "tz": null,
@@ -717,7 +837,7 @@
         "gap": 95,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 123 km ESE of Pondaguitan, Philippines"
+        "title": "M 5.0 - Philippine Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "south of Alaska",
+        "place": "197 km SE of Perryville, Alaska",
         "time": 1639456638717,
         "updated": 1639457917686,
         "tz": null,
@@ -1677,7 +1797,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - south of Alaska"
+        "title": "M 3.2 - 197 km SE of Perryville, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1848,86 +1968,6 @@
         ]
       },
       "id": "us6000gc3a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.8,
-        "place": "111 km N of Maumere, Indonesia",
-        "time": 1639452328146,
-        "updated": 1639527284014,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcaj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcaj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.07,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 518,
-        "net": "us",
-        "code": "6000gcaj",
-        "ids": ",us6000gcaj,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 1.017,
-        "rms": 0.91,
-        "gap": 78,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.8 - 111 km N of Maumere, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          122.2478,
-          -7.6114,
-          10
-        ]
-      },
-      "id": "us6000gcaj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 7.3,
-        "place": "112 km N of Maumere, Indonesia",
-        "time": 1639452024377,
-        "updated": 1639531114721,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc2a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc2a.geojson",
-        "felt": 33,
-        "cdi": 9.1,
-        "mmi": 5.849,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 850,
-        "net": "us",
-        "code": "6000gc2a",
-        "ids": ",pt21348000,at00r435a2,us6000gc2a,",
-        "sources": ",pt,at,us,",
-        "types": ",dyfi,finite-fault,general-text,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 1.026,
-        "rms": 0.88,
-        "gap": 68,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 7.3 - 112 km N of Maumere, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          122.2,
-          -7.6033,
-          18.45
-        ]
-      },
-      "id": "us6000gc2a"
     }
   ],
   "bbox": [
