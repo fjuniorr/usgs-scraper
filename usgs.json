@@ -1,61 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639589060000,
+    "generated": 1639590123000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 53
+    "count": 51
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.48000002,
-        "place": "44 km SE of Naalehu, Hawaii",
-        "time": 1639587063630,
-        "updated": 1639587259560,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72834587",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72834587.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "hv",
-        "code": "72834587",
-        "ids": ",hv72834587,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": null,
-        "rms": 0.180000007,
-        "gap": 271,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 44 km SE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.263336181641,
-          18.8020000457764,
-          8.27999973297119
-        ]
-      },
-      "id": "hv72834587"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
+        "mag": 2.74,
         "place": "48 km ESE of Naalehu, Hawaii",
-        "time": 1639586201810,
-        "updated": 1639586531870,
+        "time": 1639586201580,
+        "updated": 1639589810610,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72834572",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72834572.geojson",
@@ -63,28 +23,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 105,
+        "sig": 116,
         "net": "hv",
         "code": "72834572",
         "ids": ",hv72834572,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 39,
+        "nst": 46,
         "dmin": null,
-        "rms": 0.189999998,
-        "gap": 268,
-        "magType": "ml",
+        "rms": 0.13,
+        "gap": 267,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 48 km ESE of Naalehu, Hawaii"
+        "title": "M 2.7 - 48 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.193496704102,
-          18.8349990844727,
-          10.0900001525879
+          -155.1945,
+          18.826,
+          8.34
         ]
       },
       "id": "hv72834572"
@@ -215,17 +175,17 @@
         "mag": 3.4,
         "place": "Kansas",
         "time": 1639580588658,
-        "updated": 1639588746308,
+        "updated": 1639589061260,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gced",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gced.geojson",
-        "felt": 16,
+        "felt": 17,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 184,
+        "sig": 185,
         "net": "us",
         "code": "6000gced",
         "ids": ",us6000gced,",
@@ -575,17 +535,17 @@
         "mag": 4,
         "place": "2 km SSW of Gypsum, Kansas",
         "time": 1639562301667,
-        "updated": 1639586643058,
+        "updated": 1639589950253,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcd6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcd6.geojson",
-        "felt": 106,
+        "felt": 109,
         "cdi": 4.1,
         "mmi": 4.697,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 290,
+        "sig": 291,
         "net": "us",
         "code": "6000gcd6",
         "ids": ",us6000gcd6,",
@@ -1332,6 +1292,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.1,
+        "place": "17 km S of Paradise Valley, Nevada",
+        "time": 1639533376550,
+        "updated": 1639589679453,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00829958",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00829958.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "nn",
+        "code": "00829958",
+        "ids": ",nn00829958,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.922,
+        "rms": 0.1952,
+        "gap": 144.56,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 17 km S of Paradise Valley, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.5345,
+          41.337,
+          8.7
+        ]
+      },
+      "id": "nn00829958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.59,
         "place": "4 km S of Guánica, Puerto Rico",
         "time": 1639533328110,
@@ -2048,86 +2048,6 @@
         ]
       },
       "id": "us6000gc71"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "18 km WNW of Stanley, Idaho",
-        "time": 1639503058910,
-        "updated": 1639511577040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc8q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc8q.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "6000gc8q",
-        "ids": ",mb80533564,us6000gc8q,",
-        "sources": ",mb,us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.815,
-        "rms": 1.2,
-        "gap": 94,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 18 km WNW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.162,
-          44.2633,
-          20.21
-        ]
-      },
-      "id": "us6000gc8q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "16 km NW of Stanley, Idaho",
-        "time": 1639502711636,
-        "updated": 1639510884040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc6y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc6y.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "6000gc6y",
-        "ids": ",mb80533554,us6000gc6y,",
-        "sources": ",mb,us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.002,
-        "rms": 1.06,
-        "gap": 44,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 16 km NW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.0713,
-          44.335,
-          18.15
-        ]
-      },
-      "id": "us6000gc6y"
     }
   ],
   "bbox": [
