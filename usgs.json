@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639550270000,
+    "generated": 1639551121000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "9 km E of Maricao, Puerto Rico",
+        "time": 1639549744150,
+        "updated": 1639550525278,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021349002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021349002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "2021349002",
+        "ids": ",pr2021349002,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.2278,
+        "rms": 0.08,
+        "gap": 109,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 9 km E of Maricao, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8953,
+          18.168,
+          15
+        ]
+      },
+      "id": "pr2021349002"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.8,
         "place": "8 km W of Harding-Birch Lakes, Alaska",
         "time": 1639549457887,
-        "updated": 1639550238463,
+        "updated": 1639550578976,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g1a9wjb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g1a9wjb.geojson",
@@ -53,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "75 km WNW of San Antonio de los Cobres, Argentina",
+        "place": "Chile-Argentina border region",
         "time": 1639544616518,
         "updated": 1639548592040,
         "tz": null,
@@ -77,7 +117,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 75 km WNW of San Antonio de los Cobres, Argentina"
+        "title": "M 4.2 - Chile-Argentina border region"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Philippine Islands region",
+        "place": "123 km ESE of Pondaguitan, Philippines",
         "time": 1639507296123,
         "updated": 1639508860040,
         "tz": null,
@@ -1117,7 +1157,7 @@
         "gap": 95,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - Philippine Islands region"
+        "title": "M 5.0 - 123 km ESE of Pondaguitan, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1935,7 +1975,7 @@
         "mag": 4.6,
         "place": "52 km SW of Gaigeturi, South Korea",
         "time": 1639469956200,
-        "updated": 1639550223133,
+        "updated": 1639550602598,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc4p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc4p.geojson",
