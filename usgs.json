@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639579411000,
+    "generated": 1639579948000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45000005,
+        "place": "4 km SSW of Pāhala, Hawaii",
+        "time": 1639579447470,
+        "updated": 1639579644380,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72834442",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72834442.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "hv",
+        "code": "72834442",
+        "ids": ",hv72834442,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": null,
+        "rms": 0.129999995,
+        "gap": 112,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km SSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.488494873047,
+          19.1626663208008,
+          36.1399993896484
+        ]
+      },
+      "id": "hv72834442"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -93,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "48 km ENE of Santa Monica, Philippines",
+        "place": "Philippine Islands region",
         "time": 1639573906311,
         "updated": 1639575291040,
         "tz": null,
@@ -117,7 +157,7 @@
         "gap": 97,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 48 km ENE of Santa Monica, Philippines"
+        "title": "M 4.9 - Philippine Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -133,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Baja California, Mexico",
+        "place": "101 km W of La Libertad, Mexico",
         "time": 1639564720504,
         "updated": 1639565959040,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": 155,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Baja California, Mexico"
+        "title": "M 4.8 - 101 km W of La Libertad, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -215,17 +255,17 @@
         "mag": 4,
         "place": "2 km SSW of Gypsum, Kansas",
         "time": 1639562301667,
-        "updated": 1639579396805,
+        "updated": 1639579706206,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcd6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcd6.geojson",
-        "felt": 95,
+        "felt": 96,
         "cdi": 4.1,
         "mmi": 4.697,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 285,
+        "sig": 286,
         "net": "us",
         "code": "6000gcd6",
         "ids": ",us6000gcd6,",
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "158 km NNE of Ruteng, Indonesia",
+        "place": "Flores Sea",
         "time": 1639559671056,
         "updated": 1639562115040,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 158 km NNE of Ruteng, Indonesia"
+        "title": "M 4.5 - Flores Sea"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "75 km WNW of San Antonio de los Cobres, Argentina",
+        "place": "Chile-Argentina border region",
         "time": 1639544616518,
         "updated": 1639548592040,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 75 km WNW of San Antonio de los Cobres, Argentina"
+        "title": "M 4.2 - Chile-Argentina border region"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Philippine Islands region",
+        "place": "123 km ESE of Pondaguitan, Philippines",
         "time": 1639507296123,
         "updated": 1639508860040,
         "tz": null,
@@ -1597,7 +1637,7 @@
         "gap": 95,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - Philippine Islands region"
+        "title": "M 5.0 - 123 km ESE of Pondaguitan, Philippines"
       },
       "geometry": {
         "type": "Point",
