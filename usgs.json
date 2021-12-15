@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639546201000,
+    "generated": 1639546991000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -1855,7 +1855,7 @@
         "mag": 4.6,
         "place": "52 km SW of Gaigeturi, South Korea",
         "time": 1639469956200,
-        "updated": 1639542222978,
+        "updated": 1639546632866,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc4p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc4p.geojson",
