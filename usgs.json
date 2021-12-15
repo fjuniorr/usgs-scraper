@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639600323000,
+    "generated": 1639601035000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 61
+    "count": 60
   },
   "features": [
     {
@@ -255,11 +255,11 @@
         "mag": 3.1,
         "place": "7 km SW of Gypsum, Kansas",
         "time": 1639592268920,
-        "updated": 1639599361531,
+        "updated": 1639600928197,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcie",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcie.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -615,12 +615,12 @@
         "mag": 2.9,
         "place": "14 km ENE of Gardendale, Texas",
         "time": 1639582221605,
-        "updated": 1639598886011,
+        "updated": 1639600980912,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021ymzt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021ymzt.geojson",
-        "felt": 20,
-        "cdi": 3.8,
+        "felt": 21,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -2408,46 +2408,6 @@
         ]
       },
       "id": "us6000gc9g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "26 km SW of Monument, New Mexico",
-        "time": 1639514393651,
-        "updated": 1639593536040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc94",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc94.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "6000gc94",
-        "ids": ",us6000gc94,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.11,
-        "rms": 0.65,
-        "gap": 51,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 26 km SW of Monument, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.4624,
-          32.4523,
-          3.6
-        ]
-      },
-      "id": "us6000gc94"
     }
   ],
   "bbox": [
