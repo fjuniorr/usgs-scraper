@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639647878000,
+    "generated": 1639648411000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 51
+    "count": 52
   },
   "features": [
     {
@@ -92,6 +92,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.96,
+        "place": "49 km SE of Naalehu, Hawaii",
+        "time": 1639644789440,
+        "updated": 1639648096640,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72835332",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72835332.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 135,
+        "net": "hv",
+        "code": "72835332",
+        "ids": ",hv72835332,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": null,
+        "rms": 0.18,
+        "gap": 279,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 49 km SE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.266,
+          18.7376666666667,
+          8.04
+        ]
+      },
+      "id": "hv72835332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.72000003,
         "place": "45 km SE of Naalehu, Hawaii",
         "time": 1639644467020,
@@ -132,10 +172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.71,
+        "mag": 2.69,
         "place": "47 km SE of Naalehu, Hawaii",
-        "time": 1639644378270,
-        "updated": 1639645044040,
+        "time": 1639644378440,
+        "updated": 1639648228110,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72835317",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72835317.geojson",
@@ -143,18 +183,18 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 113,
+        "sig": 111,
         "net": "hv",
         "code": "72835317",
         "ids": ",us6000gcq3,hv72835317,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 32,
+        "nst": 33,
         "dmin": null,
-        "rms": 0.129999995,
-        "gap": 275,
+        "rms": 0.13,
+        "gap": 274,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.7 - 47 km SE of Naalehu, Hawaii"
@@ -162,9 +202,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.262664794922,
-          18.7573337554932,
-          8.30000019073486
+          -155.261166666667,
+          18.7681666666667,
+          8.16
         ]
       },
       "id": "hv72835317"
@@ -1373,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "149 km NNW of Caluula, Somalia",
+        "place": "Gulf of Aden",
         "time": 1639589603608,
         "updated": 1639592110040,
         "tz": null,
@@ -1397,7 +1437,7 @@
         "gap": 103,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 149 km NNW of Caluula, Somalia"
+        "title": "M 4.7 - Gulf of Aden"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.74,
-        "place": "48 km ESE of Naalehu, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1639586201580,
         "updated": 1639608599040,
         "tz": null,
@@ -1477,7 +1517,7 @@
         "gap": 267,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 48 km ESE of Naalehu, Hawaii"
+        "title": "M 2.7 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "Kansas",
+        "place": "8 km ESE of Assaria, Kansas",
         "time": 1639580588658,
         "updated": 1639599136188,
         "tz": null,
@@ -1677,7 +1717,7 @@
         "gap": 84,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - Kansas"
+        "title": "M 3.4 - 8 km ESE of Assaria, Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1893,7 +1933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.64,
-        "place": "southern Idaho",
+        "place": "17 km WNW of Stanley, Idaho",
         "time": 1639573680810,
         "updated": 1639583877940,
         "tz": null,
@@ -1917,7 +1957,7 @@
         "gap": 123,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - southern Idaho"
+        "title": "M 2.6 - 17 km WNW of Stanley, Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -1933,7 +1973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Baja California, Mexico",
+        "place": "101 km W of La Libertad, Mexico",
         "time": 1639564720504,
         "updated": 1639617728730,
         "tz": null,
@@ -1957,7 +1997,7 @@
         "gap": 155,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Baja California, Mexico"
+        "title": "M 4.8 - 101 km W of La Libertad, Mexico"
       },
       "geometry": {
         "type": "Point",
