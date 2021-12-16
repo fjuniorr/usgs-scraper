@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639676852000,
+    "generated": 1639677277000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -254,8 +254,8 @@
       "properties": {
         "mag": 3.3,
         "place": "14 km ENE of Gardendale, Texas",
-        "time": 1639648896735,
-        "updated": 1639669346740,
+        "time": 1639648896725,
+        "updated": 1639677268955,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yokk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yokk.geojson",
@@ -271,10 +271,10 @@
         "ids": ",tx2021yokk,us6000gcqm,",
         "sources": ",tx,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 19,
+        "nst": 21,
         "dmin": 0.06315904584,
         "rms": 0.1,
-        "gap": 59,
+        "gap": 57,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.3 - 14 km ENE of Gardendale, Texas"
@@ -284,7 +284,7 @@
         "coordinates": [
           -102.2393054,
           32.06268311,
-          10.44217936
+          10.53999837
         ]
       },
       "id": "tx2021yokk"
