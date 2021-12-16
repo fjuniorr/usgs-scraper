@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639627983000,
+    "generated": 1639629770000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "14 km ENE of Gardendale, Texas",
+        "time": 1639629207610,
+        "updated": 1639629767964,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcnl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcnl.geojson",
+        "felt": 23,
+        "cdi": 4.9,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "us",
+        "code": "6000gcnl",
+        "ids": ",us6000gcnl,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.271,
+        "rms": 0.34,
+        "gap": 48,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 3.6 - 14 km ENE of Gardendale, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.237,
+          32.0586,
+          2.75
+        ]
+      },
+      "id": "us6000gcnl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "245 km NE of Lospalos, Timor Leste",
+        "time": 1639628767783,
+        "updated": 1639629734040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcnj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcnj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 500,
+        "net": "us",
+        "code": "6000gcnj",
+        "ids": ",us6000gcnj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.748,
+        "rms": 0.75,
+        "gap": 42,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.7 - 245 km NE of Lospalos, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6803,
+          -7.0746,
+          15.11
+        ]
+      },
+      "id": "us6000gcnj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "Izu Islands, Japan region",
+        "time": 1639626719577,
+        "updated": 1639629199040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcnd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcnd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000gcnd",
+        "ids": ",us6000gcnd,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.705,
+        "rms": 0.65,
+        "gap": 133,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3551,
+          31.4714,
+          10
+        ]
+      },
+      "id": "us6000gcnd"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -375,11 +495,11 @@
         "mag": 3.6,
         "place": "14 km ENE of Gardendale, Texas",
         "time": 1639606862647,
-        "updated": 1639627716153,
+        "updated": 1639629556523,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021ynnh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021ynnh.geojson",
-        "felt": 84,
+        "felt": 86,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
@@ -1095,11 +1215,11 @@
         "mag": 2.9,
         "place": "14 km ENE of Gardendale, Texas",
         "time": 1639582221605,
-        "updated": 1639623007115,
+        "updated": 1639629621843,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021ymzt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021ymzt.geojson",
-        "felt": 28,
+        "felt": 29,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1893,7 +2013,7 @@
   "bbox": [
     -156.4719,
     -59.4654,
-    3,
+    2.75,
     179.9573,
     67.3056,
     478.73
