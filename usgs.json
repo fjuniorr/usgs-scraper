@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639695170000,
+    "generated": 1639696201000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 43
   },
   "features": [
     {
@@ -92,10 +92,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 6.1,
+        "mag": 6,
         "place": "South Sandwich Islands region",
-        "time": 1639689285930,
-        "updated": 1639690651763,
+        "time": 1639689286597,
+        "updated": 1639696155040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcxa",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcxa.geojson",
@@ -105,26 +105,26 @@
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 572,
+        "sig": 554,
         "net": "us",
         "code": "6000gcxa",
         "ids": ",us6000gcxa,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 9.066,
-        "rms": 0.8,
-        "gap": 63,
+        "dmin": 9.059,
+        "rms": 0.84,
+        "gap": 45,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.1 - South Sandwich Islands region"
+        "title": "M 6.0 - South Sandwich Islands region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -23.8527,
-          -60.2284,
-          10
+          -23.8018,
+          -60.1797,
+          15
         ]
       },
       "id": "us6000gcxa"
@@ -1728,51 +1728,11 @@
         ]
       },
       "id": "us6000gclx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "36 km SSE of Kencong, Indonesia",
-        "time": 1639609290961,
-        "updated": 1639643973895,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gckn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gckn.geojson",
-        "felt": 18,
-        "cdi": 6.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 366,
-        "net": "us",
-        "code": "6000gckn",
-        "ids": ",us6000gckn,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.711,
-        "rms": 1.12,
-        "gap": 53,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 36 km SSE of Kencong, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          113.445,
-          -8.6006,
-          10
-        ]
-      },
-      "id": "us6000gckn"
     }
   ],
   "bbox": [
     -179.7217,
-    -60.2284,
+    -60.1797,
     -3.41,
     148.3105,
     62.0629,
