@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639698232000,
+    "generated": 1639698765000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.38000011,
+        "mag": 2.77,
         "place": "7 km E of Pāhala, Hawaii",
         "time": 1639697915650,
-        "updated": 1639698102940,
+        "updated": 1639698247100,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72836277",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72836277.geojson",
@@ -25,7 +25,7 @@
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 176,
+        "sig": 118,
         "net": "hv",
         "code": "72836277",
         "ids": ",hv72836277,",
@@ -35,9 +35,9 @@
         "dmin": null,
         "rms": 0.119999997,
         "gap": 149,
-        "magType": "md",
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 7 km E of Pāhala, Hawaii"
+        "title": "M 2.8 - 7 km E of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
