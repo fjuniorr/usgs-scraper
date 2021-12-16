@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639650663000,
+    "generated": 1639651447000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 51
+    "count": 50
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 3.3,
         "place": "14 km ENE of Gardendale, Texas",
         "time": 1639648896735,
-        "updated": 1639650560070,
+        "updated": 1639651181599,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yokk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yokk.geojson",
-        "felt": 24,
+        "felt": 28,
         "cdi": 4.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 178,
+        "sig": 179,
         "net": "tx",
         "code": "2021yokk",
         "ids": ",tx2021yokk,us6000gcqm,",
@@ -135,7 +135,7 @@
         "mag": 2.96,
         "place": "49 km SE of Naalehu, Hawaii",
         "time": 1639644789440,
-        "updated": 1639648096640,
+        "updated": 1639650686040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72835332",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72835332.geojson",
@@ -148,8 +148,8 @@
         "sig": 135,
         "net": "hv",
         "code": "72835332",
-        "ids": ",hv72835332,",
-        "sources": ",hv,",
+        "ids": ",us6000gcq6,hv72835332,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 38,
         "dmin": null,
@@ -1453,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Gulf of Aden",
+        "place": "149 km NNW of Caluula, Somalia",
         "time": 1639589603608,
         "updated": 1639592110040,
         "tz": null,
@@ -1477,7 +1477,7 @@
         "gap": 103,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Gulf of Aden"
+        "title": "M 4.7 - 149 km NNW of Caluula, Somalia"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.74,
-        "place": "Hawaii region, Hawaii",
+        "place": "48 km ESE of Naalehu, Hawaii",
         "time": 1639586201580,
         "updated": 1639608599040,
         "tz": null,
@@ -1557,7 +1557,7 @@
         "gap": 267,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Hawaii region, Hawaii"
+        "title": "M 2.7 - 48 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1733,7 +1733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "8 km ESE of Assaria, Kansas",
+        "place": "Kansas",
         "time": 1639580588658,
         "updated": 1639599136188,
         "tz": null,
@@ -1757,7 +1757,7 @@
         "gap": 84,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 8 km ESE of Assaria, Kansas"
+        "title": "M 3.4 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1973,7 +1973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.64,
-        "place": "17 km WNW of Stanley, Idaho",
+        "place": "southern Idaho",
         "time": 1639573680810,
         "updated": 1639583877940,
         "tz": null,
@@ -1997,7 +1997,7 @@
         "gap": 123,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 17 km WNW of Stanley, Idaho"
+        "title": "M 2.6 - southern Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -2008,46 +2008,6 @@
         ]
       },
       "id": "mb80533639"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "101 km W of La Libertad, Mexico",
-        "time": 1639564720504,
-        "updated": 1639617728730,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcdj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcdj.geojson",
-        "felt": 2,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "6000gcdj",
-        "ids": ",us6000gcdj,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.45,
-        "rms": 0.89,
-        "gap": 155,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 101 km W of La Libertad, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.7437,
-          29.9426,
-          10
-        ]
-      },
-      "id": "us6000gcdj"
     }
   ],
   "bbox": [
