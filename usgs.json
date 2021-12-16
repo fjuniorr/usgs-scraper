@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639629770000,
+    "generated": 1639630681000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 50
+    "count": 49
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.6,
+        "mag": 3.7,
         "place": "14 km ENE of Gardendale, Texas",
-        "time": 1639629207610,
-        "updated": 1639629767964,
+        "time": 1639629207099,
+        "updated": 1639630541468,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcnl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcnl.geojson",
-        "felt": 23,
-        "cdi": 4.9,
-        "mmi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021ynzp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021ynzp.geojson",
+        "felt": 79,
+        "cdi": 4.6,
+        "mmi": 4.927,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "6000gcnl",
-        "ids": ",us6000gcnl,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.271,
-        "rms": 0.34,
-        "gap": 48,
-        "magType": "mb_lg",
+        "sig": 247,
+        "net": "tx",
+        "code": "2021ynzp",
+        "ids": ",us6000gcnl,tx2021ynzp,",
+        "sources": ",us,tx,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 14,
+        "dmin": 0.0649617466,
+        "rms": 0.1,
+        "gap": 64,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 14 km ENE of Gardendale, Texas"
+        "title": "M 3.7 - 14 km ENE of Gardendale, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.237,
-          32.0586,
-          2.75
+          -102.2393054,
+          32.06451416,
+          10.14872233
         ]
       },
-      "id": "us6000gcnl"
+      "id": "tx2021ynzp"
     },
     {
       "type": "Feature",
@@ -55,14 +55,14 @@
         "mag": 5.7,
         "place": "245 km NE of Lospalos, Timor Leste",
         "time": 1639628767783,
-        "updated": 1639629734040,
+        "updated": 1639629922087,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcnj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcnj.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 6.257,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 500,
@@ -70,7 +70,7 @@
         "code": "6000gcnj",
         "ids": ",us6000gcnj,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",losspager,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 2.748,
         "rms": 0.75,
@@ -495,17 +495,17 @@
         "mag": 3.6,
         "place": "14 km ENE of Gardendale, Texas",
         "time": 1639606862647,
-        "updated": 1639629556523,
+        "updated": 1639630536892,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021ynnh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021ynnh.geojson",
-        "felt": 86,
-        "cdi": 3.6,
+        "felt": 90,
+        "cdi": 3.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 230,
+        "sig": 233,
         "net": "tx",
         "code": "2021ynnh",
         "ids": ",us6000gckc,tx2021ynnh,",
@@ -973,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Gulf of Aden",
+        "place": "149 km NNW of Caluula, Somalia",
         "time": 1639589603608,
         "updated": 1639592110040,
         "tz": null,
@@ -997,7 +997,7 @@
         "gap": 103,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Gulf of Aden"
+        "title": "M 4.7 - 149 km NNW of Caluula, Somalia"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.74,
-        "place": "Hawaii region, Hawaii",
+        "place": "48 km ESE of Naalehu, Hawaii",
         "time": 1639586201580,
         "updated": 1639608599040,
         "tz": null,
@@ -1077,7 +1077,7 @@
         "gap": 267,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Hawaii region, Hawaii"
+        "title": "M 2.7 - 48 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1215,7 +1215,7 @@
         "mag": 2.9,
         "place": "14 km ENE of Gardendale, Texas",
         "time": 1639582221605,
-        "updated": 1639629621843,
+        "updated": 1639630229290,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021ymzt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021ymzt.geojson",
@@ -1253,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "8 km ESE of Assaria, Kansas",
+        "place": "Kansas",
         "time": 1639580588658,
         "updated": 1639599136188,
         "tz": null,
@@ -1277,7 +1277,7 @@
         "gap": 84,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 8 km ESE of Assaria, Kansas"
+        "title": "M 3.4 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1493,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.64,
-        "place": "17 km WNW of Stanley, Idaho",
+        "place": "southern Idaho",
         "time": 1639573680810,
         "updated": 1639583877940,
         "tz": null,
@@ -1517,7 +1517,7 @@
         "gap": 123,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 17 km WNW of Stanley, Idaho"
+        "title": "M 2.6 - southern Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "101 km W of La Libertad, Mexico",
+        "place": "Baja California, Mexico",
         "time": 1639564720504,
         "updated": 1639617728730,
         "tz": null,
@@ -1557,7 +1557,7 @@
         "gap": 155,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 101 km W of La Libertad, Mexico"
+        "title": "M 4.8 - Baja California, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Flores Sea",
+        "place": "158 km NNE of Ruteng, Indonesia",
         "time": 1639559671056,
         "updated": 1639562115040,
         "tz": null,
@@ -1677,7 +1677,7 @@
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Flores Sea"
+        "title": "M 4.5 - 158 km NNE of Ruteng, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1933,7 +1933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Chile-Argentina border region",
+        "place": "75 km WNW of San Antonio de los Cobres, Argentina",
         "time": 1639544616518,
         "updated": 1639548592040,
         "tz": null,
@@ -1957,7 +1957,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Chile-Argentina border region"
+        "title": "M 4.2 - 75 km WNW of San Antonio de los Cobres, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -1968,52 +1968,12 @@
         ]
       },
       "id": "us6000gcc1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "91 km NW of Maumere, Indonesia",
-        "time": 1639543991199,
-        "updated": 1639544901040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcbz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcbz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000gcbz",
-        "ids": ",us6000gcbz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.848,
-        "rms": 0.88,
-        "gap": 110,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 91 km NW of Maumere, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.7484,
-          -7.9339,
-          10
-        ]
-      },
-      "id": "us6000gcbz"
     }
   ],
   "bbox": [
     -156.4719,
     -59.4654,
-    2.75,
+    3,
     179.9573,
     67.3056,
     478.73
