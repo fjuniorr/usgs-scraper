@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639693709000,
+    "generated": 1639694403000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 42
   },
   "features": [
     {
@@ -168,6 +168,46 @@
         ]
       },
       "id": "us6000gcwv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "68 km S of Alcan Border, Alaska",
+        "time": 1639685077042,
+        "updated": 1639693947040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcwg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcwg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000gcwg",
+        "ids": ",ak021g3612pa,us6000gcwg,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.472,
+        "rms": 0.73,
+        "gap": 104,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 68 km S of Alcan Border, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -141.0917,
+          62.0629,
+          5
+        ]
+      },
+      "id": "us6000gcwg"
     },
     {
       "type": "Feature",
@@ -1655,7 +1695,7 @@
     -60.2284,
     -3.41,
     148.3105,
-    56.7797,
+    62.0629,
     549.63
   ]
 }
