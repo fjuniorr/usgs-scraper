@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639621217000,
+    "generated": 1639622974000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 53
+    "count": 52
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.91,
-        "place": "42 km ESE of Naalehu, Hawaii",
-        "time": 1639620680960,
-        "updated": 1639621012260,
+        "mag": 3,
+        "place": "43 km ESE of Naalehu, Hawaii",
+        "time": 1639620680900,
+        "updated": 1639622745790,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72835042",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72835042.geojson",
@@ -23,28 +23,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 130,
+        "sig": 138,
         "net": "hv",
         "code": "72835042",
-        "ids": ",hv72835042,",
-        "sources": ",hv,",
+        "ids": ",us6000gcmy,hv72835042,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 40,
+        "nst": 47,
         "dmin": null,
-        "rms": 0.150000006,
-        "gap": 255,
+        "rms": 0.14,
+        "gap": 257,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 42 km ESE of Naalehu, Hawaii"
+        "title": "M 3.0 - 43 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.223159790039,
-          18.8915004730225,
-          7.36999988555908
+          -155.219833333333,
+          18.884,
+          8.07
         ]
       },
       "id": "hv72835042"
@@ -2088,46 +2088,6 @@
         ]
       },
       "id": "us6000gcbk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "18 km NW of Stanley, Idaho",
-        "time": 1639536420405,
-        "updated": 1639605187840,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcbi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcbi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "6000gcbi",
-        "ids": ",mb80533609,us6000gcbi,",
-        "sources": ",mb,us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.991,
-        "rms": 1.05,
-        "gap": 47,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 18 km NW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.1223,
-          44.3193,
-          10
-        ]
-      },
-      "id": "us6000gcbi"
     }
   ],
   "bbox": [
