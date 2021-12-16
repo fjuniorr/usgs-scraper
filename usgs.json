@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639659037000,
+    "generated": 1639660679000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 54
+    "count": 53
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "16km W of Delta, B.C., MX",
+        "time": 1639660417230,
+        "updated": 1639660564686,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40128720",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40128720.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ci",
+        "code": "40128720",
+        "ids": ",ci40128720,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 32,
+        "dmin": 0.1023,
+        "rms": 0.31,
+        "gap": 86,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 16km W of Delta, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.3658371,
+          32.3308334,
+          10.64
+        ]
+      },
+      "id": "ci40128720"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.3,
         "place": "35 km NW of Toyah, Texas",
         "time": 1639657525280,
-        "updated": 1639658679145,
+        "updated": 1639659204903,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yope",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yope.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.4,
         "mmi": 5.071,
         "alert": "green",
@@ -175,11 +215,11 @@
         "mag": 3.3,
         "place": "14 km ENE of Gardendale, Texas",
         "time": 1639648896735,
-        "updated": 1639658806120,
+        "updated": 1639660474815,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yokk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yokk.geojson",
-        "felt": 32,
+        "felt": 33,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -695,11 +735,11 @@
         "mag": 3.7,
         "place": "14 km ENE of Gardendale, Texas",
         "time": 1639629207099,
-        "updated": 1639658653387,
+        "updated": 1639660401983,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021ynzp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021ynzp.geojson",
-        "felt": 128,
+        "felt": 129,
         "cdi": 4.3,
         "mmi": 4.032,
         "alert": null,
@@ -1495,11 +1535,11 @@
         "mag": 3.1,
         "place": "7 km SW of Gypsum, Kansas",
         "time": 1639592268920,
-        "updated": 1639613285694,
+        "updated": 1639659741380,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcie",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcie.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -2088,86 +2128,6 @@
         ]
       },
       "id": "us6000gce4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "48 km ENE of Santa Monica, Philippines",
-        "time": 1639573906311,
-        "updated": 1639620727109,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcdz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcdz.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 370,
-        "net": "us",
-        "code": "6000gcdz",
-        "ids": ",us6000gcdz,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 9.316,
-        "rms": 0.82,
-        "gap": 97,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 48 km ENE of Santa Monica, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.4435,
-          10.1918,
-          55.63
-        ]
-      },
-      "id": "us6000gcdz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.64,
-        "place": "17 km WNW of Stanley, Idaho",
-        "time": 1639573680810,
-        "updated": 1639583877940,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80533639",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80533639.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 107,
-        "net": "mb",
-        "code": "80533639",
-        "ids": ",mb80533639,",
-        "sources": ",mb,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 1.008,
-        "rms": 0.17,
-        "gap": 123,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 17 km WNW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.125,
-          44.2961667,
-          14.23
-        ]
-      },
-      "id": "mb80533639"
     }
   ],
   "bbox": [
