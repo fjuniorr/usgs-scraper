@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639625583000,
+    "generated": 1639626311000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 50
+    "count": 49
   },
   "features": [
     {
@@ -375,11 +375,11 @@
         "mag": 3.6,
         "place": "14 km ENE of Gardendale, Texas",
         "time": 1639606862647,
-        "updated": 1639623911266,
+        "updated": 1639625948701,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021ynnh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021ynnh.geojson",
-        "felt": 82,
+        "felt": 83,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
@@ -1968,46 +1968,6 @@
         ]
       },
       "id": "us6000gcbr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "102 km S of Palekastro, Greece",
-        "time": 1639539809336,
-        "updated": 1639540581040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcbq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcbq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000gcbq",
-        "ids": ",us6000gcbq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.381,
-        "rms": 0.99,
-        "gap": 81,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 102 km S of Palekastro, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.4658,
-          34.2869,
-          15.31
-        ]
-      },
-      "id": "us6000gcbq"
     }
   ],
   "bbox": [
