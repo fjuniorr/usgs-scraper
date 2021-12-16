@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639612401000,
+    "generated": 1639614963000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 54
+    "count": 53
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 4.8,
         "place": "36 km SSE of Kencong, Indonesia",
         "time": 1639609290961,
-        "updated": 1639612145834,
+        "updated": 1639613769537,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gckn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gckn.geojson",
-        "felt": 10,
-        "cdi": 4.3,
+        "felt": 13,
+        "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 359,
+        "sig": 360,
         "net": "us",
         "code": "6000gckn",
         "ids": ",us6000gckn,",
@@ -55,17 +55,17 @@
         "mag": 3.6,
         "place": "14 km ENE of Gardendale, Texas",
         "time": 1639606862647,
-        "updated": 1639612037833,
+        "updated": 1639612930888,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021ynnh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021ynnh.geojson",
-        "felt": 74,
-        "cdi": 3.9,
+        "felt": 76,
+        "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 228,
+        "sig": 227,
         "net": "tx",
         "code": "2021ynnh",
         "ids": ",us6000gckc,tx2021ynnh,",
@@ -415,11 +415,11 @@
         "mag": 3.1,
         "place": "7 km SW of Gypsum, Kansas",
         "time": 1639592268920,
-        "updated": 1639603680444,
+        "updated": 1639613285694,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcie",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcie.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -533,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "149 km NNW of Caluula, Somalia",
+        "place": "Gulf of Aden",
         "time": 1639589603608,
         "updated": 1639592110040,
         "tz": null,
@@ -557,7 +557,7 @@
         "gap": 103,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 149 km NNW of Caluula, Somalia"
+        "title": "M 4.7 - Gulf of Aden"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.74,
-        "place": "48 km ESE of Naalehu, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1639586201580,
         "updated": 1639608599040,
         "tz": null,
@@ -637,7 +637,7 @@
         "gap": 267,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 48 km ESE of Naalehu, Hawaii"
+        "title": "M 2.7 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "Kansas",
+        "place": "8 km ESE of Assaria, Kansas",
         "time": 1639580588658,
         "updated": 1639599136188,
         "tz": null,
@@ -837,7 +837,7 @@
         "gap": 84,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - Kansas"
+        "title": "M 3.4 - 8 km ESE of Assaria, Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -892,10 +892,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.45000005,
-        "place": "4 km SSW of Pāhala, Hawaii",
-        "time": 1639579447470,
-        "updated": 1639579644380,
+        "mag": 2.58,
+        "place": "5 km S of Pāhala, Hawaii",
+        "time": 1639579447390,
+        "updated": 1639614225510,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72834442",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72834442.geojson",
@@ -903,28 +903,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 92,
+        "sig": 102,
         "net": "hv",
         "code": "72834442",
         "ids": ",hv72834442,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 44,
+        "nst": 49,
         "dmin": null,
-        "rms": 0.129999995,
-        "gap": 112,
+        "rms": 0.12,
+        "gap": 128,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 4 km SSW of Pāhala, Hawaii"
+        "title": "M 2.6 - 5 km S of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.488494873047,
-          19.1626663208008,
-          36.1399993896484
+          -155.4875,
+          19.1566666666667,
+          36.58
         ]
       },
       "id": "hv72834442"
@@ -1053,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.64,
-        "place": "southern Idaho",
+        "place": "17 km WNW of Stanley, Idaho",
         "time": 1639573680810,
         "updated": 1639583877940,
         "tz": null,
@@ -1077,7 +1077,7 @@
         "gap": 123,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - southern Idaho"
+        "title": "M 2.6 - 17 km WNW of Stanley, Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -1093,31 +1093,31 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Baja California, Mexico",
+        "place": "101 km W of La Libertad, Mexico",
         "time": 1639564720504,
-        "updated": 1639565959040,
+        "updated": 1639612748001,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcdj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcdj.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 355,
         "net": "us",
         "code": "6000gcdj",
         "ids": ",us6000gcdj,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 1.45,
         "rms": 0.89,
         "gap": 155,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Baja California, Mexico"
+        "title": "M 4.8 - 101 km W of La Libertad, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "158 km NNE of Ruteng, Indonesia",
+        "place": "Flores Sea",
         "time": 1639559671056,
         "updated": 1639562115040,
         "tz": null,
@@ -1237,7 +1237,7 @@
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 158 km NNE of Ruteng, Indonesia"
+        "title": "M 4.5 - Flores Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1493,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "75 km WNW of San Antonio de los Cobres, Argentina",
+        "place": "Chile-Argentina border region",
         "time": 1639544616518,
         "updated": 1639548592040,
         "tz": null,
@@ -1517,7 +1517,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 75 km WNW of San Antonio de los Cobres, Argentina"
+        "title": "M 4.2 - Chile-Argentina border region"
       },
       "geometry": {
         "type": "Point",
@@ -2128,46 +2128,6 @@
         ]
       },
       "id": "us6000gcb7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.62,
-        "place": "8km W of Cobb, CA",
-        "time": 1639528538590,
-        "updated": 1639543870841,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73663731",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73663731.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "nc",
-        "code": "73663731",
-        "ids": ",nc73663731,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 48,
-        "dmin": 0.01161,
-        "rms": 0.05,
-        "gap": 39,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 8km W of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.810997,
-          38.8349991,
-          2.26
-        ]
-      },
-      "id": "nc73663731"
     }
   ],
   "bbox": [
