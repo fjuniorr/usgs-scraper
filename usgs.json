@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639697487000,
+    "generated": 1639698232000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.38000011,
+        "place": "7 km E of Pāhala, Hawaii",
+        "time": 1639697915650,
+        "updated": 1639698102940,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72836277",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72836277.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 176,
+        "net": "hv",
+        "code": "72836277",
+        "ids": ",hv72836277,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 149,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 7 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.407669067383,
+          19.2123336791992,
+          32.8300018310547
+        ]
+      },
+      "id": "hv72836277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Izu Islands, Japan region",
+        "time": 1639695303491,
+        "updated": 1639697626040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcze",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcze.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000gcze",
+        "ids": ",us6000gcze,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.811,
+        "rms": 0.66,
+        "gap": 136,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3133,
+          31.2623,
+          10
+        ]
+      },
+      "id": "us6000gcze"
+    },
     {
       "type": "Feature",
       "properties": {
