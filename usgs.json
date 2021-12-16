@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639668857000,
+    "generated": 1639669743000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 48
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 4.3,
         "place": "35 km NW of Toyah, Texas",
         "time": 1639657525280,
-        "updated": 1639666963659,
+        "updated": 1639668898040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yope",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yope.geojson",
@@ -70,7 +70,7 @@
         "code": "2021yope",
         "ids": ",tx2021yope,us6000gcrp,",
         "sources": ",tx,us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 11,
         "dmin": 0.03649449837,
         "rms": 0.2,
@@ -215,11 +215,11 @@
         "mag": 3.3,
         "place": "14 km ENE of Gardendale, Texas",
         "time": 1639648896735,
-        "updated": 1639668335737,
+        "updated": 1639669346740,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yokk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yokk.geojson",
-        "felt": 38,
+        "felt": 39,
         "cdi": 3.7,
         "mmi": null,
         "alert": null,
@@ -735,11 +735,11 @@
         "mag": 3.7,
         "place": "14 km ENE of Gardendale, Texas",
         "time": 1639629207099,
-        "updated": 1639667728575,
+        "updated": 1639668935808,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021ynzp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021ynzp.geojson",
-        "felt": 131,
+        "felt": 132,
         "cdi": 4.3,
         "mmi": 4.032,
         "alert": null,
@@ -808,6 +808,46 @@
         ]
       },
       "id": "us6000gcnj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "18 km SSE of Sunnyside, Utah",
+        "time": 1639627272370,
+        "updated": 1639669482870,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60472297",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60472297.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "uu",
+        "code": "60472297",
+        "ids": ",uu60472297,",
+        "sources": ",uu,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.0406,
+        "rms": 0.18,
+        "gap": 248,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 18 km SSE of Sunnyside, Utah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.2741667,
+          39.4145,
+          -3.41
+        ]
+      },
+      "id": "uu60472297"
     },
     {
       "type": "Feature",
@@ -1653,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Gulf of Aden",
+        "place": "149 km NNW of Caluula, Somalia",
         "time": 1639589603608,
         "updated": 1639592110040,
         "tz": null,
@@ -1677,7 +1717,7 @@
         "gap": 103,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Gulf of Aden"
+        "title": "M 4.7 - 149 km NNW of Caluula, Somalia"
       },
       "geometry": {
         "type": "Point",
@@ -1733,7 +1773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.74,
-        "place": "Hawaii region, Hawaii",
+        "place": "48 km ESE of Naalehu, Hawaii",
         "time": 1639586201580,
         "updated": 1639608599040,
         "tz": null,
@@ -1757,7 +1797,7 @@
         "gap": 267,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Hawaii region, Hawaii"
+        "title": "M 2.7 - 48 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1893,7 +1933,7 @@
   "bbox": [
     -179.7217,
     -57.9296,
-    5,
+    -3.41,
     148.3105,
     67.3056,
     386.87
