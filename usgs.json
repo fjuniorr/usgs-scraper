@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639662743000,
+    "generated": 1639663776000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -215,17 +215,17 @@
         "mag": 3.3,
         "place": "14 km ENE of Gardendale, Texas",
         "time": 1639648896735,
-        "updated": 1639661269446,
+        "updated": 1639663649902,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yokk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yokk.geojson",
-        "felt": 35,
+        "felt": 34,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 182,
+        "sig": 181,
         "net": "tx",
         "code": "2021yokk",
         "ids": ",tx2021yokk,us6000gcqm,",
@@ -1653,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "149 km NNW of Caluula, Somalia",
+        "place": "Gulf of Aden",
         "time": 1639589603608,
         "updated": 1639592110040,
         "tz": null,
@@ -1677,7 +1677,7 @@
         "gap": 103,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 149 km NNW of Caluula, Somalia"
+        "title": "M 4.7 - Gulf of Aden"
       },
       "geometry": {
         "type": "Point",
@@ -1733,7 +1733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.74,
-        "place": "48 km ESE of Naalehu, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1639586201580,
         "updated": 1639608599040,
         "tz": null,
@@ -1757,7 +1757,7 @@
         "gap": 267,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 48 km ESE of Naalehu, Hawaii"
+        "title": "M 2.7 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1933,7 +1933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "Kansas",
+        "place": "8 km ESE of Assaria, Kansas",
         "time": 1639580588658,
         "updated": 1639599136188,
         "tz": null,
@@ -1957,7 +1957,7 @@
         "gap": 84,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - Kansas"
+        "title": "M 3.4 - 8 km ESE of Assaria, Kansas"
       },
       "geometry": {
         "type": "Point",
