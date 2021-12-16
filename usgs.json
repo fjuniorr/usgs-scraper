@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639671801000,
+    "generated": 1639673991000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.50999999,
+        "place": "2 km ESE of Pāhala, Hawaii",
+        "time": 1639672065480,
+        "updated": 1639672397230,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72835737",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72835737.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "hv",
+        "code": "72835737",
+        "ids": ",hv72835737,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": null,
+        "rms": 0.150000006,
+        "gap": 112,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km ESE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.459167480469,
+          19.1935005187988,
+          36.1300010681152
+        ]
+      },
+      "id": "hv72835737"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1808,91 +1848,11 @@
         ]
       },
       "id": "us6000gcgn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.74,
-        "place": "Hawaii region, Hawaii",
-        "time": 1639586201580,
-        "updated": 1639608599040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72834572",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72834572.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "hv",
-        "code": "72834572",
-        "ids": ",us6000gcf1,hv72834572,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": null,
-        "rms": 0.13,
-        "gap": 267,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - Hawaii region, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.1945,
-          18.826,
-          8.34
-        ]
-      },
-      "id": "hv72834572"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "South Sandwich Islands region",
-        "time": 1639586082147,
-        "updated": 1639587204040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcf5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcf5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000gcf5",
-        "ids": ",us6000gcf5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 7.326,
-        "rms": 0.57,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -25.1263,
-          -57.9296,
-          35
-        ]
-      },
-      "id": "us6000gcf5"
     }
   ],
   "bbox": [
     -179.7217,
-    -57.9296,
+    -31.2224,
     -3.41,
     148.3105,
     67.3056,
