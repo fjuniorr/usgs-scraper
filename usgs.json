@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639648411000,
+    "generated": 1639649443000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 52
+    "count": 51
   },
   "features": [
     {
@@ -132,10 +132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.72000003,
-        "place": "45 km SE of Naalehu, Hawaii",
-        "time": 1639644467020,
-        "updated": 1639644678870,
+        "mag": 2.86,
+        "place": "50 km SE of Naalehu, Hawaii",
+        "time": 1639644466190,
+        "updated": 1639648565290,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72835322",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72835322.geojson",
@@ -143,28 +143,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 114,
+        "sig": 126,
         "net": "hv",
         "code": "72835322",
         "ids": ",hv72835322,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 22,
+        "nst": 42,
         "dmin": null,
-        "rms": 0.159999996,
-        "gap": 270,
+        "rms": 0.16,
+        "gap": 279,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 45 km SE of Naalehu, Hawaii"
+        "title": "M 2.9 - 50 km SE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.246505737305,
-          18.799165725708,
-          7.28999996185303
+          -155.252,
+          18.7343333333333,
+          8.33
         ]
       },
       "id": "hv72835322"
@@ -495,17 +495,17 @@
         "mag": 3.7,
         "place": "14 km ENE of Gardendale, Texas",
         "time": 1639629207099,
-        "updated": 1639642360427,
+        "updated": 1639649314706,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021ynzp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021ynzp.geojson",
-        "felt": 122,
+        "felt": 123,
         "cdi": 4.4,
         "mmi": 4.032,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 264,
+        "sig": 265,
         "net": "tx",
         "code": "2021ynzp",
         "ids": ",us6000gcnl,tx2021ynzp,",
@@ -1413,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Gulf of Aden",
+        "place": "149 km NNW of Caluula, Somalia",
         "time": 1639589603608,
         "updated": 1639592110040,
         "tz": null,
@@ -1437,7 +1437,7 @@
         "gap": 103,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Gulf of Aden"
+        "title": "M 4.7 - 149 km NNW of Caluula, Somalia"
       },
       "geometry": {
         "type": "Point",
@@ -1493,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.74,
-        "place": "Hawaii region, Hawaii",
+        "place": "48 km ESE of Naalehu, Hawaii",
         "time": 1639586201580,
         "updated": 1639608599040,
         "tz": null,
@@ -1517,7 +1517,7 @@
         "gap": 267,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Hawaii region, Hawaii"
+        "title": "M 2.7 - 48 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1693,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "8 km ESE of Assaria, Kansas",
+        "place": "Kansas",
         "time": 1639580588658,
         "updated": 1639599136188,
         "tz": null,
@@ -1717,7 +1717,7 @@
         "gap": 84,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 8 km ESE of Assaria, Kansas"
+        "title": "M 3.4 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1933,7 +1933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.64,
-        "place": "17 km WNW of Stanley, Idaho",
+        "place": "southern Idaho",
         "time": 1639573680810,
         "updated": 1639583877940,
         "tz": null,
@@ -1957,7 +1957,7 @@
         "gap": 123,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 17 km WNW of Stanley, Idaho"
+        "title": "M 2.6 - southern Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -1973,7 +1973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "101 km W of La Libertad, Mexico",
+        "place": "Baja California, Mexico",
         "time": 1639564720504,
         "updated": 1639617728730,
         "tz": null,
@@ -1997,7 +1997,7 @@
         "gap": 155,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 101 km W of La Libertad, Mexico"
+        "title": "M 4.8 - Baja California, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -2048,52 +2048,12 @@
         ]
       },
       "id": "us6000gcdd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "2 km SSW of Gypsum, Kansas",
-        "time": 1639562301667,
-        "updated": 1639632270695,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcd6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcd6.geojson",
-        "felt": 126,
-        "cdi": 4.1,
-        "mmi": 4.697,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000gcd6",
-        "ids": ",us6000gcd6,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 0.758,
-        "rms": 0.56,
-        "gap": 61,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.0 - 2 km SSW of Gypsum, Kansas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.4441,
-          38.6822,
-          3
-        ]
-      },
-      "id": "us6000gcd6"
     }
   ],
   "bbox": [
     -179.7217,
     -57.9296,
-    3,
+    5,
     178.2662,
     67.3056,
     357.59
