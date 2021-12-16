@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639643804000,
+    "generated": 1639644474000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -615,7 +615,7 @@
         "mag": 4.8,
         "place": "36 km SSE of Kencong, Indonesia",
         "time": 1639609290961,
-        "updated": 1639643671257,
+        "updated": 1639643973895,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gckn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gckn.geojson",
@@ -1173,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "149 km NNW of Caluula, Somalia",
+        "place": "Gulf of Aden",
         "time": 1639589603608,
         "updated": 1639592110040,
         "tz": null,
@@ -1197,7 +1197,7 @@
         "gap": 103,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 149 km NNW of Caluula, Somalia"
+        "title": "M 4.7 - Gulf of Aden"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.74,
-        "place": "48 km ESE of Naalehu, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1639586201580,
         "updated": 1639608599040,
         "tz": null,
@@ -1277,7 +1277,7 @@
         "gap": 267,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 48 km ESE of Naalehu, Hawaii"
+        "title": "M 2.7 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "Kansas",
+        "place": "8 km ESE of Assaria, Kansas",
         "time": 1639580588658,
         "updated": 1639599136188,
         "tz": null,
@@ -1477,7 +1477,7 @@
         "gap": 84,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - Kansas"
+        "title": "M 3.4 - 8 km ESE of Assaria, Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1693,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.64,
-        "place": "southern Idaho",
+        "place": "17 km WNW of Stanley, Idaho",
         "time": 1639573680810,
         "updated": 1639583877940,
         "tz": null,
@@ -1717,7 +1717,7 @@
         "gap": 123,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - southern Idaho"
+        "title": "M 2.6 - 17 km WNW of Stanley, Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -1733,7 +1733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Baja California, Mexico",
+        "place": "101 km W of La Libertad, Mexico",
         "time": 1639564720504,
         "updated": 1639617728730,
         "tz": null,
@@ -1757,7 +1757,7 @@
         "gap": 155,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Baja California, Mexico"
+        "title": "M 4.8 - 101 km W of La Libertad, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1853,7 +1853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "158 km NNE of Ruteng, Indonesia",
+        "place": "Flores Sea",
         "time": 1639559671056,
         "updated": 1639562115040,
         "tz": null,
@@ -1877,7 +1877,7 @@
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 158 km NNE of Ruteng, Indonesia"
+        "title": "M 4.5 - Flores Sea"
       },
       "geometry": {
         "type": "Point",
