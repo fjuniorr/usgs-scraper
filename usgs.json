@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639775324000,
+    "generated": 1639776300000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 5.7,
         "place": "231 km E of Levuka, Fiji",
         "time": 1639771348797,
-        "updated": 1639772686988,
+        "updated": 1639775890105,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd7w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd7w.geojson",
@@ -615,17 +615,17 @@
         "mag": 3.6,
         "place": "12 km ENE of Ganges, Canada",
         "time": 1639743231663,
-        "updated": 1639775277485,
+        "updated": 1639776239868,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd2p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd2p.geojson",
-        "felt": 823,
+        "felt": 826,
         "cdi": 4.2,
         "mmi": 3.43,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 545,
+        "sig": 546,
         "net": "us",
         "code": "6000gd2p",
         "ids": ",uw61806621,us6000gd2p,",
@@ -655,17 +655,17 @@
         "mag": 3.5,
         "place": "10 km NNE of Hope, Alaska",
         "time": 1639738906521,
-        "updated": 1639774297852,
+        "updated": 1639775944966,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g4o6w7q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g4o6w7q.geojson",
-        "felt": 370,
+        "felt": 371,
         "cdi": 3.4,
         "mmi": 3.452,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 314,
+        "sig": 315,
         "net": "ak",
         "code": "021g4o6w7q",
         "ids": ",ak021g4o6w7q,us6000gd2f,",
@@ -1688,51 +1688,11 @@
         ]
       },
       "id": "us6000gcxd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6,
-        "place": "South Sandwich Islands region",
-        "time": 1639689286597,
-        "updated": 1639766246040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcxa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcxa.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.878,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 554,
-        "net": "us",
-        "code": "6000gcxa",
-        "ids": ",us6000gcxa,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 9.059,
-        "rms": 0.84,
-        "gap": 45,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.0 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -23.8016,
-          -60.1796,
-          15
-        ]
-      },
-      "id": "us6000gcxa"
     }
   ],
   "bbox": [
     -178.5011,
-    -60.1796,
+    -56.5589,
     1.04,
     178.1095,
     61.0017,
