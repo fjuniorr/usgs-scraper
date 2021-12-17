@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639750156000,
+    "generated": 1639751130000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.16,
+        "place": "7 km E of Pāhala, Hawaii",
+        "time": 1639750660610,
+        "updated": 1639751020341,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72837127",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72837127.geojson",
+        "felt": 3,
+        "cdi": 4.3,
+        "mmi": 4.591,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 155,
+        "net": "hv",
+        "code": "72837127",
+        "ids": ",hv72837127,us6000gd37,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 47,
+        "dmin": null,
+        "rms": 0.109999999,
+        "gap": 156,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 7 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.406494140625,
+          19.2043342590332,
+          33.6199989318848
+        ]
+      },
+      "id": "hv72837127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "74 km NE of Savannah Bight, Honduras",
+        "time": 1639749514128,
+        "updated": 1639750431040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd33",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd33.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000gd33",
+        "ids": ",us6000gd33,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.261,
+        "rms": 0.65,
+        "gap": 47,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 74 km NE of Savannah Bight, Honduras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3807,
+          16.9431,
+          10
+        ]
+      },
+      "id": "us6000gd33"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,17 +175,17 @@
         "mag": 3.6,
         "place": "12 km ENE of Ganges, Canada",
         "time": 1639743231663,
-        "updated": 1639750099794,
+        "updated": 1639751045034,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd2p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd2p.geojson",
-        "felt": 498,
-        "cdi": 3.8,
+        "felt": 513,
+        "cdi": 4.1,
         "mmi": 3.43,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 389,
+        "sig": 410,
         "net": "us",
         "code": "6000gd2p",
         "ids": ",uw61806621,us6000gd2p,",
@@ -135,17 +215,17 @@
         "mag": 3.5,
         "place": "10 km NNE of Hope, Alaska",
         "time": 1639738906521,
-        "updated": 1639749587823,
+        "updated": 1639751106908,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g4o6w7q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g4o6w7q.geojson",
-        "felt": 272,
+        "felt": 274,
         "cdi": 3.6,
         "mmi": 3.452,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 286,
+        "sig": 287,
         "net": "ak",
         "code": "021g4o6w7q",
         "ids": ",ak021g4o6w7q,us6000gd2f,",
@@ -295,17 +375,17 @@
         "mag": 3.1,
         "place": "5 km N of Three Forks, Montana",
         "time": 1639727594733,
-        "updated": 1639749766971,
+        "updated": 1639750683871,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd1p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd1p.geojson",
-        "felt": 17,
+        "felt": 19,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 155,
+        "sig": 156,
         "net": "us",
         "code": "6000gd1p",
         "ids": ",us6000gd1p,",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Celebes Sea",
+        "place": "268 km SSE of Latung, Philippines",
         "time": 1639724664023,
         "updated": 1639727017040,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Celebes Sea"
+        "title": "M 4.1 - 268 km SSE of Latung, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.63,
-        "place": "Puerto Rico region",
+        "place": "63 km N of Hatillo, Puerto Rico",
         "time": 1639720703810,
         "updated": 1639730352040,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 212,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Puerto Rico region"
+        "title": "M 3.6 - 63 km N of Hatillo, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
