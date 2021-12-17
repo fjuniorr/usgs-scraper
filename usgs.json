@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639748556000,
+    "generated": 1639749196000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -95,17 +95,17 @@
         "mag": 3.6,
         "place": "12 km ENE of Ganges, Canada",
         "time": 1639743231663,
-        "updated": 1639748505518,
+        "updated": 1639749130686,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd2p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd2p.geojson",
-        "felt": 475,
+        "felt": 487,
         "cdi": 3.8,
         "mmi": 3.43,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 380,
+        "sig": 384,
         "net": "us",
         "code": "6000gd2p",
         "ids": ",uw61806621,us6000gd2p,",
@@ -373,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "268 km SSE of Latung, Philippines",
+        "place": "Celebes Sea",
         "time": 1639724664023,
         "updated": 1639727017040,
         "tz": null,
@@ -397,7 +397,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 268 km SSE of Latung, Philippines"
+        "title": "M 4.1 - Celebes Sea"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.63,
-        "place": "63 km N of Hatillo, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639720703810,
         "updated": 1639730352040,
         "tz": null,
@@ -557,7 +557,7 @@
         "gap": 212,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - 63 km N of Hatillo, Puerto Rico"
+        "title": "M 3.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
