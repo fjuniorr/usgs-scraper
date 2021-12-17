@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639742000000,
+    "generated": 1639743340000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 36
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 3.5,
         "place": "10 km NNE of Hope, Alaska",
         "time": 1639738906521,
-        "updated": 1639741782930,
+        "updated": 1639743329177,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g4o6w7q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g4o6w7q.geojson",
-        "felt": 256,
+        "felt": 262,
         "cdi": 3.6,
         "mmi": 3.452,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 281,
+        "sig": 283,
         "net": "ak",
         "code": "021g4o6w7q",
         "ids": ",ak021g4o6w7q,us6000gd2f,",
@@ -175,17 +175,17 @@
         "mag": 3.1,
         "place": "5 km N of Three Forks, Montana",
         "time": 1639727594733,
-        "updated": 1639741588821,
+        "updated": 1639742967791,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd1p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd1p.geojson",
-        "felt": 16,
+        "felt": 17,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 154,
+        "sig": 155,
         "net": "us",
         "code": "6000gd1p",
         "ids": ",us6000gd1p,",
@@ -253,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "268 km SSE of Latung, Philippines",
+        "place": "Celebes Sea",
         "time": 1639724664023,
         "updated": 1639727017040,
         "tz": null,
@@ -277,7 +277,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 268 km SSE of Latung, Philippines"
+        "title": "M 4.1 - Celebes Sea"
       },
       "geometry": {
         "type": "Point",
@@ -295,22 +295,22 @@
         "mag": 4.7,
         "place": "65 km NNW of Turpan, China",
         "time": 1639724080328,
-        "updated": 1639725121040,
+        "updated": 1639742786757,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd1d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd1d.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
+        "sig": 341,
         "net": "us",
         "code": "6000gd1d",
         "ids": ",us6000gd1d,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 5.672,
         "rms": 0.77,
@@ -413,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.63,
-        "place": "63 km N of Hatillo, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639720703810,
         "updated": 1639730352040,
         "tz": null,
@@ -437,7 +437,7 @@
         "gap": 212,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - 63 km N of Hatillo, Puerto Rico"
+        "title": "M 3.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1448,46 +1448,6 @@
         ]
       },
       "id": "tx2021yope"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "1 km ENE of Pāhala, Hawaii",
-        "time": 1639655976700,
-        "updated": 1639716335190,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72835507",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72835507.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "hv",
-        "code": "72835507",
-        "ids": ",us6000gcri,hv72835507,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 99,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 1 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.467666666667,
-          19.2053333333333,
-          35.92
-        ]
-      },
-      "id": "hv72835507"
     }
   ],
   "bbox": [
