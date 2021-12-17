@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639780332000,
+    "generated": 1639780972000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 3,
         "place": "8 km NW of Stanley, Idaho",
         "time": 1639772230686,
-        "updated": 1639780281040,
+        "updated": 1639780340355,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd87",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd87.geojson",
@@ -655,17 +655,17 @@
         "mag": 3.6,
         "place": "12 km ENE of Ganges, Canada",
         "time": 1639743231663,
-        "updated": 1639780279002,
+        "updated": 1639780890596,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd2p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd2p.geojson",
-        "felt": 840,
+        "felt": 841,
         "cdi": 4.2,
         "mmi": 3.43,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 552,
+        "sig": 553,
         "net": "us",
         "code": "6000gd2p",
         "ids": ",uw61806621,us6000gd2p,",
@@ -695,17 +695,17 @@
         "mag": 3.5,
         "place": "10 km NNE of Hope, Alaska",
         "time": 1639738906521,
-        "updated": 1639779819759,
+        "updated": 1639780844781,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g4o6w7q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g4o6w7q.geojson",
-        "felt": 373,
+        "felt": 375,
         "cdi": 3.4,
         "mmi": 3.452,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 315,
+        "sig": 316,
         "net": "ak",
         "code": "021g4o6w7q",
         "ids": ",ak021g4o6w7q,us6000gd2f,",
@@ -1648,52 +1648,12 @@
         ]
       },
       "id": "us6000gcze"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "87 km WNW of Kalaoa, Hawaii",
-        "time": 1639694201560,
-        "updated": 1639701507859,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72836222",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72836222.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": 1.922,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 200,
-        "net": "hv",
-        "code": "72836222",
-        "ids": ",hv72836222,us6000gcz0,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 58,
-        "dmin": null,
-        "rms": 0.15,
-        "gap": 192,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 87 km WNW of Kalaoa, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.7945,
-          19.9018333333333,
-          1.04
-        ]
-      },
-      "id": "hv72836222"
     }
   ],
   "bbox": [
     -178.5011,
     -56.5589,
-    1.04,
+    1.67,
     178.1095,
     61.0017,
     604.34
