@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639774403000,
+    "generated": 1639775324000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -253,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.48,
-        "place": "6 km ENE of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1639765630910,
         "updated": 1639772925741,
         "tz": null,
@@ -277,7 +277,7 @@
         "gap": 137,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 6 km ENE of Pāhala, Hawaii"
+        "title": "M 3.5 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -615,17 +615,17 @@
         "mag": 3.6,
         "place": "12 km ENE of Ganges, Canada",
         "time": 1639743231663,
-        "updated": 1639774094942,
+        "updated": 1639775277485,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd2p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd2p.geojson",
-        "felt": 819,
-        "cdi": 4.1,
+        "felt": 823,
+        "cdi": 4.2,
         "mmi": 3.43,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 535,
+        "sig": 545,
         "net": "us",
         "code": "6000gd2p",
         "ids": ",uw61806621,us6000gd2p,",
