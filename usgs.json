@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639784649000,
+    "generated": 1639785197000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "8 km ENE of Zakynthos, Greece",
+        "time": 1639783682285,
+        "updated": 1639784844040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd9p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd9p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000gd9p",
+        "ids": ",us6000gd9p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.971,
+        "rms": 1.18,
+        "gap": 68,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 8 km ENE of Zakynthos, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9903,
+          37.8051,
+          10
+        ]
+      },
+      "id": "us6000gd9p"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -735,11 +775,11 @@
         "mag": 3.5,
         "place": "10 km NNE of Hope, Alaska",
         "time": 1639738906521,
-        "updated": 1639784623927,
+        "updated": 1639784940124,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g4o6w7q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g4o6w7q.geojson",
-        "felt": 377,
+        "felt": 378,
         "cdi": 3.4,
         "mmi": 3.452,
         "alert": null,
