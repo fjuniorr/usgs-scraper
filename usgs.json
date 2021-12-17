@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639773797000,
+    "generated": 1639774403000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 43
   },
   "features": [
     {
@@ -615,11 +615,11 @@
         "mag": 3.6,
         "place": "12 km ENE of Ganges, Canada",
         "time": 1639743231663,
-        "updated": 1639773785840,
+        "updated": 1639774094942,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd2p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd2p.geojson",
-        "felt": 818,
+        "felt": 819,
         "cdi": 4.1,
         "mmi": 3.43,
         "alert": null,
@@ -655,17 +655,17 @@
         "mag": 3.5,
         "place": "10 km NNE of Hope, Alaska",
         "time": 1639738906521,
-        "updated": 1639773661159,
+        "updated": 1639774297852,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g4o6w7q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g4o6w7q.geojson",
-        "felt": 371,
+        "felt": 370,
         "cdi": 3.4,
         "mmi": 3.452,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 315,
+        "sig": 314,
         "net": "ak",
         "code": "021g4o6w7q",
         "ids": ",ak021g4o6w7q,us6000gd2f,",
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Celebes Sea",
+        "place": "268 km SSE of Latung, Philippines",
         "time": 1639724664023,
         "updated": 1639727017040,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Celebes Sea"
+        "title": "M 4.1 - 268 km SSE of Latung, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.63,
-        "place": "Puerto Rico region",
+        "place": "63 km N of Hatillo, Puerto Rico",
         "time": 1639720703810,
         "updated": 1639730352040,
         "tz": null,
@@ -1197,7 +1197,7 @@
         "gap": 212,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Puerto Rico region"
+        "title": "M 3.6 - 63 km N of Hatillo, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1728,46 +1728,6 @@
         ]
       },
       "id": "us6000gcxa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "43 km SE of Naalehu, Hawaii",
-        "time": 1639687709560,
-        "updated": 1639705362090,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72836042",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72836042.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "hv",
-        "code": "72836042",
-        "ids": ",hv72836042,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 267,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 43 km SE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.268833333333,
-          18.8126666666667,
-          9.62
-        ]
-      },
-      "id": "hv72836042"
     }
   ],
   "bbox": [
