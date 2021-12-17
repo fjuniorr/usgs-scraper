@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639776963000,
+    "generated": 1639777458000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -655,11 +655,11 @@
         "mag": 3.5,
         "place": "10 km NNE of Hope, Alaska",
         "time": 1639738906521,
-        "updated": 1639776647018,
+        "updated": 1639777240353,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g4o6w7q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g4o6w7q.geojson",
-        "felt": 371,
+        "felt": 372,
         "cdi": 3.4,
         "mmi": 3.452,
         "alert": null,
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "268 km SSE of Latung, Philippines",
+        "place": "Celebes Sea",
         "time": 1639724664023,
         "updated": 1639727017040,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 268 km SSE of Latung, Philippines"
+        "title": "M 4.1 - Celebes Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.63,
-        "place": "63 km N of Hatillo, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639720703810,
         "updated": 1639730352040,
         "tz": null,
@@ -1197,7 +1197,7 @@
         "gap": 212,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - 63 km N of Hatillo, Puerto Rico"
+        "title": "M 3.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
