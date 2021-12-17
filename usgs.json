@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639719512000,
+    "generated": 1639719998000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 38
   },
   "features": [
     {
@@ -1528,46 +1528,6 @@
         ]
       },
       "id": "us6000gcpm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.68,
-        "place": "34 km S of Boca de Yuma, Dominican Republic",
-        "time": 1639633290450,
-        "updated": 1639635983116,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021350001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021350001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 208,
-        "net": "pr",
-        "code": "2021350001",
-        "ids": ",us6000gcpa,pr2021350001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.4869,
-        "rms": 0.29,
-        "gap": 221,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 34 km S of Boca de Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.5703,
-          18.0651,
-          50
-        ]
-      },
-      "id": "pr2021350001"
     }
   ],
   "bbox": [
