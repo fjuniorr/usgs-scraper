@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639719998000,
+    "generated": 1639720485000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "Tarapaca, Chile",
+        "time": 1639715865031,
+        "updated": 1639720406040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd0y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd0y.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "6000gd0y",
+        "ids": ",us6000gd0y,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.367,
+        "rms": 0.66,
+        "gap": 115,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - Tarapaca, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.8066,
+          -20.4536,
+          43.73
+        ]
+      },
+      "id": "us6000gd0y"
+    },
     {
       "type": "Feature",
       "properties": {
