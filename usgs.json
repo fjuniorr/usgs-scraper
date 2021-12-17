@@ -1,54 +1,14 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639717063000,
+    "generated": 1639718170000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 40
   },
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "9 km ENE of Pāhala, Hawaii",
-        "time": 1639713884300,
-        "updated": 1639714214310,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72836607",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72836607.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "hv",
-        "code": "72836607",
-        "ids": ",hv72836607,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": null,
-        "rms": 0.150000006,
-        "gap": 184,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 9 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.392166137695,
-          19.238000869751,
-          8.55000019073486
-        ]
-      },
-      "id": "hv72836607"
-    },
     {
       "type": "Feature",
       "properties": {
@@ -1648,46 +1608,6 @@
         ]
       },
       "id": "us6000gcp6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "3 km E of Maria Antonia, Puerto Rico",
-        "time": 1639630713620,
-        "updated": 1639631513109,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021350000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021350000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "pr",
-        "code": "2021350000",
-        "ids": ",pr2021350000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.0198,
-        "rms": 0.19,
-        "gap": 157,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 3 km E of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8608,
-          17.9825,
-          17
-        ]
-      },
-      "id": "pr2021350000"
     }
   ],
   "bbox": [
