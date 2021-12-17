@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639731364000,
+    "generated": 1639732409000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Izu Islands, Japan region",
+        "time": 1639730400968,
+        "updated": 1639731473040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd1z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd1z.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000gd1z",
+        "ids": ",us6000gd1z,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.712,
+        "rms": 0.45,
+        "gap": 136,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3738,
+          31.4795,
+          10
+        ]
+      },
+      "id": "us6000gd1z"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -93,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Celebes Sea",
+        "place": "268 km SSE of Latung, Philippines",
         "time": 1639724664023,
         "updated": 1639727017040,
         "tz": null,
@@ -117,7 +157,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Celebes Sea"
+        "title": "M 4.1 - 268 km SSE of Latung, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.63,
-        "place": "Puerto Rico region",
+        "place": "63 km N of Hatillo, Puerto Rico",
         "time": 1639720703810,
         "updated": 1639730352040,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": 212,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Puerto Rico region"
+        "title": "M 3.6 - 63 km N of Hatillo, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1528,46 +1568,6 @@
         ]
       },
       "id": "ak021g2zo4tb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.87,
-        "place": "48 km ESE of Naalehu, Hawaii",
-        "time": 1639645276080,
-        "updated": 1639646993190,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72835347",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72835347.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 127,
-        "net": "hv",
-        "code": "72835347",
-        "ids": ",hv72835347,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": null,
-        "rms": 0.14,
-        "gap": 267,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 48 km ESE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.1975,
-          18.8311666666667,
-          8.57
-        ]
-      },
-      "id": "hv72835347"
     }
   ],
   "bbox": [
