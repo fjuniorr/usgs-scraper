@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639824330000,
+    "generated": 1639824848000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 45
   },
   "features": [
     {
@@ -1333,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.48,
-        "place": "6 km ENE of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1639765630910,
         "updated": 1639772925741,
         "tz": null,
@@ -1357,7 +1357,7 @@
         "gap": 137,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 6 km ENE of Pāhala, Hawaii"
+        "title": "M 3.5 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1808,53 +1808,13 @@
         ]
       },
       "id": "pr2021351003"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1639738427895,
-        "updated": 1639771565520,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd2b",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd2b.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": 2.724,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000gd2b",
-        "ids": ",us6000gd2b,av91445941,ak021g4nwm7e,",
-        "sources": ",us,av,ak,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 0.396,
-        "rms": 0.74,
-        "gap": 210,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.1095,
-          51.6827,
-          10
-        ]
-      },
-      "id": "us6000gd2b"
     }
   ],
   "bbox": [
     -178.5011,
     -58.9707,
     0.84,
-    178.1095,
+    128.4392,
     79.0439,
     557.52
   ]
