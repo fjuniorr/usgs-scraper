@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639855224000,
+    "generated": 1639856016000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,22 +15,22 @@
         "mag": 3.02,
         "place": "1km NNW of Yucaipa, CA",
         "time": 1639854980070,
-        "updated": 1639855147416,
+        "updated": 1639855880593,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40130624",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40130624.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
+        "felt": 24,
+        "cdi": 3.4,
+        "mmi": 2.918,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 140,
+        "sig": 148,
         "net": "ci",
         "code": "40130624",
         "ids": ",ci40130624,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 114,
         "dmin": 0.05515,
         "rms": 0.18,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ci40130624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "72 km NNE of White Mountain, Alaska",
+        "time": 1639854973818,
+        "updated": 1639855761968,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g6gky07",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g6gky07.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "ak",
+        "code": "021g6gky07",
+        "ids": ",ak021g6gky07,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.95,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 72 km NNE of White Mountain, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.0721,
+          65.3155,
+          0
+        ]
+      },
+      "id": "ak021g6gky07"
     },
     {
       "type": "Feature",
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "Puerto Rico region",
+        "place": "5 km SW of La Parguera, Puerto Rico",
         "time": 1639847639670,
         "updated": 1639848513646,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": 258,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 5 km SW of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "Oklahoma",
+        "place": "7 km SE of Erin Springs, Oklahoma",
         "time": 1639841132558,
         "updated": 1639851106040,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": 70.35276794,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Oklahoma"
+        "title": "M 2.8 - 7 km SE of Erin Springs, Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -495,17 +535,17 @@
         "mag": 4.5,
         "place": "0 km NW of Chignolo d'Isola, Italy",
         "time": 1639823687055,
-        "updated": 1639854135135,
+        "updated": 1639855670089,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdds",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdds.geojson",
-        "felt": 128,
+        "felt": 130,
         "cdi": 5.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 379,
+        "sig": 380,
         "net": "us",
         "code": "6000gdds",
         "ids": ",us6000gdds,",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "197 km NE of Lospalos, Timor Leste",
+        "place": "Kepulauan Barat Daya, Indonesia",
         "time": 1639809666004,
         "updated": 1639810846040,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 60,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 197 km NE of Lospalos, Timor Leste"
+        "title": "M 4.8 - Kepulauan Barat Daya, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1768,46 +1808,6 @@
         ]
       },
       "id": "us6000gd8c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "26 km NW of Stanley, Idaho",
-        "time": 1639769601617,
-        "updated": 1639782479999,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd7c",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd7c.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "6000gd7c",
-        "ids": ",mb80533809,us6000gd7c,",
-        "sources": ",mb,us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.913,
-        "rms": 0.97,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 26 km NW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.1684,
-          44.3931,
-          7.49
-        ]
-      },
-      "id": "us6000gd7c"
     }
   ],
   "bbox": [
