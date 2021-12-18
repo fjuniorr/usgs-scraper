@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639829718000,
+    "generated": 1639831725000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 43
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 4.5,
         "place": "0 km NW of Chignolo d'Isola, Italy",
         "time": 1639823687055,
-        "updated": 1639829630855,
+        "updated": 1639831475672,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdds",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdds.geojson",
-        "felt": 71,
+        "felt": 85,
         "cdi": 6.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 355,
+        "sig": 363,
         "net": "us",
         "code": "6000gdds",
         "ids": ",us6000gdds,",
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Kepulauan Barat Daya, Indonesia",
+        "place": "197 km NE of Lospalos, Timor Leste",
         "time": 1639809666004,
         "updated": 1639810846040,
         "tz": null,
@@ -197,7 +197,7 @@
         "gap": 60,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Kepulauan Barat Daya, Indonesia"
+        "title": "M 4.8 - 197 km NE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
@@ -1135,17 +1135,17 @@
         "mag": 2.5,
         "place": "7 km SW of Gypsum, Kansas",
         "time": 1639773177374,
-        "updated": 1639807101711,
+        "updated": 1639831112679,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd8i",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd8i.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 97,
         "net": "us",
         "code": "6000gd8i",
         "ids": ",us6000gd8i,",
@@ -1413,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.48,
-        "place": "6 km ENE of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1639765630910,
         "updated": 1639772925741,
         "tz": null,
@@ -1437,7 +1437,7 @@
         "gap": 137,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 6 km ENE of Pāhala, Hawaii"
+        "title": "M 3.5 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1728,46 +1728,6 @@
         ]
       },
       "id": "ci40129448"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "58km S of Estacion Coahuila, B.C., MX",
-        "time": 1639743442170,
-        "updated": 1639763670730,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40129416",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40129416.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.523,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ci",
-        "code": "40129416",
-        "ids": ",ci40129416,us6000gd2q,",
-        "sources": ",ci,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 17,
-        "dmin": 0.3921,
-        "rms": 0.26,
-        "gap": 119,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 58km S of Estacion Coahuila, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.0685,
-          31.6793333,
-          5.84
-        ]
-      },
-      "id": "ci40129416"
     }
   ],
   "bbox": [
