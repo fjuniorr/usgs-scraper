@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639860255000,
+    "generated": 1639860767000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 44
   },
   "features": [
     {
@@ -332,8 +332,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "59 km W of Sámara, Costa Rica",
+        "time": 1639848266425,
+        "updated": 1639860456040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdf7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdf7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000gdf7",
+        "ids": ",us6000gdf7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.632,
+        "rms": 0.76,
+        "gap": 209,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 59 km W of Sámara, Costa Rica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0633,
+          9.9423,
+          16.16
+        ]
+      },
+      "id": "us6000gdf7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.48,
-        "place": "5 km SW of La Parguera, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639847639670,
         "updated": 1639848513646,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 258,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 5 km SW of La Parguera, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "7 km SE of Erin Springs, Oklahoma",
+        "place": "Oklahoma",
         "time": 1639841132558,
         "updated": 1639851106040,
         "tz": null,
@@ -437,7 +477,7 @@
         "gap": 70.35276794,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 7 km SE of Erin Springs, Oklahoma"
+        "title": "M 2.8 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Kepulauan Barat Daya, Indonesia",
+        "place": "197 km NE of Lospalos, Timor Leste",
         "time": 1639809666004,
         "updated": 1639810846040,
         "tz": null,
@@ -797,7 +837,7 @@
         "gap": 60,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Kepulauan Barat Daya, Indonesia"
+        "title": "M 4.8 - 197 km NE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
