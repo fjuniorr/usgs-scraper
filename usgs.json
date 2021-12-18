@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639837473000,
+    "generated": 1639838050000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 39
   },
   "features": [
     {
@@ -95,17 +95,17 @@
         "mag": 4.5,
         "place": "0 km NW of Chignolo d'Isola, Italy",
         "time": 1639823687055,
-        "updated": 1639837389755,
+        "updated": 1639838008212,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdds",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdds.geojson",
-        "felt": 110,
+        "felt": 113,
         "cdi": 5.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 370,
+        "sig": 371,
         "net": "us",
         "code": "6000gdds",
         "ids": ",us6000gdds,",
@@ -1568,46 +1568,6 @@
         ]
       },
       "id": "hv72837342"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "13 km SW of Donsol, Philippines",
-        "time": 1639751335824,
-        "updated": 1639801492307,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd3g",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd3g.geojson",
-        "felt": 7,
-        "cdi": 4.9,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 373,
-        "net": "us",
-        "code": "6000gd3g",
-        "ids": ",us6000gd3g,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 6.065,
-        "rms": 0.65,
-        "gap": 127,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 13 km SW of Donsol, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.5095,
-          12.8183,
-          10
-        ]
-      },
-      "id": "us6000gd3g"
     }
   ],
   "bbox": [
