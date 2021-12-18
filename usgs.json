@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639865447000,
+    "generated": 1639866726000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "18 km ENE of Pedro Bay, Alaska",
+        "time": 1639865089863,
+        "updated": 1639866678797,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g6iansc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g6iansc.geojson",
+        "felt": 59,
+        "cdi": 3.1,
+        "mmi": 2.247,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 330,
+        "net": "ak",
+        "code": "021g6iansc",
+        "ids": ",ak021g6iansc,at00r4c001,us6000gdhk,",
+        "sources": ",ak,at,us,",
+        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.46,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.5 - 18 km ENE of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.8121,
+          59.8655,
+          165.7
+        ]
+      },
+      "id": "ak021g6iansc"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -332,6 +372,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "47 km S of Champerico, Guatemala",
+        "time": 1639849724412,
+        "updated": 1639865797040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdfl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdfl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000gdfl",
+        "ids": ",us6000gdfl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.128,
+        "rms": 0.99,
+        "gap": 181,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 47 km S of Champerico, Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.9714,
+          13.8662,
+          65.49
+        ]
+      },
+      "id": "us6000gdfl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
         "place": "78 km ENE of Ouzinkie, Alaska",
         "time": 1639849596613,
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "5 km SW of La Parguera, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639847639670,
         "updated": 1639848513646,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 258,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 5 km SW of La Parguera, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "7 km SE of Erin Springs, Oklahoma",
+        "place": "Oklahoma",
         "time": 1639841132558,
         "updated": 1639851106040,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 70.35276794,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 7 km SE of Erin Springs, Oklahoma"
+        "title": "M 2.8 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -735,11 +815,11 @@
         "mag": 4.5,
         "place": "0 km NW of Chignolo d'Isola, Italy",
         "time": 1639823687055,
-        "updated": 1639864964282,
+        "updated": 1639866627326,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdds",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdds.geojson",
-        "felt": 134,
+        "felt": 135,
         "cdi": 5.1,
         "mmi": null,
         "alert": null,
@@ -853,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Kepulauan Barat Daya, Indonesia",
+        "place": "197 km NE of Lospalos, Timor Leste",
         "time": 1639809666004,
         "updated": 1639810846040,
         "tz": null,
@@ -877,7 +957,7 @@
         "gap": 60,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Kepulauan Barat Daya, Indonesia"
+        "title": "M 4.8 - 197 km NE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
@@ -1728,46 +1808,6 @@
         ]
       },
       "id": "us6000gd9p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "6 km ENE of Pāhala, Hawaii",
-        "time": 1639779622760,
-        "updated": 1639792408490,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72837682",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72837682.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "hv",
-        "code": "72837682",
-        "ids": ",us6000gd9c,hv72837682,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 141,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 6 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.416833333333,
-          19.2168333333333,
-          32.89
-        ]
-      },
-      "id": "hv72837682"
     }
   ],
   "bbox": [
