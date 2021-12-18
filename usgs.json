@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639868979000,
+    "generated": 1639870074000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 48
   },
   "features": [
     {
@@ -55,11 +55,11 @@
         "mag": 4.5,
         "place": "18 km ENE of Pedro Bay, Alaska",
         "time": 1639865089863,
-        "updated": 1639868914408,
+        "updated": 1639869809757,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g6iansc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g6iansc.geojson",
-        "felt": 71,
+        "felt": 72,
         "cdi": 3.1,
         "mmi": 2.247,
         "alert": null,
@@ -128,6 +128,46 @@
         ]
       },
       "id": "uu60472537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "76 km NNE of Maumere, Indonesia",
+        "time": 1639859251850,
+        "updated": 1639868987040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdh2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdh2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000gdh2",
+        "ids": ",us6000gdh2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.691,
+        "rms": 0.6,
+        "gap": 70,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 76 km NNE of Maumere, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.4235,
+          -7.9652,
+          10
+        ]
+      },
+      "id": "us6000gdh2"
     },
     {
       "type": "Feature",
