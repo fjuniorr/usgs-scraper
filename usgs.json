@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639823689000,
+    "generated": 1639824330000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 46
   },
   "features": [
     {
@@ -215,17 +215,17 @@
         "mag": 5.1,
         "place": "24 km ESE of Kýthira, Greece",
         "time": 1639804599630,
-        "updated": 1639817321586,
+        "updated": 1639823796812,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdc8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdc8.geojson",
-        "felt": 11,
+        "felt": 12,
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 405,
+        "sig": 406,
         "net": "us",
         "code": "6000gdc8",
         "ids": ",us6000gdc8,",
@@ -1333,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.48,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "6 km ENE of Pāhala, Hawaii",
         "time": 1639765630910,
         "updated": 1639772925741,
         "tz": null,
@@ -1357,7 +1357,7 @@
         "gap": 137,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - Island of Hawaii, Hawaii"
+        "title": "M 3.5 - 6 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1848,46 +1848,6 @@
         ]
       },
       "id": "us6000gd2b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "165 km SE of Atka, Alaska",
-        "time": 1639737394822,
-        "updated": 1639770951573,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g4nsz46",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g4nsz46.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "021g4nsz46",
-        "ids": ",ak021g4nsz46,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.87,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 165 km SE of Atka, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -172.3341,
-          51.2673,
-          60.4
-        ]
-      },
-      "id": "ak021g4nsz46"
     }
   ],
   "bbox": [
