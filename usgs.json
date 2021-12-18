@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639785197000,
+    "generated": 1639787879000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.89,
+        "place": "7 km E of Pāhala, Hawaii",
+        "time": 1639787143440,
+        "updated": 1639787824503,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72837852",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72837852.geojson",
+        "felt": 2,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "hv",
+        "code": "72837852",
+        "ids": ",hv72837852,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 44,
+        "dmin": null,
+        "rms": 0.129999995,
+        "gap": 148,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 7 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.409164428711,
+          19.2124996185303,
+          32.3300018310547
+        ]
+      },
+      "id": "hv72837852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.81,
+        "place": "3 km SSE of Pāhala, Hawaii",
+        "time": 1639785278300,
+        "updated": 1639786111040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72837787",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72837787.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "hv",
+        "code": "72837787",
+        "ids": ",us6000gd9w,hv72837787,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 86,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 3 km SSE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.470504760742,
+          19.1736660003662,
+          34.060001373291
+        ]
+      },
+      "id": "hv72837787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "35 km SE of Khorugh, Tajikistan",
+        "time": 1639784384170,
+        "updated": 1639785299040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd9t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd9t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000gd9t",
+        "ids": ",us6000gd9t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.059,
+        "rms": 0.77,
+        "gap": 78,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 35 km SE of Khorugh, Tajikistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.8843,
+          37.3066,
+          175.05
+        ]
+      },
+      "id": "us6000gd9t"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -735,17 +855,17 @@
         "mag": 3.6,
         "place": "12 km ENE of Ganges, Canada",
         "time": 1639743231663,
-        "updated": 1639784512412,
+        "updated": 1639787808708,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd2p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd2p.geojson",
-        "felt": 847,
+        "felt": 850,
         "cdi": 4.2,
         "mmi": 3.43,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 555,
+        "sig": 556,
         "net": "us",
         "code": "6000gd2p",
         "ids": ",uw61806621,us6000gd2p,",
@@ -1528,86 +1648,6 @@
         ]
       },
       "id": "us6000gd0b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "4 km W of Gypsum, Kansas",
-        "time": 1639700321362,
-        "updated": 1639762904407,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gczs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gczs.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000gczs",
-        "ids": ",us6000gczs,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.765,
-        "rms": 0.55,
-        "gap": 146,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km W of Gypsum, Kansas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.4836,
-          38.7125,
-          5
-        ]
-      },
-      "id": "us6000gczs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "south of Panama",
-        "time": 1639699973427,
-        "updated": 1639763346040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gczr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gczr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000gczr",
-        "ids": ",us6000gczr,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 3.855,
-        "rms": 0.92,
-        "gap": 76,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - south of Panama"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.5844,
-          4.9143,
-          10
-        ]
-      },
-      "id": "us6000gczr"
     }
   ],
   "bbox": [
