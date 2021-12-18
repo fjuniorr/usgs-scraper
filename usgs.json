@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639861800000,
+    "generated": 1639862881000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -95,11 +95,11 @@
         "mag": 3.02,
         "place": "1km NNW of Yucaipa, CA",
         "time": 1639854980070,
-        "updated": 1639858709720,
+        "updated": 1639862251153,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40130624",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40130624.geojson",
-        "felt": 30,
+        "felt": 31,
         "cdi": 3.4,
         "mmi": 2.686,
         "alert": null,
@@ -373,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "5 km SW of La Parguera, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639847639670,
         "updated": 1639848513646,
         "tz": null,
@@ -397,7 +397,7 @@
         "gap": 258,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 5 km SW of La Parguera, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "7 km SE of Erin Springs, Oklahoma",
+        "place": "Oklahoma",
         "time": 1639841132558,
         "updated": 1639851106040,
         "tz": null,
@@ -477,7 +477,7 @@
         "gap": 70.35276794,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 7 km SE of Erin Springs, Oklahoma"
+        "title": "M 2.8 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -695,11 +695,11 @@
         "mag": 4.5,
         "place": "0 km NW of Chignolo d'Isola, Italy",
         "time": 1639823687055,
-        "updated": 1639858600334,
+        "updated": 1639862516619,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdds",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdds.geojson",
-        "felt": 132,
+        "felt": 133,
         "cdi": 5.1,
         "mmi": null,
         "alert": null,
@@ -813,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Kepulauan Barat Daya, Indonesia",
+        "place": "197 km NE of Lospalos, Timor Leste",
         "time": 1639809666004,
         "updated": 1639810846040,
         "tz": null,
@@ -837,7 +837,7 @@
         "gap": 60,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Kepulauan Barat Daya, Indonesia"
+        "title": "M 4.8 - 197 km NE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
