@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639802555000,
+    "generated": 1639803491000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "0 km W of Candelaria, Puerto Rico",
+        "time": 1639802480553,
+        "updated": 1639803244232,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdc1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdc1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.689,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "6000gdc1",
+        "ids": ",us6000gdc1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.162,
+        "rms": 0.37,
+        "gap": 172,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 0 km W of Candelaria, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2173,
+          18.4047,
+          124.63
+        ]
+      },
+      "id": "us6000gdc1"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 2.98,
         "place": "6 km E of Pāhala, Hawaii",
         "time": 1639798717450,
-        "updated": 1639799688670,
+        "updated": 1639803028256,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72838177",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72838177.geojson",
@@ -135,7 +175,7 @@
         "mag": 3.08,
         "place": "5 km E of Pāhala, Hawaii",
         "time": 1639795400180,
-        "updated": 1639797629142,
+        "updated": 1639802690855,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72838047",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72838047.geojson",
@@ -368,6 +408,46 @@
         ]
       },
       "id": "us6000gdad"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "255 km ESE of Chiniak, Alaska",
+        "time": 1639789081235,
+        "updated": 1639803299040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdaa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdaa.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "6000gdaa",
+        "ids": ",us6000gdaa,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.522,
+        "rms": 0.44,
+        "gap": 211,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 255 km ESE of Chiniak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.5851,
+          56.5144,
+          10
+        ]
+      },
+      "id": "us6000gdaa"
     },
     {
       "type": "Feature",
@@ -1733,7 +1813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "268 km SSE of Latung, Philippines",
+        "place": "Celebes Sea",
         "time": 1639724664023,
         "updated": 1639727017040,
         "tz": null,
@@ -1757,7 +1837,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 268 km SSE of Latung, Philippines"
+        "title": "M 4.1 - Celebes Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1893,7 +1973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.63,
-        "place": "63 km N of Hatillo, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639720703810,
         "updated": 1639730352040,
         "tz": null,
@@ -1917,7 +1997,7 @@
         "gap": 212,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - 63 km N of Hatillo, Puerto Rico"
+        "title": "M 3.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
