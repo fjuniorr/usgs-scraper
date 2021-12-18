@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639856563000,
+    "generated": 1639857165000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 44
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 3.02,
         "place": "1km NNW of Yucaipa, CA",
         "time": 1639854980070,
-        "updated": 1639856257594,
+        "updated": 1639856873767,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40130624",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40130624.geojson",
-        "felt": 24,
+        "felt": 27,
         "cdi": 3.4,
         "mmi": 2.918,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 148,
+        "sig": 149,
         "net": "ci",
         "code": "40130624",
         "ids": ",ci40130624,",
@@ -95,17 +95,17 @@
         "mag": 2.46,
         "place": "12 km SSW of Leilani Estates, Hawaii",
         "time": 1639854684440,
-        "updated": 1639856495731,
+        "updated": 1639856914707,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72839177",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72839177.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "felt": 2,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 93,
+        "sig": 94,
         "net": "hv",
         "code": "72839177",
         "ids": ",hv72839177,",
@@ -132,10 +132,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.7,
+        "place": "19 km ENE of Sorong, Indonesia",
+        "time": 1639854369331,
+        "updated": 1639856981040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdgg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdgg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000gdgg",
+        "ids": ",us6000gdgg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.222,
+        "rms": 1.04,
+        "gap": 143,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 19 km ENE of Sorong, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.4339,
+          -0.8379,
+          38.5
+        ]
+      },
+      "id": "us6000gdgg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.2,
-        "place": "40 km NE of Sorong, Indonesia",
-        "time": 1639851959296,
-        "updated": 1639854080040,
+        "place": "35 km NE of Sorong, Indonesia",
+        "time": 1639851959333,
+        "updated": 1639857003040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdfv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdfv.geojson",
@@ -152,19 +192,19 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 2.335,
-        "rms": 0.72,
+        "dmin": 2.325,
+        "rms": 0.68,
         "gap": 58,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 40 km NE of Sorong, Indonesia"
+        "title": "M 5.2 - 35 km NE of Sorong, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          131.5577,
-          -0.6729,
-          10
+          131.5224,
+          -0.6954,
+          10.65
         ]
       },
       "id": "us6000gdfv"
@@ -213,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "5 km SW of La Parguera, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639847639670,
         "updated": 1639848513646,
         "tz": null,
@@ -237,7 +277,7 @@
         "gap": 258,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 5 km SW of La Parguera, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "7 km SE of Erin Springs, Oklahoma",
+        "place": "Oklahoma",
         "time": 1639841132558,
         "updated": 1639851106040,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 70.35276794,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 7 km SE of Erin Springs, Oklahoma"
+        "title": "M 2.8 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -535,17 +575,17 @@
         "mag": 4.5,
         "place": "0 km NW of Chignolo d'Isola, Italy",
         "time": 1639823687055,
-        "updated": 1639855670089,
+        "updated": 1639857054048,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdds",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdds.geojson",
-        "felt": 130,
+        "felt": 131,
         "cdi": 5.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 380,
+        "sig": 381,
         "net": "us",
         "code": "6000gdds",
         "ids": ",us6000gdds,",
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Kepulauan Barat Daya, Indonesia",
+        "place": "197 km NE of Lospalos, Timor Leste",
         "time": 1639809666004,
         "updated": 1639810846040,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": 60,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Kepulauan Barat Daya, Indonesia"
+        "title": "M 4.8 - 197 km NE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
@@ -1728,93 +1768,13 @@
         ]
       },
       "id": "us6000gd7w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "16 km S of Point Possession, Alaska",
-        "time": 1639770606368,
-        "updated": 1639841039040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g4t8s6v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g4t8s6v.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "021g4t8s6v",
-        "ids": ",us6000gd7k,ak021g4t8s6v,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.73,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 16 km S of Point Possession, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.6911,
-          60.7709,
-          18.8
-        ]
-      },
-      "id": "ak021g4t8s6v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Kermadec Islands region",
-        "time": 1639770491091,
-        "updated": 1639773506040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd8c",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd8c.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000gd8c",
-        "ids": ",us6000gd8c,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.496,
-        "rms": 1.26,
-        "gap": 77,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.0326,
-          -28.7741,
-          179.16
-        ]
-      },
-      "id": "us6000gd8c"
     }
   ],
   "bbox": [
     -178.5172,
     -58.9707,
     0,
-    131.5577,
+    131.5224,
     79.0439,
     572.14
   ]
