@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639818817000,
+    "generated": 1639819876000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 48
   },
   "features": [
     {
@@ -1928,46 +1928,6 @@
         ]
       },
       "id": "us6000gd28"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "24 km NE of Kızılırmak, Turkey",
-        "time": 1639733313396,
-        "updated": 1639760097040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd24",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd24.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000gd24",
-        "ids": ",us6000gd24,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.64,
-        "rms": 0.61,
-        "gap": 43,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 24 km NE of Kızılırmak, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.1749,
-          40.5142,
-          10
-        ]
-      },
-      "id": "us6000gd24"
     }
   ],
   "bbox": [
