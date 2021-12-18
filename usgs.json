@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639842492000,
+    "generated": 1639842976000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -13,7 +13,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "Oklahoma",
+        "place": "7 km SE of Erin Springs, Oklahoma",
         "time": 1639841132558,
         "updated": 1639841388105,
         "tz": null,
@@ -37,7 +37,7 @@
         "gap": 70.35276794,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Oklahoma"
+        "title": "M 2.8 - 7 km SE of Erin Springs, Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "197 km NE of Lospalos, Timor Leste",
+        "place": "Kepulauan Barat Daya, Indonesia",
         "time": 1639809666004,
         "updated": 1639810846040,
         "tz": null,
@@ -357,7 +357,7 @@
         "gap": 60,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 197 km NE of Lospalos, Timor Leste"
+        "title": "M 4.8 - Kepulauan Barat Daya, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1375,13 +1375,13 @@
         "mag": 5.7,
         "place": "229 km E of Levuka, Fiji",
         "time": 1639771349892,
-        "updated": 1639842456040,
+        "updated": 1639842646141,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd7w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd7w.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 1.63,
+        "mmi": 1.552,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -1573,7 +1573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.48,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "6 km ENE of Pāhala, Hawaii",
         "time": 1639765630910,
         "updated": 1639772925741,
         "tz": null,
@@ -1597,7 +1597,7 @@
         "gap": 137,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - Island of Hawaii, Hawaii"
+        "title": "M 3.5 - 6 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
