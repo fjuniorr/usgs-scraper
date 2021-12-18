@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639854433000,
+    "generated": 1639855224000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.02,
+        "place": "1km NNW of Yucaipa, CA",
+        "time": 1639854980070,
+        "updated": 1639855147416,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40130624",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40130624.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 140,
+        "net": "ci",
+        "code": "40130624",
+        "ids": ",ci40130624,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 114,
+        "dmin": 0.05515,
+        "rms": 0.18,
+        "gap": 18,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 1km NNW of Yucaipa, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.046669,
+          34.043335,
+          11.05
+        ]
+      },
+      "id": "ci40130624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "12 km SSW of Leilani Estates, Hawaii",
+        "time": 1639854684440,
+        "updated": 1639855014140,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72839177",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72839177.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "hv",
+        "code": "72839177",
+        "ids": ",hv72839177,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": null,
+        "rms": 0.289999992,
+        "gap": 227,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 12 km SSW of Leilani Estates, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.975830078125,
+          19.3680000305176,
+          5.71999979019165
+        ]
+      },
+      "id": "hv72839177"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -93,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "5 km SW of La Parguera, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639847639670,
         "updated": 1639848513646,
         "tz": null,
@@ -117,7 +197,7 @@
         "gap": 258,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 5 km SW of La Parguera, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "7 km SE of Erin Springs, Oklahoma",
+        "place": "Oklahoma",
         "time": 1639841132558,
         "updated": 1639851106040,
         "tz": null,
@@ -197,7 +277,7 @@
         "gap": 70.35276794,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 7 km SE of Erin Springs, Oklahoma"
+        "title": "M 2.8 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Kepulauan Barat Daya, Indonesia",
+        "place": "197 km NE of Lospalos, Timor Leste",
         "time": 1639809666004,
         "updated": 1639810846040,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 60,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Kepulauan Barat Daya, Indonesia"
+        "title": "M 4.8 - 197 km NE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
