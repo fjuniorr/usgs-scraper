@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639842976000,
+    "generated": 1639844320000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -13,7 +13,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "7 km SE of Erin Springs, Oklahoma",
+        "place": "Oklahoma",
         "time": 1639841132558,
         "updated": 1639841388105,
         "tz": null,
@@ -37,7 +37,7 @@
         "gap": 70.35276794,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 7 km SE of Erin Springs, Oklahoma"
+        "title": "M 2.8 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -215,17 +215,17 @@
         "mag": 4.5,
         "place": "0 km NW of Chignolo d'Isola, Italy",
         "time": 1639823687055,
-        "updated": 1639841917584,
+        "updated": 1639843663603,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdds",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdds.geojson",
-        "felt": 122,
+        "felt": 123,
         "cdi": 5.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 376,
+        "sig": 377,
         "net": "us",
         "code": "6000gdds",
         "ids": ",us6000gdds,",
@@ -333,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Kepulauan Barat Daya, Indonesia",
+        "place": "197 km NE of Lospalos, Timor Leste",
         "time": 1639809666004,
         "updated": 1639810846040,
         "tz": null,
@@ -357,7 +357,7 @@
         "gap": 60,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Kepulauan Barat Daya, Indonesia"
+        "title": "M 4.8 - 197 km NE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
