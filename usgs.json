@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639839145000,
+    "generated": 1639840180000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "61 km N of Wiseman, Alaska",
+        "time": 1639839194252,
+        "updated": 1639839927125,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g6dtmci",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g6dtmci.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "021g6dtmci",
+        "ids": ",ak021g6dtmci,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.64,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 61 km N of Wiseman, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.1522,
+          67.9618,
+          0
+        ]
+      },
+      "id": "ak021g6dtmci"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 4.5,
         "place": "0 km NW of Chignolo d'Isola, Italy",
         "time": 1639823687055,
-        "updated": 1639838642122,
+        "updated": 1639839352362,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdds",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdds.geojson",
-        "felt": 115,
+        "felt": 116,
         "cdi": 5.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 372,
+        "sig": 373,
         "net": "us",
         "code": "6000gdds",
         "ids": ",us6000gdds,",
@@ -1613,7 +1653,7 @@
   "bbox": [
     -178.5011,
     -58.9707,
-    0.84,
+    0,
     128.4392,
     79.0439,
     557.52
