@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639809517000,
+    "generated": 1639810430000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "59 km S of Puerto El Triunfo, El Salvador",
+        "time": 1639807934671,
+        "updated": 1639810101040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdcs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdcs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000gdcs",
+        "ids": ",us6000gdcs,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.777,
+        "rms": 0.63,
+        "gap": 149,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 59 km S of Puerto El Triunfo, El Salvador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.641,
+          12.7517,
+          51.94
+        ]
+      },
+      "id": "us6000gdcs"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +95,17 @@
         "mag": 5.1,
         "place": "24 km ESE of Kýthira, Greece",
         "time": 1639804599630,
-        "updated": 1639808104202,
+        "updated": 1639809842174,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdc8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdc8.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 402,
+        "sig": 403,
         "net": "us",
         "code": "6000gdc8",
         "ids": ",us6000gdc8,",
@@ -95,7 +135,7 @@
         "mag": 3.65,
         "place": "2 km ESE of Pájaros, Puerto Rico",
         "time": 1639802481250,
-        "updated": 1639806637945,
+        "updated": 1639809781415,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021352000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021352000.geojson",
@@ -1173,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.48,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "6 km ENE of Pāhala, Hawaii",
         "time": 1639765630910,
         "updated": 1639772925741,
         "tz": null,
@@ -1197,7 +1237,7 @@
         "gap": 137,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - Island of Hawaii, Hawaii"
+        "title": "M 3.5 - 6 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1933,7 +1973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "268 km SSE of Latung, Philippines",
+        "place": "Celebes Sea",
         "time": 1639724664023,
         "updated": 1639727017040,
         "tz": null,
@@ -1957,7 +1997,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 268 km SSE of Latung, Philippines"
+        "title": "M 4.1 - Celebes Sea"
       },
       "geometry": {
         "type": "Point",
@@ -2008,46 +2048,6 @@
         ]
       },
       "id": "us6000gd1d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.65,
-        "place": "1 km W of Indios, Puerto Rico",
-        "time": 1639723230510,
-        "updated": 1639730706040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021351002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021351002.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 108,
-        "net": "pr",
-        "code": "2021351002",
-        "ids": ",us6000gd18,pr2021351002,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.0496,
-        "rms": 0.14,
-        "gap": 138,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 1 km W of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8331,
-          17.9935,
-          16
-        ]
-      },
-      "id": "pr2021351002"
     }
   ],
   "bbox": [
