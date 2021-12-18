@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639804695000,
+    "generated": 1639805379000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -1455,11 +1455,11 @@
         "mag": 3.5,
         "place": "10 km NNE of Hope, Alaska",
         "time": 1639738906521,
-        "updated": 1639803657574,
+        "updated": 1639805313320,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g4o6w7q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g4o6w7q.geojson",
-        "felt": 383,
+        "felt": 384,
         "cdi": 3.4,
         "mmi": 3.452,
         "alert": null,
