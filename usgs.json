@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639859485000,
+    "generated": 1639860255000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "227 km SSE of Isangel, Vanuatu",
+        "time": 1639858456222,
+        "updated": 1639859938040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdgp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdgp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000gdgp",
+        "ids": ",us6000gdgp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.756,
+        "rms": 0.83,
+        "gap": 88,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 227 km SSE of Isangel, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.1337,
+          -21.4311,
+          10
+        ]
+      },
+      "id": "us6000gdgp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1688,53 +1728,13 @@
         ]
       },
       "id": "ci40129800"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "7 km SW of Gypsum, Kansas",
-        "time": 1639773177374,
-        "updated": 1639831112679,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd8i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd8i.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 97,
-        "net": "us",
-        "code": "6000gd8i",
-        "ids": ",us6000gd8i,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.718,
-        "rms": 0.41,
-        "gap": 98,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 2.5 - 7 km SW of Gypsum, Kansas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.5001,
-          38.6645,
-          5
-        ]
-      },
-      "id": "us6000gd8i"
     }
   ],
   "bbox": [
     -175.0152,
     -58.9707,
     0,
-    131.5224,
+    170.1337,
     79.0439,
     175.05
   ]
