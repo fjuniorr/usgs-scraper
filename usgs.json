@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639840180000,
+    "generated": 1639841641000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.81,
+        "place": "Oklahoma",
+        "time": 1639841132558,
+        "updated": 1639841388105,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2021ysmc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2021ysmc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ok",
+        "code": "2021ysmc",
+        "ids": ",ok2021ysmc,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": 0.1362116039,
+        "rms": 0.7432525973,
+        "gap": 70.35276794,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54928589,
+          34.76375961,
+          1.739722729
+        ]
+      },
+      "id": "ok2021ysmc"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,17 +215,17 @@
         "mag": 4.5,
         "place": "0 km NW of Chignolo d'Isola, Italy",
         "time": 1639823687055,
-        "updated": 1639839352362,
+        "updated": 1639841595938,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdds",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdds.geojson",
-        "felt": 116,
+        "felt": 120,
         "cdi": 5.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 373,
+        "sig": 375,
         "net": "us",
         "code": "6000gdds",
         "ids": ",us6000gdds,",
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Kepulauan Barat Daya, Indonesia",
+        "place": "197 km NE of Lospalos, Timor Leste",
         "time": 1639809666004,
         "updated": 1639810846040,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 60,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Kepulauan Barat Daya, Indonesia"
+        "title": "M 4.8 - 197 km NE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
@@ -1375,7 +1415,7 @@
         "mag": 2.6,
         "place": "16 km S of Point Possession, Alaska",
         "time": 1639770606368,
-        "updated": 1639770951826,
+        "updated": 1639841039040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g4t8s6v",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g4t8s6v.geojson",
@@ -1388,9 +1428,9 @@
         "sig": 104,
         "net": "ak",
         "code": "021g4t8s6v",
-        "ids": ",ak021g4t8s6v,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",us6000gd7k,ak021g4t8s6v,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.73,
