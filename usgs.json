@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639835558000,
+    "generated": 1639836528000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 4.5,
         "place": "0 km NW of Chignolo d'Isola, Italy",
         "time": 1639823687055,
-        "updated": 1639835458040,
+        "updated": 1639836464841,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdds",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdds.geojson",
-        "felt": 102,
-        "cdi": 6.1,
+        "felt": 107,
+        "cdi": 5.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 374,
+        "sig": 368,
         "net": "us",
         "code": "6000gdds",
         "ids": ",us6000gdds,",
@@ -335,11 +335,11 @@
         "mag": 3.65,
         "place": "2 km ESE of Pájaros, Puerto Rico",
         "time": 1639802481250,
-        "updated": 1639819900425,
+        "updated": 1639836328465,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021352000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021352000.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": 1.841,
         "alert": null,
@@ -1648,46 +1648,6 @@
         ]
       },
       "id": "hv72837127"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "74 km NE of Savannah Bight, Honduras",
-        "time": 1639749514128,
-        "updated": 1639800773112,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gd33",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gd33.geojson",
-        "felt": 3,
-        "cdi": 4.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 371,
-        "net": "us",
-        "code": "6000gd33",
-        "ids": ",us6000gd33,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 3.261,
-        "rms": 0.65,
-        "gap": 47,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 74 km NE of Savannah Bight, Honduras"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.3807,
-          16.9431,
-          10
-        ]
-      },
-      "id": "us6000gd33"
     }
   ],
   "bbox": [
