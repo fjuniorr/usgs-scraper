@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639891838000,
+    "generated": 1639892566000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 36
   },
   "features": [
     {
@@ -1448,46 +1448,6 @@
         ]
       },
       "id": "us6000gdcs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "29 km ESE of Buston, Tajikistan",
-        "time": 1639806163911,
-        "updated": 1639834653739,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdcd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdcd.geojson",
-        "felt": 3,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 341,
-        "net": "us",
-        "code": "6000gdcd",
-        "ids": ",us6000gdcd,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.611,
-        "rms": 0.58,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 29 km ESE of Buston, Tajikistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          70.0303,
-          40.1529,
-          10
-        ]
-      },
-      "id": "us6000gdcd"
     }
   ],
   "bbox": [
