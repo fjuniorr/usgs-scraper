@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639944587000,
+    "generated": 1639945936000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 33
   },
   "features": [
     {
@@ -493,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.06,
-        "place": "19 km SSE of Esperanza, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639911832270,
         "updated": 1639926778097,
         "tz": null,
@@ -517,7 +517,7 @@
         "gap": 269,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - 19 km SSE of Esperanza, Puerto Rico"
+        "title": "M 3.1 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Near the coast of Atacama, Chile",
+        "place": "126 km W of Copiapó, Chile",
         "time": 1639891796784,
         "updated": 1639893567040,
         "tz": null,
@@ -917,7 +917,7 @@
         "gap": 165,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Near the coast of Atacama, Chile"
+        "title": "M 4.3 - 126 km W of Copiapó, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "32 km WSW of Winslow West, Arizona",
+        "place": "32 km WSW of LeChee, Arizona",
         "time": 1639887860324,
         "updated": 1639934975193,
         "tz": null,
@@ -957,7 +957,7 @@
         "gap": 46,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 32 km WSW of Winslow West, Arizona"
+        "title": "M 3.0 - 32 km WSW of LeChee, Arizona"
       },
       "geometry": {
         "type": "Point",
@@ -1328,86 +1328,6 @@
         ]
       },
       "id": "uu60472537"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "76 km NNE of Maumere, Indonesia",
-        "time": 1639859251850,
-        "updated": 1639868987040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdh2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdh2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000gdh2",
-        "ids": ",us6000gdh2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.691,
-        "rms": 0.6,
-        "gap": 70,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 76 km NNE of Maumere, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          122.4235,
-          -7.9652,
-          10
-        ]
-      },
-      "id": "us6000gdh2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "227 km SSE of Isangel, Vanuatu",
-        "time": 1639858456222,
-        "updated": 1639890217556,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdgp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdgp.geojson",
-        "felt": 4,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 402,
-        "net": "us",
-        "code": "6000gdgp",
-        "ids": ",us6000gdgp,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 2.756,
-        "rms": 0.83,
-        "gap": 88,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 227 km SSE of Isangel, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          170.1337,
-          -21.4311,
-          10
-        ]
-      },
-      "id": "us6000gdgp"
     }
   ],
   "bbox": [
