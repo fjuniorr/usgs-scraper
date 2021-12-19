@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639939765000,
+    "generated": 1639940839000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
@@ -1608,46 +1608,6 @@
         ]
       },
       "id": "hv72839177"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "19 km ENE of Sorong, Indonesia",
-        "time": 1639854369331,
-        "updated": 1639856981040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdgg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdgg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000gdgg",
-        "ids": ",us6000gdgg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.222,
-        "rms": 1.04,
-        "gap": 143,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 19 km ENE of Sorong, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          131.4339,
-          -0.8379,
-          38.5
-        ]
-      },
-      "id": "us6000gdgg"
     }
   ],
   "bbox": [
