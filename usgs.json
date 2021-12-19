@@ -1,54 +1,14 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639955351000,
+    "generated": 1639956496000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 33
   },
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45000005,
-        "place": "6 km ENE of Pāhala, Hawaii",
-        "time": 1639955077140,
-        "updated": 1639955273620,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72840307",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72840307.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "hv",
-        "code": "72840307",
-        "ids": ",hv72840307,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": null,
-        "rms": 0.140000001,
-        "gap": 142,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.414337158203,
-          19.2164993286133,
-          32.8699989318848
-        ]
-      },
-      "id": "hv72840307"
-    },
     {
       "type": "Feature",
       "properties": {
@@ -135,11 +95,11 @@
         "mag": 5.6,
         "place": "52 km NW of Sainyabuli, Laos",
         "time": 1639947974969,
-        "updated": 1639954321497,
+        "updated": 1639956347960,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdng",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdng.geojson",
-        "felt": 13,
+        "felt": 14,
         "cdi": 4.3,
         "mmi": 6.717,
         "alert": "green",
