@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639950796000,
+    "generated": 1639951754000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,14 +12,54 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "20 km WNW of Tocopilla, Chile",
+        "time": 1639949738668,
+        "updated": 1639951305040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdnk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdnk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000gdnk",
+        "ids": ",us6000gdnk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.822,
+        "rms": 0.74,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 20 km WNW of Tocopilla, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.3858,
+          -22.044,
+          33.39
+        ]
+      },
+      "id": "us6000gdnk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.6,
         "place": "52 km NW of Sainyabuli, Laos",
         "time": 1639947974969,
-        "updated": 1639950763248,
+        "updated": 1639951357560,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdng",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdng.geojson",
-        "felt": 10,
+        "felt": 11,
         "cdi": 4.3,
         "mmi": 6.717,
         "alert": "green",
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.06,
-        "place": "Puerto Rico region",
+        "place": "19 km SSE of Esperanza, Puerto Rico",
         "time": 1639911832270,
         "updated": 1639926778097,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 269,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - Puerto Rico region"
+        "title": "M 3.1 - 19 km SSE of Esperanza, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "126 km W of Copiapó, Chile",
+        "place": "Near the coast of Atacama, Chile",
         "time": 1639891796784,
         "updated": 1639893567040,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 165,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 126 km W of Copiapó, Chile"
+        "title": "M 4.3 - Near the coast of Atacama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "32 km WSW of LeChee, Arizona",
+        "place": "32 km WSW of Winslow West, Arizona",
         "time": 1639887860324,
         "updated": 1639934975193,
         "tz": null,
@@ -997,7 +1037,7 @@
         "gap": 46,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 32 km WSW of LeChee, Arizona"
+        "title": "M 3.0 - 32 km WSW of Winslow West, Arizona"
       },
       "geometry": {
         "type": "Point",
@@ -1288,46 +1328,6 @@
         ]
       },
       "id": "us6000gdhq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "18 km ENE of Pedro Bay, Alaska",
-        "time": 1639865089863,
-        "updated": 1639939351709,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g6iansc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g6iansc.geojson",
-        "felt": 86,
-        "cdi": 3.1,
-        "mmi": 2.247,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 338,
-        "net": "ak",
-        "code": "021g6iansc",
-        "ids": ",ak021g6iansc,at00r4c001,us6000gdhk,",
-        "sources": ",ak,at,us,",
-        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.46,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.5 - 18 km ENE of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.8121,
-          59.8655,
-          165.7
-        ]
-      },
-      "id": "ak021g6iansc"
     }
   ],
   "bbox": [
