@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639929368000,
+    "generated": 1639930787000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "71 km N of White Mountain, Alaska",
+        "time": 1639927959958,
+        "updated": 1639929499040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdm4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdm4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "6000gdm4",
+        "ids": ",us6000gdm4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.054,
+        "rms": 0.45,
+        "gap": 129,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 71 km N of White Mountain, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.1315,
+          65.3158,
+          10
+        ]
+      },
+      "id": "us6000gdm4"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.06,
-        "place": "Puerto Rico region",
+        "place": "19 km SSE of Esperanza, Puerto Rico",
         "time": 1639911832270,
         "updated": 1639926778097,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 269,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - Puerto Rico region"
+        "title": "M 3.1 - 19 km SSE of Esperanza, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -575,17 +615,17 @@
         "mag": 4.6,
         "place": "6 km ESE of San Lorenzo, Philippines",
         "time": 1639895229279,
-        "updated": 1639921192415,
+        "updated": 1639930135098,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdje",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdje.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 4.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 329,
+        "sig": 330,
         "net": "us",
         "code": "6000gdje",
         "ids": ",us6000gdje,",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "126 km W of Copiapó, Chile",
+        "place": "Near the coast of Atacama, Chile",
         "time": 1639891796784,
         "updated": 1639893567040,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 165,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 126 km W of Copiapó, Chile"
+        "title": "M 4.3 - Near the coast of Atacama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "32 km WSW of LeChee, Arizona",
+        "place": "32 km WSW of Winslow West, Arizona",
         "time": 1639887860324,
         "updated": 1639906171135,
         "tz": null,
@@ -757,7 +797,7 @@
         "gap": 46,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 32 km WSW of LeChee, Arizona"
+        "title": "M 3.0 - 32 km WSW of Winslow West, Arizona"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "5 km SW of La Parguera, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639847639670,
         "updated": 1639848513646,
         "tz": null,
@@ -1677,7 +1717,7 @@
         "gap": 258,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 5 km SW of La Parguera, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
