@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639911222000,
+    "generated": 1639912080000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
     {
@@ -48,6 +48,46 @@
         ]
       },
       "id": "us6000gdks"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "80 km WSW of Uyuni, Bolivia",
+        "time": 1639909382493,
+        "updated": 1639911637040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdkr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdkr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000gdkr",
+        "ids": ",us6000gdkr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.667,
+        "rms": 0.51,
+        "gap": 72,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.3 - 80 km WSW of Uyuni, Bolivia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.5139,
+          -20.79,
+          211.37
+        ]
+      },
+      "id": "us6000gdkr"
     },
     {
       "type": "Feature",
@@ -215,17 +255,17 @@
         "mag": 4.6,
         "place": "6 km ESE of San Lorenzo, Philippines",
         "time": 1639895229279,
-        "updated": 1639905819146,
+        "updated": 1639911282100,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdje",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdje.geojson",
-        "felt": 4,
-        "cdi": 3.1,
+        "felt": 5,
+        "cdi": 4.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 327,
+        "sig": 328,
         "net": "us",
         "code": "6000gdje",
         "ids": ",us6000gdje,",
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Near the coast of Atacama, Chile",
+        "place": "126 km W of Copiapó, Chile",
         "time": 1639891796784,
         "updated": 1639893567040,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 165,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Near the coast of Atacama, Chile"
+        "title": "M 4.3 - 126 km W of Copiapó, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "32 km WSW of Winslow West, Arizona",
+        "place": "32 km WSW of LeChee, Arizona",
         "time": 1639887860324,
         "updated": 1639906171135,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": 46,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 32 km WSW of Winslow West, Arizona"
+        "title": "M 3.0 - 32 km WSW of LeChee, Arizona"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "Puerto Rico region",
+        "place": "5 km SW of La Parguera, Puerto Rico",
         "time": 1639847639670,
         "updated": 1639848513646,
         "tz": null,
@@ -1317,7 +1357,7 @@
         "gap": 258,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 5 km SW of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "Oklahoma",
+        "place": "7 km SE of Erin Springs, Oklahoma",
         "time": 1639841132558,
         "updated": 1639874503333,
         "tz": null,
@@ -1397,7 +1437,7 @@
         "gap": 70.35276794,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Oklahoma"
+        "title": "M 2.8 - 7 km SE of Erin Springs, Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -1576,6 +1616,6 @@
     0,
     170.1337,
     67.9618,
-    188.19
+    211.37
   ]
 }
