@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639957144000,
+    "generated": 1639957671000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -613,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.06,
-        "place": "19 km SSE of Esperanza, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639911832270,
         "updated": 1639926778097,
         "tz": null,
@@ -637,7 +637,7 @@
         "gap": 269,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - 19 km SSE of Esperanza, Puerto Rico"
+        "title": "M 3.1 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Near the coast of Atacama, Chile",
+        "place": "126 km W of Copiapó, Chile",
         "time": 1639891796784,
         "updated": 1639893567040,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 165,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Near the coast of Atacama, Chile"
+        "title": "M 4.3 - 126 km W of Copiapó, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "32 km WSW of Winslow West, Arizona",
+        "place": "32 km WSW of LeChee, Arizona",
         "time": 1639887860324,
         "updated": 1639953513417,
         "tz": null,
@@ -1077,7 +1077,7 @@
         "gap": 46,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 32 km WSW of Winslow West, Arizona"
+        "title": "M 3.0 - 32 km WSW of LeChee, Arizona"
       },
       "geometry": {
         "type": "Point",
