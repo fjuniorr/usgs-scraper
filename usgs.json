@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639935714000,
+    "generated": 1639936382000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "59 km NNE of Kobuk, Alaska",
+        "time": 1639935888444,
+        "updated": 1639936349269,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g833esy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g833esy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "021g833esy",
+        "ids": ",ak021g833esy,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.7,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 59 km NNE of Kobuk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.3986,
+          67.406,
+          17.9
+        ]
+      },
+      "id": "ak021g833esy"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,13 +95,13 @@
         "mag": 6.3,
         "place": "85 km W of Labasa, Fiji",
         "time": 1639931302574,
-        "updated": 1639935103747,
+        "updated": 1639936184618,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdma",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdma.geojson",
         "felt": 11,
         "cdi": 7.7,
-        "mmi": 5.605,
+        "mmi": 5.72,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -1648,86 +1688,6 @@
         ]
       },
       "id": "us6000gdfv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "47 km S of Champerico, Guatemala",
-        "time": 1639849724412,
-        "updated": 1639865797040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdfl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdfl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000gdfl",
-        "ids": ",us6000gdfl,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.128,
-        "rms": 0.99,
-        "gap": 181,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 47 km S of Champerico, Guatemala"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.9714,
-          13.8662,
-          65.49
-        ]
-      },
-      "id": "us6000gdfl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "78 km ENE of Ouzinkie, Alaska",
-        "time": 1639849596613,
-        "updated": 1639863690040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g6fkgtv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g6fkgtv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "021g6fkgtv",
-        "ids": ",us6000gdfi,ak021g6fkgtv,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.66,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 78 km ENE of Ouzinkie, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.2849,
-          58.1963,
-          36.4
-        ]
-      },
-      "id": "ak021g6fkgtv"
     }
   ],
   "bbox": [
@@ -1735,7 +1695,7 @@
     -58.0056,
     1.3,
     178.5809,
-    66.3652,
+    67.406,
     211.52
   ]
 }
