@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639977904000,
+    "generated": 1639978542000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "hv72840622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "62 km WSW of Dugway, Utah",
+        "time": 1639975406678,
+        "updated": 1639978025040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdre",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdre.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "6000gdre",
+        "ids": ",us6000gdre,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.504,
+        "rms": 1.15,
+        "gap": 81,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 62 km WSW of Dugway, Utah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.3578,
+          39.9121,
+          5
+        ]
+      },
+      "id": "us6000gdre"
     },
     {
       "type": "Feature",
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "118 km E of Madang, Papua New Guinea",
+        "place": "eastern New Guinea region, Papua New Guinea",
         "time": 1639964185184,
         "updated": 1639974575592,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 49,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.3 - 118 km E of Madang, Papua New Guinea"
+        "title": "M 5.3 - eastern New Guinea region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.06,
-        "place": "19 km SSE of Esperanza, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1639911832270,
         "updated": 1639926778097,
         "tz": null,
@@ -1077,7 +1117,7 @@
         "gap": 269,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - 19 km SSE of Esperanza, Puerto Rico"
+        "title": "M 3.1 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1448,46 +1488,6 @@
         ]
       },
       "id": "us6000gdj8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "Near the coast of Atacama, Chile",
-        "time": 1639891796784,
-        "updated": 1639893567040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdiy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdiy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000gdiy",
-        "ids": ",us6000gdiy,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.656,
-        "rms": 0.71,
-        "gap": 165,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - Near the coast of Atacama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.5925,
-          -27.1985,
-          10
-        ]
-      },
-      "id": "us6000gdiy"
     }
   ],
   "bbox": [
