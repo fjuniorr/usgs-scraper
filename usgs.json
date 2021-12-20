@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639969819000,
+    "generated": 1639971158000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
     {
@@ -14,13 +14,13 @@
       "properties": {
         "mag": 3.1,
         "place": "27 km WNW of Susitna, Alaska",
-        "time": 1639969354678,
-        "updated": 1639969693145,
+        "time": 1639969354669,
+        "updated": 1639970181873,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g9i1noh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g9i1noh.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,10 +30,10 @@
         "code": "021g9i1noh",
         "ids": ",ak021g9i1noh,",
         "sources": ",ak,",
-        "types": ",origin,",
+        "types": ",dyfi,origin,",
         "nst": null,
         "dmin": null,
-        "rms": 0.63,
+        "rms": 0.62,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.9746,
-          61.6559,
-          51.3
+          -150.9757,
+          61.6534,
+          51.2
         ]
       },
       "id": "ak021g9i1noh"
@@ -135,12 +135,12 @@
         "mag": 5.3,
         "place": "118 km E of Madang, Papua New Guinea",
         "time": 1639964185184,
-        "updated": 1639964762040,
+        "updated": 1639971002781,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdpm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdpm.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +150,7 @@
         "code": "6000gdpm",
         "ids": ",us6000gdpm,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 5.429,
         "rms": 0.72,
@@ -375,11 +375,11 @@
         "mag": 5.6,
         "place": "52 km NW of Sainyabuli, Laos",
         "time": 1639947974969,
-        "updated": 1639969552247,
+        "updated": 1639970982686,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdng",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdng.geojson",
-        "felt": 22,
+        "felt": 23,
         "cdi": 4.6,
         "mmi": 6.717,
         "alert": "green",
@@ -1368,46 +1368,6 @@
         ]
       },
       "id": "us6000gdiq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "217 km N of Bamboo Flat, India",
-        "time": 1639883985761,
-        "updated": 1639887084040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdim",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdim.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "6000gdim",
-        "ids": ",us6000gdim,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 6.215,
-        "rms": 0.88,
-        "gap": 82,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.3 - 217 km N of Bamboo Flat, India"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          92.7602,
-          13.6701,
-          10
-        ]
-      },
-      "id": "us6000gdim"
     }
   ],
   "bbox": [
