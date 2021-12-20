@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640043856000,
+    "generated": 1640044354000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,12 +15,12 @@
         "mag": 3.24,
         "place": "8km SSW of Ferndale, CA",
         "time": 1640043629550,
-        "updated": 1640043752333,
+        "updated": 1640044031236,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666641",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666641.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "73666641",
         "ids": ",nc73666641,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 16,
         "dmin": 0.04454,
         "rms": 0.06,
@@ -335,7 +335,7 @@
         "mag": 3.46,
         "place": "15km SSW of Ferndale, CA",
         "time": 1640037173910,
-        "updated": 1640040937951,
+        "updated": 1640044262040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666506",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666506.geojson",
@@ -348,8 +348,8 @@
         "sig": 184,
         "net": "nc",
         "code": "73666506",
-        "ids": ",nc73666506,",
-        "sources": ",nc,",
+        "ids": ",nc73666506,us6000gdzl,",
+        "sources": ",nc,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 14,
         "dmin": 0.0239,
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Hindu Kush region, Afghanistan",
+        "place": "74 km N of Pārūn, Afghanistan",
         "time": 1640032532000,
         "updated": 1640036428040,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Hindu Kush region, Afghanistan"
+        "title": "M 4.4 - 74 km N of Pārūn, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -1335,17 +1335,17 @@
         "mag": 6.2,
         "place": "39km W of Petrolia, CA",
         "time": 1640031018870,
-        "updated": 1640043553424,
+        "updated": 1640044177104,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666231.geojson",
-        "felt": 3815,
-        "cdi": 7.1,
+        "felt": 3837,
+        "cdi": 6.8,
         "mmi": 6.837,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 1360,
+        "sig": 1330,
         "net": "nc",
         "code": "73666231",
         "ids": ",ew1640031020,nc73666231,at00r4fk16,us6000gdxq,",
@@ -1655,11 +1655,11 @@
         "mag": 5,
         "place": "28 km ENE of Shizunai-furukawachō, Japan",
         "time": 1640016326567,
-        "updated": 1640018618016,
+        "updated": 1640043926637,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdup",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdup.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -2293,7 +2293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.79,
-        "place": "60 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "place": "Virgin Islands region",
         "time": 1639982284620,
         "updated": 1639996659040,
         "tz": null,
@@ -2317,7 +2317,7 @@
         "gap": 331,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - 60 km NNE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.8 - Virgin Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -2493,7 +2493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "northern Colombia",
+        "place": "7 km N of Cepitá, Colombia",
         "time": 1639974040804,
         "updated": 1640021019315,
         "tz": null,
@@ -2517,7 +2517,7 @@
         "gap": 93,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - northern Colombia"
+        "title": "M 4.6 - 7 km N of Cepitá, Colombia"
       },
       "geometry": {
         "type": "Point",
@@ -2733,7 +2733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "118 km E of Madang, Papua New Guinea",
+        "place": "eastern New Guinea region, Papua New Guinea",
         "time": 1639964185184,
         "updated": 1639974575592,
         "tz": null,
@@ -2757,7 +2757,7 @@
         "gap": 49,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.3 - 118 km E of Madang, Papua New Guinea"
+        "title": "M 5.3 - eastern New Guinea region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
