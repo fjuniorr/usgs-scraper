@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640006467000,
+    "generated": 1640007546000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.41,
+        "place": "43 km NE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1640005593720,
+        "updated": 1640006589739,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021354002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021354002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 179,
+        "net": "pr",
+        "code": "2021354002",
+        "ids": ",pr2021354002,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.8209,
+        "rms": 0.22,
+        "gap": 341,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 43 km NE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5256,
+          18.6251,
+          42
+        ]
+      },
+      "id": "pr2021354002"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7,
         "place": "western Texas",
         "time": 1640004205778,
-        "updated": 1640004726040,
+        "updated": 1640007228255,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdt8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdt8.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "6000gdt8",
         "ids": ",us6000gdt8,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.242,
         "rms": 0.26,
@@ -212,6 +252,86 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.7,
+        "place": "23 km WSW of Coyanosa, Texas",
+        "time": 1639992591251,
+        "updated": 1640007232040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdsm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdsm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000gdsm",
+        "ids": ",us6000gdsm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.266,
+        "rms": 0.73,
+        "gap": 43,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 23 km WSW of Coyanosa, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.3065,
+          31.1869,
+          5
+        ]
+      },
+      "id": "us6000gdsm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "105 km SW of Atocha, Bolivia",
+        "time": 1639991566494,
+        "updated": 1640006599040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdsi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdsi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000gdsi",
+        "ids": ",us6000gdsi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.772,
+        "rms": 1.07,
+        "gap": 82,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 105 km SW of Atocha, Bolivia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9931,
+          -21.5542,
+          242.45
+        ]
+      },
+      "id": "us6000gdsi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.12,
         "place": "14 km WNW of Marietta, Oklahoma",
         "time": 1639989783111,
@@ -373,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.79,
-        "place": "60 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "place": "Virgin Islands region",
         "time": 1639982284620,
         "updated": 1639996659040,
         "tz": null,
@@ -397,7 +517,7 @@
         "gap": 331,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - 60 km NNE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.8 - Virgin Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Utah",
+        "place": "62 km WSW of Dugway, Utah",
         "time": 1639975406678,
         "updated": 1639978025040,
         "tz": null,
@@ -517,7 +637,7 @@
         "gap": 81,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Utah"
+        "title": "M 3.0 - 62 km WSW of Dugway, Utah"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "northern Colombia",
+        "place": "7 km N of Cepitá, Colombia",
         "time": 1639974040804,
         "updated": 1639978635040,
         "tz": null,
@@ -597,7 +717,7 @@
         "gap": 93,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - northern Colombia"
+        "title": "M 4.6 - 7 km N of Cepitá, Colombia"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "118 km E of Madang, Papua New Guinea",
+        "place": "eastern New Guinea region, Papua New Guinea",
         "time": 1639964185184,
         "updated": 1639974575592,
         "tz": null,
@@ -837,7 +957,7 @@
         "gap": 49,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.3 - 118 km E of Madang, Papua New Guinea"
+        "title": "M 5.3 - eastern New Guinea region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
