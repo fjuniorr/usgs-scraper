@@ -1,36 +1,156 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640033591000,
+    "generated": 1640034509000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 52
+    "count": 54
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.65,
+        "place": "5km NNW of Petrolia, CA",
+        "time": 1640033783510,
+        "updated": 1640034494384,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666381",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666381.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 108,
+        "net": "nc",
+        "code": "73666381",
+        "ids": ",nc73666381,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 13,
+        "dmin": 0.04823,
+        "rms": 0.1,
+        "gap": 179,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 5km NNW of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.2994995,
+          40.3688316,
+          23.85
+        ]
+      },
+      "id": "nc73666381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.46,
+        "place": "30km WSW of Ferndale, CA",
+        "time": 1640033740160,
+        "updated": 1640034492576,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666376",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666376.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.338,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 184,
+        "net": "nc",
+        "code": "73666376",
+        "ids": ",nc73666376,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 42,
+        "dmin": 0.2117,
+        "rms": 0.29,
+        "gap": 286,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 30km WSW of Ferndale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.6083298,
+          40.5219994,
+          24.32
+        ]
+      },
+      "id": "nc73666376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.88,
+        "place": "4km ENE of Petrolia, CA",
+        "time": 1640033610850,
+        "updated": 1640034492129,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666371",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666371.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 128,
+        "net": "nc",
+        "code": "73666371",
+        "ids": ",nc73666371,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 11,
+        "dmin": 0.03583,
+        "rms": 0.04,
+        "gap": 102,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 4km ENE of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.239502,
+          40.3325005,
+          20.81
+        ]
+      },
+      "id": "nc73666371"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.61,
         "place": "34km W of Petrolia, CA",
         "time": 1640033262670,
-        "updated": 1640033587844,
+        "updated": 1640034337214,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666361",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666361.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.434,
+        "felt": 3,
+        "cdi": 4.6,
+        "mmi": 2.44,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 200,
+        "sig": 202,
         "net": "nc",
         "code": "73666361",
         "ids": ",nc73666361,ew1640033270,",
         "sources": ",nc,ew,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
         "nst": 41,
         "dmin": 0.3139,
         "rms": 0.14,
@@ -135,7 +255,7 @@
         "mag": 2.97,
         "place": "11km N of Petrolia, CA",
         "time": 1640032162480,
-        "updated": 1640033115087,
+        "updated": 1640034298184,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666296",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666296.geojson",
@@ -143,7 +263,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 136,
         "net": "nc",
@@ -292,10 +412,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.27,
-        "place": "7 km SE of Erin Springs, Oklahoma",
-        "time": 1640031710081,
-        "updated": 1640033324040,
+        "mag": 2.52,
+        "place": "6 km SE of Erin Springs, Oklahoma",
+        "time": 1640031709799,
+        "updated": 1640033561989,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2021ywmx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2021ywmx.geojson",
@@ -303,28 +423,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 165,
+        "sig": 98,
         "net": "ok",
         "code": "2021ywmx",
         "ids": ",us6000gdxs,ok2021ywmx,",
         "sources": ",us,ok,",
         "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 0.1350065321,
-        "rms": 0.7814919977,
-        "gap": 51.10486603,
+        "nst": 81,
+        "dmin": 0.135873337,
+        "rms": 0.26,
+        "gap": 105,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 7 km SE of Erin Springs, Oklahoma"
+        "title": "M 2.5 - 6 km SE of Erin Springs, Oklahoma"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.54670715,
-          34.76053619,
-          1.515351653
+          -97.551,
+          34.77066667,
+          6.49
         ]
       },
       "id": "ok2021ywmx"
@@ -375,11 +495,11 @@
         "mag": 6.22,
         "place": "38km W of Petrolia, CA",
         "time": 1640031018440,
-        "updated": 1640033537380,
+        "updated": 1640034219037,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666231.geojson",
-        "felt": 2611,
+        "felt": 2713,
         "cdi": 8.3,
         "mmi": 6.602,
         "alert": "yellow",
@@ -415,17 +535,17 @@
         "mag": 4.4,
         "place": "off the coast of Oregon",
         "time": 1640029044240,
-        "updated": 1640033370611,
+        "updated": 1640033762750,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdxh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdxh.geojson",
-        "felt": 20,
+        "felt": 18,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 306,
+        "sig": 305,
         "net": "us",
         "code": "6000gdxh",
         "ids": ",us6000gdxh,",
@@ -775,17 +895,17 @@
         "mag": 3.98,
         "place": "22km W of Petrolia, CA",
         "time": 1640010306150,
-        "updated": 1640033394898,
+        "updated": 1640034121051,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666136",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666136.geojson",
-        "felt": 47,
-        "cdi": 4.5,
+        "felt": 41,
+        "cdi": 3.9,
         "mmi": 2.895,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 265,
+        "sig": 260,
         "net": "nc",
         "code": "73666136",
         "ids": ",nc73666136,us6000gdtq,",
@@ -1333,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.79,
-        "place": "Virgin Islands region",
+        "place": "60 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1639982284620,
         "updated": 1639996659040,
         "tz": null,
@@ -1357,7 +1477,7 @@
         "gap": 331,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - Virgin Islands region"
+        "title": "M 3.8 - 60 km NNE of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "7 km N of Cepitá, Colombia",
+        "place": "northern Colombia",
         "time": 1639974040804,
         "updated": 1640021019315,
         "tz": null,
@@ -1557,7 +1677,7 @@
         "gap": 93,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 7 km N of Cepitá, Colombia"
+        "title": "M 4.6 - northern Colombia"
       },
       "geometry": {
         "type": "Point",
@@ -1773,7 +1893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "eastern New Guinea region, Papua New Guinea",
+        "place": "118 km E of Madang, Papua New Guinea",
         "time": 1639964185184,
         "updated": 1639974575592,
         "tz": null,
@@ -1797,7 +1917,7 @@
         "gap": 49,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.3 - eastern New Guinea region, Papua New Guinea"
+        "title": "M 5.3 - 118 km E of Madang, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -2048,46 +2168,6 @@
         ]
       },
       "id": "us6000gdnk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "52 km NW of Sainyabuli, Laos",
-        "time": 1639947974969,
-        "updated": 1640023562040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdng",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdng.geojson",
-        "felt": 28,
-        "cdi": 4.6,
-        "mmi": 6.717,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 495,
-        "net": "us",
-        "code": "6000gdng",
-        "ids": ",us6000gdng,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 1.119,
-        "rms": 1.15,
-        "gap": 39,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - 52 km NW of Sainyabuli, Laos"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          101.326,
-          19.5548,
-          10
-        ]
-      },
-      "id": "us6000gdng"
     }
   ],
   "bbox": [
