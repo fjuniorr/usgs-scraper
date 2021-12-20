@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639993563000,
+    "generated": 1639994013000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "56 km NE of Kobuk, Alaska",
+        "time": 1639993365873,
+        "updated": 1639994002071,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g9luv7d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g9luv7d.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "021g9luv7d",
+        "ids": ",ak021g9luv7d,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.77,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 56 km NE of Kobuk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.1398,
+          67.3264,
+          0
+        ]
+      },
+      "id": "ak021g9luv7d"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +95,17 @@
         "mag": 3.12,
         "place": "14 km WNW of Marietta, Oklahoma",
         "time": 1639989783111,
-        "updated": 1639992574040,
+        "updated": 1639993951069,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2021yvpv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2021yvpv.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 150,
+        "sig": 151,
         "net": "ok",
         "code": "2021yvpv",
         "ids": ",ok2021yvpv,us6000gdsg,",
@@ -213,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.79,
-        "place": "Virgin Islands region",
+        "place": "60 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1639982284620,
         "updated": 1639984161870,
         "tz": null,
@@ -237,7 +277,7 @@
         "gap": 331,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - Virgin Islands region"
+        "title": "M 3.8 - 60 km NNE of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "62 km WSW of Dugway, Utah",
+        "place": "Utah",
         "time": 1639975406678,
         "updated": 1639978025040,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 81,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 62 km WSW of Dugway, Utah"
+        "title": "M 3.0 - Utah"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "7 km N of Cepitá, Colombia",
+        "place": "northern Colombia",
         "time": 1639974040804,
         "updated": 1639978635040,
         "tz": null,
@@ -437,7 +477,7 @@
         "gap": 93,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 7 km N of Cepitá, Colombia"
+        "title": "M 4.6 - northern Colombia"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "eastern New Guinea region, Papua New Guinea",
+        "place": "118 km E of Madang, Papua New Guinea",
         "time": 1639964185184,
         "updated": 1639974575592,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": 49,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.3 - eastern New Guinea region, Papua New Guinea"
+        "title": "M 5.3 - 118 km E of Madang, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.06,
-        "place": "Puerto Rico region",
+        "place": "19 km SSE of Esperanza, Puerto Rico",
         "time": 1639911832270,
         "updated": 1639926778097,
         "tz": null,
@@ -1437,7 +1477,7 @@
         "gap": 269,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - Puerto Rico region"
+        "title": "M 3.1 - 19 km SSE of Esperanza, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
