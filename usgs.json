@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640028833000,
+    "generated": 1640029380000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "57 km W of San Antonio de los Cobres, Argentina",
+        "time": 1640027555412,
+        "updated": 1640028907040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdxc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdxc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000gdxc",
+        "ids": ",us6000gdxc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.705,
+        "rms": 0.8,
+        "gap": 66,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 57 km W of San Antonio de los Cobres, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8819,
+          -24.1797,
+          179.22
+        ]
+      },
+      "id": "us6000gdxc"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -295,11 +335,11 @@
         "mag": 3.98,
         "place": "22km W of Petrolia, CA",
         "time": 1640010306150,
-        "updated": 1640025551971,
+        "updated": 1640029004699,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666136",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666136.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 3,
         "mmi": 2.895,
         "alert": null,
