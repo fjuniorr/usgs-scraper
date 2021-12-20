@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640019769000,
+    "generated": 1640021539000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.52,
+        "place": "82 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1640020254830,
+        "updated": 1640021142119,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021354004",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021354004.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 191,
+        "net": "pr",
+        "code": "2021354004",
+        "ids": ",pr2021354004,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 1.0303,
+        "rms": 0.49,
+        "gap": 331,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.5 - 82 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5668,
+          19.0486,
+          50
+        ]
+      },
+      "id": "pr2021354004"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -133,15 +173,15 @@
       "type": "Feature",
       "properties": {
         "mag": 3.98,
-        "place": "20km W of Petrolia, CA",
-        "time": 1640010306400,
-        "updated": 1640018351107,
+        "place": "22km W of Petrolia, CA",
+        "time": 1640010306150,
+        "updated": 1640021530398,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666136",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666136.geojson",
         "felt": 8,
         "cdi": 3,
-        "mmi": 2.925,
+        "mmi": 2.895,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -150,21 +190,21 @@
         "code": "73666136",
         "ids": ",nc73666136,us6000gdtq,",
         "sources": ",nc,us,",
-        "types": ",dyfi,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 23,
-        "dmin": null,
-        "rms": 0.09,
-        "gap": 258,
+        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 43,
+        "dmin": 0.1492,
+        "rms": 0.15,
+        "gap": 229,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.0 - 20km W of Petrolia, CA"
+        "title": "M 4.0 - 22km W of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.517334,
-          40.2924995,
-          19.25
+          -124.5376667,
+          40.2881667,
+          20.28
         ]
       },
       "id": "nc73666136"
@@ -208,6 +248,46 @@
         ]
       },
       "id": "pr2021354002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "55 km NW of Toyah, Texas",
+        "time": 1640004274578,
+        "updated": 1640021514373,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yvxu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yvxu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "tx",
+        "code": "2021yvxu",
+        "ids": ",tx2021yvxu,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.03655881003,
+        "rms": 0.3,
+        "gap": 65,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 55 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.2292003,
+          31.65138258,
+          7.57121582
+        ]
+      },
+      "id": "tx2021yvxu"
     },
     {
       "type": "Feature",
@@ -495,17 +575,17 @@
         "mag": 2.53,
         "place": "14 km ENE of Leon, Oklahoma",
         "time": 1639989782390,
-        "updated": 1640014420310,
+        "updated": 1640019874278,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2021yvpv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2021yvpv.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 99,
+        "sig": 100,
         "net": "ok",
         "code": "2021yvpv",
         "ids": ",ok2021yvpv,us6000gdsg,",
@@ -653,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.79,
-        "place": "Virgin Islands region",
+        "place": "60 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1639982284620,
         "updated": 1639996659040,
         "tz": null,
@@ -677,7 +757,7 @@
         "gap": 331,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - Virgin Islands region"
+        "title": "M 3.8 - 60 km NNE of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -853,14 +933,14 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "7 km N of Cepitá, Colombia",
+        "place": "northern Colombia",
         "time": 1639974040804,
-        "updated": 1639978635040,
+        "updated": 1640021019315,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdr7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdr7.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -870,14 +950,14 @@
         "code": "6000gdr7",
         "ids": ",us6000gdr7,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.933,
         "rms": 0.71,
         "gap": 93,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 7 km N of Cepitá, Colombia"
+        "title": "M 4.6 - northern Colombia"
       },
       "geometry": {
         "type": "Point",
@@ -935,7 +1015,7 @@
         "mag": 6,
         "place": "South Sandwich Islands region",
         "time": 1639971574167,
-        "updated": 1640018068040,
+        "updated": 1640019931993,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdqc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdqc.geojson",
@@ -950,7 +1030,7 @@
         "code": "6000gdqc",
         "ids": ",us6000gdqc,",
         "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 7.484,
         "rms": 0.79,
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "eastern New Guinea region, Papua New Guinea",
+        "place": "118 km E of Madang, Papua New Guinea",
         "time": 1639964185184,
         "updated": 1639974575592,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 49,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.3 - eastern New Guinea region, Papua New Guinea"
+        "title": "M 5.3 - 118 km E of Madang, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
