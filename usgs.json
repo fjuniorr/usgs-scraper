@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639999592000,
+    "generated": 1640000041000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -335,7 +335,7 @@
         "mag": 2.71,
         "place": "6 km ENE of Pāhala, Hawaii",
         "time": 1639981475160,
-        "updated": 1639981805670,
+        "updated": 1639999783040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72840672",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72840672.geojson",
@@ -348,8 +348,8 @@
         "sig": 113,
         "net": "hv",
         "code": "72840672",
-        "ids": ",hv72840672,",
-        "sources": ",hv,",
+        "ids": ",us6000gdru,hv72840672,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 45,
         "dmin": null,
