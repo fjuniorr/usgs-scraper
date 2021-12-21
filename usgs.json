@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640114455000,
+    "generated": 1640115224000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -2973,7 +2973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Hindu Kush region, Afghanistan",
+        "place": "74 km N of Pārūn, Afghanistan",
         "time": 1640032532000,
         "updated": 1640036428040,
         "tz": null,
@@ -2997,7 +2997,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Hindu Kush region, Afghanistan"
+        "title": "M 4.4 - 74 km N of Pārūn, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -3015,7 +3015,7 @@
         "mag": 2.79,
         "place": "10km W of Rio Dell, CA",
         "time": 1640032258450,
-        "updated": 1640114442974,
+        "updated": 1640114651145,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666306",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666306.geojson",
@@ -3030,7 +3030,7 @@
         "code": "73666306",
         "ids": ",nc73666306,us6000gdy4,",
         "sources": ",nc,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 29,
         "dmin": 0.05897,
         "rms": 0.11,
@@ -3375,11 +3375,11 @@
         "mag": 6.2,
         "place": "39km W of Petrolia, CA",
         "time": 1640031018870,
-        "updated": 1640114059301,
+        "updated": 1640115102624,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666231.geojson",
-        "felt": 4314,
+        "felt": 4315,
         "cdi": 7,
         "mmi": 6.933,
         "alert": "yellow",
