@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640100898000,
+    "generated": 1640101753000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 84
+    "count": 83
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "53 km NNE of Kobuk, Alaska",
-        "time": 1640100356623,
-        "updated": 1640100748062,
+        "place": "54 km NNE of Kobuk, Alaska",
+        "time": 1640100356048,
+        "updated": 1640101088858,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gbcv6ku",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gbcv6ku.geojson",
@@ -33,18 +33,18 @@
         "types": ",origin,",
         "nst": null,
         "dmin": null,
-        "rms": 0.56,
+        "rms": 0.55,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 53 km NNE of Kobuk, Alaska"
+        "title": "M 3.2 - 54 km NNE of Kobuk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.3111,
-          67.3355,
-          6.7
+          -156.2963,
+          67.3369,
+          0.9
         ]
       },
       "id": "ak021gbcv6ku"
@@ -2975,11 +2975,11 @@
         "mag": 6.2,
         "place": "39km W of Petrolia, CA",
         "time": 1640031018870,
-        "updated": 1640100636607,
+        "updated": 1640101711937,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666231.geojson",
-        "felt": 4279,
+        "felt": 4280,
         "cdi": 7,
         "mmi": 6.933,
         "alert": "yellow",
@@ -3328,50 +3328,10 @@
         ]
       },
       "id": "us6000gdup"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "175 km NE of Lospalos, Timor Leste",
-        "time": 1640014633021,
-        "updated": 1640016759040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdu4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdu4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000gdu4",
-        "ids": ",us6000gdu4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.184,
-        "rms": 1.14,
-        "gap": 60,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 175 km NE of Lospalos, Timor Leste"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.1375,
-          -7.4087,
-          144.26
-        ]
-      },
-      "id": "us6000gdu4"
     }
   ],
   "bbox": [
-    -156.3111,
+    -156.2963,
     -57.0692,
     0.1,
     167.7995,
