@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640107913000,
+    "generated": 1640108943000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 3.66,
         "place": "31km W of Petrolia, CA",
         "time": 1640107493790,
-        "updated": 1640107861721,
+        "updated": 1640108592981,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667251",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667251.geojson",
@@ -30,7 +30,7 @@
         "code": "73667251",
         "ids": ",ew1640107501,nc73667251,",
         "sources": ",ew,nc,",
-        "types": ",associate,nearby-cities,origin,phase-data,shake-alert,shakemap,",
+        "types": ",associate,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
         "nst": 43,
         "dmin": null,
         "rms": 0.12,
@@ -174,8 +174,8 @@
       "properties": {
         "mag": 4.9,
         "place": "Izu Islands, Japan region",
-        "time": 1640104960755,
-        "updated": 1640106109040,
+        "time": 1640104960741,
+        "updated": 1640108799040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ge6k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ge6k.geojson",
@@ -192,8 +192,8 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 2.823,
-        "rms": 0.46,
+        "dmin": 2.821,
+        "rms": 0.43,
         "gap": 93,
         "magType": "mww",
         "type": "earthquake",
@@ -202,12 +202,52 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.2854,
-          31.218,
+          142.2805,
+          31.2166,
           10
         ]
       },
       "id": "us6000ge6k"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "56 km NNW of Bandar Abbas, Iran",
+        "time": 1640104572668,
+        "updated": 1640108290040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ge6h",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ge6h.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000ge6h",
+        "ids": ",us6000ge6h,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.714,
+        "rms": 0.64,
+        "gap": 53,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 56 km NNW of Bandar Abbas, Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.0938,
+          27.669,
+          10
+        ]
+      },
+      "id": "us6000ge6h"
     },
     {
       "type": "Feature",
@@ -455,7 +495,7 @@
         "mag": 3.25,
         "place": "12km SSW of Ferndale, CA",
         "time": 1640096174430,
-        "updated": 1640099179615,
+        "updated": 1640108231530,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667171",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667171.geojson",
@@ -495,7 +535,7 @@
         "mag": 2.92,
         "place": "7km N of Petrolia, CA",
         "time": 1640095788440,
-        "updated": 1640104752650,
+        "updated": 1640108111518,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667151",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667151.geojson",
@@ -2455,11 +2495,11 @@
         "mag": 4.46,
         "place": "13km SSW of Ferndale, CA",
         "time": 1640035197630,
-        "updated": 1640073370426,
+        "updated": 1640108836203,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666446",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666446.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 3.1,
         "mmi": 3.03,
         "alert": null,
@@ -2695,7 +2735,7 @@
         "mag": 2.98,
         "place": "7km NW of Petrolia, CA",
         "time": 1640033782920,
-        "updated": 1640107863883,
+        "updated": 1640107932920,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666381",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666381.geojson",
@@ -2893,7 +2933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Hindu Kush region, Afghanistan",
+        "place": "74 km N of Pārūn, Afghanistan",
         "time": 1640032532000,
         "updated": 1640036428040,
         "tz": null,
@@ -2917,7 +2957,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Hindu Kush region, Afghanistan"
+        "title": "M 4.4 - 74 km N of Pārūn, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -3255,11 +3295,11 @@
         "mag": 6.2,
         "place": "39km W of Petrolia, CA",
         "time": 1640031018870,
-        "updated": 1640107777943,
+        "updated": 1640108732866,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666231.geojson",
-        "felt": 4301,
+        "felt": 4306,
         "cdi": 7,
         "mmi": 6.933,
         "alert": "yellow",
@@ -3408,46 +3448,6 @@
         ]
       },
       "id": "hv72841172"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.82,
-        "place": "75 km NE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1640022292320,
-        "updated": 1640025037040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021354005",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021354005.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 224,
-        "net": "pr",
-        "code": "2021354005",
-        "ids": ",us6000gdwi,pr2021354005,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 1.0836,
-        "rms": 0.36,
-        "gap": 334,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - 75 km NE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.358,
-          18.8728,
-          24
-        ]
-      },
-      "id": "pr2021354005"
     }
   ],
   "bbox": [
