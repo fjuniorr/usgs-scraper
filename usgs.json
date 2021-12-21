@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640073363000,
+    "generated": 1640074569000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 81
+    "count": 82
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "6 km SW of Guánica, Puerto Rico",
+        "time": 1640072585380,
+        "updated": 1640074094440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021355001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021355001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "pr",
+        "code": "2021355001",
+        "ids": ",pr2021355001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.0853,
+        "rms": 0.1,
+        "gap": 222,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 6 km SW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9535,
+          17.9333,
+          9
+        ]
+      },
+      "id": "pr2021355001"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -332,39 +372,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.66,
-        "place": "13km N of Petrolia, CA",
-        "time": 1640061260170,
-        "updated": 1640065038601,
+        "mag": 3.47,
+        "place": "14km N of Petrolia, CA",
+        "time": 1640061259950,
+        "updated": 1640074510516,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666831",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666831.geojson",
         "felt": 4,
         "cdi": 3.1,
-        "mmi": 2.502,
+        "mmi": 2.508,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 207,
+        "sig": 186,
         "net": "nc",
         "code": "73666831",
         "ids": ",nc73666831,",
         "sources": ",nc,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 17,
-        "dmin": null,
-        "rms": 0.05,
-        "gap": 114,
+        "nst": 33,
+        "dmin": 0.04941,
+        "rms": 0.13,
+        "gap": 109,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - 13km N of Petrolia, CA"
+        "title": "M 3.5 - 14km N of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.2649994,
-          40.4421654,
-          26.03
+          -124.2841667,
+          40.4475,
+          27.54
         ]
       },
       "id": "nc73666831"
@@ -935,7 +975,7 @@
         "mag": 2.81,
         "place": "7km NE of Petrolia, CA",
         "time": 1640045458490,
-        "updated": 1640069231528,
+        "updated": 1640074210881,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666666",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666666.geojson",
@@ -1335,7 +1375,7 @@
         "mag": 3.93,
         "place": "6km NE of Petrolia, CA",
         "time": 1640037226470,
-        "updated": 1640067011300,
+        "updated": 1640073730458,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666511",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666511.geojson",
@@ -1655,7 +1695,7 @@
         "mag": 4.46,
         "place": "13km SSW of Ferndale, CA",
         "time": 1640035197630,
-        "updated": 1640068331433,
+        "updated": 1640073370426,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666446",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666446.geojson",
@@ -2093,7 +2133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Hindu Kush region, Afghanistan",
+        "place": "74 km N of Pārūn, Afghanistan",
         "time": 1640032532000,
         "updated": 1640036428040,
         "tz": null,
@@ -2117,7 +2157,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Hindu Kush region, Afghanistan"
+        "title": "M 4.4 - 74 km N of Pārūn, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -2375,13 +2415,13 @@
         "mag": 6.2,
         "place": "39km W of Petrolia, CA",
         "time": 1640031018870,
-        "updated": 1640073160742,
+        "updated": 1640074444668,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666231.geojson",
-        "felt": 4243,
+        "felt": 4244,
         "cdi": 6.8,
-        "mmi": 6.837,
+        "mmi": 6.933,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 1,
