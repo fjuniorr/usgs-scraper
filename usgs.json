@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640097843000,
+    "generated": 1640098383000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 3.25,
         "place": "12km SSW of Ferndale, CA",
         "time": 1640096174430,
-        "updated": 1640097311876,
+        "updated": 1640097973141,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667171",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667171.geojson",
@@ -453,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "267 km E of Amahai, Indonesia",
+        "place": "Ceram Sea, Indonesia",
         "time": 1640069970894,
         "updated": 1640071024040,
         "tz": null,
@@ -477,7 +477,7 @@
         "gap": 80,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 267 km E of Amahai, Indonesia"
+        "title": "M 4.7 - Ceram Sea, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -2493,7 +2493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "74 km N of Pārūn, Afghanistan",
+        "place": "Hindu Kush region, Afghanistan",
         "time": 1640032532000,
         "updated": 1640036428040,
         "tz": null,
@@ -2517,7 +2517,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 74 km N of Pārūn, Afghanistan"
+        "title": "M 4.4 - Hindu Kush region, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -2855,11 +2855,11 @@
         "mag": 6.2,
         "place": "39km W of Petrolia, CA",
         "time": 1640031018870,
-        "updated": 1640097522123,
+        "updated": 1640097997477,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666231.geojson",
-        "felt": 4276,
+        "felt": 4277,
         "cdi": 7,
         "mmi": 6.933,
         "alert": "yellow",
