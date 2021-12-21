@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640102241000,
+    "generated": 1640103951000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 83
+    "count": 82
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.2,
         "place": "54 km NNE of Kobuk, Alaska",
         "time": 1640100356048,
-        "updated": 1640101783040,
+        "updated": 1640102546040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gbcv6ku",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gbcv6ku.geojson",
@@ -55,22 +55,22 @@
         "mag": 4.3,
         "place": "9 km WSW of Corail, Haiti",
         "time": 1640098414931,
-        "updated": 1640100725040,
+        "updated": 1640102433384,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ge5x",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ge5x.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 285,
         "net": "us",
         "code": "6000ge5x",
         "ids": ",us6000ge5x,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 1.658,
         "rms": 0.41,
@@ -1052,10 +1052,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.47,
+        "mag": 3.84,
         "place": "10km NNE of Petrolia, CA",
         "time": 1640057199360,
-        "updated": 1640089811310,
+        "updated": 1640103853589,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666801",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666801.geojson",
@@ -1065,19 +1065,19 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 186,
+        "sig": 228,
         "net": "nc",
         "code": "73666801",
         "ids": ",nc73666801,",
         "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 34,
         "dmin": 0.08995,
         "rms": 0.14,
         "gap": 97,
-        "magType": "ml",
+        "magType": "mw",
         "type": "earthquake",
-        "title": "M 3.5 - 10km NNE of Petrolia, CA"
+        "title": "M 3.8 - 10km NNE of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
@@ -2975,11 +2975,11 @@
         "mag": 6.2,
         "place": "39km W of Petrolia, CA",
         "time": 1640031018870,
-        "updated": 1640102076553,
+        "updated": 1640103825840,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666231.geojson",
-        "felt": 4281,
+        "felt": 4285,
         "cdi": 7,
         "mmi": 6.933,
         "alert": "yellow",
@@ -3288,46 +3288,6 @@
         ]
       },
       "id": "us6000gdvs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "28 km ENE of Shizunai-furukawachō, Japan",
-        "time": 1640016326567,
-        "updated": 1640051075399,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdup",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdup.geojson",
-        "felt": 4,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000gdup",
-        "ids": ",us6000gdup,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.506,
-        "rms": 0.95,
-        "gap": 80,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 28 km ENE of Shizunai-furukawachō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.699,
-          42.3901,
-          48.37
-        ]
-      },
-      "id": "us6000gdup"
     }
   ],
   "bbox": [
