@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640111950000,
+    "generated": 1640112743000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -52,6 +52,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "49 km ESE of Nikolski, Alaska",
+        "time": 1640106124434,
+        "updated": 1640112053040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ge8g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ge8g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.469,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000ge8g",
+        "ids": ",us6000ge8g,ak021gbdx0o3,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.682,
+        "rms": 1.1,
+        "gap": 139,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 49 km ESE of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -168.1985,
+          52.7516,
+          46.23
+        ]
+      },
+      "id": "us6000ge8g"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.8,
         "place": "57 km SE of Nikolski, Alaska",
         "time": 1640105990033,
@@ -95,11 +135,11 @@
         "mag": 3.06,
         "place": "11km N of Petrolia, CA",
         "time": 1640105437070,
-        "updated": 1640109475040,
+        "updated": 1640112139285,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667231.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 5.4,
         "mmi": null,
         "alert": null,
@@ -2215,7 +2255,7 @@
         "mag": 3.93,
         "place": "6km NE of Petrolia, CA",
         "time": 1640037226470,
-        "updated": 1640078830827,
+        "updated": 1640112490894,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666511",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666511.geojson",
@@ -3055,7 +3095,7 @@
         "mag": 2.9,
         "place": "9km N of Petrolia, CA",
         "time": 1640032103500,
-        "updated": 1640111843661,
+        "updated": 1640111952326,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666291",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666291.geojson",
@@ -3335,7 +3375,7 @@
         "mag": 6.2,
         "place": "39km W of Petrolia, CA",
         "time": 1640031018870,
-        "updated": 1640110838690,
+        "updated": 1640112641719,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666231.geojson",
@@ -3448,50 +3488,10 @@
         ]
       },
       "id": "us6000gdxc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.63,
-        "place": "6 km ENE of Pāhala, Hawaii",
-        "time": 1640026166250,
-        "updated": 1640040761740,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72841172",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72841172.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "hv",
-        "code": "72841172",
-        "ids": ",hv72841172,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 149,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 6 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.4225,
-          19.2171666666667,
-          34.47
-        ]
-      },
-      "id": "hv72841172"
     }
   ],
   "bbox": [
-    -168.1716,
+    -168.1985,
     -57.0692,
     0.1,
     167.7995,
