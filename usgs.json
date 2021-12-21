@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640109386000,
+    "generated": 1640110683000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -52,42 +52,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.7,
-        "place": "56 km ESE of Nikolski, Alaska",
-        "time": 1640105990519,
-        "updated": 1640107602687,
+        "mag": 3.8,
+        "place": "57 km SE of Nikolski, Alaska",
+        "time": 1640105990033,
+        "updated": 1640109963040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gbdwkmi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gbdwkmi.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ge7s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ge7s.geojson",
         "felt": null,
         "cdi": null,
         "mmi": 1.334,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 211,
-        "net": "ak",
-        "code": "021gbdwkmi",
-        "ids": ",ak021gbdwkmi,",
-        "sources": ",ak,",
+        "sig": 222,
+        "net": "us",
+        "code": "6000ge7s",
+        "ids": ",ak021gbdwkmi,us6000ge7s,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": null,
-        "rms": 0.41,
-        "gap": null,
-        "magType": "ml",
+        "dmin": 0.757,
+        "rms": 0.43,
+        "gap": 292,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.7 - 56 km ESE of Nikolski, Alaska"
+        "title": "M 3.8 - 57 km SE of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -168.157,
-          52.664,
-          40.1
+          -168.1716,
+          52.6313,
+          35
         ]
       },
-      "id": "ak021gbdwkmi"
+      "id": "us6000ge7s"
     },
     {
       "type": "Feature",
@@ -95,7 +95,7 @@
         "mag": 3.06,
         "place": "11km N of Petrolia, CA",
         "time": 1640105437070,
-        "updated": 1640106688439,
+        "updated": 1640109475040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667231.geojson",
@@ -108,8 +108,8 @@
         "sig": 146,
         "net": "nc",
         "code": "73667231",
-        "ids": ",nc73667231,",
-        "sources": ",nc,",
+        "ids": ",nc73667231,us6000ge6l,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 18,
         "dmin": 0.1025,
@@ -2933,7 +2933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Hindu Kush region, Afghanistan",
+        "place": "74 km N of Pārūn, Afghanistan",
         "time": 1640032532000,
         "updated": 1640036428040,
         "tz": null,
@@ -2957,7 +2957,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Hindu Kush region, Afghanistan"
+        "title": "M 4.4 - 74 km N of Pārūn, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -3055,7 +3055,7 @@
         "mag": 2.71,
         "place": "11km N of Petrolia, CA",
         "time": 1640031901050,
-        "updated": 1640109273284,
+        "updated": 1640109610644,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666276",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666276.geojson",
@@ -3295,11 +3295,11 @@
         "mag": 6.2,
         "place": "39km W of Petrolia, CA",
         "time": 1640031018870,
-        "updated": 1640109036756,
+        "updated": 1640110420356,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666231.geojson",
-        "felt": 4307,
+        "felt": 4310,
         "cdi": 7,
         "mmi": 6.933,
         "alert": "yellow",
@@ -3451,7 +3451,7 @@
     }
   ],
   "bbox": [
-    -168.157,
+    -168.1716,
     -57.0692,
     0.1,
     167.7995,
