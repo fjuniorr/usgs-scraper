@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640108943000,
+    "generated": 1640109386000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -134,8 +134,8 @@
       "properties": {
         "mag": 5,
         "place": "Izu Islands, Japan region",
-        "time": 1640105219399,
-        "updated": 1640106749040,
+        "time": 1640105219315,
+        "updated": 1640109184040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ge6n",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ge6n.geojson",
@@ -152,8 +152,8 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 2.931,
-        "rms": 0.44,
+        "dmin": 2.933,
+        "rms": 0.4,
         "gap": 98,
         "magType": "mb",
         "type": "earthquake",
@@ -162,8 +162,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.3326,
-          31.1033,
+          142.3437,
+          31.1095,
           10
         ]
       },
@@ -495,17 +495,17 @@
         "mag": 3.25,
         "place": "12km SSW of Ferndale, CA",
         "time": 1640096174430,
-        "updated": 1640108231530,
+        "updated": 1640109380222,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667171",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667171.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 165,
+        "sig": 166,
         "net": "nc",
         "code": "73667171",
         "ids": ",nc73667171,",
@@ -2933,7 +2933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "74 km N of Pārūn, Afghanistan",
+        "place": "Hindu Kush region, Afghanistan",
         "time": 1640032532000,
         "updated": 1640036428040,
         "tz": null,
@@ -2957,7 +2957,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 74 km N of Pārūn, Afghanistan"
+        "title": "M 4.4 - Hindu Kush region, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -3052,39 +3052,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.66,
-        "place": "10km N of Petrolia, CA",
-        "time": 1640031901410,
-        "updated": 1640076371448,
+        "mag": 2.71,
+        "place": "11km N of Petrolia, CA",
+        "time": 1640031901050,
+        "updated": 1640109273284,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666276",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666276.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 109,
+        "sig": 114,
         "net": "nc",
         "code": "73666276",
         "ids": ",nc73666276,us6000gdy1,",
         "sources": ",nc,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.09507,
-        "rms": 0.07,
-        "gap": 260,
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 26,
+        "dmin": 0.05921,
+        "rms": 0.11,
+        "gap": 138,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 10km N of Petrolia, CA"
+        "title": "M 2.7 - 11km N of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.2773361,
-          40.4169998,
-          22.99
+          -124.3,
+          40.4236667,
+          25.31
         ]
       },
       "id": "nc73666276"
@@ -3295,11 +3295,11 @@
         "mag": 6.2,
         "place": "39km W of Petrolia, CA",
         "time": 1640031018870,
-        "updated": 1640108732866,
+        "updated": 1640109036756,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666231.geojson",
-        "felt": 4306,
+        "felt": 4307,
         "cdi": 7,
         "mmi": 6.933,
         "alert": "yellow",
