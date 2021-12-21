@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640084883000,
+    "generated": 1640085842000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 78
+    "count": 77
   },
   "features": [
     {
@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Ceram Sea, Indonesia",
+        "place": "267 km E of Amahai, Indonesia",
         "time": 1640069970894,
         "updated": 1640071024040,
         "tz": null,
@@ -157,7 +157,7 @@
         "gap": 80,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Ceram Sea, Indonesia"
+        "title": "M 4.7 - 267 km E of Amahai, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1855,7 +1855,7 @@
         "mag": 3.12,
         "place": "14km NNE of Petrolia, CA",
         "time": 1640034608940,
-        "updated": 1640080090012,
+        "updated": 1640085250818,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666411",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666411.geojson",
@@ -2535,7 +2535,7 @@
         "mag": 6.2,
         "place": "39km W of Petrolia, CA",
         "time": 1640031018870,
-        "updated": 1640084509133,
+        "updated": 1640085690590,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666231.geojson",
@@ -3088,54 +3088,14 @@
         ]
       },
       "id": "tx2021yvxt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "180 km WSW of Hihifo, Tonga",
-        "time": 1639998665625,
-        "updated": 1640003040040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdt2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdt2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000gdt2",
-        "ids": ",us6000gdt2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.267,
-        "rms": 0.45,
-        "gap": 129,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 180 km WSW of Hihifo, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.4485,
-          -16.3057,
-          296.8
-        ]
-      },
-      "id": "us6000gdt2"
     }
   ],
   "bbox": [
-    -175.4485,
+    -155.96032714844,
     -57.0692,
     0.1,
     167.7995,
     79.5798,
-    296.8
+    179.22
   ]
 }
