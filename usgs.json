@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640074569000,
+    "generated": 1640075912000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 82
+    "count": 81
   },
   "features": [
     {
@@ -375,7 +375,7 @@
         "mag": 3.47,
         "place": "14km N of Petrolia, CA",
         "time": 1640061259950,
-        "updated": 1640074510516,
+        "updated": 1640075232132,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666831",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666831.geojson",
@@ -575,7 +575,7 @@
         "mag": 3.47,
         "place": "10km NNE of Petrolia, CA",
         "time": 1640057199360,
-        "updated": 1640070851245,
+        "updated": 1640074573568,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666801",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666801.geojson",
@@ -935,7 +935,7 @@
         "mag": 2.67,
         "place": "5km SE of Ferndale, CA",
         "time": 1640046366370,
-        "updated": 1640070132317,
+        "updated": 1640075231131,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666671",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666671.geojson",
@@ -1615,7 +1615,7 @@
         "mag": 2.66,
         "place": "15km SW of Ferndale, CA",
         "time": 1640035445760,
-        "updated": 1640058551250,
+        "updated": 1640075592173,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666461",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666461.geojson",
@@ -2133,7 +2133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "74 km N of Pārūn, Afghanistan",
+        "place": "Hindu Kush region, Afghanistan",
         "time": 1640032532000,
         "updated": 1640036428040,
         "tz": null,
@@ -2157,7 +2157,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 74 km N of Pārūn, Afghanistan"
+        "title": "M 4.4 - Hindu Kush region, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -2415,17 +2415,17 @@
         "mag": 6.2,
         "place": "39km W of Petrolia, CA",
         "time": 1640031018870,
-        "updated": 1640074444668,
+        "updated": 1640075633987,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666231.geojson",
-        "felt": 4244,
-        "cdi": 6.8,
+        "felt": 4249,
+        "cdi": 7.1,
         "mmi": 6.933,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 1330,
+        "sig": 1360,
         "net": "nc",
         "code": "73666231",
         "ids": ",ew1640031020,nc73666231,at00r4fk16,us6000gdxq,",
@@ -3248,46 +3248,6 @@
         ]
       },
       "id": "ok2021yvpv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "54 km NW of Toyah, Texas",
-        "time": 1639989326773,
-        "updated": 1640018595115,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yvpp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yvpp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "tx",
-        "code": "2021yvpp",
-        "ids": ",us6000gdsf,tx2021yvpp,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.04414744927,
-        "rms": 0.3,
-        "gap": 65,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 54 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.2200384,
-          31.64959138,
-          7.725463867
-        ]
-      },
-      "id": "tx2021yvpp"
     }
   ],
   "bbox": [
