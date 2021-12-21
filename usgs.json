@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640118783000,
+    "generated": 1640119466000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 76
+    "count": 74
   },
   "features": [
     {
@@ -52,10 +52,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3,
+        "place": "16 km WSW of Falls City, Texas",
+        "time": 1640116673228,
+        "updated": 1640118913040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ge97",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ge97.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "6000ge97",
+        "ids": ",us6000ge97,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.348,
+        "rms": 1,
+        "gap": 107,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 3.0 - 16 km WSW of Falls City, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.174,
+          28.9277,
+          5
+        ]
+      },
+      "id": "us6000ge97"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4,
         "place": "31km W of Petrolia, CA",
         "time": 1640107493790,
-        "updated": 1640118568797,
+        "updated": 1640119390659,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667251",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667251.geojson",
@@ -968,46 +1008,6 @@
         ]
       },
       "id": "pr2021355001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61999989,
-        "place": "1 km NW of Hōlualoa, Hawaii",
-        "time": 1640070408330,
-        "updated": 1640070981024,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72841757",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72841757.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "hv",
-        "code": "72841757",
-        "ids": ",hv72841757,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 15,
-        "dmin": null,
-        "rms": 0.300000012,
-        "gap": 266,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 1 km NW of Hōlualoa, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.960327148438,
-          19.6308326721191,
-          36.1800003051758
-        ]
-      },
-      "id": "hv72841757"
     },
     {
       "type": "Feature",
@@ -2968,86 +2968,6 @@
         ]
       },
       "id": "nc73666361"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.56,
-        "place": "11km WSW of Rio Dell, CA",
-        "time": 1640032580000,
-        "updated": 1640117291424,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666316",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666316.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 101,
-        "net": "nc",
-        "code": "73666316",
-        "ids": ",nc73666316,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.0848,
-        "rms": 0.08,
-        "gap": 83,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 11km WSW of Rio Dell, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.2273333,
-          40.4641667,
-          25.18
-        ]
-      },
-      "id": "nc73666316"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "74 km N of Pārūn, Afghanistan",
-        "time": 1640032532000,
-        "updated": 1640036428040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdy8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdy8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000gdy8",
-        "ids": ",us6000gdy8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.064,
-        "rms": 0.79,
-        "gap": 75,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 74 km N of Pārūn, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          70.9163,
-          36.0947,
-          88.93
-        ]
-      },
-      "id": "us6000gdy8"
     }
   ],
   "bbox": [
