@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640116383000,
+    "generated": 1640117523000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 85
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.37,
+        "place": "4km E of Covelo, CA",
+        "time": 1640116996440,
+        "updated": 1640117411438,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667331",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667331.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 175,
+        "net": "nc",
+        "code": "73667331",
+        "ids": ",nc73667331,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 43,
+        "dmin": 0.09528,
+        "rms": 0.16,
+        "gap": 39,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 4km E of Covelo, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2080002,
+          39.7975006,
+          -0.92
+        ]
+      },
+      "id": "nc73667331"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,7 +175,7 @@
         "mag": 3.06,
         "place": "11km N of Petrolia, CA",
         "time": 1640105437070,
-        "updated": 1640113090388,
+        "updated": 1640116631357,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667231.geojson",
@@ -535,12 +575,12 @@
         "mag": 3.25,
         "place": "12km SSW of Ferndale, CA",
         "time": 1640096174430,
-        "updated": 1640113335318,
+        "updated": 1640116517169,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667171",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667171.geojson",
-        "felt": 10,
-        "cdi": 3.1,
+        "felt": 11,
+        "cdi": 3.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -2775,7 +2815,7 @@
         "mag": 2.98,
         "place": "7km NW of Petrolia, CA",
         "time": 1640033782920,
-        "updated": 1640107932920,
+        "updated": 1640116752368,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666381",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666381.geojson",
@@ -2932,10 +2972,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.58,
-        "place": "12km WSW of Rio Dell, CA",
-        "time": 1640032580040,
-        "updated": 1640053390954,
+        "mag": 2.56,
+        "place": "11km WSW of Rio Dell, CA",
+        "time": 1640032580000,
+        "updated": 1640117291424,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666316",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666316.geojson",
@@ -2943,28 +2983,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 102,
+        "sig": 101,
         "net": "nc",
         "code": "73666316",
         "ids": ",nc73666316,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.0819,
-        "rms": 0.06,
-        "gap": 162,
+        "nst": 22,
+        "dmin": 0.0848,
+        "rms": 0.08,
+        "gap": 83,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 12km WSW of Rio Dell, CA"
+        "title": "M 2.6 - 11km WSW of Rio Dell, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.2321701,
-          40.4596672,
-          25.36
+          -124.2273333,
+          40.4641667,
+          25.18
         ]
       },
       "id": "nc73666316"
@@ -3255,11 +3295,11 @@
         "mag": 2.52,
         "place": "6 km SE of Erin Springs, Oklahoma",
         "time": 1640031709799,
-        "updated": 1640038998113,
+        "updated": 1640117197458,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2021ywmx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2021ywmx.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -3368,52 +3408,12 @@
         ]
       },
       "id": "nc73666246"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.2,
-        "place": "38km W of Petrolia, CA",
-        "time": 1640031019110,
-        "updated": 1640116308584,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666231.geojson",
-        "felt": 4317,
-        "cdi": 7,
-        "mmi": 6.932,
-        "alert": "yellow",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 1350,
-        "net": "nc",
-        "code": "73666231",
-        "ids": ",ew1640031020,nc73666231,at00r4fk16,us6000gdxq,",
-        "sources": ",ew,nc,at,us,",
-        "types": ",dyfi,focal-mechanism,general-text,ground-failure,impact-link,losspager,moment-tensor,nearby-cities,oaf,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 118,
-        "dmin": 0.2976,
-        "rms": 0.22,
-        "gap": 224,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 6.2 - 38km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.7303333,
-          40.3138333,
-          15.24
-        ]
-      },
-      "id": "nc73666231"
     }
   ],
   "bbox": [
     -168.1985,
     -57.0692,
-    0.1,
+    -0.92,
     167.7995,
     67.3369,
     161.67
