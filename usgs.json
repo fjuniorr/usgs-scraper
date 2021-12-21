@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640124603000,
+    "generated": 1640125766000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,42 +12,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.74,
-        "place": "25 km NW of Stanley, Idaho",
-        "time": 1640123207630,
-        "updated": 1640124173800,
+        "mag": 2.5,
+        "place": "23 km NW of Stanley, Idaho",
+        "time": 1640123206811,
+        "updated": 1640125097040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80534184",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80534184.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000geaa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000geaa.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 116,
-        "net": "mb",
-        "code": "80534184",
-        "ids": ",mb80534184,",
-        "sources": ",mb,",
+        "sig": 96,
+        "net": "us",
+        "code": "6000geaa",
+        "ids": ",mb80534184,us6000geaa,",
+        "sources": ",mb,us,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.926,
-        "rms": 0.29,
-        "gap": 82,
+        "nst": null,
+        "dmin": 0.939,
+        "rms": 0.62,
+        "gap": 61,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 25 km NW of Stanley, Idaho"
+        "title": "M 2.5 - 23 km NW of Stanley, Idaho"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.1961667,
-          44.3605,
-          9.43
+          -115.1535,
+          44.3676,
+          10
         ]
       },
-      "id": "mb80534184"
+      "id": "us6000geaa"
     },
     {
       "type": "Feature",
@@ -135,11 +135,11 @@
         "mag": 3.37,
         "place": "4km E of Covelo, CA",
         "time": 1640116996440,
-        "updated": 1640120177505,
+        "updated": 1640125572380,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667331",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667331.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 3.9,
         "mmi": null,
         "alert": null,
@@ -255,7 +255,7 @@
         "mag": 4,
         "place": "31km W of Petrolia, CA",
         "time": 1640107493790,
-        "updated": 1640121087878,
+        "updated": 1640124728097,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667251",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667251.geojson",
@@ -614,8 +614,8 @@
       "properties": {
         "mag": 2.9,
         "place": "53 km NW of Toyah, Texas",
-        "time": 1640103414817,
-        "updated": 1640104019040,
+        "time": 1640103414829,
+        "updated": 1640125178040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ge6d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ge6d.geojson",
@@ -632,7 +632,7 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 0.248,
+        "dmin": 0.249,
         "rms": 0.26,
         "gap": 61,
         "magType": "ml",
@@ -642,8 +642,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.2102,
-          31.6451,
+          -104.2097,
+          31.6456,
           5
         ]
       },
