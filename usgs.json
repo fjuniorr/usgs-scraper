@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640128171000,
+    "generated": 1640129476000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 60
+    "count": 59
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.94,
+        "place": "22km W of Petrolia, CA",
+        "time": 1640128099070,
+        "updated": 1640128451402,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667416",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667416.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 133,
+        "net": "nc",
+        "code": "73667416",
+        "ids": ",nc73667416,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.2003,
+        "rms": 0.12,
+        "gap": 255,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 22km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.5446701,
+          40.2999992,
+          18.86
+        ]
+      },
+      "id": "nc73667416"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.9,
         "place": "61 km E of Port Alsworth, Alaska",
         "time": 1640126534656,
-        "updated": 1640128168469,
+        "updated": 1640129310554,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gbh4rso",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gbh4rso.geojson",
-        "felt": 124,
-        "cdi": 6.5,
+        "felt": 1289,
+        "cdi": 5.4,
         "mmi": 4.108,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 616,
+        "sig": 1076,
         "net": "ak",
         "code": "021gbh4rso",
         "ids": ",at00r4hlqe,ak021gbh4rso,us6000geb1,",
@@ -95,22 +135,22 @@
         "mag": 3.62,
         "place": "9 km E of Springdale, Utah",
         "time": 1640126205470,
-        "updated": 1640128050776,
+        "updated": 1640128892965,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60472847",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60472847.geojson",
-        "felt": 17,
+        "felt": 21,
         "cdi": 3.8,
         "mmi": 3.037,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 208,
+        "sig": 210,
         "net": "uu",
         "code": "60472847",
         "ids": ",uu60472847,us6000geay,",
         "sources": ",uu,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
         "nst": 14,
         "dmin": 0.1829,
         "rms": 0.17,
@@ -292,42 +332,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "16 km WSW of Falls City, Texas",
-        "time": 1640116673228,
-        "updated": 1640118913040,
+        "mag": 3.2,
+        "place": "18 km SW of Falls City, Texas",
+        "time": 1640116672852,
+        "updated": 1640128195834,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ge97",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ge97.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yyhp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yyhp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "6000ge97",
-        "ids": ",us6000ge97,",
-        "sources": ",us,",
+        "sig": 158,
+        "net": "tx",
+        "code": "2021yyhp",
+        "ids": ",us6000ge97,tx2021yyhp,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.348,
-        "rms": 1,
-        "gap": 107,
-        "magType": "mb_lg",
+        "nst": 23,
+        "dmin": 0.1648088328,
+        "rms": 0.3,
+        "gap": 65,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 16 km WSW of Falls City, Texas"
+        "title": "M 3.2 - 18 km SW of Falls City, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.174,
-          28.9277,
-          5
+          -98.1428079,
+          28.85650635,
+          8.339070638
         ]
       },
-      "id": "us6000ge97"
+      "id": "tx2021yyhp"
     },
     {
       "type": "Feature",
@@ -2328,86 +2368,6 @@
         ]
       },
       "id": "nc73666641"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.76,
-        "place": "13km N of Petrolia, CA",
-        "time": 1640042714850,
-        "updated": 1640071571617,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666621",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666621.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 117,
-        "net": "nc",
-        "code": "73666621",
-        "ids": ",nc73666621,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.04627,
-        "rms": 0.06,
-        "gap": 136,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 13km N of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.2925034,
-          40.4445,
-          22.16
-        ]
-      },
-      "id": "nc73666621"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "26km WSW of Petrolia, CA",
-        "time": 1640041963010,
-        "updated": 1640043196040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666601",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666601.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "nc",
-        "code": "73666601",
-        "ids": ",nc73666601,us6000ge0f,",
-        "sources": ",nc,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 12,
-        "dmin": 0.2335,
-        "rms": 0.09,
-        "gap": 282,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 26km WSW of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.5830002,
-          40.2736664,
-          16.29
-        ]
-      },
-      "id": "nc73666601"
     }
   ],
   "bbox": [
