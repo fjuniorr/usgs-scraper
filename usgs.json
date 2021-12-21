@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640101753000,
+    "generated": 1640102241000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 3.2,
         "place": "54 km NNE of Kobuk, Alaska",
         "time": 1640100356048,
-        "updated": 1640101088858,
+        "updated": 1640101783040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gbcv6ku",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gbcv6ku.geojson",
@@ -28,9 +28,9 @@
         "sig": 158,
         "net": "ak",
         "code": "021gbcv6ku",
-        "ids": ",ak021gbcv6ku,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",us6000ge62,ak021gbcv6ku,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.55,
@@ -2613,7 +2613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "74 km N of Pārūn, Afghanistan",
+        "place": "Hindu Kush region, Afghanistan",
         "time": 1640032532000,
         "updated": 1640036428040,
         "tz": null,
@@ -2637,7 +2637,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 74 km N of Pārūn, Afghanistan"
+        "title": "M 4.4 - Hindu Kush region, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -2975,11 +2975,11 @@
         "mag": 6.2,
         "place": "39km W of Petrolia, CA",
         "time": 1640031018870,
-        "updated": 1640101711937,
+        "updated": 1640102076553,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666231.geojson",
-        "felt": 4280,
+        "felt": 4281,
         "cdi": 7,
         "mmi": 6.933,
         "alert": "yellow",
