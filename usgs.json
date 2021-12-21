@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640119955000,
+    "generated": 1640120943000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 73
+    "count": 70
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.71,
+        "place": "24 km SE of Boca de Yuma, Dominican Republic",
+        "time": 1640118839440,
+        "updated": 1640120182253,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021355005",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021355005.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 212,
+        "net": "pr",
+        "code": "2021355005",
+        "ids": ",pr2021355005,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.281,
+        "rms": 0.49,
+        "gap": 162,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 24 km SE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.4323,
+          18.2375,
+          111
+        ]
+      },
+      "id": "pr2021355005"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.37,
         "place": "4km E of Covelo, CA",
         "time": 1640116996440,
-        "updated": 1640118312161,
+        "updated": 1640120177505,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667331",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667331.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 3.9,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 176,
+        "sig": 177,
         "net": "nc",
         "code": "73667331",
         "ids": ",nc73667331,",
@@ -95,7 +135,7 @@
         "mag": 4,
         "place": "31km W of Petrolia, CA",
         "time": 1640107493790,
-        "updated": 1640119390659,
+        "updated": 1640120192025,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667251",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667251.geojson",
@@ -2768,166 +2808,6 @@
         ]
       },
       "id": "nc73666406"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.02,
-        "place": "8km SSW of Rio Dell, CA",
-        "time": 1640034398210,
-        "updated": 1640088010147,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666396",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666396.geojson",
-        "felt": 1,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 141,
-        "net": "nc",
-        "code": "73666396",
-        "ids": ",nc73666396,us6000gdyt,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 34,
-        "dmin": 0.01801,
-        "rms": 0.19,
-        "gap": 57,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 8km SSW of Rio Dell, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.1348333,
-          40.4316667,
-          26.96
-        ]
-      },
-      "id": "nc73666396"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.98,
-        "place": "7km NW of Petrolia, CA",
-        "time": 1640033782920,
-        "updated": 1640117650461,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666381",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666381.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 137,
-        "net": "nc",
-        "code": "73666381",
-        "ids": ",nc73666381,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.06728,
-        "rms": 0.1,
-        "gap": 223,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 7km NW of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.342,
-          40.3728333,
-          27.52
-        ]
-      },
-      "id": "nc73666381"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.07,
-        "place": "11km N of Petrolia, CA",
-        "time": 1640033743240,
-        "updated": 1640082491422,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666376",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666376.geojson",
-        "felt": 2,
-        "cdi": 3.8,
-        "mmi": 2.406,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 146,
-        "net": "nc",
-        "code": "73666376",
-        "ids": ",nc73666376,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 29,
-        "dmin": 0.06079,
-        "rms": 0.1,
-        "gap": 131,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 11km N of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.2931667,
-          40.425,
-          25.23
-        ]
-      },
-      "id": "nc73666376"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.91,
-        "place": "4km NE of Petrolia, CA",
-        "time": 1640033610560,
-        "updated": 1640117591456,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666371",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666371.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 130,
-        "net": "nc",
-        "code": "73666371",
-        "ids": ",nc73666371,us6000gdyk,",
-        "sources": ",nc,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.03368,
-        "rms": 0.08,
-        "gap": 134,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 4km NE of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.2538333,
-          40.3463333,
-          22.35
-        ]
-      },
-      "id": "nc73666371"
     }
   ],
   "bbox": [
