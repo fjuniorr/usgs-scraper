@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640099434000,
+    "generated": 1640100898000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 81
+    "count": 84
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "53 km NNE of Kobuk, Alaska",
+        "time": 1640100356623,
+        "updated": 1640100748062,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gbcv6ku",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gbcv6ku.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "021gbcv6ku",
+        "ids": ",ak021gbcv6ku,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.56,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 53 km NNE of Kobuk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.3111,
+          67.3355,
+          6.7
+        ]
+      },
+      "id": "ak021gbcv6ku"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "9 km WSW of Corail, Haiti",
+        "time": 1640098414931,
+        "updated": 1640100725040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ge5x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ge5x.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000ge5x",
+        "ids": ",us6000ge5x,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.658,
+        "rms": 0.41,
+        "gap": 79,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 9 km WSW of Corail, Haiti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9662,
+          18.5271,
+          12.92
+        ]
+      },
+      "id": "us6000ge5x"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "18 km SW of Ovalle, Chile",
+        "time": 1640097966254,
+        "updated": 1640099507040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ge5v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ge5v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000ge5v",
+        "ids": ",us6000ge5v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.244,
+        "rms": 0.27,
+        "gap": 92,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 18 km SW of Ovalle, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3523,
+          -30.6993,
+          39.41
+        ]
+      },
+      "id": "us6000ge5v"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -453,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Ceram Sea, Indonesia",
+        "place": "267 km E of Amahai, Indonesia",
         "time": 1640069970894,
         "updated": 1640071024040,
         "tz": null,
@@ -477,7 +597,7 @@
         "gap": 80,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Ceram Sea, Indonesia"
+        "title": "M 4.7 - 267 km E of Amahai, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -2493,7 +2613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Hindu Kush region, Afghanistan",
+        "place": "74 km N of Pārūn, Afghanistan",
         "time": 1640032532000,
         "updated": 1640036428040,
         "tz": null,
@@ -2517,7 +2637,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Hindu Kush region, Afghanistan"
+        "title": "M 4.4 - 74 km N of Pārūn, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -2855,11 +2975,11 @@
         "mag": 6.2,
         "place": "39km W of Petrolia, CA",
         "time": 1640031018870,
-        "updated": 1640098785446,
+        "updated": 1640100636607,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666231.geojson",
-        "felt": 4278,
+        "felt": 4279,
         "cdi": 7,
         "mmi": 6.933,
         "alert": "yellow",
@@ -3251,7 +3371,7 @@
     }
   ],
   "bbox": [
-    -155.96032714844,
+    -156.3111,
     -57.0692,
     0.1,
     167.7995,
