@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640087609000,
+    "generated": 1640089010000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Ceram Sea, Indonesia",
+        "place": "267 km E of Amahai, Indonesia",
         "time": 1640069970894,
         "updated": 1640071024040,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 80,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Ceram Sea, Indonesia"
+        "title": "M 4.7 - 267 km E of Amahai, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -335,7 +335,7 @@
         "mag": 2.73,
         "place": "28km WSW of Petrolia, CA",
         "time": 1640066011220,
-        "updated": 1640083751559,
+        "updated": 1640088911223,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666866",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666866.geojson",
@@ -2015,7 +2015,7 @@
         "mag": 3.02,
         "place": "8km SSW of Rio Dell, CA",
         "time": 1640034398210,
-        "updated": 1640082850461,
+        "updated": 1640088010147,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666396",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666396.geojson",
@@ -2253,7 +2253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Hindu Kush region, Afghanistan",
+        "place": "74 km N of Pārūn, Afghanistan",
         "time": 1640032532000,
         "updated": 1640036428040,
         "tz": null,
@@ -2277,7 +2277,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Hindu Kush region, Afghanistan"
+        "title": "M 4.4 - 74 km N of Pārūn, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -2455,7 +2455,7 @@
         "mag": 2.47,
         "place": "10km ESE of Petrolia, CA",
         "time": 1640031712550,
-        "updated": 1640077752775,
+        "updated": 1640088251170,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666256",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666256.geojson",
@@ -2615,11 +2615,11 @@
         "mag": 6.2,
         "place": "39km W of Petrolia, CA",
         "time": 1640031018870,
-        "updated": 1640087309712,
+        "updated": 1640088038422,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666231.geojson",
-        "felt": 4261,
+        "felt": 4262,
         "cdi": 7.1,
         "mmi": 6.933,
         "alert": "yellow",
