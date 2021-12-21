@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640077854000,
+    "generated": 1640079123000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 82
+    "count": 81
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "South Sandwich Islands region",
+        "time": 1640076866124,
+        "updated": 1640078256040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ge4s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ge4s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000ge4s",
+        "ids": ",us6000ge4s,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 7.869,
+        "rms": 0.37,
+        "gap": 85,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -23.4707,
+          -57.0692,
+          10
+        ]
+      },
+      "id": "us6000ge4s"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -93,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Ceram Sea, Indonesia",
+        "place": "267 km E of Amahai, Indonesia",
         "time": 1640069970894,
         "updated": 1640071024040,
         "tz": null,
@@ -117,7 +157,7 @@
         "gap": 80,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Ceram Sea, Indonesia"
+        "title": "M 4.7 - 267 km E of Amahai, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -375,7 +415,7 @@
         "mag": 3.47,
         "place": "14km N of Petrolia, CA",
         "time": 1640061259950,
-        "updated": 1640075232132,
+        "updated": 1640079070855,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666831",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666831.geojson",
@@ -455,7 +495,7 @@
         "mag": 2.94,
         "place": "14km NNW of Petrolia, CA",
         "time": 1640059986140,
-        "updated": 1640061552171,
+        "updated": 1640078290839,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666816",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666816.geojson",
@@ -495,17 +535,17 @@
         "mag": 4.9,
         "place": "16 km NE of Banos, Philippines",
         "time": 1640059692293,
-        "updated": 1640066840129,
+        "updated": 1640078064454,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ge2q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ge2q.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 370,
+        "sig": 371,
         "net": "us",
         "code": "6000ge2q",
         "ids": ",us6000ge2q,",
@@ -735,7 +775,7 @@
         "mag": 2.73,
         "place": "9km NNE of Petrolia, CA",
         "time": 1640053915300,
-        "updated": 1640072832383,
+        "updated": 1640077873315,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666771",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666771.geojson",
@@ -1375,7 +1415,7 @@
         "mag": 3.93,
         "place": "6km NE of Petrolia, CA",
         "time": 1640037226470,
-        "updated": 1640073730458,
+        "updated": 1640078830827,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666511",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666511.geojson",
@@ -2495,11 +2535,11 @@
         "mag": 6.2,
         "place": "39km W of Petrolia, CA",
         "time": 1640031018870,
-        "updated": 1640077655499,
+        "updated": 1640078724733,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666231.geojson",
-        "felt": 4251,
+        "felt": 4254,
         "cdi": 7.1,
         "mmi": 6.933,
         "alert": "yellow",
@@ -3208,91 +3248,11 @@
         ]
       },
       "id": "ak021g9luv7d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "24 km W of Coyanosa, Texas",
-        "time": 1639992590516,
-        "updated": 1640040256632,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yvrj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yvrj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2021yvrj",
-        "ids": ",us6000gdsm,tx2021yvrj,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.04202491051,
-        "rms": 0.3,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 24 km W of Coyanosa, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.3146556,
-          31.20317261,
-          5.745947266
-        ]
-      },
-      "id": "tx2021yvrj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "105 km SW of Atocha, Bolivia",
-        "time": 1639991566494,
-        "updated": 1640006599040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdsi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdsi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000gdsi",
-        "ids": ",us6000gdsi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.772,
-        "rms": 1.07,
-        "gap": 82,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 105 km SW of Atocha, Bolivia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9931,
-          -21.5542,
-          242.45
-        ]
-      },
-      "id": "us6000gdsi"
     }
   ],
   "bbox": [
     -175.4485,
-    -54.2683,
+    -57.0692,
     0,
     167.7995,
     79.5798,
