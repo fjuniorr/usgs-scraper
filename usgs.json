@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640157016000,
+    "generated": 1640158206000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 51
+    "count": 53
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.91,
+        "place": "14 km W of Marietta, Oklahoma",
+        "time": 1640157766920,
+        "updated": 1640157994916,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2021yzef",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2021yzef.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 130,
+        "net": "ok",
+        "code": "2021yzef",
+        "ids": ",ok2021yzef,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 0.09031722695,
+        "rms": 0.884745384,
+        "gap": 77.48415756,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 14 km W of Marietta, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.27681732,
+          33.95130539,
+          0.8399627805
+        ]
+      },
+      "id": "ok2021yzef"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "48 km W of Naha, Japan",
+        "time": 1640156821761,
+        "updated": 1640157912040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gefe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gefe.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000gefe",
+        "ids": ",us6000gefe,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.11,
+        "rms": 1.26,
+        "gap": 93,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 48 km W of Naha, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.202,
+          26.2732,
+          108.59
+        ]
+      },
+      "id": "us6000gefe"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +135,17 @@
         "mag": 3.12,
         "place": "9 km SE of Maplesville, Alabama",
         "time": 1640154050160,
-        "updated": 1640156910277,
+        "updated": 1640157993540,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60140943",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60140943.geojson",
-        "felt": 29,
-        "cdi": 4.5,
+        "felt": 45,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 163,
+        "sig": 169,
         "net": "se",
         "code": "60140943",
         "ids": ",us6000gef0,se60140943,",
@@ -133,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.26,
-        "place": "10 km SW of Stella, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1640145063070,
         "updated": 1640147291278,
         "tz": null,
@@ -157,7 +237,7 @@
         "gap": 174,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 10 km SW of Stella, Puerto Rico"
+        "title": "M 3.3 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -735,11 +815,11 @@
         "mag": 5.9,
         "place": "61 km E of Port Alsworth, Alaska",
         "time": 1640126534656,
-        "updated": 1640156823633,
+        "updated": 1640158152531,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gbh4rso",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gbh4rso.geojson",
-        "felt": 1804,
+        "felt": 1810,
         "cdi": 5.6,
         "mmi": 4.108,
         "alert": "green",
@@ -775,17 +855,17 @@
         "mag": 2.69,
         "place": "3km NW of Palomar Observatory, CA",
         "time": 1640126318010,
-        "updated": 1640145954945,
+        "updated": 1640157770831,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39892903",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39892903.geojson",
-        "felt": 48,
+        "felt": 49,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 126,
+        "sig": 127,
         "net": "ci",
         "code": "39892903",
         "ids": ",ci39892903,us6000geaz,",
@@ -815,11 +895,11 @@
         "mag": 3.62,
         "place": "9 km E of Springdale, Utah",
         "time": 1640126205460,
-        "updated": 1640155482192,
+        "updated": 1640157583874,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60472847",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60472847.geojson",
-        "felt": 135,
+        "felt": 136,
         "cdi": 4.1,
         "mmi": 3.544,
         "alert": null,
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.71,
-        "place": "Mona Passage",
+        "place": "24 km SE of Boca de Yuma, Dominican Republic",
         "time": 1640118839440,
         "updated": 1640120182253,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 162,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - Mona Passage"
+        "title": "M 3.7 - 24 km SE of Boca de Yuma, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
