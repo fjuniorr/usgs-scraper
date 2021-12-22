@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640208367000,
+    "generated": 1640209023000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "60 km SSE of Altai, Mongolia",
+        "time": 1640207845028,
+        "updated": 1640208561040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000genq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000genq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000genq",
+        "ids": ",us6000genq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 7.023,
+        "rms": 0.88,
+        "gap": 93,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 60 km SSE of Altai, Mongolia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.5612,
+          45.8701,
+          10
+        ]
+      },
+      "id": "us6000genq"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -132,10 +172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.65,
-        "place": "3 km S of Pāhala, Hawaii",
-        "time": 1640176592090,
-        "updated": 1640177820040,
+        "mag": 2.89,
+        "place": "5 km S of Pāhala, Hawaii",
+        "time": 1640176591880,
+        "updated": 1640208863340,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72843072",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72843072.geojson",
@@ -143,28 +183,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 108,
+        "sig": 128,
         "net": "hv",
         "code": "72843072",
         "ids": ",us6000gehf,hv72843072,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 41,
+        "nst": 46,
         "dmin": null,
-        "rms": 0.140000001,
-        "gap": 150,
+        "rms": 0.11,
+        "gap": 156,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 3 km S of Pāhala, Hawaii"
+        "title": "M 2.9 - 5 km S of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.477172851562,
-          19.1709995269775,
-          30.9699993133545
+          -155.473666666667,
+          19.1516666666667,
+          32.91
         ]
       },
       "id": "hv72843072"
