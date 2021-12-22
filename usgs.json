@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640185811000,
+    "generated": 1640187303000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 53
+    "count": 52
   },
   "features": [
     {
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Molucca Sea",
+        "place": "141 km WNW of Tobelo, Indonesia",
         "time": 1640176057427,
         "updated": 1640176922040,
         "tz": null,
@@ -197,7 +197,7 @@
         "gap": 45,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - Molucca Sea"
+        "title": "M 5.0 - 141 km WNW of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Molucca Sea",
+        "place": "144 km WNW of Tobelo, Indonesia",
         "time": 1640175596105,
         "updated": 1640176559040,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 79,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - Molucca Sea"
+        "title": "M 4.9 - 144 km WNW of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -615,17 +615,17 @@
         "mag": 3.1,
         "place": "10 km E of Maplesville, Alabama",
         "time": 1640154048490,
-        "updated": 1640185608064,
+        "updated": 1640187008247,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60140943",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60140943.geojson",
-        "felt": 92,
+        "felt": 95,
         "cdi": 3.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 184,
+        "sig": 185,
         "net": "se",
         "code": "60140943",
         "ids": ",us6000gef0,se60140943,",
@@ -1295,11 +1295,11 @@
         "mag": 5.9,
         "place": "61 km E of Port Alsworth, Alaska",
         "time": 1640126534656,
-        "updated": 1640185631362,
+        "updated": 1640187166165,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gbh4rso",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gbh4rso.geojson",
-        "felt": 1832,
+        "felt": 1835,
         "cdi": 5.6,
         "mmi": 4.108,
         "alert": "green",
@@ -1375,11 +1375,11 @@
         "mag": 3.62,
         "place": "9 km E of Springdale, Utah",
         "time": 1640126205460,
-        "updated": 1640182845986,
+        "updated": 1640186679199,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60472847",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60472847.geojson",
-        "felt": 144,
+        "felt": 145,
         "cdi": 4.1,
         "mmi": 3.544,
         "alert": null,
@@ -1493,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.71,
-        "place": "Mona Passage",
+        "place": "24 km SE of Boca de Yuma, Dominican Republic",
         "time": 1640118839440,
         "updated": 1640182605326,
         "tz": null,
@@ -1517,7 +1517,7 @@
         "gap": 162,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - Mona Passage"
+        "title": "M 3.7 - 24 km SE of Boca de Yuma, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -2088,46 +2088,6 @@
         ]
       },
       "id": "us6000ge6d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "54 km NNE of Kobuk, Alaska",
-        "time": 1640100356048,
-        "updated": 1640102546040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gbcv6ku",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gbcv6ku.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "021gbcv6ku",
-        "ids": ",us6000ge62,ak021gbcv6ku,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.55,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 54 km NNE of Kobuk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.2963,
-          67.3369,
-          0.9
-        ]
-      },
-      "id": "ak021gbcv6ku"
     }
   ],
   "bbox": [
