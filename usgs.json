@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640158964000,
+    "generated": 1640159609000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 54
+    "count": 52
   },
   "features": [
     {
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.26,
-        "place": "10 km SW of Stella, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1640145063070,
         "updated": 1640147291278,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 174,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 10 km SW of Stella, Puerto Rico"
+        "title": "M 3.3 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -815,11 +815,11 @@
         "mag": 5.9,
         "place": "61 km E of Port Alsworth, Alaska",
         "time": 1640126534656,
-        "updated": 1640158772869,
+        "updated": 1640159402389,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gbh4rso",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gbh4rso.geojson",
-        "felt": 1811,
+        "felt": 1812,
         "cdi": 5.6,
         "mmi": 4.108,
         "alert": "green",
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.71,
-        "place": "Mona Passage",
+        "place": "24 km SE of Boca de Yuma, Dominican Republic",
         "time": 1640118839440,
         "updated": 1640120182253,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 162,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - Mona Passage"
+        "title": "M 3.7 - 24 km SE of Boca de Yuma, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -2088,86 +2088,6 @@
         ]
       },
       "id": "us6000ge4s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "Tristan da Cunha region",
-        "time": 1640073056844,
-        "updated": 1640158446040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ge48",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ge48.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000ge48",
-        "ids": ",us6000ge48,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 25.341,
-        "rms": 0.78,
-        "gap": 114,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - Tristan da Cunha region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -14.5989,
-          -34.1372,
-          10
-        ]
-      },
-      "id": "us6000ge48"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "6 km SW of Guánica, Puerto Rico",
-        "time": 1640072585380,
-        "updated": 1640074094440,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021355001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021355001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "pr",
-        "code": "2021355001",
-        "ids": ",pr2021355001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.0853,
-        "rms": 0.1,
-        "gap": 222,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 6 km SW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9535,
-          17.9333,
-          9
-        ]
-      },
-      "id": "pr2021355001"
     }
   ],
   "bbox": [
