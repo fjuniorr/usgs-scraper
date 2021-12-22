@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640159609000,
+    "generated": 1640160725000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 52
+    "count": 53
   },
   "features": [
     {
@@ -15,11 +15,11 @@
         "mag": 2.91,
         "place": "14 km W of Marietta, Oklahoma",
         "time": 1640157766920,
-        "updated": 1640158898111,
+        "updated": 1640160646039,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2021yzef",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2021yzef.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -175,7 +175,7 @@
         "mag": 5.9,
         "place": "South Sandwich Islands region",
         "time": 1640152311314,
-        "updated": 1640153788661,
+        "updated": 1640159617219,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000geea",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000geea.geojson",
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.26,
-        "place": "Mona Passage",
+        "place": "10 km SW of Stella, Puerto Rico",
         "time": 1640145063070,
         "updated": 1640147291278,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 174,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - Mona Passage"
+        "title": "M 3.3 - 10 km SW of Stella, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -815,7 +815,7 @@
         "mag": 5.9,
         "place": "61 km E of Port Alsworth, Alaska",
         "time": 1640126534656,
-        "updated": 1640159402389,
+        "updated": 1640160474311,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gbh4rso",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gbh4rso.geojson",
@@ -895,11 +895,11 @@
         "mag": 3.62,
         "place": "9 km E of Springdale, Utah",
         "time": 1640126205460,
-        "updated": 1640158862177,
+        "updated": 1640160700453,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60472847",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60472847.geojson",
-        "felt": 137,
+        "felt": 138,
         "cdi": 4.1,
         "mmi": 3.544,
         "alert": null,
@@ -2008,6 +2008,46 @@
         ]
       },
       "id": "nc73667046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "68 km WSW of Ferndale, California",
+        "time": 1640084254665,
+        "updated": 1640159931040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ge55",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ge55.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000ge55",
+        "ids": ",us6000ge55,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.684,
+        "rms": 0.5,
+        "gap": 251,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 68 km WSW of Ferndale, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.0117,
+          40.3411,
+          10
+        ]
+      },
+      "id": "us6000ge55"
     },
     {
       "type": "Feature",
