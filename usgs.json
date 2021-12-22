@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640198366000,
+    "generated": 1640199183000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -92,10 +92,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.52,
-        "place": "9km NE of Coso Junction, CA",
-        "time": 1640176636920,
-        "updated": 1640180139928,
+        "mag": 2.54,
+        "place": "9km ENE of Coso Junction, CA",
+        "time": 1640176636930,
+        "updated": 1640198737940,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39893383",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39893383.geojson",
@@ -103,28 +103,28 @@
         "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 98,
+        "sig": 99,
         "net": "ci",
         "code": "39893383",
         "ids": ",ci39893383,",
         "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.02711,
-        "rms": 0.15,
-        "gap": 55,
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 43,
+        "dmin": 0.02673,
+        "rms": 0.14,
+        "gap": 40,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 9km NE of Coso Junction, CA"
+        "title": "M 2.5 - 9km ENE of Coso Junction, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.8635,
-          36.0913333,
-          2.56
+          -117.8603333,
+          36.0911667,
+          3.47
         ]
       },
       "id": "ci39893383"
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Molucca Sea",
+        "place": "141 km WNW of Tobelo, Indonesia",
         "time": 1640176057427,
         "updated": 1640176922040,
         "tz": null,
@@ -197,7 +197,7 @@
         "gap": 45,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - Molucca Sea"
+        "title": "M 5.0 - 141 km WNW of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Molucca Sea",
+        "place": "144 km WNW of Tobelo, Indonesia",
         "time": 1640175596105,
         "updated": 1640176559040,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 79,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - Molucca Sea"
+        "title": "M 4.9 - 144 km WNW of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.26,
-        "place": "10 km SW of Stella, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1640145063070,
         "updated": 1640147291278,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 174,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 10 km SW of Stella, Puerto Rico"
+        "title": "M 3.3 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -1295,7 +1295,7 @@
         "mag": 5.9,
         "place": "61 km E of Port Alsworth, Alaska",
         "time": 1640126534656,
-        "updated": 1640198091518,
+        "updated": 1640198748072,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gbh4rso",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gbh4rso.geojson",
@@ -1493,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.71,
-        "place": "Mona Passage",
+        "place": "24 km SE of Boca de Yuma, Dominican Republic",
         "time": 1640118839440,
         "updated": 1640182605326,
         "tz": null,
@@ -1517,7 +1517,7 @@
         "gap": 162,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - Mona Passage"
+        "title": "M 3.7 - 24 km SE of Boca de Yuma, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
