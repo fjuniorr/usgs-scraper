@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640213575000,
+    "generated": 1640214593000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "68 km NE of Tobelo, Indonesia",
+        "time": 1640212406107,
+        "updated": 1640213708040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gepb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gepb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000gepb",
+        "ids": ",us6000gepb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.757,
+        "rms": 0.72,
+        "gap": 111,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 68 km NE of Tobelo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.4393,
+          2.1737,
+          44.65
+        ]
+      },
+      "id": "us6000gepb"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -133,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Near the coast of Tarapaca, Chile",
+        "place": "13 km SSW of Iquique, Chile",
         "time": 1640210028685,
         "updated": 1640212229114,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": 173,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Near the coast of Tarapaca, Chile"
+        "title": "M 2.7 - 13 km SSW of Iquique, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -292,20 +332,100 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.9,
+        "place": "108 km WNW of Indianola, California",
+        "time": 1640195382789,
+        "updated": 1640213874040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gemb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gemb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "6000gemb",
+        "ids": ",us6000gemb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.105,
+        "rms": 0.63,
+        "gap": 258,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 108 km WNW of Indianola, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.481,
+          40.9226,
+          10
+        ]
+      },
+      "id": "us6000gemb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "south of the Fiji Islands",
+        "time": 1640194877478,
+        "updated": 1640214409040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gemf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gemf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000gemf",
+        "ids": ",us6000gemf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.981,
+        "rms": 0.95,
+        "gap": 75,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.0308,
+          -23.3095,
+          160.76
+        ]
+      },
+      "id": "us6000gemf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.6,
         "place": "4 km SSE of Villa González, Dominican Republic",
         "time": 1640181458781,
-        "updated": 1640211048221,
+        "updated": 1640214110218,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000geix",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000geix.geojson",
-        "felt": 27,
+        "felt": 28,
         "cdi": 3.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 209,
+        "sig": 210,
         "net": "us",
         "code": "6000geix",
         "ids": ",us6000geix,",
@@ -493,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "141 km WNW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1640176057427,
         "updated": 1640176922040,
         "tz": null,
@@ -517,7 +637,7 @@
         "gap": 45,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 141 km WNW of Tobelo, Indonesia"
+        "title": "M 5.0 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "144 km WNW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1640175596105,
         "updated": 1640176559040,
         "tz": null,
@@ -557,7 +677,7 @@
         "gap": 79,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 144 km WNW of Tobelo, Indonesia"
+        "title": "M 4.9 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -655,7 +775,7 @@
         "mag": 4.9,
         "place": "2 km S of Álftanes, Iceland",
         "time": 1640164992979,
-        "updated": 1640207166999,
+        "updated": 1640213752096,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000geg2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000geg2.geojson",
@@ -973,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.26,
-        "place": "Mona Passage",
+        "place": "10 km SW of Stella, Puerto Rico",
         "time": 1640145063070,
         "updated": 1640147291278,
         "tz": null,
@@ -997,7 +1117,7 @@
         "gap": 174,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - Mona Passage"
+        "title": "M 3.3 - 10 km SW of Stella, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1528,90 +1648,10 @@
         ]
       },
       "id": "us6000gec0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.94,
-        "place": "22km W of Petrolia, CA",
-        "time": 1640128099070,
-        "updated": 1640139911135,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667416",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667416.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 133,
-        "net": "nc",
-        "code": "73667416",
-        "ids": ",nc73667416,us6000gebi,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.2003,
-        "rms": 0.12,
-        "gap": 255,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 22km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.5446701,
-          40.2999992,
-          18.86
-        ]
-      },
-      "id": "nc73667416"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.45,
-        "place": "121 km NE of Punta Cana, Dominican Republic",
-        "time": 1640127528020,
-        "updated": 1640131518040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021355008",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021355008.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 183,
-        "net": "pr",
-        "code": "2021355008",
-        "ids": ",us6000gebe,pr2021355008,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 1.1329,
-        "rms": 0.45,
-        "gap": 229,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 121 km NE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.751,
-          19.4843,
-          29
-        ]
-      },
-      "id": "pr2021355008"
     }
   ],
   "bbox": [
-    -159.7294,
+    -177.0308,
     -57.8143,
     0,
     154.2349,
