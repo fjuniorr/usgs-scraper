@@ -1,54 +1,14 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640151310000,
+    "generated": 1640151796000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 54
+    "count": 53
   },
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6099999,
-        "place": "9 km ENE of Pāhala, Hawaii",
-        "time": 1640151059060,
-        "updated": 1640151259240,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72842707",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72842707.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "hv",
-        "code": "72842707",
-        "ids": ",hv72842707,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": null,
-        "rms": 0.109999999,
-        "gap": 134,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 9 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.402328491211,
-          19.2425003051758,
-          33.560001373291
-        ]
-      },
-      "id": "hv72842707"
-    },
     {
       "type": "Feature",
       "properties": {
@@ -655,11 +615,11 @@
         "mag": 5.9,
         "place": "61 km E of Port Alsworth, Alaska",
         "time": 1640126534656,
-        "updated": 1640150746205,
+        "updated": 1640151521492,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gbh4rso",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gbh4rso.geojson",
-        "felt": 1715,
+        "felt": 1716,
         "cdi": 5.6,
         "mmi": 4.108,
         "alert": "green",
@@ -735,17 +695,17 @@
         "mag": 3.62,
         "place": "9 km E of Springdale, Utah",
         "time": 1640126205460,
-        "updated": 1640150984485,
+        "updated": 1640151341122,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60472847",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60472847.geojson",
-        "felt": 131,
+        "felt": 132,
         "cdi": 4.1,
         "mmi": 3.544,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 255,
+        "sig": 256,
         "net": "uu",
         "code": "60472847",
         "ids": ",uu60472847,us6000geay,",
@@ -853,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.71,
-        "place": "24 km SE of Boca de Yuma, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1640118839440,
         "updated": 1640120182253,
         "tz": null,
@@ -877,7 +837,7 @@
         "gap": 162,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 24 km SE of Boca de Yuma, Dominican Republic"
+        "title": "M 3.7 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
