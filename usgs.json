@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640209509000,
+    "generated": 1640210015000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 36
   },
   "features": [
     {
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "141 km WNW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1640176057427,
         "updated": 1640176922040,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 45,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 141 km WNW of Tobelo, Indonesia"
+        "title": "M 5.0 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "144 km WNW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1640175596105,
         "updated": 1640176559040,
         "tz": null,
@@ -277,7 +277,7 @@
         "gap": 79,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 144 km WNW of Tobelo, Indonesia"
+        "title": "M 4.9 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.26,
-        "place": "Mona Passage",
+        "place": "10 km SW of Stella, Puerto Rico",
         "time": 1640145063070,
         "updated": 1640147291278,
         "tz": null,
@@ -717,7 +717,7 @@
         "gap": 174,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - Mona Passage"
+        "title": "M 3.3 - 10 km SW of Stella, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1335,7 +1335,7 @@
         "mag": 5.9,
         "place": "61 km E of Port Alsworth, Alaska",
         "time": 1640126534656,
-        "updated": 1640206804972,
+        "updated": 1640209789233,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gbh4rso",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gbh4rso.geojson",
@@ -1448,46 +1448,6 @@
         ]
       },
       "id": "uu60472847"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "23 km NW of Stanley, Idaho",
-        "time": 1640123206811,
-        "updated": 1640167654472,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000geaa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000geaa.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000geaa",
-        "ids": ",us6000geaa,mb80534184,",
-        "sources": ",us,mb,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.939,
-        "rms": 0.62,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 23 km NW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.1535,
-          44.3676,
-          10
-        ]
-      },
-      "id": "us6000geaa"
     }
   ],
   "bbox": [
