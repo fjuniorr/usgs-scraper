@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640143950000,
+    "generated": 1640144804000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 58
+    "count": 57
   },
   "features": [
     {
@@ -535,11 +535,11 @@
         "mag": 5.9,
         "place": "61 km E of Port Alsworth, Alaska",
         "time": 1640126534656,
-        "updated": 1640143914894,
+        "updated": 1640144545932,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gbh4rso",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gbh4rso.geojson",
-        "felt": 1684,
+        "felt": 1686,
         "cdi": 5.6,
         "mmi": 4.108,
         "alert": "green",
@@ -615,17 +615,17 @@
         "mag": 3.62,
         "place": "9 km E of Springdale, Utah",
         "time": 1640126205460,
-        "updated": 1640143728282,
+        "updated": 1640144676638,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60472847",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60472847.geojson",
-        "felt": 114,
+        "felt": 121,
         "cdi": 4.1,
         "mmi": 3.544,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 248,
+        "sig": 251,
         "net": "uu",
         "code": "60472847",
         "ids": ",uu60472847,us6000geay,",
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.71,
-        "place": "Mona Passage",
+        "place": "24 km SE of Boca de Yuma, Dominican Republic",
         "time": 1640118839440,
         "updated": 1640120182253,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 162,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - Mona Passage"
+        "title": "M 3.7 - 24 km SE of Boca de Yuma, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -815,12 +815,12 @@
         "mag": 3.2,
         "place": "18 km SW of Falls City, Texas",
         "time": 1640116672852,
-        "updated": 1640128195834,
+        "updated": 1640144434968,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yyhp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yyhp.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -828,9 +828,9 @@
         "sig": 158,
         "net": "tx",
         "code": "2021yyhp",
-        "ids": ",us6000ge97,tx2021yyhp,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2021yyhp,us6000ge97,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 23,
         "dmin": 0.1648088328,
         "rms": 0.3,
@@ -1975,7 +1975,7 @@
         "mag": 2.74,
         "place": "30km W of Petrolia, CA",
         "time": 1640066011040,
-        "updated": 1640140631200,
+        "updated": 1640143992078,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666866",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666866.geojson",
@@ -2288,46 +2288,6 @@
         ]
       },
       "id": "us6000ge2q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.81,
-        "place": "14km NNW of Petrolia, CA",
-        "time": 1640058246210,
-        "updated": 1640081472299,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666806",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666806.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "nc",
-        "code": "73666806",
-        "ids": ",nc73666806,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.03636,
-        "rms": 0.06,
-        "gap": 226,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 14km NNW of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.3548355,
-          40.4416656,
-          21.69
-        ]
-      },
-      "id": "nc73666806"
     }
   ],
   "bbox": [
