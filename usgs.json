@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640177516000,
+    "generated": 1640179135000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -55,7 +55,7 @@
         "mag": 2.65,
         "place": "3 km S of Pāhala, Hawaii",
         "time": 1640176592090,
-        "updated": 1640176922730,
+        "updated": 1640177820040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72843072",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72843072.geojson",
@@ -68,8 +68,8 @@
         "sig": 108,
         "net": "hv",
         "code": "72843072",
-        "ids": ",hv72843072,",
-        "sources": ",hv,",
+        "ids": ",us6000gehf,hv72843072,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 41,
         "dmin": null,
@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "144 km WNW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1640175596105,
         "updated": 1640176559040,
         "tz": null,
@@ -157,7 +157,7 @@
         "gap": 79,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 144 km WNW of Tobelo, Indonesia"
+        "title": "M 4.9 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -535,17 +535,17 @@
         "mag": 3.12,
         "place": "9 km SE of Maplesville, Alabama",
         "time": 1640154050160,
-        "updated": 1640177476662,
+        "updated": 1640179066323,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60140943",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60140943.geojson",
-        "felt": 67,
+        "felt": 70,
         "cdi": 4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 177,
+        "sig": 178,
         "net": "se",
         "code": "60140943",
         "ids": ",us6000gef0,se60140943,",
@@ -1413,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.71,
-        "place": "24 km SE of Boca de Yuma, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1640118839440,
         "updated": 1640120182253,
         "tz": null,
@@ -1437,7 +1437,7 @@
         "gap": 162,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 24 km SE of Boca de Yuma, Dominican Republic"
+        "title": "M 3.7 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
