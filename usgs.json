@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640182203000,
+    "generated": 1640183189000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 55
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "3 km S of Villa González, Dominican Republic",
+        "time": 1640181458729,
+        "updated": 1640183043040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000geix",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000geix.geojson",
+        "felt": 13,
+        "cdi": 3.6,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 193,
+        "net": "us",
+        "code": "6000geix",
+        "ids": ",us6000geix,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.093,
+        "rms": 0.32,
+        "gap": 111,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 3 km S of Villa González, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7832,
+          19.5048,
+          26.21
+        ]
+      },
+      "id": "us6000geix"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "144 km WNW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1640175596105,
         "updated": 1640176559040,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": 79,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 144 km WNW of Tobelo, Indonesia"
+        "title": "M 4.9 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -575,17 +615,17 @@
         "mag": 3.12,
         "place": "9 km SE of Maplesville, Alabama",
         "time": 1640154050160,
-        "updated": 1640182004508,
+        "updated": 1640182926904,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60140943",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60140943.geojson",
-        "felt": 78,
+        "felt": 81,
         "cdi": 4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 181,
+        "sig": 182,
         "net": "se",
         "code": "60140943",
         "ids": ",us6000gef0,se60140943,",
@@ -1255,11 +1295,11 @@
         "mag": 5.9,
         "place": "61 km E of Port Alsworth, Alaska",
         "time": 1640126534656,
-        "updated": 1640180949085,
+        "updated": 1640182907804,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gbh4rso",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gbh4rso.geojson",
-        "felt": 1827,
+        "felt": 1828,
         "cdi": 5.6,
         "mmi": 4.108,
         "alert": "green",
@@ -1335,17 +1375,17 @@
         "mag": 3.62,
         "place": "9 km E of Springdale, Utah",
         "time": 1640126205460,
-        "updated": 1640181518113,
+        "updated": 1640182845986,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60472847",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60472847.geojson",
-        "felt": 142,
+        "felt": 144,
         "cdi": 4.1,
         "mmi": 3.544,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 260,
+        "sig": 261,
         "net": "uu",
         "code": "60472847",
         "ids": ",uu60472847,us6000geay,",
@@ -1453,14 +1493,14 @@
       "type": "Feature",
       "properties": {
         "mag": 3.71,
-        "place": "24 km SE of Boca de Yuma, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1640118839440,
-        "updated": 1640120182253,
+        "updated": 1640182605326,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021355005",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021355005.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 4.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1470,14 +1510,14 @@
         "code": "2021355005",
         "ids": ",pr2021355005,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 22,
         "dmin": 0.281,
         "rms": 0.49,
         "gap": 162,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 24 km SE of Boca de Yuma, Dominican Republic"
+        "title": "M 3.7 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -2168,46 +2208,6 @@
         ]
       },
       "id": "us6000ge5v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.25,
-        "place": "12km SSW of Ferndale, CA",
-        "time": 1640096174430,
-        "updated": 1640116517169,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667171",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667171.geojson",
-        "felt": 11,
-        "cdi": 3.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 166,
-        "net": "nc",
-        "code": "73667171",
-        "ids": ",nc73667171,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.03321,
-        "rms": 0.09,
-        "gap": 101,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 12km SSW of Ferndale, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.2943344,
-          40.4711685,
-          26.23
-        ]
-      },
-      "id": "nc73667171"
     }
   ],
   "bbox": [
