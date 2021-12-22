@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640215911000,
+    "generated": 1640216668000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6,
+        "place": "217 km SW of La Cruz de Loreto, Mexico",
+        "time": 1640215378818,
+        "updated": 1640216563120,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gepm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gepm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.53,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 554,
+        "net": "us",
+        "code": "6000gepm",
+        "ids": ",us6000gepm,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 5.661,
+        "rms": 1.45,
+        "gap": 181,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.0 - 217 km SW of La Cruz de Loreto, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.1694,
+          18.8988,
+          8.56
+        ]
+      },
+      "id": "us6000gepm"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Near the coast of Tarapaca, Chile",
+        "place": "13 km SSW of Iquique, Chile",
         "time": 1640210028685,
         "updated": 1640212229114,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": 173,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Near the coast of Tarapaca, Chile"
+        "title": "M 2.7 - 13 km SSW of Iquique, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "141 km WNW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1640176057427,
         "updated": 1640176922040,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 45,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 141 km WNW of Tobelo, Indonesia"
+        "title": "M 5.0 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "144 km WNW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1640175596105,
         "updated": 1640176559040,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": 79,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 144 km WNW of Tobelo, Indonesia"
+        "title": "M 4.9 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.26,
-        "place": "Mona Passage",
+        "place": "10 km SW of Stella, Puerto Rico",
         "time": 1640145063070,
         "updated": 1640147291278,
         "tz": null,
@@ -1117,7 +1157,7 @@
         "gap": 174,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - Mona Passage"
+        "title": "M 3.3 - 10 km SW of Stella, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
