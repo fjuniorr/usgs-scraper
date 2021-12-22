@@ -1,19 +1,19 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640148219000,
+    "generated": 1640149183000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 55
+    "count": 54
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 3.26,
-        "place": "10 km SW of Stella, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1640145063070,
         "updated": 1640147291278,
         "tz": null,
@@ -37,7 +37,7 @@
         "gap": 174,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 10 km SW of Stella, Puerto Rico"
+        "title": "M 3.3 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -615,11 +615,11 @@
         "mag": 5.9,
         "place": "61 km E of Port Alsworth, Alaska",
         "time": 1640126534656,
-        "updated": 1640148170997,
+        "updated": 1640149113082,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gbh4rso",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gbh4rso.geojson",
-        "felt": 1705,
+        "felt": 1709,
         "cdi": 5.6,
         "mmi": 4.108,
         "alert": "green",
@@ -695,11 +695,11 @@
         "mag": 3.62,
         "place": "9 km E of Springdale, Utah",
         "time": 1640126205460,
-        "updated": 1640148130918,
+        "updated": 1640148525647,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60472847",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60472847.geojson",
-        "felt": 128,
+        "felt": 129,
         "cdi": 4.1,
         "mmi": 3.544,
         "alert": null,
@@ -2168,46 +2168,6 @@
         ]
       },
       "id": "us6000ge34"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.78,
-        "place": "Mona Passage",
-        "time": 1640062160390,
-        "updated": 1640063369212,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021355000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021355000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 119,
-        "net": "pr",
-        "code": "2021355000",
-        "ids": ",pr2021355000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.123,
-        "rms": 0.23,
-        "gap": 180,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - Mona Passage"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.207,
-          18.111,
-          19
-        ]
-      },
-      "id": "pr2021355000"
     }
   ],
   "bbox": [
