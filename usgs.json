@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640184287000,
+    "generated": 1640184783000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 55
+    "count": 54
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 3.5,
         "place": "3 km S of Villa González, Dominican Republic",
         "time": 1640181458729,
-        "updated": 1640184000321,
+        "updated": 1640184700857,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000geix",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000geix.geojson",
-        "felt": 21,
+        "felt": 24,
         "cdi": 3.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 196,
+        "sig": 197,
         "net": "us",
         "code": "6000geix",
         "ids": ",us6000geix,",
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "144 km WNW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1640175596105,
         "updated": 1640176559040,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 79,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 144 km WNW of Tobelo, Indonesia"
+        "title": "M 4.9 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -495,11 +495,11 @@
         "mag": 2.91,
         "place": "14 km W of Marietta, Oklahoma",
         "time": 1640157766920,
-        "updated": 1640180680129,
+        "updated": 1640184515429,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2021yzef",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2021yzef.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -612,14 +612,14 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.12,
-        "place": "9 km SE of Maplesville, Alabama",
-        "time": 1640154050160,
-        "updated": 1640184173366,
+        "mag": 3.1,
+        "place": "10 km E of Maplesville, Alabama",
+        "time": 1640154048490,
+        "updated": 1640184665544,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60140943",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60140943.geojson",
-        "felt": 86,
+        "felt": 90,
         "cdi": 3.9,
         "mmi": null,
         "alert": null,
@@ -631,20 +631,20 @@
         "ids": ",us6000gef0,se60140943,",
         "sources": ",us,se,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.3476,
-        "rms": 0.5,
-        "gap": 105,
+        "nst": 9,
+        "dmin": 0.3212,
+        "rms": 0.38,
+        "gap": 92,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - 9 km SE of Maplesville, Alabama"
+        "title": "M 3.1 - 10 km E of Maplesville, Alabama"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -86.7943333,
-          32.7365,
-          8.78
+          -86.7655,
+          32.7843333,
+          0.01
         ]
       },
       "id": "se60140943"
@@ -1295,11 +1295,11 @@
         "mag": 5.9,
         "place": "61 km E of Port Alsworth, Alaska",
         "time": 1640126534656,
-        "updated": 1640184233418,
+        "updated": 1640184538660,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gbh4rso",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gbh4rso.geojson",
-        "felt": 1830,
+        "felt": 1831,
         "cdi": 5.6,
         "mmi": 4.108,
         "alert": "green",
@@ -1493,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.71,
-        "place": "24 km SE of Boca de Yuma, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1640118839440,
         "updated": 1640182605326,
         "tz": null,
@@ -1517,7 +1517,7 @@
         "gap": 162,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 24 km SE of Boca de Yuma, Dominican Republic"
+        "title": "M 3.7 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -2168,46 +2168,6 @@
         ]
       },
       "id": "us6000ge5x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "18 km SW of Ovalle, Chile",
-        "time": 1640097966254,
-        "updated": 1640105008812,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ge5v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ge5v.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000ge5v",
-        "ids": ",us6000ge5v,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.244,
-        "rms": 0.27,
-        "gap": 92,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 18 km SW of Ovalle, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.3523,
-          -30.6993,
-          39.41
-        ]
-      },
-      "id": "us6000ge5v"
     }
   ],
   "bbox": [
