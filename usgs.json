@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640237131000,
+    "generated": 1640237739000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -135,17 +135,17 @@
         "mag": 3.84,
         "place": "7km N of Petrolia, CA",
         "time": 1640230132220,
-        "updated": 1640236834970,
+        "updated": 1640237471356,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667866",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667866.geojson",
-        "felt": 63,
+        "felt": 64,
         "cdi": 3.4,
         "mmi": 3.481,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 248,
+        "sig": 249,
         "net": "nc",
         "code": "73667866",
         "ids": ",us6000geqs,nc73667866,",
@@ -893,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Near the coast of Tarapaca, Chile",
+        "place": "13 km SSW of Iquique, Chile",
         "time": 1640210028685,
         "updated": 1640212229114,
         "tz": null,
@@ -917,7 +917,7 @@
         "gap": 173,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Near the coast of Tarapaca, Chile"
+        "title": "M 2.7 - 13 km SSW of Iquique, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "141 km WNW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1640176057427,
         "updated": 1640176922040,
         "tz": null,
@@ -1357,7 +1357,7 @@
         "gap": 45,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 141 km WNW of Tobelo, Indonesia"
+        "title": "M 5.0 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "144 km WNW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1640175596105,
         "updated": 1640176559040,
         "tz": null,
@@ -1397,7 +1397,7 @@
         "gap": 79,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 144 km WNW of Tobelo, Indonesia"
+        "title": "M 4.9 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
