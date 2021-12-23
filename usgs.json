@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640248680000,
+    "generated": 1640249418000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -335,7 +335,7 @@
         "mag": 3.4,
         "place": "23 km WSW of Scotia, California",
         "time": 1640230130897,
-        "updated": 1640247731356,
+        "updated": 1640248690459,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000geqs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000geqs.geojson",
