@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640229049000,
+    "generated": 1640230323000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "12 km W of Nikiski, Alaska",
+        "time": 1640230071014,
+        "updated": 1640230253799,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gegt7fj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gegt7fj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "021gegt7fj",
+        "ids": ",ak021gegt7fj,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.91,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 12 km W of Nikiski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5253,
+          60.6795,
+          180.5
+        ]
+      },
+      "id": "ak021gegt7fj"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 4.8,
         "place": "7 km S of Tirhanimîne, Morocco",
         "time": 1640224466422,
-        "updated": 1640228745239,
+        "updated": 1640229999259,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000geqa",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000geqa.geojson",
-        "felt": 3,
+        "felt": 5,
         "cdi": 5.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 356,
+        "sig": 357,
         "net": "us",
         "code": "6000geqa",
         "ids": ",us6000geqa,",
@@ -335,7 +375,7 @@
         "mag": 2.56,
         "place": "12km SE of Talmage, CA",
         "time": 1640219052530,
-        "updated": 1640227237125,
+        "updated": 1640229610890,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667821",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667821.geojson",
@@ -375,11 +415,11 @@
         "mag": 6,
         "place": "225 km SW of La Cruz de Loreto, Mexico",
         "time": 1640215377959,
-        "updated": 1640227098187,
+        "updated": 1640229236872,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gepm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gepm.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 3.4,
         "mmi": 3.508,
         "alert": "green",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "13 km SSW of Iquique, Chile",
+        "place": "Near the coast of Tarapaca, Chile",
         "time": 1640210028685,
         "updated": 1640212229114,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 173,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 13 km SSW of Iquique, Chile"
+        "title": "M 2.7 - Near the coast of Tarapaca, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -935,11 +975,11 @@
         "mag": 3.6,
         "place": "4 km SSE of Villa González, Dominican Republic",
         "time": 1640181458781,
-        "updated": 1640221727585,
+        "updated": 1640229518698,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000geix",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000geix.geojson",
-        "felt": 29,
+        "felt": 30,
         "cdi": 3.7,
         "mmi": null,
         "alert": null,
@@ -1133,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Molucca Sea",
+        "place": "141 km WNW of Tobelo, Indonesia",
         "time": 1640176057427,
         "updated": 1640176922040,
         "tz": null,
@@ -1157,7 +1197,7 @@
         "gap": 45,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - Molucca Sea"
+        "title": "M 5.0 - 141 km WNW of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Molucca Sea",
+        "place": "144 km WNW of Tobelo, Indonesia",
         "time": 1640175596105,
         "updated": 1640176559040,
         "tz": null,
@@ -1197,7 +1237,7 @@
         "gap": 79,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - Molucca Sea"
+        "title": "M 4.9 - 144 km WNW of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1288,6 +1328,46 @@
         ]
       },
       "id": "us6000gegq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.69,
+        "place": "28 km ESE of Boca de Yuma, Dominican Republic",
+        "time": 1640165397820,
+        "updated": 1640229595834,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021356004",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021356004.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 209,
+        "net": "pr",
+        "code": "2021356004",
+        "ids": ",pr2021356004,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.2198,
+        "rms": 0.12,
+        "gap": 152,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 28 km ESE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.3515,
+          18.2961,
+          64
+        ]
+      },
+      "id": "pr2021356004"
     },
     {
       "type": "Feature",
@@ -1733,7 +1813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.26,
-        "place": "10 km SW of Stella, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1640145063070,
         "updated": 1640147291278,
         "tz": null,
@@ -1757,7 +1837,7 @@
         "gap": 174,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 10 km SW of Stella, Puerto Rico"
+        "title": "M 3.3 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
