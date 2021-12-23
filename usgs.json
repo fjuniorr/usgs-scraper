@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640245173000,
+    "generated": 1640245662000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "36 km NNE of Ugashik, Alaska",
+        "time": 1640245250228,
+        "updated": 1640245626232,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gej9lwp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gej9lwp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "021gej9lwp",
+        "ids": ",ak021gej9lwp,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.58,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 36 km NNE of Ugashik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.2154,
+          57.8243,
+          10.8
+        ]
+      },
+      "id": "ak021gej9lwp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -295,7 +335,7 @@
         "mag": 3.4,
         "place": "near the coast of Northern California",
         "time": 1640230130897,
-        "updated": 1640244972060,
+        "updated": 1640245340486,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000geqs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000geqs.geojson",
