@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640269543000,
+    "generated": 1640270153000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -55,17 +55,17 @@
         "mag": 3.24,
         "place": "3km NW of Palomar Observatory, CA",
         "time": 1640263464540,
-        "updated": 1640269480919,
+        "updated": 1640270101137,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39894823",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39894823.geojson",
-        "felt": 14,
+        "felt": 17,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 167,
+        "sig": 168,
         "net": "ci",
         "code": "39894823",
         "ids": ",ci39894823,us6000getf,",
@@ -135,7 +135,7 @@
         "mag": 2.49,
         "place": "3km ENE of Lytle Creek, CA",
         "time": 1640261787940,
-        "updated": 1640266670855,
+        "updated": 1640270022040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39894799",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39894799.geojson",
@@ -148,8 +148,8 @@
         "sig": 108,
         "net": "ci",
         "code": "39894799",
-        "ids": ",ci39894799,",
-        "sources": ",ci,",
+        "ids": ",ci39894799,us6000getb,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 106,
         "dmin": 0.07965,
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "near the coast of Northern California",
+        "place": "23 km WSW of Scotia, California",
         "time": 1640230130897,
         "updated": 1640267009206,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 212,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - near the coast of Northern California"
+        "title": "M 3.4 - 23 km WSW of Scotia, California"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Near the coast of Tarapaca, Chile",
+        "place": "13 km SSW of Iquique, Chile",
         "time": 1640210028685,
         "updated": 1640212229114,
         "tz": null,
@@ -1437,7 +1437,7 @@
         "gap": 173,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Near the coast of Tarapaca, Chile"
+        "title": "M 2.7 - 13 km SSW of Iquique, Chile"
       },
       "geometry": {
         "type": "Point",
