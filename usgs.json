@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640242432000,
+    "generated": 1640243407000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "hv72843832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "111 km SSW of Labuan, Indonesia",
+        "time": 1640241236552,
+        "updated": 1640242731040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gerz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gerz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000gerz",
+        "ids": ",us6000gerz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.37,
+        "rms": 0.57,
+        "gap": 73,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 111 km SSW of Labuan, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2734,
+          -7.2163,
+          35
+        ]
+      },
+      "id": "us6000gerz"
     },
     {
       "type": "Feature",
@@ -135,7 +175,7 @@
         "mag": 2.45,
         "place": "8km WSW of Shingletown, CA",
         "time": 1640236694120,
-        "updated": 1640236931236,
+        "updated": 1640242452548,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667896",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667896.geojson",
@@ -253,9 +293,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "near the coast of Northern California",
+        "place": "23 km WSW of Scotia, California",
         "time": 1640230130897,
-        "updated": 1640242272526,
+        "updated": 1640243263368,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000geqs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000geqs.geojson",
@@ -277,7 +317,7 @@
         "gap": 212,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - near the coast of Northern California"
+        "title": "M 3.4 - 23 km WSW of Scotia, California"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Near the coast of Tarapaca, Chile",
+        "place": "13 km SSW of Iquique, Chile",
         "time": 1640210028685,
         "updated": 1640212229114,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 173,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Near the coast of Tarapaca, Chile"
+        "title": "M 2.7 - 13 km SSW of Iquique, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "141 km WNW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1640176057427,
         "updated": 1640176922040,
         "tz": null,
@@ -1477,7 +1517,7 @@
         "gap": 45,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 141 km WNW of Tobelo, Indonesia"
+        "title": "M 5.0 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1493,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "144 km WNW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1640175596105,
         "updated": 1640176559040,
         "tz": null,
@@ -1517,7 +1557,7 @@
         "gap": 79,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 144 km WNW of Tobelo, Indonesia"
+        "title": "M 4.9 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1848,46 +1888,6 @@
         ]
       },
       "id": "ok2021yzef"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "48 km W of Naha, Japan",
-        "time": 1640156821761,
-        "updated": 1640157912040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gefe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gefe.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000gefe",
-        "ids": ",us6000gefe,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.11,
-        "rms": 1.26,
-        "gap": 93,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 48 km W of Naha, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.202,
-          26.2732,
-          108.59
-        ]
-      },
-      "id": "us6000gefe"
     }
   ],
   "bbox": [
