@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640238776000,
+    "generated": 1640239932000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -95,7 +95,7 @@
         "mag": 2.88,
         "place": "19km W of Westmorland, CA",
         "time": 1640235898230,
-        "updated": 1640236547410,
+        "updated": 1640239401040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39894495",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39894495.geojson",
@@ -108,8 +108,8 @@
         "sig": 128,
         "net": "ci",
         "code": "39894495",
-        "ids": ",ci39894495,",
-        "sources": ",ci,",
+        "ids": ",ci39894495,us6000gerc,",
+        "sources": ",ci,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 54,
         "dmin": 0.09637,
@@ -373,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Strait of Gibraltar",
+        "place": "7 km S of Tirhanimîne, Morocco",
         "time": 1640224466422,
         "updated": 1640231455197,
         "tz": null,
@@ -397,7 +397,7 @@
         "gap": 67,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Strait of Gibraltar"
+        "title": "M 4.8 - 7 km S of Tirhanimîne, Morocco"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "13 km SSW of Iquique, Chile",
+        "place": "Near the coast of Tarapaca, Chile",
         "time": 1640210028685,
         "updated": 1640212229114,
         "tz": null,
@@ -957,7 +957,7 @@
         "gap": 173,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 13 km SSW of Iquique, Chile"
+        "title": "M 2.7 - Near the coast of Tarapaca, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Molucca Sea",
+        "place": "141 km WNW of Tobelo, Indonesia",
         "time": 1640176057427,
         "updated": 1640176922040,
         "tz": null,
@@ -1397,7 +1397,7 @@
         "gap": 45,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - Molucca Sea"
+        "title": "M 5.0 - 141 km WNW of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Molucca Sea",
+        "place": "144 km WNW of Tobelo, Indonesia",
         "time": 1640175596105,
         "updated": 1640176559040,
         "tz": null,
@@ -1437,7 +1437,7 @@
         "gap": 79,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - Molucca Sea"
+        "title": "M 4.9 - 144 km WNW of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
