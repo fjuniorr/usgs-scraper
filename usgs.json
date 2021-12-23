@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640241579000,
+    "generated": 1640242432000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.47000003,
+        "place": "44 km ESE of Naalehu, Hawaii",
+        "time": 1640242096880,
+        "updated": 1640242302240,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72843832",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72843832.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "hv",
+        "code": "72843832",
+        "ids": ",hv72843832,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": null,
+        "rms": 0.219999999,
+        "gap": 257,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 44 km ESE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.197326660156,
+          18.8889999389648,
+          6.73999977111816
+        ]
+      },
+      "id": "hv72843832"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -213,9 +253,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "23 km WSW of Scotia, California",
+        "place": "near the coast of Northern California",
         "time": 1640230130897,
-        "updated": 1640241492452,
+        "updated": 1640242272526,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000geqs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000geqs.geojson",
@@ -237,7 +277,7 @@
         "gap": 212,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 23 km WSW of Scotia, California"
+        "title": "M 3.4 - near the coast of Northern California"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Strait of Gibraltar",
+        "place": "7 km S of Tirhanimîne, Morocco",
         "time": 1640224466422,
         "updated": 1640231455197,
         "tz": null,
@@ -437,7 +477,7 @@
         "gap": 67,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Strait of Gibraltar"
+        "title": "M 4.8 - 7 km S of Tirhanimîne, Morocco"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "13 km SSW of Iquique, Chile",
+        "place": "Near the coast of Tarapaca, Chile",
         "time": 1640210028685,
         "updated": 1640212229114,
         "tz": null,
@@ -997,7 +1037,7 @@
         "gap": 173,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 13 km SSW of Iquique, Chile"
+        "title": "M 2.7 - Near the coast of Tarapaca, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Molucca Sea",
+        "place": "141 km WNW of Tobelo, Indonesia",
         "time": 1640176057427,
         "updated": 1640176922040,
         "tz": null,
@@ -1437,7 +1477,7 @@
         "gap": 45,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - Molucca Sea"
+        "title": "M 5.0 - 141 km WNW of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Molucca Sea",
+        "place": "144 km WNW of Tobelo, Indonesia",
         "time": 1640175596105,
         "updated": 1640176559040,
         "tz": null,
@@ -1477,7 +1517,7 @@
         "gap": 79,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - Molucca Sea"
+        "title": "M 4.9 - 144 km WNW of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
