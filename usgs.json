@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640298742000,
+    "generated": 1640299413000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 39
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "39 km NNW of Valdez, Alaska",
-        "time": 1640298539569,
-        "updated": 1640298696917,
+        "place": "36 km NW of Valdez, Alaska",
+        "time": 1640298540018,
+        "updated": 1640299349153,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021ges4k9j",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021ges4k9j.geojson",
@@ -28,23 +28,23 @@
         "sig": 112,
         "net": "ak",
         "code": "021ges4k9j",
-        "ids": ",ak021ges4k9j,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",us6000gexj,ak021ges4k9j,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.74,
+        "rms": 0.6,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 39 km NNW of Valdez, Alaska"
+        "title": "M 2.7 - 36 km NW of Valdez, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.5802,
-          61.4693,
-          16
+          -146.7354,
+          61.3958,
+          9.8
         ]
       },
       "id": "ak021ges4k9j"
@@ -95,17 +95,17 @@
         "mag": 4.3,
         "place": "Sicily, Italy",
         "time": 1640295224740,
-        "updated": 1640298419749,
+        "updated": 1640299130358,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gex4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gex4.geojson",
-        "felt": 12,
+        "felt": 14,
         "cdi": 5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 290,
+        "sig": 291,
         "net": "us",
         "code": "6000gex4",
         "ids": ",us6000gex4,",
@@ -1568,86 +1568,6 @@
         ]
       },
       "id": "us6000gepf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "121 km W of San Antonio de los Cobres, Argentina",
-        "time": 1640212729295,
-        "updated": 1640219345040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gepa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gepa.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000gepa",
-        "ids": ",us6000gepa,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.507,
-        "rms": 0.83,
-        "gap": 107,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 121 km W of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.5118,
-          -24.3359,
-          212.37
-        ]
-      },
-      "id": "us6000gepa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "68 km NE of Tobelo, Indonesia",
-        "time": 1640212406107,
-        "updated": 1640213708040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gepb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gepb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000gepb",
-        "ids": ",us6000gepb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.757,
-        "rms": 0.72,
-        "gap": 111,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 68 km NE of Tobelo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.4393,
-          2.1737,
-          44.65
-        ]
-      },
-      "id": "us6000gepb"
     }
   ],
   "bbox": [
@@ -1656,6 +1576,6 @@
     -0.6,
     167.3272,
     67.1721,
-    212.37
+    111.69
   ]
 }
