@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640260355000,
+    "generated": 1640261814000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 3.35,
         "place": "8km W of Petrolia, CA",
         "time": 1640258676110,
-        "updated": 1640259970600,
+        "updated": 1640260542040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73667941",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73667941.geojson",
@@ -28,8 +28,8 @@
         "sig": 173,
         "net": "nc",
         "code": "73667941",
-        "ids": ",nc73667941,",
-        "sources": ",nc,",
+        "ids": ",nc73667941,us6000get3,",
+        "sources": ",nc,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 15,
         "dmin": 0.1595,
