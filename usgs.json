@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640285467000,
+    "generated": 1640286454000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.85,
+        "place": "7km SW of Petrolia, CA",
+        "time": 1640285748770,
+        "updated": 1640286452407,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668116",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668116.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 125,
+        "net": "nc",
+        "code": "73668116",
+        "ids": ",ew1640285750,nc73668116,",
+        "sources": ",ew,nc,",
+        "types": ",associate,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 7,
+        "dmin": null,
+        "rms": 0.06,
+        "gap": 245,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 7km SW of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.3488312,
+          40.2908325,
+          22.52
+        ]
+      },
+      "id": "nc73668116"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "nc73668096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "65 km NNE of Chalkyitsik, Alaska",
+        "time": 1640277426974,
+        "updated": 1640286296040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000geuy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000geuy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000geuy",
+        "ids": ",us6000geuy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.647,
+        "rms": 0.82,
+        "gap": 81,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 65 km NNE of Chalkyitsik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.0157,
+          67.1721,
+          12.75
+        ]
+      },
+      "id": "us6000geuy"
     },
     {
       "type": "Feature",
@@ -95,12 +175,12 @@
         "mag": 4.5,
         "place": "65 km SW of San Carlos, Mexico",
         "time": 1640268804421,
-        "updated": 1640277433040,
+        "updated": 1640286411121,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gett",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gett.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +190,7 @@
         "code": "6000gett",
         "ids": ",us6000gett,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.649,
         "rms": 1.1,
@@ -215,17 +295,17 @@
         "mag": 3.24,
         "place": "3km NW of Palomar Observatory, CA",
         "time": 1640263464540,
-        "updated": 1640284843951,
+        "updated": 1640285799257,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39894823",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39894823.geojson",
-        "felt": 28,
+        "felt": 29,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 172,
+        "sig": 173,
         "net": "ci",
         "code": "39894823",
         "ids": ",ci39894823,us6000getf,",
@@ -773,9 +853,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "near the coast of Northern California",
+        "place": "23 km WSW of Scotia, California",
         "time": 1640230130897,
-        "updated": 1640283685393,
+        "updated": 1640286150042,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000geqs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000geqs.geojson",
@@ -797,7 +877,7 @@
         "gap": 212,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - near the coast of Northern California"
+        "title": "M 3.4 - 23 km WSW of Scotia, California"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Near the coast of Tarapaca, Chile",
+        "place": "13 km SSW of Iquique, Chile",
         "time": 1640210028685,
         "updated": 1640212229114,
         "tz": null,
@@ -1557,7 +1637,7 @@
         "gap": 173,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Near the coast of Tarapaca, Chile"
+        "title": "M 2.7 - 13 km SSW of Iquique, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1655,7 +1735,7 @@
     -25.5127,
     -0.6,
     167.3272,
-    61.4121,
+    67.1721,
     227.4
   ]
 }
