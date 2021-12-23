@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640273696000,
+    "generated": 1640274551000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -95,11 +95,11 @@
         "mag": 3.24,
         "place": "3km NW of Palomar Observatory, CA",
         "time": 1640263464540,
-        "updated": 1640273282436,
+        "updated": 1640273758834,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39894823",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39894823.geojson",
-        "felt": 22,
+        "felt": 23,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -175,11 +175,11 @@
         "mag": 2.49,
         "place": "3km ENE of Lytle Creek, CA",
         "time": 1640261787940,
-        "updated": 1640272551083,
+        "updated": 1640273921605,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39894799",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39894799.geojson",
-        "felt": 40,
+        "felt": 41,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -933,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "7 km S of Tirhanimîne, Morocco",
+        "place": "Strait of Gibraltar",
         "time": 1640224466422,
         "updated": 1640263251249,
         "tz": null,
@@ -957,7 +957,7 @@
         "gap": 67,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 7 km S of Tirhanimîne, Morocco"
+        "title": "M 4.8 - Strait of Gibraltar"
       },
       "geometry": {
         "type": "Point",
