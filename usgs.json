@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640321012000,
+    "generated": 1640321986000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.81,
+        "place": "9 km E of Chickasha, Oklahoma",
+        "time": 1640321123770,
+        "updated": 1640321852324,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2021zcqa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2021zcqa.geojson",
+        "felt": 5,
+        "cdi": 4.3,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 124,
+        "net": "ok",
+        "code": "2021zcqa",
+        "ids": ",ok2021zcqa,",
+        "sources": ",ok,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 79,
+        "dmin": 0.107273072,
+        "rms": 0.7269192865,
+        "gap": 38.14216614,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 9 km E of Chickasha, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83271027,
+          35.04686737,
+          2.201270103
+        ]
+      },
+      "id": "ok2021zcqa"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,11 +95,11 @@
         "mag": 3.5,
         "place": "22 km N of Sutcliffe, Nevada",
         "time": 1640318326394,
-        "updated": 1640320482503,
+        "updated": 1640321501418,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830439",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00830439.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Sicily, Italy",
+        "place": "11 km SSW of Catania, Italy",
         "time": 1640295224740,
         "updated": 1640306624093,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Sicily, Italy"
+        "title": "M 4.3 - 11 km SSW of Catania, Italy"
       },
       "geometry": {
         "type": "Point",
