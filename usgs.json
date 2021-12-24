@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640321986000,
+    "generated": 1640323264000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 39
   },
   "features": [
     {
@@ -15,11 +15,11 @@
         "mag": 2.81,
         "place": "9 km E of Chickasha, Oklahoma",
         "time": 1640321123770,
-        "updated": 1640321852324,
+        "updated": 1640322167250,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2021zcqa",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2021zcqa.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -693,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "11 km SSW of Catania, Italy",
+        "place": "Sicily, Italy",
         "time": 1640295224740,
         "updated": 1640306624093,
         "tz": null,
@@ -717,7 +717,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 11 km SSW of Catania, Italy"
+        "title": "M 4.3 - Sicily, Italy"
       },
       "geometry": {
         "type": "Point",
@@ -735,17 +735,17 @@
         "mag": 2.7,
         "place": "2 km S of Houston, Alaska",
         "time": 1640294421799,
-        "updated": 1640295095272,
+        "updated": 1640322113426,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gerhc1r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gerhc1r.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 112,
+        "sig": 113,
         "net": "ak",
         "code": "021gerhc1r",
         "ids": ",ak021gerhc1r,us6000gewz,",
@@ -1568,46 +1568,6 @@
         ]
       },
       "id": "us6000gerj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.88,
-        "place": "19km W of Westmorland, CA",
-        "time": 1640235898230,
-        "updated": 1640276770451,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39894495",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39894495.geojson",
-        "felt": 1,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "ci",
-        "code": "39894495",
-        "ids": ",ci39894495,us6000gerc,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 54,
-        "dmin": 0.09637,
-        "rms": 0.24,
-        "gap": 27,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 19km W of Westmorland, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.8276667,
-          33.0388333,
-          2.95
-        ]
-      },
-      "id": "ci39894495"
     }
   ],
   "bbox": [
