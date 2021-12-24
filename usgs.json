@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640328858000,
+    "generated": 1640329772000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -135,7 +135,7 @@
         "mag": 2.5,
         "place": "38km W of Petrolia, CA",
         "time": 1640320197520,
-        "updated": 1640320573617,
+        "updated": 1640328911348,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668226",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668226.geojson",
@@ -175,11 +175,11 @@
         "mag": 3.5,
         "place": "22 km N of Sutcliffe, Nevada",
         "time": 1640318326394,
-        "updated": 1640321501418,
+        "updated": 1640328880531,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830439",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00830439.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -773,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "11 km SSW of Catania, Italy",
+        "place": "Sicily, Italy",
         "time": 1640295224740,
         "updated": 1640306624093,
         "tz": null,
@@ -797,7 +797,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 11 km SSW of Catania, Italy"
+        "title": "M 4.3 - Sicily, Italy"
       },
       "geometry": {
         "type": "Point",
