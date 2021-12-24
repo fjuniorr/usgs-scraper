@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640333725000,
+    "generated": 1640335063000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
     {
@@ -132,42 +132,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "108 km SW of Nikolski, Alaska",
-        "time": 1640328506421,
-        "updated": 1640333614343,
+        "mag": 3.3,
+        "place": "104 km SW of Nikolski, Alaska",
+        "time": 1640328505724,
+        "updated": 1640333906040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gg697wt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gg697wt.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf0j",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf0j.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "021gg697wt",
-        "ids": ",ak021gg697wt,",
-        "sources": ",ak,",
+        "sig": 168,
+        "net": "us",
+        "code": "6000gf0j",
+        "ids": ",ak021gg697wt,us6000gf0j,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": null,
-        "rms": 0.73,
-        "gap": null,
+        "dmin": 1.572,
+        "rms": 0.83,
+        "gap": 207,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 108 km SW of Nikolski, Alaska"
+        "title": "M 3.3 - 104 km SW of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -170.0378,
-          52.2761,
-          22.5
+          -170.0588,
+          52.3525,
+          21.5
         ]
       },
-      "id": "ak021gg697wt"
+      "id": "us6000gf0j"
     },
     {
       "type": "Feature",
@@ -375,11 +375,11 @@
         "mag": 3.5,
         "place": "22 km N of Sutcliffe, Nevada",
         "time": 1640318326394,
-        "updated": 1640328880531,
+        "updated": 1640334222671,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830439",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00830439.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -1688,46 +1688,6 @@
         ]
       },
       "id": "us6000gess"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "123 km S of Perryville, Alaska",
-        "time": 1640247871387,
-        "updated": 1640250322040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gesp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gesp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "us",
-        "code": "6000gesp",
-        "ids": ",us6000gesp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.468,
-        "rms": 0.69,
-        "gap": 206,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 123 km S of Perryville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -158.7796,
-          54.8183,
-          16.79
-        ]
-      },
-      "id": "us6000gesp"
     }
   ],
   "bbox": [
