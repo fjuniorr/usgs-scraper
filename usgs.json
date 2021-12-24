@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640330991000,
+    "generated": 1640331536000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "25 km SSE of Jurm, Afghanistan",
+        "time": 1640329200857,
+        "updated": 1640331285040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf06",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf06.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000gf06",
+        "ids": ",us6000gf06,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.562,
+        "rms": 0.48,
+        "gap": 80,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 25 km SSE of Jurm, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.9642,
+          36.6562,
+          223.41
+        ]
+      },
+      "id": "us6000gf06"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,7 +215,7 @@
         "mag": 2.5,
         "place": "38km W of Petrolia, CA",
         "time": 1640320197520,
-        "updated": 1640328911348,
+        "updated": 1640331070537,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668226",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668226.geojson",
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Sicily, Italy",
+        "place": "11 km SSW of Catania, Italy",
         "time": 1640295224740,
         "updated": 1640306624093,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Sicily, Italy"
+        "title": "M 4.3 - 11 km SSW of Catania, Italy"
       },
       "geometry": {
         "type": "Point",
@@ -1616,6 +1656,6 @@
     0.37,
     141.13,
     67.1721,
-    142.37
+    223.41
   ]
 }
