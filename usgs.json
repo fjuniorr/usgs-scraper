@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640371847000,
+    "generated": 1640372882000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 45
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.98,
         "place": "11km NNE of Petrolia, CA",
         "time": 1640370613560,
-        "updated": 1640371031818,
+        "updated": 1640371930796,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668326",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668326.geojson",
@@ -1808,46 +1808,6 @@
         ]
       },
       "id": "ak021gerhc1r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.85,
-        "place": "7km SW of Petrolia, CA",
-        "time": 1640285748770,
-        "updated": 1640310167275,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668116",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668116.geojson",
-        "felt": 2,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 126,
-        "net": "nc",
-        "code": "73668116",
-        "ids": ",ew1640285750,nc73668116,us6000gevz,",
-        "sources": ",ew,nc,us,",
-        "types": ",associate,dyfi,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
-        "nst": 7,
-        "dmin": null,
-        "rms": 0.06,
-        "gap": 245,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 7km SW of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.3488312,
-          40.2908325,
-          22.52
-        ]
-      },
-      "id": "nc73668116"
     }
   ],
   "bbox": [
