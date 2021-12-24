@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640343272000,
+    "generated": 1640344138000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
@@ -253,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "Fox Islands, Aleutian Islands, Alaska",
+        "place": "104 km SW of Nikolski, Alaska",
         "time": 1640328505724,
         "updated": 1640333906040,
         "tz": null,
@@ -277,7 +277,7 @@
         "gap": 207,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - Fox Islands, Aleutian Islands, Alaska"
+        "title": "M 3.3 - 104 km SW of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Sicily, Italy",
+        "place": "11 km SSW of Catania, Italy",
         "time": 1640295224740,
         "updated": 1640341973175,
         "tz": null,
@@ -1117,7 +1117,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Sicily, Italy"
+        "title": "M 4.3 - 11 km SSW of Catania, Italy"
       },
       "geometry": {
         "type": "Point",
@@ -1648,46 +1648,6 @@
         ]
       },
       "id": "nc73667941"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "77 km S of Perryville, Alaska",
-        "time": 1640257488426,
-        "updated": 1640270271040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000get2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000get2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "us",
-        "code": "6000get2",
-        "ids": ",us6000get2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.454,
-        "rms": 0.7,
-        "gap": 159,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 77 km S of Perryville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -159.1824,
-          55.2193,
-          43.87
-        ]
-      },
-      "id": "us6000get2"
     }
   ],
   "bbox": [
