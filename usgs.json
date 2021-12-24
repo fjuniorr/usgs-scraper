@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640350251000,
+    "generated": 1640351892000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.21,
+        "place": "17km WSW of Petrolia, CA",
+        "time": 1640350688750,
+        "updated": 1640351859040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668286",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668286.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 159,
+        "net": "nc",
+        "code": "73668286",
+        "ids": ",nc73668286,us6000gf1v,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 16,
+        "dmin": 0.224,
+        "rms": 0.07,
+        "gap": 270,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 17km WSW of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.4773331,
+          40.2784996,
+          23.65
+        ]
+      },
+      "id": "nc73668286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "18 km W of Pyu, Myanmar",
+        "time": 1640350049740,
+        "updated": 1640351416040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf1u",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf1u.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000gf1u",
+        "ids": ",us6000gf1u,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.291,
+        "rms": 0.48,
+        "gap": 158,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 18 km W of Pyu, Myanmar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.2654,
+          18.4855,
+          10
+        ]
+      },
+      "id": "us6000gf1u"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1608,46 +1688,6 @@
         ]
       },
       "id": "pr2021357001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "22 km WSW of Markaz-e Woluswalī-ye Āchīn, Afghanistan",
-        "time": 1640264575017,
-        "updated": 1640275916040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000geti",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000geti.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000geti",
-        "ids": ",us6000geti,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.289,
-        "rms": 1.19,
-        "gap": 56,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 22 km WSW of Markaz-e Woluswalī-ye Āchīn, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          70.4856,
-          34.0527,
-          49.69
-        ]
-      },
-      "id": "us6000geti"
     }
   ],
   "bbox": [
