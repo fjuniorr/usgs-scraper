@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640411573000,
+    "generated": 1640412721000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "93 km E of McCarthy, Alaska",
-        "time": 1640411182899,
-        "updated": 1640411528443,
+        "place": "92 km E of McCarthy, Alaska",
+        "time": 1640411183022,
+        "updated": 1640411688903,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021ght6o1g",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021ght6o1g.geojson",
@@ -33,17 +33,17 @@
         "types": ",origin,",
         "nst": null,
         "dmin": null,
-        "rms": 0.59,
+        "rms": 0.62,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 93 km E of McCarthy, Alaska"
+        "title": "M 2.5 - 92 km E of McCarthy, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -141.1941,
-          61.5784,
+          -141.2076,
+          61.5795,
           0
         ]
       },
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Puerto Rico region",
+        "place": "1 km N of Guayanilla, Puerto Rico",
         "time": 1640366892400,
         "updated": 1640369084533,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 109,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Puerto Rico region"
+        "title": "M 2.7 - 1 km N of Guayanilla, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Greece",
+        "place": "6 km SSW of Tsarítsani, Greece",
         "time": 1640346107617,
         "updated": 1640348681816,
         "tz": null,
@@ -1197,7 +1197,7 @@
         "gap": 39,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Greece"
+        "title": "M 4.3 - 6 km SSW of Tsarítsani, Greece"
       },
       "geometry": {
         "type": "Point",
@@ -1608,46 +1608,6 @@
         ]
       },
       "id": "us6000gf04"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.48,
-        "place": "54 km NNE of Luquillo, Puerto Rico",
-        "time": 1640325707760,
-        "updated": 1640327382337,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021358001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021358001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 186,
-        "net": "pr",
-        "code": "2021358001",
-        "ids": ",pr2021358001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.5252,
-        "rms": 0.17,
-        "gap": 262,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 54 km NNE of Luquillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.4596,
-          18.802,
-          16
-        ]
-      },
-      "id": "pr2021358001"
     }
   ],
   "bbox": [
@@ -1655,7 +1615,7 @@
     -58.0238,
     0,
     178.9348,
-    61.5784,
+    61.5795,
     580.78
   ]
 }
