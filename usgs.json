@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640407400000,
+    "generated": 1640408374000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
@@ -615,11 +615,11 @@
         "mag": 3.12,
         "place": "24 km NW of Stanley, Idaho",
         "time": 1640367869480,
-        "updated": 1640404180732,
+        "updated": 1640407853926,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80534409",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80534409.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "1 km N of Guayanilla, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1640366892400,
         "updated": 1640369084533,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 109,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 1 km N of Guayanilla, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "6 km SSW of Tsarítsani, Greece",
+        "place": "Greece",
         "time": 1640346107617,
         "updated": 1640348681816,
         "tz": null,
@@ -1117,7 +1117,7 @@
         "gap": 39,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 6 km SSW of Tsarítsani, Greece"
+        "title": "M 4.3 - Greece"
       },
       "geometry": {
         "type": "Point",
@@ -1608,46 +1608,6 @@
         ]
       },
       "id": "us6000gezr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.81,
-        "place": "9 km E of Chickasha, Oklahoma",
-        "time": 1640321123770,
-        "updated": 1640386719040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2021zcqa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2021zcqa.geojson",
-        "felt": 9,
-        "cdi": 4.3,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 125,
-        "net": "ok",
-        "code": "2021zcqa",
-        "ids": ",ok2021zcqa,us6000gezj,",
-        "sources": ",ok,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 79,
-        "dmin": 0.107273072,
-        "rms": 0.7269192865,
-        "gap": 38.14216614,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 9 km E of Chickasha, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.83271027,
-          35.04686737,
-          2.201270103
-        ]
-      },
-      "id": "ok2021zcqa"
     }
   ],
   "bbox": [
