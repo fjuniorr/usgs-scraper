@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640467509000,
+    "generated": 1640468117000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 38
   },
   "features": [
     {
@@ -1528,46 +1528,6 @@
         ]
       },
       "id": "us6000gf4f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "66 km W of Tari, Papua New Guinea",
-        "time": 1640381642984,
-        "updated": 1640383031040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf49",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf49.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000gf49",
-        "ids": ",us6000gf49,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 10.519,
-        "rms": 1.01,
-        "gap": 69,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 66 km W of Tari, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.3573,
-          -5.9561,
-          10
-        ]
-      },
-      "id": "us6000gf49"
     }
   ],
   "bbox": [
