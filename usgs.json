@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640446445000,
+    "generated": 1640447296000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.64,
+        "place": "4 km ENE of Pāhala, Hawaii",
+        "time": 1640446364990,
+        "updated": 1640446696970,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72846107",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72846107.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 107,
+        "net": "hv",
+        "code": "72846107",
+        "ids": ",hv72846107,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": null,
+        "rms": 0.129999995,
+        "gap": 126,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 4 km ENE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.437164306641,
+          19.2145004272461,
+          33.0499992370605
+        ]
+      },
+      "id": "hv72846107"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -975,11 +1015,11 @@
         "mag": 4.1,
         "place": "1 km WSW of Blamont, France",
         "time": 1640390395886,
-        "updated": 1640427528577,
+        "updated": 1640446612822,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf4p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf4p.geojson",
-        "felt": 12,
+        "felt": 13,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
