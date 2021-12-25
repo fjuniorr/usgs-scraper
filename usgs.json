@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640444007000,
+    "generated": 1640445003000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "Pacific-Antarctic Ridge",
+        "time": 1640442960664,
+        "updated": 1640444777040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf8r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf8r.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "6000gf8r",
+        "ids": ",us6000gf8r,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 28.415,
+        "rms": 1.1,
+        "gap": 54,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - Pacific-Antarctic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.313,
+          -55.991,
+          10
+        ]
+      },
+      "id": "us6000gf8r"
+    },
     {
       "type": "Feature",
       "properties": {
