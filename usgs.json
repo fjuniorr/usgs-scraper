@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640399059000,
+    "generated": 1640400824000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.29,
+        "place": "34km WSW of Petrolia, CA",
+        "time": 1640400590020,
+        "updated": 1640400712331,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668401",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668401.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 167,
+        "net": "nc",
+        "code": "73668401",
+        "ids": ",nc73668401,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.3364,
+        "rms": 0.16,
+        "gap": 262,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 34km WSW of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.6746674,
+          40.2589989,
+          10.94
+        ]
+      },
+      "id": "nc73668401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "162 km WSW of Ferndale, California",
+        "time": 1640400572986,
+        "updated": 1640400604088,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ew1640400600",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ew1640400600.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "ew",
+        "code": "1640400600",
+        "ids": ",ew1640400600,",
+        "sources": ",ew,",
+        "types": ",origin,",
+        "nst": 5,
+        "dmin": null,
+        "rms": null,
+        "gap": null,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 4.0 - 162 km WSW of Ferndale, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.0464,
+          40.0414,
+          8
+        ]
+      },
+      "id": "ew1640400600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "59 km E of Port Alsworth, Alaska",
+        "time": 1640399779967,
+        "updated": 1640400714040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021ghrc7yd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021ghrc7yd.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "ak",
+        "code": "021ghrc7yd",
+        "ids": ",ak021ghrc7yd,us6000gf54,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.71,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 59 km E of Port Alsworth, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.2497,
+          60.1756,
+          123.1
+        ]
+      },
+      "id": "ak021ghrc7yd"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +175,17 @@
         "mag": 4.1,
         "place": "1 km WSW of Blamont, France",
         "time": 1640390395886,
-        "updated": 1640398959672,
+        "updated": 1640399270534,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf4p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf4p.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 261,
+        "sig": 262,
         "net": "us",
         "code": "6000gf4p",
         "ids": ",us6000gf4p,",
@@ -413,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "1 km N of Guayanilla, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1640366892400,
         "updated": 1640369084533,
         "tz": null,
@@ -437,7 +557,7 @@
         "gap": 109,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 1 km N of Guayanilla, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "6 km SSW of Tsarítsani, Greece",
+        "place": "Greece",
         "time": 1640346107617,
         "updated": 1640348681816,
         "tz": null,
@@ -877,7 +997,7 @@
         "gap": 39,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 6 km SSW of Tsarítsani, Greece"
+        "title": "M 4.3 - Greece"
       },
       "geometry": {
         "type": "Point",
@@ -1455,17 +1575,17 @@
         "mag": 3.5,
         "place": "22 km N of Sutcliffe, Nevada",
         "time": 1640318326394,
-        "updated": 1640334222671,
+        "updated": 1640399901288,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830439",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00830439.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 189,
+        "sig": 190,
         "net": "nn",
         "code": "00830439",
         "ids": ",nn00830439,us6000geza,",
@@ -1488,46 +1608,6 @@
         ]
       },
       "id": "nn00830439"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "26 km NNE of Van, Turkey",
-        "time": 1640312801042,
-        "updated": 1640315933040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gez1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gez1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000gez1",
-        "ids": ",us6000gez1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.512,
-        "rms": 1.33,
-        "gap": 131,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 26 km NNE of Van, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          43.4451,
-          38.7261,
-          10
-        ]
-      },
-      "id": "us6000gez1"
     }
   ],
   "bbox": [
@@ -1535,7 +1615,7 @@
     -58.0238,
     2.201270103,
     178.9348,
-    56.993,
+    60.1756,
     580.78
   ]
 }
