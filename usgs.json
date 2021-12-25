@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640410983000,
+    "generated": 1640411573000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "93 km E of McCarthy, Alaska",
+        "time": 1640411182899,
+        "updated": 1640411528443,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021ght6o1g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021ght6o1g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "021ght6o1g",
+        "ids": ",ak021ght6o1g,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.59,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 93 km E of McCarthy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -141.1941,
+          61.5784,
+          0
+        ]
+      },
+      "id": "ak021ght6o1g"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "1 km N of Guayanilla, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1640366892400,
         "updated": 1640369084533,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 109,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 1 km N of Guayanilla, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "6 km SSW of Tsarítsani, Greece",
+        "place": "Greece",
         "time": 1640346107617,
         "updated": 1640348681816,
         "tz": null,
@@ -1157,7 +1197,7 @@
         "gap": 39,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 6 km SSW of Tsarítsani, Greece"
+        "title": "M 4.3 - Greece"
       },
       "geometry": {
         "type": "Point",
@@ -1608,54 +1648,14 @@
         ]
       },
       "id": "pr2021358001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "98 km W of La Libertad, Mexico",
-        "time": 1640324690010,
-        "updated": 1640325773040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gezr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gezr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000gezr",
-        "ids": ",us6000gezr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.482,
-        "rms": 0.62,
-        "gap": 155,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 98 km W of La Libertad, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.7148,
-          29.9228,
-          10
-        ]
-      },
-      "id": "us6000gezr"
     }
   ],
   "bbox": [
     -179.8806,
     -58.0238,
-    1.91,
+    0,
     178.9348,
-    60.1756,
+    61.5784,
     580.78
   ]
 }
