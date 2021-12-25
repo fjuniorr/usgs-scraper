@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640405561000,
+    "generated": 1640407400000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.68,
         "place": "11km NE of Coso Junction, CA",
         "time": 1640405323110,
-        "updated": 1640405552619,
+        "updated": 1640407343040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39896143",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39896143.geojson",
@@ -28,9 +28,9 @@
         "sig": 110,
         "net": "ci",
         "code": "39896143",
-        "ids": ",ci39896143,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",ci39896143,us6000gf5h,",
+        "sources": ",ci,us,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 28,
         "dmin": 0.01805,
         "rms": 0.14,
@@ -1648,46 +1648,6 @@
         ]
       },
       "id": "ok2021zcqa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "38km W of Petrolia, CA",
-        "time": 1640320197520,
-        "updated": 1640331070537,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668226",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668226.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "nc",
-        "code": "73668226",
-        "ids": ",nc73668226,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 12,
-        "dmin": 0.4783,
-        "rms": 0.12,
-        "gap": 264,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 38km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.7348328,
-          40.2953339,
-          11.25
-        ]
-      },
-      "id": "nc73668226"
     }
   ],
   "bbox": [
