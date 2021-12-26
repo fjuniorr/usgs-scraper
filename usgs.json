@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640505261000,
+    "generated": 1640506309000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "161 km ESE of Aral, China",
+        "time": 1640504296248,
+        "updated": 1640505709040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfd3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfd3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000gfd3",
+        "ids": ",us6000gfd3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.229,
+        "rms": 0.42,
+        "gap": 85,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 161 km ESE of Aral, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.0494,
+          40.0435,
+          9.63
+        ]
+      },
+      "id": "us6000gfd3"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.31,
         "place": "8km NNW of Pinnacles, CA",
         "time": 1640503186560,
-        "updated": 1640505236031,
+        "updated": 1640505868576,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668566",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668566.geojson",
-        "felt": 15,
+        "felt": 16,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
