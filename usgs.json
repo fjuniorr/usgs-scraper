@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640504307000,
+    "generated": 1640504774000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 3.31,
         "place": "8km NNW of Pinnacles, CA",
         "time": 1640503186560,
-        "updated": 1640504213583,
+        "updated": 1640504659701,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668566",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668566.geojson",
