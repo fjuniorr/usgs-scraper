@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640555599000,
+    "generated": 1640556545000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "94 km SSE of Nikolai, Alaska",
+        "time": 1640555411163,
+        "updated": 1640556132879,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gjq9s0v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gjq9s0v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "021gjq9s0v",
+        "ids": ",ak021gjq9s0v,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.87,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 94 km SSE of Nikolai, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.4607,
+          62.2732,
+          0
+        ]
+      },
+      "id": "ak021gjq9s0v"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1853,7 +1893,7 @@
   "bbox": [
     -179.3531,
     -58.8036,
-    5,
+    0,
     172.0586,
     69.1644,
     639.82
