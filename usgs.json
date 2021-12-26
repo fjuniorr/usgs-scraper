@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640532841000,
+    "generated": 1640533657000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
-        "place": "26 km S of Fry, Greece",
-        "time": 1640531714427,
-        "updated": 1640532810040,
+        "mag": 5,
+        "place": "31 km S of Fry, Greece",
+        "time": 1640531711600,
+        "updated": 1640533108040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gffm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gffm.geojson",
@@ -25,26 +25,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 385,
         "net": "us",
         "code": "6000gffm",
         "ids": ",us6000gffm,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 0.424,
-        "rms": 0.5,
-        "gap": 60,
+        "dmin": 0.465,
+        "rms": 0.59,
+        "gap": 61,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 26 km S of Fry, Greece"
+        "title": "M 5.0 - 31 km S of Fry, Greece"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.8932,
-          35.1824,
-          28.79
+          26.8888,
+          35.1369,
+          10
         ]
       },
       "id": "us6000gffm"
@@ -95,7 +95,7 @@
         "mag": 3.34,
         "place": "33km W of Petrolia, CA",
         "time": 1640528214890,
-        "updated": 1640529971000,
+        "updated": 1640533408040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668591",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668591.geojson",
@@ -108,8 +108,8 @@
         "sig": 172,
         "net": "nc",
         "code": "73668591",
-        "ids": ",nc73668591,",
-        "sources": ",nc,",
+        "ids": ",nc73668591,us6000gffg,",
+        "sources": ",nc,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 33,
         "dmin": 0.3242,
@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "146 km WSW of Ferndale, California",
+        "place": "off the coast of Northern California",
         "time": 1640528198753,
         "updated": 1640528619656,
         "tz": null,
@@ -157,7 +157,7 @@
         "gap": null,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.0 - 146 km WSW of Ferndale, California"
+        "title": "M 4.0 - off the coast of Northern California"
       },
       "geometry": {
         "type": "Point",
