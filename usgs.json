@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640512386000,
+    "generated": 1640513420000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 40
   },
   "features": [
     {
@@ -215,11 +215,11 @@
         "mag": 5.9,
         "place": "55 km NNE of Hirara, Japan",
         "time": 1640507206517,
-        "updated": 1640511104486,
+        "updated": 1640512838287,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfd9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfd9.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 3.9,
         "mmi": 4.447,
         "alert": "green",
@@ -295,11 +295,11 @@
         "mag": 3.31,
         "place": "8km NNW of Pinnacles, CA",
         "time": 1640503186560,
-        "updated": 1640511364029,
+        "updated": 1640512652678,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668566",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668566.geojson",
-        "felt": 19,
+        "felt": 20,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1608,86 +1608,6 @@
         ]
       },
       "id": "ak021ghvz8wg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "149 km E of Levuka, Fiji",
-        "time": 1640426604848,
-        "updated": 1640427637040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf77",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf77.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000gf77",
-        "ids": ",us6000gf77,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.552,
-        "rms": 0.82,
-        "gap": 111,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 149 km E of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.2788,
-          -17.982,
-          629.23
-        ]
-      },
-      "id": "us6000gf77"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "Nevada",
-        "time": 1640426087207,
-        "updated": 1640428594040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830474",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00830474.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "nn",
-        "code": "00830474",
-        "ids": ",us6000gf71,nn00830474,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.143,
-        "rms": 0.3735,
-        "gap": 83.77,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.785,
-          38.2062,
-          8.9
-        ]
-      },
-      "id": "nn00830474"
     }
   ],
   "bbox": [
@@ -1696,6 +1616,6 @@
     6.12,
     172.0586,
     61.3529,
-    629.23
+    503.74
   ]
 }
