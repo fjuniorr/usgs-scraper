@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640552897000,
+    "generated": 1640553879000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "41 km S of Shizunai-furukawachō, Japan",
+        "time": 1640547605795,
+        "updated": 1640553707040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfhx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfhx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000gfhx",
+        "ids": ",us6000gfhx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.59,
+        "rms": 0.9,
+        "gap": 127,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 41 km S of Shizunai-furukawachō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3674,
+          41.9647,
+          69.54
+        ]
+      },
+      "id": "us6000gfhx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -128,6 +168,46 @@
         ]
       },
       "id": "us6000gfhi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "115 km SSE of Kaktovik, Alaska",
+        "time": 1640542006025,
+        "updated": 1640552994040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfhg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfhg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "6000gfhg",
+        "ids": ",us6000gfhg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.615,
+        "rms": 0.97,
+        "gap": 141,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 115 km SSE of Kaktovik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -142.57,
+          69.1644,
+          15.64
+        ]
+      },
+      "id": "us6000gfhg"
     },
     {
       "type": "Feature",
@@ -653,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "146 km WSW of Ferndale, California",
+        "place": "off the coast of Northern California",
         "time": 1640528198753,
         "updated": 1640528619656,
         "tz": null,
@@ -677,7 +757,7 @@
         "gap": null,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.0 - 146 km WSW of Ferndale, California"
+        "title": "M 4.0 - off the coast of Northern California"
       },
       "geometry": {
         "type": "Point",
@@ -1735,7 +1815,7 @@
     -58.8036,
     5,
     172.0586,
-    61.3563,
+    69.1644,
     639.82
   ]
 }
