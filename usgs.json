@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640499116000,
+    "generated": 1640500697000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 37
   },
   "features": [
     {
@@ -1488,46 +1488,6 @@
         ]
       },
       "id": "us6000gf61"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5999999,
-        "place": "4 km SW of Pāhala, Hawaii",
-        "time": 1640413277960,
-        "updated": 1640413470930,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72845692",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72845692.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "hv",
-        "code": "72845692",
-        "ids": ",hv72845692,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": null,
-        "rms": 0.140000001,
-        "gap": 100,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 4 km SW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.508834838867,
-          19.1683330535889,
-          36.1699981689453
-        ]
-      },
-      "id": "hv72845692"
     }
   ],
   "bbox": [
