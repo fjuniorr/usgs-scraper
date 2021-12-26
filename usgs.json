@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640514839000,
+    "generated": 1640515525000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 38
   },
   "features": [
     {
@@ -175,7 +175,7 @@
         "mag": 3,
         "place": "5 km W of Point MacKenzie, Alaska",
         "time": 1640507788920,
-        "updated": 1640514010549,
+        "updated": 1640515159068,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gjig6ox",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gjig6ox.geojson",
@@ -1528,46 +1528,6 @@
         ]
       },
       "id": "pr2021359002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "23 km WNW of Otrada, Russia",
-        "time": 1640428840320,
-        "updated": 1640430228040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf7d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf7d.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000gf7d",
-        "ids": ",us6000gf7d,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.153,
-        "rms": 0.52,
-        "gap": 121,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 23 km WNW of Otrada, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.5833,
-          44.1366,
-          126.22
-        ]
-      },
-      "id": "us6000gf7d"
     }
   ],
   "bbox": [
