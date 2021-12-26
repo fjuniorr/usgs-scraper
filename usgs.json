@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640556545000,
+    "generated": 1640557722000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -853,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "146 km WSW of Ferndale, California",
+        "place": "off the coast of Northern California",
         "time": 1640528198753,
         "updated": 1640528619656,
         "tz": null,
@@ -877,7 +877,7 @@
         "gap": null,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.0 - 146 km WSW of Ferndale, California"
+        "title": "M 4.0 - off the coast of Northern California"
       },
       "geometry": {
         "type": "Point",
@@ -1252,10 +1252,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "5 km W of Point MacKenzie, Alaska",
-        "time": 1640507788920,
-        "updated": 1640535946310,
+        "mag": 3.1,
+        "place": "3 km WNW of Point MacKenzie, Alaska",
+        "time": 1640507790816,
+        "updated": 1640556631154,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gjig6ox",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gjig6ox.geojson",
@@ -1263,9 +1263,9 @@
         "cdi": 3.1,
         "mmi": 2.053,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 146,
+        "sig": 156,
         "net": "ak",
         "code": "021gjig6ox",
         "ids": ",ak021gjig6ox,us6000gfdb,",
@@ -1273,18 +1273,18 @@
         "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.91,
+        "rms": 0.96,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 5 km W of Point MacKenzie, Alaska"
+        "title": "M 3.1 - 3 km WNW of Point MacKenzie, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.0733,
-          61.3529,
-          16.5
+          -150.045,
+          61.3715,
+          30.6
         ]
       },
       "id": "ak021gjig6ox"
