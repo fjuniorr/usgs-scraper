@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640545676000,
+    "generated": 1640546439000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.6,
+        "place": "30 km S of Fry, Greece",
+        "time": 1640545142537,
+        "updated": 1640546266473,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfhq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfhq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.717,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 482,
+        "net": "us",
+        "code": "6000gfhq",
+        "ids": ",us6000gfhq,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 1.448,
+        "rms": 1.11,
+        "gap": 46,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.6 - 30 km S of Fry, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9194,
+          35.1437,
+          10
+        ]
+      },
+      "id": "us6000gfhq"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "off the coast of Northern California",
+        "place": "146 km WSW of Ferndale, California",
         "time": 1640528198753,
         "updated": 1640528619656,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": null,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.0 - off the coast of Northern California"
+        "title": "M 4.0 - 146 km WSW of Ferndale, California"
       },
       "geometry": {
         "type": "Point",
