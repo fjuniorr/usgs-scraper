@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640560184000,
+    "generated": 1640561443000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 47
   },
   "features": [
     {
@@ -775,7 +775,7 @@
         "mag": 5.1,
         "place": "32 km S of Fry, Greece",
         "time": 1640531711566,
-        "updated": 1640535837217,
+        "updated": 1640560534040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gffm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gffm.geojson",
@@ -790,7 +790,7 @@
         "code": "6000gffm",
         "ids": ",us6000gffm,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 0.472,
         "rms": 0.64,
@@ -893,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "146 km WSW of Ferndale, California",
+        "place": "off the coast of Northern California",
         "time": 1640528198753,
         "updated": 1640528619656,
         "tz": null,
@@ -917,7 +917,7 @@
         "gap": null,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.0 - 146 km WSW of Ferndale, California"
+        "title": "M 4.0 - off the coast of Northern California"
       },
       "geometry": {
         "type": "Point",
@@ -1888,46 +1888,6 @@
         ]
       },
       "id": "us6000gfb1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "161 km SSE of Perryville, Alaska",
-        "time": 1640473813294,
-        "updated": 1640477775682,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gi3oqcq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gi3oqcq.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": 1.26,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 234,
-        "net": "ak",
-        "code": "021gi3oqcq",
-        "ids": ",us6000gfaz,ak021gi3oqcq,",
-        "sources": ",us,ak,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.78,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.9 - 161 km SSE of Perryville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.7597,
-          54.6915,
-          19.9
-        ]
-      },
-      "id": "ak021gi3oqcq"
     }
   ],
   "bbox": [
