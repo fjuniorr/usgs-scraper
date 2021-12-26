@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640534330000,
+    "generated": 1640535586000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
     {
@@ -14,8 +14,8 @@
       "properties": {
         "mag": 2.7,
         "place": "23 km SSW of Susitna, Alaska",
-        "time": 1640533731846,
-        "updated": 1640534178580,
+        "time": 1640533731849,
+        "updated": 1640534369190,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gjmou77",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gjmou77.geojson",
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.7253,
-          61.3551,
-          28.3
+          -150.7282,
+          61.3563,
+          28.5
         ]
       },
       "id": "ak021gjmou77"
@@ -52,10 +52,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "31 km S of Fry, Greece",
-        "time": 1640531711600,
-        "updated": 1640533108040,
+        "mag": 6.1,
+        "place": "140 km E of Levuka, Fiji",
+        "time": 1640533376087,
+        "updated": 1640535149454,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfgd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfgd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.772,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 572,
+        "net": "us",
+        "code": "6000gfgd",
+        "ids": ",us6000gfgd,",
+        "sources": ",us,",
+        "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 2.485,
+        "rms": 0.77,
+        "gap": 33,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.1 - 140 km E of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.3607,
+          -18.0804,
+          626.51
+        ]
+      },
+      "id": "us6000gfgd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "32 km S of Fry, Greece",
+        "time": 1640531711566,
+        "updated": 1640535197040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gffm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gffm.geojson",
@@ -65,25 +105,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 400,
         "net": "us",
         "code": "6000gffm",
         "ids": ",us6000gffm,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 0.465,
-        "rms": 0.59,
+        "dmin": 0.472,
+        "rms": 0.64,
         "gap": 61,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 31 km S of Fry, Greece"
+        "title": "M 5.1 - 32 km S of Fry, Greece"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.8888,
-          35.1369,
+          26.8912,
+          35.1283,
           10
         ]
       },
@@ -93,15 +133,15 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "78 km SE of Gorontalo, Indonesia",
-        "time": 1640530890802,
-        "updated": 1640532182684,
+        "place": "79 km SE of Gorontalo, Indonesia",
+        "time": 1640530890897,
+        "updated": 1640535292020,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gffl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gffl.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.821,
+        "mmi": 3.812,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -112,19 +152,19 @@
         "sources": ",us,",
         "types": ",losspager,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 1.214,
-        "rms": 1,
-        "gap": 38,
+        "dmin": 1.194,
+        "rms": 1.1,
+        "gap": 28,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - 78 km SE of Gorontalo, Indonesia"
+        "title": "M 5.4 - 79 km SE of Gorontalo, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          123.4665,
-          -0.0396,
-          108.84
+          123.4632,
+          -0.061,
+          108.15
         ]
       },
       "id": "us6000gffl"
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "off the coast of Northern California",
+        "place": "146 km WSW of Ferndale, California",
         "time": 1640528198753,
         "updated": 1640528619656,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": null,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.0 - off the coast of Northern California"
+        "title": "M 4.0 - 146 km WSW of Ferndale, California"
       },
       "geometry": {
         "type": "Point",
@@ -1491,11 +1531,11 @@
     }
   ],
   "bbox": [
-    -157.7597,
+    -179.3607,
     -57.121,
     5,
     172.0586,
-    61.3551,
-    336.82
+    61.3563,
+    626.51
   ]
 }
