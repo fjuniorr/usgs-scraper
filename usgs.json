@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640643003000,
+    "generated": 1640644323000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -175,11 +175,11 @@
         "mag": 3.3,
         "place": "5 km SSW of Lugoff, South Carolina",
         "time": 1640632734200,
-        "updated": 1640642800624,
+        "updated": 1640644108302,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377836.geojson",
-        "felt": 2234,
+        "felt": 2324,
         "cdi": 5.8,
         "mmi": 4.319,
         "alert": null,
@@ -853,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Kansas",
+        "place": "7 km SW of Gypsum, Kansas",
         "time": 1640599096322,
         "updated": 1640618522681,
         "tz": null,
@@ -877,7 +877,7 @@
         "gap": 92,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.5 - Kansas"
+        "title": "M 2.5 - 7 km SW of Gypsum, Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1172,42 +1172,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.8,
-        "place": "139 km SSE of Akhiok, Alaska",
-        "time": 1640588598602,
-        "updated": 1640589290040,
+        "mag": 3.6,
+        "place": "131 km SSE of Akhiok, Alaska",
+        "time": 1640588604330,
+        "updated": 1640644074411,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfkf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfkf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gl5709g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gl5709g.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 1,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 222,
-        "net": "us",
-        "code": "6000gfkf",
-        "ids": ",us6000gfkf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "sig": 199,
+        "net": "ak",
+        "code": "021gl5709g",
+        "ids": ",us6000gfkf,ak021gl5709g,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 2.058,
-        "rms": 0.43,
-        "gap": 164,
+        "dmin": null,
+        "rms": 0.63,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 139 km SSE of Akhiok, Alaska"
+        "title": "M 3.6 - 131 km SSE of Akhiok, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.3771,
-          55.7765,
-          10
+          -153.4208,
+          55.8403,
+          7.1
         ]
       },
-      "id": "us6000gfkf"
+      "id": "ak021gl5709g"
     },
     {
       "type": "Feature",
