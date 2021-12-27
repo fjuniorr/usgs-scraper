@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640628723000,
+    "generated": 1640630223000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
     {
@@ -533,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Kansas",
+        "place": "7 km SW of Gypsum, Kansas",
         "time": 1640599096322,
         "updated": 1640618522681,
         "tz": null,
@@ -557,7 +557,7 @@
         "gap": 92,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.5 - Kansas"
+        "title": "M 2.5 - 7 km SW of Gypsum, Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -615,22 +615,22 @@
         "mag": 2.45,
         "place": "11km NE of Coso Junction, CA",
         "time": 1640596246920,
-        "updated": 1640596880550,
+        "updated": 1640629272327,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39897055",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39897055.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 92,
+        "sig": 93,
         "net": "ci",
         "code": "39897055",
         "ids": ",ci39897055,",
         "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 26,
         "dmin": 0.005896,
         "rms": 0.14,
@@ -1132,10 +1132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.72,
+        "mag": 3.04,
         "place": "9 km E of Pāhala, Hawaii",
-        "time": 1640574534470,
-        "updated": 1640574879040,
+        "time": 1640574534490,
+        "updated": 1640630014150,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72847902",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72847902.geojson",
@@ -1143,28 +1143,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 114,
+        "sig": 142,
         "net": "hv",
         "code": "72847902",
         "ids": ",us6000gfjd,hv72847902,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 41,
+        "nst": 50,
         "dmin": null,
-        "rms": 0.119999997,
-        "gap": 162,
+        "rms": 0.11,
+        "gap": 159,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 9 km E of Pāhala, Hawaii"
+        "title": "M 3.0 - 9 km E of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.38932800293,
-          19.2035007476807,
-          31.5699996948242
+          -155.391,
+          19.2026666666667,
+          31.51
         ]
       },
       "id": "hv72847902"
@@ -1688,53 +1688,13 @@
         ]
       },
       "id": "us6000gfhi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "223 km ESE of Attu Station, Alaska",
-        "time": 1640542659628,
-        "updated": 1640559246141,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gjoai98",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gjoai98.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.853,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "ak",
-        "code": "021gjoai98",
-        "ids": ",ak021gjoai98,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.87,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 223 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.0969,
-          51.926,
-          41
-        ]
-      },
-      "id": "ak021gjoai98"
     }
   ],
   "bbox": [
     -179.3966,
     -34.8507,
     0,
-    176.0969,
+    143.1298,
     62.2732,
     587.87
   ]
