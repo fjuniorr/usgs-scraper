@@ -1,27 +1,67 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640637123000,
+    "generated": 1640637885000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "41 km E of Falam, Myanmar",
+        "time": 1640635994189,
+        "updated": 1640637841040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfp6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfp6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000gfp6",
+        "ids": ",us6000gfp6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.32,
+        "rms": 0.62,
+        "gap": 80,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 41 km E of Falam, Myanmar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.0807,
+          22.9279,
+          10
+        ]
+      },
+      "id": "us6000gfp6"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.6,
         "place": "97 km ENE of Chignik, Alaska",
         "time": 1640635992358,
-        "updated": 1640636762175,
+        "updated": 1640637045503,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021glczrrd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021glczrrd.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 2.882,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
@@ -30,7 +70,7 @@
         "code": "021glczrrd",
         "ids": ",ak021glczrrd,",
         "sources": ",ak,",
-        "types": ",origin,",
+        "types": ",origin,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 1.08,
@@ -95,11 +135,11 @@
         "mag": 3.3,
         "place": "5 km SSW of Lugoff, South Carolina",
         "time": 1640632734200,
-        "updated": 1640637054377,
+        "updated": 1640637680377,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377836.geojson",
-        "felt": 1563,
+        "felt": 1644,
         "cdi": 5.8,
         "mmi": 4.33,
         "alert": null,
@@ -773,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "7 km SW of Gypsum, Kansas",
+        "place": "Kansas",
         "time": 1640599096322,
         "updated": 1640618522681,
         "tz": null,
@@ -797,7 +837,7 @@
         "gap": 92,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.5 - 7 km SW of Gypsum, Kansas"
+        "title": "M 2.5 - Kansas"
       },
       "geometry": {
         "type": "Point",
