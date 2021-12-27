@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640619843000,
+    "generated": 1640620684000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 48
   },
   "features": [
     {
@@ -1928,46 +1928,6 @@
         ]
       },
       "id": "us6000gfgl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "23 km SSW of Susitna, Alaska",
-        "time": 1640533731849,
-        "updated": 1640535623040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gjmou77",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gjmou77.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "021gjmou77",
-        "ids": ",us6000gfgi,ak021gjmou77,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.74,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 23 km SSW of Susitna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.7282,
-          61.3563,
-          28.5
-        ]
-      },
-      "id": "ak021gjmou77"
     }
   ],
   "bbox": [
