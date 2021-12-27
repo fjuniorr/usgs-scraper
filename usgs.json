@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640632083000,
+    "generated": 1640632878000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "38 km SE of Jurm, Afghanistan",
+        "time": 1640631166687,
+        "updated": 1640632379040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfnn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfnn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000gfnn",
+        "ids": ",us6000gfnn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.674,
+        "rms": 0.62,
+        "gap": 72,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 38 km SE of Jurm, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.101,
+          36.5976,
+          199.64
+        ]
+      },
+      "id": "us6000gfnn"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 2.89,
         "place": "4km NNW of Pinnacles, CA",
         "time": 1640624956330,
-        "updated": 1640627232798,
+        "updated": 1640632779342,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668761",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668761.geojson",
-        "felt": 2,
-        "cdi": 1,
+        "felt": 3,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
