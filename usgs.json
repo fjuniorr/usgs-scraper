@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640640303000,
+    "generated": 1640640963000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 43
   },
   "features": [
     {
@@ -175,11 +175,11 @@
         "mag": 3.3,
         "place": "5 km SSW of Lugoff, South Carolina",
         "time": 1640632734200,
-        "updated": 1640640199652,
+        "updated": 1640640857181,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377836.geojson",
-        "felt": 1916,
+        "felt": 2048,
         "cdi": 5.8,
         "mmi": 4.319,
         "alert": null,
@@ -1728,46 +1728,6 @@
         ]
       },
       "id": "ak021gjq9s0v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "83 km S of San Francisco del Mar Viejo, Mexico",
-        "time": 1640554420003,
-        "updated": 1640585627008,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfil",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfil.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 272,
-        "net": "us",
-        "code": "6000gfil",
-        "ids": ",us6000gfil,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 2.552,
-        "rms": 0.54,
-        "gap": 180,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 83 km S of San Francisco del Mar Viejo, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -94.6554,
-          15.4757,
-          35
-        ]
-      },
-      "id": "us6000gfil"
     }
   ],
   "bbox": [
