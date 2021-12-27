@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640617383000,
+    "generated": 1640618643000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.61,
+        "place": "4 km ENE of La Parguera, Puerto Rico",
+        "time": 1640616429170,
+        "updated": 1640618016534,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021361006",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021361006.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "pr",
+        "code": "2021361006",
+        "ids": ",pr2021361006,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.0453,
+        "rms": 0.15,
+        "gap": 149,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 4 km ENE of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.003,
+          17.9883,
+          7
+        ]
+      },
+      "id": "pr2021361006"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -93,9 +133,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "61 km SE of Gilgit, Pakistan",
-        "time": 1640611869223,
-        "updated": 1640615486123,
+        "place": "63 km SE of Gilgit, Pakistan",
+        "time": 1640611869239,
+        "updated": 1640617491849,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gflv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gflv.geojson",
@@ -112,19 +152,19 @@
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
-        "dmin": 2.297,
-        "rms": 0.82,
+        "dmin": 2.291,
+        "rms": 0.5,
         "gap": 43,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 61 km SE of Gilgit, Pakistan"
+        "title": "M 5.2 - 63 km SE of Gilgit, Pakistan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          74.8289,
-          35.558,
-          47.54
+          74.8382,
+          35.5458,
+          45.94
         ]
       },
       "id": "us6000gflv"
@@ -293,13 +333,13 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Kansas",
+        "place": "7 km SW of Gypsum, Kansas",
         "time": 1640599096322,
-        "updated": 1640609126422,
+        "updated": 1640618522681,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfl2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfl2.geojson",
-        "felt": 4,
+        "felt": 6,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -317,7 +357,7 @@
         "gap": 92,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.5 - Kansas"
+        "title": "M 2.5 - 7 km SW of Gypsum, Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -735,11 +775,11 @@
         "mag": 3.3,
         "place": "7 km WSW of Gypsum, Kansas",
         "time": 1640584291200,
-        "updated": 1640592774539,
+        "updated": 1640618271504,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfjw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfjw.geojson",
-        "felt": 23,
+        "felt": 25,
         "cdi": 3.5,
         "mmi": null,
         "alert": null,
@@ -1928,46 +1968,6 @@
         ]
       },
       "id": "us6000gfgd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "32 km S of Fry, Greece",
-        "time": 1640531711566,
-        "updated": 1640560534040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gffm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gffm.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000gffm",
-        "ids": ",us6000gffm,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.472,
-        "rms": 0.64,
-        "gap": 61,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 32 km S of Fry, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.8912,
-          35.1283,
-          10
-        ]
-      },
-      "id": "us6000gffm"
     }
   ],
   "bbox": [
