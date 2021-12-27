@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640641983000,
+    "generated": 1640643003000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
@@ -175,11 +175,11 @@
         "mag": 3.3,
         "place": "5 km SSW of Lugoff, South Carolina",
         "time": 1640632734200,
-        "updated": 1640641870818,
+        "updated": 1640642800624,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377836.geojson",
-        "felt": 2122,
+        "felt": 2234,
         "cdi": 5.8,
         "mmi": 4.319,
         "alert": null,
@@ -853,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "7 km SW of Gypsum, Kansas",
+        "place": "Kansas",
         "time": 1640599096322,
         "updated": 1640618522681,
         "tz": null,
@@ -877,7 +877,7 @@
         "gap": 92,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.5 - 7 km SW of Gypsum, Kansas"
+        "title": "M 2.5 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1413,9 +1413,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "49 km WSW of Tatitlek, Alaska",
-        "time": 1640576268694,
-        "updated": 1640596551445,
+        "place": "50 km WSW of Tatitlek, Alaska",
+        "time": 1640576269048,
+        "updated": 1640642541111,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gl30mby",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gl30mby.geojson",
@@ -1423,7 +1423,7 @@
         "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 104,
         "net": "ak",
@@ -1433,18 +1433,18 @@
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.66,
+        "rms": 0.64,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 49 km WSW of Tatitlek, Alaska"
+        "title": "M 2.6 - 50 km WSW of Tatitlek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.5744,
-          60.766,
-          16.9
+          -147.5732,
+          60.7552,
+          8.4
         ]
       },
       "id": "ak021gl30mby"
@@ -1648,46 +1648,6 @@
         ]
       },
       "id": "us6000gfix"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "33 km SSE of Fry, Greece",
-        "time": 1640556141729,
-        "updated": 1640579315040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfim",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfim.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000gfim",
-        "ids": ",us6000gfim,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.433,
-        "rms": 0.85,
-        "gap": 155,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 33 km SSE of Fry, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          27.023,
-          35.1273,
-          10
-        ]
-      },
-      "id": "us6000gfim"
     }
   ],
   "bbox": [
