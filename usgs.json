@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640685214000,
+    "generated": 1640686249000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "17 km SW of Nanwalek, Alaska",
+        "time": 1640685478471,
+        "updated": 1640686222615,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gmu8vh9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gmu8vh9.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "ak",
+        "code": "021gmu8vh9",
+        "ids": ",ak021gmu8vh9,us6000gfu7,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.57,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 17 km SW of Nanwalek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.1511,
+          59.2503,
+          34.8
+        ]
+      },
+      "id": "ak021gmu8vh9"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1448,46 +1488,6 @@
         ]
       },
       "id": "us6000gfl5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "7 km SW of Gypsum, Kansas",
-        "time": 1640599096322,
-        "updated": 1640674424137,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfl2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfl2.geojson",
-        "felt": 7,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "us",
-        "code": "6000gfl2",
-        "ids": ",us6000gfl2,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.719,
-        "rms": 0.62,
-        "gap": 92,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 2.5 - 7 km SW of Gypsum, Kansas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.4955,
-          38.6631,
-          5
-        ]
-      },
-      "id": "us6000gfl2"
     }
   ],
   "bbox": [
