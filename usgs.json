@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640666652000,
+    "generated": 1640667603000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 4.5,
         "place": "18 km N of Stanton, Texas",
         "time": 1640656543776,
-        "updated": 1640666367947,
+        "updated": 1640667327035,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021zjsk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021zjsk.geojson",
-        "felt": 200,
+        "felt": 207,
         "cdi": 5.4,
         "mmi": 5.133,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 420,
+        "sig": 423,
         "net": "tx",
         "code": "2021zjsk",
         "ids": ",us6000gfrb,tx2021zjsk,",
@@ -455,11 +455,11 @@
         "mag": 3.3,
         "place": "5 km SSW of Lugoff, South Carolina",
         "time": 1640632734200,
-        "updated": 1640666630637,
+        "updated": 1640667580089,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377836.geojson",
-        "felt": 2954,
+        "felt": 2961,
         "cdi": 5.8,
         "mmi": 4.319,
         "alert": null,
@@ -1173,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Kansas",
+        "place": "7 km SW of Gypsum, Kansas",
         "time": 1640599096322,
         "updated": 1640618522681,
         "tz": null,
@@ -1197,7 +1197,7 @@
         "gap": 92,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.5 - Kansas"
+        "title": "M 2.5 - 7 km SW of Gypsum, Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1688,46 +1688,6 @@
         ]
       },
       "id": "pr2021361001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "14 km SSE of Guánica, Puerto Rico",
-        "time": 1640581050040,
-        "updated": 1640582945419,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021361000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021361000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "pr",
-        "code": "2021361000",
-        "ids": ",pr2021361000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.1351,
-        "rms": 0.15,
-        "gap": 255,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 14 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8781,
-          17.84,
-          6
-        ]
-      },
-      "id": "pr2021361000"
     }
   ],
   "bbox": [
