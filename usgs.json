@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640733003000,
+    "generated": 1640734268000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "31 km E of Slana, Alaska",
+        "time": 1640733668472,
+        "updated": 1640734109186,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gn2d4bx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gn2d4bx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "ak",
+        "code": "021gn2d4bx",
+        "ids": ",ak021gn2d4bx,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.99,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 31 km E of Slana, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.353,
+          62.6541,
+          0
+        ]
+      },
+      "id": "ak021gn2d4bx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.74,
+        "place": "12km WSW of Rio Dell, CA",
+        "time": 1640733466600,
+        "updated": 1640734212352,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668996",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668996.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "nc",
+        "code": "73668996",
+        "ids": ",nc73668996,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 9,
+        "dmin": 0.08264,
+        "rms": 0.03,
+        "gap": 247,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 12km WSW of Rio Dell, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.2336655,
+          40.4519997,
+          25.33
+        ]
+      },
+      "id": "nc73668996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.69,
+        "place": "26km W of Petrolia, CA",
+        "time": 1640733390380,
+        "updated": 1640734211404,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668991",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668991.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 111,
+        "net": "nc",
+        "code": "73668991",
+        "ids": ",nc73668991,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 7,
+        "dmin": 0.2353,
+        "rms": 0.07,
+        "gap": 263,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 26km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.5901642,
+          40.2961655,
+          19.34
+        ]
+      },
+      "id": "nc73668991"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,11 +175,11 @@
         "mag": 3.2,
         "place": "1 km SSE of Chortiátis, Greece",
         "time": 1640728666820,
-        "updated": 1640732959480,
+        "updated": 1640733829514,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfy6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfy6.geojson",
-        "felt": 13,
+        "felt": 15,
         "cdi": 3.3,
         "mmi": null,
         "alert": null,
