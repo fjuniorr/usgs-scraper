@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640675389000,
+    "generated": 1640676609000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "140 km SE of Ambon, Indonesia",
+        "time": 1640675151448,
+        "updated": 1640676304040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gft5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gft5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000gft5",
+        "ids": ",us6000gft5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.732,
+        "rms": 0.69,
+        "gap": 47,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 140 km SE of Ambon, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9561,
+          -4.7027,
+          26.4
+        ]
+      },
+      "id": "us6000gft5"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,17 +295,17 @@
         "mag": 4.5,
         "place": "18 km N of Stanton, Texas",
         "time": 1640656543776,
-        "updated": 1640674673038,
+        "updated": 1640676411018,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021zjsk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021zjsk.geojson",
-        "felt": 217,
+        "felt": 219,
         "cdi": 5.4,
         "mmi": 5.133,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 429,
+        "sig": 430,
         "net": "tx",
         "code": "2021zjsk",
         "ids": ",us6000gfrb,tx2021zjsk,",
@@ -655,11 +695,11 @@
         "mag": 3.3,
         "place": "5 km SSW of Lugoff, South Carolina",
         "time": 1640632734200,
-        "updated": 1640675191267,
+        "updated": 1640675829105,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377836.geojson",
-        "felt": 2985,
+        "felt": 2987,
         "cdi": 5.8,
         "mmi": 4.319,
         "alert": null,
@@ -1648,46 +1688,6 @@
         ]
       },
       "id": "us6000gfkh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "6 km SE of Espino, Puerto Rico",
-        "time": 1640590076680,
-        "updated": 1640592643923,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021361003",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021361003.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "pr",
-        "code": "2021361003",
-        "ids": ",pr2021361003,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.2284,
-        "rms": 0.11,
-        "gap": 105,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km SE of Espino, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0773,
-          18.2325,
-          13
-        ]
-      },
-      "id": "pr2021361003"
     }
   ],
   "bbox": [
