@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640688874000,
+    "generated": 1640689666000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -775,11 +775,11 @@
         "mag": 3.3,
         "place": "5 km SSW of Lugoff, South Carolina",
         "time": 1640632734200,
-        "updated": 1640688590077,
+        "updated": 1640689452916,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377836.geojson",
-        "felt": 3003,
+        "felt": 3005,
         "cdi": 5.8,
         "mmi": 4.319,
         "alert": null,
@@ -1408,46 +1408,6 @@
         ]
       },
       "id": "us6000gfli"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "off the coast of Oregon",
-        "time": 1640602839644,
-        "updated": 1640607007040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gflh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gflh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "us",
-        "code": "6000gflh",
-        "ids": ",us6000gflh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.786,
-        "rms": 0.68,
-        "gap": 270,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.2701,
-          44.0765,
-          10
-        ]
-      },
-      "id": "us6000gflh"
     }
   ],
   "bbox": [
