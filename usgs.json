@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640676609000,
+    "generated": 1640677165000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Nicobar Islands, India region",
+        "time": 1640675177249,
+        "updated": 1640676792040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gft3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gft3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000gft3",
+        "ids": ",us6000gft3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.685,
+        "rms": 0.42,
+        "gap": 141,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Nicobar Islands, India region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.8615,
+          8.313,
+          31.85
+        ]
+      },
+      "id": "us6000gft3"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -295,17 +335,17 @@
         "mag": 4.5,
         "place": "18 km N of Stanton, Texas",
         "time": 1640656543776,
-        "updated": 1640676411018,
+        "updated": 1640677022863,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021zjsk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021zjsk.geojson",
-        "felt": 219,
+        "felt": 221,
         "cdi": 5.4,
         "mmi": 5.133,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 430,
+        "sig": 431,
         "net": "tx",
         "code": "2021zjsk",
         "ids": ",us6000gfrb,tx2021zjsk,",
@@ -695,11 +735,11 @@
         "mag": 3.3,
         "place": "5 km SSW of Lugoff, South Carolina",
         "time": 1640632734200,
-        "updated": 1640675829105,
+        "updated": 1640677064968,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377836.geojson",
-        "felt": 2987,
+        "felt": 2988,
         "cdi": 5.8,
         "mmi": 4.319,
         "alert": null,
@@ -1648,46 +1688,6 @@
         ]
       },
       "id": "us6000gfkl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "59 km N of Bandar Abbas, Iran",
-        "time": 1640590315730,
-        "updated": 1640598462196,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfkh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfkh.geojson",
-        "felt": 1,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000gfkh",
-        "ids": ",us6000gfkh,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 2.76,
-        "rms": 0.65,
-        "gap": 45,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 59 km N of Bandar Abbas, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.1921,
-          27.7169,
-          10
-        ]
-      },
-      "id": "us6000gfkh"
     }
   ],
   "bbox": [
