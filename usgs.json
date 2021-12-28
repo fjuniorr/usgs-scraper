@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640663167000,
+    "generated": 1640663643000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.24,
+        "place": "42 km NW of San Antonio, Puerto Rico",
+        "time": 1640660998980,
+        "updated": 1640663621537,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021362004",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021362004.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 162,
+        "net": "pr",
+        "code": "2021362004",
+        "ids": ",pr2021362004,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.3998,
+        "rms": 0.26,
+        "gap": 208,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 42 km NW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.3463,
+          18.7908,
+          9
+        ]
+      },
+      "id": "pr2021362004"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.5,
         "place": "18 km N of Stanton, Texas",
         "time": 1640656543776,
-        "updated": 1640662948647,
+        "updated": 1640663583726,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021zjsk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021zjsk.geojson",
-        "felt": 152,
+        "felt": 166,
         "cdi": 5.4,
         "mmi": 5.412,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 394,
+        "sig": 401,
         "net": "tx",
         "code": "2021zjsk",
         "ids": ",us6000gfrb,tx2021zjsk,",
@@ -175,11 +215,11 @@
         "mag": 2.52,
         "place": "6 km SSW of Lugoff, South Carolina",
         "time": 1640644701790,
-        "updated": 1640662186294,
+        "updated": 1640663633180,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60141143",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60141143.geojson",
-        "felt": 138,
+        "felt": 139,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -415,11 +455,11 @@
         "mag": 3.3,
         "place": "5 km SSW of Lugoff, South Carolina",
         "time": 1640632734200,
-        "updated": 1640662931460,
+        "updated": 1640663242829,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377836.geojson",
-        "felt": 2922,
+        "felt": 2927,
         "cdi": 5.8,
         "mmi": 4.319,
         "alert": null,
@@ -1133,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Kansas",
+        "place": "7 km SW of Gypsum, Kansas",
         "time": 1640599096322,
         "updated": 1640618522681,
         "tz": null,
@@ -1157,7 +1197,7 @@
         "gap": 92,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.5 - Kansas"
+        "title": "M 2.5 - 7 km SW of Gypsum, Kansas"
       },
       "geometry": {
         "type": "Point",
