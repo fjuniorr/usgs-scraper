@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640731272000,
+    "generated": 1640731971000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.5,
         "place": "31 km ESE of Slana, Alaska",
         "time": 1640730473285,
-        "updated": 1640731192624,
+        "updated": 1640731618040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gn1t2io",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gn1t2io.geojson",
@@ -28,9 +28,9 @@
         "sig": 96,
         "net": "ak",
         "code": "021gn1t2io",
-        "ids": ",ak021gn1t2io,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",us6000gfyj,ak021gn1t2io,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.85,
@@ -55,17 +55,17 @@
         "mag": 3.2,
         "place": "1 km SSE of Chortiátis, Greece",
         "time": 1640728666820,
-        "updated": 1640730990073,
+        "updated": 1640731608125,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfy6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfy6.geojson",
-        "felt": 7,
-        "cdi": 3.8,
+        "felt": 12,
+        "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 160,
+        "sig": 161,
         "net": "us",
         "code": "6000gfy6",
         "ids": ",us6000gfy6,",
@@ -88,6 +88,46 @@
         ]
       },
       "id": "us6000gfy6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "39 km SSE of Shizunai-furukawachō, Japan",
+        "time": 1640724457633,
+        "updated": 1640731361040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfxq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfxq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000gfxq",
+        "ids": ",us6000gfxq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.413,
+        "rms": 0.73,
+        "gap": 97,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 39 km SSE of Shizunai-furukawachō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.6024,
+          42.0286,
+          62.79
+        ]
+      },
+      "id": "us6000gfxq"
     },
     {
       "type": "Feature",
