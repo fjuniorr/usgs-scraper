@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640718510000,
+    "generated": 1640719289000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Carlsberg Ridge",
+        "time": 1640714115926,
+        "updated": 1640718978040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfw9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfw9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000gfw9",
+        "ids": ",us6000gfw9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 9.814,
+        "rms": 0.74,
+        "gap": 59,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Carlsberg Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.8789,
+          3.5144,
+          10
+        ]
+      },
+      "id": "us6000gfw9"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 2.62,
         "place": "4km NNW of Fontana, CA",
         "time": 1640708340320,
-        "updated": 1640717995454,
+        "updated": 1640719266672,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39897879",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39897879.geojson",
-        "felt": 75,
-        "cdi": 2.9,
+        "felt": 76,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 127,
+        "sig": 134,
         "net": "ci",
         "code": "39897879",
         "ids": ",ci39897879,us6000gfvs,",
@@ -975,11 +1015,11 @@
         "mag": 4.5,
         "place": "18 km N of Stanton, Texas",
         "time": 1640656543776,
-        "updated": 1640718220204,
+        "updated": 1640718525431,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021zjsk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021zjsk.geojson",
-        "felt": 260,
+        "felt": 261,
         "cdi": 5.4,
         "mmi": 5.133,
         "alert": "green",
@@ -1368,86 +1408,6 @@
         ]
       },
       "id": "us6000gfnw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "5 km SSW of Lugoff, South Carolina",
-        "time": 1640632734200,
-        "updated": 1640717763182,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377836",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377836.geojson",
-        "felt": 3106,
-        "cdi": 5.6,
-        "mmi": 4.319,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 728,
-        "net": "se",
-        "code": "60377836",
-        "ids": ",se60377836,us6000gfns,",
-        "sources": ",se,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 19,
-        "dmin": 0.3184,
-        "rms": 0.4,
-        "gap": 62,
-        "magType": "mlg",
-        "type": "earthquake",
-        "title": "M 3.3 - 5 km SSW of Lugoff, South Carolina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.7196667,
-          34.1825,
-          3.16
-        ]
-      },
-      "id": "se60377836"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "13 km N of Inashiki, Japan",
-        "time": 1640632139455,
-        "updated": 1640634361040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfnr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfnr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000gfnr",
-        "ids": ",us6000gfnr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.789,
-        "rms": 0.56,
-        "gap": 196,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 13 km N of Inashiki, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.349,
-          36.0761,
-          70.4
-        ]
-      },
-      "id": "us6000gfnr"
     }
   ],
   "bbox": [
