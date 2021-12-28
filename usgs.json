@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640669713000,
+    "generated": 1640670202000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.53999996,
+        "place": "8 km ENE of Pāhala, Hawaii",
+        "time": 1640669940930,
+        "updated": 1640670137420,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72849037",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72849037.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "hv",
+        "code": "72849037",
+        "ids": ",hv72849037,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": null,
+        "rms": 0.100000001,
+        "gap": 148,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 8 km ENE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.397506713867,
+          19.2213325500488,
+          32.2799987792969
+        ]
+      },
+      "id": "hv72849037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.9,
         "place": "58 km NNE of Petersville, Alaska",
         "time": 1640668808576,
-        "updated": 1640669607062,
+        "updated": 1640670093040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gmrn3oq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gmrn3oq.geojson",
@@ -28,9 +68,9 @@
         "sig": 129,
         "net": "ak",
         "code": "021gmrn3oq",
-        "ids": ",ak021gmrn3oq,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",us6000gfsj,ak021gmrn3oq,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.58,
@@ -135,11 +175,11 @@
         "mag": 4.5,
         "place": "18 km N of Stanton, Texas",
         "time": 1640656543776,
-        "updated": 1640667952105,
+        "updated": 1640669809136,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021zjsk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021zjsk.geojson",
-        "felt": 210,
+        "felt": 211,
         "cdi": 5.4,
         "mmi": 5.133,
         "alert": "green",
@@ -535,11 +575,11 @@
         "mag": 3.3,
         "place": "5 km SSW of Lugoff, South Carolina",
         "time": 1640632734200,
-        "updated": 1640669552328,
+        "updated": 1640669875294,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377836.geojson",
-        "felt": 2971,
+        "felt": 2972,
         "cdi": 5.8,
         "mmi": 4.319,
         "alert": null,
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Kansas",
+        "place": "7 km SW of Gypsum, Kansas",
         "time": 1640599096322,
         "updated": 1640618522681,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 92,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.5 - Kansas"
+        "title": "M 2.5 - 7 km SW of Gypsum, Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1728,46 +1768,6 @@
         ]
       },
       "id": "us6000gfjw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "16 km SSE of Guánica, Puerto Rico",
-        "time": 1640583527150,
-        "updated": 1640584797698,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021361001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021361001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "pr",
-        "code": "2021361001",
-        "ids": ",pr2021361001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.1466,
-        "rms": 0.07,
-        "gap": 259,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 16 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8773,
-          17.8285,
-          16
-        ]
-      },
-      "id": "pr2021361001"
     }
   ],
   "bbox": [
