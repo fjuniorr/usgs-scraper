@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640670752000,
+    "generated": 1640671973000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.69,
+        "place": "4 km SSW of Pāhala, Hawaii",
+        "time": 1640670671890,
+        "updated": 1640671061099,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72849052",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72849052.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "hv",
+        "code": "72849052",
+        "ids": ",hv72849052,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 41,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 143,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 4 km SSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.492660522461,
+          19.1681671142578,
+          34.8199996948242
+        ]
+      },
+      "id": "hv72849052"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 4.5,
         "place": "18 km N of Stanton, Texas",
         "time": 1640656543776,
-        "updated": 1640670739030,
+        "updated": 1640671479320,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021zjsk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021zjsk.geojson",
-        "felt": 212,
+        "felt": 213,
         "cdi": 5.4,
         "mmi": 5.133,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 426,
+        "sig": 427,
         "net": "tx",
         "code": "2021zjsk",
         "ids": ",us6000gfrb,tx2021zjsk,",
@@ -535,11 +575,11 @@
         "mag": 3.3,
         "place": "5 km SSW of Lugoff, South Carolina",
         "time": 1640632734200,
-        "updated": 1640670569877,
+        "updated": 1640671851122,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377836.geojson",
-        "felt": 2975,
+        "felt": 2979,
         "cdi": 5.8,
         "mmi": 4.319,
         "alert": null,
