@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640697532000,
+    "generated": 1640698570000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 37
   },
   "features": [
     {
@@ -14,8 +14,8 @@
       "properties": {
         "mag": 3.1,
         "place": "56 km NNE of Kobuk, Alaska",
-        "time": 1640696799552,
-        "updated": 1640697507971,
+        "time": 1640696799525,
+        "updated": 1640697608537,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gmwbmzv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gmwbmzv.geojson",
@@ -33,7 +33,7 @@
         "types": ",origin,",
         "nst": null,
         "dmin": null,
-        "rms": 0.79,
+        "rms": 0.78,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.2891,
-          67.3561,
-          0.2
+          -156.2909,
+          67.3563,
+          0.1
         ]
       },
       "id": "ak021gmwbmzv"
@@ -615,17 +615,17 @@
         "mag": 4.5,
         "place": "18 km N of Stanton, Texas",
         "time": 1640656543776,
-        "updated": 1640697482823,
+        "updated": 1640698416891,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021zjsk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021zjsk.geojson",
-        "felt": 234,
+        "felt": 239,
         "cdi": 5.4,
         "mmi": 5.133,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 438,
+        "sig": 441,
         "net": "tx",
         "code": "2021zjsk",
         "ids": ",us6000gfrb,tx2021zjsk,",
@@ -1015,11 +1015,11 @@
         "mag": 3.3,
         "place": "5 km SSW of Lugoff, South Carolina",
         "time": 1640632734200,
-        "updated": 1640697407251,
+        "updated": 1640698322766,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377836.geojson",
-        "felt": 3029,
+        "felt": 3037,
         "cdi": 5.8,
         "mmi": 4.319,
         "alert": null,
@@ -1488,54 +1488,14 @@
         ]
       },
       "id": "us6000gfm1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "63 km SE of Gilgit, Pakistan",
-        "time": 1640611869239,
-        "updated": 1640639016188,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gflv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gflv.geojson",
-        "felt": 10,
-        "cdi": 5.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 421,
-        "net": "us",
-        "code": "6000gflv",
-        "ids": ",us6000gflv,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 2.291,
-        "rms": 0.5,
-        "gap": 43,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 63 km SE of Gilgit, Pakistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          74.8382,
-          35.5458,
-          45.94
-        ]
-      },
-      "id": "us6000gflv"
     }
   ],
   "bbox": [
     -156.6998,
     -22.4861,
-    0.2,
+    0.1,
     170.0958,
-    67.3561,
+    67.3563,
     199.64
   ]
 }
