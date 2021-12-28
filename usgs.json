@@ -1,54 +1,14 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640691190000,
+    "generated": 1640691800000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 36
   },
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6400001,
-        "place": "10 km ENE of Pāhala, Hawaii",
-        "time": 1640690991970,
-        "updated": 1640691176490,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72849247",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72849247.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 107,
-        "net": "hv",
-        "code": "72849247",
-        "ids": ",hv72849247,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": null,
-        "rms": 0.119999997,
-        "gap": 141,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 10 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.386337280273,
-          19.2413330078125,
-          31.3700008392334
-        ]
-      },
-      "id": "hv72849247"
-    },
     {
       "type": "Feature",
       "properties": {
@@ -1488,50 +1448,10 @@
         ]
       },
       "id": "us6000gflq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "109 km E of ‘Ohonua, Tonga",
-        "time": 1640604852767,
-        "updated": 1640612260828,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfli",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfli.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.17,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "6000gfli",
-        "ids": ",us6000gfli,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 7.76,
-        "rms": 1.39,
-        "gap": 40,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 109 km E of ‘Ohonua, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -173.9028,
-          -21.4432,
-          10
-        ]
-      },
-      "id": "us6000gfli"
     }
   ],
   "bbox": [
-    -173.9028,
+    -156.6998,
     -31.2919,
     2.4,
     170.0958,
