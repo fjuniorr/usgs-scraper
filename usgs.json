@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640734268000,
+    "generated": 1640735043000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 39
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.4,
         "place": "31 km E of Slana, Alaska",
         "time": 1640733668472,
-        "updated": 1640734109186,
+        "updated": 1640734327040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gn2d4bx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gn2d4bx.geojson",
@@ -28,9 +28,9 @@
         "sig": 178,
         "net": "ak",
         "code": "021gn2d4bx",
-        "ids": ",ak021gn2d4bx,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",us6000gfyy,ak021gn2d4bx,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.99,
@@ -128,6 +128,46 @@
         ]
       },
       "id": "nc73668991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "25 km NW of Stanley, Idaho",
+        "time": 1640732423045,
+        "updated": 1640734664040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfyp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfyp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "6000gfyp",
+        "ids": ",mb80534654,us6000gfyp,",
+        "sources": ",mb,us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.935,
+        "rms": 0.62,
+        "gap": 115,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 25 km NW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.2024,
+          44.3448,
+          10
+        ]
+      },
+      "id": "us6000gfyp"
     },
     {
       "type": "Feature",
