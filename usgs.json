@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640698570000,
+    "generated": 1640699110000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 36
   },
   "features": [
     {
@@ -95,12 +95,12 @@
         "mag": 2.8,
         "place": "4 km SW of Gypsum, Kansas",
         "time": 1640694833249,
-        "updated": 1640696684040,
+        "updated": 1640698822507,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfuz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfuz.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +110,7 @@
         "code": "6000gfuz",
         "ids": ",us6000gfuz,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.74,
         "rms": 0.53,
@@ -1015,11 +1015,11 @@
         "mag": 3.3,
         "place": "5 km SSW of Lugoff, South Carolina",
         "time": 1640632734200,
-        "updated": 1640698322766,
+        "updated": 1640698933536,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377836.geojson",
-        "felt": 3037,
+        "felt": 3041,
         "cdi": 5.8,
         "mmi": 4.319,
         "alert": null,
@@ -1448,46 +1448,6 @@
         ]
       },
       "id": "pr2021361005"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "67 km WNW of Skardu, Pakistan",
-        "time": 1640612248735,
-        "updated": 1640615194040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfm1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfm1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000gfm1",
-        "ids": ",us6000gfm1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.395,
-        "rms": 0.34,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 67 km WNW of Skardu, Pakistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          74.9825,
-          35.589,
-          45.84
-        ]
-      },
-      "id": "us6000gfm1"
     }
   ],
   "bbox": [
