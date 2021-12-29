@@ -1,31 +1,31 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640756620000,
+    "generated": 1640757183000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 5.7,
-        "place": "15 km SSW of Pýrgos, Greece",
+        "place": "Crete, Greece",
         "time": 1640754490515,
-        "updated": 1640756409323,
+        "updated": 1640757025089,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gg0y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gg0y.geojson",
-        "felt": 11,
-        "cdi": 4.6,
+        "felt": 21,
+        "cdi": 4.1,
         "mmi": 4.35,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 505,
+        "sig": 508,
         "net": "us",
         "code": "6000gg0y",
         "ids": ",us6000gg0y,",
@@ -37,7 +37,7 @@
         "gap": 36,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - 15 km SSW of Pýrgos, Greece"
+        "title": "M 5.7 - Crete, Greece"
       },
       "geometry": {
         "type": "Point",
@@ -295,17 +295,17 @@
         "mag": 4.2,
         "place": "4 km SSW of Urayasu, Japan",
         "time": 1640745185432,
-        "updated": 1640756478146,
+        "updated": 1640757170665,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gg06",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gg06.geojson",
-        "felt": 15,
+        "felt": 17,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 276,
+        "sig": 277,
         "net": "us",
         "code": "6000gg06",
         "ids": ",us6000gg06,",
@@ -413,9 +413,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "31 km E of Slana, Alaska",
-        "time": 1640733668472,
-        "updated": 1640734327040,
+        "place": "29 km ESE of Slana, Alaska",
+        "time": 1640733668492,
+        "updated": 1640756809476,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gn2d4bx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gn2d4bx.geojson",
@@ -423,7 +423,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 178,
         "net": "ak",
@@ -433,18 +433,18 @@
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.99,
+        "rms": 0.4,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 31 km E of Slana, Alaska"
+        "title": "M 3.4 - 29 km ESE of Slana, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -143.353,
-          62.6541,
-          0
+          -143.4082,
+          62.6399,
+          3.2
         ]
       },
       "id": "ak021gn2d4bx"
@@ -1608,46 +1608,6 @@
         ]
       },
       "id": "pr2021362007"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.93,
-        "place": "4 km SSW of Pāhala, Hawaii",
-        "time": 1640670671750,
-        "updated": 1640722151254,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72849052",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72849052.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 132,
-        "net": "hv",
-        "code": "72849052",
-        "ids": ",hv72849052,us6000gfsq,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 48,
-        "dmin": null,
-        "rms": 0.11,
-        "gap": 98,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 4 km SSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.494166666667,
-          19.1696666666667,
-          36.74
-        ]
-      },
-      "id": "hv72849052"
     }
   ],
   "bbox": [
