@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640751183000,
+    "generated": 1640753020000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,42 +12,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.6,
-        "place": "263 km NW of Attu Station, Alaska",
-        "time": 1640750255000,
-        "updated": 1640750767023,
+        "mag": 4.8,
+        "place": "254 km NW of Attu Station, Alaska",
+        "time": 1640751190436,
+        "updated": 1640752586040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00r4uyzz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00r4uyzz.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gg0n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gg0n.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 2.721,
         "alert": null,
-        "status": "REVIEWED",
-        "tsunami": 1,
-        "sig": 482,
-        "net": "at",
-        "code": "00r4uyzz",
-        "ids": ",at00r4uyzz,",
-        "sources": ",at,",
-        "types": ",impact-link,origin,",
-        "nst": 39,
-        "dmin": 2.824303,
-        "rms": 0.84,
-        "gap": 111.59999107200072,
-        "magType": "Mi",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000gg0n",
+        "ids": ",ak021goekge0,us6000gg0n,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 2.758,
+        "rms": 0.81,
+        "gap": 83,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.6 - 263 km NW of Attu Station, Alaska"
+        "title": "M 4.8 - 254 km NW of Attu Station, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          170.647,
-          54.671,
-          26
+          170.667,
+          54.58,
+          10
         ]
       },
-      "id": "at00r4uyzz"
+      "id": "us6000gg0n"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "262 km NW of Attu Station, Alaska",
+        "time": 1640750252007,
+        "updated": 1640752750894,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gg09",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gg09.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.274,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 500,
+        "net": "us",
+        "code": "6000gg09",
+        "ids": ",at00r4uyzz,us6000gg09,ak021goe76qz,",
+        "sources": ",at,us,ak,",
+        "types": ",impact-link,losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 2.821,
+        "rms": 0.97,
+        "gap": 31,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.7 - 262 km NW of Attu Station, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.6251,
+          54.6472,
+          3.58
+        ]
+      },
+      "id": "us6000gg09"
     },
     {
       "type": "Feature",
@@ -175,11 +215,11 @@
         "mag": 4.2,
         "place": "4 km SSW of Urayasu, Japan",
         "time": 1640745185432,
-        "updated": 1640751077906,
+        "updated": 1640751385756,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gg06",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gg06.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -1608,46 +1648,6 @@
         ]
       },
       "id": "ak021gmrn3oq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.23,
-        "place": "69 km N of Isabela, Puerto Rico",
-        "time": 1640666000340,
-        "updated": 1640669305443,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021362005",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021362005.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 161,
-        "net": "pr",
-        "code": "2021362005",
-        "ids": ",pr2021362005,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.6737,
-        "rms": 0.3,
-        "gap": 298,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 69 km N of Isabela, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9506,
-          19.1218,
-          23
-        ]
-      },
-      "id": "pr2021362005"
     }
   ],
   "bbox": [
