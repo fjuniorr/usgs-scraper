@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640812143000,
+    "generated": 1640813129000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -93,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "132 km NE of Lospalos, Timor Leste",
+        "place": "Kepulauan Barat Daya, Indonesia",
         "time": 1640807583449,
         "updated": 1640808794040,
         "tz": null,
@@ -117,7 +117,7 @@
         "gap": 52,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 132 km NE of Lospalos, Timor Leste"
+        "title": "M 4.6 - Kepulauan Barat Daya, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -215,7 +215,7 @@
         "mag": 7.3,
         "place": "121 km NNE of Lospalos, Timor Leste",
         "time": 1640802351877,
-        "updated": 1640811976707,
+        "updated": 1640812666575,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7lx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7lx.geojson",
@@ -613,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "257 km W of Ozernovskiy, Russia",
+        "place": "northwest of the Kuril Islands",
         "time": 1640786447453,
         "updated": 1640787570040,
         "tz": null,
@@ -637,7 +637,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 257 km W of Ozernovskiy, Russia"
+        "title": "M 4.7 - northwest of the Kuril Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.7,
-        "place": "Crete, Greece",
+        "place": "15 km SSW of Pýrgos, Greece",
         "time": 1640754490515,
         "updated": 1640772848521,
         "tz": null,
@@ -1157,7 +1157,7 @@
         "gap": 36,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - Crete, Greece"
+        "title": "M 5.7 - 15 km SSW of Pýrgos, Greece"
       },
       "geometry": {
         "type": "Point",
