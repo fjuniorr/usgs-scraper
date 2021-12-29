@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640800411000,
+    "generated": 1640801521000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "45 km S of Old Harbor, Alaska",
+        "time": 1640801123397,
+        "updated": 1640801510517,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gomtwfm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gomtwfm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "ak",
+        "code": "021gomtwfm",
+        "ids": ",ak021gomtwfm,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.64,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 45 km S of Old Harbor, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.173,
+          56.8035,
+          9.5
+        ]
+      },
+      "id": "ak021gomtwfm"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1528,46 +1568,6 @@
         ]
       },
       "id": "us6000gfwv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Carlsberg Ridge",
-        "time": 1640714115926,
-        "updated": 1640718978040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfw9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfw9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000gfw9",
-        "ids": ",us6000gfw9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 9.814,
-        "rms": 0.74,
-        "gap": 59,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Carlsberg Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          63.8789,
-          3.5144,
-          10
-        ]
-      },
-      "id": "us6000gfw9"
     }
   ],
   "bbox": [
