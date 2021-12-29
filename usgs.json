@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640807583000,
+    "generated": 1640808661000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "119 km NE of Lospalos, Timor Leste",
+        "time": 1640805672742,
+        "updated": 1640807646040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7rd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7rd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000g7rd",
+        "ids": ",us7000g7rd,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.642,
+        "rms": 1.07,
+        "gap": 50,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 119 km NE of Lospalos, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.6382,
+          -7.6467,
+          169.03
+        ]
+      },
+      "id": "us7000g7rd"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +95,17 @@
         "mag": 7.3,
         "place": "121 km NNE of Lospalos, Timor Leste",
         "time": 1640802351877,
-        "updated": 1640807406328,
+        "updated": 1640808326714,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7lx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7lx.geojson",
-        "felt": 80,
+        "felt": 82,
         "cdi": 6.3,
         "mmi": 6.402,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 870,
+        "sig": 872,
         "net": "us",
         "code": "7000g7lx",
         "ids": ",us7000g7lx,",
@@ -95,7 +135,7 @@
         "mag": 3.8,
         "place": "45 km S of Old Harbor, Alaska",
         "time": 1640801123379,
-        "updated": 1640801741273,
+        "updated": 1640808328040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gomtwfm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gomtwfm.geojson",
@@ -108,9 +148,9 @@
         "sig": 222,
         "net": "ak",
         "code": "021gomtwfm",
-        "ids": ",ak021gomtwfm,",
-        "sources": ",ak,",
-        "types": ",origin,shakemap,",
+        "ids": ",us7000g7lv,ak021gomtwfm,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.68,
@@ -295,12 +335,12 @@
         "mag": 2.6,
         "place": "6 km W of Nacogdoches, Texas",
         "time": 1640792468441,
-        "updated": 1640807566385,
+        "updated": 1640808614523,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gg58",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gg58.geojson",
-        "felt": 7,
-        "cdi": 5.3,
+        "felt": 11,
+        "cdi": 3.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "257 km W of Ozernovskiy, Russia",
+        "place": "northwest of the Kuril Islands",
         "time": 1640786447453,
         "updated": 1640787570040,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 257 km W of Ozernovskiy, Russia"
+        "title": "M 4.7 - northwest of the Kuril Islands"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.7,
-        "place": "Crete, Greece",
+        "place": "15 km SSW of Pýrgos, Greece",
         "time": 1640754490515,
         "updated": 1640772848521,
         "tz": null,
@@ -997,7 +1037,7 @@
         "gap": 36,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - Crete, Greece"
+        "title": "M 5.7 - 15 km SSW of Pýrgos, Greece"
       },
       "geometry": {
         "type": "Point",
@@ -1808,46 +1848,6 @@
         ]
       },
       "id": "us6000gfxf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "83 km NNE of Sola, Vanuatu",
-        "time": 1640721197348,
-        "updated": 1640722354040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfwv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfwv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000gfwv",
-        "ids": ",us6000gfwv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.345,
-        "rms": 0.75,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 83 km NNE of Sola, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.792,
-          -13.1586,
-          10
-        ]
-      },
-      "id": "us6000gfwv"
     }
   ],
   "bbox": [
