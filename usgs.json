@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640750043000,
+    "generated": 1640751183000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.6,
+        "place": "263 km NW of Attu Station, Alaska",
+        "time": 1640750255000,
+        "updated": 1640750767023,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00r4uyzz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00r4uyzz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "REVIEWED",
+        "tsunami": 1,
+        "sig": 482,
+        "net": "at",
+        "code": "00r4uyzz",
+        "ids": ",at00r4uyzz,",
+        "sources": ",at,",
+        "types": ",impact-link,origin,",
+        "nst": 39,
+        "dmin": 2.824303,
+        "rms": 0.84,
+        "gap": 111.59999107200072,
+        "magType": "Mi",
+        "type": "earthquake",
+        "title": "M 5.6 - 263 km NW of Attu Station, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.647,
+          54.671,
+          26
+        ]
+      },
+      "id": "at00r4uyzz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "91 km WNW of San Antonio de los Cobres, Argentina",
+        "time": 1640748229115,
+        "updated": 1640750613040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfzy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfzy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000gfzy",
+        "ids": ",us6000gfzy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.403,
+        "rms": 0.38,
+        "gap": 116,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 91 km WNW of San Antonio de los Cobres, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1964,
+          -24.0319,
+          203.41
+        ]
+      },
+      "id": "us6000gfzy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "72 km SW of Nikolski, Alaska",
+        "time": 1640748199412,
+        "updated": 1640750317040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gg00",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gg00.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.327,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000gg00",
+        "ids": ",us6000gg00,ak021goe0a2q,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 1.392,
+        "rms": 1.22,
+        "gap": 175,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 72 km SW of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.6762,
+          52.5178,
+          49.85
+        ]
+      },
+      "id": "us6000gg00"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +168,46 @@
         ]
       },
       "id": "us6000gfzz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "4 km SSW of Urayasu, Japan",
+        "time": 1640745185432,
+        "updated": 1640751077906,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gg06",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gg06.geojson",
+        "felt": 5,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 273,
+        "net": "us",
+        "code": "6000gg06",
+        "ids": ",us6000gg06,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.62,
+        "rms": 1.15,
+        "gap": 158,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 4 km SSW of Urayasu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8701,
+          35.6359,
+          35
+        ]
+      },
+      "id": "us6000gg06"
     },
     {
       "type": "Feature",
