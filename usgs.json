@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640775280000,
+    "generated": 1640776083000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
@@ -735,7 +735,7 @@
         "mag": 2.77,
         "place": "13km S of Ferndale, CA",
         "time": 1640733466330,
-        "updated": 1640775018272,
+        "updated": 1640775791852,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668996",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668996.geojson",
@@ -775,7 +775,7 @@
         "mag": 2.72,
         "place": "31km W of Petrolia, CA",
         "time": 1640733389720,
-        "updated": 1640775051338,
+        "updated": 1640775791442,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668991",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668991.geojson",
@@ -1648,46 +1648,6 @@
         ]
       },
       "id": "hv72849287"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Carlsberg Ridge",
-        "time": 1640689607215,
-        "updated": 1640690704040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfuh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfuh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000gfuh",
-        "ids": ",us6000gfuh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 5.439,
-        "rms": 0.79,
-        "gap": 81,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Carlsberg Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          68.1568,
-          -2.0119,
-          10
-        ]
-      },
-      "id": "us6000gfuh"
     }
   ],
   "bbox": [
