@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640803041000,
+    "generated": 1640803898000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 7.3,
+        "place": "121 km NNE of Lospalos, Timor Leste",
+        "time": 1640802351877,
+        "updated": 1640803755827,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7lx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7lx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 6.402,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 820,
+        "net": "us",
+        "code": "7000g7lx",
+        "ids": ",us7000g7lx,",
+        "sources": ",us,",
+        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 3.704,
+        "rms": 1.13,
+        "gap": 15,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 7.3 - 121 km NNE of Lospalos, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.5808,
+          -7.5924,
+          166.92
+        ]
+      },
+      "id": "us7000g7lx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "northwest of the Kuril Islands",
+        "place": "257 km W of Ozernovskiy, Russia",
         "time": 1640786447453,
         "updated": 1640787570040,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - northwest of the Kuril Islands"
+        "title": "M 4.7 - 257 km W of Ozernovskiy, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.7,
-        "place": "15 km SSW of Pýrgos, Greece",
+        "place": "Crete, Greece",
         "time": 1640754490515,
         "updated": 1640772848521,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": 36,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - 15 km SSW of Pýrgos, Greece"
+        "title": "M 5.7 - Crete, Greece"
       },
       "geometry": {
         "type": "Point",
