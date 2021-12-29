@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640808661000,
+    "generated": 1640809946000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "132 km NE of Lospalos, Timor Leste",
+        "time": 1640807583449,
+        "updated": 1640808794040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7ru",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7ru.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000g7ru",
+        "ids": ",us7000g7ru,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.439,
+        "rms": 0.64,
+        "gap": 52,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 132 km NE of Lospalos, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.8424,
+          -7.663,
+          169.37
+        ]
+      },
+      "id": "us7000g7ru"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,17 +135,17 @@
         "mag": 7.3,
         "place": "121 km NNE of Lospalos, Timor Leste",
         "time": 1640802351877,
-        "updated": 1640808326714,
+        "updated": 1640809814547,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7lx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7lx.geojson",
-        "felt": 82,
+        "felt": 85,
         "cdi": 6.3,
         "mmi": 6.402,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 872,
+        "sig": 873,
         "net": "us",
         "code": "7000g7lx",
         "ids": ",us7000g7lx,",
@@ -335,7 +375,7 @@
         "mag": 2.6,
         "place": "6 km W of Nacogdoches, Texas",
         "time": 1640792468441,
-        "updated": 1640808614523,
+        "updated": 1640808922375,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gg58",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gg58.geojson",
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "northwest of the Kuril Islands",
+        "place": "257 km W of Ozernovskiy, Russia",
         "time": 1640786447453,
         "updated": 1640787570040,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - northwest of the Kuril Islands"
+        "title": "M 4.7 - 257 km W of Ozernovskiy, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.7,
-        "place": "15 km SSW of Pýrgos, Greece",
+        "place": "Crete, Greece",
         "time": 1640754490515,
         "updated": 1640772848521,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 36,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - 15 km SSW of Pýrgos, Greece"
+        "title": "M 5.7 - Crete, Greece"
       },
       "geometry": {
         "type": "Point",
@@ -1808,46 +1848,6 @@
         ]
       },
       "id": "us6000gfxq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "10 km SW of Tena, Ecuador",
-        "time": 1640722941757,
-        "updated": 1640729885167,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfxf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfxf.geojson",
-        "felt": 1,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000gfxf",
-        "ids": ",us6000gfxf,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.713,
-        "rms": 0.69,
-        "gap": 124,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 10 km SW of Tena, Ecuador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.8682,
-          -1.0691,
-          29.39
-        ]
-      },
-      "id": "us6000gfxf"
     }
   ],
   "bbox": [
