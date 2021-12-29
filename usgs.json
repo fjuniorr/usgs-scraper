@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640799954000,
+    "generated": 1640800411000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -92,10 +92,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.52,
+        "mag": 3.64,
         "place": "79km WNW of Petrolia, CA",
         "time": 1640791435200,
-        "updated": 1640793308932,
+        "updated": 1640800375922,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73669126",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73669126.geojson",
@@ -105,19 +105,19 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 191,
+        "sig": 204,
         "net": "nc",
         "code": "73669126",
         "ids": ",nc73669126,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "types": ",moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 24,
         "dmin": 0.8282,
         "rms": 0.31,
         "gap": 286,
-        "magType": "ml",
+        "magType": "mw",
         "type": "earthquake",
-        "title": "M 3.5 - 79km WNW of Petrolia, CA"
+        "title": "M 3.6 - 79km WNW of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
