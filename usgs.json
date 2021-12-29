@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640803898000,
+    "generated": 1640804875000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "28 km ENE of Cantwell, Alaska",
+        "time": 1640804576957,
+        "updated": 1640804777781,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gonerkp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gonerkp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "021gonerkp",
+        "ids": ",ak021gonerkp,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.96,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 28 km ENE of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.4121,
+          63.47,
+          0.5
+        ]
+      },
+      "id": "ak021gonerkp"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 7.3,
         "place": "121 km NNE of Lospalos, Timor Leste",
         "time": 1640802351877,
-        "updated": 1640803755827,
+        "updated": 1640804597409,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7lx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7lx.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 3,
+        "cdi": 4.1,
         "mmi": 6.402,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 820,
+        "sig": 821,
         "net": "us",
         "code": "7000g7lx",
         "ids": ",us7000g7lx,",
         "sources": ",us,",
-        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 3.704,
         "rms": 1.13,
@@ -88,6 +128,46 @@
         ]
       },
       "id": "ak021gomtwfm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "61 km NNE of Yonakuni, Japan",
+        "time": 1640800715953,
+        "updated": 1640804614040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7lu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7lu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000g7lu",
+        "ids": ",us7000g7lu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.543,
+        "rms": 1.29,
+        "gap": 43,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 61 km NNE of Yonakuni, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2995,
+          24.9452,
+          21.13
+        ]
+      },
+      "id": "us7000g7lu"
     },
     {
       "type": "Feature",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "257 km W of Ozernovskiy, Russia",
+        "place": "northwest of the Kuril Islands",
         "time": 1640786447453,
         "updated": 1640787570040,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 257 km W of Ozernovskiy, Russia"
+        "title": "M 4.7 - northwest of the Kuril Islands"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.7,
-        "place": "Crete, Greece",
+        "place": "15 km SSW of Pýrgos, Greece",
         "time": 1640754490515,
         "updated": 1640772848521,
         "tz": null,
@@ -917,7 +997,7 @@
         "gap": 36,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - Crete, Greece"
+        "title": "M 5.7 - 15 km SSW of Pýrgos, Greece"
       },
       "geometry": {
         "type": "Point",
