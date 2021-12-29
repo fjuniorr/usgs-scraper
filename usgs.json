@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640760880000,
+    "generated": 1640761806000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 39
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 5.7,
-        "place": "Crete, Greece",
+        "place": "15 km SSW of Pýrgos, Greece",
         "time": 1640754490515,
-        "updated": 1640760868813,
+        "updated": 1640761187802,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gg0y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gg0y.geojson",
@@ -37,7 +37,7 @@
         "gap": 36,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - Crete, Greece"
+        "title": "M 5.7 - 15 km SSW of Pýrgos, Greece"
       },
       "geometry": {
         "type": "Point",
@@ -1568,86 +1568,6 @@
         ]
       },
       "id": "us6000gftv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Nicobar Islands, India region",
-        "time": 1640675177249,
-        "updated": 1640676792040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gft3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gft3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000gft3",
-        "ids": ",us6000gft3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 5.685,
-        "rms": 0.42,
-        "gap": 141,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Nicobar Islands, India region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          93.8615,
-          8.313,
-          31.85
-        ]
-      },
-      "id": "us6000gft3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "140 km SE of Ambon, Indonesia",
-        "time": 1640675151448,
-        "updated": 1640676304040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gft5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gft5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000gft5",
-        "ids": ",us6000gft5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.732,
-        "rms": 0.69,
-        "gap": 47,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 140 km SE of Ambon, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.9561,
-          -4.7027,
-          26.4
-        ]
-      },
-      "id": "us6000gft5"
     }
   ],
   "bbox": [
