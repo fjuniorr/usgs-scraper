@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640767023000,
+    "generated": 1640767780000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 2.67,
         "place": "20 km SE of Kanarraville, Utah",
         "time": 1640765237510,
-        "updated": 1640765482630,
+        "updated": 1640767055040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60474842",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60474842.geojson",
@@ -28,8 +28,8 @@
         "sig": 110,
         "net": "uu",
         "code": "60474842",
-        "ids": ",uu60474842,",
-        "sources": ",uu,",
+        "ids": ",us6000gg2b,uu60474842,",
+        "sources": ",us,uu,",
         "types": ",origin,phase-data,",
         "nst": 17,
         "dmin": 0.1163,
