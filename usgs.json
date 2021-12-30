@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640824608000,
+    "generated": 1640828708000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 51
+    "count": 54
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "101 km WNW of Ambon, Indonesia",
+        "time": 1640827229273,
+        "updated": 1640828192040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7vg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7vg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000g7vg",
+        "ids": ",us7000g7vg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.166,
+        "rms": 0.75,
+        "gap": 70,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 101 km WNW of Ambon, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.314,
+          -3.4225,
+          74.43
+        ]
+      },
+      "id": "us7000g7vg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "5 km ESE of Chiba, Japan",
+        "time": 1640824919265,
+        "updated": 1640828694281,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7ut",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7ut.geojson",
+        "felt": 46,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 355,
+        "net": "us",
+        "code": "7000g7ut",
+        "ids": ",us7000g7ut,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.853,
+        "rms": 0.73,
+        "gap": 102,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 5 km ESE of Chiba, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.1699,
+          35.5857,
+          63.31
+        ]
+      },
+      "id": "us7000g7ut"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.3,
         "place": "34 km S of Denali National Park, Alaska",
-        "time": 1640824096571,
-        "updated": 1640824559696,
+        "time": 1640824096555,
+        "updated": 1640827232040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gpzscxv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gpzscxv.geojson",
@@ -28,12 +108,12 @@
         "sig": 168,
         "net": "ak",
         "code": "021gpzscxv",
-        "ids": ",ak021gpzscxv,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",us7000g7uq,ak021gpzscxv,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.98,
+        "rms": 0.99,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
@@ -42,12 +122,92 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.6074,
-          63.2375,
-          16
+          -151.618,
+          63.2372,
+          16.3
         ]
       },
       "id": "ak021gpzscxv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "Fiji region",
+        "time": 1640823594928,
+        "updated": 1640824739040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7un",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7un.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000g7un",
+        "ids": ",us7000g7un,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.632,
+        "rms": 0.92,
+        "gap": 38,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.3573,
+          -21.7037,
+          591.05
+        ]
+      },
+      "id": "us7000g7un"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "8 km SW of Arkalochóri, Greece",
+        "time": 1640819200057,
+        "updated": 1640825653040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7ua",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7ua.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000g7ua",
+        "ids": ",us7000g7ua,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.325,
+        "rms": 1.71,
+        "gap": 163,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 8 km SW of Arkalochóri, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2031,
+          35.0866,
+          10
+        ]
+      },
+      "id": "us7000g7ua"
     },
     {
       "type": "Feature",
@@ -333,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Kepulauan Barat Daya, Indonesia",
+        "place": "132 km NE of Lospalos, Timor Leste",
         "time": 1640807583449,
         "updated": 1640808794040,
         "tz": null,
@@ -357,7 +517,7 @@
         "gap": 52,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Kepulauan Barat Daya, Indonesia"
+        "title": "M 4.6 - 132 km NE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
@@ -455,17 +615,17 @@
         "mag": 7.3,
         "place": "121 km NNE of Lospalos, Timor Leste",
         "time": 1640802351877,
-        "updated": 1640824087212,
+        "updated": 1640828351190,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7lx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7lx.geojson",
-        "felt": 106,
-        "cdi": 6.3,
+        "felt": 110,
+        "cdi": 7,
         "mmi": 6.958,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 887,
+        "sig": 897,
         "net": "us",
         "code": "7000g7lx",
         "ids": ",us7000g7lx,",
@@ -1013,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "northwest of the Kuril Islands",
+        "place": "257 km W of Ozernovskiy, Russia",
         "time": 1640786447453,
         "updated": 1640787570040,
         "tz": null,
@@ -1037,7 +1197,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - northwest of the Kuril Islands"
+        "title": "M 4.7 - 257 km W of Ozernovskiy, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -1613,7 +1773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.7,
-        "place": "15 km SSW of Pýrgos, Greece",
+        "place": "Crete, Greece",
         "time": 1640754490515,
         "updated": 1640822938143,
         "tz": null,
@@ -1637,7 +1797,7 @@
         "gap": 36,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - 15 km SSW of Pýrgos, Greece"
+        "title": "M 5.7 - Crete, Greece"
       },
       "geometry": {
         "type": "Point",
@@ -2008,54 +2168,14 @@
         ]
       },
       "id": "us6000gg06"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52,
-        "place": "4 km SW of Guánica, Puerto Rico",
-        "time": 1640739880080,
-        "updated": 1640740634712,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021363000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021363000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "pr",
-        "code": "2021363000",
-        "ids": ",pr2021363000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.0672,
-        "rms": 0.16,
-        "gap": 189,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km SW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.937,
-          17.9408,
-          13
-        ]
-      },
-      "id": "pr2021363000"
     }
   ],
   "bbox": [
-    -178.875,
+    -179.3573,
     -24.0319,
     -0.63,
     170.667,
     85.1634,
-    544.01
+    591.05
   ]
 }
