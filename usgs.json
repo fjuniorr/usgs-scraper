@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640887918000,
+    "generated": 1640889449000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 39
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.93,
         "place": "12km SE of Mineral, CA",
         "time": 1640887627640,
-        "updated": 1640887851803,
+        "updated": 1640888771478,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73669281",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73669281.geojson",
@@ -30,7 +30,7 @@
         "code": "73669281",
         "ids": ",nc73669281,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 27,
         "dmin": 0.2247,
         "rms": 0.22,
@@ -375,11 +375,11 @@
         "mag": 4.9,
         "place": "46 km SW of Karluk, Alaska",
         "time": 1640870676360,
-        "updated": 1640887665837,
+        "updated": 1640887971042,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gq7i6k6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gq7i6k6.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 3.1,
         "mmi": 3.766,
         "alert": null,
@@ -495,17 +495,17 @@
         "mag": 2.51,
         "place": "6 km E of Elgin, South Carolina",
         "time": 1640866291310,
-        "updated": 1640887896967,
+        "updated": 1640888201708,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377991",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377991.geojson",
-        "felt": 374,
+        "felt": 376,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 224,
+        "sig": 225,
         "net": "se",
         "code": "60377991",
         "ids": ",se60377991,us7000g7y9,",
@@ -1568,46 +1568,6 @@
         ]
       },
       "id": "ak021gonerkp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 7.3,
-        "place": "121 km NNE of Lospalos, Timor Leste",
-        "time": 1640802351877,
-        "updated": 1640876390299,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7lx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7lx.geojson",
-        "felt": 117,
-        "cdi": 7,
-        "mmi": 6.958,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 902,
-        "net": "us",
-        "code": "7000g7lx",
-        "ids": ",us7000g7lx,",
-        "sources": ",us,",
-        "types": ",dyfi,finite-fault,general-text,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 3.704,
-        "rms": 1.13,
-        "gap": 15,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 7.3 - 121 km NNE of Lospalos, Timor Leste"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.5808,
-          -7.5924,
-          166.92
-        ]
-      },
-      "id": "us7000g7lx"
     }
   ],
   "bbox": [
