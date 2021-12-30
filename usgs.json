@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640840376000,
+    "generated": 1640841653000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 48
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "29 km SSE of Rampart, Alaska",
+        "time": 1640841157315,
+        "updated": 1640841633529,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gq2o5ae",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gq2o5ae.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "021gq2o5ae",
+        "ids": ",ak021gq2o5ae,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.85,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 29 km SSE of Rampart, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9688,
+          65.2548,
+          5
+        ]
+      },
+      "id": "ak021gq2o5ae"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.8,
+        "place": "South Sandwich Islands region",
+        "time": 1640840295327,
+        "updated": 1640841322040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7w5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7w5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 518,
+        "net": "us",
+        "code": "7000g7w5",
+        "ids": ",us7000g7w5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.087,
+        "rms": 1.16,
+        "gap": 49,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.8 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -28.0931,
+          -55.9036,
+          33.38
+        ]
+      },
+      "id": "us7000g7w5"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "132 km NE of Lospalos, Timor Leste",
+        "place": "Kepulauan Barat Daya, Indonesia",
         "time": 1640807583449,
         "updated": 1640808794040,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": 52,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 132 km NE of Lospalos, Timor Leste"
+        "title": "M 4.6 - Kepulauan Barat Daya, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1848,51 +1928,11 @@
         ]
       },
       "id": "us6000gg2d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.7,
-        "place": "15 km SSW of Pýrgos, Greece",
-        "time": 1640754490515,
-        "updated": 1640832641666,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gg0y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gg0y.geojson",
-        "felt": 43,
-        "cdi": 4.6,
-        "mmi": 4.002,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 520,
-        "net": "us",
-        "code": "6000gg0y",
-        "ids": ",us6000gg0y,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 0.459,
-        "rms": 0.8,
-        "gap": 36,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.7 - 15 km SSW of Pýrgos, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.1168,
-          34.8666,
-          70.62
-        ]
-      },
-      "id": "us6000gg0y"
     }
   ],
   "bbox": [
     -179.3573,
-    -37.7368,
+    -55.9036,
     -0.63,
     170.6501,
     85.1634,
