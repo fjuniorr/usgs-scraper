@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640860503000,
+    "generated": 1640861223000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "79 km SW of Yonakuni, Japan",
+        "place": "Taiwan region",
         "time": 1640846828301,
         "updated": 1640856317176,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 59,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 79 km SW of Yonakuni, Japan"
+        "title": "M 5.2 - Taiwan region"
       },
       "geometry": {
         "type": "Point",
@@ -1693,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "257 km W of Ozernovskiy, Russia",
+        "place": "northwest of the Kuril Islands",
         "time": 1640786447453,
         "updated": 1640787570040,
         "tz": null,
@@ -1717,7 +1717,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 257 km W of Ozernovskiy, Russia"
+        "title": "M 4.7 - northwest of the Kuril Islands"
       },
       "geometry": {
         "type": "Point",
