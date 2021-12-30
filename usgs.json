@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640900645000,
+    "generated": 1640901196000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
@@ -174,8 +174,8 @@
       "properties": {
         "mag": 5.1,
         "place": "Kermadec Islands region",
-        "time": 1640891969900,
-        "updated": 1640893332040,
+        "time": 1640891969753,
+        "updated": 1640901153040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g81c",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g81c.geojson",
@@ -192,9 +192,9 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 1.455,
-        "rms": 1.06,
-        "gap": 52,
+        "dmin": 1.474,
+        "rms": 1.11,
+        "gap": 46,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 5.1 - Kermadec Islands region"
@@ -202,8 +202,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -176.3593,
-          -28.7603,
+          -176.3535,
+          -28.7224,
           10
         ]
       },
@@ -212,10 +212,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.3,
+        "mag": 4.5,
         "place": "off the east coast of Honshu, Japan",
-        "time": 1640891956311,
-        "updated": 1640899445040,
+        "time": 1640891956017,
+        "updated": 1640900678040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g81e",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g81e.geojson",
@@ -225,25 +225,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 312,
         "net": "us",
         "code": "7000g81e",
         "ids": ",us7000g81e,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 2.334,
-        "rms": 0.69,
-        "gap": 160,
+        "dmin": 2.323,
+        "rms": 0.82,
+        "gap": 46,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - off the east coast of Honshu, Japan"
+        "title": "M 4.5 - off the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.5948,
-          33.192,
+          142.5826,
+          33.1873,
           10
         ]
       },
@@ -493,19 +493,19 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "56 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1640876267744,
-        "updated": 1640900437577,
+        "updated": 1640901055811,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7zk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7zk.geojson",
-        "felt": 8,
+        "felt": 12,
         "cdi": 4.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 142,
+        "sig": 144,
         "net": "us",
         "code": "7000g7zk",
         "ids": ",us7000g7zk,",
@@ -517,7 +517,7 @@
         "gap": 94,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 56 km S of Whites City, New Mexico"
+        "title": "M 3.0 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "55 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1640876211031,
         "updated": 1640877394040,
         "tz": null,
@@ -557,7 +557,7 @@
         "gap": 55,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 55 km S of Whites City, New Mexico"
+        "title": "M 2.6 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "Molucca Sea",
+        "place": "166 km SSE of Tondano, Indonesia",
         "time": 1640869999615,
         "updated": 1640877379272,
         "tz": null,
@@ -717,7 +717,7 @@
         "gap": 45,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - Molucca Sea"
+        "title": "M 5.4 - 166 km SSE of Tondano, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -775,11 +775,11 @@
         "mag": 2.51,
         "place": "6 km E of Elgin, South Carolina",
         "time": 1640866291310,
-        "updated": 1640900334635,
+        "updated": 1640901171798,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377991",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377991.geojson",
-        "felt": 407,
+        "felt": 408,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -1093,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "79 km SW of Yonakuni, Japan",
+        "place": "Taiwan region",
         "time": 1640846828301,
         "updated": 1640883540487,
         "tz": null,
@@ -1117,7 +1117,7 @@
         "gap": 59,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 79 km SW of Yonakuni, Japan"
+        "title": "M 5.2 - Taiwan region"
       },
       "geometry": {
         "type": "Point",
@@ -1648,46 +1648,6 @@
         ]
       },
       "id": "pr2021363004"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "98 km NNW of Sola, Vanuatu",
-        "time": 1640814566485,
-        "updated": 1640816213040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7td",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7td.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000g7td",
-        "ids": ",us7000g7td,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.332,
-        "rms": 0.83,
-        "gap": 139,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 98 km NNW of Sola, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.0955,
-          -13.1036,
-          193.6
-        ]
-      },
-      "id": "us7000g7td"
     }
   ],
   "bbox": [
