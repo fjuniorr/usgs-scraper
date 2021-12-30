@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640841653000,
+    "generated": 1640842522000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
+        "mag": 3,
         "place": "29 km SSE of Rampart, Alaska",
-        "time": 1640841157315,
-        "updated": 1640841633529,
+        "time": 1640841157383,
+        "updated": 1640841984555,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gq2o5ae",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gq2o5ae.geojson",
@@ -25,7 +25,7 @@
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 138,
         "net": "ak",
         "code": "021gq2o5ae",
         "ids": ",ak021gq2o5ae,",
@@ -37,14 +37,14 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 29 km SSE of Rampart, Alaska"
+        "title": "M 3.0 - 29 km SSE of Rampart, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.9688,
-          65.2548,
-          5
+          -149.9791,
+          65.257,
+          6.4
         ]
       },
       "id": "ak021gq2o5ae"
@@ -775,7 +775,7 @@
         "mag": 7.3,
         "place": "121 km NNE of Lospalos, Timor Leste",
         "time": 1640802351877,
-        "updated": 1640834661788,
+        "updated": 1640842124684,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7lx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7lx.geojson",
