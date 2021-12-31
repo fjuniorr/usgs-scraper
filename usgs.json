@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640989743000,
+    "generated": 1640990479000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "12 km S of Kapaau, Hawaii",
+        "time": 1640989921050,
+        "updated": 1640990285701,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72852902",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72852902.geojson",
+        "felt": 2,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "hv",
+        "code": "72852902",
+        "ids": ",hv72852902,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 41,
+        "dmin": null,
+        "rms": 0.200000003,
+        "gap": 288,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 12 km S of Kapaau, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.785659790039,
+          20.1245002746582,
+          18.7399997711182
+        ]
+      },
+      "id": "hv72852902"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,11 +175,11 @@
         "mag": 3.81,
         "place": "12km SSW of Ferndale, CA",
         "time": 1640984266050,
-        "updated": 1640988053279,
+        "updated": 1640990472375,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671446",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73671446.geojson",
-        "felt": 145,
+        "felt": 147,
         "cdi": 3.6,
         "mmi": 3.628,
         "alert": null,
@@ -175,22 +215,22 @@
         "mag": 2.49,
         "place": "5 km ENE of Pāhala, Hawaii",
         "time": 1640979164970,
-        "updated": 1640979495650,
+        "updated": 1640990430883,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72852792",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72852792.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 95,
+        "sig": 96,
         "net": "hv",
         "code": "72852792",
         "ids": ",hv72852792,",
         "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 41,
         "dmin": null,
         "rms": 0.119999997,
@@ -215,11 +255,11 @@
         "mag": 3.45,
         "place": "3km SW of Redlands, CA",
         "time": 1640978878900,
-        "updated": 1640989679971,
+        "updated": 1640990230263,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900159",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39900159.geojson",
-        "felt": 488,
+        "felt": 489,
         "cdi": 3.4,
         "mmi": 3.248,
         "alert": null,
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Fiji region",
+        "place": "188 km ENE of Levuka, Fiji",
         "time": 1640951248584,
         "updated": 1640952986040,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 126,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Fiji region"
+        "title": "M 4.2 - 188 km ENE of Levuka, Fiji"
       },
       "geometry": {
         "type": "Point",
@@ -1368,46 +1408,6 @@
         ]
       },
       "id": "us7000g83j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "14 km SSE of Buffalo, Wyoming",
-        "time": 1640903438319,
-        "updated": 1640909147040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g832",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g832.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "7000g832",
-        "ids": ",mb80534859,us7000g832,",
-        "sources": ",mb,us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.57,
-        "rms": 0.62,
-        "gap": 85,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 14 km SSE of Buffalo, Wyoming"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.6433,
-          44.2194,
-          5
-        ]
-      },
-      "id": "us7000g832"
     }
   ],
   "bbox": [
