@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640944383000,
+    "generated": 1640945466000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 40
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.03,
         "place": "2km NW of Palomar Observatory, CA",
         "time": 1640943232020,
-        "updated": 1640944345040,
+        "updated": 1640945003911,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39899591",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39899591.geojson",
-        "felt": 14,
-        "cdi": 3.2,
+        "felt": 15,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -1133,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "western Texas",
+        "place": "56 km S of Whites City, New Mexico",
         "time": 1640876267744,
         "updated": 1640904062878,
         "tz": null,
@@ -1157,7 +1157,7 @@
         "gap": 94,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - western Texas"
+        "title": "M 3.0 - 56 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "western Texas",
+        "place": "55 km S of Whites City, New Mexico",
         "time": 1640876211031,
         "updated": 1640901382540,
         "tz": null,
@@ -1197,7 +1197,7 @@
         "gap": 55,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - western Texas"
+        "title": "M 2.6 - 55 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "166 km SSE of Tondano, Indonesia",
+        "place": "Molucca Sea",
         "time": 1640869999615,
         "updated": 1640917650040,
         "tz": null,
@@ -1357,7 +1357,7 @@
         "gap": 45,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - 166 km SSE of Tondano, Indonesia"
+        "title": "M 5.4 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1608,86 +1608,6 @@
         ]
       },
       "id": "us7000g7xu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "9km WSW of Petrolia, CA",
-        "time": 1640858993520,
-        "updated": 1640919011103,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73669241",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73669241.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "nc",
-        "code": "73669241",
-        "ids": ",nc73669241,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.02671,
-        "rms": 0.06,
-        "gap": 227,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 9km WSW of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.3753333,
-          40.2791667,
-          21.82
-        ]
-      },
-      "id": "nc73669241"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "31km W of Petrolia, CA",
-        "time": 1640858551580,
-        "updated": 1640918051997,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73669236",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73669236.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "nc",
-        "code": "73669236",
-        "ids": ",nc73669236,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 40,
-        "dmin": 0.2349,
-        "rms": 0.15,
-        "gap": 263,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 31km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.6496667,
-          40.2841667,
-          17.61
-        ]
-      },
-      "id": "nc73669236"
     }
   ],
   "bbox": [
