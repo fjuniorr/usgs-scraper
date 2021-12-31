@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640981426000,
+    "generated": 1640982769000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 32
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 3.45,
         "place": "3km SW of Redlands, CA",
         "time": 1640978878900,
-        "updated": 1640981406452,
+        "updated": 1640982660431,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900159",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39900159.geojson",
-        "felt": 361,
+        "felt": 454,
         "cdi": 3.8,
-        "mmi": 3.374,
+        "mmi": 3.248,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 320,
+        "sig": 356,
         "net": "ci",
         "code": "39900159",
         "ids": ",ci39900159,",
@@ -453,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Fiji region",
+        "place": "188 km ENE of Levuka, Fiji",
         "time": 1640951248584,
         "updated": 1640952986040,
         "tz": null,
@@ -477,7 +477,7 @@
         "gap": 126,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Fiji region"
+        "title": "M 4.2 - 188 km ENE of Levuka, Fiji"
       },
       "geometry": {
         "type": "Point",
@@ -895,7 +895,7 @@
         "mag": 2.47,
         "place": "9km N of Rancho Cucamonga, CA",
         "time": 1640927880240,
-        "updated": 1640981332024,
+        "updated": 1640981640854,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39899471",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39899471.geojson",
@@ -1288,86 +1288,6 @@
         ]
       },
       "id": "us7000g82m"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "58 km NNE of Finschhafen, Papua New Guinea",
-        "time": 1640896227760,
-        "updated": 1640899916040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g81t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g81t.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000g81t",
-        "ids": ",us7000g81t,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.078,
-        "rms": 0.78,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 58 km NNE of Finschhafen, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.0802,
-          -6.0863,
-          99.8
-        ]
-      },
-      "id": "us7000g81t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "66 km WNW of Tanana, Alaska",
-        "time": 1640895090651,
-        "updated": 1640901587040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gqblfbq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gqblfbq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "ak",
-        "code": "021gqblfbq",
-        "ids": ",us7000g81m,ak021gqblfbq,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.74,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 66 km WNW of Tanana, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.3693,
-          65.4346,
-          4.4
-        ]
-      },
-      "id": "ak021gqblfbq"
     }
   ],
   "bbox": [
@@ -1375,7 +1295,7 @@
     -37.3749,
     0,
     177.7688,
-    65.4346,
+    60.0666,
     554.05
   ]
 }
