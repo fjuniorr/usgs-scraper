@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640949859000,
+    "generated": 1640950472000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.61,
+        "place": "29km SE of Bodie, CA",
+        "time": 1640949889700,
+        "updated": 1640950163282,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73670166",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73670166.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "nc",
+        "code": "73670166",
+        "ids": ",nc73670166,nn00830793,",
+        "sources": ",nc,nn,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 25,
+        "dmin": 0.2851,
+        "rms": 0.15,
+        "gap": 108,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 29km SE of Bodie, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.7558365,
+          38.0456657,
+          16.31
+        ]
+      },
+      "id": "nc73670166"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1495,11 +1535,11 @@
         "mag": 2.51,
         "place": "6 km E of Elgin, South Carolina",
         "time": 1640866291310,
-        "updated": 1640931041796,
+        "updated": 1640950438689,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377991",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377991.geojson",
-        "felt": 434,
+        "felt": 435,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
