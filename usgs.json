@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640929376000,
+    "generated": 1640929986000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,17 +15,17 @@
         "mag": 2.47,
         "place": "9km N of Rancho Cucamonga, CA",
         "time": 1640927880240,
-        "updated": 1640929094335,
+        "updated": 1640929721320,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39899471",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39899471.geojson",
-        "felt": 58,
+        "felt": 61,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 115,
+        "sig": 116,
         "net": "ci",
         "code": "39899471",
         "ids": ",ci39899471,",
@@ -893,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "western Texas",
+        "place": "56 km S of Whites City, New Mexico",
         "time": 1640876267744,
         "updated": 1640904062878,
         "tz": null,
@@ -917,7 +917,7 @@
         "gap": 94,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - western Texas"
+        "title": "M 3.0 - 56 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "western Texas",
+        "place": "55 km S of Whites City, New Mexico",
         "time": 1640876211031,
         "updated": 1640901382540,
         "tz": null,
@@ -957,7 +957,7 @@
         "gap": 55,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - western Texas"
+        "title": "M 2.6 - 55 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "166 km SSE of Tondano, Indonesia",
+        "place": "Molucca Sea",
         "time": 1640869999615,
         "updated": 1640917650040,
         "tz": null,
@@ -1117,7 +1117,7 @@
         "gap": 45,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - 166 km SSE of Tondano, Indonesia"
+        "title": "M 5.4 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1215,17 +1215,17 @@
         "mag": 2.51,
         "place": "6 km E of Elgin, South Carolina",
         "time": 1640866291310,
-        "updated": 1640926592066,
+        "updated": 1640929827839,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377991",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377991.geojson",
-        "felt": 433,
+        "felt": 434,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 283,
+        "sig": 284,
         "net": "se",
         "code": "60377991",
         "ids": ",se60377991,us7000g7y9,",
@@ -1573,7 +1573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Taiwan region",
+        "place": "79 km SW of Yonakuni, Japan",
         "time": 1640846828301,
         "updated": 1640883540487,
         "tz": null,
@@ -1597,7 +1597,7 @@
         "gap": 59,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - Taiwan region"
+        "title": "M 5.2 - 79 km SW of Yonakuni, Japan"
       },
       "geometry": {
         "type": "Point",
