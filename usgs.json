@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640992192000,
+    "generated": 1640993463000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -215,11 +215,11 @@
         "mag": 3.81,
         "place": "12km SSW of Ferndale, CA",
         "time": 1640984266050,
-        "updated": 1640991792187,
+        "updated": 1640992946892,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671446",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73671446.geojson",
-        "felt": 149,
+        "felt": 150,
         "cdi": 3.6,
         "mmi": 3.628,
         "alert": null,
@@ -693,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Fiji region",
+        "place": "188 km ENE of Levuka, Fiji",
         "time": 1640951248584,
         "updated": 1640952986040,
         "tz": null,
@@ -717,7 +717,7 @@
         "gap": 126,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Fiji region"
+        "title": "M 4.2 - 188 km ENE of Levuka, Fiji"
       },
       "geometry": {
         "type": "Point",
