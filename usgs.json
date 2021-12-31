@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640979198000,
+    "generated": 1640979768000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "5 km ENE of Pāhala, Hawaii",
+        "time": 1640979164970,
+        "updated": 1640979495650,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72852792",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72852792.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "72852792",
+        "ids": ",hv72852792,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 130,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 5 km ENE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.426162719727,
+          19.2233333587646,
+          33.310001373291
+        ]
+      },
+      "id": "hv72852792"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.45,
         "place": "3km SW of Redlands, CA",
         "time": 1640978878900,
-        "updated": 1640979122171,
+        "updated": 1640979659299,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900159",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39900159.geojson",
-        "felt": 7,
-        "cdi": 3.4,
+        "felt": 45,
+        "cdi": 3.8,
         "mmi": 3.071,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 185,
+        "sig": 200,
         "net": "ci",
         "code": "39900159",
         "ids": ",ci39900159,",
         "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 100,
         "dmin": 0.08711,
         "rms": 0.19,
@@ -413,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Fiji region",
+        "place": "188 km ENE of Levuka, Fiji",
         "time": 1640951248584,
         "updated": 1640952986040,
         "tz": null,
@@ -437,7 +477,7 @@
         "gap": 126,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Fiji region"
+        "title": "M 4.2 - 188 km ENE of Levuka, Fiji"
       },
       "geometry": {
         "type": "Point",
