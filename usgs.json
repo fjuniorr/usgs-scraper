@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640978470000,
+    "generated": 1640979198000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.45,
+        "place": "3km SW of Redlands, CA",
+        "time": 1640978878900,
+        "updated": 1640979122171,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900159",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39900159.geojson",
+        "felt": 7,
+        "cdi": 3.4,
+        "mmi": 3.071,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 185,
+        "net": "ci",
+        "code": "39900159",
+        "ids": ",ci39900159,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 100,
+        "dmin": 0.08711,
+        "rms": 0.19,
+        "gap": 43,
+        "magType": "mlr",
+        "type": "earthquake",
+        "title": "M 3.5 - 3km SW of Redlands, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2091675,
+          34.0343323,
+          15.22
+        ]
+      },
+      "id": "ci39900159"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.49,
         "place": "11km SSW of Ferndale, CA",
         "time": 1640977711760,
-        "updated": 1640978111033,
+        "updated": 1640979011112,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73670851",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73670851.geojson",
@@ -815,17 +855,17 @@
         "mag": 2.47,
         "place": "9km N of Rancho Cucamonga, CA",
         "time": 1640927880240,
-        "updated": 1640969721260,
+        "updated": 1640978869087,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39899471",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39899471.geojson",
-        "felt": 72,
+        "felt": 73,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 118,
+        "sig": 119,
         "net": "ci",
         "code": "39899471",
         "ids": ",ci39899471,us7000g845,",
