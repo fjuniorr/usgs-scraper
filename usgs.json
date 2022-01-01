@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641017510000,
+    "generated": 1641019083000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "1km W of Parkfield, CA",
+        "time": 1641017448010,
+        "updated": 1641018980613,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671951",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73671951.geojson",
+        "felt": 21,
+        "cdi": 5.3,
+        "mmi": 4.087,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 200,
+        "net": "nc",
+        "code": "73671951",
+        "ids": ",nc73671951,us7000g8a6,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 49,
+        "dmin": null,
+        "rms": 0.08,
+        "gap": 51,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 1km W of Parkfield, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.4431686,
+          35.8971672,
+          5.38
+        ]
+      },
+      "id": "nc73671951"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -973,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "188 km ENE of Levuka, Fiji",
+        "place": "Fiji region",
         "time": 1640951248584,
         "updated": 1640952986040,
         "tz": null,
@@ -997,7 +1037,7 @@
         "gap": 126,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 188 km ENE of Levuka, Fiji"
+        "title": "M 4.2 - Fiji region"
       },
       "geometry": {
         "type": "Point",
@@ -1288,53 +1328,13 @@
         ]
       },
       "id": "pr2021365000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "82 km NNE of Opotiki, New Zealand",
-        "time": 1640932634496,
-        "updated": 1640939770295,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g84j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g84j.geojson",
-        "felt": 4,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 327,
-        "net": "us",
-        "code": "7000g84j",
-        "ids": ",us7000g84j,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.467,
-        "rms": 1.2,
-        "gap": 152,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 82 km NNE of Opotiki, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          177.7688,
-          -37.3749,
-          57.29
-        ]
-      },
-      "id": "us7000g84j"
     }
   ],
   "bbox": [
     -179.0119,
-    -37.3749,
+    -33.4523,
     0,
-    177.7688,
+    163.213,
     60.0666,
     554.05
   ]
