@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641030783000,
+    "generated": 1641032041000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 36
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.7,
         "place": "12km SSE of Bodie, CA",
         "time": 1641030520690,
-        "updated": 1641030757032,
+        "updated": 1641031691276,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73672071",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73672071.geojson",
@@ -28,9 +28,9 @@
         "sig": 112,
         "net": "nc",
         "code": "73672071",
-        "ids": ",nc73672071,nn00830832,",
-        "sources": ",nc,nn,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "ids": ",nc73672071,nn00830832,us7000g8aw,",
+        "sources": ",nc,nn,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 28,
         "dmin": 0.3755,
         "rms": 0.16,
@@ -52,10 +52,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "0 km ESE of El Tumbador, Guatemala",
+        "time": 1641029703043,
+        "updated": 1641030920040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8av",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8av.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000g8av",
+        "ids": ",us7000g8av,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.428,
+        "rms": 0.69,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 0 km ESE of El Tumbador, Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.9263,
+          14.8593,
+          114.75
+        ]
+      },
+      "id": "us7000g8av"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.71,
         "place": "2km E of The Geysers, CA",
         "time": 1641026028710,
-        "updated": 1641027310158,
+        "updated": 1641031570551,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73672011",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73672011.geojson",
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "188 km ENE of Levuka, Fiji",
+        "place": "Fiji region",
         "time": 1640951248584,
         "updated": 1640952986040,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 126,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 188 km ENE of Levuka, Fiji"
+        "title": "M 4.2 - Fiji region"
       },
       "geometry": {
         "type": "Point",
