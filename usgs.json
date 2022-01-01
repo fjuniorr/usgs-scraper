@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641066183000,
+    "generated": 1641066783000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "45 km NNE of Kobuk, Alaska",
+        "time": 1641065759120,
+        "updated": 1641066597664,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221z27m0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0221z27m0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "0221z27m0",
+        "ids": ",ak0221z27m0,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.82,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 45 km NNE of Kobuk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.389,
+          67.267,
+          0.4
+        ]
+      },
+      "id": "ak0221z27m0"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1051,11 +1091,11 @@
     }
   ],
   "bbox": [
-    -155.79949951172,
+    -156.389,
     -56.5037,
-    0.68,
+    0.4,
     157.8534,
-    59.802,
+    67.267,
     589.27
   ]
 }
