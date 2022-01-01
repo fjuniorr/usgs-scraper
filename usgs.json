@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641022573000,
+    "generated": 1641023058000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -21,7 +21,7 @@
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73671951.geojson",
         "felt": 26,
         "cdi": 5.3,
-        "mmi": 4.125,
+        "mmi": 4.101,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "188 km ENE of Levuka, Fiji",
+        "place": "Fiji region",
         "time": 1640951248584,
         "updated": 1640952986040,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 126,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 188 km ENE of Levuka, Fiji"
+        "title": "M 4.2 - Fiji region"
       },
       "geometry": {
         "type": "Point",
