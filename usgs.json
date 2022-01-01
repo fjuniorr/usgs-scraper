@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641013306000,
+    "generated": 1641014638000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
     {
@@ -775,7 +775,7 @@
         "mag": 3.7,
         "place": "56 km NNE of Yakutat, Alaska",
         "time": 1640962749846,
-        "updated": 1640963332108,
+        "updated": 1641013685040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021grvuepx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021grvuepx.geojson",
@@ -788,9 +788,9 @@
         "sig": 211,
         "net": "ak",
         "code": "021grvuepx",
-        "ids": ",ak021grvuepx,",
-        "sources": ",ak,",
-        "types": ",origin,shakemap,",
+        "ids": ",us7000g86c,ak021grvuepx,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.85,
@@ -1368,46 +1368,6 @@
         ]
       },
       "id": "us7000g847"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.47,
-        "place": "9km N of Rancho Cucamonga, CA",
-        "time": 1640927880240,
-        "updated": 1640986332145,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39899471",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39899471.geojson",
-        "felt": 75,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 119,
-        "net": "ci",
-        "code": "39899471",
-        "ids": ",ci39899471,us7000g845,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 102,
-        "dmin": 0.06255,
-        "rms": 0.26,
-        "gap": 27,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 9km N of Rancho Cucamonga, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.5943333,
-          34.2058333,
-          9.05
-        ]
-      },
-      "id": "ci39899471"
     }
   ],
   "bbox": [
