@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641071340000,
+    "generated": 1641072303000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 25
   },
   "features": [
     {
@@ -1008,86 +1008,6 @@
         ]
       },
       "id": "us7000g88k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "21 km E of Pedro Bay, Alaska",
-        "time": 1640987117104,
-        "updated": 1640987907716,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021grzxgs4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021grzxgs4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "021grzxgs4",
-        "ids": ",ak021grzxgs4,",
-        "sources": ",ak,",
-        "types": ",origin,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.58,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 21 km E of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.728,
-          59.802,
-          167.4
-        ]
-      },
-      "id": "ak021grzxgs4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.56,
-        "place": "12km SSW of Ferndale, CA",
-        "time": 1640985868240,
-        "updated": 1641014798250,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671466",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73671466.geojson",
-        "felt": 4,
-        "cdi": 3.3,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "nc",
-        "code": "73671466",
-        "ids": ",nc73671466,us7000g88d,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 12,
-        "dmin": 0.02075,
-        "rms": 0.07,
-        "gap": 183,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 12km SSW of Ferndale, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.3105011,
-          40.4781685,
-          18.05
-        ]
-      },
-      "id": "nc73671466"
     }
   ],
   "bbox": [
