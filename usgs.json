@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641033963000,
+    "generated": 1641034449000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 36
   },
   "features": [
     {
@@ -1448,46 +1448,6 @@
         ]
       },
       "id": "us7000g85r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.62,
-        "place": "2km NNW of Palomar Observatory, CA",
-        "time": 1640947690460,
-        "updated": 1640966692655,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39899719",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39899719.geojson",
-        "felt": 5,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 107,
-        "net": "ci",
-        "code": "39899719",
-        "ids": ",ci39899719,us7000g85p,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 78,
-        "dmin": 0.02428,
-        "rms": 0.23,
-        "gap": 25,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 2km NNW of Palomar Observatory, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.8753333,
-          33.3755,
-          3.14
-        ]
-      },
-      "id": "ci39899719"
     }
   ],
   "bbox": [
