@@ -1,50 +1,90 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641023058000,
+    "generated": 1641023602000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 33
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.5,
+        "mag": 4.5,
+        "place": "53 km NNE of Yonakuni, Japan",
+        "time": 1641022081001,
+        "updated": 1641023459040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8ad",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8ad.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000g8ad",
+        "ids": ",us7000g8ad,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.478,
+        "rms": 0.53,
+        "gap": 99,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 53 km NNE of Yonakuni, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2271,
+          24.9055,
+          29.72
+        ]
+      },
+      "id": "us7000g8ad"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.29,
         "place": "1km W of Parkfield, CA",
         "time": 1641017448010,
-        "updated": 1641022451190,
+        "updated": 1641023471308,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671951",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73671951.geojson",
         "felt": 26,
         "cdi": 5.3,
-        "mmi": 4.101,
+        "mmi": 4.154,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 202,
+        "sig": 180,
         "net": "nc",
         "code": "73671951",
         "ids": ",nc73671951,us7000g8a6,",
         "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 49,
+        "nst": 59,
         "dmin": null,
-        "rms": 0.08,
-        "gap": 51,
+        "rms": 0.1,
+        "gap": 53,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 1km W of Parkfield, CA"
+        "title": "M 3.3 - 1km W of Parkfield, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.4431686,
-          35.8971672,
-          5.38
+          -120.441,
+          35.8995,
+          5.65
         ]
       },
       "id": "nc73671951"
