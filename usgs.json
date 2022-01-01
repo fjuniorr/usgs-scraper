@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641044020000,
+    "generated": 1641044627000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
     {
@@ -1368,46 +1368,6 @@
         ]
       },
       "id": "us7000g862"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "13 km ESE of Old Harbor, Alaska",
-        "time": 1640957623753,
-        "updated": 1640958768040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021grv3h2r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021grv3h2r.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "021grv3h2r",
-        "ids": ",us7000g861,ak021grv3h2r,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.89,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 13 km ESE of Old Harbor, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.0975,
-          57.1701,
-          136
-        ]
-      },
-      "id": "ak021grv3h2r"
     }
   ],
   "bbox": [
