@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641093636000,
+    "generated": 1641094728000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 25
   },
   "features": [
     {
@@ -1008,53 +1008,13 @@
         ]
       },
       "id": "nc73671951"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "100 km ESE of Ozernovskiy, Russia",
-        "time": 1641008074141,
-        "updated": 1641009075040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g89r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g89r.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000g89r",
-        "ids": ",us7000g89r,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.896,
-        "rms": 0.56,
-        "gap": 127,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 100 km ESE of Ozernovskiy, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          157.8534,
-          51.1949,
-          65.92
-        ]
-      },
-      "id": "us7000g89r"
     }
   ],
   "bbox": [
     -173.8451,
     -56.5037,
     0.4,
-    157.8534,
+    153.1888,
     67.267,
     589.27
   ]
