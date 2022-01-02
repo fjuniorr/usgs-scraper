@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641163233000,
+    "generated": 1641163974000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "48 km NNE of Yigo Village, Guam",
+        "time": 1641162779678,
+        "updated": 1641163821062,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8jp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8jp.geojson",
+        "felt": 2,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000g8jp",
+        "ids": ",us7000g8jp,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.4,
+        "rms": 0.7,
+        "gap": 61,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 48 km NNE of Yigo Village, Guam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0751,
+          13.9375,
+          142.25
+        ]
+      },
+      "id": "us7000g8jp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Tonga",
+        "place": "115 km E of ‘Ohonua, Tonga",
         "time": 1641080859163,
         "updated": 1641082260040,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 110,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Tonga"
+        "title": "M 4.9 - 115 km E of ‘Ohonua, Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -1048,53 +1088,13 @@
         ]
       },
       "id": "us7000g8e4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "7 km WSW of Hasaki, Japan",
-        "time": 1641077176146,
-        "updated": 1641078522040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8du",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8du.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000g8du",
-        "ids": ",us7000g8du,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.228,
-        "rms": 0.37,
-        "gap": 155,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 7 km WSW of Hasaki, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.7594,
-          35.702,
-          51.2
-        ]
-      },
-      "id": "us7000g8du"
     }
   ],
   "bbox": [
     -174.3003,
     -59.6943,
     -0.35,
-    140.7594,
+    145.0751,
     60.427,
     218.87
   ]
