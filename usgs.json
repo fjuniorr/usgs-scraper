@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641113809000,
+    "generated": 1641114899000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "South Sandwich Islands region",
+        "time": 1641112246015,
+        "updated": 1641114026040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8fw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8fw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000g8fw",
+        "ids": ",us7000g8fw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 7.661,
+        "rms": 0.43,
+        "gap": 70,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.1938,
+          -58.7127,
+          35
+        ]
+      },
+      "id": "us7000g8fw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 5.4,
         "place": "98 km E of Shangri-La, China",
         "time": 1641106934444,
-        "updated": 1641108422545,
+        "updated": 1641114350065,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8fk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8fk.geojson",
@@ -575,11 +615,11 @@
         "mag": 4.3,
         "place": "79 km S of Olhão, Portugal",
         "time": 1641071028272,
-        "updated": 1641112187531,
+        "updated": 1641114595214,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8da",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8da.geojson",
-        "felt": 14,
+        "felt": 15,
         "cdi": 3.9,
         "mmi": null,
         "alert": null,
