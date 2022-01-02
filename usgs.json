@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641102783000,
+    "generated": 1641103923000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51999998,
+        "place": "7 km E of Pāhala, Hawaii",
+        "time": 1641103633620,
+        "updated": 1641103835000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72854222",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72854222.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "hv",
+        "code": "72854222",
+        "ids": ",hv72854222,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 157,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 7 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.40266418457,
+          19.2023334503174,
+          31.5799999237061
+        ]
+      },
+      "id": "hv72854222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.56,
+        "place": "4km WNW of Walker, CA",
+        "time": 1641103304820,
+        "updated": 1641103509516,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73672611",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73672611.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 101,
+        "net": "nc",
+        "code": "73672611",
+        "ids": ",nc73672611,nn00830852,",
+        "sources": ",nc,nn,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.1893,
+        "rms": 0.13,
+        "gap": 136,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 4km WNW of Walker, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5181656,
+          38.5284996,
+          6.09
+        ]
+      },
+      "id": "nc73672611"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -375,11 +455,11 @@
         "mag": 4.3,
         "place": "79 km S of Olhão, Portugal",
         "time": 1641071028272,
-        "updated": 1641099411775,
+        "updated": 1641102914173,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8da",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8da.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 3.9,
         "mmi": null,
         "alert": null,
@@ -1048,46 +1128,6 @@
         ]
       },
       "id": "pr2022001000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.29,
-        "place": "1km W of Parkfield, CA",
-        "time": 1641017448010,
-        "updated": 1641089024194,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671951",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73671951.geojson",
-        "felt": 33,
-        "cdi": 5.3,
-        "mmi": 4.154,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 184,
-        "net": "nc",
-        "code": "73671951",
-        "ids": ",nc73671951,us7000g8a6,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 59,
-        "dmin": null,
-        "rms": 0.1,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 1km W of Parkfield, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.441,
-          35.8995,
-          5.65
-        ]
-      },
-      "id": "nc73671951"
     }
   ],
   "bbox": [
