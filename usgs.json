@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641111216000,
+    "generated": 1641112623000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 25
   },
   "features": [
     {
@@ -333,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Tonga",
+        "place": "115 km E of ‘Ohonua, Tonga",
         "time": 1641080859163,
         "updated": 1641082260040,
         "tz": null,
@@ -357,7 +357,7 @@
         "gap": 110,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Tonga"
+        "title": "M 4.9 - 115 km E of ‘Ohonua, Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Kepulauan Talaud, Indonesia",
+        "place": "Pulau-Pulau Talaud, Indonesia",
         "time": 1641073393267,
         "updated": 1641079519040,
         "tz": null,
@@ -477,7 +477,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Kepulauan Talaud, Indonesia"
+        "title": "M 4.5 - Pulau-Pulau Talaud, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.72,
-        "place": "Puerto Rico region",
+        "place": "2 km SW of Indios, Puerto Rico",
         "time": 1641071308250,
         "updated": 1641079848257,
         "tz": null,
@@ -517,7 +517,7 @@
         "gap": 157,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Puerto Rico region"
+        "title": "M 2.7 - 2 km SW of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -535,11 +535,11 @@
         "mag": 4.3,
         "place": "79 km S of Olhão, Portugal",
         "time": 1641071028272,
-        "updated": 1641107885596,
+        "updated": 1641112187531,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8da",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8da.geojson",
-        "felt": 13,
+        "felt": 14,
         "cdi": 3.9,
         "mmi": null,
         "alert": null,
@@ -1008,86 +1008,6 @@
         ]
       },
       "id": "us7000g8av"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.71,
-        "place": "2km E of The Geysers, CA",
-        "time": 1641026028710,
-        "updated": 1641089075745,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73672011",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73672011.geojson",
-        "felt": 6,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 115,
-        "net": "nc",
-        "code": "73672011",
-        "ids": ",nc73672011,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 49,
-        "dmin": 0.01609,
-        "rms": 0.1,
-        "gap": 53,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 2km E of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.7281647,
-          38.7775002,
-          0.68
-        ]
-      },
-      "id": "nc73672011"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "88 km NNE of Yonakuni, Japan",
-        "time": 1641024891972,
-        "updated": 1641026194040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8am",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8am.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000g8am",
-        "ids": ",us7000g8am,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.787,
-        "rms": 0.62,
-        "gap": 94,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 88 km NNE of Yonakuni, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.4824,
-          25.1306,
-          10
-        ]
-      },
-      "id": "us7000g8am"
     }
   ],
   "bbox": [
