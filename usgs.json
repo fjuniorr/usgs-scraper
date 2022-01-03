@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641212235000,
+    "generated": 1641214323000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "57 km S of Whites City, New Mexico",
+        "time": 1641213236694,
+        "updated": 1641213804040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8p2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8p2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000g8p2",
+        "ids": ",us7000g8p2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.117,
+        "rms": 0.35,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 57 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3641,
+          31.6562,
+          5
+        ]
+      },
+      "id": "us7000g8p2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "western Texas",
+        "time": 1641212685103,
+        "updated": 1641213125040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8p0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8p0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "7000g8p0",
+        "ids": ",us7000g8p0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.27,
+        "rms": 0.33,
+        "gap": 53,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - western Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.9973,
+          31.6182,
+          5.8
+        ]
+      },
+      "id": "us7000g8p0"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -133,38 +213,38 @@
       "type": "Feature",
       "properties": {
         "mag": 2.53,
-        "place": "6 km SSE of Lugoff, South Carolina",
-        "time": 1641206970830,
-        "updated": 1641212062763,
+        "place": "5 km S of Lugoff, South Carolina",
+        "time": 1641206970450,
+        "updated": 1641214283225,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60141843",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60141843.geojson",
-        "felt": 86,
-        "cdi": 3.4,
+        "felt": 196,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 128,
+        "sig": 179,
         "net": "se",
         "code": "60141843",
         "ids": ",us7000g8nf,se60141843,",
         "sources": ",us,se,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.2807,
-        "rms": 0.28,
-        "gap": 63,
+        "nst": 17,
+        "dmin": 0.03984,
+        "rms": 0.42,
+        "gap": 54,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 6 km SSE of Lugoff, South Carolina"
+        "title": "M 2.5 - 5 km S of Lugoff, South Carolina"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.6728333,
-          34.1731667,
-          2.67
+          -80.701,
+          34.177,
+          2.05
         ]
       },
       "id": "se60141843"
@@ -295,17 +375,17 @@
         "mag": 6.2,
         "place": "64 km E of Hualien City, Taiwan",
         "time": 1641203196794,
-        "updated": 1641211252650,
+        "updated": 1641214132159,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8n3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8n3.geojson",
-        "felt": 46,
+        "felt": 48,
         "cdi": 6.7,
         "mmi": 6.258,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 622,
+        "sig": 624,
         "net": "us",
         "code": "7000g8n3",
         "ids": ",us7000g8n3,",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "58 km NW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1641200910698,
         "updated": 1641208296946,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 107,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - 58 km NW of Toyah, Texas"
+        "title": "M 3.7 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1448,91 +1528,11 @@
         ]
       },
       "id": "nn00830861"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "8 km E of Pāhala, Hawaii",
-        "time": 1641126559330,
-        "updated": 1641127197040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72854482",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72854482.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "hv",
-        "code": "72854482",
-        "ids": ",us7000g8h8,hv72854482,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": null,
-        "rms": 0.129999995,
-        "gap": 157,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 8 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.39599609375,
-          19.2045001983643,
-          31.7700004577637
-        ]
-      },
-      "id": "hv72854482"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "South Sandwich Islands region",
-        "time": 1641125948426,
-        "updated": 1641126981040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8h4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8h4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000g8h4",
-        "ids": ",us7000g8h4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 9.28,
-        "rms": 0.43,
-        "gap": 80,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -26.2024,
-          -59.6943,
-          36.18
-        ]
-      },
-      "id": "us7000g8h4"
     }
   ],
   "bbox": [
     -174.3003,
-    -59.6943,
+    -18.2356,
     -0.35,
     167.3411,
     61.5831,
