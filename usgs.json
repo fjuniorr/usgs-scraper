@@ -1,19 +1,19 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641189152000,
+    "generated": 1641190366000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 33
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "Idaho-Montana border region",
+        "place": "39 km NE of Leadore, Idaho",
         "time": 1641181485183,
         "updated": 1641187343848,
         "tz": null,
@@ -37,7 +37,7 @@
         "gap": 83,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Idaho-Montana border region"
+        "title": "M 2.6 - 39 km NE of Leadore, Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -175,11 +175,11 @@
         "mag": 3.8,
         "place": "14km SSE of Buttonwillow, CA",
         "time": 1641177288270,
-        "updated": 1641189094205,
+        "updated": 1641189407225,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39901519",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39901519.geojson",
-        "felt": 128,
+        "felt": 129,
         "cdi": 4.9,
         "mmi": 3.86,
         "alert": null,
@@ -533,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "western Texas",
+        "place": "39 km NNW of Toyah, Texas",
         "time": 1641163197745,
         "updated": 1641164097040,
         "tz": null,
@@ -557,7 +557,7 @@
         "gap": 101,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.9 - western Texas"
+        "title": "M 2.9 - 39 km NNW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1328,86 +1328,6 @@
         ]
       },
       "id": "ak0223esrud"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.56,
-        "place": "4km WNW of Walker, CA",
-        "time": 1641103304820,
-        "updated": 1641158652354,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73672611",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73672611.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 101,
-        "net": "nc",
-        "code": "73672611",
-        "ids": ",nc73672611,nn00830852,",
-        "sources": ",nc,nn,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 15,
-        "dmin": 0.1893,
-        "rms": 0.13,
-        "gap": 136,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 4km WNW of Walker, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.5181656,
-          38.5284996,
-          6.09
-        ]
-      },
-      "id": "nc73672611"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.64,
-        "place": "80 km NNW of San Antonio, Puerto Rico",
-        "time": 1641102762710,
-        "updated": 1641104418040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022002001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022002001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 204,
-        "net": "pr",
-        "code": "2022002001",
-        "ids": ",us7000g8fb,pr2022002001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.7539,
-        "rms": 0.83,
-        "gap": 237,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - 80 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2806,
-          19.2021,
-          58
-        ]
-      },
-      "id": "pr2022002001"
     }
   ],
   "bbox": [
