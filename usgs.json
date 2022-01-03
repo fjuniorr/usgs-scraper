@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641170222000,
+    "generated": 1641174404000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "1 km NNW of Point MacKenzie, Alaska",
+        "time": 1641170866628,
+        "updated": 1641173883871,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224yw7oo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224yw7oo.geojson",
+        "felt": 5,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 140,
+        "net": "ak",
+        "code": "0224yw7oo",
+        "ids": ",ak0224yw7oo,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.59,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 1 km NNW of Point MacKenzie, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9907,
+          61.3757,
+          35.5
+        ]
+      },
+      "id": "ak0224yw7oo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "59 km S of Whites City, New Mexico",
+        "time": 1641169907351,
+        "updated": 1641170416040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8k6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8k6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "us",
+        "code": "7000g8k6",
+        "ids": ",us7000g8k6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.161,
+        "rms": 0.36,
+        "gap": 107,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 59 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3133,
+          31.6446,
+          10.51
+        ]
+      },
+      "id": "us7000g8k6"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -93,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "western Texas",
+        "place": "39 km NNW of Toyah, Texas",
         "time": 1641163197745,
         "updated": 1641164097040,
         "tz": null,
@@ -117,7 +197,7 @@
         "gap": 101,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.9 - western Texas"
+        "title": "M 2.9 - 39 km NNW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -135,17 +215,17 @@
         "mag": 5,
         "place": "48 km NNE of Yigo Village, Guam",
         "time": 1641162779678,
-        "updated": 1641166391070,
+        "updated": 1641171316102,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8jp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8jp.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 386,
+        "sig": 387,
         "net": "us",
         "code": "7000g8jp",
         "ids": ",us7000g8jp,",
@@ -1135,7 +1215,7 @@
     -59.6943,
     -0.35,
     145.0751,
-    60.427,
+    61.3757,
     218.87
   ]
 }
