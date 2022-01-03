@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641174404000,
+    "generated": 1641176710000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,20 +12,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.48,
+        "place": "5 km SSE of Indios, Puerto Rico",
+        "time": 1641174350410,
+        "updated": 1641176110053,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022003000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022003000.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "2022003000",
+        "ids": ",pr2022003000,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.0794,
+        "rms": 0.07,
+        "gap": 204,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 5 km SSE of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8073,
+          17.9415,
+          10
+        ]
+      },
+      "id": "pr2022003000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3,
         "place": "1 km NNW of Point MacKenzie, Alaska",
         "time": 1641170866628,
-        "updated": 1641173883871,
+        "updated": 1641174555185,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224yw7oo",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224yw7oo.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 140,
+        "sig": 141,
         "net": "ak",
         "code": "0224yw7oo",
         "ids": ",ak0224yw7oo,",
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "39 km NNW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1641163197745,
         "updated": 1641164097040,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": 101,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.9 - 39 km NNW of Toyah, Texas"
+        "title": "M 2.9 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1168,46 +1208,6 @@
         ]
       },
       "id": "us7000g8fr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "15 km WNW of Ōhara, Japan",
-        "time": 1641088254414,
-        "updated": 1641104913355,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8ej",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8ej.geojson",
-        "felt": 3,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 285,
-        "net": "us",
-        "code": "7000g8ej",
-        "ids": ",us7000g8ej,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.788,
-        "rms": 0.54,
-        "gap": 158,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 15 km WNW of Ōhara, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.2301,
-          35.2913,
-          61.34
-        ]
-      },
-      "id": "us7000g8ej"
     }
   ],
   "bbox": [
