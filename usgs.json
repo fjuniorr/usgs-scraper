@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641249843000,
+    "generated": 1641250344000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.52,
+        "place": "1 km NNW of Guayanilla, Puerto Rico",
+        "time": 1641248438960,
+        "updated": 1641249946864,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022003007",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022003007.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "pr",
+        "code": "2022003007",
+        "ids": ",pr2022003007,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.1015,
+        "rms": 0.19,
+        "gap": 102,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 1 km NNW of Guayanilla, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.798,
+          18.036,
+          16
+        ]
+      },
+      "id": "pr2022003007"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -133,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Guerrero-Michoacan border region, Mexico",
+        "place": "12 km NNW of Zirándaro de los Chávez, Mexico",
         "time": 1641231289377,
         "updated": 1641234937040,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": 213,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Guerrero-Michoacan border region, Mexico"
+        "title": "M 4.4 - 12 km NNW of Zirándaro de los Chávez, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "western Texas",
+        "place": "58 km S of Whites City, New Mexico",
         "time": 1641230815500,
         "updated": 1641233191040,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - western Texas"
+        "title": "M 3.0 - 58 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -735,7 +775,7 @@
         "mag": 2.53,
         "place": "5 km S of Lugoff, South Carolina",
         "time": 1641206970450,
-        "updated": 1641249824377,
+        "updated": 1641250126163,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60141843",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60141843.geojson",
@@ -1173,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "Idaho-Montana border region",
+        "place": "39 km NE of Leadore, Idaho",
         "time": 1641181485183,
         "updated": 1641225620800,
         "tz": null,
@@ -1197,7 +1237,7 @@
         "gap": 83,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Idaho-Montana border region"
+        "title": "M 2.6 - 39 km NE of Leadore, Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -1648,46 +1688,6 @@
         ]
       },
       "id": "uu60475847"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "74 km WNW of Tobelo, Indonesia",
-        "time": 1641163463470,
-        "updated": 1641164612040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8js",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8js.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000g8js",
-        "ids": ",us7000g8js,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.139,
-        "rms": 0.75,
-        "gap": 100,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 74 km WNW of Tobelo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.3672,
-          1.9189,
-          97.54
-        ]
-      },
-      "id": "us7000g8js"
     }
   ],
   "bbox": [
