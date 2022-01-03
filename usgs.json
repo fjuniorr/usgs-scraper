@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641192911000,
+    "generated": 1641193820000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 32
   },
   "features": [
     {
@@ -15,13 +15,13 @@
         "mag": 3.7,
         "place": "58 km S of Whites City, New Mexico",
         "time": 1641191453871,
-        "updated": 1641192570566,
+        "updated": 1641193024402,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8lq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8lq.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 4.627,
+        "mmi": 4.286,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -215,17 +215,17 @@
         "mag": 3.8,
         "place": "14km SSE of Buttonwillow, CA",
         "time": 1641177288270,
-        "updated": 1641189407225,
+        "updated": 1641193128174,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39901519",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39901519.geojson",
-        "felt": 129,
+        "felt": 130,
         "cdi": 4.9,
         "mmi": 3.86,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 285,
+        "sig": 286,
         "net": "ci",
         "code": "39901519",
         "ids": ",ci39901519,us7000g8kv,",
@@ -1288,46 +1288,6 @@
         ]
       },
       "id": "us7000g8fq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "98 km E of Shangri-La, China",
-        "time": 1641106934444,
-        "updated": 1641116841717,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8fk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8fk.geojson",
-        "felt": 3,
-        "cdi": 4.6,
-        "mmi": 4.839,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 450,
-        "net": "us",
-        "code": "7000g8fk",
-        "ids": ",us7000g8fk,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 6.575,
-        "rms": 0.55,
-        "gap": 21,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 98 km E of Shangri-La, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          100.7105,
-          27.8098,
-          38.4
-        ]
-      },
-      "id": "us7000g8fk"
     }
   ],
   "bbox": [
