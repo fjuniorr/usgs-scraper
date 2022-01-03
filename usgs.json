@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641222675000,
+    "generated": 1641224103000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 39
   },
   "features": [
     {
@@ -14,8 +14,8 @@
       "properties": {
         "mag": 2.6,
         "place": "7 km NNW of Milan, Kansas",
-        "time": 1641221847083,
-        "updated": 1641222670040,
+        "time": 1641221847108,
+        "updated": 1641224064040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8pm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8pm.geojson",
@@ -32,8 +32,8 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 0.183,
-        "rms": 0.32,
+        "dmin": 0.182,
+        "rms": 0.33,
         "gap": 107,
         "magType": "mb_lg",
         "type": "earthquake",
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.692,
-          37.3292,
-          2.08
+          -97.6933,
+          37.3285,
+          2.21
         ]
       },
       "id": "us7000g8pm"
@@ -52,16 +52,56 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "Fiji region",
+        "time": 1641221391913,
+        "updated": 1641223963040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8pn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8pn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000g8pn",
+        "ids": ",us7000g8pn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.037,
+        "rms": 0.35,
+        "gap": 132,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.814,
+          -18.6808,
+          511.26
+        ]
+      },
+      "id": "us7000g8pn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.9,
         "place": "10 km N of Houston, Alaska",
         "time": 1641219781030,
-        "updated": 1641221714381,
+        "updated": 1641223592670,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225731gk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225731gk.geojson",
         "felt": 2,
         "cdi": 3.1,
-        "mmi": 2.214,
+        "mmi": 2.225,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
@@ -133,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "38 km NNW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1641212685103,
         "updated": 1641213125040,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": 53,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 38 km NNW of Toyah, Texas"
+        "title": "M 3.3 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -175,13 +215,13 @@
         "mag": 4.4,
         "place": "58 km SE of Unalaska, Alaska",
         "time": 1641211139422,
-        "updated": 1641212164695,
+        "updated": 1641223927259,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8ns",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8ns.geojson",
         "felt": 1,
         "cdi": 3.4,
-        "mmi": 2.948,
+        "mmi": 2.345,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -335,17 +375,17 @@
         "mag": 2.53,
         "place": "5 km S of Lugoff, South Carolina",
         "time": 1641206970450,
-        "updated": 1641222462810,
+        "updated": 1641223913823,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60141843",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60141843.geojson",
-        "felt": 293,
+        "felt": 298,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 198,
+        "sig": 200,
         "net": "se",
         "code": "60141843",
         "ids": ",us7000g8nf,se60141843,",
@@ -692,46 +732,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "44 km NNE of Whittier, Alaska",
-        "time": 1641197074825,
-        "updated": 1641197690979,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02253elgt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02253elgt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "02253elgt",
-        "ids": ",ak02253elgt,",
-        "sources": ",ak,",
-        "types": ",origin,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.95,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 44 km NNE of Whittier, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.352,
-          61.1389,
-          92.3
-        ]
-      },
-      "id": "ak02253elgt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 3.7,
         "place": "58 km S of Whites City, New Mexico",
         "time": 1641191453871,
@@ -853,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "39 km NE of Leadore, Idaho",
+        "place": "Idaho-Montana border region",
         "time": 1641181485183,
         "updated": 1641187343848,
         "tz": null,
@@ -877,7 +877,7 @@
         "gap": 83,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 39 km NE of Leadore, Idaho"
+        "title": "M 2.6 - Idaho-Montana border region"
       },
       "geometry": {
         "type": "Point",
@@ -1012,39 +1012,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.8,
-        "place": "14km SSE of Buttonwillow, CA",
-        "time": 1641177288270,
-        "updated": 1641221774656,
+        "mag": 3.92,
+        "place": "15km SSE of Buttonwillow, CA",
+        "time": 1641177288200,
+        "updated": 1641223840177,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39901519",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39901519.geojson",
-        "felt": 134,
-        "cdi": 4.9,
-        "mmi": 3.86,
+        "felt": 135,
+        "cdi": 4.2,
+        "mmi": 3.827,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 288,
+        "sig": 293,
         "net": "ci",
         "code": "39901519",
         "ids": ",ci39901519,us7000g8kv,",
         "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 88,
-        "dmin": 0.04989,
-        "rms": 0.32,
-        "gap": 57,
-        "magType": "mlr",
+        "nst": 59,
+        "dmin": 0.05348,
+        "rms": 0.31,
+        "gap": 56,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 14km SSE of Buttonwillow, CA"
+        "title": "M 3.9 - 15km SSE of Buttonwillow, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.3951645,
-          35.2901649,
-          16.97
+          -119.3906667,
+          35.284,
+          17.73
         ]
       },
       "id": "ci39901519"
@@ -1373,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "39 km NNW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1641163197745,
         "updated": 1641164097040,
         "tz": null,
@@ -1397,7 +1397,7 @@
         "gap": 101,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.9 - 39 km NNW of Toyah, Texas"
+        "title": "M 2.9 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1568,54 +1568,14 @@
         ]
       },
       "id": "us7000g8ia"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "15km NNW of San Simeon, CA",
-        "time": 1641136521800,
-        "updated": 1641152823083,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73672761",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73672761.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "nc",
-        "code": "73672761",
-        "ids": ",nc73672761,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 49,
-        "dmin": null,
-        "rms": 0.37,
-        "gap": 172,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 15km NNW of San Simeon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.2559967,
-          35.7680016,
-          -0.35
-        ]
-      },
-      "id": "nc73672761"
     }
   ],
   "bbox": [
     -178.2392,
     -24.2773,
-    -0.35,
+    2.05,
     167.3411,
     61.7284,
-    195.28
+    511.26
   ]
 }
