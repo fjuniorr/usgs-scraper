@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641179447000,
+    "generated": 1641180723000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 32
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 3,
         "place": "14km SSE of Buttonwillow, CA",
         "time": 1641178950290,
-        "updated": 1641179224958,
+        "updated": 1641179954602,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39901543",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39901543.geojson",
-        "felt": 1,
+        "felt": 5,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 139,
+        "sig": 140,
         "net": "ci",
         "code": "39901543",
         "ids": ",ci39901543,",
@@ -55,17 +55,17 @@
         "mag": 3.8,
         "place": "14km SSE of Buttonwillow, CA",
         "time": 1641177288270,
-        "updated": 1641179440319,
+        "updated": 1641180050359,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39901519",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39901519.geojson",
-        "felt": 106,
+        "felt": 114,
         "cdi": 4.9,
         "mmi": 3.88,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 274,
+        "sig": 278,
         "net": "ci",
         "code": "39901519",
         "ids": ",ci39901519,us7000g8kv,",
@@ -92,10 +92,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.9,
-        "place": "108 km NW of Sola, Vanuatu",
-        "time": 1641175786461,
-        "updated": 1641178071185,
+        "mag": 6,
+        "place": "109 km NW of Sola, Vanuatu",
+        "time": 1641175784621,
+        "updated": 1641180669040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8kq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8kq.geojson",
@@ -105,26 +105,26 @@
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 536,
+        "sig": 554,
         "net": "us",
         "code": "7000g8kq",
         "ids": ",us7000g8kq,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 2.272,
-        "rms": 0.86,
-        "gap": 27,
+        "dmin": 2.27,
+        "rms": 1.21,
+        "gap": 24,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.9 - 108 km NW of Sola, Vanuatu"
+        "title": "M 6.0 - 109 km NW of Sola, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          166.8342,
-          -13.1895,
-          121.88
+          166.8192,
+          -13.1945,
+          104
         ]
       },
       "id": "us7000g8kq"
@@ -175,22 +175,22 @@
         "mag": 3,
         "place": "1 km NNW of Point MacKenzie, Alaska",
         "time": 1641170866628,
-        "updated": 1641174555185,
+        "updated": 1641180231020,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224yw7oo",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224yw7oo.geojson",
         "felt": 6,
         "cdi": 3.4,
-        "mmi": null,
+        "mmi": 1.664,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 141,
         "net": "ak",
         "code": "0224yw7oo",
-        "ids": ",ak0224yw7oo,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",ak0224yw7oo,us7000g8ka,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.59,
@@ -214,8 +214,8 @@
       "properties": {
         "mag": 3.2,
         "place": "59 km S of Whites City, New Mexico",
-        "time": 1641169907351,
-        "updated": 1641170416040,
+        "time": 1641169907342,
+        "updated": 1641180259040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8k6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8k6.geojson",
@@ -232,9 +232,9 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 0.161,
-        "rms": 0.36,
-        "gap": 107,
+        "dmin": 0.156,
+        "rms": 0.46,
+        "gap": 108,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.2 - 59 km S of Whites City, New Mexico"
@@ -242,12 +242,52 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.3133,
-          31.6446,
-          10.51
+          -104.3194,
+          31.6431,
+          11.19
         ]
       },
       "id": "us7000g8k6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "western Xizang",
+        "time": 1641169684209,
+        "updated": 1641180713040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8k7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8k7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000g8k7",
+        "ids": ",us7000g8k7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.663,
+        "rms": 0.68,
+        "gap": 62,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - western Xizang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.3486,
+          33.9394,
+          10
+        ]
+      },
+      "id": "us7000g8k7"
     },
     {
       "type": "Feature",
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "39 km NNW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1641163197745,
         "updated": 1641164097040,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 101,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.9 - 39 km NNW of Toyah, Texas"
+        "title": "M 2.9 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -415,7 +455,7 @@
         "mag": 3,
         "place": "18 km N of Stanton, Texas",
         "time": 1641157698167,
-        "updated": 1641177890350,
+        "updated": 1641180669608,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8j6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8j6.geojson",
@@ -1248,93 +1288,13 @@
         ]
       },
       "id": "us7000g8ex"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "21 km NNE of La Ligua, Chile",
-        "time": 1641093487947,
-        "updated": 1641142362962,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8eq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8eq.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "7000g8eq",
-        "ids": ",us7000g8eq,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.265,
-        "rms": 0.37,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.7 - 21 km NNE of La Ligua, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.1266,
-          -32.2756,
-          88.86
-        ]
-      },
-      "id": "us7000g8eq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "South Sandwich Islands region",
-        "time": 1641093462436,
-        "updated": 1641160960040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8fr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8fr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000g8fr",
-        "ids": ",us7000g8fr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 7.857,
-        "rms": 1.3,
-        "gap": 86,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -25.9626,
-          -59.631,
-          35
-        ]
-      },
-      "id": "us7000g8fr"
     }
   ],
   "bbox": [
     -174.3003,
     -59.6943,
     -0.35,
-    166.8342,
+    166.8192,
     61.3757,
     218.87
   ]
