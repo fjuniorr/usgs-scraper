@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641224103000,
+    "generated": 1641224930000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -93,9 +93,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "10 km N of Houston, Alaska",
-        "time": 1641219781030,
-        "updated": 1641223592670,
+        "place": "10 km E of Willow, Alaska",
+        "time": 1641219781111,
+        "updated": 1641224906018,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225731gk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225731gk.geojson",
@@ -103,7 +103,7 @@
         "cdi": 3.1,
         "mmi": 2.225,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 130,
         "net": "ak",
@@ -113,18 +113,18 @@
         "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.67,
+        "rms": 0.35,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 10 km N of Houston, Alaska"
+        "title": "M 2.9 - 10 km E of Willow, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.8249,
-          61.7284,
-          36.3
+          -149.8345,
+          61.7463,
+          52.6
         ]
       },
       "id": "ak0225731gk"
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "western Texas",
+        "place": "38 km NNW of Toyah, Texas",
         "time": 1641212685103,
         "updated": 1641213125040,
         "tz": null,
@@ -197,7 +197,7 @@
         "gap": 53,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - western Texas"
+        "title": "M 3.3 - 38 km NNW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -375,17 +375,17 @@
         "mag": 2.53,
         "place": "5 km S of Lugoff, South Carolina",
         "time": 1641206970450,
-        "updated": 1641223913823,
+        "updated": 1641224876533,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60141843",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60141843.geojson",
-        "felt": 298,
+        "felt": 306,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 200,
+        "sig": 203,
         "net": "se",
         "code": "60141843",
         "ids": ",us7000g8nf,se60141843,",
@@ -812,48 +812,48 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.4,
-        "place": "130 km WSW of Adak, Alaska",
-        "time": 1641189258592,
-        "updated": 1641222214265,
+        "mag": 3.5,
+        "place": "135 km SW of Adak, Alaska",
+        "time": 1641189257597,
+        "updated": 1641224745040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02251wtne",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02251wtne.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8pp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8pp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": 2.014,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 178,
-        "net": "ak",
-        "code": "02251wtne",
-        "ids": ",ak02251wtne,",
-        "sources": ",ak,",
+        "sig": 188,
+        "net": "us",
+        "code": "7000g8pp",
+        "ids": ",ak02251wtne,us7000g8pp,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": null,
-        "rms": 0.39,
-        "gap": null,
-        "magType": "ml",
+        "dmin": 0.498,
+        "rms": 0.43,
+        "gap": 217,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.4 - 130 km WSW of Adak, Alaska"
+        "title": "M 3.5 - 135 km SW of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -178.2392,
-          51.2557,
-          24.7
+          -178.2587,
+          51.1967,
+          31.6
         ]
       },
-      "id": "ak02251wtne"
+      "id": "us7000g8pp"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "Idaho-Montana border region",
+        "place": "39 km NE of Leadore, Idaho",
         "time": 1641181485183,
         "updated": 1641187343848,
         "tz": null,
@@ -877,7 +877,7 @@
         "gap": 83,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Idaho-Montana border region"
+        "title": "M 2.6 - 39 km NE of Leadore, Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -1015,7 +1015,7 @@
         "mag": 3.92,
         "place": "15km SSE of Buttonwillow, CA",
         "time": 1641177288200,
-        "updated": 1641223840177,
+        "updated": 1641224517940,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39901519",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39901519.geojson",
@@ -1373,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "western Texas",
+        "place": "39 km NNW of Toyah, Texas",
         "time": 1641163197745,
         "updated": 1641164097040,
         "tz": null,
@@ -1397,7 +1397,7 @@
         "gap": 101,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.9 - western Texas"
+        "title": "M 2.9 - 39 km NNW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1571,11 +1571,11 @@
     }
   ],
   "bbox": [
-    -178.2392,
+    -178.2587,
     -24.2773,
     2.05,
     167.3411,
-    61.7284,
+    61.7463,
     511.26
   ]
 }
