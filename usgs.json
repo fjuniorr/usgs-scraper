@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641324142000,
+    "generated": 1641324811000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 30
   },
   "features": [
     {
@@ -255,7 +255,7 @@
         "mag": 2.8,
         "place": "3 km NW of Timberlake, Ohio",
         "time": 1641302446164,
-        "updated": 1641323356405,
+        "updated": 1641324562232,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8x2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8x2.geojson",
@@ -328,6 +328,46 @@
         ]
       },
       "id": "us7000g8wi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "279 km SSE of False Pass, Alaska",
+        "time": 1641301238603,
+        "updated": 1641324681512,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0226tw43q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0226tw43q.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "0226tw43q",
+        "ids": ",ak0226tw43q,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.56,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 279 km SSE of False Pass, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.2899,
+          52.437,
+          5.9
+        ]
+      },
+      "id": "ak0226tw43q"
     },
     {
       "type": "Feature",
