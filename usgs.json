@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641305370000,
+    "generated": 1641306363000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,17 +15,17 @@
         "mag": 2.8,
         "place": "3 km NW of Timberlake, Ohio",
         "time": 1641302446164,
-        "updated": 1641305320440,
+        "updated": 1641306271458,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8x2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8x2.geojson",
-        "felt": 125,
-        "cdi": 3.1,
+        "felt": 151,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 159,
+        "sig": 178,
         "net": "us",
         "code": "7000g8x2",
         "ids": ",us7000g8x2,",
@@ -48,6 +48,46 @@
         ]
       },
       "id": "us7000g8x2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "183 km NNE of Lospalos, Timor Leste",
+        "time": 1641301373520,
+        "updated": 1641306227040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8wi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8wi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000g8wi",
+        "ids": ",us7000g8wi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.654,
+        "rms": 0.52,
+        "gap": 66,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 183 km NNE of Lospalos, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7379,
+          -7.0343,
+          297.9
+        ]
+      },
+      "id": "us7000g8wi"
     },
     {
       "type": "Feature",
@@ -133,9 +173,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.49,
-        "place": "21 km SE of Kanarraville, Utah",
-        "time": 1641287810910,
-        "updated": 1641289725670,
+        "place": "20 km SE of Kanarraville, Utah",
+        "time": 1641287810780,
+        "updated": 1641306069130,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60476032",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60476032.geojson",
@@ -151,20 +191,20 @@
         "ids": ",uu60476032,",
         "sources": ",uu,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.1232,
-        "rms": 0.15,
-        "gap": 142,
+        "nst": 14,
+        "dmin": 0.1291,
+        "rms": 0.28,
+        "gap": 141,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 21 km SE of Kanarraville, Utah"
+        "title": "M 2.5 - 20 km SE of Kanarraville, Utah"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -112.9941667,
-          37.4213333,
-          3.45
+          -112.9943333,
+          37.4321667,
+          3.94
         ]
       },
       "id": "uu60476032"
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.51,
-        "place": "Puerto Rico region",
+        "place": "7 km ESE of La Parguera, Puerto Rico",
         "time": 1641279993540,
         "updated": 1641280910991,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 219,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 7 km ESE of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -535,7 +575,7 @@
         "mag": 6.1,
         "place": "northern Mid-Atlantic Ridge",
         "time": 1641266317954,
-        "updated": 1641273722401,
+        "updated": 1641305949040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8tz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8tz.geojson",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "107 km N of Brenas, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1641263027200,
         "updated": 1641264382040,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 254,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 107 km N of Brenas, Puerto Rico"
+        "title": "M 3.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Guerrero-Michoacan border region, Mexico",
+        "place": "12 km NNW of Zirándaro de los Chávez, Mexico",
         "time": 1641231289377,
         "updated": 1641256055938,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 213,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Guerrero-Michoacan border region, Mexico"
+        "title": "M 4.4 - 12 km NNW of Zirándaro de los Chávez, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "western Texas",
+        "place": "58 km S of Whites City, New Mexico",
         "time": 1641230815500,
         "updated": 1641233191040,
         "tz": null,
@@ -997,7 +1037,7 @@
         "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - western Texas"
+        "title": "M 3.0 - 58 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1248,46 +1288,6 @@
         ]
       },
       "id": "us7000g8pn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "10 km E of Willow, Alaska",
-        "time": 1641219781111,
-        "updated": 1641255473910,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225731gk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225731gk.geojson",
-        "felt": 4,
-        "cdi": 3.1,
-        "mmi": 2.366,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 131,
-        "net": "ak",
-        "code": "0225731gk",
-        "ids": ",ak0225731gk,us7000g8pk,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.35,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 10 km E of Willow, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.8345,
-          61.7463,
-          52.6
-        ]
-      },
-      "id": "ak0225731gk"
     }
   ],
   "bbox": [
