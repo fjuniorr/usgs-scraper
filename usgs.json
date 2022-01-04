@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641324811000,
+    "generated": 1641325360000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -255,11 +255,11 @@
         "mag": 2.8,
         "place": "3 km NW of Timberlake, Ohio",
         "time": 1641302446164,
-        "updated": 1641324562232,
+        "updated": 1641325181524,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8x2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8x2.geojson",
-        "felt": 282,
+        "felt": 283,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
