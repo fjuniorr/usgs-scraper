@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641265908000,
+    "generated": 1641267110000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 37
   },
   "features": [
     {
@@ -95,17 +95,17 @@
         "mag": 4.25,
         "place": "8 km E of Pāhala, Hawaii",
         "time": 1641255206770,
-        "updated": 1641265037855,
+        "updated": 1641266225007,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72856332",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72856332.geojson",
-        "felt": 156,
+        "felt": 157,
         "cdi": 3.8,
         "mmi": 5.474,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 337,
+        "sig": 338,
         "net": "hv",
         "code": "72856332",
         "ids": ",pt22004050,hv72856332,us7000g8tb,",
@@ -373,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Guerrero-Michoacan border region, Mexico",
+        "place": "12 km NNW of Zirándaro de los Chávez, Mexico",
         "time": 1641231289377,
         "updated": 1641256055938,
         "tz": null,
@@ -397,7 +397,7 @@
         "gap": 213,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Guerrero-Michoacan border region, Mexico"
+        "title": "M 4.4 - 12 km NNW of Zirándaro de los Chávez, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "western Texas",
+        "place": "58 km S of Whites City, New Mexico",
         "time": 1641230815500,
         "updated": 1641233191040,
         "tz": null,
@@ -437,7 +437,7 @@
         "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - western Texas"
+        "title": "M 3.0 - 58 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "Idaho-Montana border region",
+        "place": "39 km NE of Leadore, Idaho",
         "time": 1641181485183,
         "updated": 1641225620800,
         "tz": null,
@@ -1477,7 +1477,7 @@
         "gap": 83,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Idaho-Montana border region"
+        "title": "M 2.6 - 39 km NE of Leadore, Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -1488,86 +1488,6 @@
         ]
       },
       "id": "us7000g8l8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "39 km NNE of Leadore, Idaho",
-        "time": 1641180032995,
-        "updated": 1641226596180,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8l7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8l7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "7000g8l7",
-        "ids": ",mb80535014,us7000g8l7,",
-        "sources": ",mb,us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.23,
-        "rms": 1.11,
-        "gap": 81,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 39 km NNE of Leadore, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.0939,
-          44.9786,
-          5
-        ]
-      },
-      "id": "us7000g8l7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "36 km WSW of Mentone, Texas",
-        "time": 1641179516413,
-        "updated": 1641192330564,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8l5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8l5.geojson",
-        "felt": 1,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "7000g8l5",
-        "ids": ",us7000g8l5,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.269,
-        "rms": 0.45,
-        "gap": 54,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 36 km WSW of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.9771,
-          31.6236,
-          5.43
-        ]
-      },
-      "id": "us7000g8l5"
     }
   ],
   "bbox": [
