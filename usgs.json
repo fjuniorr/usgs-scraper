@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641326058000,
+    "generated": 1641327038000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,20 +12,20 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.36,
+        "mag": 3.38,
         "place": "49 km W of Hawaiian Ocean View, Hawaii",
-        "time": 1641325446680,
-        "updated": 1641325797897,
+        "time": 1641325446390,
+        "updated": 1641326719119,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72857432",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72857432.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 7,
+        "cdi": 2.5,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 174,
+        "sig": 178,
         "net": "hv",
         "code": "72857432",
         "ids": ",hv72857432,",
@@ -33,18 +33,18 @@
         "types": ",dyfi,origin,phase-data,",
         "nst": 44,
         "dmin": null,
-        "rms": 0.189999998,
-        "gap": 263,
-        "magType": "ml",
+        "rms": 0.15,
+        "gap": 265,
+        "magType": "md",
         "type": "earthquake",
         "title": "M 3.4 - 49 km W of Hawaiian Ocean View, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.239501953125,
-          19.0478324890137,
-          12.2399997711182
+          -156.229833333333,
+          19.0335,
+          8.56
         ]
       },
       "id": "hv72857432"
@@ -335,11 +335,11 @@
         "mag": 2.8,
         "place": "3 km NW of Timberlake, Ohio",
         "time": 1641302446164,
-        "updated": 1641325817729,
+        "updated": 1641326738671,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8x2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8x2.geojson",
-        "felt": 287,
+        "felt": 288,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
