@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641339120000,
+    "generated": 1641339903000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "31 km NE of Osino, Nevada",
+        "time": 1641338559593,
+        "updated": 1641339872653,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00831000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00831000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "nn",
+        "code": "00831000",
+        "ids": ",nn00831000,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.359,
+        "rms": 0.1885,
+        "gap": 110.43,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 31 km NE of Osino, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.35,
+          41.094,
+          4.2
+        ]
+      },
+      "id": "nn00831000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "Alaska Peninsula",
+        "place": "97 km SE of Ugashik, Alaska",
         "time": 1641325243557,
         "updated": 1641338125040,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Alaska Peninsula"
+        "title": "M 2.9 - 97 km SE of Ugashik, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.51,
-        "place": "7 km ESE of La Parguera, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1641279993540,
         "updated": 1641280910991,
         "tz": null,
@@ -1077,7 +1117,7 @@
         "gap": 219,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 7 km ESE of La Parguera, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
