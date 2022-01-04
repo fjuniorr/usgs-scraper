@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641296550000,
+    "generated": 1641297218000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "96 km NE of Samaná, Dominican Republic",
+        "time": 1641294631520,
+        "updated": 1641296659561,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022004005",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022004005.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "pr",
+        "code": "2022004005",
+        "ids": ",pr2022004005,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 1.459,
+        "rms": 0.34,
+        "gap": 230,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 96 km NE of Samaná, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.7995,
+          19.9118,
+          19
+        ]
+      },
+      "id": "pr2022004005"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -575,11 +615,11 @@
         "mag": 4.25,
         "place": "8 km E of Pāhala, Hawaii",
         "time": 1641255206770,
-        "updated": 1641293181196,
+        "updated": 1641297066567,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72856332",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72856332.geojson",
-        "felt": 163,
+        "felt": 164,
         "cdi": 3.8,
         "mmi": 5.474,
         "alert": "green",
@@ -1328,46 +1368,6 @@
         ]
       },
       "id": "us7000g8ns"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.69,
-        "place": "10 km S of Guánica, Puerto Rico",
-        "time": 1641210667270,
-        "updated": 1641211824304,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022003003",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022003003.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "pr",
-        "code": "2022003003",
-        "ids": ",pr2022003003,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.0976,
-        "rms": 0.14,
-        "gap": 244,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 10 km S of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.889,
-          17.878,
-          13
-        ]
-      },
-      "id": "pr2022003003"
     }
   ],
   "bbox": [
