@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641329585000,
+    "generated": 1641330522000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.67,
+        "place": "76 km N of Isabela, Puerto Rico",
+        "time": 1641328219470,
+        "updated": 1641330335182,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022004008",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022004008.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 207,
+        "net": "pr",
+        "code": "2022004008",
+        "ids": ",pr2022004008,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.7214,
+        "rms": 0.5,
+        "gap": 216,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 76 km N of Isabela, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1321,
+          19.1886,
+          10
+        ]
+      },
+      "id": "pr2022004008"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -415,11 +455,11 @@
         "mag": 2.8,
         "place": "3 km NW of Timberlake, Ohio",
         "time": 1641302446164,
-        "updated": 1641329079740,
+        "updated": 1641330196252,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8x2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8x2.geojson",
-        "felt": 292,
+        "felt": 294,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
