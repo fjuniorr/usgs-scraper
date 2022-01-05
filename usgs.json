@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641385009000,
+    "generated": 1641387194000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -55,17 +55,17 @@
         "mag": 4.2,
         "place": "41 km E of Narrogin, Australia",
         "time": 1641382625197,
-        "updated": 1641384896632,
+        "updated": 1641386618382,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g979",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g979.geojson",
-        "felt": 5,
+        "felt": 11,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 273,
+        "sig": 276,
         "net": "us",
         "code": "7000g979",
         "ids": ",us7000g979,",
@@ -93,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "115 km S of Kokopo, Papua New Guinea",
+        "place": "New Britain region, Papua New Guinea",
         "time": 1641379608163,
         "updated": 1641381113040,
         "tz": null,
@@ -117,7 +117,7 @@
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 115 km S of Kokopo, Papua New Guinea"
+        "title": "M 4.6 - New Britain region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "157 km E of Ust’-Kamchatsk Staryy, Russia",
+        "place": "Komandorskiye Ostrova, Russia region",
         "time": 1641367347322,
         "updated": 1641374923820,
         "tz": null,
@@ -277,7 +277,7 @@
         "gap": 72,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - 157 km E of Ust’-Kamchatsk Staryy, Russia"
+        "title": "M 5.4 - Komandorskiye Ostrova, Russia region"
       },
       "geometry": {
         "type": "Point",
@@ -415,17 +415,17 @@
         "mag": 2.57,
         "place": "5 km SW of Lugoff, South Carolina",
         "time": 1641365110770,
-        "updated": 1641384739412,
+        "updated": 1641387193126,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60378391",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60378391.geojson",
-        "felt": 271,
+        "felt": 289,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 226,
+        "sig": 235,
         "net": "se",
         "code": "60378391",
         "ids": ",se60378391,us7000g95m,",
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Chile-Bolivia border region",
+        "place": "Antofagasta, Chile",
         "time": 1641349046065,
         "updated": 1641350215040,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 51,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Chile-Bolivia border region"
+        "title": "M 4.2 - Antofagasta, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "97 km SE of Ugashik, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1641325243557,
         "updated": 1641338125040,
         "tz": null,
@@ -1117,7 +1117,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 97 km SE of Ugashik, Alaska"
+        "title": "M 2.9 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
