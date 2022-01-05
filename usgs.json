@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641360303000,
+    "generated": 1641360985000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 5.1,
         "place": "70 km SSW of Okurcalar, Turkey",
         "time": 1641352877154,
-        "updated": 1641358932105,
+        "updated": 1641360914993,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g94d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g94d.geojson",
-        "felt": 17,
+        "felt": 19,
         "cdi": 5.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 409,
+        "sig": 410,
         "net": "us",
         "code": "7000g94d",
         "ids": ",us7000g94d,",
@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Antofagasta, Chile",
+        "place": "Chile-Bolivia border region",
         "time": 1641349046065,
         "updated": 1641350215040,
         "tz": null,
@@ -157,7 +157,7 @@
         "gap": 51,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Antofagasta, Chile"
+        "title": "M 4.2 - Chile-Bolivia border region"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "Alaska Peninsula",
+        "place": "97 km SE of Ugashik, Alaska",
         "time": 1641325243557,
         "updated": 1641338125040,
         "tz": null,
@@ -597,7 +597,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Alaska Peninsula"
+        "title": "M 2.9 - 97 km SE of Ugashik, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.51,
-        "place": "7 km ESE of La Parguera, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1641279993540,
         "updated": 1641280910991,
         "tz": null,
@@ -1357,7 +1357,7 @@
         "gap": 219,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 7 km ESE of La Parguera, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1408,46 +1408,6 @@
         ]
       },
       "id": "pr2022004002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "50 km ENE of Namie, Japan",
-        "time": 1641274508410,
-        "updated": 1641347015914,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8ui",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8ui.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000g8ui",
-        "ids": ",us7000g8ui,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 2.876,
-        "rms": 0.59,
-        "gap": 97,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 50 km ENE of Namie, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.4988,
-          37.7106,
-          61.51
-        ]
-      },
-      "id": "us7000g8ui"
     }
   ],
   "bbox": [
