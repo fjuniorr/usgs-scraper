@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641388767000,
+    "generated": 1641389954000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "79 km SW of Yonakuni, Japan",
+        "time": 1641388296319,
+        "updated": 1641389518040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g97l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g97l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000g97l",
+        "ids": ",us7000g97l,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.723,
+        "rms": 0.69,
+        "gap": 74,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 79 km SW of Yonakuni, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.5201,
+          23.8974,
+          22.64
+        ]
+      },
+      "id": "us7000g97l"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -415,17 +455,17 @@
         "mag": 2.57,
         "place": "5 km SW of Lugoff, South Carolina",
         "time": 1641365110770,
-        "updated": 1641388740809,
+        "updated": 1641389834822,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60378391",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60378391.geojson",
-        "felt": 299,
+        "felt": 302,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 239,
+        "sig": 241,
         "net": "se",
         "code": "60378391",
         "ids": ",se60378391,us7000g95m,",
@@ -455,17 +495,17 @@
         "mag": 3.81,
         "place": "13 km NNW of Wai‘ōhinu, Hawaii",
         "time": 1641362416110,
-        "updated": 1641381587449,
+        "updated": 1641389800005,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72858117",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72858117.geojson",
-        "felt": 160,
+        "felt": 161,
         "cdi": 4.3,
         "mmi": 4.852,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 292,
+        "sig": 293,
         "net": "hv",
         "code": "72858117",
         "ids": ",hv72858117,us7000g95b,",
@@ -1448,46 +1488,6 @@
         ]
       },
       "id": "us7000g8xm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "3 km NW of Timberlake, Ohio",
-        "time": 1641302446164,
-        "updated": 1641387759906,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8x2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8x2.geojson",
-        "felt": 323,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 243,
-        "net": "us",
-        "code": "7000g8x2",
-        "ids": ",us7000g8x2,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.096,
-        "rms": 0.21,
-        "gap": 79,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 2.8 - 3 km NW of Timberlake, Ohio"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.469,
-          41.6863,
-          5
-        ]
-      },
-      "id": "us7000g8x2"
     }
   ],
   "bbox": [
