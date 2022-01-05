@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641391801000,
+    "generated": 1641392799000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "65 km SW of Karluk, Alaska",
+        "time": 1641392206901,
+        "updated": 1641392772093,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0228i4c0i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0228i4c0i.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "0228i4c0i",
+        "ids": ",ak0228i4c0i,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.81,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 65 km SW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.3158,
+          57.2155,
+          24.6
+        ]
+      },
+      "id": "ak0228i4c0i"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.97,
         "place": "19km WSW of Petrolia, CA",
         "time": 1641391119160,
-        "updated": 1641391213454,
+        "updated": 1641392050853,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674036",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674036.geojson",
@@ -30,7 +70,7 @@
         "code": "73674036",
         "ids": ",nc73674036,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 14,
         "dmin": 0.1733,
         "rms": 0.06,
@@ -415,7 +455,7 @@
         "mag": 4.8,
         "place": "35 km SE of Mina, Nevada",
         "time": 1641367274365,
-        "updated": 1641391297461,
+        "updated": 1641392216022,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00831033",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00831033.geojson",
@@ -495,17 +535,17 @@
         "mag": 2.57,
         "place": "5 km SW of Lugoff, South Carolina",
         "time": 1641365110770,
-        "updated": 1641391535823,
+        "updated": 1641392473986,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60378391",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60378391.geojson",
-        "felt": 313,
+        "felt": 321,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 246,
+        "sig": 249,
         "net": "se",
         "code": "60378391",
         "ids": ",se60378391,us7000g95m,",
@@ -1488,46 +1528,6 @@
         ]
       },
       "id": "us7000g8xq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "93 km E of Lakatoro, Vanuatu",
-        "time": 1641305705745,
-        "updated": 1641307633040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8xm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8xm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000g8xm",
-        "ids": ",us7000g8xm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.147,
-        "rms": 0.33,
-        "gap": 227,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 93 km E of Lakatoro, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          168.2741,
-          -15.9531,
-          189.81
-        ]
-      },
-      "id": "us7000g8xm"
     }
   ],
   "bbox": [
