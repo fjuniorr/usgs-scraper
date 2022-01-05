@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641393361000,
+    "generated": 1641393839000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -13,15 +13,15 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "62 km WNW of Karluk, Alaska",
-        "time": 1641393020111,
-        "updated": 1641393273326,
+        "place": "64 km WNW of Karluk, Alaska",
+        "time": 1641393020481,
+        "updated": 1641393784782,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0228i79ud",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0228i79ud.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 3.45,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
@@ -30,21 +30,21 @@
         "code": "0228i79ud",
         "ids": ",ak0228i79ud,",
         "sources": ",ak,",
-        "types": ",origin,",
+        "types": ",origin,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.75,
+        "rms": 0.78,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 62 km WNW of Karluk, Alaska"
+        "title": "M 3.8 - 64 km WNW of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.3716,
-          57.832,
-          6.5
+          -155.4056,
+          57.8485,
+          9
         ]
       },
       "id": "ak0228i79ud"
@@ -95,7 +95,7 @@
         "mag": 2.97,
         "place": "19km WSW of Petrolia, CA",
         "time": 1641391119160,
-        "updated": 1641392050853,
+        "updated": 1641393790547,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674036",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674036.geojson",
@@ -135,17 +135,17 @@
         "mag": 4.9,
         "place": "79 km SW of Yonakuni, Japan",
         "time": 1641388296319,
-        "updated": 1641391260299,
+        "updated": 1641393771085,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g97l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g97l.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 370,
+        "sig": 371,
         "net": "us",
         "code": "7000g97l",
         "ids": ",us7000g97l,",
@@ -253,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "New Britain region, Papua New Guinea",
+        "place": "115 km S of Kokopo, Papua New Guinea",
         "time": 1641379608163,
         "updated": 1641381113040,
         "tz": null,
@@ -277,7 +277,7 @@
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - New Britain region, Papua New Guinea"
+        "title": "M 4.6 - 115 km S of Kokopo, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "Komandorskiye Ostrova, Russia region",
+        "place": "157 km E of Ust’-Kamchatsk Staryy, Russia",
         "time": 1641367347322,
         "updated": 1641374923820,
         "tz": null,
@@ -437,7 +437,7 @@
         "gap": 72,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - Komandorskiye Ostrova, Russia region"
+        "title": "M 5.4 - 157 km E of Ust’-Kamchatsk Staryy, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -535,17 +535,17 @@
         "mag": 2.57,
         "place": "5 km SW of Lugoff, South Carolina",
         "time": 1641365110770,
-        "updated": 1641393143700,
+        "updated": 1641393787860,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60378391",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60378391.geojson",
-        "felt": 325,
+        "felt": 328,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 251,
+        "sig": 252,
         "net": "se",
         "code": "60378391",
         "ids": ",se60378391,us7000g95m,",
@@ -773,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Antofagasta, Chile",
+        "place": "Chile-Bolivia border region",
         "time": 1641349046065,
         "updated": 1641350215040,
         "tz": null,
@@ -797,7 +797,7 @@
         "gap": 51,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Antofagasta, Chile"
+        "title": "M 4.2 - Chile-Bolivia border region"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "Alaska Peninsula",
+        "place": "97 km SE of Ugashik, Alaska",
         "time": 1641325243557,
         "updated": 1641338125040,
         "tz": null,
@@ -1237,7 +1237,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Alaska Peninsula"
+        "title": "M 2.9 - 97 km SE of Ugashik, Alaska"
       },
       "geometry": {
         "type": "Point",
