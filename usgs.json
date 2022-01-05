@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641418690000,
+    "generated": 1641419161000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "4 km SSW of Pāhala, Hawaii",
+        "time": 1641418706290,
+        "updated": 1641419062584,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72858922",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72858922.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "hv",
+        "code": "72858922",
+        "ids": ",hv72858922,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 47,
+        "dmin": null,
+        "rms": 0.100000001,
+        "gap": 105,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km SSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.488998413086,
+          19.1660003662109,
+          36.0999984741211
+        ]
+      },
+      "id": "hv72858922"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -895,11 +935,11 @@
         "mag": 3.81,
         "place": "13 km NNW of Wai‘ōhinu, Hawaii",
         "time": 1641362416110,
-        "updated": 1641408478805,
+        "updated": 1641418974318,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72858117",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72858117.geojson",
-        "felt": 161,
+        "felt": 162,
         "cdi": 4.3,
         "mmi": 4.852,
         "alert": null,
