@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641424203000,
+    "generated": 1641425523000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 36
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 2.6,
         "place": "7 km NNE of Argonia, Kansas",
         "time": 1641423312001,
-        "updated": 1641423872040,
+        "updated": 1641425262090,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9dy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9dy.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 3,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
+        "sig": 105,
         "net": "us",
         "code": "7000g9dy",
         "ids": ",us7000g9dy,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.171,
         "rms": 0.22,
@@ -52,10 +52,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.66,
-        "place": "12 km SSW of Wai‘ōhinu, Hawaii",
-        "time": 1641420644040,
-        "updated": 1641421606040,
+        "mag": 2.65,
+        "place": "14 km SSW of Wai‘ōhinu, Hawaii",
+        "time": 1641420643820,
+        "updated": 1641424791360,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72858962",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72858962.geojson",
@@ -63,28 +63,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 109,
+        "sig": 108,
         "net": "hv",
         "code": "72858962",
         "ids": ",us7000g9cv,hv72858962,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 40,
+        "nst": 45,
         "dmin": null,
-        "rms": 0.119999997,
-        "gap": 247,
-        "magType": "ml",
+        "rms": 0.12,
+        "gap": 273,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 12 km SSW of Wai‘ōhinu, Hawaii"
+        "title": "M 2.7 - 14 km SSW of Wai‘ōhinu, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.640670776367,
-          18.9631671905518,
-          43.1699981689453
+          -155.645166666667,
+          18.9425,
+          43.61
         ]
       },
       "id": "hv72858962"
@@ -1015,7 +1015,7 @@
         "mag": 4.8,
         "place": "35 km SE of Mina, Nevada",
         "time": 1641367274365,
-        "updated": 1641416636777,
+        "updated": 1641424836427,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00831033",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00831033.geojson",
@@ -1095,17 +1095,17 @@
         "mag": 2.57,
         "place": "5 km SW of Lugoff, South Carolina",
         "time": 1641365110770,
-        "updated": 1641422739988,
+        "updated": 1641425086440,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60378391",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60378391.geojson",
-        "felt": 373,
+        "felt": 374,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 273,
+        "sig": 274,
         "net": "se",
         "code": "60378391",
         "ids": ",se60378391,us7000g95m,",
@@ -1448,46 +1448,6 @@
         ]
       },
       "id": "us7000g93q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "31 km NE of Osino, Nevada",
-        "time": 1641338559593,
-        "updated": 1641350315085,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00831000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00831000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "nn",
-        "code": "00831000",
-        "ids": ",us7000g937,nn00831000,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.359,
-        "rms": 0.1885,
-        "gap": 110.43,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 31 km NE of Osino, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.35,
-          41.094,
-          4.2
-        ]
-      },
-      "id": "nn00831000"
     }
   ],
   "bbox": [
