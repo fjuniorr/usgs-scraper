@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641420572000,
+    "generated": 1641421969000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.66,
+        "place": "12 km SSW of Wai‘ōhinu, Hawaii",
+        "time": 1641420644040,
+        "updated": 1641421606040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72858962",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72858962.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 109,
+        "net": "hv",
+        "code": "72858962",
+        "ids": ",us7000g9cv,hv72858962,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 247,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 12 km SSW of Wai‘ōhinu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.640670776367,
+          18.9631671905518,
+          43.1699981689453
+        ]
+      },
+      "id": "hv72858962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "58 km S of Whites City, New Mexico",
+        "time": 1641419782395,
+        "updated": 1641421791306,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022aizl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022aizl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "tx",
+        "code": "2022aizl",
+        "ids": ",tx2022aizl,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.03170540159,
+        "rms": 0.3,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 58 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.2948714,
+          31.65286383,
+          7.57121582
+        ]
+      },
+      "id": "tx2022aizl"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "56 km WNW of Karluk, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1641393019932,
         "updated": 1641407844804,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 56 km WNW of Karluk, Alaska"
+        "title": "M 3.8 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -575,11 +655,11 @@
         "mag": 4.2,
         "place": "41 km E of Narrogin, Australia",
         "time": 1641382625197,
-        "updated": 1641395145700,
+        "updated": 1641421746450,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g979",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g979.geojson",
-        "felt": 15,
+        "felt": 16,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -613,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "New Britain region, Papua New Guinea",
+        "place": "115 km S of Kokopo, Papua New Guinea",
         "time": 1641379608163,
         "updated": 1641381113040,
         "tz": null,
@@ -637,7 +717,7 @@
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - New Britain region, Papua New Guinea"
+        "title": "M 4.6 - 115 km S of Kokopo, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "Komandorskiye Ostrova, Russia region",
+        "place": "157 km E of Ust’-Kamchatsk Staryy, Russia",
         "time": 1641367347322,
         "updated": 1641374923820,
         "tz": null,
@@ -797,7 +877,7 @@
         "gap": 72,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - Komandorskiye Ostrova, Russia region"
+        "title": "M 5.4 - 157 km E of Ust’-Kamchatsk Staryy, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -895,17 +975,17 @@
         "mag": 2.57,
         "place": "5 km SW of Lugoff, South Carolina",
         "time": 1641365110770,
-        "updated": 1641415031670,
+        "updated": 1641421730389,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60378391",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60378391.geojson",
-        "felt": 367,
+        "felt": 370,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 270,
+        "sig": 272,
         "net": "se",
         "code": "60378391",
         "ids": ",se60378391,us7000g95m,",
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Antofagasta, Chile",
+        "place": "Chile-Bolivia border region",
         "time": 1641349046065,
         "updated": 1641350215040,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 51,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Antofagasta, Chile"
+        "title": "M 4.2 - Chile-Bolivia border region"
       },
       "geometry": {
         "type": "Point",
