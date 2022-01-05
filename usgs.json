@@ -1,50 +1,210 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641366635000,
+    "generated": 1641367834000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 37
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.48,
-        "place": "10 km SE of Elgin, South Carolina",
-        "time": 1641365111410,
-        "updated": 1641366400246,
+        "mag": 3.08,
+        "place": "6km ENE of Olancha, CA",
+        "time": 1641367303670,
+        "updated": 1641367602359,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39903023",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39903023.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 146,
+        "net": "ci",
+        "code": "39903023",
+        "ids": ",ci39903023,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 17,
+        "dmin": 0.1839,
+        "rms": 0.36,
+        "gap": 131,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 6km ENE of Olancha, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9418335,
+          36.293499,
+          2.75
+        ]
+      },
+      "id": "ci39903023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "8 km ENE of Walker Lake, Nevada",
+        "time": 1641367287703,
+        "updated": 1641367701297,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00831038",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00831038.geojson",
+        "felt": 1,
+        "cdi": 4.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 285,
+        "net": "nn",
+        "code": "00831038",
+        "ids": ",nn00831038,",
+        "sources": ",nn,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 14,
+        "dmin": 1.053,
+        "rms": 0.4651,
+        "gap": 148.09,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.3 - 8 km ENE of Walker Lake, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.659,
+          38.6714,
+          15.9
+        ]
+      },
+      "id": "nn00831038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "34 km SE of Mina, Nevada",
+        "time": 1641367273526,
+        "updated": 1641367663913,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00831033",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00831033.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 355,
+        "net": "nn",
+        "code": "00831033",
+        "ids": ",nn00831033,",
+        "sources": ",nn,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.152,
+        "rms": 0.2977,
+        "gap": 83.59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.8 - 34 km SE of Mina, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7916,
+          38.2039,
+          13.5
+        ]
+      },
+      "id": "nn00831033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "34 km SE of Mina, Nevada",
+        "time": 1641367254983,
+        "updated": 1641367790786,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00831032",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00831032.geojson",
+        "felt": 2,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 272,
+        "net": "nn",
+        "code": "00831032",
+        "ids": ",nn00831032,",
+        "sources": ",nn,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.132,
+        "rms": 0.2862,
+        "gap": 111.3,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.2 - 34 km SE of Mina, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8029,
+          38.1879,
+          2.4
+        ]
+      },
+      "id": "nn00831032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.57,
+        "place": "5 km SW of Lugoff, South Carolina",
+        "time": 1641365110770,
+        "updated": 1641367727948,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60378391",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60378391.geojson",
-        "felt": 154,
+        "felt": 186,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 165,
+        "sig": 187,
         "net": "se",
         "code": "60378391",
         "ids": ",se60378391,us7000g95m,",
         "sources": ",se,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.2841,
-        "rms": 0.71,
-        "gap": 81,
+        "nst": 16,
+        "dmin": 0.0543,
+        "rms": 0.49,
+        "gap": 62,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 10 km SE of Elgin, South Carolina"
+        "title": "M 2.6 - 5 km SW of Lugoff, South Carolina"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.7163315,
-          34.1066666,
-          0.04
+          -80.7263333,
+          34.185,
+          0.46
         ]
       },
       "id": "se60378391"
@@ -55,17 +215,17 @@
         "mag": 3.83,
         "place": "12 km NNW of Wai‘ōhinu, Hawaii",
         "time": 1641362415790,
-        "updated": 1641366242149,
+        "updated": 1641367743856,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72858117",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72858117.geojson",
-        "felt": 153,
+        "felt": 154,
         "cdi": 4.3,
         "mmi": 4.821,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 291,
+        "sig": 292,
         "net": "hv",
         "code": "72858117",
         "ids": ",hv72858117,us7000g95b,",
@@ -135,17 +295,17 @@
         "mag": 5.1,
         "place": "70 km SSW of Okurcalar, Turkey",
         "time": 1641352877154,
-        "updated": 1641363264924,
+        "updated": 1641367764432,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g94d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g94d.geojson",
-        "felt": 21,
+        "felt": 24,
         "cdi": 5.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 411,
+        "sig": 413,
         "net": "us",
         "code": "7000g94d",
         "ids": ",us7000g94d,",
@@ -253,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Chile-Bolivia border region",
+        "place": "Antofagasta, Chile",
         "time": 1641349046065,
         "updated": 1641350215040,
         "tz": null,
@@ -277,7 +437,7 @@
         "gap": 51,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Chile-Bolivia border region"
+        "title": "M 4.2 - Antofagasta, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "97 km SE of Ugashik, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1641325243557,
         "updated": 1641338125040,
         "tz": null,
@@ -717,7 +877,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 97 km SE of Ugashik, Alaska"
+        "title": "M 2.9 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
