@@ -1,19 +1,99 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641383589000,
+    "generated": 1641385009000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 39
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 5.3,
+        "place": "88 km SW of Isangel, Vanuatu",
+        "time": 1641383180738,
+        "updated": 1641384217040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g97b",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g97b.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "7000g97b",
+        "ids": ",us7000g97b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.713,
+        "rms": 1.02,
+        "gap": 53,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - 88 km SW of Isangel, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.7732,
+          -20.1857,
+          10
+        ]
+      },
+      "id": "us7000g97b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "41 km E of Narrogin, Australia",
+        "time": 1641382625197,
+        "updated": 1641384896632,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g979",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g979.geojson",
+        "felt": 5,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 273,
+        "net": "us",
+        "code": "7000g979",
+        "ids": ",us7000g979,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.325,
+        "rms": 0.59,
+        "gap": 179,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 41 km E of Narrogin, Australia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.6248,
+          -32.9496,
+          10
+        ]
+      },
+      "id": "us7000g979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
-        "place": "New Britain region, Papua New Guinea",
+        "place": "115 km S of Kokopo, Papua New Guinea",
         "time": 1641379608163,
         "updated": 1641381113040,
         "tz": null,
@@ -37,7 +117,7 @@
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - New Britain region, Papua New Guinea"
+        "title": "M 4.6 - 115 km S of Kokopo, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -55,22 +135,22 @@
         "mag": 2.89,
         "place": "5 km SW of Adjuntas, Puerto Rico",
         "time": 1641378928780,
-        "updated": 1641382404803,
+        "updated": 1641383879336,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022005001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022005001.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 128,
+        "sig": 129,
         "net": "pr",
         "code": "2022005001",
         "ids": ",pr2022005001,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": 0.1826,
         "rms": 0.12,
@@ -173,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "Komandorskiye Ostrova, Russia region",
+        "place": "157 km E of Ust’-Kamchatsk Staryy, Russia",
         "time": 1641367347322,
         "updated": 1641374923820,
         "tz": null,
@@ -197,7 +277,7 @@
         "gap": 72,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - Komandorskiye Ostrova, Russia region"
+        "title": "M 5.4 - 157 km E of Ust’-Kamchatsk Staryy, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -335,17 +415,17 @@
         "mag": 2.57,
         "place": "5 km SW of Lugoff, South Carolina",
         "time": 1641365110770,
-        "updated": 1641383497174,
+        "updated": 1641384739412,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60378391",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60378391.geojson",
-        "felt": 259,
+        "felt": 271,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 221,
+        "sig": 226,
         "net": "se",
         "code": "60378391",
         "ids": ",se60378391,us7000g95m,",
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Antofagasta, Chile",
+        "place": "Chile-Bolivia border region",
         "time": 1641349046065,
         "updated": 1641350215040,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": 51,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Antofagasta, Chile"
+        "title": "M 4.2 - Chile-Bolivia border region"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "Alaska Peninsula",
+        "place": "97 km SE of Ugashik, Alaska",
         "time": 1641325243557,
         "updated": 1641338125040,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Alaska Peninsula"
+        "title": "M 2.9 - 97 km SE of Ugashik, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1492,7 +1572,7 @@
   ],
   "bbox": [
     -162.3216,
-    -21.1607,
+    -32.9496,
     0,
     169.7133,
     76.2323,
