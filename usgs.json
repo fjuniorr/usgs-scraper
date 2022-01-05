@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641369197000,
+    "generated": 1641370382000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 37
   },
   "features": [
     {
@@ -53,7 +53,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "157 km E of Ust’-Kamchatsk Staryy, Russia",
+        "place": "Komandorskiye Ostrova, Russia region",
         "time": 1641367347322,
         "updated": 1641369029840,
         "tz": null,
@@ -77,7 +77,7 @@
         "gap": 72,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - 157 km E of Ust’-Kamchatsk Staryy, Russia"
+        "title": "M 5.4 - Komandorskiye Ostrova, Russia region"
       },
       "geometry": {
         "type": "Point",
@@ -132,79 +132,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.3,
-        "place": "8 km ENE of Walker Lake, Nevada",
-        "time": 1641367287703,
-        "updated": 1641368715701,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00831038",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00831038.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 285,
-        "net": "nn",
-        "code": "00831038",
-        "ids": ",nn00831038,",
-        "sources": ",nn,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 14,
-        "dmin": 1.053,
-        "rms": 0.4651,
-        "gap": 148.09,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.3 - 8 km ENE of Walker Lake, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.659,
-          38.6714,
-          15.9
-        ]
-      },
-      "id": "nn00831038"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 4.8,
-        "place": "34 km SE of Mina, Nevada",
-        "time": 1641367273526,
-        "updated": 1641368964681,
+        "place": "35 km SE of Mina, Nevada",
+        "time": 1641367274365,
+        "updated": 1641370350366,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00831033",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00831033.geojson",
-        "felt": 17,
-        "cdi": 4.1,
-        "mmi": 4.596,
+        "felt": 20,
+        "cdi": 4,
+        "mmi": 4.49,
         "alert": "green",
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 361,
+        "sig": 362,
         "net": "nn",
         "code": "00831033",
         "ids": ",nn00831033,us7000g95v,",
         "sources": ",nn,us,",
         "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 31,
-        "dmin": 0.152,
-        "rms": 0.2977,
-        "gap": 83.59,
+        "nst": 14,
+        "dmin": 0.111,
+        "rms": 0.1888,
+        "gap": 45.59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.8 - 34 km SE of Mina, Nevada"
+        "title": "M 4.8 - 35 km SE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.7916,
-          38.2039,
-          13.5
+          -117.8238,
+          38.1677,
+          9.9
         ]
       },
       "id": "nn00831033"
@@ -255,17 +215,17 @@
         "mag": 2.57,
         "place": "5 km SW of Lugoff, South Carolina",
         "time": 1641365110770,
-        "updated": 1641368981448,
+        "updated": 1641370233695,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60378391",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60378391.geojson",
-        "felt": 198,
+        "felt": 206,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 193,
+        "sig": 196,
         "net": "se",
         "code": "60378391",
         "ids": ",se60378391,us7000g95m,",
@@ -292,29 +252,29 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.82,
+        "mag": 3.81,
         "place": "13 km NNW of Wai‘ōhinu, Hawaii",
         "time": 1641362416110,
-        "updated": 1641368343224,
+        "updated": 1641370143269,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72858117",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72858117.geojson",
-        "felt": 156,
+        "felt": 158,
         "cdi": 4.3,
         "mmi": 4.852,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 292,
+        "sig": 291,
         "net": "hv",
         "code": "72858117",
         "ids": ",hv72858117,us7000g95b,",
         "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 47,
+        "nst": 54,
         "dmin": null,
-        "rms": 0.2,
-        "gap": 73,
+        "rms": 0.17,
+        "gap": 71,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.8 - 13 km NNW of Wai‘ōhinu, Hawaii"
@@ -322,9 +282,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.647,
-          19.1841666666667,
-          8.45
+          -155.644333333333,
+          19.1861666666667,
+          8.38
         ]
       },
       "id": "hv72858117"
@@ -493,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Chile-Bolivia border region",
+        "place": "Antofagasta, Chile",
         "time": 1641349046065,
         "updated": 1641350215040,
         "tz": null,
@@ -517,7 +477,7 @@
         "gap": 51,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Chile-Bolivia border region"
+        "title": "M 4.2 - Antofagasta, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "97 km SE of Ugashik, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1641325243557,
         "updated": 1641338125040,
         "tz": null,
@@ -957,7 +917,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 97 km SE of Ugashik, Alaska"
+        "title": "M 2.9 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -1495,7 +1455,7 @@
         "mag": 2.49,
         "place": "20 km SE of Kanarraville, Utah",
         "time": 1641287810780,
-        "updated": 1641356178487,
+        "updated": 1641369683040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60476032",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60476032.geojson",
@@ -1508,8 +1468,8 @@
         "sig": 96,
         "net": "uu",
         "code": "60476032",
-        "ids": ",uu60476032,",
-        "sources": ",uu,",
+        "ids": ",uu60476032,us7000g8vm,",
+        "sources": ",uu,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": 0.1291,
