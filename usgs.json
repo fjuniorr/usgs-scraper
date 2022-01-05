@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641363178000,
+    "generated": 1641364776000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,39 +12,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.39,
+        "mag": 3.83,
         "place": "12 km NNW of Wai‘ōhinu, Hawaii",
-        "time": 1641362415320,
-        "updated": 1641363112857,
+        "time": 1641362415790,
+        "updated": 1641364673002,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72858117",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72858117.geojson",
-        "felt": 83,
+        "felt": 141,
         "cdi": 4.1,
-        "mmi": 5.158,
+        "mmi": 4.821,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 211,
+        "sig": 283,
         "net": "hv",
         "code": "72858117",
         "ids": ",hv72858117,us7000g95b,",
         "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 42,
+        "nst": 30,
         "dmin": null,
-        "rms": 0.25999999,
-        "gap": 73,
+        "rms": 0.23,
+        "gap": 71,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 12 km NNW of Wai‘ōhinu, Hawaii"
+        "title": "M 3.8 - 12 km NNW of Wai‘ōhinu, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.644836425781,
-          19.1828327178955,
-          -0.959999978542328
+          -155.638833333333,
+          19.1853333333333,
+          0.3
         ]
       },
       "id": "hv72858117"
@@ -55,7 +55,7 @@
         "mag": 5.1,
         "place": "70 km SSW of Okurcalar, Turkey",
         "time": 1641352877154,
-        "updated": 1641362946400,
+        "updated": 1641363264924,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g94d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g94d.geojson",
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Antofagasta, Chile",
+        "place": "Chile-Bolivia border region",
         "time": 1641349046065,
         "updated": 1641350215040,
         "tz": null,
@@ -197,7 +197,7 @@
         "gap": 51,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Antofagasta, Chile"
+        "title": "M 4.2 - Chile-Bolivia border region"
       },
       "geometry": {
         "type": "Point",
@@ -575,12 +575,12 @@
         "mag": 3.38,
         "place": "49 km W of Hawaiian Ocean View, Hawaii",
         "time": 1641325446390,
-        "updated": 1641362989572,
+        "updated": 1641363862702,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72857432",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72857432.geojson",
-        "felt": 8,
-        "cdi": 3.1,
+        "felt": 7,
+        "cdi": 2.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -613,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "Alaska Peninsula",
+        "place": "97 km SE of Ugashik, Alaska",
         "time": 1641325243557,
         "updated": 1641338125040,
         "tz": null,
@@ -637,7 +637,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Alaska Peninsula"
+        "title": "M 2.9 - 97 km SE of Ugashik, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.51,
-        "place": "7 km ESE of La Parguera, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1641279993540,
         "updated": 1641280910991,
         "tz": null,
@@ -1397,7 +1397,7 @@
         "gap": 219,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 7 km ESE of La Parguera, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1453,7 @@
   "bbox": [
     -162.3216,
     -36.2191,
-    -0.95999997854233,
+    0,
     169.7133,
     76.2323,
     556.2
