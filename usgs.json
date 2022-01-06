@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641495125000,
+    "generated": 1641496134000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "63 km NE of San Pedro de Atacama, Chile",
+        "time": 1641491019142,
+        "updated": 1641495710040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9pb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9pb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000g9pb",
+        "ids": ",us7000g9pb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.591,
+        "rms": 0.62,
+        "gap": 75,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 63 km NE of San Pedro de Atacama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.793,
+          -22.4773,
+          184.8
+        ]
+      },
+      "id": "us7000g9pb"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 6.1,
         "place": "56 km S of Corinto, Nicaragua",
         "time": 1641486307435,
-        "updated": 1641495038131,
+        "updated": 1641495987121,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9nb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9nb.geojson",
-        "felt": 40,
+        "felt": 42,
         "cdi": 4.6,
         "mmi": 5.051,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 591,
+        "sig": 592,
         "net": "us",
         "code": "7000g9nb",
         "ids": ",us7000g9nb,",
@@ -532,10 +572,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.75,
-        "place": "48km ESE of Maneadero, B.C., MX",
-        "time": 1641459654930,
-        "updated": 1641459783242,
+        "mag": 2.74,
+        "place": "54km E of Maneadero, B.C., MX",
+        "time": 1641459655350,
+        "updated": 1641495298700,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39903759",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39903759.geojson",
@@ -543,7 +583,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 116,
         "net": "ci",
@@ -551,20 +591,20 @@
         "ids": ",ci39903759,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.3325,
-        "rms": 0.34,
-        "gap": 194,
+        "nst": 22,
+        "dmin": 0.3156,
+        "rms": 0.23,
+        "gap": 151,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 48km ESE of Maneadero, B.C., MX"
+        "title": "M 2.7 - 54km E of Maneadero, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.0751648,
-          31.612833,
-          3.16
+          -116.008,
+          31.6431667,
+          6.23
         ]
       },
       "id": "ci39903759"
@@ -573,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "New Britain region, Papua New Guinea",
+        "place": "119 km S of Kokopo, Papua New Guinea",
         "time": 1641458108148,
         "updated": 1641462806040,
         "tz": null,
@@ -597,7 +637,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - New Britain region, Papua New Guinea"
+        "title": "M 4.8 - 119 km S of Kokopo, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
