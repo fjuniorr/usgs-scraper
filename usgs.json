@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641485759000,
+    "generated": 1641488124000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.2,
+        "place": "59 km S of Corinto, Nicaragua",
+        "time": 1641486308156,
+        "updated": 1641488116844,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9nb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9nb.geojson",
+        "felt": 20,
+        "cdi": 4.5,
+        "mmi": 4.577,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 600,
+        "net": "us",
+        "code": "7000g9nb",
+        "ids": ",us7000g9nb,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.752,
+        "rms": 1.36,
+        "gap": 92,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.2 - 59 km S of Corinto, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.2005,
+          11.9454,
+          27.47
+        ]
+      },
+      "id": "us7000g9nb"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "New Britain region, Papua New Guinea",
+        "place": "119 km S of Kokopo, Papua New Guinea",
         "time": 1641458108148,
         "updated": 1641462806040,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - New Britain region, Papua New Guinea"
+        "title": "M 4.8 - 119 km S of Kokopo, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "31 km SE of Mina, Nevada",
+        "place": "Nevada",
         "time": 1641442883192,
         "updated": 1641478455040,
         "tz": null,
@@ -757,7 +797,7 @@
         "gap": 56.12,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 31 km SE of Mina, Nevada"
+        "title": "M 3.6 - Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -815,17 +855,17 @@
         "mag": 4.58,
         "place": "50km W of Petrolia, CA",
         "time": 1641436930830,
-        "updated": 1641480505928,
+        "updated": 1641486816554,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674251",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674251.geojson",
-        "felt": 210,
+        "felt": 212,
         "cdi": 4.1,
         "mmi": 3.895,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 409,
+        "sig": 410,
         "net": "nc",
         "code": "73674251",
         "ids": ",ew1641436940,nc73674251,us7000g9gc,",
@@ -1048,6 +1088,46 @@
         ]
       },
       "id": "nc73674211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "25 km NW of Stanley, Idaho",
+        "time": 1641427404470,
+        "updated": 1641486207710,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80535264",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80535264.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "mb",
+        "code": "80535264",
+        "ids": ",mb80535264,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.93,
+        "rms": 0.25,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 25 km NW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.2006667,
+          44.3528333,
+          10.7
+        ]
+      },
+      "id": "mb80535264"
     },
     {
       "type": "Feature",
@@ -1495,7 +1575,7 @@
         "mag": 3.52,
         "place": "39 km SSE of Boca de Yuma, Dominican Republic",
         "time": 1641404775470,
-        "updated": 1641409179888,
+        "updated": 1641486370040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022005002",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022005002.geojson",
@@ -1508,8 +1588,8 @@
         "sig": 191,
         "net": "pr",
         "code": "2022005002",
-        "ids": ",pr2022005002,",
-        "sources": ",pr,",
+        "ids": ",pr2022005002,us7000g9am,",
+        "sources": ",pr,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 22,
         "dmin": 0.4472,
@@ -1528,54 +1608,14 @@
         ]
       },
       "id": "pr2022005002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "71 km NNE of Isangel, Vanuatu",
-        "time": 1641400989709,
-        "updated": 1641485315040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9aj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9aj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000g9aj",
-        "ids": ",us7000g9aj,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 4.147,
-        "rms": 0.67,
-        "gap": 40,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.0 - 71 km NNE of Isangel, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          169.6107,
-          -18.9754,
-          271.61
-        ]
-      },
-      "id": "us7000g9aj"
     }
   ],
   "bbox": [
     -176.9406,
     -65.3619,
     0,
-    169.6107,
+    168.8911,
     69.4269,
-    271.61
+    216.95
   ]
 }
