@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641460249000,
+    "generated": 1641461583000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
     {
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ci39903759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "124 km S of Kokopo, Papua New Guinea",
+        "time": 1641457116736,
+        "updated": 1641460534040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9hw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9hw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000g9hw",
+        "ids": ",us7000g9hw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.889,
+        "rms": 0.82,
+        "gap": 72,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 124 km S of Kokopo, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.1891,
+          -5.4618,
+          10
+        ]
+      },
+      "id": "us7000g9hw"
     },
     {
       "type": "Feature",
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "31 km SE of Mina, Nevada",
+        "place": "Nevada",
         "time": 1641442883192,
         "updated": 1641458005472,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": 56.12,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 31 km SE of Mina, Nevada"
+        "title": "M 3.6 - Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -455,17 +495,17 @@
         "mag": 4.75,
         "place": "8km ESE of Deep Springs, CA",
         "time": 1641428887010,
-        "updated": 1641457660859,
+        "updated": 1641460831453,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674211",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674211.geojson",
-        "felt": 476,
+        "felt": 477,
         "cdi": 3.7,
         "mmi": 5.384,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 523,
+        "sig": 524,
         "net": "nc",
         "code": "73674211",
         "ids": ",ew1641428890,nc73674211,us7000g9fi,nn00831150,",
