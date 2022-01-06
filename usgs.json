@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641511949000,
+    "generated": 1641512729000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "137 km N of Caluula, Somalia",
+        "time": 1641511488669,
+        "updated": 1641512571040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9rx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9rx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000g9rx",
+        "ids": ",us7000g9rx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 8.132,
+        "rms": 0.98,
+        "gap": 45,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 137 km N of Caluula, Somalia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.9982,
+          13.1872,
+          10
+        ]
+      },
+      "id": "us7000g9rx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1252,10 +1292,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "48km W of Petrolia, CA",
-        "time": 1641437459660,
-        "updated": 1641452243863,
+        "mag": 2.75,
+        "place": "40km W of Petrolia, CA",
+        "time": 1641437460930,
+        "updated": 1641512662423,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674256",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674256.geojson",
@@ -1263,28 +1303,28 @@
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 113,
+        "sig": 118,
         "net": "nc",
         "code": "73674256",
         "ids": ",nc73674256,",
         "sources": ",nc,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.3997,
+        "nst": 65,
+        "dmin": 0.3324,
         "rms": 0.23,
-        "gap": 250,
+        "gap": 235,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 48km W of Petrolia, CA"
+        "title": "M 2.8 - 40km W of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.8424988,
-          40.3701668,
-          14.18
+          -124.7528333,
+          40.3756667,
+          19.84
         ]
       },
       "id": "nc73674256"
@@ -1412,10 +1452,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.76,
-        "place": "14km SSW of Ferndale, CA",
-        "time": 1641431318370,
-        "updated": 1641438671287,
+        "mag": 2.82,
+        "place": "15km NNW of Petrolia, CA",
+        "time": 1641431318240,
+        "updated": 1641512359690,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674241",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674241.geojson",
@@ -1423,28 +1463,28 @@
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 118,
+        "sig": 123,
         "net": "nc",
         "code": "73674241",
         "ids": ",nc73674241,us7000g9fs,",
         "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.02627,
-        "rms": 0.09,
-        "gap": 162,
+        "nst": 29,
+        "dmin": 0.02465,
+        "rms": 0.1,
+        "gap": 187,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 14km SSW of Ferndale, CA"
+        "title": "M 2.8 - 15km NNW of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.3201675,
-          40.4528351,
-          25.98
+          -124.3326667,
+          40.4511667,
+          26.98
         ]
       },
       "id": "nc73674241"
@@ -1568,46 +1608,6 @@
         ]
       },
       "id": "mb80535264"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "55 km S of Whites City, New Mexico",
-        "time": 1641425866784,
-        "updated": 1641480416105,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022ajct",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022ajct.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "tx",
-        "code": "2022ajct",
-        "ids": ",us7000g9er,tx2022ajct,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.07889312112,
-        "rms": 0.3,
-        "gap": 55,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 55 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.4086435,
-          31.67606494,
-          6.080151367
-        ]
-      },
-      "id": "tx2022ajct"
     }
   ],
   "bbox": [
