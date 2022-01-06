@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641509547000,
+    "generated": 1641510628000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
@@ -255,7 +255,7 @@
         "mag": 3.1,
         "place": "7 km WSW of Fuig, Puerto Rico",
         "time": 1641498142340,
-        "updated": 1641498953602,
+        "updated": 1641509650040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022006005",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022006005.geojson",
@@ -268,8 +268,8 @@
         "sig": 148,
         "net": "pr",
         "code": "2022006005",
-        "ids": ",pr2022006005,",
-        "sources": ",pr,",
+        "ids": ",us7000g9pv,pr2022006005,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 23,
         "dmin": 0.068,
@@ -973,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "119 km S of Kokopo, Papua New Guinea",
+        "place": "New Britain region, Papua New Guinea",
         "time": 1641458108148,
         "updated": 1641462806040,
         "tz": null,
@@ -997,7 +997,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 119 km S of Kokopo, Papua New Guinea"
+        "title": "M 4.8 - New Britain region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1648,46 +1648,6 @@
         ]
       },
       "id": "us7000g9el"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "7 km NNE of Argonia, Kansas",
-        "time": 1641423312001,
-        "updated": 1641489091613,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9dy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9dy.geojson",
-        "felt": 5,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "us",
-        "code": "7000g9dy",
-        "ids": ",us7000g9dy,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.171,
-        "rms": 0.22,
-        "gap": 57,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 2.6 - 7 km NNE of Argonia, Kansas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.7258,
-          37.3235,
-          1.87
-        ]
-      },
-      "id": "us7000g9dy"
     }
   ],
   "bbox": [
