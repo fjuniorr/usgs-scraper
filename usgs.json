@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641447903000,
+    "generated": 1641448415000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
@@ -14,8 +14,8 @@
       "properties": {
         "mag": 2.9,
         "place": "14 km E of Iquique, Chile",
-        "time": 1641444891221,
-        "updated": 1641447806363,
+        "time": 1641444891451,
+        "updated": 1641448115093,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9gu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9gu.geojson",
@@ -32,9 +32,9 @@
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
-        "dmin": 0.122,
-        "rms": 0.23,
-        "gap": 103,
+        "dmin": 0.131,
+        "rms": 0.31,
+        "gap": 108,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.9 - 14 km E of Iquique, Chile"
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.0108,
-          -20.2225,
-          50.28
+          -70.0072,
+          -20.2092,
+          49.04
         ]
       },
       "id": "us7000g9gu"
@@ -135,11 +135,11 @@
         "mag": 4.58,
         "place": "50km W of Petrolia, CA",
         "time": 1641436930830,
-        "updated": 1641447731048,
+        "updated": 1641448380540,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674251",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674251.geojson",
-        "felt": 198,
+        "felt": 199,
         "cdi": 4.1,
         "mmi": 3.898,
         "alert": "green",
@@ -335,11 +335,11 @@
         "mag": 4.75,
         "place": "8km ESE of Deep Springs, CA",
         "time": 1641428887010,
-        "updated": 1641447634901,
+        "updated": 1641448400641,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674211",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674211.geojson",
-        "felt": 469,
+        "felt": 470,
         "cdi": 3.7,
         "mmi": 5.384,
         "alert": "green",
@@ -575,11 +575,11 @@
         "mag": 2.81,
         "place": "5 km SSW of Pāhala, Hawaii",
         "time": 1641418706180,
-        "updated": 1641426261819,
+        "updated": 1641448096657,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72858922",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72858922.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -1608,46 +1608,6 @@
         ]
       },
       "id": "hv72858117"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "138 km E of Ust’-Kamchatsk Staryy, Russia",
-        "time": 1641361523265,
-        "updated": 1641366167040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g95j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g95j.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000g95j",
-        "ids": ",us7000g95j,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.722,
-        "rms": 1.08,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 138 km E of Ust’-Kamchatsk Staryy, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          164.701,
-          56.1686,
-          29.23
-        ]
-      },
-      "id": "us7000g95j"
     }
   ],
   "bbox": [
