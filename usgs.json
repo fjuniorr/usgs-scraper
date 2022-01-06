@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641480786000,
+    "generated": 1641481818000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -332,42 +332,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "57 km S of Whites City, New Mexico",
-        "time": 1641461641334,
-        "updated": 1641465039040,
+        "mag": 2.8,
+        "place": "55 km S of Whites City, New Mexico",
+        "time": 1641461640884,
+        "updated": 1641481140537,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9i3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9i3.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022ajwl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022ajwl.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "7000g9i3",
-        "ids": ",us7000g9i3,",
-        "sources": ",us,",
+        "sig": 121,
+        "net": "tx",
+        "code": "2022ajwl",
+        "ids": ",us7000g9i3,tx2022ajwl,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.061,
-        "rms": 0.41,
-        "gap": 64,
+        "nst": 22,
+        "dmin": 0.07786985935,
+        "rms": 0.2,
+        "gap": 56,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 57 km S of Whites City, New Mexico"
+        "title": "M 2.8 - 55 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.4301,
-          31.6573,
-          7.71
+          -104.4097076,
+          31.67467916,
+          6.440063477
         ]
       },
-      "id": "us7000g9i3"
+      "id": "tx2022ajwl"
     },
     {
       "type": "Feature",
@@ -453,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "New Britain region, Papua New Guinea",
+        "place": "119 km S of Kokopo, Papua New Guinea",
         "time": 1641458108148,
         "updated": 1641462806040,
         "tz": null,
@@ -477,7 +477,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - New Britain region, Papua New Guinea"
+        "title": "M 4.8 - 119 km S of Kokopo, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -612,42 +612,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "57 km S of Whites City, New Mexico",
-        "time": 1641448196677,
-        "updated": 1641449811040,
+        "mag": 2.8,
+        "place": "55 km S of Whites City, New Mexico",
+        "time": 1641448196570,
+        "updated": 1641480783903,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9h6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9h6.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022ajpb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022ajpb.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "7000g9h6",
-        "ids": ",us7000g9h6,",
-        "sources": ",us,",
+        "sig": 121,
+        "net": "tx",
+        "code": "2022ajpb",
+        "ids": ",us7000g9h6,tx2022ajpb,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.081,
-        "rms": 0.26,
-        "gap": 87,
+        "nst": 22,
+        "dmin": 0.08619141468,
+        "rms": 0.2,
+        "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 57 km S of Whites City, New Mexico"
+        "title": "M 2.8 - 55 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.406,
-          31.6596,
-          5
+          -104.399718,
+          31.67129757,
+          6.671435547
         ]
       },
-      "id": "us7000g9h6"
+      "id": "tx2022ajpb"
     },
     {
       "type": "Feature",
@@ -693,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "31 km SE of Mina, Nevada",
+        "place": "Nevada",
         "time": 1641442883192,
         "updated": 1641478455040,
         "tz": null,
@@ -717,7 +717,7 @@
         "gap": 56.12,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 31 km SE of Mina, Nevada"
+        "title": "M 3.6 - Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -932,42 +932,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "58 km WNW of Toyah, Texas",
-        "time": 1641429398528,
-        "updated": 1641431474040,
+        "mag": 2.6,
+        "place": "60 km WNW of Toyah, Texas",
+        "time": 1641429398813,
+        "updated": 1641481553556,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9fm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9fm.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022ajes",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022ajes.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "7000g9fm",
-        "ids": ",us7000g9fm,",
-        "sources": ",us,",
+        "sig": 104,
+        "net": "tx",
+        "code": "2022ajes",
+        "ids": ",us7000g9fm,tx2022ajes,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.17,
-        "rms": 0.43,
+        "nst": 23,
+        "dmin": 0.09051780121,
+        "rms": 0.2,
         "gap": 62,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 58 km WNW of Toyah, Texas"
+        "title": "M 2.6 - 60 km WNW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.3302,
-          31.5788,
-          5
+          -104.3323923,
+          31.60185969,
+          7.699755859
         ]
       },
-      "id": "us7000g9fm"
+      "id": "tx2022ajes"
     },
     {
       "type": "Feature",
@@ -975,7 +975,7 @@
         "mag": 4.75,
         "place": "8km ESE of Deep Springs, CA",
         "time": 1641428887010,
-        "updated": 1641479337610,
+        "updated": 1641481531965,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674211",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674211.geojson",
