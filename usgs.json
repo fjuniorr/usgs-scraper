@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641446788000,
+    "generated": 1641447423000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -13,7 +13,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "31 km SE of Mina, Nevada",
+        "place": "Nevada",
         "time": 1641442883192,
         "updated": 1641444250447,
         "tz": null,
@@ -37,7 +37,7 @@
         "gap": 56.12,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 31 km SE of Mina, Nevada"
+        "title": "M 3.6 - Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -95,11 +95,11 @@
         "mag": 4.58,
         "place": "50km W of Petrolia, CA",
         "time": 1641436930830,
-        "updated": 1641446711708,
+        "updated": 1641447371012,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674251",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674251.geojson",
-        "felt": 195,
+        "felt": 196,
         "cdi": 4.1,
         "mmi": 3.898,
         "alert": "green",
@@ -295,11 +295,11 @@
         "mag": 4.75,
         "place": "8km ESE of Deep Springs, CA",
         "time": 1641428887010,
-        "updated": 1641446668620,
+        "updated": 1641447322642,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674211",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674211.geojson",
-        "felt": 467,
+        "felt": 468,
         "cdi": 3.7,
         "mmi": 5.384,
         "alert": "green",
