@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641468894000,
+    "generated": 1641469378000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
     {
@@ -293,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "119 km S of Kokopo, Papua New Guinea",
+        "place": "New Britain region, Papua New Guinea",
         "time": 1641458108148,
         "updated": 1641462806040,
         "tz": null,
@@ -317,7 +317,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 119 km S of Kokopo, Papua New Guinea"
+        "title": "M 4.8 - New Britain region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "Nevada",
+        "place": "31 km SE of Mina, Nevada",
         "time": 1641442883192,
         "updated": 1641458005472,
         "tz": null,
@@ -557,7 +557,7 @@
         "gap": 56.12,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - Nevada"
+        "title": "M 3.6 - 31 km SE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "56 km WNW of Karluk, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1641393019932,
         "updated": 1641407844804,
         "tz": null,
@@ -1437,7 +1437,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 56 km WNW of Karluk, Alaska"
+        "title": "M 3.8 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -1688,46 +1688,6 @@
         ]
       },
       "id": "us7000g97b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "41 km E of Narrogin, Australia",
-        "time": 1641382625197,
-        "updated": 1641443430111,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g979",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g979.geojson",
-        "felt": 18,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 279,
-        "net": "us",
-        "code": "7000g979",
-        "ids": ",us7000g979,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.325,
-        "rms": 0.59,
-        "gap": 179,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 41 km E of Narrogin, Australia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          117.6248,
-          -32.9496,
-          10
-        ]
-      },
-      "id": "us7000g979"
     }
   ],
   "bbox": [
