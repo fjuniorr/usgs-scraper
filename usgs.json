@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641479200000,
+    "generated": 1641479815000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 39
   },
   "features": [
     {
@@ -852,10 +852,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.49,
+        "mag": 2.52,
         "place": "22 km SSW of Mammoth, Wyoming",
-        "time": 1641433390800,
-        "updated": 1641434583670,
+        "time": 1641433390760,
+        "updated": 1641479698580,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60476352",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60476352.geojson",
@@ -865,16 +865,16 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 95,
+        "sig": 98,
         "net": "uu",
         "code": "60476352",
         "ids": ",uu60476352,",
         "sources": ",uu,",
         "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.0222,
-        "rms": 0.17,
-        "gap": 63,
+        "nst": 26,
+        "dmin": 0.0272,
+        "rms": 0.19,
+        "gap": 62,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.5 - 22 km SSW of Mammoth, Wyoming"
@@ -882,9 +882,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -110.8193333,
-          44.7876667,
-          7.84
+          -110.8123333,
+          44.7893333,
+          8.12
         ]
       },
       "id": "uu60476352"
@@ -975,11 +975,11 @@
         "mag": 4.75,
         "place": "8km ESE of Deep Springs, CA",
         "time": 1641428887010,
-        "updated": 1641479020595,
+        "updated": 1641479337610,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674211",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674211.geojson",
-        "felt": 478,
+        "felt": 479,
         "cdi": 3.8,
         "mmi": 5.384,
         "alert": "green",
@@ -1568,46 +1568,6 @@
         ]
       },
       "id": "ak0228i98g3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "56 km WNW of Karluk, Alaska",
-        "time": 1641393019932,
-        "updated": 1641407844804,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0228i79ud",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0228i79ud.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.332,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 222,
-        "net": "ak",
-        "code": "0228i79ud",
-        "ids": ",ak0228i79ud,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.81,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.8 - 56 km WNW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.2815,
-          57.8116,
-          9.1
-        ]
-      },
-      "id": "ak0228i79ud"
     }
   ],
   "bbox": [
