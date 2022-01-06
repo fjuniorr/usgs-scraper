@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641507028000,
+    "generated": 1641508408000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.63,
+        "place": "10km SE of Pinnacles, CA",
+        "time": 1641508102090,
+        "updated": 1641508286952,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674696",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674696.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "nc",
+        "code": "73674696",
+        "ids": ",nc73674696,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 32,
+        "dmin": null,
+        "rms": 0.11,
+        "gap": 93,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 10km SE of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.0565033,
+          36.4768333,
+          8.33
+        ]
+      },
+      "id": "nc73674696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "123 km SSE of Zarubino, Russia",
+        "time": 1641505945098,
+        "updated": 1641507571040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9qz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9qz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000g9qz",
+        "ids": ",us7000g9qz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.653,
+        "rms": 0.7,
+        "gap": 39,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 123 km SSE of Zarubino, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.5267,
+          41.5672,
+          543.86
+        ]
+      },
+      "id": "us7000g9qz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "16 km N of Pijijiapan, Mexico",
+        "time": 1641505490415,
+        "updated": 1641507953040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9qx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9qx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000g9qx",
+        "ids": ",us7000g9qx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.141,
+        "rms": 0.91,
+        "gap": 158,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 16 km N of Pijijiapan, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2289,
+          15.8318,
+          93.79
+        ]
+      },
+      "id": "us7000g9qx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -295,7 +415,7 @@
         "mag": 4.1,
         "place": "13 km WSW of Daphu, Bhutan",
         "time": 1641480369802,
-        "updated": 1641506602088,
+        "updated": 1641508177873,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9qu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9qu.geojson",
@@ -1295,17 +1415,17 @@
         "mag": 4.75,
         "place": "8km ESE of Deep Springs, CA",
         "time": 1641428887010,
-        "updated": 1641501421525,
+        "updated": 1641508138758,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674211",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674211.geojson",
-        "felt": 501,
+        "felt": 511,
         "cdi": 3.8,
         "mmi": 5.384,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 537,
+        "sig": 541,
         "net": "nc",
         "code": "73674211",
         "ids": ",ew1641428890,nc73674211,us7000g9fi,nn00831150,",
@@ -1488,46 +1608,6 @@
         ]
       },
       "id": "us7000g9dy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.65,
-        "place": "14 km SSW of Wai‘ōhinu, Hawaii",
-        "time": 1641420643820,
-        "updated": 1641424791360,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72858962",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72858962.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 108,
-        "net": "hv",
-        "code": "72858962",
-        "ids": ",us7000g9cv,hv72858962,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 273,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 14 km SSW of Wai‘ōhinu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.645166666667,
-          18.9425,
-          43.61
-        ]
-      },
-      "id": "hv72858962"
     }
   ],
   "bbox": [
@@ -1536,6 +1616,6 @@
     0,
     152.3652,
     69.4269,
-    216.95
+    543.86
   ]
 }
