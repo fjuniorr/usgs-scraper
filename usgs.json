@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641440651000,
+    "generated": 1641441183000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 2.7,
         "place": "48km W of Petrolia, CA",
         "time": 1641437459660,
-        "updated": 1641439943700,
+        "updated": 1641441131503,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674256",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674256.geojson",
@@ -52,20 +52,20 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.62,
+        "mag": 4.58,
         "place": "49km W of Petrolia, CA",
         "time": 1641436930430,
-        "updated": 1641440438696,
+        "updated": 1641441175170,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674251",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674251.geojson",
-        "felt": 153,
+        "felt": 154,
         "cdi": 4.2,
-        "mmi": 3.707,
+        "mmi": 3.73,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 393,
+        "sig": 387,
         "net": "nc",
         "code": "73674251",
         "ids": ",ew1641436940,nc73674251,us7000g9gc,",
@@ -255,17 +255,17 @@
         "mag": 4.75,
         "place": "9km SE of Deep Springs, CA",
         "time": 1641428887000,
-        "updated": 1641440553027,
+        "updated": 1641441171476,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674211",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674211.geojson",
-        "felt": 457,
+        "felt": 460,
         "cdi": 3.8,
         "mmi": 5.244,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 521,
+        "sig": 522,
         "net": "nc",
         "code": "73674211",
         "ids": ",ew1641428890,nc73674211,us7000g9fi,nn00831150,",
@@ -853,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "56 km WNW of Karluk, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1641393019932,
         "updated": 1641407844804,
         "tz": null,
@@ -877,7 +877,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 56 km WNW of Karluk, Alaska"
+        "title": "M 3.8 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "New Britain region, Papua New Guinea",
+        "place": "115 km S of Kokopo, Papua New Guinea",
         "time": 1641379608163,
         "updated": 1641381113040,
         "tz": null,
@@ -1197,7 +1197,7 @@
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - New Britain region, Papua New Guinea"
+        "title": "M 4.6 - 115 km S of Kokopo, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "Komandorskiye Ostrova, Russia region",
+        "place": "157 km E of Ust’-Kamchatsk Staryy, Russia",
         "time": 1641367347322,
         "updated": 1641374923820,
         "tz": null,
@@ -1357,7 +1357,7 @@
         "gap": 72,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - Komandorskiye Ostrova, Russia region"
+        "title": "M 5.4 - 157 km E of Ust’-Kamchatsk Staryy, Russia"
       },
       "geometry": {
         "type": "Point",
