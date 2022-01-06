@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641512729000,
+    "generated": 1641513208000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "New Britain region, Papua New Guinea",
+        "place": "119 km S of Kokopo, Papua New Guinea",
         "time": 1641458108148,
         "updated": 1641462806040,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - New Britain region, Papua New Guinea"
+        "title": "M 4.8 - 119 km S of Kokopo, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1132,10 +1132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.75,
-        "place": "44km W of Petrolia, CA",
-        "time": 1641450076330,
-        "updated": 1641456070456,
+        "mag": 2.79,
+        "place": "42km W of Petrolia, CA",
+        "time": 1641450076770,
+        "updated": 1641512910029,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674346",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674346.geojson",
@@ -1143,28 +1143,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 116,
+        "sig": 120,
         "net": "nc",
         "code": "73674346",
         "ids": ",nc73674346,us7000g9ha,",
         "sources": ",nc,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.3691,
-        "rms": 0.22,
-        "gap": 243,
+        "nst": 71,
+        "dmin": 0.347,
+        "rms": 0.2,
+        "gap": 237,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 44km W of Petrolia, CA"
+        "title": "M 2.8 - 42km W of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.8026657,
-          40.3746681,
-          16.15
+          -124.7731667,
+          40.3765,
+          18.94
         ]
       },
       "id": "nc73674346"
@@ -1455,7 +1455,7 @@
         "mag": 2.82,
         "place": "15km NNW of Petrolia, CA",
         "time": 1641431318240,
-        "updated": 1641512359690,
+        "updated": 1641512952217,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674241",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674241.geojson",
