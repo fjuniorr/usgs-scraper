@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641434367000,
+    "generated": 1641436994000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "107 km W of San Antonio de los Cobres, Argentina",
+        "time": 1641434145200,
+        "updated": 1641435256040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9g4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9g4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000g9g4",
+        "ids": ",us7000g9g4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.517,
+        "rms": 0.7,
+        "gap": 107,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 107 km W of San Antonio de los Cobres, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.3704,
+          -24.2819,
+          216.95
+        ]
+      },
+      "id": "us7000g9g4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "22 km SSW of Mammoth, Wyoming",
+        "time": 1641433390800,
+        "updated": 1641434583670,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60476352",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60476352.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "uu",
+        "code": "60476352",
+        "ids": ",uu60476352,",
+        "sources": ",uu,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.0222,
+        "rms": 0.17,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 22 km SSW of Mammoth, Wyoming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.8193333,
+          44.7876667,
+          7.84
+        ]
+      },
+      "id": "uu60476352"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.76,
         "place": "14km SSW of Ferndale, CA",
         "time": 1641431318370,
-        "updated": 1641434351762,
+        "updated": 1641434641040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674241",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674241.geojson",
@@ -28,8 +108,8 @@
         "sig": 118,
         "net": "nc",
         "code": "73674241",
-        "ids": ",nc73674241,",
-        "sources": ",nc,",
+        "ids": ",nc73674241,us7000g9fs,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 18,
         "dmin": 0.02627,
@@ -92,20 +172,20 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.76,
+        "mag": 4.75,
         "place": "9km SE of Deep Springs, CA",
         "time": 1641428887000,
-        "updated": 1641434165954,
+        "updated": 1641436880825,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674211",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674211.geojson",
-        "felt": 409,
-        "cdi": 4.1,
-        "mmi": 5.218,
+        "felt": 446,
+        "cdi": 3.8,
+        "mmi": 5.244,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 516,
+        "sig": 517,
         "net": "nc",
         "code": "73674211",
         "ids": ",ew1641428890,nc73674211,us7000g9fi,nn00831150,",
@@ -1295,17 +1375,17 @@
         "mag": 2.57,
         "place": "5 km SW of Lugoff, South Carolina",
         "time": 1641365110770,
-        "updated": 1641433287382,
+        "updated": 1641436409645,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60378391",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60378391.geojson",
-        "felt": 382,
+        "felt": 383,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 277,
+        "sig": 278,
         "net": "se",
         "code": "60378391",
         "ids": ",se60378391,us7000g95m,",
@@ -1528,46 +1608,6 @@
         ]
       },
       "id": "tx2022ahnt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "Chile-Bolivia border region",
-        "time": 1641349046065,
-        "updated": 1641350215040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g943",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g943.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000g943",
-        "ids": ",us7000g943,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.77,
-        "rms": 0.55,
-        "gap": 51,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - Chile-Bolivia border region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.6715,
-          -21.1607,
-          123.27
-        ]
-      },
-      "id": "us7000g943"
     }
   ],
   "bbox": [
