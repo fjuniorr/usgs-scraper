@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641455598000,
+    "generated": 1641456796000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 37
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.75,
         "place": "44km W of Petrolia, CA",
         "time": 1641450076330,
-        "updated": 1641453792224,
+        "updated": 1641456070456,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674346",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674346.geojson",
@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "Nevada",
+        "place": "31 km SE of Mina, Nevada",
         "time": 1641442883192,
         "updated": 1641444250447,
         "tz": null,
@@ -157,7 +157,7 @@
         "gap": 56.12,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - Nevada"
+        "title": "M 3.6 - 31 km SE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -415,17 +415,17 @@
         "mag": 4.75,
         "place": "8km ESE of Deep Springs, CA",
         "time": 1641428887010,
-        "updated": 1641453333633,
+        "updated": 1641456140607,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674211",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674211.geojson",
-        "felt": 474,
+        "felt": 475,
         "cdi": 3.7,
         "mmi": 5.384,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 522,
+        "sig": 523,
         "net": "nc",
         "code": "73674211",
         "ids": ",ew1641428890,nc73674211,us7000g9fi,nn00831150,",
@@ -1408,6 +1408,46 @@
         ]
       },
       "id": "pr2022005001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "86 km E of Shangri-La, China",
+        "time": 1641376372026,
+        "updated": 1641456470040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g97u",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g97u.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000g97u",
+        "ids": ",us7000g97u,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.602,
+        "rms": 0.49,
+        "gap": 71,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 86 km E of Shangri-La, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5878,
+          27.8546,
+          10
+        ]
+      },
+      "id": "us7000g97u"
     },
     {
       "type": "Feature",
