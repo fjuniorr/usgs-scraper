@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641564751000,
+    "generated": 1641565770000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -134,8 +134,8 @@
       "properties": {
         "mag": 5.3,
         "place": "Mid-Indian Ridge",
-        "time": 1641558353678,
-        "updated": 1641559754040,
+        "time": 1641558353679,
+        "updated": 1641565096040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9w9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9w9.geojson",
@@ -153,7 +153,7 @@
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": 4.201,
-        "rms": 0.4,
+        "rms": 0.41,
         "gap": 58,
         "magType": "mww",
         "type": "earthquake",
@@ -162,7 +162,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.7025,
+          77.7006,
           -33.5869,
           10
         ]
@@ -215,17 +215,17 @@
         "mag": 5.6,
         "place": "0 km NNE of Ricardo Palma, Peru",
         "time": 1641551224330,
-        "updated": 1641564363040,
+        "updated": 1641565601832,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9vi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9vi.geojson",
-        "felt": 94,
+        "felt": 97,
         "cdi": 7.3,
         "mmi": 4.686,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 719,
+        "sig": 721,
         "net": "us",
         "code": "7000g9vi",
         "ids": ",us7000g9vi,",
@@ -1408,46 +1408,6 @@
         ]
       },
       "id": "us7000g9qu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.66,
-        "place": "40km W of Petrolia, CA",
-        "time": 1641478698760,
-        "updated": 1641526812315,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674491",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674491.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "nc",
-        "code": "73674491",
-        "ids": ",nc73674491,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 51,
-        "dmin": 0.3315,
-        "rms": 0.21,
-        "gap": 235,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 40km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.7486667,
-          40.3688333,
-          18.74
-        ]
-      },
-      "id": "nc73674491"
     }
   ],
   "bbox": [
