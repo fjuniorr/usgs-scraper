@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641598295000,
+    "generated": 1641599073000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -135,7 +135,7 @@
         "mag": 2.83,
         "place": "14km WNW of Alder Springs, CA",
         "time": 1641587652320,
-        "updated": 1641597192277,
+        "updated": 1641598872199,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73675266",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73675266.geojson",
@@ -1295,7 +1295,7 @@
         "mag": 3.01,
         "place": "8km ESE of Deep Springs, CA",
         "time": 1641522727130,
-        "updated": 1641598289670,
+        "updated": 1641598451743,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674891",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674891.geojson",
@@ -1372,10 +1372,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.15,
+        "mag": 3.03,
         "place": "12km SSW of Ferndale, CA",
-        "time": 1641517000270,
-        "updated": 1641539000002,
+        "time": 1641517000260,
+        "updated": 1641599043500,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674821",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674821.geojson",
@@ -1383,28 +1383,28 @@
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 154,
+        "sig": 142,
         "net": "nc",
         "code": "73674821",
         "ids": ",nc73674821,us7000g9si,",
         "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.0163,
-        "rms": 0.08,
-        "gap": 141,
+        "nst": 29,
+        "dmin": 0.01218,
+        "rms": 0.11,
+        "gap": 119,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 12km SSW of Ferndale, CA"
+        "title": "M 3.0 - 12km SSW of Ferndale, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.317337,
-          40.480999,
-          18.08
+          -124.3218333,
+          40.478,
+          18.75
         ]
       },
       "id": "nc73674821"
