@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641592410000,
+    "generated": 1641593430000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "Chagos Archipelago region",
+        "time": 1641591979607,
+        "updated": 1641593164040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ga1s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ga1s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000ga1s",
+        "ids": ",us7000ga1s,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.022,
+        "rms": 0.86,
+        "gap": 72,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - Chagos Archipelago region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.4567,
+          -3.4957,
+          10
+        ]
+      },
+      "id": "us7000ga1s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "15 km NE of Taichung, Taiwan",
+        "time": 1641589937587,
+        "updated": 1641592584411,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ga1h",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ga1h.geojson",
+        "felt": 1,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000ga1h",
+        "ids": ",us7000ga1h,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.496,
+        "rms": 0.62,
+        "gap": 65,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 15 km NE of Taichung, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7774,
+          24.2594,
+          10
+        ]
+      },
+      "id": "us7000ga1h"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.83,
         "place": "14km WNW of Alder Springs, CA",
         "time": 1641587652320,
-        "updated": 1641592304455,
+        "updated": 1641593412146,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73675266",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73675266.geojson",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Malawi",
+        "place": "7 km WSW of Monkey Bay, Malawi",
         "time": 1641573934033,
         "updated": 1641578544040,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Malawi"
+        "title": "M 4.6 - 7 km WSW of Monkey Bay, Malawi"
       },
       "geometry": {
         "type": "Point",
@@ -815,17 +895,17 @@
         "mag": 2.6,
         "place": "9 km SSW of Gypsum, Kansas",
         "time": 1641539460131,
-        "updated": 1641583881513,
+        "updated": 1641592818945,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9uf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9uf.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 105,
+        "sig": 106,
         "net": "us",
         "code": "7000g9uf",
         "ids": ",us7000g9uf,",
@@ -1448,46 +1528,6 @@
         ]
       },
       "id": "us7000g9rd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "104 km S of Kencong, Indonesia",
-        "time": 1641506368974,
-        "updated": 1641520765269,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9r6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9r6.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000g9r6",
-        "ids": ",us7000g9r6,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.18,
-        "rms": 0.6,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 104 km S of Kencong, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          113.2228,
-          -9.2166,
-          50.85
-        ]
-      },
-      "id": "us7000g9r6"
     }
   ],
   "bbox": [
