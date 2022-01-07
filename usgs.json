@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641591930000,
+    "generated": 1641592410000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 37
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "13km WNW of Alder Springs, CA",
-        "time": 1641587652350,
-        "updated": 1641590061214,
+        "mag": 2.83,
+        "place": "14km WNW of Alder Springs, CA",
+        "time": 1641587652320,
+        "updated": 1641592304455,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73675266",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73675266.geojson",
@@ -25,26 +25,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 158,
+        "sig": 123,
         "net": "nc",
         "code": "73675266",
         "ids": ",nc73675266,",
         "sources": ",nc,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.2688,
-        "rms": 0.14,
-        "gap": 84,
-        "magType": "ml",
+        "nst": 48,
+        "dmin": 0.2703,
+        "rms": 0.13,
+        "gap": 45,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 13km WNW of Alder Springs, CA"
+        "title": "M 2.8 - 14km WNW of Alder Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.8748322,
-          39.6873322,
-          9.2
+          -122.8743333,
+          39.6896667,
+          6.83
         ]
       },
       "id": "nc73675266"
@@ -1488,46 +1488,6 @@
         ]
       },
       "id": "us7000g9r6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "123 km SSE of Zarubino, Russia",
-        "time": 1641505945098,
-        "updated": 1641507571040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9qz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9qz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000g9qz",
-        "ids": ",us7000g9qz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.653,
-        "rms": 0.7,
-        "gap": 39,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 123 km SSE of Zarubino, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          131.5267,
-          41.5672,
-          543.86
-        ]
-      },
-      "id": "us7000g9qz"
     }
   ],
   "bbox": [
@@ -1536,6 +1496,6 @@
     1.62,
     153.4462,
     65.4225,
-    543.86
+    109.68
   ]
 }
