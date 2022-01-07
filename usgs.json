@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641587610000,
+    "generated": 1641588330000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "13km WNW of Alder Springs, CA",
+        "time": 1641587652350,
+        "updated": 1641588072950,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73675266",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73675266.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "nc",
+        "code": "73675266",
+        "ids": ",nc73675266,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.2688,
+        "rms": 0.14,
+        "gap": 84,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 13km WNW of Alder Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8748322,
+          39.6873322,
+          9.2
+        ]
+      },
+      "id": "nc73675266"
+    },
     {
       "type": "Feature",
       "properties": {
