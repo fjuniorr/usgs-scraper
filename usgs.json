@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641578008000,
+    "generated": 1641579148000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.6,
+        "place": "111 km SW of Jinchang, China",
+        "time": 1641577530125,
+        "updated": 1641579105117,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9zq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9zq.geojson",
+        "felt": 1,
+        "cdi": 3.4,
+        "mmi": 7.526,
+        "alert": "pending",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 670,
+        "net": "us",
+        "code": "7000g9zq",
+        "ids": ",us7000g9zq,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 10.697,
+        "rms": 0.62,
+        "gap": 21,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.6 - 111 km SW of Jinchang, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.2748,
+          37.811,
+          10
+        ]
+      },
+      "id": "us7000g9zq"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us7000g9ze"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "7 km WSW of Monkey Bay, Malawi",
+        "time": 1641573934033,
+        "updated": 1641578544040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9zb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9zb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000g9zb",
+        "ids": ",us7000g9zb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 10.018,
+        "rms": 0.98,
+        "gap": 77,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 7 km WSW of Monkey Bay, Malawi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8555,
+          -14.1083,
+          10
+        ]
+      },
+      "id": "us7000g9zb"
     },
     {
       "type": "Feature",
@@ -295,11 +375,11 @@
         "mag": 5.6,
         "place": "3 km N of Cocachacra, Peru",
         "time": 1641551228440,
-        "updated": 1641575725303,
+        "updated": 1641578192199,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9vi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9vi.geojson",
-        "felt": 107,
+        "felt": 108,
         "cdi": 7.3,
         "mmi": 4.323,
         "alert": "green",
