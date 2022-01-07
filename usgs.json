@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641584133000,
+    "generated": 1641584668000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "36 km SE of Mina, Nevada",
+        "time": 1641583922087,
+        "updated": 1641584180366,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00831343",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00831343.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "nn",
+        "code": "00831343",
+        "ids": ",nn00831343,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.131,
+        "rms": 0.2964,
+        "gap": 95.1,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 36 km SE of Mina, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.771,
+          38.1977,
+          6.2
+        ]
+      },
+      "id": "nn00831343"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -133,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Malawi",
+        "place": "7 km WSW of Monkey Bay, Malawi",
         "time": 1641573934033,
         "updated": 1641578544040,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Malawi"
+        "title": "M 4.6 - 7 km WSW of Monkey Bay, Malawi"
       },
       "geometry": {
         "type": "Point",
@@ -1408,46 +1448,6 @@
         ]
       },
       "id": "us7000g9qn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "7 km WSW of Fuig, Puerto Rico",
-        "time": 1641498142340,
-        "updated": 1641509650040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022006005",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022006005.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "pr",
-        "code": "2022006005",
-        "ids": ",us7000g9pv,pr2022006005,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.068,
-        "rms": 0.19,
-        "gap": 181,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 7 km WSW of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9771,
-          17.9588,
-          7
-        ]
-      },
-      "id": "pr2022006005"
     }
   ],
   "bbox": [
