@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641548010000,
+    "generated": 1641548789000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -1292,6 +1292,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "38 km NNW of Ruteng, Indonesia",
+        "time": 1641469517329,
+        "updated": 1641548428040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9j2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9j2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000g9j2",
+        "ids": ",us7000g9j2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.91,
+        "rms": 1.3,
+        "gap": 88,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 38 km NNW of Ruteng, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3376,
+          -8.291,
+          193.19
+        ]
+      },
+      "id": "us7000g9j2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
         "place": "80 km S of Kaktovik, Alaska",
         "time": 1641467837850,
@@ -1333,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "73 km S of Kaktovik, Alaska",
+        "place": "northern Alaska",
         "time": 1641466734710,
         "updated": 1641547253040,
         "tz": null,
@@ -1357,7 +1397,7 @@
         "gap": 116,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 73 km S of Kaktovik, Alaska"
+        "title": "M 2.6 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1488,46 +1528,6 @@
         ]
       },
       "id": "ak022a39qd7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "55 km S of Whites City, New Mexico",
-        "time": 1641461640884,
-        "updated": 1641541225981,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022ajwl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022ajwl.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "tx",
-        "code": "2022ajwl",
-        "ids": ",tx2022ajwl,us7000g9i3,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.07786985935,
-        "rms": 0.2,
-        "gap": 56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 55 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.4097076,
-          31.67467916,
-          6.440063477
-        ]
-      },
-      "id": "tx2022ajwl"
     }
   ],
   "bbox": [
