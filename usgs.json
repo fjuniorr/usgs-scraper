@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641559891000,
+    "generated": 1641561571000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.67,
+        "place": "6km S of Brawley, CA",
+        "time": 1641561311880,
+        "updated": 1641561536380,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39904831",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39904831.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "ci",
+        "code": "39904831",
+        "ids": ",ci39904831,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 53,
+        "dmin": 0.03575,
+        "rms": 0.29,
+        "gap": 39,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 6km S of Brawley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.5289993,
+          32.9253349,
+          9.96
+        ]
+      },
+      "id": "ci39904831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.69,
         "place": "13km WNW of Alder Springs, CA",
         "time": 1641559065930,
-        "updated": 1641559450557,
+        "updated": 1641560353648,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73675101",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73675101.geojson",
@@ -135,17 +175,17 @@
         "mag": 5.2,
         "place": "2 km ENE of Ricardo Palma, Peru",
         "time": 1641551224723,
-        "updated": 1641559407053,
+        "updated": 1641560855355,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9vi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9vi.geojson",
-        "felt": 89,
+        "felt": 92,
         "cdi": 7.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 481,
+        "sig": 483,
         "net": "us",
         "code": "7000g9vi",
         "ids": ",us7000g9vi,",
@@ -1368,46 +1408,6 @@
         ]
       },
       "id": "nc73674491"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "south of the Fiji Islands",
-        "time": 1641474736646,
-        "updated": 1641484217040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9jp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9jp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000g9jp",
-        "ids": ",us7000g9jp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.65,
-        "rms": 0.82,
-        "gap": 61,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -176.9406,
-          -24.6768,
-          149.57
-        ]
-      },
-      "id": "us7000g9jp"
     }
   ],
   "bbox": [
