@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641526168000,
+    "generated": 1641527068000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "11 km WNW of Fishhook, Alaska",
+        "time": 1641526384602,
+        "updated": 1641527008021,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022bmqtb9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022bmqtb9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "022bmqtb9",
+        "ids": ",us7000g9ta,ak022bmqtb9,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.77,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 11 km WNW of Fishhook, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.428,
+          61.7853,
+          16
+        ]
+      },
+      "id": "ak022bmqtb9"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +135,7 @@
         "mag": 2.98,
         "place": "8km ESE of Deep Springs, CA",
         "time": 1641522727200,
-        "updated": 1641524855681,
+        "updated": 1641526451686,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674891",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674891.geojson",
@@ -815,7 +855,7 @@
         "mag": 2.66,
         "place": "40km W of Petrolia, CA",
         "time": 1641478698760,
-        "updated": 1641523752048,
+        "updated": 1641526812315,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674491",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674491.geojson",
