@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641574470000,
+    "generated": 1641576035000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -253,38 +253,38 @@
       "type": "Feature",
       "properties": {
         "mag": 5.6,
-        "place": "0 km NNE of Ricardo Palma, Peru",
-        "time": 1641551224330,
-        "updated": 1641573753640,
+        "place": "3 km N of Cocachacra, Peru",
+        "time": 1641551228440,
+        "updated": 1641575725303,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9vi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9vi.geojson",
-        "felt": 106,
+        "felt": 107,
         "cdi": 7.3,
-        "mmi": 4.686,
-        "alert": "yellow",
+        "mmi": 4.323,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 727,
+        "sig": 561,
         "net": "us",
         "code": "7000g9vi",
         "ids": ",us7000g9vi,",
         "sources": ",us,",
         "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 5.693,
-        "rms": 1.19,
+        "dmin": 5.591,
+        "rms": 0.66,
         "gap": 47,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - 0 km NNE of Ricardo Palma, Peru"
+        "title": "M 5.6 - 3 km N of Cocachacra, Peru"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.6539,
-          -11.9131,
-          66.12
+          -76.5352,
+          -11.8819,
+          109.68
         ]
       },
       "id": "us7000g9vi"
