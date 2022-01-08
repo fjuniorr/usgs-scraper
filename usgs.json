@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641617129000,
+    "generated": 1641618036000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 33
   },
   "features": [
     {
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Malawi",
+        "place": "7 km WSW of Monkey Bay, Malawi",
         "time": 1641573934033,
         "updated": 1641578544040,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Malawi"
+        "title": "M 4.6 - 7 km WSW of Monkey Bay, Malawi"
       },
       "geometry": {
         "type": "Point",
@@ -975,17 +975,17 @@
         "mag": 5.6,
         "place": "3 km N of Cocachacra, Peru",
         "time": 1641551228440,
-        "updated": 1641613834706,
+        "updated": 1641617609387,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9vi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9vi.geojson",
-        "felt": 113,
+        "felt": 114,
         "cdi": 7.3,
         "mmi": 4.323,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 565,
+        "sig": 566,
         "net": "us",
         "code": "7000g9vi",
         "ids": ",us7000g9vi,",
@@ -1328,46 +1328,6 @@
         ]
       },
       "id": "us7000g9tt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "19km S of San Pedro, CA",
-        "time": 1641531092740,
-        "updated": 1641581196363,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39904655",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39904655.geojson",
-        "felt": 8,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "ci",
-        "code": "39904655",
-        "ids": ",ci39904655,us7000g9tm,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 93,
-        "dmin": 0.1507,
-        "rms": 0.25,
-        "gap": 200,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 19km S of San Pedro, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.3106667,
-          33.5621667,
-          2.05
-        ]
-      },
-      "id": "ci39904655"
     }
   ],
   "bbox": [
