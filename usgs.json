@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641615398000,
+    "generated": 1641617129000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -53,15 +53,15 @@
       "type": "Feature",
       "properties": {
         "mag": 5.9,
-        "place": "114 km NW of Copiapó, Chile",
-        "time": 1641612248061,
-        "updated": 1641615379850,
+        "place": "112 km NW of Copiapó, Chile",
+        "time": 1641612248565,
+        "updated": 1641616670040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ga3i",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ga3i.geojson",
-        "felt": 7,
+        "felt": 9,
         "cdi": 4.3,
-        "mmi": 3.819,
+        "mmi": 4.17,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -73,18 +73,18 @@
         "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 0.53,
-        "rms": 1.28,
-        "gap": 95,
+        "rms": 1.25,
+        "gap": 72,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.9 - 114 km NW of Copiapó, Chile"
+        "title": "M 5.9 - 112 km NW of Copiapó, Chile"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.214,
-          -26.7015,
-          11.64
+          -71.1667,
+          -26.6739,
+          13
         ]
       },
       "id": "us7000ga3i"
