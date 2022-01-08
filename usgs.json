@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641611970000,
+    "generated": 1641612990000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 31
   },
   "features": [
     {
@@ -573,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Malawi",
+        "place": "7 km WSW of Monkey Bay, Malawi",
         "time": 1641573934033,
         "updated": 1641578544040,
         "tz": null,
@@ -597,7 +597,7 @@
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Malawi"
+        "title": "M 4.6 - 7 km WSW of Monkey Bay, Malawi"
       },
       "geometry": {
         "type": "Point",
@@ -1248,46 +1248,6 @@
         ]
       },
       "id": "hv72860167"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "11 km WNW of Fishhook, Alaska",
-        "time": 1641526384602,
-        "updated": 1641569057339,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022bmqtb9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022bmqtb9.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "022bmqtb9",
-        "ids": ",ak022bmqtb9,us7000g9ta,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.77,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 11 km WNW of Fishhook, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.428,
-          61.7853,
-          16
-        ]
-      },
-      "id": "ak022bmqtb9"
     }
   ],
   "bbox": [
@@ -1295,7 +1255,7 @@
     -33.5869,
     1.65,
     169.8035,
-    61.7853,
+    58.2915,
     529.67
   ]
 }
