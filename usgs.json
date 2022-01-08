@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641620139000,
+    "generated": 1641620619000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -55,7 +55,7 @@
         "mag": 5.9,
         "place": "112 km NW of Copiapó, Chile",
         "time": 1641612248565,
-        "updated": 1641619688432,
+        "updated": 1641620400861,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ga3i",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ga3i.geojson",
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Malawi",
+        "place": "7 km WSW of Monkey Bay, Malawi",
         "time": 1641573934033,
         "updated": 1641578544040,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Malawi"
+        "title": "M 4.6 - 7 km WSW of Monkey Bay, Malawi"
       },
       "geometry": {
         "type": "Point",
