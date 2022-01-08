@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641641611000,
+    "generated": 1641642163000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -255,7 +255,7 @@
         "mag": 2.6,
         "place": "7km W of Cobb, CA",
         "time": 1641630541760,
-        "updated": 1641638298111,
+        "updated": 1641641891390,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73675531",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73675531.geojson",
@@ -1173,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Malawi",
+        "place": "7 km WSW of Monkey Bay, Malawi",
         "time": 1641573934033,
         "updated": 1641578544040,
         "tz": null,
@@ -1197,7 +1197,7 @@
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Malawi"
+        "title": "M 4.6 - 7 km WSW of Monkey Bay, Malawi"
       },
       "geometry": {
         "type": "Point",
