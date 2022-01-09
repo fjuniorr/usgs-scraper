@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641769791000,
+    "generated": 1641771102000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 32
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4,
         "place": "8 km SSE of Bistrica, North Macedonia",
         "time": 1641766863780,
-        "updated": 1641768846040,
+        "updated": 1641770698984,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaf6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaf6.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "7000gaf6",
         "ids": ",us7000gaf6,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 1.155,
         "rms": 0.62,
@@ -95,17 +95,17 @@
         "mag": 5.5,
         "place": "5 km NW of Flórina, Greece",
         "time": 1641764627852,
-        "updated": 1641769601638,
+        "updated": 1641770551427,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaex",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaex.geojson",
-        "felt": 116,
+        "felt": 118,
         "cdi": 6.6,
         "mmi": 7.201,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 727,
+        "sig": 728,
         "net": "us",
         "code": "7000gaex",
         "ids": ",us7000gaex,",
@@ -175,7 +175,7 @@
         "mag": 5.3,
         "place": "39 km SSW of Tobelo, Indonesia",
         "time": 1641763671266,
-        "updated": 1641765606040,
+        "updated": 1641770579040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaeq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaeq.geojson",
@@ -190,7 +190,7 @@
         "code": "7000gaeq",
         "ids": ",us7000gaeq,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 0.795,
         "rms": 0.65,
@@ -693,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.52,
-        "place": "Puerto Rico region",
+        "place": "11 km S of Pole Ojea, Puerto Rico",
         "time": 1641718459320,
         "updated": 1641719208163,
         "tz": null,
@@ -717,7 +717,7 @@
         "gap": 294,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 11 km S of Pole Ojea, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.45,
-        "place": "Puerto Rico region",
+        "place": "5 km SSW of Indios, Puerto Rico",
         "time": 1641716672480,
         "updated": 1641717340533,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 198,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 5 km SSW of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "23 km WNW of Kalifornsky, Alaska",
+        "place": "Kenai Peninsula, Alaska",
         "time": 1641699258525,
         "updated": 1641700149040,
         "tz": null,
@@ -1077,7 +1077,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 23 km WNW of Kalifornsky, Alaska"
+        "title": "M 2.8 - Kenai Peninsula, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Gulf of California",
+        "place": "92 km SSW of El Huitusi, Mexico",
         "time": 1641687082834,
         "updated": 1641723817115,
         "tz": null,
@@ -1237,7 +1237,7 @@
         "gap": 162,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Gulf of California"
+        "title": "M 4.7 - 92 km SSW of El Huitusi, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1288,46 +1288,6 @@
         ]
       },
       "id": "ci39906383"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.69,
-        "place": "7 km WSW of Guánica, Puerto Rico",
-        "time": 1641684635840,
-        "updated": 1641685487447,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022008002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022008002.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "pr",
-        "code": "2022008002",
-        "ids": ",pr2022008002,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.0699,
-        "rms": 0.1,
-        "gap": 213,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 7 km WSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9771,
-          17.9498,
-          8
-        ]
-      },
-      "id": "pr2022008002"
     }
   ],
   "bbox": [
