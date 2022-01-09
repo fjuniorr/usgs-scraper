@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641771102000,
+    "generated": 1641771840000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -93,38 +93,38 @@
       "type": "Feature",
       "properties": {
         "mag": 5.5,
-        "place": "5 km NW of Flórina, Greece",
-        "time": 1641764627852,
-        "updated": 1641770551427,
+        "place": "7 km NNW of Flórina, Greece",
+        "time": 1641764626720,
+        "updated": 1641771654587,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaex",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaex.geojson",
-        "felt": 118,
+        "felt": 122,
         "cdi": 6.6,
         "mmi": 7.201,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 728,
+        "sig": 731,
         "net": "us",
         "code": "7000gaex",
         "ids": ",us7000gaex,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 1.118,
-        "rms": 1.01,
+        "dmin": 1.124,
+        "rms": 0.75,
         "gap": 22,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.5 - 5 km NW of Flórina, Greece"
+        "title": "M 5.5 - 7 km NNW of Flórina, Greece"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.3684,
-          40.8246,
-          13.65
+          21.3763,
+          40.8416,
+          10
         ]
       },
       "id": "us7000gaex"
