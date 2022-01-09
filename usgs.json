@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641714766000,
+    "generated": 1641715952000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "34 km SE of Mina, Nevada",
+        "time": 1641715465167,
+        "updated": 1641715757028,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00831422",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00831422.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "nn",
+        "code": "00831422",
+        "ids": ",nn00831422,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.364,
+        "rms": 0.2452,
+        "gap": 94.55,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 34 km SE of Mina, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7962,
+          38.203,
+          7
+        ]
+      },
+      "id": "nn00831422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.63,
+        "place": "16km N of Coalinga, CA",
+        "time": 1641714840240,
+        "updated": 1641715391122,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73676091",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73676091.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "nc",
+        "code": "73676091",
+        "ids": ",nc73676091,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 34,
+        "dmin": null,
+        "rms": 0.13,
+        "gap": 85,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 16km N of Coalinga, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.3446655,
+          36.2873344,
+          12.5
+        ]
+      },
+      "id": "nc73676091"
+    },
     {
       "type": "Feature",
       "properties": {
