@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641712172000,
+    "generated": 1641713205000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.56,
+        "place": "4km W of Cobb, CA",
+        "time": 1641712640350,
+        "updated": 1641713051555,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73676046",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73676046.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 101,
+        "net": "nc",
+        "code": "73676046",
+        "ids": ",nc73676046,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 47,
+        "dmin": 0.008124,
+        "rms": 0.06,
+        "gap": 55,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 4km W of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7653351,
+          38.8231659,
+          1.77
+        ]
+      },
+      "id": "nc73676046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "108 km NNW of Yakutat, Alaska",
+        "time": 1641712364735,
+        "updated": 1641713116738,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gab8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gab8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "us",
+        "code": "7000gab8",
+        "ids": ",ak022f02trn,us7000gab8,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.372,
+        "rms": 0.54,
+        "gap": 92,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 108 km NNW of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -140.4465,
+          60.454,
+          22.38
+        ]
+      },
+      "id": "us7000gab8"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -133,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "Kenai Peninsula, Alaska",
+        "place": "23 km WNW of Kalifornsky, Alaska",
         "time": 1641699258525,
         "updated": 1641700149040,
         "tz": null,
@@ -157,7 +237,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Kenai Peninsula, Alaska"
+        "title": "M 2.8 - 23 km WNW of Kalifornsky, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "92 km SSW of El Huitusi, Mexico",
+        "place": "Gulf of California",
         "time": 1641687082834,
         "updated": 1641696265493,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": 162,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 92 km SSW of El Huitusi, Mexico"
+        "title": "M 4.7 - Gulf of California"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Central Alaska",
+        "place": "72 km W of Petersville, Alaska",
         "time": 1641655215519,
         "updated": 1641670111040,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Central Alaska"
+        "title": "M 2.5 - 72 km W of Petersville, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -768,6 +848,46 @@
         ]
       },
       "id": "us7000ga6b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.62,
+        "place": "6 km ENE of Adak, Alaska",
+        "time": 1641641980320,
+        "updated": 1641713159270,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91459081",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91459081.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.045,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 202,
+        "net": "av",
+        "code": "91459081",
+        "ids": ",av91459081,ak022df2zko,",
+        "sources": ",av,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 15,
+        "dmin": null,
+        "rms": 0.16,
+        "gap": 140,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 6 km ENE of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.551333333333,
+          51.8986666666667,
+          2
+        ]
+      },
+      "id": "av91459081"
     },
     {
       "type": "Feature",
