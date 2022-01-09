@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641766179000,
+    "generated": 1641767322000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.6,
+        "place": "30 km SSW of Tobelo, Indonesia",
+        "time": 1641765545758,
+        "updated": 1641766836218,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaf4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaf4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 6.514,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 482,
+        "net": "us",
+        "code": "7000gaf4",
+        "ids": ",us7000gaf4,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.87,
+        "rms": 0.85,
+        "gap": 81,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.6 - 30 km SSW of Tobelo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.8667,
+          1.4888,
+          10
+        ]
+      },
+      "id": "us7000gaf4"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.5,
         "place": "5 km NW of Flórina, Greece",
         "time": 1641764627852,
-        "updated": 1641765870492,
+        "updated": 1641767101775,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaex",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaex.geojson",
-        "felt": 17,
-        "cdi": 3.8,
-        "mmi": 6.149,
+        "felt": 94,
+        "cdi": 6.6,
+        "mmi": 6.151,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 472,
+        "sig": 527,
         "net": "us",
         "code": "7000gaex",
         "ids": ",us7000gaex,",
@@ -573,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.52,
-        "place": "11 km S of Pole Ojea, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1641718459320,
         "updated": 1641719208163,
         "tz": null,
@@ -597,7 +637,7 @@
         "gap": 294,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 11 km S of Pole Ojea, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.45,
-        "place": "5 km SSW of Indios, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1641716672480,
         "updated": 1641717340533,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 198,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 5 km SSW of Indios, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "Kenai Peninsula, Alaska",
+        "place": "23 km WNW of Kalifornsky, Alaska",
         "time": 1641699258525,
         "updated": 1641700149040,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Kenai Peninsula, Alaska"
+        "title": "M 2.8 - 23 km WNW of Kalifornsky, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "92 km SSW of El Huitusi, Mexico",
+        "place": "Gulf of California",
         "time": 1641687082834,
         "updated": 1641723817115,
         "tz": null,
@@ -1117,7 +1157,7 @@
         "gap": 162,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 92 km SSW of El Huitusi, Mexico"
+        "title": "M 4.7 - Gulf of California"
       },
       "geometry": {
         "type": "Point",
