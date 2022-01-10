@@ -1,19 +1,139 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641772380000,
+    "generated": 1641775062000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 35
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 5.7,
+        "place": "south of the Kermadec Islands",
+        "time": 1641773191237,
+        "updated": 1641774709432,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gag3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gag3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.844,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 500,
+        "net": "us",
+        "code": "7000gag3",
+        "ids": ",us7000gag3,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 5,
+        "rms": 1.26,
+        "gap": 67,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.7 - south of the Kermadec Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.5471,
+          -33.7854,
+          10
+        ]
+      },
+      "id": "us7000gag3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "127 km NNE of Tobelo, Indonesia",
+        "time": 1641772010209,
+        "updated": 1641774881040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gag1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gag1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000gag1",
+        "ids": ",us7000gag1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.288,
+        "rms": 0.84,
+        "gap": 92,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 127 km NNE of Tobelo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5241,
+          2.7591,
+          232.69
+        ]
+      },
+      "id": "us7000gag1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "139 km NNW of Pante Makasar, Timor Leste",
+        "time": 1641770767907,
+        "updated": 1641772858040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gafn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gafn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000gafn",
+        "ids": ",us7000gafn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.534,
+        "rms": 0.5,
+        "gap": 90,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 139 km NNW of Pante Makasar, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.7037,
+          -8.1312,
+          10
+        ]
+      },
+      "id": "us7000gafn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4,
-        "place": "Flores region, Indonesia",
+        "place": "133 km NNW of Pante Makasar, Timor Leste",
         "time": 1641770402513,
         "updated": 1641772034040,
         "tz": null,
@@ -37,7 +157,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - Flores region, Indonesia"
+        "title": "M 4.0 - 133 km NNW of Pante Makasar, Timor Leste"
       },
       "geometry": {
         "type": "Point",
@@ -95,7 +215,7 @@
         "mag": 5.6,
         "place": "30 km SSW of Tobelo, Indonesia",
         "time": 1641765545758,
-        "updated": 1641766836218,
+        "updated": 1641772965771,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaf4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaf4.geojson",
@@ -175,17 +295,17 @@
         "mag": 5.5,
         "place": "7 km NNW of Flórina, Greece",
         "time": 1641764626720,
-        "updated": 1641772357832,
+        "updated": 1641774591125,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaex",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaex.geojson",
-        "felt": 124,
+        "felt": 130,
         "cdi": 6.6,
         "mmi": 7.147,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 732,
+        "sig": 736,
         "net": "us",
         "code": "7000gaex",
         "ids": ",us7000gaex,",
@@ -773,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.52,
-        "place": "Puerto Rico region",
+        "place": "11 km S of Pole Ojea, Puerto Rico",
         "time": 1641718459320,
         "updated": 1641719208163,
         "tz": null,
@@ -797,7 +917,7 @@
         "gap": 294,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 11 km S of Pole Ojea, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.45,
-        "place": "Puerto Rico region",
+        "place": "5 km SSW of Indios, Puerto Rico",
         "time": 1641716672480,
         "updated": 1641717340533,
         "tz": null,
@@ -837,7 +957,7 @@
         "gap": 198,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 5 km SSW of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "23 km WNW of Kalifornsky, Alaska",
+        "place": "Kenai Peninsula, Alaska",
         "time": 1641699258525,
         "updated": 1641700149040,
         "tz": null,
@@ -1157,7 +1277,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 23 km WNW of Kalifornsky, Alaska"
+        "title": "M 2.8 - Kenai Peninsula, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1215,7 +1335,7 @@
         "mag": 5.9,
         "place": "New Britain region, Papua New Guinea",
         "time": 1641693947962,
-        "updated": 1641701379688,
+        "updated": 1641774239040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ga9y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ga9y.geojson",
@@ -1288,51 +1408,11 @@
         ]
       },
       "id": "pr2022009000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Gulf of California",
-        "time": 1641687082834,
-        "updated": 1641723817115,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ga9j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ga9j.geojson",
-        "felt": 2,
-        "cdi": 3.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 341,
-        "net": "us",
-        "code": "7000ga9j",
-        "ids": ",us7000ga9j,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 3.79,
-        "rms": 1.07,
-        "gap": 162,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Gulf of California"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.0818,
-          24.7185,
-          10
-        ]
-      },
-      "id": "us7000ga9j"
     }
   ],
   "bbox": [
     -179.6411,
-    -32.8845,
+    -33.7854,
     1.77,
     179.7855,
     61.4175,
