@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641851620000,
+    "generated": 1641852532000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 5.7,
         "place": "south of the Fiji Islands",
         "time": 1641844983140,
-        "updated": 1641850631040,
+        "updated": 1641852379770,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gani",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gani.geojson",
@@ -1648,46 +1648,6 @@
         ]
       },
       "id": "us7000gaf6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "30 km SSW of Tobelo, Indonesia",
-        "time": 1641765545758,
-        "updated": 1641836119040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaf4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaf4.geojson",
-        "felt": 7,
-        "cdi": 6.8,
-        "mmi": 6.514,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 487,
-        "net": "us",
-        "code": "7000gaf4",
-        "ids": ",us7000gaf4,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 0.87,
-        "rms": 0.85,
-        "gap": 81,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - 30 km SSW of Tobelo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.8667,
-          1.4888,
-          10
-        ]
-      },
-      "id": "us7000gaf4"
     }
   ],
   "bbox": [
