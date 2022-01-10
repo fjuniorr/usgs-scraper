@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641813117000,
+    "generated": 1641814085000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "south of Tonga",
+        "time": 1641812371986,
+        "updated": 1641813613040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaiu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaiu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "7000gaiu",
+        "ids": ",us7000gaiu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 9.007,
+        "rms": 1.32,
+        "gap": 120,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - south of Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.9496,
+          -24.8444,
+          22.3
+        ]
+      },
+      "id": "us7000gaiu"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -328,6 +368,46 @@
         ]
       },
       "id": "us7000gahf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "106 km ESE of Kokopo, Papua New Guinea",
+        "time": 1641792259317,
+        "updated": 1641814040040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gah8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gah8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000gah8",
+        "ids": ",us7000gah8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.123,
+        "rms": 0.34,
+        "gap": 119,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 106 km ESE of Kokopo, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1413,
+          -4.7535,
+          10
+        ]
+      },
+      "id": "us7000gah8"
     },
     {
       "type": "Feature",
