@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641786423000,
+    "generated": 1641786963000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -575,7 +575,7 @@
         "mag": 5.5,
         "place": "7 km NNW of Flórina, Greece",
         "time": 1641764626720,
-        "updated": 1641784798644,
+        "updated": 1641786656632,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaex",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaex.geojson",
