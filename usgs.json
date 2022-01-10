@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641823806000,
+    "generated": 1641824817000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 42
   },
   "features": [
     {
@@ -488,6 +488,46 @@
         ]
       },
       "id": "us7000gahp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "61 km NNE of Calama, Chile",
+        "time": 1641797540074,
+        "updated": 1641824696040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gahm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gahm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000gahm",
+        "ids": ",us7000gahm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.051,
+        "rms": 1,
+        "gap": 71,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 61 km NNE of Calama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.6233,
+          -21.9729,
+          146.02
+        ]
+      },
+      "id": "us7000gahm"
     },
     {
       "type": "Feature",
