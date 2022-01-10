@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641846532000,
+    "generated": 1641847257000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 46
   },
   "features": [
     {
@@ -48,6 +48,46 @@
         ]
       },
       "id": "us7000gani"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "147 km S of ‘Ohonua, Tonga",
+        "time": 1641844454458,
+        "updated": 1641847136040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gank",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gank.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000gank",
+        "ids": ",us7000gank,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 19.669,
+        "rms": 1.32,
+        "gap": 80,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 147 km S of ‘Ohonua, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.8807,
+          -22.6665,
+          10
+        ]
+      },
+      "id": "us7000gank"
     },
     {
       "type": "Feature",
@@ -95,7 +135,7 @@
         "mag": 2.71,
         "place": "40km W of Petrolia, CA",
         "time": 1641833305320,
-        "updated": 1641841570745,
+        "updated": 1641846749040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73676581",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73676581.geojson",
@@ -108,8 +148,8 @@
         "sig": 113,
         "net": "nc",
         "code": "73676581",
-        "ids": ",nc73676581,",
-        "sources": ",nc,",
+        "ids": ",nc73676581,us7000gaml,",
+        "sources": ",nc,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 27,
         "dmin": 0.327,
@@ -1615,11 +1655,11 @@
         "mag": 5.5,
         "place": "7 km NNW of Flórina, Greece",
         "time": 1641764626720,
-        "updated": 1641839521996,
+        "updated": 1641847205663,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaex",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaex.geojson",
-        "felt": 148,
+        "felt": 149,
         "cdi": 5.8,
         "mmi": 7.147,
         "alert": "yellow",
