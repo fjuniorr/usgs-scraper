@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641857572000,
+    "generated": 1641858377000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "94 km SE of Chiniak, Alaska",
+        "time": 1641857912938,
+        "updated": 1641858159666,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022gxanw5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022gxanw5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "022gxanw5",
+        "ids": ",ak022gxanw5,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.66,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 94 km SE of Chiniak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.0004,
+          57.1229,
+          49.4
+        ]
+      },
+      "id": "ak022gxanw5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.9,
+        "place": "northern Mid-Atlantic Ridge",
+        "time": 1641857205499,
+        "updated": 1641858342040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaq7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaq7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 536,
+        "net": "us",
+        "code": "7000gaq7",
+        "ids": ",us7000gaq7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 17.734,
+        "rms": 1.16,
+        "gap": 67,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.9 - northern Mid-Atlantic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6249,
+          28.4913,
+          10
+        ]
+      },
+      "id": "us7000gaq7"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,7 +255,7 @@
         "mag": 5.7,
         "place": "south of the Fiji Islands",
         "time": 1641844983140,
-        "updated": 1641852379770,
+        "updated": 1641857779040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gani",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gani.geojson",
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "5 km E of Assaria, Kansas",
+        "place": "Kansas",
         "time": 1641825340625,
         "updated": 1641837972510,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": 104,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.1 - 5 km E of Assaria, Kansas"
+        "title": "M 3.1 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -855,17 +935,17 @@
         "mag": 3.6,
         "place": "57 km SSW of Cantwell, Alaska",
         "time": 1641803893895,
-        "updated": 1641837857794,
+        "updated": 1641857759008,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022god42f",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022god42f.geojson",
-        "felt": 4,
-        "cdi": 2.7,
+        "felt": 5,
+        "cdi": 3.4,
         "mmi": 2.525,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 200,
+        "sig": 201,
         "net": "ak",
         "code": "022god42f",
         "ids": ",ak022god42f,us7000gai5,",
@@ -895,7 +975,7 @@
         "mag": 5.5,
         "place": "20 km NW of Trancas, Argentina",
         "time": 1641803762502,
-        "updated": 1641827158436,
+        "updated": 1641857682040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gai4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gai4.geojson",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Antofagasta, Chile",
+        "place": "61 km NNE of Calama, Chile",
         "time": 1641797540074,
         "updated": 1641824696040,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 71,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Antofagasta, Chile"
+        "title": "M 4.1 - 61 km NNE of Calama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.57,
-        "place": "Mona Passage",
+        "place": "93 km NNW of San Antonio, Puerto Rico",
         "time": 1641782535200,
         "updated": 1641783562734,
         "tz": null,
@@ -1357,7 +1437,7 @@
         "gap": 301,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Mona Passage"
+        "title": "M 3.6 - 93 km NNW of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
