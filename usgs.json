@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641856377000,
+    "generated": 1641857572000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,42 +12,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.6,
-        "place": "23 km E of Punta Cana, Dominican Republic",
-        "time": 1641852484468,
-        "updated": 1641853621040,
+        "mag": 3.7,
+        "place": "30 km NNW of Cold Bay, Alaska",
+        "time": 1641853534651,
+        "updated": 1641856977040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gapd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gapd.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gapn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gapn.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 199,
+        "sig": 211,
         "net": "us",
-        "code": "7000gapd",
-        "ids": ",us7000gapd,",
+        "code": "7000gapn",
+        "ids": ",us7000gapn,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 0.213,
-        "rms": 0.81,
-        "gap": 166,
+        "dmin": 0.622,
+        "rms": 0.55,
+        "gap": 179,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 23 km E of Punta Cana, Dominican Republic"
+        "title": "M 3.7 - 30 km NNW of Cold Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.1865,
-          18.6217,
-          35
+          -162.9709,
+          55.4217,
+          204.93
         ]
       },
-      "id": "us7000gapd"
+      "id": "us7000gapn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.74,
+        "place": "61 km NNE of Otra Banda, Dominican Republic",
+        "time": 1641852480630,
+        "updated": 1641856951281,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022010003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022010003.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 215,
+        "net": "pr",
+        "code": "2022010003",
+        "ids": ",us7000gapd,pr2022010003,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.6524,
+        "rms": 0.71,
+        "gap": 260,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 61 km NNE of Otra Banda, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.4403,
+          19.1636,
+          33
+        ]
+      },
+      "id": "pr2022010003"
     },
     {
       "type": "Feature",
@@ -88,6 +128,46 @@
         ]
       },
       "id": "us7000gany"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "49 km SSE of Unalaska, Alaska",
+        "time": 1641847020810,
+        "updated": 1641856650632,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022gvi2lo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022gvi2lo.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.584,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "ak",
+        "code": "022gvi2lo",
+        "ids": ",ak022gvi2lo,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.36,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - 49 km SSE of Unalaska, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -166.1614,
+          53.4844,
+          46.2
+        ]
+      },
+      "id": "ak022gvi2lo"
     },
     {
       "type": "Feature",
@@ -1608,86 +1688,6 @@
         ]
       },
       "id": "us7000gag1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "139 km NNW of Pante Makasar, Timor Leste",
-        "time": 1641770767907,
-        "updated": 1641772858040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gafn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gafn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000gafn",
-        "ids": ",us7000gafn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.534,
-        "rms": 0.5,
-        "gap": 90,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 139 km NNW of Pante Makasar, Timor Leste"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.7037,
-          -8.1312,
-          10
-        ]
-      },
-      "id": "us7000gafn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "Flores region, Indonesia",
-        "time": 1641770402513,
-        "updated": 1641772034040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gafi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gafi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "7000gafi",
-        "ids": ",us7000gafi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.619,
-        "rms": 0.53,
-        "gap": 89,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - Flores region, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.798,
-          -8.143,
-          10
-        ]
-      },
-      "id": "us7000gafi"
     }
   ],
   "bbox": [
