@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641812165000,
+    "generated": 1641813117000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -95,11 +95,11 @@
         "mag": 5.5,
         "place": "20 km NW of Trancas, Argentina",
         "time": 1641803762502,
-        "updated": 1641811165460,
+        "updated": 1641812697153,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gai4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gai4.geojson",
-        "felt": 27,
+        "felt": 28,
         "cdi": 6.1,
         "mmi": 6.995,
         "alert": "green",
