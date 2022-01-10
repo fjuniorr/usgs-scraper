@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641804759000,
+    "generated": 1641805856000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,12 +15,12 @@
         "mag": 3.8,
         "place": "57 km SSW of Cantwell, Alaska",
         "time": 1641803894562,
-        "updated": 1641804714138,
+        "updated": 1641805731828,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022god42f",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022god42f.geojson",
-        "felt": 3,
-        "cdi": 2.5,
+        "felt": 4,
+        "cdi": 2.7,
         "mmi": 2.544,
         "alert": null,
         "status": "automatic",
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ak022god42f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.6,
+        "place": "18 km WNW of Trancas, Argentina",
+        "time": 1641803764454,
+        "updated": 1641805787439,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gai4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gai4.geojson",
+        "felt": 11,
+        "cdi": 6.2,
+        "mmi": 6.488,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 489,
+        "net": "us",
+        "code": "7000gai4",
+        "ids": ",us7000gai4,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 3.362,
+        "rms": 0.64,
+        "gap": 85,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.6 - 18 km WNW of Trancas, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.4525,
+          -26.163,
+          10
+        ]
+      },
+      "id": "us7000gai4"
     },
     {
       "type": "Feature",
@@ -95,11 +135,11 @@
         "mag": 3.2,
         "place": "14 km N of Saint-Pascal, Canada",
         "time": 1641800697777,
-        "updated": 1641802576124,
+        "updated": 1641805183597,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gahx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gahx.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -175,17 +215,17 @@
         "mag": 4.9,
         "place": "32 km SW of Ovalle, Chile",
         "time": 1641798394004,
-        "updated": 1641804232146,
+        "updated": 1641805037819,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gahp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gahp.geojson",
-        "felt": 25,
+        "felt": 24,
         "cdi": 4.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 380,
+        "sig": 379,
         "net": "us",
         "code": "7000gahp",
         "ids": ",us7000gahp,",
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.57,
-        "place": "Mona Passage",
+        "place": "93 km NNW of San Antonio, Puerto Rico",
         "time": 1641782535200,
         "updated": 1641783562734,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": 301,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Mona Passage"
+        "title": "M 3.6 - 93 km NNW of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "Flores region, Indonesia",
+        "place": "133 km NNW of Pante Makasar, Timor Leste",
         "time": 1641770402513,
         "updated": 1641772034040,
         "tz": null,
@@ -757,7 +797,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - Flores region, Indonesia"
+        "title": "M 4.0 - 133 km NNW of Pante Makasar, Timor Leste"
       },
       "geometry": {
         "type": "Point",
@@ -1488,46 +1528,6 @@
         ]
       },
       "id": "us7000gaci"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52,
-        "place": "Puerto Rico region",
-        "time": 1641718459320,
-        "updated": 1641719208163,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022009003",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022009003.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "pr",
-        "code": "2022009003",
-        "ids": ",pr2022009003,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.1413,
-        "rms": 0.11,
-        "gap": 294,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1651,
-          17.8765,
-          8
-        ]
-      },
-      "id": "pr2022009003"
     }
   ],
   "bbox": [
