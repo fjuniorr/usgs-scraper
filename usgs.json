@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641798939000,
+    "generated": 1641799856000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "78 km SSE of Ugashik, Alaska",
+        "time": 1641798806181,
+        "updated": 1641798991823,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022gnmci2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022gnmci2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "022gnmci2",
+        "ids": ",ak022gnmci2,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.37,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 78 km SSE of Ugashik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.8039,
+          56.8896,
+          81.6
+        ]
+      },
+      "id": "ak022gnmci2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "32 km SW of Ovalle, Chile",
+        "time": 1641798394004,
+        "updated": 1641799544040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gahp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gahp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000gahp",
+        "ids": ",us7000gahp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.193,
+        "rms": 0.84,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 32 km SW of Ovalle, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4586,
+          -30.7939,
+          38.62
+        ]
+      },
+      "id": "us7000gahp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -173,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.57,
-        "place": "Mona Passage",
+        "place": "93 km NNW of San Antonio, Puerto Rico",
         "time": 1641782535200,
         "updated": 1641783562734,
         "tz": null,
@@ -197,7 +277,7 @@
         "gap": 301,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Mona Passage"
+        "title": "M 3.6 - 93 km NNW of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -655,17 +735,17 @@
         "mag": 4.6,
         "place": "7 km S of Bistrica, North Macedonia",
         "time": 1641765200949,
-        "updated": 1641772022819,
+        "updated": 1641799784589,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaf0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaf0.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
+        "sig": 327,
         "net": "us",
         "code": "7000gaf0",
         "ids": ",us7000gaf0,",
@@ -695,7 +775,7 @@
         "mag": 5.5,
         "place": "7 km NNW of Flórina, Greece",
         "time": 1641764626720,
-        "updated": 1641798490751,
+        "updated": 1641799563415,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaex",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaex.geojson",
@@ -1448,52 +1528,12 @@
         ]
       },
       "id": "nc73676091"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.56,
-        "place": "4km W of Cobb, CA",
-        "time": 1641712640350,
-        "updated": 1641718449865,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73676046",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73676046.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 101,
-        "net": "nc",
-        "code": "73676046",
-        "ids": ",nc73676046,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 47,
-        "dmin": 0.008124,
-        "rms": 0.06,
-        "gap": 55,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 4km W of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.7653351,
-          38.8231659,
-          1.77
-        ]
-      },
-      "id": "nc73676046"
     }
   ],
   "bbox": [
     -179.6411,
     -33.897,
-    1.77,
+    6,
     179.748,
     63.042,
     602.22
