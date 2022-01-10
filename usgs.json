@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641841697000,
+    "generated": 1641842392000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "5 km E of Assaria, Kansas",
+        "place": "Kansas",
         "time": 1641825340625,
         "updated": 1641837972510,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 104,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.1 - 5 km E of Assaria, Kansas"
+        "title": "M 3.1 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Antofagasta, Chile",
+        "place": "61 km NNE of Calama, Chile",
         "time": 1641797540074,
         "updated": 1641824696040,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 71,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Antofagasta, Chile"
+        "title": "M 4.1 - 61 km NNE of Calama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.57,
-        "place": "Mona Passage",
+        "place": "93 km NNW of San Antonio, Puerto Rico",
         "time": 1641782535200,
         "updated": 1641783562734,
         "tz": null,
@@ -997,7 +997,7 @@
         "gap": 301,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Mona Passage"
+        "title": "M 3.6 - 93 km NNW of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "Flores region, Indonesia",
+        "place": "133 km NNW of Pante Makasar, Timor Leste",
         "time": 1641770402513,
         "updated": 1641772034040,
         "tz": null,
@@ -1397,7 +1397,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - Flores region, Indonesia"
+        "title": "M 4.0 - 133 km NNW of Pante Makasar, Timor Leste"
       },
       "geometry": {
         "type": "Point",
