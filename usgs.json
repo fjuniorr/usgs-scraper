@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641839932000,
+    "generated": 1641840797000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 44
   },
   "features": [
     {
@@ -255,11 +255,11 @@
         "mag": 3.7,
         "place": "16 km S of Wells, Nevada",
         "time": 1641825087250,
-        "updated": 1641832910987,
+        "updated": 1641840522904,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00831477",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00831477.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 2.6,
         "mmi": null,
         "alert": null,
@@ -1172,6 +1172,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.8,
+        "place": "88km SSW of Alberto Oviedo Mota, B.C., MX",
+        "time": 1641775945800,
+        "updated": 1641840069400,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39907303",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39907303.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ci",
+        "code": "39907303",
+        "ids": ",ci39907303,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 16,
+        "dmin": 0.2041,
+        "rms": 0.17,
+        "gap": 99,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 88km SSW of Alberto Oviedo Mota, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.6133333,
+          31.5346667,
+          2.86
+        ]
+      },
+      "id": "ci39907303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.2,
         "place": "south of the Kermadec Islands",
         "time": 1641774934101,
@@ -1652,42 +1692,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
+        "mag": 2.7,
         "place": "56 km S of Whites City, New Mexico",
-        "time": 1641762176580,
-        "updated": 1641767894040,
+        "time": 1641762176127,
+        "updated": 1641840341956,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaem",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaem.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022aqfr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022aqfr.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "7000gaem",
-        "ids": ",us7000gaem,",
-        "sources": ",us,",
+        "sig": 112,
+        "net": "tx",
+        "code": "2022aqfr",
+        "ids": ",us7000gaem,tx2022aqfr,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.025,
+        "nst": 17,
+        "dmin": 0.04331844813,
         "rms": 0.3,
-        "gap": 58,
+        "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 56 km S of Whites City, New Mexico"
+        "title": "M 2.7 - 56 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.4716,
-          31.6709,
-          7.55
+          -104.4500492,
+          31.67119017,
+          6.131567383
         ]
       },
-      "id": "us7000gaem"
+      "id": "tx2022aqfr"
     },
     {
       "type": "Feature",
@@ -1733,7 +1773,7 @@
   "bbox": [
     -179.0206,
     -33.897,
-    5,
+    2.86,
     179.8345,
     63.042,
     594.84
