@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641935360000,
+    "generated": 1641936440000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -372,42 +372,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.8,
-        "place": "89 km NNE of Atka, Alaska",
-        "time": 1641914654060,
-        "updated": 1641925153453,
+        "mag": 4.2,
+        "place": "75 km NE of Atka, Alaska",
+        "time": 1641914655114,
+        "updated": 1641935754040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ifzhw0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ifzhw0.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gb1a",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gb1a.geojson",
         "felt": null,
         "cdi": null,
         "mmi": 1.265,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 222,
-        "net": "ak",
-        "code": "022ifzhw0",
-        "ids": ",ak022ifzhw0,",
-        "sources": ",ak,",
+        "sig": 271,
+        "net": "us",
+        "code": "7000gb1a",
+        "ids": ",ak022ifzhw0,us7000gb1a,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": null,
-        "rms": 0.93,
-        "gap": null,
-        "magType": "ml",
+        "dmin": 0.581,
+        "rms": 0.36,
+        "gap": 144,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.8 - 89 km NNE of Atka, Alaska"
+        "title": "M 4.2 - 75 km NE of Atka, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -173.4797,
-          52.8676,
-          185.4
+          -173.3096,
+          52.5973,
+          188.81
         ]
       },
-      "id": "ak022ifzhw0"
+      "id": "us7000gb1a"
     },
     {
       "type": "Feature",
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.85,
-        "place": "Hawaii region, Hawaii",
+        "place": "5 km ENE of Pāhala, Hawaii",
         "time": 1641905439160,
         "updated": 1641934412020,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 134,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Hawaii region, Hawaii"
+        "title": "M 2.9 - 5 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -975,11 +975,11 @@
         "mag": 2.52,
         "place": "3km SE of Carson, CA",
         "time": 1641901309810,
-        "updated": 1641931915790,
+        "updated": 1641935495411,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39908695",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39908695.geojson",
-        "felt": 121,
+        "felt": 122,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1453,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "7 km SW of Petit Trou de Nippes, Haiti",
+        "place": "Haiti region",
         "time": 1641881265673,
         "updated": 1641887360641,
         "tz": null,
@@ -1477,7 +1477,7 @@
         "gap": 70,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.6 - 7 km SW of Petit Trou de Nippes, Haiti"
+        "title": "M 4.6 - Haiti region"
       },
       "geometry": {
         "type": "Point",
@@ -2015,17 +2015,17 @@
         "mag": 6.6,
         "place": "48 km WNW of Pólis, Cyprus",
         "time": 1641863267981,
-        "updated": 1641933080303,
+        "updated": 1641936021797,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaqu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaqu.geojson",
-        "felt": 475,
+        "felt": 476,
         "cdi": 6.3,
         "mmi": 5.416,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 969,
+        "sig": 970,
         "net": "us",
         "code": "7000gaqu",
         "ids": ",us7000gaqu,",
