@@ -1,31 +1,111 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641902032000,
+    "generated": 1641903473000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "86 km SE of Nikolski, Alaska",
+        "time": 1641902046289,
+        "updated": 1641903020040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaw0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaw0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.775,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000gaw0",
+        "ids": ",us7000gaw0,ak022ids6a6,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 1.011,
+        "rms": 0.7,
+        "gap": 173,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 86 km SE of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -167.9292,
+          52.4009,
+          37.26
+        ]
+      },
+      "id": "us7000gaw0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "74 km SE of Nikolski, Alaska",
+        "time": 1641901555935,
+        "updated": 1641903362423,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gavx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gavx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.443,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000gavx",
+        "ids": ",us7000gavx,ak022idqcl0,",
+        "sources": ",us,ak,",
+        "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.913,
+        "rms": 0.78,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.4 - 74 km SE of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -168.02,
+          52.5015,
+          32.19
+        ]
+      },
+      "id": "us7000gavx"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.65,
         "place": "4km ESE of Carson, CA",
         "time": 1641901310010,
-        "updated": 1641901961870,
+        "updated": 1641903468524,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39908695",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39908695.geojson",
-        "felt": 40,
-        "cdi": 4.5,
+        "felt": 93,
+        "cdi": 3.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 126,
+        "sig": 138,
         "net": "ci",
         "code": "39908695",
         "ids": ",ci39908695,",
@@ -52,42 +132,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.5,
-        "place": "Fox Islands, Aleutian Islands, Alaska",
-        "time": 1641900943863,
-        "updated": 1641901787932,
+        "mag": 6.8,
+        "place": "71 km ESE of Nikolski, Alaska",
+        "time": 1641900946156,
+        "updated": 1641903386243,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ido6wm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ido6wm.geojson",
-        "felt": 1,
-        "cdi": 6.6,
-        "mmi": 3.907,
-        "alert": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gavu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gavu.geojson",
+        "felt": 8,
+        "cdi": 6.3,
+        "mmi": 5.986,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 466,
-        "net": "ak",
-        "code": "022ido6wm",
-        "ids": ",at00r5jmvn,ak022ido6wm,pt22011001,",
-        "sources": ",at,ak,pt,",
-        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
+        "sig": 716,
+        "net": "us",
+        "code": "7000gavu",
+        "ids": ",at00r5jmvn,ak022ido6wm,us7000gavu,pt22011001,",
+        "sources": ",at,ak,us,pt,",
+        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,oaf,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": null,
-        "rms": 0.98,
-        "gap": null,
-        "magType": "ml",
+        "dmin": 0.755,
+        "rms": 0.84,
+        "gap": 52,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.5 - Fox Islands, Aleutian Islands, Alaska"
+        "title": "M 6.8 - 71 km ESE of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -167.7105,
-          52.4652,
-          0.5
+          -167.9169,
+          52.6563,
+          22.32
         ]
       },
-      "id": "ak022ido6wm"
+      "id": "us7000gavu"
     },
     {
       "type": "Feature",
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Haiti region",
+        "place": "7 km SW of Petit Trou de Nippes, Haiti",
         "time": 1641881265673,
         "updated": 1641887360641,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 70,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.6 - Haiti region"
+        "title": "M 4.6 - 7 km SW of Petit Trou de Nippes, Haiti"
       },
       "geometry": {
         "type": "Point",
@@ -495,17 +575,17 @@
         "mag": 2.6,
         "place": "3 km S of Lomita, California",
         "time": 1641880042894,
-        "updated": 1641901855692,
+        "updated": 1641902884907,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gata",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gata.geojson",
-        "felt": 410,
+        "felt": 413,
         "cdi": 3.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 248,
+        "sig": 249,
         "net": "us",
         "code": "7000gata",
         "ids": ",us7000gata,",
@@ -975,17 +1055,17 @@
         "mag": 6.6,
         "place": "48 km WNW of Pólis, Cyprus",
         "time": 1641863267981,
-        "updated": 1641901711155,
+        "updated": 1641902715982,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaqu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaqu.geojson",
-        "felt": 458,
+        "felt": 459,
         "cdi": 7.6,
         "mmi": 5.416,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 1018,
+        "sig": 1019,
         "net": "us",
         "code": "7000gaqu",
         "ids": ",us7000gaqu,",
@@ -1813,7 +1893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "Kansas",
+        "place": "5 km E of Assaria, Kansas",
         "time": 1641825340625,
         "updated": 1641880285873,
         "tz": null,
@@ -1837,7 +1917,7 @@
         "gap": 104,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.1 - Kansas"
+        "title": "M 3.1 - 5 km E of Assaria, Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1933,7 +2013,7 @@
   "bbox": [
     -178.717,
     -59.3511,
-    0.5,
+    1.74,
     179.8864,
     60.5016,
     548.23
