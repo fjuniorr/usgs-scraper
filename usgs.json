@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641929599000,
+    "generated": 1641930205000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 60
+    "count": 61
   },
   "features": [
     {
@@ -48,6 +48,46 @@
         ]
       },
       "id": "us7000gb1b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "79 km SE of Nikolski, Alaska",
+        "time": 1641924099600,
+        "updated": 1641929912040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gb1f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gb1f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000gb1f",
+        "ids": ",us7000gb1f,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.071,
+        "rms": 0.89,
+        "gap": 178,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 79 km SE of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -168.1855,
+          52.3541,
+          10
+        ]
+      },
+      "id": "us7000gb1f"
     },
     {
       "type": "Feature",
@@ -1373,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "7 km SW of Petit Trou de Nippes, Haiti",
+        "place": "Haiti region",
         "time": 1641881265673,
         "updated": 1641887360641,
         "tz": null,
@@ -1397,7 +1437,7 @@
         "gap": 70,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.6 - 7 km SW of Petit Trou de Nippes, Haiti"
+        "title": "M 4.6 - Haiti region"
       },
       "geometry": {
         "type": "Point",
@@ -1415,11 +1455,11 @@
         "mag": 2.83,
         "place": "3km SSE of Carson, CA",
         "time": 1641880044830,
-        "updated": 1641929534398,
+        "updated": 1641930059664,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39908519",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39908519.geojson",
-        "felt": 438,
+        "felt": 439,
         "cdi": 3.5,
         "mmi": null,
         "alert": null,
@@ -1935,7 +1975,7 @@
         "mag": 6.6,
         "place": "48 km WNW of Pólis, Cyprus",
         "time": 1641863267981,
-        "updated": 1641929422884,
+        "updated": 1641929739681,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaqu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaqu.geojson",
