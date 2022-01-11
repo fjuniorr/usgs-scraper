@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641936440000,
+    "generated": 1641937105000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -13,7 +13,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.21,
-        "place": "67 km N of Isabela, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1641931802270,
         "updated": 1641932960933,
         "tz": null,
@@ -37,7 +37,7 @@
         "gap": 223,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 67 km N of Isabela, Puerto Rico"
+        "title": "M 3.2 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.85,
-        "place": "5 km ENE of Pāhala, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1641905439160,
         "updated": 1641934412020,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 134,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 5 km ENE of Pāhala, Hawaii"
+        "title": "M 2.9 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1215,11 +1215,11 @@
         "mag": 2.66,
         "place": "11 km WSW of Spring Glen, Utah",
         "time": 1641885175120,
-        "updated": 1641922861268,
+        "updated": 1641936629358,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60477097",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60477097.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -1453,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Haiti region",
+        "place": "7 km SW of Petit Trou de Nippes, Haiti",
         "time": 1641881265673,
         "updated": 1641887360641,
         "tz": null,
@@ -1477,7 +1477,7 @@
         "gap": 70,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.6 - Haiti region"
+        "title": "M 4.6 - 7 km SW of Petit Trou de Nippes, Haiti"
       },
       "geometry": {
         "type": "Point",
@@ -1495,11 +1495,11 @@
         "mag": 2.83,
         "place": "3km SSE of Carson, CA",
         "time": 1641880044830,
-        "updated": 1641935283036,
+        "updated": 1641936613641,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39908519",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39908519.geojson",
-        "felt": 441,
+        "felt": 442,
         "cdi": 3.5,
         "mmi": null,
         "alert": null,
@@ -2015,17 +2015,17 @@
         "mag": 6.6,
         "place": "48 km WNW of Pólis, Cyprus",
         "time": 1641863267981,
-        "updated": 1641936021797,
+        "updated": 1641936976656,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaqu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaqu.geojson",
-        "felt": 476,
+        "felt": 477,
         "cdi": 6.3,
         "mmi": 5.416,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 970,
+        "sig": 971,
         "net": "us",
         "code": "7000gaqu",
         "ids": ",us7000gaqu,",
