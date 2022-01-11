@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641937580000,
+    "generated": 1641938093000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 60
+    "count": 62
   },
   "features": [
     {
@@ -48,6 +48,86 @@
         ]
       },
       "id": "pr2022011005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "40 km NNE of Gwadar, Pakistan",
+        "time": 1641936116496,
+        "updated": 1641937669040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gb39",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gb39.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000gb39",
+        "ids": ",us7000gb39,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.68,
+        "rms": 0.64,
+        "gap": 125,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 40 km NNE of Gwadar, Pakistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.4487,
+          25.467,
+          10
+        ]
+      },
+      "id": "us7000gb39"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "111 km SW of Jinchang, China",
+        "time": 1641935218484,
+        "updated": 1641938081040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gb36",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gb36.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000gb36",
+        "ids": ",us7000gb36,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 10.252,
+        "rms": 0.96,
+        "gap": 107,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 111 km SW of Jinchang, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.184,
+          37.8936,
+          10
+        ]
+      },
+      "id": "us7000gb36"
     },
     {
       "type": "Feature",
