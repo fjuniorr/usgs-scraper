@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641913879000,
+    "generated": 1641915379000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 56
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "90 km ESE of Nikolski, Alaska",
+        "time": 1641909022011,
+        "updated": 1641914810040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gayg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gayg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000gayg",
+        "ids": ",us7000gayg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.886,
+        "rms": 1.08,
+        "gap": 184,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 90 km ESE of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -167.703,
+          52.5345,
+          10
+        ]
+      },
+      "id": "us7000gayg"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -455,17 +495,17 @@
         "mag": 2.65,
         "place": "4km ESE of Carson, CA",
         "time": 1641901310010,
-        "updated": 1641913619160,
+        "updated": 1641914974652,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39908695",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39908695.geojson",
-        "felt": 104,
+        "felt": 109,
         "cdi": 3.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 141,
+        "sig": 143,
         "net": "ci",
         "code": "39908695",
         "ids": ",ci39908695,",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "7 km SW of Petit Trou de Nippes, Haiti",
+        "place": "Haiti region",
         "time": 1641881265673,
         "updated": 1641887360641,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 70,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.6 - 7 km SW of Petit Trou de Nippes, Haiti"
+        "title": "M 4.6 - Haiti region"
       },
       "geometry": {
         "type": "Point",
@@ -975,17 +1015,17 @@
         "mag": 2.6,
         "place": "3 km S of Lomita, California",
         "time": 1641880042894,
-        "updated": 1641913401131,
+        "updated": 1641914368934,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gata",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gata.geojson",
-        "felt": 426,
+        "felt": 428,
         "cdi": 3.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 253,
+        "sig": 254,
         "net": "us",
         "code": "7000gata",
         "ids": ",us7000gata,",
@@ -1212,10 +1252,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.5,
+        "mag": 3.7,
         "place": "55 km S of Whites City, New Mexico",
-        "time": 1641874145241,
-        "updated": 1641881511760,
+        "time": 1641874145236,
+        "updated": 1641915299329,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022aspg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022aspg.geojson",
@@ -1225,26 +1265,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 189,
+        "sig": 211,
         "net": "tx",
         "code": "2022aspg",
         "ids": ",tx2022aspg,us7000gas0,",
         "sources": ",tx,us,",
         "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 15,
-        "dmin": 0.1169423061,
+        "nst": 27,
+        "dmin": 0.07669517064,
         "rms": 0.3,
-        "gap": 63,
+        "gap": 55,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 55 km S of Whites City, New Mexico"
+        "title": "M 3.7 - 55 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.4105339,
-          31.67674189,
-          7.288427734
+          -104.4113435,
+          31.67696635,
+          7.365551758
         ]
       },
       "id": "tx2022aspg"
@@ -1455,7 +1495,7 @@
         "mag": 6.6,
         "place": "48 km WNW of Pólis, Cyprus",
         "time": 1641863267981,
-        "updated": 1641913053192,
+        "updated": 1641914598944,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaqu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaqu.geojson",
@@ -1655,7 +1695,7 @@
         "mag": 6,
         "place": "northern Mid-Atlantic Ridge",
         "time": 1641857205311,
-        "updated": 1641913799435,
+        "updated": 1641914032176,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaq7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaq7.geojson",
@@ -2208,46 +2248,6 @@
         ]
       },
       "id": "us7000gajq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "74 km NE of Miches, Dominican Republic",
-        "time": 1641827819533,
-        "updated": 1641830967040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gajl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gajl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "7000gajl",
-        "ids": ",us7000gajl,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.994,
-        "rms": 0.36,
-        "gap": 310,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 74 km NE of Miches, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.5817,
-          19.4961,
-          10
-        ]
-      },
-      "id": "us7000gajl"
     }
   ],
   "bbox": [
