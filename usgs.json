@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641912198000,
+    "generated": 1641912798000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 57
+    "count": 56
   },
   "features": [
     {
@@ -175,7 +175,7 @@
         "mag": 6.6,
         "place": "60 km SE of Nikolski, Alaska",
         "time": 1641904771515,
-        "updated": 1641911256468,
+        "updated": 1641912480557,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gawk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gawk.geojson",
@@ -375,11 +375,11 @@
         "mag": 4.8,
         "place": "86 km SE of Nikolski, Alaska",
         "time": 1641902046289,
-        "updated": 1641908342203,
+        "updated": 1641912433567,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaw0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaw0.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.7,
         "mmi": 1.188,
         "alert": null,
@@ -455,11 +455,11 @@
         "mag": 2.65,
         "place": "4km ESE of Carson, CA",
         "time": 1641901310010,
-        "updated": 1641911652510,
+        "updated": 1641912322088,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39908695",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39908695.geojson",
-        "felt": 100,
+        "felt": 101,
         "cdi": 3.2,
         "mmi": null,
         "alert": null,
@@ -933,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Haiti region",
+        "place": "7 km SW of Petit Trou de Nippes, Haiti",
         "time": 1641881265673,
         "updated": 1641887360641,
         "tz": null,
@@ -957,7 +957,7 @@
         "gap": 70,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.6 - Haiti region"
+        "title": "M 4.6 - 7 km SW of Petit Trou de Nippes, Haiti"
       },
       "geometry": {
         "type": "Point",
@@ -1092,10 +1092,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.8,
-        "place": "51 km SSW of Whites City, New Mexico",
-        "time": 1641875822757,
-        "updated": 1641883176460,
+        "mag": 3.9,
+        "place": "52 km SSW of Whites City, New Mexico",
+        "time": 1641875822767,
+        "updated": 1641912303023,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022asqe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022asqe.geojson",
@@ -1105,26 +1105,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 224,
+        "sig": 236,
         "net": "tx",
         "code": "2022asqe",
         "ids": ",tx2022asqe,us7000gasm,",
         "sources": ",tx,us,",
         "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 11,
-        "dmin": 0.02840300236,
+        "nst": 26,
+        "dmin": 0.03288407828,
         "rms": 0.2,
         "gap": 108,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 51 km SSW of Whites City, New Mexico"
+        "title": "M 3.9 - 52 km SSW of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.526256,
-          31.72648301,
-          4.923291016
+          -104.5259366,
+          31.72165965,
+          4.486254883
         ]
       },
       "id": "tx2022asqe"
@@ -1455,7 +1455,7 @@
         "mag": 6.6,
         "place": "48 km WNW of Pólis, Cyprus",
         "time": 1641863267981,
-        "updated": 1641911238631,
+        "updated": 1641912742969,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaqu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaqu.geojson",
@@ -2248,46 +2248,6 @@
         ]
       },
       "id": "us7000gajl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "south of the Kermadec Islands",
-        "time": 1641825898856,
-        "updated": 1641832299040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaju",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaju.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000gaju",
-        "ids": ",us7000gaju,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.881,
-        "rms": 0.71,
-        "gap": 101,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - south of the Kermadec Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          179.8345,
-          -33.8772,
-          10
-        ]
-      },
-      "id": "us7000gaju"
     }
   ],
   "bbox": [
