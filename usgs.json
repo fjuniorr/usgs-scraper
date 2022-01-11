@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641915379000,
+    "generated": 1641916219000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 56
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "7 km N of Flórina, Greece",
+        "time": 1641914070503,
+        "updated": 1641916101040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gayq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gayq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000gayq",
+        "ids": ",us7000gayq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.11,
+        "rms": 0.54,
+        "gap": 42,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 7 km N of Flórina, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4062,
+          40.8454,
+          9.65
+        ]
+      },
+      "id": "us7000gayq"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -335,7 +375,7 @@
         "mag": 4.3,
         "place": "79 km S of Point Hope, Alaska",
         "time": 1641904373568,
-        "updated": 1641906004187,
+        "updated": 1641915980040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ie8zpe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ie8zpe.geojson",
@@ -348,8 +388,8 @@
         "sig": 284,
         "net": "ak",
         "code": "022ie8zpe",
-        "ids": ",ak022ie8zpe,",
-        "sources": ",ak,",
+        "ids": ",us7000gawe,ak022ie8zpe,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
@@ -535,7 +575,7 @@
         "mag": 6.8,
         "place": "71 km ESE of Nikolski, Alaska",
         "time": 1641900946156,
-        "updated": 1641911115569,
+        "updated": 1641915949651,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gavu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gavu.geojson",
@@ -1015,11 +1055,11 @@
         "mag": 2.6,
         "place": "3 km S of Lomita, California",
         "time": 1641880042894,
-        "updated": 1641914368934,
+        "updated": 1641915827561,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gata",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gata.geojson",
-        "felt": 428,
+        "felt": 429,
         "cdi": 3.5,
         "mmi": null,
         "alert": null,
@@ -2208,46 +2248,6 @@
         ]
       },
       "id": "us7000gajx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "18 km SSE of Llaillay, Chile",
-        "time": 1641829348106,
-        "updated": 1641835305463,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gajq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gajq.geojson",
-        "felt": 20,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 254,
-        "net": "us",
-        "code": "7000gajq",
-        "ids": ",us7000gajq,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.225,
-        "rms": 0.29,
-        "gap": 80,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.0 - 18 km SSE of Llaillay, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.8799,
-          -32.9984,
-          73.37
-        ]
-      },
-      "id": "us7000gajq"
     }
   ],
   "bbox": [
