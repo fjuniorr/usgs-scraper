@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641911478000,
+    "generated": 1641912198000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 59
+    "count": 57
   },
   "features": [
     {
@@ -53,9 +53,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "68 km SE of Nikolski, Alaska",
-        "time": 1641907375430,
-        "updated": 1641909259040,
+        "place": "63 km SE of Nikolski, Alaska",
+        "time": 1641907372260,
+        "updated": 1641911940040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gay2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gay2.geojson",
@@ -72,19 +72,19 @@
         "sources": ",us,ak,",
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 0.998,
-        "rms": 0.74,
+        "dmin": 0.95,
+        "rms": 0.62,
         "gap": 135,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 68 km SE of Nikolski, Alaska"
+        "title": "M 4.7 - 63 km SE of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -168.2638,
-          52.4375,
-          33
+          -168.2801,
+          52.4885,
+          10
         ]
       },
       "id": "us7000gay2"
@@ -415,11 +415,11 @@
         "mag": 5.4,
         "place": "74 km SE of Nikolski, Alaska",
         "time": 1641901555935,
-        "updated": 1641909168507,
+        "updated": 1641912130840,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gavx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gavx.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.1,
         "mmi": 3.443,
         "alert": "green",
@@ -455,11 +455,11 @@
         "mag": 2.65,
         "place": "4km ESE of Carson, CA",
         "time": 1641901310010,
-        "updated": 1641910120354,
+        "updated": 1641911652510,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39908695",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39908695.geojson",
-        "felt": 99,
+        "felt": 100,
         "cdi": 3.2,
         "mmi": null,
         "alert": null,
@@ -933,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "7 km SW of Petit Trou de Nippes, Haiti",
+        "place": "Haiti region",
         "time": 1641881265673,
         "updated": 1641887360641,
         "tz": null,
@@ -957,7 +957,7 @@
         "gap": 70,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.6 - 7 km SW of Petit Trou de Nippes, Haiti"
+        "title": "M 4.6 - Haiti region"
       },
       "geometry": {
         "type": "Point",
@@ -2288,86 +2288,6 @@
         ]
       },
       "id": "us7000gaju"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "5 km E of Assaria, Kansas",
-        "time": 1641825340625,
-        "updated": 1641907267009,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gajg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gajg.geojson",
-        "felt": 27,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "us",
-        "code": "7000gajg",
-        "ids": ",us7000gajg,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.71,
-        "rms": 0.21,
-        "gap": 104,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 3.1 - 5 km E of Assaria, Kansas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.5439,
-          38.6758,
-          5
-        ]
-      },
-      "id": "us7000gajg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "16 km S of Wells, Nevada",
-        "time": 1641825087250,
-        "updated": 1641859345386,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00831477",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00831477.geojson",
-        "felt": 9,
-        "cdi": 2.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 213,
-        "net": "nn",
-        "code": "00831477",
-        "ids": ",nn00831477,us7000gaje,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.312,
-        "rms": 0.1579,
-        "gap": 94.86,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - 16 km S of Wells, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.9424,
-          40.9622,
-          13.6
-        ]
-      },
-      "id": "nn00831477"
     }
   ],
   "bbox": [
