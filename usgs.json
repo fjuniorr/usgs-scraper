@@ -1,19 +1,19 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641933140000,
+    "generated": 1641933800000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 60
+    "count": 59
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 3.21,
-        "place": "67 km N of Isabela, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1641931802270,
         "updated": 1641932960933,
         "tz": null,
@@ -37,7 +37,7 @@
         "gap": 223,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 67 km N of Isabela, Puerto Rico"
+        "title": "M 3.2 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1295,12 +1295,12 @@
         "mag": 2.9,
         "place": "10 km NE of Fox River, Alaska",
         "time": 1641884082785,
-        "updated": 1641907595008,
+        "updated": 1641933191385,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022iat2zi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022iat2zi.geojson",
-        "felt": 7,
-        "cdi": 2.1,
+        "felt": 8,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1453,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Haiti region",
+        "place": "7 km SW of Petit Trou de Nippes, Haiti",
         "time": 1641881265673,
         "updated": 1641887360641,
         "tz": null,
@@ -1477,7 +1477,7 @@
         "gap": 70,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.6 - Haiti region"
+        "title": "M 4.6 - 7 km SW of Petit Trou de Nippes, Haiti"
       },
       "geometry": {
         "type": "Point",
@@ -1495,17 +1495,17 @@
         "mag": 2.83,
         "place": "3km SSE of Carson, CA",
         "time": 1641880044830,
-        "updated": 1641932716298,
+        "updated": 1641933554218,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39908519",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39908519.geojson",
-        "felt": 440,
+        "felt": 441,
         "cdi": 3.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 277,
+        "sig": 278,
         "net": "ci",
         "code": "39908519",
         "ids": ",us7000gata,ci39908519,",
@@ -2368,46 +2368,6 @@
         ]
       },
       "id": "us7000gany"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "49 km SSE of Unalaska, Alaska",
-        "time": 1641847020810,
-        "updated": 1641856650632,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022gvi2lo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022gvi2lo.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.584,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 234,
-        "net": "ak",
-        "code": "022gvi2lo",
-        "ids": ",ak022gvi2lo,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.36,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.9 - 49 km SSE of Unalaska, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -166.1614,
-          53.4844,
-          46.2
-        ]
-      },
-      "id": "ak022gvi2lo"
     }
   ],
   "bbox": [
