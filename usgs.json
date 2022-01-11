@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641878717000,
+    "generated": 1641879377000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "67 km NNE of Aleneva, Alaska",
+        "time": 1641878716328,
+        "updated": 1641879350121,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ia1dkp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ia1dkp.geojson",
+        "felt": 24,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 1,
+        "sig": 333,
+        "net": "ak",
+        "code": "022ia1dkp",
+        "ids": ",ak022ia1dkp,at00r5j5q7,",
+        "sources": ",ak,at,",
+        "types": ",dyfi,impact-link,origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.77,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.6 - 67 km NNE of Aleneva, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.5486,
+          58.6375,
+          3.2
+        ]
+      },
+      "id": "ak022ia1dkp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -415,17 +455,17 @@
         "mag": 6.6,
         "place": "48 km WNW of Pólis, Cyprus",
         "time": 1641863267981,
-        "updated": 1641878417262,
+        "updated": 1641879026403,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaqu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaqu.geojson",
-        "felt": 370,
+        "felt": 375,
         "cdi": 7.6,
         "mmi": 5.416,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 951,
+        "sig": 955,
         "net": "us",
         "code": "7000gaqu",
         "ids": ",us7000gaqu,",
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "5 km E of Assaria, Kansas",
+        "place": "Kansas",
         "time": 1641825340625,
         "updated": 1641877837521,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 104,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.1 - 5 km E of Assaria, Kansas"
+        "title": "M 3.1 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1773,7 +1813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Antofagasta, Chile",
+        "place": "61 km NNE of Calama, Chile",
         "time": 1641797540074,
         "updated": 1641824696040,
         "tz": null,
@@ -1797,7 +1837,7 @@
         "gap": 71,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Antofagasta, Chile"
+        "title": "M 4.1 - 61 km NNE of Calama, Chile"
       },
       "geometry": {
         "type": "Point",
