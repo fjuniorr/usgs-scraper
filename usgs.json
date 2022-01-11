@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641916219000,
+    "generated": 1641917719000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 56
+    "count": 57
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.47000003,
+        "place": "4 km SSW of Pāhala, Hawaii",
+        "time": 1641916615150,
+        "updated": 1641916807310,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72866802",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72866802.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "hv",
+        "code": "72866802",
+        "ids": ",hv72866802,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": null,
+        "rms": 0.230000004,
+        "gap": 114,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km SSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.494659423828,
+          19.1656665802002,
+          33.4000015258789
+        ]
+      },
+      "id": "hv72866802"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us7000gayq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "71 km SE of Nikolski, Alaska",
+        "time": 1641912208485,
+        "updated": 1641917599040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gayj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gayj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.572,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000gayj",
+        "ids": ",us7000gayj,ak022ifi5wk,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.965,
+        "rms": 0.38,
+        "gap": 73,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 71 km SE of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -168.1559,
+          52.4589,
+          29.5
+        ]
+      },
+      "id": "us7000gayj"
     },
     {
       "type": "Feature",
@@ -535,17 +615,17 @@
         "mag": 2.65,
         "place": "4km ESE of Carson, CA",
         "time": 1641901310010,
-        "updated": 1641914974652,
+        "updated": 1641917653339,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39908695",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39908695.geojson",
-        "felt": 109,
+        "felt": 112,
         "cdi": 3.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 143,
+        "sig": 144,
         "net": "ci",
         "code": "39908695",
         "ids": ",ci39908695,",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Haiti region",
+        "place": "7 km SW of Petit Trou de Nippes, Haiti",
         "time": 1641881265673,
         "updated": 1641887360641,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": 70,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.6 - Haiti region"
+        "title": "M 4.6 - 7 km SW of Petit Trou de Nippes, Haiti"
       },
       "geometry": {
         "type": "Point",
@@ -2208,46 +2288,6 @@
         ]
       },
       "id": "nc73676581"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "180 km ESE of Shingū, Japan",
-        "time": 1641831171981,
-        "updated": 1641833195040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gajx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gajx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000gajx",
-        "ids": ",us7000gajx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.837,
-        "rms": 0.43,
-        "gap": 60,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 180 km ESE of Shingū, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          137.644,
-          32.8873,
-          341.39
-        ]
-      },
-      "id": "us7000gajx"
     }
   ],
   "bbox": [
