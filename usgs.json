@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641895912000,
+    "generated": 1641897377000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 46
   },
   "features": [
     {
@@ -253,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "7 km SW of Petit Trou de Nippes, Haiti",
+        "place": "Haiti region",
         "time": 1641881265673,
         "updated": 1641887360641,
         "tz": null,
@@ -277,7 +277,7 @@
         "gap": 70,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.6 - 7 km SW of Petit Trou de Nippes, Haiti"
+        "title": "M 4.6 - Haiti region"
       },
       "geometry": {
         "type": "Point",
@@ -775,17 +775,17 @@
         "mag": 6.6,
         "place": "48 km WNW of Pólis, Cyprus",
         "time": 1641863267981,
-        "updated": 1641895873516,
+        "updated": 1641897238710,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaqu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaqu.geojson",
-        "felt": 449,
+        "felt": 453,
         "cdi": 7.6,
         "mmi": 5.416,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 1011,
+        "sig": 1014,
         "net": "us",
         "code": "7000gaqu",
         "ids": ",us7000gaqu,",
@@ -1613,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "5 km E of Assaria, Kansas",
+        "place": "Kansas",
         "time": 1641825340625,
         "updated": 1641880285873,
         "tz": null,
@@ -1637,7 +1637,7 @@
         "gap": 104,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.1 - 5 km E of Assaria, Kansas"
+        "title": "M 3.1 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1848,46 +1848,6 @@
         ]
       },
       "id": "us7000gaiu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "100 km S of Dampit, Indonesia",
-        "time": 1641810495391,
-        "updated": 1641811412040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gain",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gain.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000gain",
-        "ids": ",us7000gain,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.496,
-        "rms": 0.93,
-        "gap": 110,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 100 km S of Dampit, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          112.7877,
-          -9.1233,
-          41.26
-        ]
-      },
-      "id": "us7000gain"
     }
   ],
   "bbox": [
