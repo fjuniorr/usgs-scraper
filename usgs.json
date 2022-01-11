@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641901038000,
+    "generated": 1641901518000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.79,
+        "place": "4km SSE of Carson, CA",
+        "time": 1641901309800,
+        "updated": 1641901457242,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39908695",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39908695.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 120,
+        "net": "ci",
+        "code": "39908695",
+        "ids": ",ci39908695,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 88,
+        "dmin": 0.05567,
+        "rms": 0.38,
+        "gap": 120,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 4km SSE of Carson, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2649994,
+          33.7980003,
+          9.9
+        ]
+      },
+      "id": "ci39908695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.7,
+        "place": "91 km SE of Nikolski, Alaska",
+        "time": 1641900947000,
+        "updated": 1641901409650,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00r5jmvn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00r5jmvn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.907,
+        "alert": null,
+        "status": "REVIEWED",
+        "tsunami": 1,
+        "sig": 691,
+        "net": "at",
+        "code": "00r5jmvn",
+        "ids": ",at00r5jmvn,ak022ido6wm,",
+        "sources": ",at,ak,",
+        "types": ",impact-link,origin,shakemap,",
+        "nst": 50,
+        "dmin": 0.9369428,
+        "rms": 1.25,
+        "gap": 125.9999899200008,
+        "magType": "Mi",
+        "type": "earthquake",
+        "title": "M 6.7 - 91 km SE of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -167.736,
+          52.48,
+          33
+        ]
+      },
+      "id": "at00r5jmvn"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -375,7 +455,7 @@
         "mag": 2.6,
         "place": "3 km S of Lomita, California",
         "time": 1641880042894,
-        "updated": 1641894844040,
+        "updated": 1641901509441,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gata",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gata.geojson",
@@ -855,7 +935,7 @@
         "mag": 6.6,
         "place": "48 km WNW of Pólis, Cyprus",
         "time": 1641863267981,
-        "updated": 1641900627615,
+        "updated": 1641901336036,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaqu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaqu.geojson",
