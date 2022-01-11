@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641908904000,
+    "generated": 1641909378000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 57
+    "count": 59
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "75 km ENE of Hihifo, Tonga",
+        "time": 1641907782796,
+        "updated": 1641909061040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gay1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gay1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000gay1",
+        "ids": ",us7000gay1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.05,
+        "rms": 0.64,
+        "gap": 116,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 75 km ENE of Hihifo, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.117,
+          -15.7762,
+          6.09
+        ]
+      },
+      "id": "us7000gay1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "68 km SE of Nikolski, Alaska",
+        "time": 1641907375430,
+        "updated": 1641909259040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gay2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gay2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000gay2",
+        "ids": ",us7000gay2,ak022iese8d,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.998,
+        "rms": 0.74,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 68 km SE of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -168.2638,
+          52.4375,
+          33
+        ]
+      },
+      "id": "us7000gay2"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -335,7 +415,7 @@
         "mag": 5.4,
         "place": "74 km SE of Nikolski, Alaska",
         "time": 1641901555935,
-        "updated": 1641906994806,
+        "updated": 1641909168507,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gavx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gavx.geojson",
@@ -615,11 +695,11 @@
         "mag": 3,
         "place": "10 km W of Spring Glen, Utah",
         "time": 1641885174877,
-        "updated": 1641908657085,
+        "updated": 1641909315893,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaud",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaud.geojson",
-        "felt": 1,
+        "felt": 3,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -853,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "7 km SW of Petit Trou de Nippes, Haiti",
+        "place": "Haiti region",
         "time": 1641881265673,
         "updated": 1641887360641,
         "tz": null,
@@ -877,7 +957,7 @@
         "gap": 70,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.6 - 7 km SW of Petit Trou de Nippes, Haiti"
+        "title": "M 4.6 - Haiti region"
       },
       "geometry": {
         "type": "Point",
@@ -1375,17 +1455,17 @@
         "mag": 6.6,
         "place": "48 km WNW of Pólis, Cyprus",
         "time": 1641863267981,
-        "updated": 1641908729160,
+        "updated": 1641909042646,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaqu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaqu.geojson",
-        "felt": 464,
+        "felt": 465,
         "cdi": 7.6,
         "mmi": 5.416,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 1023,
+        "sig": 1024,
         "net": "us",
         "code": "7000gaqu",
         "ids": ",us7000gaqu,",
@@ -2213,7 +2293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "5 km E of Assaria, Kansas",
+        "place": "Kansas",
         "time": 1641825340625,
         "updated": 1641907267009,
         "tz": null,
@@ -2237,7 +2317,7 @@
         "gap": 104,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.1 - 5 km E of Assaria, Kansas"
+        "title": "M 3.1 - Kansas"
       },
       "geometry": {
         "type": "Point",
