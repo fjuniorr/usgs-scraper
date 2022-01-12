@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642030334000,
+    "generated": 1642031102000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "2 km WSW of Indios, Puerto Rico",
+        "time": 1642030225830,
+        "updated": 1642031067340,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022012001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022012001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "pr",
+        "code": "2022012001",
+        "ids": ",pr2022012001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.0395,
+        "rms": 0.1,
+        "gap": 186,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km WSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8413,
+          17.9861,
+          16
+        ]
+      },
+      "id": "pr2022012001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.73,
         "place": "3 km S of Pāhala, Hawaii",
         "time": 1642027845800,
-        "updated": 1642030084980,
+        "updated": 1642030827040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72869492",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72869492.geojson",
@@ -28,8 +68,8 @@
         "sig": 115,
         "net": "hv",
         "code": "72869492",
-        "ids": ",hv72869492,",
-        "sources": ",hv,",
+        "ids": ",us7000gbh0,hv72869492,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 53,
         "dmin": null,
@@ -1008,46 +1048,6 @@
         ]
       },
       "id": "pr2022012002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.64,
-        "place": "7 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1641972043950,
-        "updated": 1641973695790,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022012001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022012001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 107,
-        "net": "pr",
-        "code": "2022012001",
-        "ids": ",pr2022012001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.0592,
-        "rms": 0.21,
-        "gap": 191,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 7 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.858,
-          17.9198,
-          14
-        ]
-      },
-      "id": "pr2022012001"
     },
     {
       "type": "Feature",
