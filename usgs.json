@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641966295000,
+    "generated": 1641966803000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 60
+    "count": 59
   },
   "features": [
     {
@@ -53,7 +53,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.04,
-        "place": "Puerto Rico region",
+        "place": "3 km SSE of La Parguera, Puerto Rico",
         "time": 1641963106650,
         "updated": 1641965342931,
         "tz": null,
@@ -77,7 +77,7 @@
         "gap": 228,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
+        "title": "M 3.0 - 3 km SSE of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "3 km WSW of Tallaboa, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1641944810530,
         "updated": 1641946372450,
         "tz": null,
@@ -517,7 +517,7 @@
         "gap": 176,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 3 km WSW of Tallaboa, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "81 km SE of Nikolski, Alaska",
+        "place": "Fox Islands, Aleutian Islands, Alaska",
         "time": 1641939344011,
         "updated": 1641940619040,
         "tz": null,
@@ -597,7 +597,7 @@
         "gap": 136,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 81 km SE of Nikolski, Alaska"
+        "title": "M 4.7 - Fox Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.21,
-        "place": "Puerto Rico region",
+        "place": "67 km N of Isabela, Puerto Rico",
         "time": 1641931802270,
         "updated": 1641932960933,
         "tz": null,
@@ -957,7 +957,7 @@
         "gap": 223,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Puerto Rico region"
+        "title": "M 3.2 - 67 km N of Isabela, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.85,
-        "place": "Hawaii region, Hawaii",
+        "place": "5 km ENE of Pāhala, Hawaii",
         "time": 1641905439160,
         "updated": 1641934412020,
         "tz": null,
@@ -1557,7 +1557,7 @@
         "gap": 134,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Hawaii region, Hawaii"
+        "title": "M 2.9 - 5 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1895,7 +1895,7 @@
         "mag": 6.8,
         "place": "71 km ESE of Nikolski, Alaska",
         "time": 1641900946156,
-        "updated": 1641950945995,
+        "updated": 1641966351411,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gavu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gavu.geojson",
@@ -2333,7 +2333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "7 km SW of Petit Trou de Nippes, Haiti",
+        "place": "Haiti region",
         "time": 1641881265673,
         "updated": 1641887360641,
         "tz": null,
@@ -2357,7 +2357,7 @@
         "gap": 70,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.6 - 7 km SW of Petit Trou de Nippes, Haiti"
+        "title": "M 4.6 - Haiti region"
       },
       "geometry": {
         "type": "Point",
@@ -2368,46 +2368,6 @@
         ]
       },
       "id": "us7000gatl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.83,
-        "place": "3km SSE of Carson, CA",
-        "time": 1641880044830,
-        "updated": 1641964879534,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39908519",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39908519.geojson",
-        "felt": 449,
-        "cdi": 3.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 280,
-        "net": "ci",
-        "code": "39908519",
-        "ids": ",us7000gata,ci39908519,",
-        "sources": ",us,ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 79,
-        "dmin": 0.04618,
-        "rms": 0.3,
-        "gap": 71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 3km SSE of Carson, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.2685,
-          33.8083333,
-          14.88
-        ]
-      },
-      "id": "ci39908519"
     }
   ],
   "bbox": [
