@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642023374000,
+    "generated": 1642023867000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
     {
@@ -1688,46 +1688,6 @@
         ]
       },
       "id": "us7000gb3v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "95 km SSW of Topolobampo, Mexico",
-        "time": 1641937271491,
-        "updated": 1641939491040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gb3k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gb3k.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000gb3k",
-        "ids": ",us7000gb3k,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.707,
-        "rms": 1.22,
-        "gap": 185,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 95 km SSW of Topolobampo, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.2499,
-          24.7583,
-          10
-        ]
-      },
-      "id": "us7000gb3k"
     }
   ],
   "bbox": [
