@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642025400000,
+    "generated": 1642026794000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "104 km ESE of Arica, Chile",
+        "time": 1642022510506,
+        "updated": 1642025445040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbg8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gbg8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000gbg8",
+        "ids": ",us7000gbg8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.395,
+        "rms": 0.53,
+        "gap": 87,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 104 km ESE of Arica, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.335,
+          -18.6969,
+          135.27
+        ]
+      },
+      "id": "us7000gbg8"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,13 +255,13 @@
         "mag": 3.9,
         "place": "86 km SE of Nikolski, Alaska",
         "time": 1641997693044,
-        "updated": 1642025274147,
+        "updated": 1642025383921,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022k2y9yd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022k2y9yd.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 1.85,
+        "mmi": 1.454,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1648,46 +1688,6 @@
         ]
       },
       "id": "us7000gb4e"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Fox Islands, Aleutian Islands, Alaska",
-        "time": 1641939344011,
-        "updated": 1641968135736,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gb42",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gb42.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.381,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000gb42",
-        "ids": ",ak022ik3ox8,us7000gb42,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 1.028,
-        "rms": 0.97,
-        "gap": 136,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Fox Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -168.0583,
-          52.3876,
-          23.25
-        ]
-      },
-      "id": "us7000gb42"
     }
   ],
   "bbox": [
