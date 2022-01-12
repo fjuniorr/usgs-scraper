@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642021707000,
+    "generated": 1642022758000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "44 km SSW of Kohīma, India",
+        "time": 1642020419312,
+        "updated": 1642022659446,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbfz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gbfz.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000gbfz",
+        "ids": ",us7000gbfz,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.946,
+        "rms": 0.98,
+        "gap": 119,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 44 km SSW of Kohīma, India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.9876,
+          25.292,
+          10
+        ]
+      },
+      "id": "us7000gbfz"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.65,
         "place": "4 km SSW of Pāhala, Hawaii",
         "time": 1642018425400,
-        "updated": 1642021587650,
+        "updated": 1642021952040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72869302",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72869302.geojson",
@@ -128,6 +168,46 @@
         ]
       },
       "id": "us7000gbf7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.62,
+        "place": "22 km N of Pāhala, Hawaii",
+        "time": 1642014664830,
+        "updated": 1642022231060,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72869222",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72869222.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "hv",
+        "code": "72869222",
+        "ids": ",hv72869222,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": null,
+        "rms": 0.1,
+        "gap": 48,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 22 km N of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.485,
+          19.4045,
+          8.14
+        ]
+      },
+      "id": "hv72869222"
     },
     {
       "type": "Feature",
@@ -1728,46 +1808,6 @@
         ]
       },
       "id": "pr2022011005"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "40 km NNE of Gwadar, Pakistan",
-        "time": 1641936116496,
-        "updated": 1641937669040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gb39",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gb39.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000gb39",
-        "ids": ",us7000gb39,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 5.68,
-        "rms": 0.64,
-        "gap": 125,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 40 km NNE of Gwadar, Pakistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          62.4487,
-          25.467,
-          10
-        ]
-      },
-      "id": "us7000gb39"
     }
   ],
   "bbox": [
