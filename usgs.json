@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641952195000,
+    "generated": 1641954415000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 60
+    "count": 62
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.69,
+        "place": "12km N of Borrego Springs, CA",
+        "time": 1641953528250,
+        "updated": 1641954198843,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39909511",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39909511.geojson",
+        "felt": 1,
+        "cdi": 2.5,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ci",
+        "code": "39909511",
+        "ids": ",ci39909511,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 84,
+        "dmin": 0.04497,
+        "rms": 0.21,
+        "gap": 28,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 12km N of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.3633333,
+          33.362,
+          1.46
+        ]
+      },
+      "id": "ci39909511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1641952083682,
+        "updated": 1641953647805,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gb6l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gb6l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.531,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 416,
+        "net": "us",
+        "code": "7000gb6l",
+        "ids": ",at00r5kqc3,us7000gb6l,ak022jvbwhl,",
+        "sources": ",at,us,ak,",
+        "types": ",impact-link,oaf,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.351,
+        "rms": 0.81,
+        "gap": 81,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.2 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.0392,
+          52.078,
+          133.36
+        ]
+      },
+      "id": "us7000gb6l"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -2414,7 +2494,7 @@
     -173.9181,
     -59.3511,
     -0.45,
-    159.8016,
+    178.0392,
     67.6371,
     213.3
   ]
