@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642104684000,
+    "generated": 1642106004000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -88,6 +88,46 @@
         ]
       },
       "id": "ak022lscrkv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "164 km W of Port Orford, Oregon",
+        "time": 1642091545132,
+        "updated": 1642105500040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbmr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gbmr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "us",
+        "code": "7000gbmr",
+        "ids": ",us7000gbmr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.824,
+        "rms": 0.72,
+        "gap": 240,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 164 km W of Port Orford, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.4752,
+          42.4862,
+          10
+        ]
+      },
+      "id": "us7000gbmr"
     },
     {
       "type": "Feature",
@@ -855,11 +895,11 @@
         "mag": 3.86,
         "place": "23km ESE of Anza, CA",
         "time": 1642043948700,
-        "updated": 1642104394335,
+        "updated": 1642105406545,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39910255",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39910255.geojson",
-        "felt": 2495,
+        "felt": 2497,
         "cdi": 4.2,
         "mmi": 4.228,
         "alert": null,
@@ -1328,46 +1368,6 @@
         ]
       },
       "id": "us7000gbfz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.65,
-        "place": "4 km SSW of Pāhala, Hawaii",
-        "time": 1642018425400,
-        "updated": 1642021952040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72869302",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72869302.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 108,
-        "net": "hv",
-        "code": "72869302",
-        "ids": ",us7000gbfp,hv72869302,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 109,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 4 km SSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.498833333333,
-          19.1641666666667,
-          36.25
-        ]
-      },
-      "id": "hv72869302"
     }
   ],
   "bbox": [
