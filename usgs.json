@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642113869000,
+    "generated": 1642114409000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.92,
+        "place": "132 km NE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1642112302050,
+        "updated": 1642114183729,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022013003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022013003.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 236,
+        "net": "pr",
+        "code": "2022013003",
+        "ids": ",pr2022013003,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 1.5684,
+        "rms": 0.26,
+        "gap": 339,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 132 km NE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.0921,
+          19.3286,
+          37
+        ]
+      },
+      "id": "pr2022013003"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.50999999,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "20 km ESE of Naalehu, Hawaii",
         "time": 1642083853750,
         "updated": 1642084047790,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": 224,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Island of Hawaii, Hawaii"
+        "title": "M 2.5 - 20 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Kuril Islands",
+        "place": "84 km SE of Kuril’sk, Russia",
         "time": 1642036901106,
         "updated": 1642040037040,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 180,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Kuril Islands"
+        "title": "M 4.4 - 84 km SE of Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -1408,46 +1448,6 @@
         ]
       },
       "id": "us7000gbh2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.73,
-        "place": "3 km S of Pāhala, Hawaii",
-        "time": 1642027845800,
-        "updated": 1642030827040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72869492",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72869492.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 115,
-        "net": "hv",
-        "code": "72869492",
-        "ids": ",us7000gbh0,hv72869492,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": null,
-        "rms": 0.11,
-        "gap": 83,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 3 km S of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.478333333333,
-          19.1713333333333,
-          35.64
-        ]
-      },
-      "id": "hv72869492"
     }
   ],
   "bbox": [
