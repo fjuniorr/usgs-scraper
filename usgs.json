@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642059747000,
+    "generated": 1642060382000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "251 km S of Sofifi, Indonesia",
+        "time": 1642058601615,
+        "updated": 1642059992040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbk1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gbk1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000gbk1",
+        "ids": ",us7000gbk1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.282,
+        "rms": 0.8,
+        "gap": 79,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 251 km S of Sofifi, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3379,
+          -1.5261,
+          10
+        ]
+      },
+      "id": "us7000gbk1"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,11 +255,11 @@
         "mag": 2.86,
         "place": "23km ESE of Anza, CA",
         "time": 1642044293550,
-        "updated": 1642057757246,
+        "updated": 1642060080469,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39910327",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39910327.geojson",
-        "felt": 191,
+        "felt": 192,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -335,11 +375,11 @@
         "mag": 3.86,
         "place": "23km ESE of Anza, CA",
         "time": 1642043948750,
-        "updated": 1642059713198,
+        "updated": 1642060020550,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39910255",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39910255.geojson",
-        "felt": 2379,
+        "felt": 2380,
         "cdi": 4.2,
         "mmi": 4.238,
         "alert": null,
