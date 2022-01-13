@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642068680000,
+    "generated": 1642070124000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 42
   },
   "features": [
     {
@@ -495,7 +495,7 @@
         "mag": 3.86,
         "place": "23km ESE of Anza, CA",
         "time": 1642043948750,
-        "updated": 1642066827869,
+        "updated": 1642069133201,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39910255",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39910255.geojson",
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Kuril Islands",
+        "place": "84 km SE of Kuril’sk, Russia",
         "time": 1642036901106,
         "updated": 1642040037040,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 180,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Kuril Islands"
+        "title": "M 4.4 - 84 km SE of Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -1688,86 +1688,6 @@
         ]
       },
       "id": "us7000gba3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "110 km WSW of Wuwei, China",
-        "time": 1641982843212,
-        "updated": 1641983967040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gba0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gba0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "7000gba0",
-        "ids": ",us7000gba0,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 10.772,
-        "rms": 0.54,
-        "gap": 33,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.3 - 110 km WSW of Wuwei, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          101.4089,
-          37.695,
-          10
-        ]
-      },
-      "id": "us7000gba0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "92 km NNE of Tocopilla, Chile",
-        "time": 1641982736855,
-        "updated": 1641984118506,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gb9z",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gb9z.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000gb9z",
-        "ids": ",us7000gb9z,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.06,
-        "rms": 0.94,
-        "gap": 83,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 92 km NNE of Tocopilla, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.832,
-          -21.3298,
-          47.65
-        ]
-      },
-      "id": "us7000gb9z"
     }
   ],
   "bbox": [
