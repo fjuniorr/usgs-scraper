@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642116746000,
+    "generated": 1642117530000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -372,10 +372,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.76,
-        "place": "12 km ESE of Honaunau-Napoopoo, Hawaii",
-        "time": 1642085688030,
-        "updated": 1642087735040,
+        "mag": 2.92,
+        "place": "11 km ESE of Honaunau-Napoopoo, Hawaii",
+        "time": 1642085688000,
+        "updated": 1642116823170,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72870797",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72870797.geojson",
@@ -383,28 +383,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 117,
+        "sig": 131,
         "net": "hv",
         "code": "72870797",
         "ids": ",us7000gbmh,hv72870797,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 43,
+        "nst": 49,
         "dmin": null,
-        "rms": 0.25,
-        "gap": 112,
-        "magType": "ml",
+        "rms": 0.16,
+        "gap": 102,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 12 km ESE of Honaunau-Napoopoo, Hawaii"
+        "title": "M 2.9 - 11 km ESE of Honaunau-Napoopoo, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.765167236328,
-          19.3953342437744,
-          9.35000038146973
+          -155.7645,
+          19.4058333333333,
+          9.93
         ]
       },
       "id": "hv72870797"
@@ -413,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.50999999,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "20 km ESE of Naalehu, Hawaii",
         "time": 1642083853750,
         "updated": 1642084047790,
         "tz": null,
@@ -437,7 +437,7 @@
         "gap": 224,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Island of Hawaii, Hawaii"
+        "title": "M 2.5 - 20 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1135,11 +1135,11 @@
         "mag": 3.86,
         "place": "23km ESE of Anza, CA",
         "time": 1642043948700,
-        "updated": 1642116508569,
+        "updated": 1642117215479,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39910255",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39910255.geojson",
-        "felt": 2507,
+        "felt": 2508,
         "cdi": 4.2,
         "mmi": 4.228,
         "alert": null,
@@ -1293,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Kuril Islands",
+        "place": "84 km SE of Kuril’sk, Russia",
         "time": 1642036901106,
         "updated": 1642040037040,
         "tz": null,
@@ -1317,7 +1317,7 @@
         "gap": 180,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Kuril Islands"
+        "title": "M 4.4 - 84 km SE of Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
