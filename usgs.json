@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642101685000,
+    "generated": 1642102405000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 36
   },
   "features": [
     {
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.50999999,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "20 km ESE of Naalehu, Hawaii",
         "time": 1642083853750,
         "updated": 1642084047790,
         "tz": null,
@@ -197,7 +197,7 @@
         "gap": 224,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Island of Hawaii, Hawaii"
+        "title": "M 2.5 - 20 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -895,11 +895,11 @@
         "mag": 3.86,
         "place": "23km ESE of Anza, CA",
         "time": 1642043948700,
-        "updated": 1642101530562,
+        "updated": 1642102215232,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39910255",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39910255.geojson",
-        "felt": 2490,
+        "felt": 2493,
         "cdi": 4.2,
         "mmi": 4.228,
         "alert": null,
@@ -1053,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Kuril Islands",
+        "place": "84 km SE of Kuril’sk, Russia",
         "time": 1642036901106,
         "updated": 1642040037040,
         "tz": null,
@@ -1077,7 +1077,7 @@
         "gap": 180,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Kuril Islands"
+        "title": "M 4.4 - 84 km SE of Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -1448,46 +1448,6 @@
         ]
       },
       "id": "us7000gbf9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "80 km ENE of Gorontalo, Indonesia",
-        "time": 1642015945531,
-        "updated": 1642021077040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbf7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gbf7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000gbf7",
-        "ids": ",us7000gbf7,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.068,
-        "rms": 0.86,
-        "gap": 68,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 80 km ENE of Gorontalo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.737,
-          0.7994,
-          270.76
-        ]
-      },
-      "id": "us7000gbf7"
     }
   ],
   "bbox": [
