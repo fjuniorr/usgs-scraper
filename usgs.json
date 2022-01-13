@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642103605000,
+    "generated": 1642104684000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
     {
@@ -88,46 +88,6 @@
         ]
       },
       "id": "ak022lscrkv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "25 km NW of Stanley, Idaho",
-        "time": 1642091342380,
-        "updated": 1642092587970,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80536009",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80536009.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "mb",
-        "code": "80536009",
-        "ids": ",mb80536009,",
-        "sources": ",mb,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.934,
-        "rms": 0.3,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 25 km NW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.1923333,
-          44.3528333,
-          9.57
-        ]
-      },
-      "id": "mb80536009"
     },
     {
       "type": "Feature",
@@ -895,7 +855,7 @@
         "mag": 3.86,
         "place": "23km ESE of Anza, CA",
         "time": 1642043948700,
-        "updated": 1642103545057,
+        "updated": 1642104394335,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39910255",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39910255.geojson",
@@ -1015,7 +975,7 @@
         "mag": 5.1,
         "place": "234 km WSW of Adak, Alaska",
         "time": 1642038361768,
-        "updated": 1642082169761,
+        "updated": 1642103774948,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbi3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gbi3.geojson",
