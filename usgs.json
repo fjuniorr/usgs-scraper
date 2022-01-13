@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642072202000,
+    "generated": 1642073278000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "49 km N of Valdez, Alaska",
+        "time": 1642072795044,
+        "updated": 1642073061520,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022longwy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022longwy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "022longwy",
+        "ids": ",ak022longwy,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.92,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 49 km N of Valdez, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.4103,
+          61.5721,
+          28
+        ]
+      },
+      "id": "ak022longwy"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.8,
         "place": "12km SSE of Redway, CA",
         "time": 1642070032850,
-        "updated": 1642070771038,
+        "updated": 1642072620276,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73677916",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73677916.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +70,7 @@
         "code": "73677916",
         "ids": ",nc73677916,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 23,
         "dmin": 0.1367,
         "rms": 0.14,
@@ -535,7 +575,7 @@
         "mag": 3.86,
         "place": "23km ESE of Anza, CA",
         "time": 1642043948750,
-        "updated": 1642071857397,
+        "updated": 1642072769607,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39910255",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39910255.geojson",
@@ -1615,7 +1655,7 @@
     -45.7059,
     2.18,
     166.6433,
-    60.2322,
+    61.5721,
     509.26
   ]
 }
