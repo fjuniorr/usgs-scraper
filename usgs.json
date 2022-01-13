@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642102405000,
+    "generated": 1642103001000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -895,7 +895,7 @@
         "mag": 3.86,
         "place": "23km ESE of Anza, CA",
         "time": 1642043948700,
-        "updated": 1642102215232,
+        "updated": 1642102758208,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39910255",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39910255.geojson",
