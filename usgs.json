@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642088163000,
+    "generated": 1642089003000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 37
   },
   "features": [
     {
@@ -53,7 +53,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.50999999,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "20 km ESE of Naalehu, Hawaii",
         "time": 1642083853750,
         "updated": 1642084047790,
         "tz": null,
@@ -77,7 +77,7 @@
         "gap": 224,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Island of Hawaii, Hawaii"
+        "title": "M 2.5 - 20 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -815,11 +815,11 @@
         "mag": 3.86,
         "place": "23km ESE of Anza, CA",
         "time": 1642043948750,
-        "updated": 1642088043430,
+        "updated": 1642088801533,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39910255",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39910255.geojson",
-        "felt": 2446,
+        "felt": 2449,
         "cdi": 4.2,
         "mmi": 4.238,
         "alert": null,
@@ -973,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Kuril Islands",
+        "place": "84 km SE of Kuril’sk, Russia",
         "time": 1642036901106,
         "updated": 1642040037040,
         "tz": null,
@@ -997,7 +997,7 @@
         "gap": 180,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Kuril Islands"
+        "title": "M 4.4 - 84 km SE of Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -1488,46 +1488,6 @@
         ]
       },
       "id": "us7000gbdc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "17 km SSE of Nishinoomote, Japan",
-        "time": 1642002369168,
-        "updated": 1642028173040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbcc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gbcc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000gbcc",
-        "ids": ",us7000gbcc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.055,
-        "rms": 0.79,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 17 km SSE of Nishinoomote, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          131.0435,
-          30.5805,
-          58.65
-        ]
-      },
-      "id": "us7000gbcc"
     }
   ],
   "bbox": [
