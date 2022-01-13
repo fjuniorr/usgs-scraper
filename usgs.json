@@ -1,14 +1,174 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642042798000,
+    "generated": 1642044507000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.93,
+        "place": "24km ESE of Anza, CA",
+        "time": 1642044293550,
+        "updated": 1642044437973,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39910327",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39910327.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 132,
+        "net": "ci",
+        "code": "39910327",
+        "ids": ",ci39910327,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 108,
+        "dmin": 0.05106,
+        "rms": 0.2,
+        "gap": 25,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 24km ESE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4393311,
+          33.4734993,
+          12.64
+        ]
+      },
+      "id": "ci39910327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "24km SSW of La Quinta, CA",
+        "time": 1642043994690,
+        "updated": 1642044170589,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39910263",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39910263.geojson",
+        "felt": 6,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "ci",
+        "code": "39910263",
+        "ids": ",ci39910263,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 14,
+        "dmin": 0.04844,
+        "rms": 0.14,
+        "gap": 139,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 24km SSW of La Quinta, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4258347,
+          33.4748344,
+          16.57
+        ]
+      },
+      "id": "ci39910263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.86,
+        "place": "23km ESE of Anza, CA",
+        "time": 1642043948750,
+        "updated": 1642044450684,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39910255",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39910255.geojson",
+        "felt": 58,
+        "cdi": 4.1,
+        "mmi": 4.153,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 253,
+        "net": "ci",
+        "code": "39910255",
+        "ids": ",ci39910255,ew1642043950,",
+        "sources": ",ci,ew,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "nst": 99,
+        "dmin": 0.05378,
+        "rms": 0.2,
+        "gap": 24,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 3.9 - 23km ESE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4445038,
+          33.4718323,
+          13.92
+        ]
+      },
+      "id": "ci39910255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "3 km SW of Indios, Puerto Rico",
+        "time": 1642042398170,
+        "updated": 1642043516247,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022013000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022013000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "pr",
+        "code": "2022013000",
+        "ids": ",pr2022013000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.0351,
+        "rms": 0.2,
+        "gap": 164,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 3 km SW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8441,
+          17.9738,
+          15
+        ]
+      },
+      "id": "pr2022013000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1608,86 +1768,6 @@
         ]
       },
       "id": "us7000gb8b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "2 km SW of Amahai, Indonesia",
-        "time": 1641956773601,
-        "updated": 1641958021040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gb7c",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gb7c.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000gb7c",
-        "ids": ",us7000gb7c,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.368,
-        "rms": 1.24,
-        "gap": 67,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 2 km SW of Amahai, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.9032,
-          -3.3549,
-          10
-        ]
-      },
-      "id": "us7000gb7c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "south of the Kermadec Islands",
-        "time": 1641956667351,
-        "updated": 1641984969474,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gb7e",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gb7e.geojson",
-        "felt": 1,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000gb7e",
-        "ids": ",us7000gb7e,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 3.763,
-        "rms": 1.03,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - south of the Kermadec Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.1754,
-          -32.8793,
-          52.65
-        ]
-      },
-      "id": "us7000gb7e"
     }
   ],
   "bbox": [
