@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642192429000,
+    "generated": 1642193149000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -295,17 +295,17 @@
         "mag": 4.6,
         "place": "56 km S of Pelican, Alaska",
         "time": 1642171917484,
-        "updated": 1642192084321,
+        "updated": 1642192869443,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ne5zcd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ne5zcd.geojson",
-        "felt": 98,
+        "felt": 100,
         "cdi": 5.4,
         "mmi": 3.542,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 378,
+        "sig": 380,
         "net": "ak",
         "code": "022ne5zcd",
         "ids": ",ak022ne5zcd,at00r5pfyl,us7000gbyw,",
@@ -372,10 +372,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.53,
+        "mag": 2.94,
         "place": "1 km SSE of Pāhala, Hawaii",
-        "time": 1642160535500,
-        "updated": 1642161901040,
+        "time": 1642160535560,
+        "updated": 1642193029540,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72872407",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72872407.geojson",
@@ -383,28 +383,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 98,
+        "sig": 133,
         "net": "hv",
         "code": "72872407",
         "ids": ",us7000gby9,hv72872407,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 48,
+        "nst": 56,
         "dmin": null,
-        "rms": 0.109999999,
-        "gap": 146,
+        "rms": 0.11,
+        "gap": 90,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 1 km SSE of Pāhala, Hawaii"
+        "title": "M 2.9 - 1 km SSE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.470993041992,
-          19.1866664886475,
-          33.560001373291
+          -155.472833333333,
+          19.1896666666667,
+          33.6
         ]
       },
       "id": "hv72872407"
