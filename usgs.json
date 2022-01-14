@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642136425000,
+    "generated": 1642137930000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 2.64,
         "place": "10km NW of The Geysers, CA",
         "time": 1642135822630,
-        "updated": 1642136232223,
+        "updated": 1642137131318,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73678226",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73678226.geojson",
@@ -135,11 +135,11 @@
         "mag": 2.45,
         "place": "6km NNW of Diablo, CA",
         "time": 1642123283200,
-        "updated": 1642129136291,
+        "updated": 1642136883507,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73678146",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73678146.geojson",
-        "felt": 21,
+        "felt": 22,
         "cdi": 3.9,
         "mmi": null,
         "alert": null,
@@ -893,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.78,
-        "place": "6 km ENE of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1642063041470,
         "updated": 1642120726320,
         "tz": null,
@@ -917,7 +917,7 @@
         "gap": 135,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 6 km ENE of Pāhala, Hawaii"
+        "title": "M 2.8 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
