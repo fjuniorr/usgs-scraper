@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642199569000,
+    "generated": 1642200289000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.2,
-        "place": "75 km SSW of Yonakuni, Japan",
-        "time": 1642198594366,
-        "updated": 1642199244040,
+        "mag": 4.1,
+        "place": "73 km SSW of Yonakuni, Japan",
+        "time": 1642198594363,
+        "updated": 1642199577040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc4g",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc4g.geojson",
@@ -25,26 +25,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 271,
+        "sig": 259,
         "net": "us",
         "code": "7000gc4g",
         "ids": ",us7000gc4g,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": null,
-        "dmin": 0.685,
-        "rms": 0.8,
+        "dmin": 0.667,
+        "rms": 0.85,
         "gap": 109,
-        "magType": "mb",
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.2 - 75 km SSW of Yonakuni, Japan"
+        "title": "M 4.1 - 73 km SSW of Yonakuni, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          122.5892,
-          23.8977,
-          18.81
+          122.6187,
+          23.9012,
+          22.82
         ]
       },
       "id": "us7000gc4g"
@@ -495,17 +495,17 @@
         "mag": 4.6,
         "place": "56 km S of Pelican, Alaska",
         "time": 1642171917484,
-        "updated": 1642197342531,
+        "updated": 1642199754789,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ne5zcd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ne5zcd.geojson",
-        "felt": 109,
+        "felt": 110,
         "cdi": 5.4,
         "mmi": 3.542,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 384,
+        "sig": 385,
         "net": "ak",
         "code": "022ne5zcd",
         "ids": ",ak022ne5zcd,at00r5pfyl,us7000gbyw,",
