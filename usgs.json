@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642146807000,
+    "generated": 1642147952000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45000005,
+        "place": "Island of Hawaii, Hawaii",
+        "time": 1642146916890,
+        "updated": 1642147120440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72872162",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72872162.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "hv",
+        "code": "72872162",
+        "ids": ",hv72872162,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 95,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - Island of Hawaii, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.469665527344,
+          19.1916675567627,
+          31.2600002288818
+        ]
+      },
+      "id": "hv72872162"
+    },
     {
       "type": "Feature",
       "properties": {
