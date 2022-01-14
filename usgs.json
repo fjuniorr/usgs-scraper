@@ -1,59 +1,59 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642197289000,
+    "generated": 1642198189000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 32
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "54 km WNW of Rincón, Puerto Rico",
-        "time": 1642196166557,
-        "updated": 1642197193040,
+        "mag": 3.34,
+        "place": "39 km W of Rincón, Puerto Rico",
+        "time": 1642196169720,
+        "updated": 1642197884397,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc40",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc40.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022014003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022014003.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000gc40",
-        "ids": ",us7000gc40,",
-        "sources": ",us,",
+        "sig": 172,
+        "net": "pr",
+        "code": "2022014003",
+        "ids": ",us7000gc40,pr2022014003,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.587,
-        "rms": 0.67,
-        "gap": 184,
-        "magType": "ml",
+        "nst": 20,
+        "dmin": 0.1394,
+        "rms": 0.34,
+        "gap": 161,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 54 km WNW of Rincón, Puerto Rico"
+        "title": "M 3.3 - 39 km W of Rincón, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.7272,
-          18.5282,
-          108.68
+          -67.6183,
+          18.3926,
+          99
         ]
       },
-      "id": "us7000gc40"
+      "id": "pr2022014003"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "northern Alaska",
+        "place": "74 km NNW of Ambler, Alaska",
         "time": 1642195665421,
         "updated": 1642196921040,
         "tz": null,
@@ -77,7 +77,7 @@
         "gap": 168,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - northern Alaska"
+        "title": "M 2.7 - 74 km NNW of Ambler, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -88,6 +88,46 @@
         ]
       },
       "id": "us7000gc3z"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "52 km SW of Jurm, Afghanistan",
+        "time": 1642187394150,
+        "updated": 1642197542040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc2k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc2k.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000gc2k",
+        "ids": ",us7000gc2k,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.651,
+        "rms": 0.68,
+        "gap": 72,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 52 km SW of Jurm, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.493,
+          36.4763,
+          208.06
+        ]
+      },
+      "id": "us7000gc2k"
     },
     {
       "type": "Feature",
@@ -175,11 +215,11 @@
         "mag": 5.1,
         "place": "13 km SSW of Ashkāsham, Afghanistan",
         "time": 1642176783440,
-        "updated": 1642182230265,
+        "updated": 1642197844209,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc0n",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc0n.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -375,11 +415,11 @@
         "mag": 4.6,
         "place": "56 km S of Pelican, Alaska",
         "time": 1642171917484,
-        "updated": 1642197036048,
+        "updated": 1642197342531,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ne5zcd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ne5zcd.geojson",
-        "felt": 108,
+        "felt": 109,
         "cdi": 5.4,
         "mmi": 3.542,
         "alert": null,
@@ -773,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "223 km W of Port McNeill, Canada",
+        "place": "Vancouver Island, Canada region",
         "time": 1642148728704,
         "updated": 1642152685921,
         "tz": null,
@@ -797,7 +837,7 @@
         "gap": 187,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 223 km W of Port McNeill, Canada"
+        "title": "M 4.3 - Vancouver Island, Canada region"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Vancouver Island, Canada region",
+        "place": "219 km W of Port McNeill, Canada",
         "time": 1642142306617,
         "updated": 1642145333661,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": 184,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Vancouver Island, Canada region"
+        "title": "M 4.2 - 219 km W of Port McNeill, Canada"
       },
       "geometry": {
         "type": "Point",
@@ -1256,6 +1296,6 @@
     2.17,
     142.8582,
     67.6607,
-    115.3
+    208.06
   ]
 }
