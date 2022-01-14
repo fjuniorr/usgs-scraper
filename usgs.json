@@ -1,19 +1,19 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642146145000,
+    "generated": 1642146807000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 27
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "219 km W of Port McNeill, Canada",
+        "place": "Vancouver Island, Canada region",
         "time": 1642142306617,
         "updated": 1642145333661,
         "tz": null,
@@ -37,7 +37,7 @@
         "gap": 184,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 219 km W of Port McNeill, Canada"
+        "title": "M 4.2 - Vancouver Island, Canada region"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.78,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "6 km ENE of Pāhala, Hawaii",
         "time": 1642063041470,
         "updated": 1642120726320,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 135,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Island of Hawaii, Hawaii"
+        "title": "M 2.8 - 6 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1088,46 +1088,6 @@
         ]
       },
       "id": "ci39910983"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "27 km S of Baie-Comeau, Canada",
-        "time": 1642059758627,
-        "updated": 1642142284040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbtq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gbtq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "7000gbtq",
-        "ids": ",us7000gbtq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.76,
-        "rms": 0.28,
-        "gap": 158,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 27 km S of Baie-Comeau, Canada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.0775,
-          48.9761,
-          10.47
-        ]
-      },
-      "id": "us7000gbtq"
     }
   ],
   "bbox": [
