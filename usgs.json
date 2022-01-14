@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642203109000,
+    "generated": 1642203929000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 33
   },
   "features": [
     {
@@ -95,17 +95,17 @@
         "mag": 4.3,
         "place": "10 km SSE of Fushë-Arrëz, Albania",
         "time": 1642196276355,
-        "updated": 1642200473775,
+        "updated": 1642203595033,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc41",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc41.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 285,
+        "sig": 286,
         "net": "us",
         "code": "7000gc41",
         "ids": ",us7000gc41,",
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "northern Alaska",
+        "place": "74 km NNW of Ambler, Alaska",
         "time": 1642195665421,
         "updated": 1642196921040,
         "tz": null,
@@ -197,7 +197,7 @@
         "gap": 168,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - northern Alaska"
+        "title": "M 2.7 - 74 km NNW of Ambler, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -575,17 +575,17 @@
         "mag": 4.6,
         "place": "56 km S of Pelican, Alaska",
         "time": 1642171917484,
-        "updated": 1642201803040,
+        "updated": 1642203468449,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ne5zcd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ne5zcd.geojson",
-        "felt": 110,
+        "felt": 112,
         "cdi": 5.4,
         "mmi": 3.542,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 385,
+        "sig": 386,
         "net": "ak",
         "code": "022ne5zcd",
         "ids": ",ak022ne5zcd,at00r5pfyl,us7000gbyw,",
@@ -973,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "223 km W of Port McNeill, Canada",
+        "place": "Vancouver Island, Canada region",
         "time": 1642148728704,
         "updated": 1642152685921,
         "tz": null,
@@ -997,7 +997,7 @@
         "gap": 187,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 223 km W of Port McNeill, Canada"
+        "title": "M 4.3 - Vancouver Island, Canada region"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Vancouver Island, Canada region",
+        "place": "219 km W of Port McNeill, Canada",
         "time": 1642142306617,
         "updated": 1642145333661,
         "tz": null,
@@ -1077,7 +1077,7 @@
         "gap": 184,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Vancouver Island, Canada region"
+        "title": "M 4.2 - 219 km W of Port McNeill, Canada"
       },
       "geometry": {
         "type": "Point",
@@ -1328,46 +1328,6 @@
         ]
       },
       "id": "nc73678146"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "33 km S of False Pass, Alaska",
-        "time": 1642117526724,
-        "updated": 1642119800040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbs8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gbs8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "7000gbs8",
-        "ids": ",us7000gbs8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.306,
-        "rms": 0.89,
-        "gap": 165,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.7 - 33 km S of False Pass, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -163.3849,
-          54.5516,
-          15.32
-        ]
-      },
-      "id": "us7000gbs8"
     }
   ],
   "bbox": [
