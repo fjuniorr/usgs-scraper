@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642157727000,
+    "generated": 1642158628000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -95,17 +95,17 @@
         "mag": 6.6,
         "place": "88 km SW of Labuan, Indonesia",
         "time": 1642151142540,
-        "updated": 1642157639323,
+        "updated": 1642158605343,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbu4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gbu4.geojson",
-        "felt": 99,
+        "felt": 101,
         "cdi": 8.9,
         "mmi": 6.473,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 758,
+        "sig": 760,
         "net": "us",
         "code": "7000gbu4",
         "ids": ",us7000gbu4,",
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "223 km W of Port McNeill, Canada",
+        "place": "Vancouver Island, Canada region",
         "time": 1642148728704,
         "updated": 1642152685921,
         "tz": null,
@@ -197,7 +197,7 @@
         "gap": 187,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 223 km W of Port McNeill, Canada"
+        "title": "M 4.3 - Vancouver Island, Canada region"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.45000005,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "1 km SE of Pāhala, Hawaii",
         "time": 1642146916890,
         "updated": 1642147120440,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 95,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Island of Hawaii, Hawaii"
+        "title": "M 2.5 - 1 km SE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Vancouver Island, Canada region",
+        "place": "219 km W of Port McNeill, Canada",
         "time": 1642142306617,
         "updated": 1642145333661,
         "tz": null,
@@ -277,7 +277,7 @@
         "gap": 184,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Vancouver Island, Canada region"
+        "title": "M 4.2 - 219 km W of Port McNeill, Canada"
       },
       "geometry": {
         "type": "Point",
