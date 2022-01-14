@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642203929000,
+    "generated": 1642204405000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "74 km NNW of Ambler, Alaska",
+        "place": "northern Alaska",
         "time": 1642195665421,
         "updated": 1642196921040,
         "tz": null,
@@ -197,7 +197,7 @@
         "gap": 168,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 74 km NNW of Ambler, Alaska"
+        "title": "M 2.7 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -575,17 +575,17 @@
         "mag": 4.6,
         "place": "56 km S of Pelican, Alaska",
         "time": 1642171917484,
-        "updated": 1642203468449,
+        "updated": 1642203961917,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ne5zcd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ne5zcd.geojson",
-        "felt": 112,
+        "felt": 113,
         "cdi": 5.4,
         "mmi": 3.542,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 386,
+        "sig": 387,
         "net": "ak",
         "code": "022ne5zcd",
         "ids": ",ak022ne5zcd,at00r5pfyl,us7000gbyw,",
@@ -973,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Vancouver Island, Canada region",
+        "place": "223 km W of Port McNeill, Canada",
         "time": 1642148728704,
         "updated": 1642152685921,
         "tz": null,
@@ -997,7 +997,7 @@
         "gap": 187,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Vancouver Island, Canada region"
+        "title": "M 4.3 - 223 km W of Port McNeill, Canada"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "219 km W of Port McNeill, Canada",
+        "place": "Vancouver Island, Canada region",
         "time": 1642142306617,
         "updated": 1642145333661,
         "tz": null,
@@ -1077,7 +1077,7 @@
         "gap": 184,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 219 km W of Port McNeill, Canada"
+        "title": "M 4.2 - Vancouver Island, Canada region"
       },
       "geometry": {
         "type": "Point",
