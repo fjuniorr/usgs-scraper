@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642201829000,
+    "generated": 1642203109000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "67 km WSW of Niseko Town, Japan",
+        "time": 1642201256042,
+        "updated": 1642202713040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc53",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc53.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000gc53",
+        "ids": ",us7000gc53,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.971,
+        "rms": 0.62,
+        "gap": 94,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 67 km WSW of Niseko Town, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.898,
+          42.5584,
+          164.63
+        ]
+      },
+      "id": "us7000gc53"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -133,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "74 km NNW of Ambler, Alaska",
+        "place": "northern Alaska",
         "time": 1642195665421,
         "updated": 1642196921040,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": 168,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 74 km NNW of Ambler, Alaska"
+        "title": "M 2.7 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -495,11 +535,11 @@
         "mag": 2.85,
         "place": "7km SW of Holtville, CA",
         "time": 1642172741430,
-        "updated": 1642188510118,
+        "updated": 1642202096741,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39912487",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39912487.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -855,17 +895,17 @@
         "mag": 6.6,
         "place": "88 km SW of Labuan, Indonesia",
         "time": 1642151142540,
-        "updated": 1642175588328,
+        "updated": 1642203032525,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbu4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gbu4.geojson",
-        "felt": 122,
+        "felt": 123,
         "cdi": 8.2,
         "mmi": 6.473,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 770,
+        "sig": 771,
         "net": "us",
         "code": "7000gbu4",
         "ids": ",us7000gbu4,",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Vancouver Island, Canada region",
+        "place": "223 km W of Port McNeill, Canada",
         "time": 1642148728704,
         "updated": 1642152685921,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 187,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Vancouver Island, Canada region"
+        "title": "M 4.3 - 223 km W of Port McNeill, Canada"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "219 km W of Port McNeill, Canada",
+        "place": "Vancouver Island, Canada region",
         "time": 1642142306617,
         "updated": 1642145333661,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 184,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 219 km W of Port McNeill, Canada"
+        "title": "M 4.2 - Vancouver Island, Canada region"
       },
       "geometry": {
         "type": "Point",
@@ -1328,46 +1368,6 @@
         ]
       },
       "id": "us7000gbs8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "27 km W of Copiapó, Chile",
-        "time": 1642116248275,
-        "updated": 1642119287040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbs3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gbs3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000gbs3",
-        "ids": ",us7000gbs3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.225,
-        "rms": 1.06,
-        "gap": 112,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 27 km W of Copiapó, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.6025,
-          -27.4037,
-          87.7
-        ]
-      },
-      "id": "us7000gbs3"
     }
   ],
   "bbox": [
