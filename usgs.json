@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642200805000,
+    "generated": 1642201829000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
     {
@@ -14,8 +14,8 @@
       "properties": {
         "mag": 4.1,
         "place": "73 km SSW of Yonakuni, Japan",
-        "time": 1642198594363,
-        "updated": 1642199577040,
+        "time": 1642198594244,
+        "updated": 1642201239040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc4g",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc4g.geojson",
@@ -32,8 +32,8 @@
         "sources": ",us,",
         "types": ",moment-tensor,origin,phase-data,",
         "nst": null,
-        "dmin": 0.667,
-        "rms": 0.85,
+        "dmin": 0.666,
+        "rms": 0.81,
         "gap": 109,
         "magType": "mwr",
         "type": "earthquake",
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          122.6187,
-          23.9012,
-          22.82
+          122.6131,
+          23.9067,
+          21.71
         ]
       },
       "id": "us7000gc4g"
@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "northern Alaska",
+        "place": "74 km NNW of Ambler, Alaska",
         "time": 1642195665421,
         "updated": 1642196921040,
         "tz": null,
@@ -157,7 +157,7 @@
         "gap": 168,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - northern Alaska"
+        "title": "M 2.7 - 74 km NNW of Ambler, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -168,6 +168,46 @@
         ]
       },
       "id": "us7000gc3z"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "102 km SW of Labuan, Indonesia",
+        "time": 1642192467686,
+        "updated": 1642201310040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc3e",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc3e.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000gc3e",
+        "ids": ",us7000gc3e,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.378,
+        "rms": 1.5,
+        "gap": 65,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 102 km SW of Labuan, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2777,
+          -7.1191,
+          42.18
+        ]
+      },
+      "id": "us7000gc3e"
     },
     {
       "type": "Feature",
@@ -495,7 +535,7 @@
         "mag": 4.6,
         "place": "56 km S of Pelican, Alaska",
         "time": 1642171917484,
-        "updated": 1642199754789,
+        "updated": 1642201803040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ne5zcd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ne5zcd.geojson",
@@ -510,7 +550,7 @@
         "code": "022ne5zcd",
         "ids": ",ak022ne5zcd,at00r5pfyl,us7000gbyw,",
         "sources": ",ak,at,us,",
-        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
+        "types": ",dyfi,impact-link,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 1.2,
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "223 km W of Port McNeill, Canada",
+        "place": "Vancouver Island, Canada region",
         "time": 1642148728704,
         "updated": 1642152685921,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": 187,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 223 km W of Port McNeill, Canada"
+        "title": "M 4.3 - Vancouver Island, Canada region"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Vancouver Island, Canada region",
+        "place": "219 km W of Port McNeill, Canada",
         "time": 1642142306617,
         "updated": 1642145333661,
         "tz": null,
@@ -997,7 +1037,7 @@
         "gap": 184,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Vancouver Island, Canada region"
+        "title": "M 4.2 - 219 km W of Port McNeill, Canada"
       },
       "geometry": {
         "type": "Point",
