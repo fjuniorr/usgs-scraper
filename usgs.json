@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642228771000,
+    "generated": 1642229671000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 3.22,
         "place": "56km ESE of Maneadero, B.C., MX",
         "time": 1642228426720,
-        "updated": 1642228569727,
+        "updated": 1642229248040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39913151",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39913151.geojson",
@@ -28,8 +28,8 @@
         "sig": 160,
         "net": "ci",
         "code": "39913151",
-        "ids": ",ci39913151,",
-        "sources": ",ci,",
+        "ids": ",ci39913151,us7000gc76,",
+        "sources": ",ci,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 19,
         "dmin": 0.2745,
@@ -1533,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "223 km W of Port McNeill, Canada",
+        "place": "Vancouver Island, Canada region",
         "time": 1642148728704,
         "updated": 1642152685921,
         "tz": null,
@@ -1557,7 +1557,7 @@
         "gap": 187,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 223 km W of Port McNeill, Canada"
+        "title": "M 4.3 - Vancouver Island, Canada region"
       },
       "geometry": {
         "type": "Point",
