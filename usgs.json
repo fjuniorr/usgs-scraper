@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642267669000,
+    "generated": 1642268734000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "South Sandwich Islands region",
+        "time": 1642267492947,
+        "updated": 1642268688040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc9f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc9f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000gc9f",
+        "ids": ",us7000gc9f,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 8.074,
+        "rms": 0.54,
+        "gap": 89,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -23.6976,
+          -58.056,
+          10
+        ]
+      },
+      "id": "us7000gc9f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "152 km SW of Nikolski, Alaska",
+        "time": 1642265872029,
+        "updated": 1642268268040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc9c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc9c.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000gc9c",
+        "ids": ",us7000gc9c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.829,
+        "rms": 1.29,
+        "gap": 185,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 152 km SW of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.7021,
+          52.1578,
+          10
+        ]
+      },
+      "id": "us7000gc9c"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -772,50 +852,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4,
-        "place": "68 km NNW of Nuku‘alofa, Tonga",
-        "time": 1642220790000,
-        "updated": 1642225959194,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt22015050",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt22015050.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "REVIEWED",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "pt",
-        "code": "22015050",
-        "ids": ",pt22015050,",
-        "sources": ",pt,",
-        "types": ",origin,",
-        "nst": 16,
-        "dmin": null,
-        "rms": null,
-        "gap": null,
-        "magType": "Ml",
-        "type": "earthquake",
-        "title": "M 4.0 - 68 km NNW of Nuku‘alofa, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.38,
-          -20.54,
-          33
-        ]
-      },
-      "id": "pt22015050"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 5.8,
         "place": "68 km NNW of Nuku‘alofa, Tonga",
         "time": 1642220085000,
-        "updated": 1642267491129,
+        "updated": 1642268496896,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc8r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc8r.geojson",
@@ -828,8 +868,8 @@
         "sig": 518,
         "net": "us",
         "code": "7000gc8r",
-        "ids": ",us7000gc8r,at00r5qho6,",
-        "sources": ",us,at,",
+        "ids": ",us7000gc8r,at00r5qho6,pt22015050,",
+        "sources": ",us,at,pt,",
         "types": ",associate,general-header,impact-link,origin,phase-data,trump-origin,",
         "nst": null,
         "dmin": null,
@@ -1492,7 +1532,7 @@
   ],
   "bbox": [
     -178.1076,
-    -38.0002,
+    -58.056,
     0,
     179.4505,
     67.6322,
