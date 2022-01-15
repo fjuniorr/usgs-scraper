@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642284634000,
+    "generated": 1642285714000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -128,6 +128,46 @@
         ]
       },
       "id": "ak022p50tjx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "181 km WNW of Kamiiso, Japan",
+        "time": 1642273824042,
+        "updated": 1642285454040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gca3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gca3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000gca3",
+        "ids": ",us7000gca3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.388,
+        "rms": 0.39,
+        "gap": 56,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 181 km WNW of Kamiiso, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.5293,
+          42.2329,
+          240.93
+        ]
+      },
+      "id": "us7000gca3"
     },
     {
       "type": "Feature",
@@ -1488,46 +1528,6 @@
         ]
       },
       "id": "us7000gc53"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "73 km SSW of Yonakuni, Japan",
-        "time": 1642198594244,
-        "updated": 1642201239040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc4g",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc4g.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000gc4g",
-        "ids": ",us7000gc4g,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.666,
-        "rms": 0.81,
-        "gap": 109,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.1 - 73 km SSW of Yonakuni, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          122.6131,
-          23.9067,
-          21.71
-        ]
-      },
-      "id": "us7000gc4g"
     }
   ],
   "bbox": [
