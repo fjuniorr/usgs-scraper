@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642257814000,
+    "generated": 1642258354000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 37
   },
   "features": [
     {
@@ -253,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "12 km SSW of Ashkāsham, Afghanistan",
+        "place": "Hindu Kush region, Afghanistan",
         "time": 1642245729374,
         "updated": 1642248650040,
         "tz": null,
@@ -277,7 +277,7 @@
         "gap": 59,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 12 km SSW of Ashkāsham, Afghanistan"
+        "title": "M 4.3 - Hindu Kush region, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "9 km SW of Gypsum, Kansas",
+        "place": "Kansas",
         "time": 1642236119406,
         "updated": 1642256278711,
         "tz": null,
@@ -397,7 +397,7 @@
         "gap": 45,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.0 - 9 km SW of Gypsum, Kansas"
+        "title": "M 3.0 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1488,46 +1488,6 @@
         ]
       },
       "id": "ci39912487"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "56 km S of Pelican, Alaska",
-        "time": 1642171917484,
-        "updated": 1642233957198,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ne5zcd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ne5zcd.geojson",
-        "felt": 118,
-        "cdi": 5.4,
-        "mmi": 3.542,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 389,
-        "net": "ak",
-        "code": "022ne5zcd",
-        "ids": ",ak022ne5zcd,at00r5pfyl,us7000gbyw,",
-        "sources": ",ak,at,us,",
-        "types": ",dyfi,impact-link,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.2,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.6 - 56 km S of Pelican, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -136.4024,
-          57.4626,
-          15.8
-        ]
-      },
-      "id": "ak022ne5zcd"
     }
   ],
   "bbox": [
