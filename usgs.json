@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642274449000,
+    "generated": 1642275214000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -13,9 +13,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3.68,
-        "place": "72 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "place": "Virgin Islands region",
         "time": 1642268521920,
-        "updated": 1642270315726,
+        "updated": 1642275110040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022015002",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022015002.geojson",
@@ -28,8 +28,8 @@
         "sig": 208,
         "net": "pr",
         "code": "2022015002",
-        "ids": ",pr2022015002,",
-        "sources": ",pr,",
+        "ids": ",us7000gc9h,pr2022015002,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 14,
         "dmin": 1.0235,
@@ -37,7 +37,7 @@
         "gap": 332,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 72 km NNE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.7 - Virgin Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.58,
-        "place": "Oklahoma",
+        "place": "4 km NNW of Covington, Oklahoma",
         "time": 1642261135364,
         "updated": 1642270993040,
         "tz": null,
@@ -197,7 +197,7 @@
         "gap": 59.95294285,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Oklahoma"
+        "title": "M 2.6 - 4 km NNW of Covington, Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -335,17 +335,17 @@
         "mag": 2.7,
         "place": "6 km S of Big Lake, Alaska",
         "time": 1642253686595,
-        "updated": 1642269226040,
+        "updated": 1642275067598,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022p1089k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022p1089k.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 113,
+        "sig": 114,
         "net": "ak",
         "code": "022p1089k",
         "ids": ",ak022p1089k,us7000gc8k,",
@@ -573,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Hindu Kush region, Afghanistan",
+        "place": "12 km SSW of Ashkāsham, Afghanistan",
         "time": 1642245729374,
         "updated": 1642248650040,
         "tz": null,
@@ -597,7 +597,7 @@
         "gap": 59,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Hindu Kush region, Afghanistan"
+        "title": "M 4.3 - 12 km SSW of Ashkāsham, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Kansas",
+        "place": "9 km SW of Gypsum, Kansas",
         "time": 1642236119406,
         "updated": 1642261079529,
         "tz": null,
@@ -717,7 +717,7 @@
         "gap": 45,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.0 - Kansas"
+        "title": "M 3.0 - 9 km SW of Gypsum, Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -895,7 +895,7 @@
         "mag": 5.8,
         "place": "68 km NNW of Nuku‘alofa, Tonga",
         "time": 1642220085000,
-        "updated": 1642272947836,
+        "updated": 1642275078147,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc8r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc8r.geojson",
