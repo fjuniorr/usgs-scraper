@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642269169000,
+    "generated": 1642270294000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -14,8 +14,8 @@
       "properties": {
         "mag": 5,
         "place": "South Sandwich Islands region",
-        "time": 1642267492947,
-        "updated": 1642268688040,
+        "time": 1642267492756,
+        "updated": 1642269795040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc9f",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc9f.geojson",
@@ -32,9 +32,9 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 8.074,
-        "rms": 0.54,
-        "gap": 89,
+        "dmin": 8.035,
+        "rms": 0.58,
+        "gap": 72,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 5.0 - South Sandwich Islands region"
@@ -42,8 +42,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -23.6976,
-          -58.056,
+          -23.7713,
+          -58.0492,
           10
         ]
       },
@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.58,
-        "place": "4 km NNW of Covington, Oklahoma",
+        "place": "Oklahoma",
         "time": 1642261135364,
         "updated": 1642261364163,
         "tz": null,
@@ -157,7 +157,7 @@
         "gap": 59.95294285,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 4 km NNW of Covington, Oklahoma"
+        "title": "M 2.6 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -175,7 +175,7 @@
         "mag": 2.57,
         "place": "1 km SSE of Pāhala, Hawaii",
         "time": 1642258796000,
-        "updated": 1642259126460,
+        "updated": 1642269505040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72874807",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72874807.geojson",
@@ -188,8 +188,8 @@
         "sig": 102,
         "net": "hv",
         "code": "72874807",
-        "ids": ",hv72874807,",
-        "sources": ",hv,",
+        "ids": ",us7000gc8y,hv72874807,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 46,
         "dmin": null,
@@ -295,7 +295,7 @@
         "mag": 2.7,
         "place": "6 km S of Big Lake, Alaska",
         "time": 1642253686595,
-        "updated": 1642255751195,
+        "updated": 1642269226040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022p1089k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022p1089k.geojson",
@@ -308,9 +308,9 @@
         "sig": 113,
         "net": "ak",
         "code": "022p1089k",
-        "ids": ",ak022p1089k,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,",
+        "ids": ",ak022p1089k,us7000gc8k,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.63,
@@ -533,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "12 km SSW of Ashkāsham, Afghanistan",
+        "place": "Hindu Kush region, Afghanistan",
         "time": 1642245729374,
         "updated": 1642248650040,
         "tz": null,
@@ -557,7 +557,7 @@
         "gap": 59,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 12 km SSW of Ashkāsham, Afghanistan"
+        "title": "M 4.3 - Hindu Kush region, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "9 km SW of Gypsum, Kansas",
+        "place": "Kansas",
         "time": 1642236119406,
         "updated": 1642261079529,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 45,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.0 - 9 km SW of Gypsum, Kansas"
+        "title": "M 3.0 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1532,7 +1532,7 @@
   ],
   "bbox": [
     -178.1076,
-    -58.056,
+    -58.0492,
     0,
     179.4505,
     67.6322,
