@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642282594000,
+    "generated": 1642283029000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 38
   },
   "features": [
     {
@@ -615,11 +615,11 @@
         "mag": 4.6,
         "place": "59 km SSW of El Rosario, El Salvador",
         "time": 1642251053239,
-        "updated": 1642278233093,
+        "updated": 1642282977296,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc8d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc8d.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -1528,46 +1528,6 @@
         ]
       },
       "id": "us7000gc4g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "10 km SSE of Fushë-Arrëz, Albania",
-        "time": 1642196276355,
-        "updated": 1642282073830,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc41",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc41.geojson",
-        "felt": 6,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 287,
-        "net": "us",
-        "code": "7000gc41",
-        "ids": ",us7000gc41,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.656,
-        "rms": 1.11,
-        "gap": 28,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.3 - 10 km SSE of Fushë-Arrëz, Albania"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.0848,
-          41.9825,
-          10
-        ]
-      },
-      "id": "us7000gc41"
     }
   ],
   "bbox": [
