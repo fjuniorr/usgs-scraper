@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642252712000,
+    "generated": 1642253794000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 36
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.54,
         "place": "6km NNE of Petrolia, CA",
         "time": 1642252258770,
-        "updated": 1642252690571,
+        "updated": 1642253354081,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73678776",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73678776.geojson",
@@ -48,6 +48,46 @@
         ]
       },
       "id": "nc73678776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "29 km SSW of Salmās, Iran",
+        "time": 1642251786153,
+        "updated": 1642253119040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc8f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc8f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000gc8f",
+        "ids": ",us7000gc8f,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.275,
+        "rms": 0.72,
+        "gap": 101,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 29 km SSW of Salmās, Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.6121,
+          37.957,
+          10
+        ]
+      },
+      "id": "us7000gc8f"
     },
     {
       "type": "Feature",
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "9 km SW of Gypsum, Kansas",
+        "place": "Kansas",
         "time": 1642236119406,
         "updated": 1642237308060,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": 45,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.0 - 9 km SW of Gypsum, Kansas"
+        "title": "M 3.0 - Kansas"
       },
       "geometry": {
         "type": "Point",
