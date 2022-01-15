@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642248991000,
+    "generated": 1642251031000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 31
   },
   "features": [
     {
@@ -375,12 +375,12 @@
         "mag": 4.6,
         "place": "33 km ESE of Ishinomaki, Japan",
         "time": 1642210098580,
-        "updated": 1642215350841,
+        "updated": 1642249198295,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc5l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc5l.geojson",
-        "felt": 3,
-        "cdi": 2,
+        "felt": 4,
+        "cdi": 2.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1248,46 +1248,6 @@
         ]
       },
       "id": "ak022ne5zcd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "Bonin Islands, Japan region",
-        "time": 1642164285453,
-        "updated": 1642165715040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbyj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gbyj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000gbyj",
-        "ids": ",us7000gbyj,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 8.767,
-        "rms": 0.54,
-        "gap": 93,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - Bonin Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.8582,
-          28.0988,
-          17.95
-        ]
-      },
-      "id": "us7000gbyj"
     }
   ],
   "bbox": [
