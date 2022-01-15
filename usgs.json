@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642262209000,
+    "generated": 1642263754000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 36
   },
   "features": [
     {
@@ -295,22 +295,22 @@
         "mag": 4.2,
         "place": "29 km SSW of Salmās, Iran",
         "time": 1642251786153,
-        "updated": 1642253119040,
+        "updated": 1642263419598,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc8f",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc8f.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 271,
+        "sig": 272,
         "net": "us",
         "code": "7000gc8f",
         "ids": ",us7000gc8f,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 1.275,
         "rms": 0.72,
@@ -335,11 +335,11 @@
         "mag": 4.6,
         "place": "59 km SSW of El Rosario, El Salvador",
         "time": 1642251053239,
-        "updated": 1642252319696,
+        "updated": 1642263483049,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc8d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc8d.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -1448,86 +1448,6 @@
         ]
       },
       "id": "us7000gc0w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "13 km SSW of Ashkāsham, Afghanistan",
-        "time": 1642176783440,
-        "updated": 1642197844209,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc0n",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc0n.geojson",
-        "felt": 8,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 403,
-        "net": "us",
-        "code": "7000gc0n",
-        "ids": ",us7000gc0n,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.929,
-        "rms": 0.71,
-        "gap": 48,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 13 km SSW of Ashkāsham, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          71.5044,
-          36.568,
-          102.96
-        ]
-      },
-      "id": "us7000gc0n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.76,
-        "place": "5 km WSW of Pāhala, Hawaii",
-        "time": 1642176045080,
-        "updated": 1642193436990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72872787",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72872787.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 117,
-        "net": "hv",
-        "code": "72872787",
-        "ids": ",us7000gc0i,hv72872787,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": null,
-        "rms": 0.11,
-        "gap": 86,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 5 km WSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.5265,
-          19.1768333333333,
-          33.18
-        ]
-      },
-      "id": "hv72872787"
     }
   ],
   "bbox": [
