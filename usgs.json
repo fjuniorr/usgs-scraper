@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642281934000,
+    "generated": 1642282594000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 39
   },
   "features": [
     {
@@ -455,11 +455,11 @@
         "mag": 2.5,
         "place": "4 km SSE of Big Lake, Alaska",
         "time": 1642253687769,
-        "updated": 1642279274268,
+        "updated": 1642282498114,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022p1089k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022p1089k.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1015,7 +1015,7 @@
         "mag": 5.8,
         "place": "68 km NNW of Nuku‘alofa, Tonga",
         "time": 1642220085000,
-        "updated": 1642278736736,
+        "updated": 1642282285246,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc8r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc8r.geojson",
@@ -1535,17 +1535,17 @@
         "mag": 4.3,
         "place": "10 km SSE of Fushë-Arrëz, Albania",
         "time": 1642196276355,
-        "updated": 1642252018441,
+        "updated": 1642282073830,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc41",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc41.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 286,
+        "sig": 287,
         "net": "us",
         "code": "7000gc41",
         "ids": ",us7000gc41,",
@@ -1568,86 +1568,6 @@
         ]
       },
       "id": "us7000gc41"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.34,
-        "place": "39 km W of Rincón, Puerto Rico",
-        "time": 1642196169720,
-        "updated": 1642212114040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022014003",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022014003.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 172,
-        "net": "pr",
-        "code": "2022014003",
-        "ids": ",us7000gc40,pr2022014003,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.1394,
-        "rms": 0.34,
-        "gap": 161,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 39 km W of Rincón, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.6183,
-          18.3926,
-          99
-        ]
-      },
-      "id": "pr2022014003"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "72 km NW of Ambler, Alaska",
-        "time": 1642195665262,
-        "updated": 1642212304040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc3z",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc3z.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "7000gc3z",
-        "ids": ",us7000gc3z,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.622,
-        "rms": 0.4,
-        "gap": 123,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 72 km NW of Ambler, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -158.7848,
-          67.6322,
-          10
-        ]
-      },
-      "id": "us7000gc3z"
     }
   ],
   "bbox": [
@@ -1655,7 +1575,7 @@
     -58.0492,
     0,
     179.4505,
-    67.6322,
+    61.4877,
     586.33
   ]
 }
