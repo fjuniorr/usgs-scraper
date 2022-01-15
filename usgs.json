@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642290274000,
+    "generated": 1642290806000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -14,8 +14,8 @@
       "properties": {
         "mag": 2.5,
         "place": "6 km SSW of Big Lake, Alaska",
-        "time": 1642289822046,
-        "updated": 1642290185437,
+        "time": 1642289822048,
+        "updated": 1642290586327,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022p6z40v",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022p6z40v.geojson",
@@ -33,7 +33,7 @@
         "types": ",origin,",
         "nst": null,
         "dmin": null,
-        "rms": 0.88,
+        "rms": 0.87,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
@@ -42,8 +42,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.9835,
-          61.4651,
+          -149.9828,
+          61.4648,
           19.1
         ]
       },
