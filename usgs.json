@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642277449000,
+    "generated": 1642278769000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "14 km NNW of Point Possession, Alaska",
+        "time": 1642277348471,
+        "updated": 1642277902451,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022p50tjx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022p50tjx.geojson",
+        "felt": 5,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 179,
+        "net": "ak",
+        "code": "022p50tjx",
+        "ids": ",ak022p50tjx,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.71,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 14 km NNW of Point Possession, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.8123,
+          61.0351,
+          51.9
+        ]
+      },
+      "id": "ak022p50tjx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -495,11 +535,11 @@
         "mag": 4.6,
         "place": "59 km SSW of El Rosario, El Salvador",
         "time": 1642251053239,
-        "updated": 1642268943442,
+        "updated": 1642278233093,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc8d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc8d.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -895,7 +935,7 @@
         "mag": 5.8,
         "place": "68 km NNW of Nuku‘alofa, Tonga",
         "time": 1642220085000,
-        "updated": 1642275078147,
+        "updated": 1642278736736,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc8r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc8r.geojson",
