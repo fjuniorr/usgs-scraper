@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642272686000,
+    "generated": 1642273654000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
     {
@@ -895,12 +895,12 @@
         "mag": 5.8,
         "place": "68 km NNW of Nuku‘alofa, Tonga",
         "time": 1642220085000,
-        "updated": 1642271296637,
+        "updated": 1642272947836,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc8r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc8r.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -910,7 +910,7 @@
         "code": "7000gc8r",
         "ids": ",us7000gc8r,at00r5qho6,pt22015050,",
         "sources": ",us,at,pt,",
-        "types": ",associate,general-header,impact-link,origin,phase-data,trump-origin,",
+        "types": ",associate,dyfi,general-header,impact-link,origin,phase-data,trump-origin,",
         "nst": null,
         "dmin": null,
         "rms": 1.02,
@@ -1008,6 +1008,46 @@
         ]
       },
       "id": "us7000gc5t"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "134 km SW of Nikolski, Alaska",
+        "time": 1642212691512,
+        "updated": 1642273488522,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022oubi1b",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022oubi1b.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.743,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "022oubi1b",
+        "ids": ",ak022oubi1b,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 134 km SW of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.3681,
+          52.1513,
+          25.5
+        ]
+      },
+      "id": "ak022oubi1b"
     },
     {
       "type": "Feature",
