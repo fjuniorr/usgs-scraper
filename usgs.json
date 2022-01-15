@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642259374000,
+    "generated": 1642260874000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -172,6 +172,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "92 km NE of Nanortalik, Greenland",
+        "time": 1642253184642,
+        "updated": 1642260363040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc8j",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc8j.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000gc8j",
+        "ids": ",us7000gc8j,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.772,
+        "rms": 1.07,
+        "gap": 101,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 92 km NE of Nanortalik, Greenland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.0829,
+          60.7465,
+          10
+        ]
+      },
+      "id": "us7000gc8j"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.54,
         "place": "6km NNE of Petrolia, CA",
         "time": 1642252258770,
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Hindu Kush region, Afghanistan",
+        "place": "12 km SSW of Ashkāsham, Afghanistan",
         "time": 1642245729374,
         "updated": 1642248650040,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 59,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Hindu Kush region, Afghanistan"
+        "title": "M 4.3 - 12 km SSW of Ashkāsham, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Kansas",
+        "place": "9 km SW of Gypsum, Kansas",
         "time": 1642236119406,
         "updated": 1642256278711,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 45,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.0 - Kansas"
+        "title": "M 3.0 - 9 km SW of Gypsum, Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1448,46 +1488,6 @@
         ]
       },
       "id": "hv72872787"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "100 km E of Chignik, Alaska",
-        "time": 1642173227863,
-        "updated": 1642173471136,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022nej93n",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022nej93n.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "022nej93n",
-        "ids": ",ak022nej93n,",
-        "sources": ",ak,",
-        "types": ",origin,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.58,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 100 km E of Chignik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.8133,
-          56.1458,
-          35
-        ]
-      },
-      "id": "ak022nej93n"
     }
   ],
   "bbox": [
