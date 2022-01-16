@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642340734000,
+    "generated": 1642341207000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -135,7 +135,7 @@
         "mag": 5.5,
         "place": "26 km SSE of Karyes, Greece",
         "time": 1642333685595,
-        "updated": 1642339497148,
+        "updated": 1642341168084,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcfq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcfq.geojson",
@@ -493,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.68,
-        "place": "11 km NW of Puerto Real, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1642315182570,
         "updated": 1642316449635,
         "tz": null,
@@ -517,7 +517,7 @@
         "gap": 182,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 11 km NW of Puerto Real, Puerto Rico"
+        "title": "M 2.7 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.68,
-        "place": "72 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "place": "Virgin Islands region",
         "time": 1642268521920,
         "updated": 1642275110040,
         "tz": null,
@@ -1557,7 +1557,7 @@
         "gap": 332,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 72 km NNE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.7 - Virgin Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -1693,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.58,
-        "place": "Oklahoma",
+        "place": "4 km NNW of Covington, Oklahoma",
         "time": 1642261135364,
         "updated": 1642332231410,
         "tz": null,
@@ -1717,7 +1717,7 @@
         "gap": 59.95294285,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Oklahoma"
+        "title": "M 2.6 - 4 km NNW of Covington, Oklahoma"
       },
       "geometry": {
         "type": "Point",
