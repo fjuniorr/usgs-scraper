@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642290806000,
+    "generated": 1642293634000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "67 km SW of Ovalle, Chile",
+        "time": 1642291216477,
+        "updated": 1642292747040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcbn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcbn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000gcbn",
+        "ids": ",us7000gcbn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.376,
+        "rms": 0.5,
+        "gap": 138,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 67 km SW of Ovalle, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6696,
+          -31.0502,
+          71.79
+        ]
+      },
+      "id": "us7000gcbn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "South Sandwich Islands region",
+        "time": 1642291052968,
+        "updated": 1642292193040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcbp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcbp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "7000gcbp",
+        "ids": ",us7000gcbp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 16.069,
+        "rms": 0.81,
+        "gap": 69,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.8434,
+          -57.9882,
+          35
+        ]
+      },
+      "id": "us7000gcbp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -253,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.68,
-        "place": "Virgin Islands region",
+        "place": "72 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1642268521920,
         "updated": 1642275110040,
         "tz": null,
@@ -277,7 +357,7 @@
         "gap": 332,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - Virgin Islands region"
+        "title": "M 3.7 - 72 km NNE of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.58,
-        "place": "4 km NNW of Covington, Oklahoma",
+        "place": "Oklahoma",
         "time": 1642261135364,
         "updated": 1642286041771,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 59.95294285,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 4 km NNW of Covington, Oklahoma"
+        "title": "M 2.6 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "12 km SSW of Ashkāsham, Afghanistan",
+        "place": "Hindu Kush region, Afghanistan",
         "time": 1642245729374,
         "updated": 1642248650040,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 59,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 12 km SSW of Ashkāsham, Afghanistan"
+        "title": "M 4.3 - Hindu Kush region, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "9 km SW of Gypsum, Kansas",
+        "place": "Kansas",
         "time": 1642236119406,
         "updated": 1642261079529,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 45,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.0 - 9 km SW of Gypsum, Kansas"
+        "title": "M 3.0 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1135,7 +1215,7 @@
         "mag": 5.8,
         "place": "68 km NNW of Nuku‘alofa, Tonga",
         "time": 1642220085000,
-        "updated": 1642289416747,
+        "updated": 1642293128842,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc8r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc8r.geojson",
@@ -1253,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "126 km SW of Nikolski, Alaska",
+        "place": "Fox Islands, Aleutian Islands, Alaska",
         "time": 1642212693783,
         "updated": 1642284180040,
         "tz": null,
@@ -1277,7 +1357,7 @@
         "gap": 187,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.8 - 126 km SW of Nikolski, Alaska"
+        "title": "M 3.8 - Fox Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1408,126 +1488,6 @@
         ]
       },
       "id": "us7000gc5i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "8 km ESE of Assaria, Kansas",
-        "time": 1642206917484,
-        "updated": 1642261920561,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc5g",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc5g.geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 113,
-        "net": "us",
-        "code": "7000gc5g",
-        "ids": ",us7000gc5g,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.71,
-        "rms": 0.65,
-        "gap": 117,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 2.7 - 8 km ESE of Assaria, Kansas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.514,
-          38.6624,
-          5
-        ]
-      },
-      "id": "us7000gc5g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "51 km SSW of Whites City, New Mexico",
-        "time": 1642206906670,
-        "updated": 1642207811040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc5f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc5f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "7000gc5f",
-        "ids": ",us7000gc5f,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.078,
-        "rms": 0.44,
-        "gap": 85,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 51 km SSW of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.5541,
-          31.7324,
-          5
-        ]
-      },
-      "id": "us7000gc5f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "75 km SE of Nikolski, Alaska",
-        "time": 1642206172017,
-        "updated": 1642271763677,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc5b",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc5b.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.434,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000gc5b",
-        "ids": ",ak022ot7122,us7000gc5b,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 0.701,
-        "rms": 1.03,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 75 km SE of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -168.0466,
-          52.4725,
-          15.94
-        ]
-      },
-      "id": "us7000gc5b"
     }
   ],
   "bbox": [
