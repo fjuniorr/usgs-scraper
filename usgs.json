@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642311349000,
+    "generated": 1642311814000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "77 km NW of Sola, Vanuatu",
+        "time": 1642310278939,
+        "updated": 1642311402040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcdg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcdg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "7000gcdg",
+        "ids": ",us7000gcdg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.125,
+        "rms": 0.52,
+        "gap": 46,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - 77 km NW of Sola, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.129,
+          -13.3098,
+          196.91
+        ]
+      },
+      "id": "us7000gcdg"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -695,22 +735,22 @@
         "mag": 2.82,
         "place": "1 km SE of Pāhala, Hawaii",
         "time": 1642287601560,
-        "updated": 1642289327040,
+        "updated": 1642311660589,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72875527",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72875527.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 122,
+        "sig": 123,
         "net": "hv",
         "code": "72875527",
-        "ids": ",us7000gcbc,hv72875527,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
+        "ids": ",hv72875527,us7000gcbc,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 49,
         "dmin": null,
         "rms": 0.109999999,
@@ -1774,7 +1814,7 @@
     -173.7742,
     -60.0472,
     2.211308002,
-    146.1146,
+    167.129,
     61.4877,
     344.76
   ]
