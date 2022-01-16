@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642343728000,
+    "generated": 1642344214000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "13 km NW of Chenega, Alaska",
+        "time": 1642343676682,
+        "updated": 1642344189787,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022qp4zgo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022qp4zgo.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": 2.999,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 189,
+        "net": "ak",
+        "code": "022qp4zgo",
+        "ids": ",ak022qp4zgo,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.9,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 13 km NW of Chenega, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.1777,
+          60.1542,
+          8.8
+        ]
+      },
+      "id": "ak022qp4zgo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "10 km WSW of Nereju Mic, Romania",
+        "time": 1642340594639,
+        "updated": 1642344177040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcgw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcgw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000gcgw",
+        "ids": ",us7000gcgw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.477,
+        "rms": 0.88,
+        "gap": 43,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 10 km WSW of Nereju Mic, Romania"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5828,
+          45.6552,
+          141.36
+        ]
+      },
+      "id": "us7000gcgw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1768,46 +1848,6 @@
         ]
       },
       "id": "hv72874807"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "49 km ESE of Nemuro, Japan",
-        "time": 1642257718922,
-        "updated": 1642258942040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc8w",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc8w.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000gc8w",
-        "ids": ",us7000gc8w,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.45,
-        "rms": 1,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 49 km ESE of Nemuro, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.1146,
-          43.1251,
-          79.65
-        ]
-      },
-      "id": "us7000gc8w"
     }
   ],
   "bbox": [
