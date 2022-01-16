@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642348594000,
+    "generated": 1642350154000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 47
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.6,
         "place": "115 km WSW of Akhiok, Alaska",
         "time": 1642345575362,
-        "updated": 1642346139522,
+        "updated": 1642349083040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022qpkdsl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022qpkdsl.geojson",
@@ -28,9 +28,9 @@
         "sig": 199,
         "net": "ak",
         "code": "022qpkdsl",
-        "ids": ",ak022qpkdsl,",
-        "sources": ",ak,",
-        "types": ",origin,shakemap,",
+        "ids": ",us7000gch5,ak022qpkdsl,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.98,
@@ -132,42 +132,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "51 km NE of Punta Cana, Dominican Republic",
-        "time": 1642341521456,
-        "updated": 1642346414040,
+        "mag": 3.32,
+        "place": "66 km NNE of Punta Cana, Dominican Republic",
+        "time": 1642341523820,
+        "updated": 1642348916767,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcgy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcgy.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022016006",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022016006.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "7000gcgy",
-        "ids": ",us7000gcgy,",
-        "sources": ",us,",
+        "sig": 170,
+        "net": "pr",
+        "code": "2022016006",
+        "ids": ",us7000gcgy,pr2022016006,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.512,
-        "rms": 0.78,
-        "gap": 260,
-        "magType": "ml",
+        "nst": 17,
+        "dmin": 0.6625,
+        "rms": 0.76,
+        "gap": 193,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 51 km NE of Punta Cana, Dominican Republic"
+        "title": "M 3.3 - 66 km NNE of Punta Cana, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.1302,
-          18.9709,
-          9.82
+          -68.1741,
+          19.1431,
+          10
         ]
       },
-      "id": "us7000gcgy"
+      "id": "pr2022016006"
     },
     {
       "type": "Feature",
@@ -1888,46 +1888,6 @@
         ]
       },
       "id": "us7000gc9c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "18km NE of Lebec, CA",
-        "time": 1642263541960,
-        "updated": 1642272111040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39913455",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39913455.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "ci",
-        "code": "39913455",
-        "ids": ",ci39913455,us7000gc99,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 47,
-        "dmin": 0.173,
-        "rms": 0.19,
-        "gap": 66,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 18km NE of Lebec, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.7338333,
-          34.9606667,
-          4.1
-        ]
-      },
-      "id": "ci39913455"
     }
   ],
   "bbox": [
