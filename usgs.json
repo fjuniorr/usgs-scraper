@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642344214000,
+    "generated": 1642344754000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,20 +12,20 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.5,
-        "place": "13 km NW of Chenega, Alaska",
-        "time": 1642343676682,
-        "updated": 1642344189787,
+        "mag": 3.6,
+        "place": "23 km WSW of Chenega, Alaska",
+        "time": 1642343675458,
+        "updated": 1642344446538,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022qp4zgo",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022qp4zgo.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 2,
+        "cdi": 3.8,
         "mmi": 2.999,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 189,
+        "sig": 200,
         "net": "ak",
         "code": "022qp4zgo",
         "ids": ",ak022qp4zgo,",
@@ -33,18 +33,18 @@
         "types": ",dyfi,origin,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.9,
+        "rms": 0.8,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 13 km NW of Chenega, Alaska"
+        "title": "M 3.6 - 23 km WSW of Chenega, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.1777,
-          60.1542,
-          8.8
+          -148.3949,
+          59.974,
+          17.6
         ]
       },
       "id": "ak022qp4zgo"
@@ -573,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.68,
-        "place": "11 km NW of Puerto Real, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1642315182570,
         "updated": 1642316449635,
         "tz": null,
@@ -597,7 +597,7 @@
         "gap": 182,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 11 km NW of Puerto Real, Puerto Rico"
+        "title": "M 2.7 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -735,22 +735,22 @@
         "mag": 2.9,
         "place": "29 km ENE of Dixon, Wyoming",
         "time": 1642308522541,
-        "updated": 1642308898040,
+        "updated": 1642344478148,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcdc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcdc.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 130,
         "net": "us",
         "code": "7000gcdc",
         "ids": ",us7000gcdc,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.633,
         "rms": 0.88,
@@ -1613,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.68,
-        "place": "72 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "place": "Virgin Islands region",
         "time": 1642268521920,
         "updated": 1642275110040,
         "tz": null,
@@ -1637,7 +1637,7 @@
         "gap": 332,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 72 km NNE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.7 - Virgin Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -1773,7 +1773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.58,
-        "place": "Oklahoma",
+        "place": "4 km NNW of Covington, Oklahoma",
         "time": 1642261135364,
         "updated": 1642332231410,
         "tz": null,
@@ -1797,7 +1797,7 @@
         "gap": 59.95294285,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Oklahoma"
+        "title": "M 2.6 - 4 km NNW of Covington, Oklahoma"
       },
       "geometry": {
         "type": "Point",
