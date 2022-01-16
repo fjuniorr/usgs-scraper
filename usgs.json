@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642375894000,
+    "generated": 1642376674000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "55 km NE of Chenega, Alaska",
+        "time": 1642376425564,
+        "updated": 1642376578512,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022quj5fx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022quj5fx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "022quj5fx",
+        "ids": ",ak022quj5fx,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.64,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 55 km NE of Chenega, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.4188,
+          60.4625,
+          19.7
+        ]
+      },
+      "id": "ak022quj5fx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "Alaska Peninsula",
+        "place": "102 km WSW of Akhiok, Alaska",
         "time": 1642345581503,
         "updated": 1642370728040,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - Alaska Peninsula"
+        "title": "M 3.4 - 102 km WSW of Akhiok, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.68,
-        "place": "Mona Passage",
+        "place": "11 km NW of Puerto Real, Puerto Rico",
         "time": 1642315182570,
         "updated": 1642316449635,
         "tz": null,
@@ -997,7 +1037,7 @@
         "gap": 182,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Mona Passage"
+        "title": "M 2.7 - 11 km NW of Puerto Real, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1768,46 +1808,6 @@
         ]
       },
       "id": "us7000gcbp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "6 km SSW of Big Lake, Alaska",
-        "time": 1642289822048,
-        "updated": 1642310163351,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022p6z40v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022p6z40v.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 97,
-        "net": "ak",
-        "code": "022p6z40v",
-        "ids": ",ak022p6z40v,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.87,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km SSW of Big Lake, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.9828,
-          61.4648,
-          19.1
-        ]
-      },
-      "id": "ak022p6z40v"
     }
   ],
   "bbox": [
@@ -1815,7 +1815,7 @@
     -60.0472,
     1.53,
     170.5695,
-    61.4648,
+    60.4625,
     408.08
   ]
 }
