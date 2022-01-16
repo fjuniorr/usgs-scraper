@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642330474000,
+    "generated": 1642331308000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.55,
+        "place": "8 km E of Nescatunga, Oklahoma",
+        "time": 1642330660367,
+        "updated": 1642330853621,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022bcgf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022bcgf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 100,
+        "net": "ok",
+        "code": "2022bcgf",
+        "ids": ",ok2022bcgf,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.09325873852,
+        "rms": 0.3973183159,
+        "gap": 111.7626495,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 8 km E of Nescatunga, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.06069183,
+          36.76627731,
+          3.292896986
+        ]
+      },
+      "id": "ok2022bcgf"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.68,
-        "place": "Mona Passage",
+        "place": "11 km NW of Puerto Real, Puerto Rico",
         "time": 1642315182570,
         "updated": 1642316449635,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 182,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Mona Passage"
+        "title": "M 2.7 - 11 km NW of Puerto Real, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.68,
-        "place": "Virgin Islands region",
+        "place": "72 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1642268521920,
         "updated": 1642275110040,
         "tz": null,
@@ -1357,7 +1397,7 @@
         "gap": 332,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - Virgin Islands region"
+        "title": "M 3.7 - 72 km NNE of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1493,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.58,
-        "place": "4 km NNW of Covington, Oklahoma",
+        "place": "Oklahoma",
         "time": 1642261135364,
         "updated": 1642286041771,
         "tz": null,
@@ -1517,7 +1557,7 @@
         "gap": 59.95294285,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 4 km NNW of Covington, Oklahoma"
+        "title": "M 2.6 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -1893,7 +1933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "12 km SSW of Ashkāsham, Afghanistan",
+        "place": "Hindu Kush region, Afghanistan",
         "time": 1642245729374,
         "updated": 1642248650040,
         "tz": null,
@@ -1917,7 +1957,7 @@
         "gap": 59,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 12 km SSW of Ashkāsham, Afghanistan"
+        "title": "M 4.3 - Hindu Kush region, Afghanistan"
       },
       "geometry": {
         "type": "Point",
