@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642335394000,
+    "generated": 1642337434000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,39 +12,79 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "22 km SSE of Karyes, Greece",
+        "time": 1642335978241,
+        "updated": 1642337004040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcfr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcfr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000gcfr",
+        "ids": ",us7000gcfr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.412,
+        "rms": 0.56,
+        "gap": 35,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 22 km SSE of Karyes, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3299,
+          40.0695,
+          10
+        ]
+      },
+      "id": "us7000gcfr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.5,
-        "place": "25 km SSE of Karyes, Greece",
-        "time": 1642333685812,
-        "updated": 1642335370877,
+        "place": "26 km SSE of Karyes, Greece",
+        "time": 1642333685595,
+        "updated": 1642337301891,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcfq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcfq.geojson",
-        "felt": 3,
-        "cdi": 2.2,
-        "mmi": 4.838,
+        "felt": 17,
+        "cdi": 4.1,
+        "mmi": 4.585,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 466,
+        "sig": 472,
         "net": "us",
         "code": "7000gcfq",
         "ids": ",us7000gcfq,",
         "sources": ",us,",
         "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 1.409,
-        "rms": 0.6,
+        "dmin": 1.42,
+        "rms": 0.55,
         "gap": 19,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.5 - 25 km SSE of Karyes, Greece"
+        "title": "M 5.5 - 26 km SSE of Karyes, Greece"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.3665,
-          40.0507,
-          10
+          24.3694,
+          40.0353,
+          9.29
         ]
       },
       "id": "us7000gcfq"
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.68,
-        "place": "Mona Passage",
+        "place": "11 km NW of Puerto Real, Puerto Rico",
         "time": 1642315182570,
         "updated": 1642316449635,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": 182,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Mona Passage"
+        "title": "M 2.7 - 11 km NW of Puerto Real, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -775,17 +815,17 @@
         "mag": 4.8,
         "place": "7 km SSW of Khārk, Iran",
         "time": 1642301361926,
-        "updated": 1642324152220,
+        "updated": 1642336495773,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gccw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gccw.geojson",
-        "felt": 2,
-        "cdi": 3.8,
+        "felt": 3,
+        "cdi": 4.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 355,
+        "sig": 356,
         "net": "us",
         "code": "7000gccw",
         "ids": ",us7000gccw,",
@@ -1413,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.68,
-        "place": "Virgin Islands region",
+        "place": "72 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1642268521920,
         "updated": 1642275110040,
         "tz": null,
@@ -1437,7 +1477,7 @@
         "gap": 332,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - Virgin Islands region"
+        "title": "M 3.7 - 72 km NNE of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.58,
-        "place": "4 km NNW of Covington, Oklahoma",
+        "place": "Oklahoma",
         "time": 1642261135364,
         "updated": 1642332231410,
         "tz": null,
@@ -1597,7 +1637,7 @@
         "gap": 59.95294285,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 4 km NNW of Covington, Oklahoma"
+        "title": "M 2.6 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -1928,46 +1968,6 @@
         ]
       },
       "id": "us7000gc8d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "15 km S of Khārk, Iran",
-        "time": 1642249522584,
-        "updated": 1642251227040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc8a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc8a.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000gc8a",
-        "ids": ",us7000gc8a,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 6.694,
-        "rms": 0.43,
-        "gap": 78,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 15 km S of Khārk, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          50.319,
-          29.1186,
-          10
-        ]
-      },
-      "id": "us7000gc8a"
     }
   ],
   "bbox": [
