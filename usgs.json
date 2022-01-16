@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642345774000,
+    "generated": 1642347274000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "115 km WSW of Akhiok, Alaska",
+        "time": 1642345575362,
+        "updated": 1642346139522,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022qpkdsl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022qpkdsl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.252,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "ak",
+        "code": "022qpkdsl",
+        "ids": ",ak022qpkdsl,",
+        "sources": ",ak,",
+        "types": ",origin,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.98,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 115 km WSW of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.841,
+          56.471,
+          7.2
+        ]
+      },
+      "id": "ak022qpkdsl"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.45,
         "place": "23km N of Searles Valley, CA",
         "time": 1642345190550,
-        "updated": 1642345426391,
+        "updated": 1642345858420,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39913999",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39913999.geojson",
@@ -30,7 +70,7 @@
         "code": "39913999",
         "ids": ",ci39913999,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 25,
         "dmin": 0.123,
         "rms": 0.19,
@@ -55,22 +95,22 @@
         "mag": 3.6,
         "place": "23 km WSW of Chenega, Alaska",
         "time": 1642343675458,
-        "updated": 1642344446538,
+        "updated": 1642347081040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022qp4zgo",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022qp4zgo.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.8,
         "mmi": 2.999,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 200,
+        "sig": 201,
         "net": "ak",
         "code": "022qp4zgo",
-        "ids": ",ak022qp4zgo,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,shakemap,",
+        "ids": ",ak022qp4zgo,us7000gch1,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.8,
@@ -88,6 +128,46 @@
         ]
       },
       "id": "ak022qp4zgo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "51 km NE of Punta Cana, Dominican Republic",
+        "time": 1642341521456,
+        "updated": 1642346414040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcgy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcgy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000gcgy",
+        "ids": ",us7000gcgy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.512,
+        "rms": 0.78,
+        "gap": 260,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 51 km NE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1302,
+          18.9709,
+          9.82
+        ]
+      },
+      "id": "us7000gcgy"
     },
     {
       "type": "Feature",
