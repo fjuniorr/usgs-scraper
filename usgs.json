@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642416999000,
+    "generated": 1642417899000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -1408,46 +1408,6 @@
         ]
       },
       "id": "us7000gcfq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "8 km E of Nescatunga, Oklahoma",
-        "time": 1642330660367,
-        "updated": 1642330853621,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022bcgf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022bcgf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "ok",
-        "code": "2022bcgf",
-        "ids": ",ok2022bcgf,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.09325873852,
-        "rms": 0.3973183159,
-        "gap": 111.7626495,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 8 km E of Nescatunga, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.06069183,
-          36.76627731,
-          3.292896986
-        ]
-      },
-      "id": "ok2022bcgf"
     }
   ],
   "bbox": [
