@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642419951000,
+    "generated": 1642420419000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
     {
@@ -1368,46 +1368,6 @@
         ]
       },
       "id": "us7000gcfr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "26 km SSE of Karyes, Greece",
-        "time": 1642333685595,
-        "updated": 1642388348730,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcfq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcfq.geojson",
-        "felt": 27,
-        "cdi": 4.1,
-        "mmi": 4.585,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 476,
-        "net": "us",
-        "code": "7000gcfq",
-        "ids": ",us7000gcfq,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 1.42,
-        "rms": 0.55,
-        "gap": 19,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - 26 km SSE of Karyes, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.3694,
-          40.0353,
-          9.29
-        ]
-      },
-      "id": "us7000gcfq"
     }
   ],
   "bbox": [
