@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642420419000,
+    "generated": 1642421859000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.6,
+        "place": "40 km E of Qala i Naw, Afghanistan",
+        "time": 1642419607217,
+        "updated": 1642421414275,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gclu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gclu.geojson",
+        "felt": 1,
+        "cdi": 7.2,
+        "mmi": 6.709,
+        "alert": "yellow",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 651,
+        "net": "us",
+        "code": "7000gclu",
+        "ids": ",us7000gclu,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 6.079,
+        "rms": 0.98,
+        "gap": 43,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.6 - 40 km E of Qala i Naw, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.5686,
+          34.9479,
+          10
+        ]
+      },
+      "id": "us7000gclu"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "102 km WSW of Akhiok, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1642345581503,
         "updated": 1642370728040,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 102 km WSW of Akhiok, Alaska"
+        "title": "M 3.4 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
