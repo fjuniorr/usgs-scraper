@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642462315000,
+    "generated": 1642463080000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 26
   },
   "features": [
     {
@@ -1048,86 +1048,6 @@
         ]
       },
       "id": "ci39914199"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "56 km N of Chickaloon, Alaska",
-        "time": 1642376536556,
-        "updated": 1642378248040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022qujk6g",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022qujk6g.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "022qujk6g",
-        "ids": ",us7000gcjb,ak022qujk6g,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.76,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 56 km N of Chickaloon, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.3948,
-          62.3005,
-          19.4
-        ]
-      },
-      "id": "ak022qujk6g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "57 km NE of Chenega, Alaska",
-        "time": 1642376425684,
-        "updated": 1642377705040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022quj5fx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022quj5fx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "022quj5fx",
-        "ids": ",us7000gcj8,ak022quj5fx,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.84,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 57 km NE of Chenega, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.4226,
-          60.4909,
-          19.1
-        ]
-      },
-      "id": "ak022quj5fx"
     }
   ],
   "bbox": [
