@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642434651000,
+    "generated": 1642436140000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "south of the Fiji Islands",
+        "time": 1642434254066,
+        "updated": 1642435420040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcmk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcmk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000gcmk",
+        "ids": ",us7000gcmk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.777,
+        "rms": 0.84,
+        "gap": 116,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.4634,
+          -26.792,
+          37.38
+        ]
+      },
+      "id": "us7000gcmk"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,10 +92,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.6,
+        "place": "75 km SE of False Pass, Alaska",
+        "time": 1642426065154,
+        "updated": 1642435728040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcm1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcm1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "us",
+        "code": "7000gcm1",
+        "ids": ",us7000gcm1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.68,
+        "rms": 0.79,
+        "gap": 180,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 75 km SE of False Pass, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5676,
+          54.3893,
+          35
+        ]
+      },
+      "id": "us7000gcm1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.3,
         "place": "Fiji region",
-        "time": 1642424415234,
-        "updated": 1642434355040,
+        "time": 1642424415716,
+        "updated": 1642435004040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcm0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcm0.geojson",
@@ -72,8 +152,8 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 14.388,
-        "rms": 0.66,
+        "dmin": 4.398,
+        "rms": 0.61,
         "gap": 164,
         "magType": "mb",
         "type": "earthquake",
@@ -82,9 +162,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -178.2248,
-          -20.4315,
-          546.22
+          -178.2605,
+          -20.4407,
+          551.36
         ]
       },
       "id": "us7000gcm0"
@@ -735,17 +815,17 @@
         "mag": 3.11,
         "place": "5km WSW of Ojai, CA",
         "time": 1642377750140,
-        "updated": 1642434303886,
+        "updated": 1642435988513,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39914199",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39914199.geojson",
-        "felt": 196,
+        "felt": 197,
         "cdi": 3.4,
         "mmi": 3.486,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 215,
+        "sig": 216,
         "net": "ci",
         "code": "39914199",
         "ids": ",ci39914199,us7000gcjd,",
@@ -1091,11 +1171,11 @@
     }
   ],
   "bbox": [
-    -178.2248,
+    -178.2605,
     -31.7628,
     6.57,
     137.762,
     85.2458,
-    546.22
+    551.36
   ]
 }
