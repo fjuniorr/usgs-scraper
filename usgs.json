@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642456480000,
+    "generated": 1642457380000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 30
   },
   "features": [
     {
@@ -1208,52 +1208,12 @@
         ]
       },
       "id": "us7000gciz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "13 km SSE of Fern Forest, Hawaii",
-        "time": 1642370657500,
-        "updated": 1642410777772,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72877412",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72877412.geojson",
-        "felt": 45,
-        "cdi": 3.4,
-        "mmi": 3.732,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 204,
-        "net": "hv",
-        "code": "72877412",
-        "ids": ",hv72877412,us7000gcis,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 54,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 158,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 13 km SSE of Fern Forest, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.083333333333,
-          19.3528333333333,
-          6.57
-        ]
-      },
-      "id": "hv72877412"
     }
   ],
   "bbox": [
     -178.2605,
     -31.7628,
-    6.57,
+    9.25,
     137.762,
     85.2458,
     561.91
