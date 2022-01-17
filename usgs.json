@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642394690000,
+    "generated": 1642395650000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
@@ -94,8 +94,8 @@
       "properties": {
         "mag": 4.8,
         "place": "north of Severnaya Zemlya",
-        "time": 1642390573740,
-        "updated": 1642392340040,
+        "time": 1642390573436,
+        "updated": 1642395394040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcki",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcki.geojson",
@@ -112,9 +112,9 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 21.228,
-        "rms": 0.48,
-        "gap": 74,
+        "dmin": 11.648,
+        "rms": 0.6,
+        "gap": 65,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.8 - north of Severnaya Zemlya"
@@ -122,8 +122,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          92.3824,
-          85.1501,
+          91.82,
+          85.2101,
           10
         ]
       },
@@ -535,12 +535,12 @@
         "mag": 4.1,
         "place": "42 km SW of Ölüdeniz, Turkey",
         "time": 1642371377569,
-        "updated": 1642373369359,
+        "updated": 1642395316328,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gciz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gciz.geojson",
-        "felt": 12,
-        "cdi": 4.3,
+        "felt": 13,
+        "cdi": 4.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1608,46 +1608,6 @@
         ]
       },
       "id": "us7000gcdg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "29 km ENE of Dixon, Wyoming",
-        "time": 1642308522541,
-        "updated": 1642344478148,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcdc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcdc.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 130,
-        "net": "us",
-        "code": "7000gcdc",
-        "ids": ",us7000gcdc,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.633,
-        "rms": 0.88,
-        "gap": 86,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 29 km ENE of Dixon, Wyoming"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -107.2255,
-          41.1611,
-          13.87
-        ]
-      },
-      "id": "us7000gcdc"
     }
   ],
   "bbox": [
