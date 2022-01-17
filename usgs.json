@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642403788000,
+    "generated": 1642404697000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -375,7 +375,7 @@
         "mag": 3.11,
         "place": "5km WSW of Ojai, CA",
         "time": 1642377750140,
-        "updated": 1642403531592,
+        "updated": 1642404304668,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39914199",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39914199.geojson",
