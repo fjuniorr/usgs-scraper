@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642391090000,
+    "generated": 1642391554000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -175,17 +175,17 @@
         "mag": 3.11,
         "place": "5km WSW of Ojai, CA",
         "time": 1642377750140,
-        "updated": 1642391026297,
+        "updated": 1642391413031,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39914199",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39914199.geojson",
-        "felt": 175,
+        "felt": 177,
         "cdi": 3.4,
         "mmi": 3.486,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 208,
+        "sig": 209,
         "net": "ci",
         "code": "39914199",
         "ids": ",ci39914199,us7000gcjd,",
@@ -613,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "Alaska Peninsula",
+        "place": "102 km WSW of Akhiok, Alaska",
         "time": 1642345581503,
         "updated": 1642370728040,
         "tz": null,
@@ -637,7 +637,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - Alaska Peninsula"
+        "title": "M 3.4 - 102 km WSW of Akhiok, Alaska"
       },
       "geometry": {
         "type": "Point",
