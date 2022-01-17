@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642419459000,
+    "generated": 1642419951000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "Alaska Peninsula",
+        "place": "102 km WSW of Akhiok, Alaska",
         "time": 1642345581503,
         "updated": 1642370728040,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - Alaska Peninsula"
+        "title": "M 3.4 - 102 km WSW of Akhiok, Alaska"
       },
       "geometry": {
         "type": "Point",
