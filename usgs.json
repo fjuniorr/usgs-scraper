@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642397856000,
+    "generated": 1642398350000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "73 km W of Coquimbo, Chile",
-        "time": 1642395572020,
-        "updated": 1642396129040,
+        "mag": 4.6,
+        "place": "72 km W of Coquimbo, Chile",
+        "time": 1642395572155,
+        "updated": 1642398104040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gckp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gckp.geojson",
@@ -25,25 +25,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
+        "sig": 326,
         "net": "us",
         "code": "7000gckp",
         "ids": ",us7000gckp,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": null,
-        "dmin": 0.751,
-        "rms": 0.85,
-        "gap": 123,
-        "magType": "mb",
+        "dmin": 0.742,
+        "rms": 0.99,
+        "gap": 94,
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.5 - 73 km W of Coquimbo, Chile"
+        "title": "M 4.6 - 72 km W of Coquimbo, Chile"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.103,
-          -29.9548,
+          -72.0921,
+          -29.9563,
           10
         ]
       },
@@ -295,11 +295,11 @@
         "mag": 5,
         "place": "96 km SW of Pelabuhanratu, Indonesia",
         "time": 1642379157125,
-        "updated": 1642396095844,
+        "updated": 1642398066240,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcjn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcjn.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -495,11 +495,11 @@
         "mag": 5.3,
         "place": "3 km NNW of San Pedro Huamelula, Mexico",
         "time": 1642375870789,
-        "updated": 1642396169567,
+        "updated": 1642398185726,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcj6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcj6.geojson",
-        "felt": 12,
+        "felt": 13,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
@@ -813,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "Alaska Peninsula",
+        "place": "102 km WSW of Akhiok, Alaska",
         "time": 1642345581503,
         "updated": 1642370728040,
         "tz": null,
@@ -837,7 +837,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - Alaska Peninsula"
+        "title": "M 3.4 - 102 km WSW of Akhiok, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1572,7 +1572,7 @@
   ],
   "bbox": [
     -174.2131,
-    -29.9548,
+    -29.9563,
     1.53,
     170.5695,
     85.2458,
