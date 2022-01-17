@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642427571000,
+    "generated": 1642428595000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 30
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 5.3,
         "place": "41 km E of Qala i Naw, Afghanistan",
         "time": 1642419608179,
-        "updated": 1642427383051,
+        "updated": 1642427951632,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gclu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gclu.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 7.2,
         "mmi": 5.812,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 435,
+        "sig": 436,
         "net": "us",
         "code": "7000gclu",
         "ids": ",us7000gclu,",
@@ -655,11 +655,11 @@
         "mag": 3.11,
         "place": "5km WSW of Ojai, CA",
         "time": 1642377750140,
-        "updated": 1642427531557,
+        "updated": 1642427968956,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39914199",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39914199.geojson",
-        "felt": 192,
+        "felt": 193,
         "cdi": 3.4,
         "mmi": 3.486,
         "alert": null,
@@ -775,17 +775,17 @@
         "mag": 5.3,
         "place": "3 km NNW of San Pedro Huamelula, Mexico",
         "time": 1642375870789,
-        "updated": 1642424591409,
+        "updated": 1642428371469,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcj6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcj6.geojson",
-        "felt": 14,
+        "felt": 13,
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 439,
+        "sig": 438,
         "net": "us",
         "code": "7000gcj6",
         "ids": ",us7000gcj6,",
@@ -1208,46 +1208,6 @@
         ]
       },
       "id": "ak022qp4zgo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.32,
-        "place": "66 km NNE of Punta Cana, Dominican Republic",
-        "time": 1642341523820,
-        "updated": 1642350649040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022016006",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022016006.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 170,
-        "net": "pr",
-        "code": "2022016006",
-        "ids": ",us7000gcgy,pr2022016006,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.6625,
-        "rms": 0.76,
-        "gap": 193,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 66 km NNE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.1741,
-          19.1431,
-          10
-        ]
-      },
-      "id": "pr2022016006"
     }
   ],
   "bbox": [
