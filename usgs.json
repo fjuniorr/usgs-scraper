@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642503344000,
+    "generated": 1642504244000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,42 +12,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "32 km SSW of Los Ybanez, Texas",
-        "time": 1642501877328,
-        "updated": 1642503137040,
+        "mag": 3,
+        "place": "34 km SSW of Los Ybanez, Texas",
+        "time": 1642501877055,
+        "updated": 1642503679260,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcur",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcur.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022bfwj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022bfwj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "7000gcur",
-        "ids": ",us7000gcur,",
-        "sources": ",us,",
+        "sig": 138,
+        "net": "tx",
+        "code": "2022bfwj",
+        "ids": ",us7000gcur,tx2022bfwj,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.242,
+        "nst": 45,
+        "dmin": 0.2515354826,
         "rms": 0.3,
-        "gap": 52,
-        "magType": "mb_lg",
+        "gap": 107,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 32 km SSW of Los Ybanez, Texas"
+        "title": "M 3.0 - 34 km SSW of Los Ybanez, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.0569,
-          32.4495,
-          5
+          -102.0796018,
+          32.4407959,
+          1.614013672
         ]
       },
-      "id": "us7000gcur"
+      "id": "tx2022bfwj"
     },
     {
       "type": "Feature",
@@ -135,17 +135,17 @@
         "mag": 3.45,
         "place": "10km NNW of Idyllwild, CA",
         "time": 1642491555150,
-        "updated": 1642503004997,
+        "updated": 1642504100044,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39915287",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39915287.geojson",
-        "felt": 498,
+        "felt": 500,
         "cdi": 4.6,
         "mmi": 3.328,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 412,
+        "sig": 413,
         "net": "ci",
         "code": "39915287",
         "ids": ",ci39915287,us7000gctz,",
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "eastern Xizang-India border region",
+        "place": "88 km N of Shi Yomi, India",
         "time": 1642460363932,
         "updated": 1642461156040,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 82,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - eastern Xizang-India border region"
+        "title": "M 4.9 - 88 km N of Shi Yomi, India"
       },
       "geometry": {
         "type": "Point",
