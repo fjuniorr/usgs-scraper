@@ -1,31 +1,111 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642466455000,
+    "generated": 1642470895000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 24
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "104 km E of Shikotan, Russia",
+        "time": 1642467302896,
+        "updated": 1642468784040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcrq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcrq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000gcrq",
+        "ids": ",us7000gcrq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.925,
+        "rms": 0.62,
+        "gap": 185,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 104 km E of Shikotan, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.0219,
+          43.8673,
+          35
+        ]
+      },
+      "id": "us7000gcrq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "125 km NE of Lospalos, Timor Leste",
+        "time": 1642466763595,
+        "updated": 1642468142040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcrl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcrl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000gcrl",
+        "ids": ",us7000gcrl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.424,
+        "rms": 1.42,
+        "gap": 71,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 125 km NE of Lospalos, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.8492,
+          -7.7677,
+          187.43
+        ]
+      },
+      "id": "us7000gcrl"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.1,
         "place": "6 km WSW of Sarıoğlan, Turkey",
         "time": 1642462137971,
-        "updated": 1642465320174,
+        "updated": 1642470007408,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gcr9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gcr9.geojson",
-        "felt": 4,
+        "felt": 6,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 402,
+        "sig": 403,
         "net": "us",
         "code": "7000gcr9",
         "ids": ",us7000gcr9,",
@@ -974,7 +1054,7 @@
     -178.2605,
     -31.7628,
     8,
-    137.762,
+    148.0219,
     85.2458,
     561.91
   ]
